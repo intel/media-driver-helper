@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['va_5fdrv_5finit_5ffuc_5fname_0',['VA_DRV_INIT_FUC_NAME',['../media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c',1,'media_libva.cpp']]],
+  ['varc2halrc_1',['VARC2HalRC',['../class_ddi_encode_base.html#a904bdf2d75f1647e4a63bc24e24947e4',1,'DdiEncodeBase']]],
+  ['vddiencode_5fbeginpicture_2',['vDdiEncode_BeginPicture',['../media__libva__encoder_8h.html#a320929eca6b7001258d6a0a8fe7ce1f7',1,'media_libva_encoder.h']]],
+  ['verifycommandbuffersize_3',['VerifyCommandBufferSize',['../class_gpu_context_specific.html#aef662c6c609cdce92d92d38156e64ab2',1,'GpuContextSpecific']]],
+  ['verifypatchlistsize_4',['VerifyPatchListSize',['../class_gpu_context_specific.html#a2ab1158691001303da67fef4d01593e1',1,'GpuContextSpecific']]],
+  ['vp9writeuncompressheader_5',['Vp9WriteUncompressHeader',['../media__libvpx__vp9_8cpp.html#acb61d764a6d42258037645579efb4c5f',1,'Vp9WriteUncompressHeader(struct _DDI_ENCODE_CONTEXT *ddiEncContext, uint32_t codecProfile, uint8_t *headerData, uint32_t *headerLen, vp9_header_bitoffset *headerBitoffset):&#160;media_libvpx_vp9.cpp'],['../media__libvpx__vp9_8h.html#a9f046eab588645286857d7b3ebe72a38',1,'Vp9WriteUncompressHeader(struct _DDI_ENCODE_CONTEXT *ddiContext, uint32_t codecProfile, uint8_t *headerData, uint32_t *headerLen, vp9_header_bitoffset *headerBitoffset):&#160;media_libvpx_vp9.cpp']]],
+  ['vpconfigvaluesinit_6',['VpConfigValuesInit',['../media__libva__vp__tools_8c.html#a3b903da439ef9ce98fe256706a0c24e0',1,'VpConfigValuesInit(PVP_CONFIG pConfigValues):&#160;media_libva_vp_tools.c'],['../media__libva__vp__tools_8h.html#a3b903da439ef9ce98fe256706a0c24e0',1,'VpConfigValuesInit(PVP_CONFIG pConfigValues):&#160;media_libva_vp_tools.c']]],
+  ['vpfeaturereport_7',['VpFeatureReport',['../media__libva__vp__tools_8c.html#a6351fb4b5381dc95bb3caa802b18b977',1,'VpFeatureReport(PVP_CONFIG pConfig):&#160;media_libva_vp_tools.c'],['../media__libva__vp__tools_8h.html#a6351fb4b5381dc95bb3caa802b18b977',1,'VpFeatureReport(PVP_CONFIG pConfig):&#160;media_libva_vp_tools.c']]],
+  ['vpgetformatfrommediaformat_8',['VpGetFormatFromMediaFormat',['../media__libva__putsurface__linux_8cpp.html#af6b12805a0f0f620e4325daef15a16ea',1,'VpGetFormatFromMediaFormat(DDI_MEDIA_FORMAT mf):&#160;media_libva_vp.c'],['../media__libva__vp_8c.html#af6b12805a0f0f620e4325daef15a16ea',1,'VpGetFormatFromMediaFormat(DDI_MEDIA_FORMAT mf):&#160;media_libva_vp.c']]],
+  ['vpgetrenderparams_9',['VpGetRenderParams',['../media__libva__vp_8c.html#a3c8d532396c41d4b5c3e337a1cdb6cb8',1,'VpGetRenderParams(PDDI_VP_CONTEXT pVpCtx):&#160;media_libva_vp.c'],['../media__libva__vp_8h.html#a3c8d532396c41d4b5c3e337a1cdb6cb8',1,'VpGetRenderParams(PDDI_VP_CONTEXT pVpCtx):&#160;media_libva_vp.c']]],
+  ['vpgettiletypefrommediatiletype_10',['VpGetTileTypeFromMediaTileType',['../media__libva__putsurface__linux_8cpp.html#a36cd70e19f373e54d614ea6df8d52a37',1,'VpGetTileTypeFromMediaTileType(uint32_t mediaTileType):&#160;media_libva_vp.c'],['../media__libva__vp_8c.html#a36cd70e19f373e54d614ea6df8d52a37',1,'VpGetTileTypeFromMediaTileType(uint32_t mediaTileType):&#160;media_libva_vp.c']]],
+  ['vphal_5frndrcommonismibbendneeded_11',['VpHal_RndrCommonIsMiBBEndNeeded',['../vphal__render__common__specific_8c.html#ad6af28024cbd71a9b5e55ef81c16c047',1,'vphal_render_common_specific.c']]],
+  ['vpis16usrptrpitch_12',['VpIs16UsrPtrPitch',['../media__libva__vp_8c.html#a7a87d7a37c9b2bb57e70fef9303e58e8',1,'media_libva_vp.c']]],
+  ['vpisrendertarget_13',['VpIsRenderTarget',['../media__libva__vp_8c.html#a7cea991a0c9b14e43f4838c7e258ee54',1,'media_libva_vp.c']]],
+  ['vpreportfeaturemode_14',['VpReportFeatureMode',['../media__libva__vp__tools_8c.html#af47114e30db8962f12f1ddb00a07e4db',1,'VpReportFeatureMode(PDDI_VP_CONTEXT pVpCtx):&#160;media_libva_vp_tools.c'],['../media__libva__vp__tools_8h.html#af47114e30db8962f12f1ddb00a07e4db',1,'VpReportFeatureMode(PDDI_VP_CONTEXT pVpCtx):&#160;media_libva_vp_tools.c']]],
+  ['vpsetcolorstandardexplictly_15',['VpSetColorStandardExplictly',['../media__libva__vp_8c.html#adceaed886deb4b3329aeb0eaeaa0fc98',1,'media_libva_vp.c']]],
+  ['vpsetinterpolationparams_16',['VpSetInterpolationParams',['../media__libva__vp_8c.html#a70bfb2b876353f853a562417693078d9',1,'media_libva_vp.c']]],
+  ['vpsetosresource_17',['VpSetOsResource',['../media__libva__vp_8c.html#a85acf2aefa9d8898398c22bd2f54d72f',1,'media_libva_vp.c']]],
+  ['vpsetrendertargetparams_18',['VpSetRenderTargetParams',['../media__libva__vp_8c.html#aa6c4bf42151e9988878237437b2b8481',1,'media_libva_vp.c']]],
+  ['vpupdateprocchromasittingstate_19',['VpUpdateProcChromaSittingState',['../media__libva__vp_8c.html#ae141011edc4806ba5ac74bf9e6eee9e7',1,'media_libva_vp.c']]],
+  ['vpupdateprochdrstate_20',['VpUpdateProcHdrState',['../media__libva__vp_8c.html#abfcd29588756233c93bc8c3ce1628e7e',1,'media_libva_vp.c']]],
+  ['vpupdateprocmirrorstate_21',['VpUpdateProcMirrorState',['../media__libva__vp_8c.html#a8ed4bb4349bd6343fe362b0bf89cb2b1',1,'media_libva_vp.c']]],
+  ['vpupdateprocrotatestate_22',['VpUpdateProcRotateState',['../media__libva__vp_8c.html#a2f78e350b53c280dac76bcb0be5259fe',1,'media_libva_vp.c']]]
+];
