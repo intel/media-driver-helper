@@ -1,0 +1,52 @@
+<map id="media_common/linux/common/os/mos_os_specific.h" name="media_common/linux/common/os/mos_os_specific.h">
+<area shape="rect" id="node1" title="Common interface and structure used in MOS LINUX OS." alt="" coords="4220,5,4427,47"/>
+<area shape="rect" id="node2" href="$dd/df8/media__sku__wa__xe_8cpp.html" title=" " alt="" coords="3339,95,3486,151"/>
+<area shape="rect" id="node3" href="$da/dbb/media__libva__apo__decision_8cpp.html" title=" " alt="" coords="3510,95,3678,151"/>
+<area shape="rect" id="node4" href="$da/d54/mos__bufmgr_8h.html" title=" " alt="" coords="3703,95,3869,151"/>
+<area shape="rect" id="node31" href="$df/de9/mos__os__mock__adaptor__specific_8cpp.html" title="Common interface and structure used in mock adaptor." alt="" coords="4533,511,4716,567"/>
+<area shape="rect" id="node41" href="$d5/da6/mos__context__specific_8h.html" title="Container for Linux/Android specific parameters shared across different GPU contexts of the same devi..." alt="" coords="4077,303,4250,359"/>
+<area shape="rect" id="node45" href="$dc/d25/mos__oca__specific_8cpp.html" title="Linux specfic OCA class." alt="" coords="4361,102,4587,143"/>
+<area shape="rect" id="node46" href="$db/d20/mos__util__devult__specific_8h.html" title=" " alt="" coords="4611,95,4758,151"/>
+<area shape="rect" id="node48" href="$dc/db9/media__sku__wa__g12_8cpp.html" title=" " alt="" coords="4782,95,4931,151"/>
+<area shape="rect" id="node49" href="$dc/d07/media__interfaces__next_8cpp.html" title="Helps with gen&#45;specific factory creation." alt="" coords="4955,95,5137,151"/>
+<area shape="rect" id="node50" href="$d8/d8c/hal__oca__interface__next_8cpp.html" title="Implementation of functions for Hal OCA Interface." alt="" coords="5161,95,5329,151"/>
+<area shape="rect" id="node5" href="$d1/d8c/mos__os__private_8h.html" title="Common interface and structure used in MOS LINUX OS." alt="" coords="2825,206,3024,247"/>
+<area shape="rect" id="node6" href="$da/d28/media__libva__common_8h.html" title="libva(and its extension) interface implemantation common head file" alt="" coords="3099,303,3267,359"/>
+<area shape="rect" id="node17" href="$da/d29/media__libva__util_8h.html" title="libva(and its extension) utility head file" alt="" coords="1918,407,2086,463"/>
+<area shape="rect" id="node36" href="$de/d9d/i915_2mos__bufmgr_8c.html" title=" " alt="" coords="3235,199,3385,255"/>
+<area shape="rect" id="node37" href="$d1/d60/mos__bufmgr__api_8c.html" title=" " alt="" coords="3409,199,3560,255"/>
+<area shape="rect" id="node38" href="$de/d47/i915__production_2mos__bufmgr_8c.html" title=" " alt="" coords="3585,199,3774,255"/>
+<area shape="rect" id="node39" href="$d7/d90/mos__bufmgr__prelim_8cpp.html" title=" " alt="" coords="3798,199,3987,255"/>
+<area shape="rect" id="node40" href="$d4/dc0/mos__auxtable__mgr_8h.html" title="Container class for GMM aux table manager wrapper." alt="" coords="4011,206,4230,247"/>
+<area shape="rect" id="node7" href="$df/d26/media__ddi__decode__hevc_8cpp.html" title="The class implementation of DdiDecodeHEVC for HEVC decode." alt="" coords="5,511,180,567"/>
+<area shape="rect" id="node8" href="$dc/d45/media__ddi__encode__base_8cpp.html" title="Implements base class for DDI media encode and encode parameters parser." alt="" coords="204,511,379,567"/>
+<area shape="rect" id="node9" href="$d9/d62/media__libva_8h.html" title="libva(and its extension) interface head file" alt="" coords="831,414,1010,455"/>
+<area shape="rect" id="node15" href="$d2/d4f/media__libva__caps_8cpp.html" title="This file implements the base C++ class/interface for media capbilities." alt="" coords="3519,511,3687,567"/>
+<area shape="rect" id="node16" href="$d0/d71/media__libva__putsurface__linux_8cpp.html" title="libva(and its extension) putsurface linux implementaion" alt="" coords="1325,511,1493,567"/>
+<area shape="rect" id="node26" href="$d5/d4d/media__ddi__decode__hevc__g11_8cpp.html" title="The class implementation of DdiDecodeHEVCG11 for HEVC decode." alt="" coords="2909,511,3090,567"/>
+<area shape="rect" id="node27" href="$d9/de9/media__ddi__decode__hevc__g12_8cpp.html" title="The class implementation of DdiDecodeHEVCG12 for HEVC decode." alt="" coords="3114,511,3295,567"/>
+<area shape="rect" id="node28" href="$d8/df1/hwinfo__linux_8h.html" title=" " alt="" coords="3334,414,3513,455"/>
+<area shape="rect" id="node33" href="$d4/d05/mos__interface_8cpp.html" title="MOS interface implementation." alt="" coords="3713,414,3917,455"/>
+<area shape="rect" id="node34" href="$d8/d5b/media__libva__vp_8h.html" title="Header for Video Acceleration (LibVA) VP extensions for VPG drivers." alt="" coords="3107,407,3259,463"/>
+<area shape="rect" id="node35" href="$dc/d9e/media__libva__vp__tools_8h.html" title="Header for Video Acceleration (LibVA) VP tool functions for VPG drivers." alt="" coords="3537,407,3689,463"/>
+<area shape="rect" id="node10" href="$d4/d2b/media__libva__caps__dg2_8cpp.html" title="This file implements the C++ class/interface for dg2 media capbilities." alt="" coords="403,511,553,567"/>
+<area shape="rect" id="node11" href="$d8/d09/media__libva__caps__pvc_8cpp.html" title="This file implements the C++ class/interface for pvc media capbilities." alt="" coords="577,511,728,567"/>
+<area shape="rect" id="node12" href="$de/d99/media__libva__caps__xehp__sdv_8cpp.html" title="This file implements the C++ class/interface for Xe_XPM media capbilities." alt="" coords="752,511,903,567"/>
+<area shape="rect" id="node13" href="$d7/d71/media__ddi__encode__av1_8cpp.html" title="Defines class for DDI media av1 encode." alt="" coords="927,511,1101,567"/>
+<area shape="rect" id="node14" href="$df/d13/media__ddi__encode__avc_8cpp.html" title="Implements class for DDI media avc encode." alt="" coords="1125,511,1300,567"/>
+<area shape="rect" id="node18" href="$df/d47/media__ddi__decode__av1_8cpp.html" title="The class implementation of DdiDecodeAV1 for AV1 decode." alt="" coords="1517,511,1692,567"/>
+<area shape="rect" id="node19" href="$dc/dc2/media__ddi__decode__avc_8cpp.html" title="The class implementation of DdiDecodeAVC for Avc decode." alt="" coords="1716,511,1891,567"/>
+<area shape="rect" id="node20" href="$db/d8d/media__ddi__decode__base_8cpp.html" title="The class implementation of DdiDecodeBase for all decoders." alt="" coords="3320,511,3495,567"/>
+<area shape="rect" id="node21" href="$da/d43/media__ddi__decode__jpeg_8cpp.html" title="The class implementation of DdiDecodeJPEG for JPEG decode." alt="" coords="1915,511,2089,567"/>
+<area shape="rect" id="node22" href="$df/d44/media__ddi__decode__mpeg2_8cpp.html" title="The class implementation of DdiDecodeMpeg2 for Mpeg2 decode." alt="" coords="2113,511,2288,567"/>
+<area shape="rect" id="node23" href="$d1/dd6/media__ddi__decode__vc1_8cpp.html" title="libva(and its extension) decoder implementation" alt="" coords="2312,511,2487,567"/>
+<area shape="rect" id="node24" href="$de/dfa/media__ddi__decode__vp8_8cpp.html" title="The class implementation of DdiDecodeVP8 for VP8 decode." alt="" coords="2511,511,2685,567"/>
+<area shape="rect" id="node25" href="$d9/d5a/media__ddi__decode__vp9_8cpp.html" title="The class implementation of DdiDecodeVP9 for VP9 decode." alt="" coords="2709,511,2884,567"/>
+<area shape="rect" id="node29" href="$db/d4c/mos__context__specific_8cpp.html" title="Container for Linux/Android specific parameters shared across different GPU contexts of the same devi..." alt="" coords="3711,511,3885,567"/>
+<area shape="rect" id="node30" href="$d3/de3/mos__os__specific_8c.html" title="Common interface used in MOS LINUX OS." alt="" coords="3909,518,4116,559"/>
+<area shape="rect" id="node32" href="$d2/d0a/mos__os__specific_8cpp.html" title=" " alt="" coords="4140,511,4304,567"/>
+<area shape="rect" id="node42" href="$d0/dc2/mos__commandbuffer__specific_8cpp.html" title="Container class for the specific command buffer." alt="" coords="4094,407,4313,463"/>
+<area shape="rect" id="node43" href="$d9/d55/mos__gpucontext__specific_8cpp.html" title="Container class for the Linux specific gpu context." alt="" coords="4590,407,4785,463"/>
+<area shape="rect" id="node44" href="$d8/d6e/mos__graphicsresource__specific_8cpp.html" title="Container class for the linux/Android specfic graphic resource." alt="" coords="4337,407,4566,463"/>
+<area shape="rect" id="node47" href="$d4/d56/mos__util__devult__specific_8cpp.html" title=" " alt="" coords="4722,199,4869,255"/>
+</map>

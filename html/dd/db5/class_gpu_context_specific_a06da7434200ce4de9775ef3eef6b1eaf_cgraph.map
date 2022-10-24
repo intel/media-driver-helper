@@ -1,0 +1,7 @@
+<map id="GpuContextSpecific::ParallelSubmitCommands" name="GpuContextSpecific::ParallelSubmitCommands">
+<area shape="rect" id="node1" title="Combin cmd buffer for each pipe and use one submission in scalability mode." alt="" coords="5,39,185,80"/>
+<area shape="rect" id="node2" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a4f57f7a785d87f7128a9cd7faefa68af" title=" " alt="" coords="233,5,384,47"/>
+<area shape="rect" id="node4" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a72724e3d4b302ed325855040837ca0ed" title=" " alt="" coords="233,71,384,112"/>
+<area shape="rect" id="node3" href="$de/d9d/i915_2mos__bufmgr_8c.html#ae9150d9d22c0cb853ce90e899af1c9eb" title=" " alt="" coords="432,13,511,39"/>
+<area shape="rect" id="node5" href="$de/d9d/i915_2mos__bufmgr_8c.html#a24aba19a78abaffb248ffdaede9d49b5" title=" " alt="" coords="432,78,511,105"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="DdiDecode_RenderPicture" name="DdiDecode_RenderPicture">
+<area shape="rect" id="node1" title="Render picture." alt="" coords="5,136,180,163"/>
+<area shape="rect" id="node2" href="$da/d25/media__libva__decoder_8cpp.html#a7945315b9ca6d8e8630153637a24ef2e" title="Set Decode Gpu priority." alt="" coords="257,5,435,32"/>
+<area shape="rect" id="node3" href="$dd/dab/media__libva__common_8cpp.html#af27269667643d99431310f928cedb706" title="Get context from context ID." alt="" coords="228,56,464,83"/>
+<area shape="rect" id="node4" href="$dd/dab/media__libva__common_8cpp.html#af2e95d3fe3d3c296100141f224579599" title="Get gpu priority." alt="" coords="261,107,431,133"/>
+<area shape="rect" id="node5" href="$de/d95/class_ddi_cp_interface.html#a4309b3e9688a83b97603975bd4b89317" title=" " alt="" coords="258,158,434,199"/>
+<area shape="rect" id="node6" href="$dd/dab/media__libva__common_8cpp.html#a81760d3c854ae5937dc4d2a50f241d61" title="Move a bufferID to the end of buffers." alt="" coords="259,224,433,251"/>
+<area shape="rect" id="node7" href="$df/dc7/class_ddi_media_decode.html#ab92783990cc76e1470de380c97063940" title="Send required buffers to decoding process." alt="" coords="241,275,451,301"/>
+</map>

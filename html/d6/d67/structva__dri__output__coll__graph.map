@@ -1,0 +1,5 @@
+<map id="va_dri_output" name="va_dri_output">
+<area shape="rect" id="node1" title="VA driver output." alt="" coords="53,95,152,121"/>
+<area shape="rect" id="node2" href="$d6/dc3/structdso__handle.html" title="Dso handle." alt="" coords="5,5,93,32"/>
+<area shape="rect" id="node3" href="$d1/dcc/structdri__vtable.html" title="VA api driver table." alt="" coords="118,5,194,32"/>
+</map>

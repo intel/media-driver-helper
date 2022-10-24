@@ -1,0 +1,43 @@
+<map id="DdiDecodeJPEG::SetDecodeParams" name="DdiDecodeJPEG::SetDecodeParams">
+<area shape="rect" id="node1" title="Set common decode param setting for each codec." alt="" coords="5,609,196,650"/>
+<area shape="rect" id="node2" href="$dd/dab/media__libva__common_8cpp.html#a1ef1fe178002af993a537efd2d0ffd73" title="Media buffer to mos resource." alt="" coords="263,383,454,425"/>
+<area shape="rect" id="node3" href="$dd/dab/media__libva__common_8cpp.html#af0abdf2326b439d693f70d8c3c4304bc" title="Media surface to mos resource." alt="" coords="258,449,459,490"/>
+<area shape="rect" id="node4" href="$dd/dab/media__libva__common_8cpp.html#a083a9fe93e8cc09886b8a2f8d60ee360" title="replace the surface with given format" alt="" coords="258,718,459,759"/>
+<area shape="rect" id="node20" href="$d2/d46/media__libva__util_8cpp.html#a61859add0d222268448af147f77521b2" title="Free buffer." alt="" coords="774,667,935,693"/>
+<area shape="rect" id="node21" href="$d2/d46/media__libva__util_8cpp.html#ad278b70a6d494a81de76e6ff19027c23" title="Unlock buffer." alt="" coords="1024,667,1199,693"/>
+<area shape="rect" id="node31" href="$d2/d46/media__libva__util_8cpp.html#a34f6687efca35303eb720b1c8bd92ec9" title="Create buffer." alt="" coords="527,56,700,83"/>
+<area shape="rect" id="node34" href="$d2/d46/media__libva__util_8cpp.html#a452ad5e2bdc3551e1c0726cd718f7dd2" title="Lock buffer." alt="" coords="277,565,440,592"/>
+<area shape="rect" id="node40" href="$da/de1/class_ddi_media_base.html#a5d9c80147e48b8e7749cc75b6e9d2bdb" title="Register Render Target Surface." alt="" coords="244,784,473,811"/>
+<area shape="rect" id="node41" href="$da/de1/class_ddi_media_base.html#a307013d4bce4e913364a5fdd2fbfe29d" title="Unregister Render Target Surface." alt="" coords="269,835,448,877"/>
+<area shape="rect" id="node5" href="$d2/d46/media__libva__util_8cpp.html#a3e2b7e92d5a6ed64e58f18fee025378c" title="Create surface." alt="" coords="521,309,705,336"/>
+<area shape="rect" id="node19" href="$d2/d46/media__libva__util_8cpp.html#ab06a8da2f0aaad09613e7e79383e6bcd" title="Free surface." alt="" coords="527,717,699,744"/>
+<area shape="rect" id="node29" href="$d2/d46/media__libva__util_8cpp.html#af39e3b7b10fc72c0d236cebf73490fcb" title="Lock mutex." alt="" coords="530,768,697,795"/>
+<area shape="rect" id="node30" href="$d2/d46/media__libva__util_8cpp.html#ad5d3b7d7ae6bfdd11a5440bd64cdc872" title="Unlock mutex." alt="" coords="522,819,705,845"/>
+<area shape="rect" id="node6" href="$d2/d46/media__libva__util_8cpp.html#a7d64de07a525e078869b0588644071e6" title="Allocate surface." alt="" coords="758,249,951,276"/>
+<area shape="rect" id="node7" href="$d2/d08/class_media_libva_caps.html#a7ab940d0895ad0e5871a1b4aa272b8f7" title="convert Media Format to Gmm Format for GmmResCreate parameter." alt="" coords="1010,57,1213,98"/>
+<area shape="rect" id="node8" href="$d2/d46/media__libva__util_8cpp.html#af67d51768a572477feb0621fd834c10a" title="Is external surface." alt="" coords="1009,123,1213,149"/>
+<area shape="rect" id="node9" href="$d1/d60/mos__bufmgr__api_8c.html#af8b481d73fdffe558648a023e8c2bfa8" title=" " alt="" coords="1060,5,1163,32"/>
+<area shape="rect" id="node10" href="$d1/d60/mos__bufmgr__api_8c.html#a333c395f5691e0cc0bf366929b4be6d7" title=" " alt="" coords="1045,173,1178,200"/>
+<area shape="rect" id="node11" href="$d1/d60/mos__bufmgr__api_8c.html#acc56e5634918b0ad7bc6e9557bc6c6bc" title=" " alt="" coords="1037,224,1186,251"/>
+<area shape="rect" id="node12" href="$de/d47/i915__production_2mos__bufmgr_8c.html#ae46636e6d718943769ea004106df6bd2" title=" " alt="" coords="1004,275,1219,301"/>
+<area shape="rect" id="node13" href="$de/d47/i915__production_2mos__bufmgr_8c.html#ab777ce026d20984a4a57bdb6c3f15169" title=" " alt="" coords="1024,326,1199,367"/>
+<area shape="rect" id="node17" href="$d1/d60/mos__bufmgr__api_8c.html#a10836c1e0197ffecbaec21753b5d18b4" title=" " alt="" coords="1048,392,1175,419"/>
+<area shape="rect" id="node18" href="$d2/d08/class_media_libva_caps.html#aece490b3f3b9b43e9020341aa032dffd" title="Set tile format according to external surface&#39;s modifier." alt="" coords="1015,443,1207,485"/>
+<area shape="rect" id="node14" href="$dc/dfc/xf86drm_8c.html#ad70cc6497bbcf48ff71b1e5631355b9b" title=" " alt="" coords="1285,352,1435,379"/>
+<area shape="rect" id="node15" href="$dc/dfc/xf86drm_8c.html#ae3c1c49d03f8a0f8b71de1f5f574a6bd" title=" " alt="" coords="1561,387,1629,413"/>
+<area shape="rect" id="node16" href="$dc/dfc/xf86drm_8c.html#ac49c32891ff1d2f2a7cbb33d520d9658" title=" " alt="" coords="1773,387,1867,413"/>
+<area shape="rect" id="node22" href="$d2/d46/media__libva__util_8cpp.html#a2a5009380323c9c0a0a3d24284de4a29" title="Unlock surface." alt="" coords="1267,692,1453,719"/>
+<area shape="rect" id="node27" href="$d1/d60/mos__bufmgr__api_8c.html#a3f50be67296c219589a0953fb792dca4" title=" " alt="" coords="1040,768,1183,795"/>
+<area shape="rect" id="node28" href="$dc/d36/class_aux_table_mgr.html#a73327ab525816daf157b66a7d82c28d8" title="Unmap resource from aux table." alt="" coords="753,819,956,845"/>
+<area shape="rect" id="node24" href="$d1/d60/mos__bufmgr__api_8c.html#a47260ddcd6e035fa5384ab0a03d34f3d" title=" " alt="" coords="1763,665,1877,692"/>
+<area shape="rect" id="node25" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a31b072cc5cf453ddc2d61d4cd1d643bd" title=" " alt="" coords="1736,720,1904,747"/>
+<area shape="rect" id="node23" href="$d2/d46/media__libva__util_8cpp.html#a108e3883156616e2dec8fd233524cc67" title="Unlock surface." alt="" coords="1501,685,1688,726"/>
+<area shape="rect" id="node26" href="$de/d9d/i915_2mos__bufmgr_8c.html#a8c2f9288a4eef0c2628732aa21059702" title=" " alt="" coords="1952,720,2099,747"/>
+<area shape="rect" id="node32" href="$d2/d46/media__libva__util_8cpp.html#a3b81c0f81bee53ce877f1e49da6be765" title="Allocate 2D buffer." alt="" coords="755,5,954,32"/>
+<area shape="rect" id="node33" href="$d2/d46/media__libva__util_8cpp.html#a7473a4ec1cfde6908d1b48676b6b4e49" title="Allocate buffer." alt="" coords="763,56,946,83"/>
+<area shape="rect" id="node35" href="$d2/d46/media__libva__util_8cpp.html#af528e64a5e19f1572b01679c70745fab" title="Lock surface." alt="" coords="526,511,701,537"/>
+<area shape="rect" id="node37" href="$d1/d60/mos__bufmgr__api_8c.html#a9a16cb939a463525c3efb4e95527d49e" title=" " alt="" coords="1061,564,1161,591"/>
+<area shape="rect" id="node38" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a90b3e4373eac1f4bfbfdf3eb1a11f023" title=" " alt="" coords="1034,509,1189,536"/>
+<area shape="rect" id="node36" href="$d2/d46/media__libva__util_8cpp.html#a7595b1d25d7f43661b735f7a7c2b87a6" title="Lock surface." alt="" coords="767,499,942,541"/>
+<area shape="rect" id="node39" href="$de/d9d/i915_2mos__bufmgr_8c.html#a1f8620d6134e87e70e4c822bdc41dbbc" title=" " alt="" coords="1325,509,1395,536"/>
+</map>

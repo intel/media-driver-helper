@@ -1,0 +1,5 @@
+<map id="DdiMediaDecode::GetDummyReferenceFromDPB" name="DdiMediaDecode::GetDummyReferenceFromDPB">
+<area shape="rect" id="node1" title="Get dummy reference from DPB." alt="" coords="5,35,200,76"/>
+<area shape="rect" id="node2" href="$dd/dab/media__libva__common_8cpp.html#af0abdf2326b439d693f70d8c3c4304bc" title="Media surface to mos resource." alt="" coords="249,5,450,47"/>
+<area shape="rect" id="node3" href="$d3/de3/mos__os__specific_8c.html#ad8fe9d7f3e3f91b2638275c8851aee6d" title="Get Resource Information." alt="" coords="248,71,451,98"/>
+</map>

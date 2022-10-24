@@ -1,0 +1,10 @@
+<map id="DdiMediaUtil_FreeBuffer" name="DdiMediaUtil_FreeBuffer">
+<area shape="rect" id="node1" title="Free buffer." alt="" coords="5,57,167,84"/>
+<area shape="rect" id="node2" href="$d2/d46/media__libva__util_8cpp.html#ad278b70a6d494a81de76e6ff19027c23" title="Unlock buffer." alt="" coords="215,32,389,59"/>
+<area shape="rect" id="node8" href="$d1/d60/mos__bufmgr__api_8c.html#a3f50be67296c219589a0953fb792dca4" title=" " alt="" coords="231,83,373,109"/>
+<area shape="rect" id="node3" href="$d2/d46/media__libva__util_8cpp.html#a2a5009380323c9c0a0a3d24284de4a29" title="Unlock surface." alt="" coords="437,32,624,59"/>
+<area shape="rect" id="node5" href="$d1/d60/mos__bufmgr__api_8c.html#a47260ddcd6e035fa5384ab0a03d34f3d" title=" " alt="" coords="933,5,1048,32"/>
+<area shape="rect" id="node6" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a31b072cc5cf453ddc2d61d4cd1d643bd" title=" " alt="" coords="907,60,1075,87"/>
+<area shape="rect" id="node4" href="$d2/d46/media__libva__util_8cpp.html#a108e3883156616e2dec8fd233524cc67" title="Unlock surface." alt="" coords="672,25,859,66"/>
+<area shape="rect" id="node7" href="$de/d9d/i915_2mos__bufmgr_8c.html#a8c2f9288a4eef0c2628732aa21059702" title=" " alt="" coords="1123,60,1269,87"/>
+</map>

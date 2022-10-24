@@ -1,0 +1,6 @@
+<map id="DdiMediaDecode::GetBsBufOffset" name="DdiMediaDecode::GetBsBufOffset">
+<area shape="rect" id="node1" title="return the Buffer offset for sliceGroup" alt="" coords="269,71,453,112"/>
+<area shape="rect" id="node2" href="$d2/d6b/class_ddi_decode_h_e_v_c.html#ac5ff5ad383aa9962775de52f6bf54e1f" title="ParaSliceParam for HEVC." alt="" coords="17,5,209,47"/>
+<area shape="rect" id="node3" href="$db/db1/class_ddi_decode_h_e_v_c_g11.html#a9587fed00d780f0489b033f295da095d" title="ParaSliceParam for HEVC." alt="" coords="5,71,221,112"/>
+<area shape="rect" id="node4" href="$de/d8b/class_ddi_decode_h_e_v_c_g12.html#a1dc4e9abbd0c010f4d257afd358fa41d" title="ParaSliceParam for HEVC." alt="" coords="5,136,221,177"/>
+</map>

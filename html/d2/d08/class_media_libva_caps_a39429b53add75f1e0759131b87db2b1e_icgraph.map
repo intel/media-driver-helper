@@ -1,0 +1,7 @@
+<map id="MediaLibvaCaps::LoadVp9EncProfileEntrypoints" name="MediaLibvaCaps::LoadVp9EncProfileEntrypoints">
+<area shape="rect" id="node1" title="Initialize VP9 encode profiles, entrypoints and attributes." alt="" coords="512,39,711,80"/>
+<area shape="rect" id="node2" href="$d2/deb/class_media_libva_caps_g8.html#aa584ccc5f48b4ee6fd7ef8d9061f93f4" title="Load profile entry points." alt="" coords="259,5,464,47"/>
+<area shape="rect" id="node4" href="$da/dde/class_media_libva_caps_g9.html#ab3f2550edcbfcd2dc9040f5049a6295e" title="Load profile entry points." alt="" coords="259,71,464,112"/>
+<area shape="rect" id="node3" href="$d2/deb/class_media_libva_caps_g8.html#a880b50bf03eb494dd709bcd5fef27db1" title="Constructor." alt="" coords="5,5,211,47"/>
+<area shape="rect" id="node5" href="$da/dde/class_media_libva_caps_g9.html#adfd36ade10ab10c9f63410dd687cbef0" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="29,78,187,105"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="DdiEncodeAvc::ParseSeqParams" name="DdiEncodeAvc::ParseSeqParams">
+<area shape="rect" id="node1" title="Parse Sequence parameters." alt="" coords="5,42,221,69"/>
+<area shape="rect" id="node2" href="$d0/d2f/class_ddi_encode_avc.html#a22d9f9924337e0f86ceeb8c71b8a9bc6" title="Get profile from va profile." alt="" coords="271,5,470,47"/>
+<area shape="rect" id="node3" href="$d3/d19/class_ddi_encode_base.html#a904bdf2d75f1647e4a63bc24e24947e4" title="Convert rate control method in VAAPI to the term in HAL." alt="" coords="269,71,472,98"/>
+</map>

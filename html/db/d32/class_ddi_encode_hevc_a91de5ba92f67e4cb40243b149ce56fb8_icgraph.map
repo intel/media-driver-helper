@@ -1,0 +1,4 @@
+<map id="DdiEncodeHevc::ContextInitialize" name="DdiEncodeHevc::ContextInitialize">
+<area shape="rect" id="node1" title="Initialize Encode Context and CodecHal Setting for Hevc." alt="" coords="237,13,451,39"/>
+<area shape="rect" id="node2" href="$d1/d83/class_ddi_encode_hevc_fei.html#a168b84ed52271a83c2bd0c5920404a61" title="Initialize the encode context and do codechal setting." alt="" coords="5,5,189,47"/>
+</map>

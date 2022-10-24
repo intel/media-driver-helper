@@ -1,0 +1,4 @@
+<map id="DdiMediaUtil_ReleasePMediaBufferFromHeap" name="DdiMediaUtil_ReleasePMediaBufferFromHeap">
+<area shape="rect" id="node1" title="Release pmedia buffer from heap." alt="" coords="293,5,487,47"/>
+<area shape="rect" id="node2" href="$dd/dab/media__libva__common_8cpp.html#a12eaeb1a9855f9acd6206baf9fd6f938" title="Destroy buffer from VA buffer ID." alt="" coords="5,13,245,39"/>
+</map>

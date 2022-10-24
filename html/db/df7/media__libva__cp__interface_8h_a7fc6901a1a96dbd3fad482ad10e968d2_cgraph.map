@@ -1,0 +1,4 @@
+<map id="Create_DdiCpInterface" name="Create_DdiCpInterface">
+<area shape="rect" id="node1" title="Create DdiCpInterface Object Must use Delete_DdiCpInterface to delete created Object to avoid ULT Mem..." alt="" coords="5,13,156,39"/>
+<area shape="rect" id="node2" href="$d8/dc0/class_cp_interfaces.html#a5f90f409ed0855d41cc691c65fd50201" title="Create DdiCpInterface Object Must use Delete_DdiCpInterface to delete created Object to avoid ULT Mem..." alt="" coords="204,5,344,47"/>
+</map>

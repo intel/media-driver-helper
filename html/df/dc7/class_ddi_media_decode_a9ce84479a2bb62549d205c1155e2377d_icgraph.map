@@ -1,0 +1,6 @@
+<map id="DdiMediaDecode::BeginPicture" name="DdiMediaDecode::BeginPicture">
+<area shape="rect" id="node1" title="Get ready to decoding process for a target surface." alt="" coords="255,56,457,83"/>
+<area shape="rect" id="node2" href="$da/d9e/class_ddi_decode_j_p_e_g.html#a8dd62f783ef8f258fe33f45642c8bc1b" title="Get ready to decoding process for a target surface." alt="" coords="5,5,207,32"/>
+<area shape="rect" id="node3" href="$d0/d9e/class_ddi_decode_v_c1.html#ab6d0bb255df0f096d8a9c14199c7eea8" title="Get ready to decoding process for a target surface." alt="" coords="10,56,202,83"/>
+<area shape="rect" id="node4" href="$da/d25/media__libva__decoder_8cpp.html#a26a23e8b39d47b1a0222bbe8f27d89a1" title="Begin picture." alt="" coords="23,107,189,133"/>
+</map>

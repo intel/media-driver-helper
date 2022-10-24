@@ -1,0 +1,9 @@
+<map id="DdiMediaUtil_Allocate2DBuffer" name="DdiMediaUtil_Allocate2DBuffer">
+<area shape="rect" id="node1" title="Allocate 2D buffer." alt="" coords="955,85,1153,112"/>
+<area shape="rect" id="node2" href="$d2/d46/media__libva__util_8cpp.html#a34f6687efca35303eb720b1c8bd92ec9" title="Create buffer." alt="" coords="733,85,907,112"/>
+<area shape="rect" id="node3" href="$df/dc7/class_ddi_media_decode.html#a137f37e784c53a765f53c0ee3c2793ad" title="Allocate Bs buffer." alt="" coords="471,5,677,32"/>
+<area shape="rect" id="node4" href="$df/dc7/class_ddi_media_decode.html#a9c6c247aea2c36731d7d7cace20637e7" title="Create buffer in ddi decode context." alt="" coords="216,31,415,57"/>
+<area shape="rect" id="node6" href="$df/dc7/class_ddi_media_decode.html#abcc4e92494aef68ba41fdfb5caebcbb1" title="Combine the Bitstream Before decoding execution." alt="" coords="463,107,685,149"/>
+<area shape="rect" id="node7" href="$da/d9e/class_ddi_decode_j_p_e_g.html#ad2bc707faa884959214d14f86ef424d3" title="Set common decode param setting for each codec." alt="" coords="479,173,669,214"/>
+<area shape="rect" id="node5" href="$da/d25/media__libva__decoder_8cpp.html#a70f32b808b594004ae62c45408973076" title="Create buffer." alt="" coords="5,31,168,57"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="DdiEncode_CreateBuffer" name="DdiEncode_CreateBuffer">
+<area shape="rect" id="node1" title="Create buffer." alt="" coords="5,35,168,61"/>
+<area shape="rect" id="node2" href="$d3/d19/class_ddi_encode_base.html#a955c1f94743a6b2662499083f5f83904" title="Create Encode buffer." alt="" coords="224,5,419,32"/>
+<area shape="rect" id="node3" href="$dc/da2/media__libva__encoder_8cpp.html#a0af89fecfe5c192e65d08e75034b8b1a" title="Get encode context from context ID." alt="" coords="216,57,427,98"/>
+<area shape="rect" id="node4" href="$dd/dab/media__libva__common_8cpp.html#af27269667643d99431310f928cedb706" title="Get context from context ID." alt="" coords="475,64,711,91"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="MediaLibvaCaps::GetConfigAttributes" name="MediaLibvaCaps::GetConfigAttributes">
+<area shape="rect" id="node1" title="Get attributes for a given profile/entrypoint pair." alt="" coords="5,39,187,80"/>
+<area shape="rect" id="node2" href="$d2/d08/class_media_libva_caps.html#a056faac9ffac6ada630b33de93044d81" title="Get the general attribute." alt="" coords="235,5,425,47"/>
+<area shape="rect" id="node3" href="$d2/d08/class_media_libva_caps.html#ae59fcc80bc39d0379dc2e916c8eab15a" title="Return the index in m_profileEntryTble by given profile and entrypoint." alt="" coords="239,71,421,112"/>
+</map>

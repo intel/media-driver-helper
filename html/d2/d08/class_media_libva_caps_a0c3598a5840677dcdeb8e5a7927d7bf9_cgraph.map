@@ -1,0 +1,7 @@
+<map id="MediaLibvaCaps::DestroyConfig" name="MediaLibvaCaps::DestroyConfig">
+<area shape="rect" id="node1" title="Destory the VAConfigID." alt="" coords="5,97,211,123"/>
+<area shape="rect" id="node2" href="$d7/d40/class_media_libva_caps_cp_interface.html#afe2c71934f9e5d5ec25a46ae23b8ace3" title=" " alt="" coords="269,5,451,47"/>
+<area shape="rect" id="node3" href="$d2/d08/class_media_libva_caps.html#aedce444e02a7b67f6d9103f27a176ab9" title="Check if the configID is a valid decode config." alt="" coords="259,71,461,98"/>
+<area shape="rect" id="node4" href="$d2/d08/class_media_libva_caps.html#a49ce436638bc32f12d633bc0f9edfc16" title="Check if the configID is a valid encode config." alt="" coords="259,122,461,149"/>
+<area shape="rect" id="node5" href="$d2/d08/class_media_libva_caps.html#ad338b649551beb4192c2cbce8f89be73" title="Check if the configID is a valid vp config." alt="" coords="262,173,458,199"/>
+</map>

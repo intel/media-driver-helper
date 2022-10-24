@@ -1,0 +1,12 @@
+<map id="DdiMediaDecode::DestroyContext" name="DdiMediaDecode::DestroyContext">
+<area shape="rect" id="node1" title="Free the allocated resource related with the decode context." alt="" coords="283,208,501,235"/>
+<area shape="rect" id="node2" href="$da/d25/media__libva__decoder_8cpp.html#a30f57df20ddf0f02540b6bdce49dc350" title="Clean and free decode context structure." alt="" coords="53,5,187,32"/>
+<area shape="rect" id="node3" href="$dd/dd8/class_ddi_decode_a_v1.html#aa70f47b3800a5d9a728d67c5dfd5e137" title="Free the allocated resource related with the decode context." alt="" coords="16,56,224,83"/>
+<area shape="rect" id="node4" href="$d1/d8f/class_ddi_decode_a_v_c.html#a548aa388f3f92bbc6817ad266df6aa29" title="Free the allocated resource related with the decode context." alt="" coords="15,107,225,133"/>
+<area shape="rect" id="node5" href="$d2/d6b/class_ddi_decode_h_e_v_c.html#a5dceced9d8c99b50d8da3a3c9fe27d97" title="Free the allocated resource related with the decode context." alt="" coords="11,157,229,184"/>
+<area shape="rect" id="node6" href="$da/d9e/class_ddi_decode_j_p_e_g.html#affdd7667bb5d6f893e72a73e75fc6715" title="Free the allocated resource related with the decode context." alt="" coords="11,208,229,235"/>
+<area shape="rect" id="node7" href="$de/de1/class_ddi_decode_m_p_e_g2.html#a6f541b386f2cf6e2bbfd9ee1d99d248f" title="Free the allocated resource related with the decode context." alt="" coords="5,259,235,285"/>
+<area shape="rect" id="node8" href="$d0/d9e/class_ddi_decode_v_c1.html#a005c8f98a8d178053a6447abeb531f0a" title="Free the allocated resource related with the decode context." alt="" coords="16,309,224,336"/>
+<area shape="rect" id="node9" href="$de/dd0/class_ddi_decode_v_p8.html#a45de4011d2d754cb5ea4a563216a7d23" title="Free the allocated resource related with the decode context." alt="" coords="16,360,224,387"/>
+<area shape="rect" id="node10" href="$da/d51/class_ddi_decode_v_p9.html#a6d6ef25a5942dea5477ec29409e2b763" title="Free the allocated resource related with the decode context." alt="" coords="16,411,224,437"/>
+</map>

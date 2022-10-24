@@ -1,0 +1,15 @@
+<map id="DdiMediaUtil_AllocateSurface" name="DdiMediaUtil_AllocateSurface">
+<area shape="rect" id="node1" title="Allocate surface." alt="" coords="5,223,199,250"/>
+<area shape="rect" id="node2" href="$d2/d08/class_media_libva_caps.html#a7ab940d0895ad0e5871a1b4aa272b8f7" title="convert Media Format to Gmm Format for GmmResCreate parameter." alt="" coords="253,5,455,47"/>
+<area shape="rect" id="node3" href="$d2/d46/media__libva__util_8cpp.html#af67d51768a572477feb0621fd834c10a" title="Is external surface." alt="" coords="252,71,456,98"/>
+<area shape="rect" id="node4" href="$d1/d60/mos__bufmgr__api_8c.html#af8b481d73fdffe558648a023e8c2bfa8" title=" " alt="" coords="303,122,405,149"/>
+<area shape="rect" id="node5" href="$d1/d60/mos__bufmgr__api_8c.html#a333c395f5691e0cc0bf366929b4be6d7" title=" " alt="" coords="287,173,421,199"/>
+<area shape="rect" id="node6" href="$d1/d60/mos__bufmgr__api_8c.html#acc56e5634918b0ad7bc6e9557bc6c6bc" title=" " alt="" coords="279,223,429,250"/>
+<area shape="rect" id="node7" href="$de/d47/i915__production_2mos__bufmgr_8c.html#ae46636e6d718943769ea004106df6bd2" title=" " alt="" coords="247,274,461,301"/>
+<area shape="rect" id="node8" href="$de/d47/i915__production_2mos__bufmgr_8c.html#ab777ce026d20984a4a57bdb6c3f15169" title=" " alt="" coords="267,325,441,367"/>
+<area shape="rect" id="node12" href="$d1/d60/mos__bufmgr__api_8c.html#a10836c1e0197ffecbaec21753b5d18b4" title=" " alt="" coords="291,391,417,418"/>
+<area shape="rect" id="node13" href="$d2/d08/class_media_libva_caps.html#aece490b3f3b9b43e9020341aa032dffd" title="Set tile format according to external surface&#39;s modifier." alt="" coords="258,443,450,484"/>
+<area shape="rect" id="node9" href="$dc/dfc/xf86drm_8c.html#ad70cc6497bbcf48ff71b1e5631355b9b" title=" " alt="" coords="509,333,659,359"/>
+<area shape="rect" id="node10" href="$dc/dfc/xf86drm_8c.html#ae3c1c49d03f8a0f8b71de1f5f574a6bd" title=" " alt="" coords="707,333,775,359"/>
+<area shape="rect" id="node11" href="$dc/dfc/xf86drm_8c.html#ac49c32891ff1d2f2a7cbb33d520d9658" title=" " alt="" coords="823,333,916,359"/>
+</map>

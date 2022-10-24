@@ -1,0 +1,6 @@
+<map id="OsContextSpecificNext::GetAuxTableMgr" name="OsContextSpecificNext::GetAuxTableMgr">
+<area shape="rect" id="node1" title=" " alt="" coords="240,71,397,112"/>
+<area shape="rect" id="node2" href="$d6/d1f/class_graphics_resource_specific_next.html#a840fb5ccd2575a67891c28692f9d06e1" title="Frees the specified resource with flag, if locked, unlocks it." alt="" coords="11,5,186,47"/>
+<area shape="rect" id="node3" href="$d6/d1f/class_graphics_resource_specific_next.html#a9064949b3a058e7e9e053333ad4f8894" title="Free External Resource." alt="" coords="5,71,192,112"/>
+<area shape="rect" id="node4" href="$d9/d7e/class_gpu_context_specific_next.html#a26935472200b24ae03baea935a4eb48b" title="Map resources with aux plane to aux table." alt="" coords="6,136,191,177"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="Linux_GetGpuContext" name="Linux_GetGpuContext">
+<area shape="rect" id="node1" title=" " alt="" coords="753,492,904,519"/>
+<area shape="rect" id="node2" href="$d3/de3/mos__os__specific_8c.html#ade072a6844423bd86d6cf9af3bbb8628" title="Get GPU tag for the given GPU context from the status buffer." alt="" coords="535,56,665,83"/>
+<area shape="rect" id="node5" href="$d3/de3/mos__os__specific_8c.html#ab44b7e3c9085a8387b6d88d9b3e0ad0d" title="Get command buffer." alt="" coords="227,107,447,133"/>
+<area shape="rect" id="node6" href="$d3/de3/mos__os__specific_8c.html#a72a502f204bb90147447feb29656fedd" title="Get GPU status buffer." alt="" coords="241,158,432,199"/>
+<area shape="rect" id="node7" href="$d3/de3/mos__os__specific_8c.html#a0c8928fd158f81c642c59043b6ff8b45" title="Get GPU status tag." alt="" coords="231,224,442,251"/>
+<area shape="rect" id="node8" href="$d3/de3/mos__os__specific_8c.html#a39f219cfceb267be4f3ac4a3fa327c75" title="Set indirect state size." alt="" coords="251,275,422,317"/>
+<area shape="rect" id="node9" href="$d3/de3/mos__os__specific_8c.html#ac9eda79ebc9191c17dd194d1d7d923d0" title="Get Indirect State Pointer." alt="" coords="251,341,422,382"/>
+<area shape="rect" id="node10" href="$d3/de3/mos__os__specific_8c.html#a50286c6f767aefd1fac73fa8525eb0d2" title="Increment GPU status tag." alt="" coords="243,406,431,447"/>
+<area shape="rect" id="node11" href="$d3/de3/mos__os__specific_8c.html#a74cdff76912a65ab2b816c3b7089c7ad" title="Registers Resource." alt="" coords="495,433,705,460"/>
+<area shape="rect" id="node12" href="$d3/de3/mos__os__specific_8c.html#ab031ec2dc8fec386f2e1a6a80a88e269" title="reset command buffer space" alt="" coords="500,485,700,526"/>
+<area shape="rect" id="node13" href="$d3/de3/mos__os__specific_8c.html#affa84b8f4fd8d24b544c553d122532ca" title="Resets OS States." alt="" coords="502,551,698,577"/>
+<area shape="rect" id="node14" href="$d3/de3/mos__os__specific_8c.html#a91de651f9d676c5dadbceef80de6baf1" title="Resizes the buffer to be used for rendering GPU commands." alt="" coords="497,602,703,643"/>
+<area shape="rect" id="node15" href="$d3/de3/mos__os__specific_8c.html#a1da140bcc522abd3b299983376b8799e" title="Return command buffer space." alt="" coords="498,667,702,709"/>
+<area shape="rect" id="node16" href="$d3/de3/mos__os__specific_8c.html#a486cefd9e06514075b3a14f85105879f" title="Set indirect state size." alt="" coords="515,733,685,774"/>
+<area shape="rect" id="node17" href="$d3/de3/mos__os__specific_8c.html#a0c7b5557606cd6473f55039a182f9237" title="Set patch entry." alt="" coords="504,799,696,825"/>
+<area shape="rect" id="node18" href="$d3/de3/mos__os__specific_8c.html#a71f74b0ef924cf19b39f8ae640510082" title="Submit command buffer." alt="" coords="233,827,440,869"/>
+<area shape="rect" id="node19" href="$d3/de3/mos__os__specific_8c.html#a2a226506b3d225b8ef2a50a48721f9cf" title="Verify command buffer size." alt="" coords="237,893,436,934"/>
+<area shape="rect" id="node20" href="$d3/de3/mos__os__specific_8c.html#a1b594cac5ccc5f9745e8ee3a6ef428fc" title="Verifys the patch list to be used for rendering GPU commands is large enough." alt="" coords="513,951,687,993"/>
+<area shape="rect" id="node3" href="$d3/de3/mos__os__specific_8c.html#aa6039ca11bf44a96683f603d5ad53eb3" title="Init Linux context." alt="" coords="275,5,398,32"/>
+<area shape="rect" id="node4" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,497,179,524"/>
+</map>

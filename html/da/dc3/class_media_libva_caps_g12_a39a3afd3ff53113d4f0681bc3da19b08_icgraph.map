@@ -1,0 +1,6 @@
+<map id="MediaLibvaCapsG12::LoadHevcEncProfileEntrypoints" name="MediaLibvaCapsG12::LoadHevcEncProfileEntrypoints">
+<area shape="rect" id="node1" title="Initialize HEVC encode profiles, entrypoints and attributes." alt="" coords="419,27,621,69"/>
+<area shape="rect" id="node2" href="$da/dc3/class_media_libva_caps_g12.html#a3e807a277d4303b94383715443b1a1dd" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="219,27,371,69"/>
+<area shape="rect" id="node3" href="$da/dc3/class_media_libva_caps_g12.html#a486e845d8fc26c527c4f5c0444aa12cb" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="5,5,171,32"/>
+<area shape="rect" id="node4" href="$d6/d4a/class_media_libva_caps_d_g2.html#a10981effe2f81e620dd69ff7b7864a80" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="12,57,164,98"/>
+</map>

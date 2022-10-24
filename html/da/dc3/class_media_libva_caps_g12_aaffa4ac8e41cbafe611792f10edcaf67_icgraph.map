@@ -1,0 +1,6 @@
+<map id="MediaLibvaCapsG12::GetImageFormatsMaxNum" name="MediaLibvaCapsG12::GetImageFormatsMaxNum">
+<area shape="rect" id="node1" title="Return the maxinum number of supported image formats." alt="" coords="208,71,387,112"/>
+<area shape="rect" id="node2" href="$da/dc3/class_media_libva_caps_g12.html#ab4c63f8f20cfd8f0adc54225a3a361b2" title=" " alt="" coords="9,5,157,47"/>
+<area shape="rect" id="node3" href="$da/dc3/class_media_libva_caps_g12.html#abf2e9731e23d5ac077126d191d8a1395" title="Populate the color masks info." alt="" coords="5,71,160,112"/>
+<area shape="rect" id="node4" href="$da/dc3/class_media_libva_caps_g12.html#ab6049e8c760ceb72c4885114a5e05cb8" title="Query the suppported image formats." alt="" coords="9,136,157,177"/>
+</map>

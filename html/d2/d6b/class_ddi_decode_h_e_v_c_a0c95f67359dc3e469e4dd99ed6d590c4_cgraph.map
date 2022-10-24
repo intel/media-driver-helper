@@ -1,0 +1,12 @@
+<map id="DdiDecodeHEVC::InitResourceBuffer" name="DdiDecodeHEVC::InitResourceBuffer">
+<area shape="rect" id="node1" title="Init Resource buffer for HEVC." alt="" coords="5,50,207,91"/>
+<area shape="rect" id="node2" href="$d2/d6b/class_ddi_decode_h_e_v_c.html#ae147608fc316bc4f989415c8d6c38676" title="Free Resource buffer for HEVC." alt="" coords="255,50,465,91"/>
+<area shape="rect" id="node3" href="$d2/d46/media__libva__util_8cpp.html#a61859add0d222268448af147f77521b2" title="Free buffer." alt="" coords="513,83,675,109"/>
+<area shape="rect" id="node4" href="$d2/d46/media__libva__util_8cpp.html#ad278b70a6d494a81de76e6ff19027c23" title="Unlock buffer." alt="" coords="723,32,897,59"/>
+<area shape="rect" id="node10" href="$d1/d60/mos__bufmgr__api_8c.html#a3f50be67296c219589a0953fb792dca4" title=" " alt="" coords="739,83,881,109"/>
+<area shape="rect" id="node5" href="$d2/d46/media__libva__util_8cpp.html#a2a5009380323c9c0a0a3d24284de4a29" title="Unlock surface." alt="" coords="945,32,1132,59"/>
+<area shape="rect" id="node7" href="$d1/d60/mos__bufmgr__api_8c.html#a47260ddcd6e035fa5384ab0a03d34f3d" title=" " alt="" coords="1441,5,1556,32"/>
+<area shape="rect" id="node8" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a31b072cc5cf453ddc2d61d4cd1d643bd" title=" " alt="" coords="1415,60,1583,87"/>
+<area shape="rect" id="node6" href="$d2/d46/media__libva__util_8cpp.html#a108e3883156616e2dec8fd233524cc67" title="Unlock surface." alt="" coords="1180,25,1367,66"/>
+<area shape="rect" id="node9" href="$de/d9d/i915_2mos__bufmgr_8c.html#a8c2f9288a4eef0c2628732aa21059702" title=" " alt="" coords="1631,60,1777,87"/>
+</map>

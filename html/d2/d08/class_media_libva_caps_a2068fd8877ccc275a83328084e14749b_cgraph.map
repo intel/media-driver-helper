@@ -1,0 +1,4 @@
+<map id="MediaLibvaCaps::SetAttribute" name="MediaLibvaCaps::SetAttribute">
+<area shape="rect" id="node1" title="Set the attribute in a VAConfigAttrib array." alt="" coords="5,13,199,39"/>
+<area shape="rect" id="node2" href="$d2/d08/class_media_libva_caps.html#a57cc41c2c80d8abb7960d244aecc09b8" title="Return index of given attribute type in a VAConfigAttrib vector." alt="" coords="247,5,441,47"/>
+</map>

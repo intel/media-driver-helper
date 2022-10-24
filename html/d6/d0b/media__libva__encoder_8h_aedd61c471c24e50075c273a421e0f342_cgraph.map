@@ -1,0 +1,5 @@
+<map id="DdiEncode_RemoveFromEncStatusReportQueue" name="DdiEncode_RemoveFromEncStatusReportQueue">
+<area shape="rect" id="node1" title="Remove from encode status report queue." alt="" coords="5,5,235,47"/>
+<area shape="rect" id="node2" href="$d3/d19/class_ddi_encode_base.html#ac2f52eb8b998e9931a00c360e4bdc6a1" title="Remove Enc Report Status from status report list." alt="" coords="283,5,481,47"/>
+<area shape="rect" id="node3" href="$d3/d19/class_ddi_encode_base.html#a5091dd9d5aad2ed4f83db1ad3c817439" title="Get Index From Enc Status Report Buffer." alt="" coords="529,5,735,47"/>
+</map>

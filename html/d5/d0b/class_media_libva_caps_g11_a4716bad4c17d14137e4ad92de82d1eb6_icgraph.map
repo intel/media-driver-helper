@@ -1,0 +1,4 @@
+<map id="MediaLibvaCapsG11::LoadProfileEntrypoints" name="MediaLibvaCapsG11::LoadProfileEntrypoints">
+<area shape="rect" id="node1" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="219,5,371,47"/>
+<area shape="rect" id="node2" href="$d5/d0b/class_media_libva_caps_g11.html#a80cd514912d61ead93c920da046b335f" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="5,13,171,39"/>
+</map>

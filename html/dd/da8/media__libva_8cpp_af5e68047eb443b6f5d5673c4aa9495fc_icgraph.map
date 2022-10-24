@@ -1,0 +1,9 @@
+<map id="DdiMedia_MapBufferInternal" name="DdiMedia_MapBufferInternal">
+<area shape="rect" id="node1" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="967,31,1149,57"/>
+<area shape="rect" id="node2" href="$dd/da8/media__libva_8cpp.html#ab3f56e9ec7879b326ef4940e9e4339bc" title="Map buffer." alt="" coords="774,5,915,32"/>
+<area shape="rect" id="node7" href="$dd/da8/media__libva_8cpp.html#a4e3110f97633e8adf08e55cdd39593db" title="Map buffer 2." alt="" coords="771,56,919,83"/>
+<area shape="rect" id="node3" href="$dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="565,5,723,32"/>
+<area shape="rect" id="node4" href="$dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,5,517,32"/>
+<area shape="rect" id="node5" href="$dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,5,332,32"/>
+<area shape="rect" id="node6" href="$dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,5,187,32"/>
+</map>

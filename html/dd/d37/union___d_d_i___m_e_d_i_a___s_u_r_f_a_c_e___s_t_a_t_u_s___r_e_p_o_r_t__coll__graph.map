@@ -1,0 +1,6 @@
+<map id="_DDI_MEDIA_SURFACE_STATUS_REPORT" name="_DDI_MEDIA_SURFACE_STATUS_REPORT">
+<area shape="rect" id="node1" title=" " alt="" coords="339,108,505,149"/>
+<area shape="rect" id="node2" href="$d9/d61/struct___d_d_i___m_e_d_i_a___s_u_r_f_a_c_e___s_t_a_t_u_s___r_e_p_o_r_t_1_1___d_d_i___m_e_d_i_a__c4f721cd490bbcea4781707f24652303.html" title="Ddi media surface decode status." alt="" coords="24,5,225,76"/>
+<area shape="rect" id="node3" href="$d7/d19/struct___d_d_i___m_e_d_i_a___s_u_r_f_a_c_e___s_t_a_t_u_s___r_e_p_o_r_t_1_1___d_d_i___m_e_d_i_a__0ecf74bd49c62dc5320586a658c345e9.html" title="Ddi media surface cenc status." alt="" coords="5,101,244,157"/>
+<area shape="rect" id="node4" href="$da/d62/struct___d_d_i___m_e_d_i_a___s_u_r_f_a_c_e___s_t_a_t_u_s___r_e_p_o_r_t_1_1___d_d_i___m_e_d_i_a__689dede2493cbf4ef4c08d9744e3a5b1.html" title="Ddi media surface vpp status." alt="" coords="9,181,240,237"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="DdiEncodeAvc::SetupCodecPicture" name="DdiEncodeAvc::SetupCodecPicture">
+<area shape="rect" id="node1" title="Setup Codec Picture for AVC." alt="" coords="5,49,191,90"/>
+<area shape="rect" id="node2" href="$dd/dab/media__libva__common_8cpp.html#a657d73dd26a91b746552fe64b4c77fd3" title="Get surface from VA surface ID." alt="" coords="239,31,491,57"/>
+<area shape="rect" id="node5" href="$da/de1/class_ddi_media_base.html#a888d9b624ecede6ca0f4b0f44138d87f" title="Get Render Target Index." alt="" coords="253,81,477,108"/>
+<area shape="rect" id="node3" href="$d2/d46/media__libva__util_8cpp.html#af39e3b7b10fc72c0d236cebf73490fcb" title="Lock mutex." alt="" coords="547,5,713,32"/>
+<area shape="rect" id="node4" href="$d2/d46/media__libva__util_8cpp.html#ad5d3b7d7ae6bfdd11a5440bd64cdc872" title="Unlock mutex." alt="" coords="539,56,721,83"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="_CODECHAL_OS_GPU_CONTEXT" name="_CODECHAL_OS_GPU_CONTEXT">
+<area shape="rect" id="node1" title="Structure to Gpu context." alt="" coords="302,245,529,272"/>
+<area shape="rect" id="node2" href="$dd/de5/struct___a_l_l_o_c_a_t_i_o_n___l_i_s_t.html" title="Structure to Allocation List." alt="" coords="5,140,148,167"/>
+<area shape="rect" id="node3" href="$d4/d75/struct___p_a_t_c_h_l_o_c_a_t_i_o_n_l_i_s_t.html" title="Structure to patch location list." alt="" coords="173,140,335,167"/>
+<area shape="rect" id="node4" href="$db/d8b/structmos__linux__bo.html" title=" " alt="" coords="363,5,465,32"/>
+<area shape="rect" id="node5" href="$d2/da7/structmos__bufmgr.html" title=" " alt="" coords="359,140,453,167"/>
+<area shape="rect" id="node8" href="$d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html" title="Structure to Linux resource." alt="" coords="477,140,682,167"/>
+<area shape="rect" id="node6" href="$d3/d7b/struct___c_o_m_m_a_n_d___b_u_f_f_e_r.html" title="Structure to command buffer." alt="" coords="707,140,863,167"/>
+<area shape="rect" id="node7" href="$d2/de6/union___l_a_r_g_e___i_n_t_e_g_e_r.html" title=" " alt="" coords="717,5,853,32"/>
+</map>

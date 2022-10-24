@@ -1,0 +1,8 @@
+<map id="MediaLibvaCaps::GetDecConfigAttr" name="MediaLibvaCaps::GetDecConfigAttr">
+<area shape="rect" id="node1" title="Get attributes for a given decode config ID." alt="" coords="5,78,231,105"/>
+<area shape="rect" id="node2" href="$d2/d08/class_media_libva_caps.html#a1b50c67430d62443ff82f6b1109c3349" title="Return profile and entrypoint for a give config ID." alt="" coords="279,71,460,112"/>
+<area shape="rect" id="node3" href="$d2/d08/class_media_libva_caps.html#a8aa5341ce3622007abb5da3f4d9f51cc" title="Check entrypoint codec type." alt="" coords="508,37,728,79"/>
+<area shape="rect" id="node6" href="$d7/d40/class_media_libva_caps_cp_interface.html#afe2c71934f9e5d5ec25a46ae23b8ace3" title=" " alt="" coords="527,103,709,144"/>
+<area shape="rect" id="node4" href="$de/dc0/class_ddi_media_protected.html#a874f0176dc127bcdafab56afa8e033e1" title="Check VA entrypoint is supported or not." alt="" coords="776,5,953,47"/>
+<area shape="rect" id="node5" href="$de/dc0/class_ddi_media_protected.html#ac40b63a297f412229ef30fb153ade1a8" title="Get singleton object." alt="" coords="795,71,935,112"/>
+</map>

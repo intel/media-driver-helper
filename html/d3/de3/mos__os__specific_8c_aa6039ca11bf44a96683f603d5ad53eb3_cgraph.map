@@ -1,0 +1,46 @@
+<map id="Linux_InitContext" name="Linux_InitContext">
+<area shape="rect" id="node1" title="Init Linux context." alt="" coords="5,908,128,935"/>
+<area shape="rect" id="node2" href="$d3/de3/mos__os__specific_8c.html#a3514da4783bbb78d9b3dd54397331c64" title=" " alt="" coords="239,5,320,32"/>
+<area shape="rect" id="node3" href="$dc/dfc/xf86drm_8c.html#ae3c1c49d03f8a0f8b71de1f5f574a6bd" title=" " alt="" coords="753,360,821,387"/>
+<area shape="rect" id="node5" href="$d0/de5/hwinfo__linux_8c.html#a315ff23fa28ab4f88e290d4486469d4d" title=" " alt="" coords="213,781,345,808"/>
+<area shape="rect" id="node7" href="$d3/de3/mos__os__specific_8c.html#af543e54556f76e87f60599969a971b94" title="Destroy Linux context." alt="" coords="227,233,332,260"/>
+<area shape="rect" id="node10" href="$d3/de3/mos__os__specific_8c.html#a8deaca90dde0b6865bfcc39ad5ebf9b1" title="Wait and release command buffer." alt="" coords="679,549,896,576"/>
+<area shape="rect" id="node17" href="$d3/de3/mos__os__specific_8c.html#adca4071d6509d6c07c18c95f6d29946b" title="Flush Command Buffer." alt="" coords="187,832,371,859"/>
+<area shape="rect" id="node18" href="$d3/de3/mos__os__specific_8c.html#a906b3ebc357f68463e69e51658ead6f4" title="Unified OS get command buffer." alt="" coords="193,680,366,707"/>
+<area shape="rect" id="node21" href="$d3/de3/mos__os__specific_8c.html#ab64028ef64ba071cc7cceba678ec85b9" title="Get DMA Buffer ID." alt="" coords="210,883,349,909"/>
+<area shape="rect" id="node22" href="$d3/de3/mos__os__specific_8c.html#a436500bf2894a1a590ed7ba8dad26fc6" title=" " alt="" coords="184,933,375,960"/>
+<area shape="rect" id="node23" href="$d3/de3/mos__os__specific_8c.html#ab7d7b97c04a4977affe68630eefb6c56" title="Get GPU status tag for the given GPU context." alt="" coords="190,984,369,1011"/>
+<area shape="rect" id="node24" href="$d3/de3/mos__os__specific_8c.html#ade072a6844423bd86d6cf9af3bbb8628" title="Get GPU tag for the given GPU context from the status buffer." alt="" coords="214,1035,345,1061"/>
+<area shape="rect" id="node27" href="$d3/de3/mos__os__specific_8c.html#a41a4f3592c908aa755201564964e4a67" title=" " alt="" coords="202,1085,357,1112"/>
+<area shape="rect" id="node28" href="$d3/de3/mos__os__specific_8c.html#a3b6c740ab9b29ddd6c661f483d1a7f6c" title="Increment GPU status tag for the given GPU context." alt="" coords="192,1136,367,1163"/>
+<area shape="rect" id="node29" href="$d3/de3/mos__os__specific_8c.html#ac9a212285152954a473c1f0e357b590c" title="Init command buffer pool." alt="" coords="198,1187,361,1213"/>
+<area shape="rect" id="node30" href="$d3/de3/mos__os__specific_8c.html#a1549b06cd034a193d76320f5a2c691ef" title="Initialize the GPU Status Buffer." alt="" coords="208,731,351,757"/>
+<area shape="rect" id="node31" href="$d3/de3/mos__os__specific_8c.html#a0ed49569d207f5db4c9fad78f1f74fcf" title="Insert command buffer." alt="" coords="183,629,375,656"/>
+<area shape="rect" id="node33" href="$d3/de3/mos__os__specific_8c.html#a37323547f146044519e318db37cef281" title="Linux Refresh." alt="" coords="227,1237,331,1264"/>
+<area shape="rect" id="node34" href="$d3/de3/mos__os__specific_8c.html#a96ebb7a80eb07feb3ee365f609c20a32" title="Get unused command buffer space." alt="" coords="184,1288,375,1315"/>
+<area shape="rect" id="node35" href="$d3/de3/mos__os__specific_8c.html#a780eb69a0920cb9c2cbd7750d6a216d6" title="Set the DMA Buffer ID." alt="" coords="210,1339,349,1365"/>
+<area shape="rect" id="node36" href="$d3/de3/mos__os__specific_8c.html#a27c41f55d2fd43c4f77d211d6b3b4f70" title="Set the DMA Kernel ID." alt="" coords="185,1389,374,1416"/>
+<area shape="rect" id="node37" href="$de/d47/i915__production_2mos__bufmgr_8c.html#ad6b43bf11356e5cdec681c4b7570648e" title=" " alt="" coords="194,1441,365,1482"/>
+<area shape="rect" id="node38" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a520b7a5659d8df915cb4627a1b250c22" title=" " alt="" coords="204,1506,355,1547"/>
+<area shape="rect" id="node39" href="$de/d47/i915__production_2mos__bufmgr_8c.html#af5ba192f61d54bb061238b86fb060c46" title=" " alt="" coords="193,469,365,496"/>
+<area shape="rect" id="node42" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a03efa564a33b8f58908e6670831ea4ef" title=" " alt="" coords="181,528,378,555"/>
+<area shape="rect" id="node43" href="$de/d47/i915__production_2mos__bufmgr_8c.html#aac2c92c9f674b3ccd915faa3764204af" title=" " alt="" coords="458,360,603,387"/>
+<area shape="rect" id="node44" href="$d3/de3/mos__os__specific_8c.html#a017de8b597c5b526b61a68be36e94fea" title="Clear Gpu Context." alt="" coords="176,1572,383,1599"/>
+<area shape="rect" id="node4" href="$dc/dfc/xf86drm_8c.html#ac49c32891ff1d2f2a7cbb33d520d9658" title=" " alt="" coords="977,360,1070,387"/>
+<area shape="rect" id="node6" href="$d0/de5/hwinfo__linux_8c.html#a4d8053045501bb70e8206f0574c71b48" title=" " alt="" coords="453,832,608,859"/>
+<area shape="rect" id="node8" href="$d3/de3/mos__os__specific_8c.html#a8a5b78e2fa542ce643f63c5a534956fe" title=" " alt="" coords="487,309,575,336"/>
+<area shape="rect" id="node9" href="$d3/de3/mos__os__specific_8c.html#a4c99f3b3f65823152fdf10a10bc01b4f" title="Release command buffer pool." alt="" coords="434,259,627,285"/>
+<area shape="rect" id="node13" href="$d3/de3/mos__os__specific_8c.html#a3e21689a9fb7cad8c5ab329659fee6e2" title="Release the GPU Status Buffer." alt="" coords="701,309,874,336"/>
+<area shape="rect" id="node15" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a1a59eebcb8b4cc8f35dd6ad467583377" title=" " alt="" coords="441,157,620,184"/>
+<area shape="rect" id="node16" href="$de/d47/i915__production_2mos__bufmgr_8c.html#adbe98ee5f7816a12a295e6876c7478d0" title=" " alt="" coords="455,208,607,235"/>
+<area shape="rect" id="node11" href="$d1/d60/mos__bufmgr__api_8c.html#a3f50be67296c219589a0953fb792dca4" title=" " alt="" coords="952,549,1095,576"/>
+<area shape="rect" id="node12" href="$d1/d60/mos__bufmgr__api_8c.html#a2684cbc7d8463456345f52cf3e470896" title=" " alt="" coords="944,455,1103,481"/>
+<area shape="rect" id="node14" href="$d1/d60/mos__bufmgr__api_8c.html#a47260ddcd6e035fa5384ab0a03d34f3d" title=" " alt="" coords="966,309,1081,336"/>
+<area shape="rect" id="node19" href="$d1/d60/mos__bufmgr__api_8c.html#af8b481d73fdffe558648a023e8c2bfa8" title=" " alt="" coords="479,781,582,808"/>
+<area shape="rect" id="node20" href="$d1/d60/mos__bufmgr__api_8c.html#a9a16cb939a463525c3efb4e95527d49e" title=" " alt="" coords="481,731,581,757"/>
+<area shape="rect" id="node25" href="$d3/de3/mos__os__specific_8c.html#a1d516de6e2f97c094e98dde34baeddc4" title=" " alt="" coords="455,1035,606,1061"/>
+<area shape="rect" id="node26" href="$d0/d0e/class_os_context_specific.html#a7771d67c314bc3af60b57f458e97cea1" title=" " alt="" coords="718,1027,857,1069"/>
+<area shape="rect" id="node32" href="$d3/de3/mos__os__specific_8c.html#ad7cb824d8d496425810e1b8eec36c915" title="Wait for the fetch command." alt="" coords="431,629,631,656"/>
+<area shape="rect" id="node40" href="$de/d9d/i915_2mos__bufmgr_8c.html#a123c3dd44eb62ef541d693ca59a155b6" title=" " alt="" coords="450,462,611,503"/>
+<area shape="rect" id="node41" href="$de/d9d/i915_2mos__bufmgr_8c.html#a8e7bc54b8b548d3c802e117c9e964305" title=" " alt="" coords="705,469,870,496"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="DdiMedia_DestroyBufFromVABufferID" name="DdiMedia_DestroyBufFromVABufferID">
+<area shape="rect" id="node1" title="Destroy buffer from VA buffer ID." alt="" coords="5,64,245,91"/>
+<area shape="rect" id="node2" href="$d2/d46/media__libva__util_8cpp.html#af39e3b7b10fc72c0d236cebf73490fcb" title="Lock mutex." alt="" coords="307,5,473,32"/>
+<area shape="rect" id="node3" href="$d2/d46/media__libva__util_8cpp.html#adc43f9cf156a52bc03cf1e230c4f7cc6" title="Release pmedia buffer from heap." alt="" coords="293,57,487,98"/>
+<area shape="rect" id="node4" href="$d2/d46/media__libva__util_8cpp.html#ad5d3b7d7ae6bfdd11a5440bd64cdc872" title="Unlock mutex." alt="" coords="299,123,481,149"/>
+</map>

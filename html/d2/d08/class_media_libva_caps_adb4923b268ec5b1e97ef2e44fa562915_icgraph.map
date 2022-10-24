@@ -1,0 +1,52 @@
+<map id="MediaLibvaCaps::IsHevcProfile" name="MediaLibvaCaps::IsHevcProfile">
+<area shape="rect" id="node1" title="Check if the give profile is HEVC." alt="" coords="1575,694,1773,721"/>
+<area shape="rect" id="node2" href="$d2/d08/class_media_libva_caps.html#a5a9eb7a75e9aa39aa650b2319ddc8217" title="Check the encode RT format according to platform and encode format." alt="" coords="1309,621,1493,663"/>
+<area shape="rect" id="node3" href="$d2/d08/class_media_libva_caps.html#a075e6647c6c2d28338ae374d242e203d" title="Create and intialize an attribute vector give encode profile and entrypoint." alt="" coords="1043,512,1228,553"/>
+<area shape="rect" id="node4" href="$d5/d0b/class_media_libva_caps_g11.html#a262c2954e0c7b3ca3bd224d086097616" title="Create and intialize an attribute vector give encode profile and entrypoint." alt="" coords="812,163,960,204"/>
+<area shape="rect" id="node33" href="$d2/d08/class_media_libva_caps.html#a5722b5ea9c5a06b608b3b03074476fed" title="Create and intialize an attribute array give decode profile and entrypoint." alt="" coords="1043,963,1228,1004"/>
+<area shape="rect" id="node44" href="$d2/deb/class_media_libva_caps_g8.html#a14188bd34304eceb8cfcaaf7296ba3c7" title="Return the platform specific value by given attribute type." alt="" coords="1296,687,1507,728"/>
+<area shape="rect" id="node45" href="$dc/d17/class_media_libva_caps_g10.html#a52f648d3227854b482f042ed504f04ad" title=" " alt="" coords="1317,752,1485,793"/>
+<area shape="rect" id="node46" href="$da/dde/class_media_libva_caps_g9.html#ac917bbf0579e55ec4a39621fd93e51f0" title=" " alt="" coords="1296,817,1507,859"/>
+<area shape="rect" id="node47" href="$d5/d0b/class_media_libva_caps_g11.html#afc26f917abb592c3604f19acecd0b24e" title=" " alt="" coords="1051,320,1219,361"/>
+<area shape="rect" id="node48" href="$d2/d08/class_media_libva_caps.html#a9af1e1754e0b51d0d40eb55272766733" title="Get process rate for a given config ID." alt="" coords="1276,883,1527,910"/>
+<area shape="rect" id="node49" href="$d2/d08/class_media_libva_caps.html#ad5a394aeb1cc307b36e17c43ffdf4b4b" title="Get surface attributes for a given config ID." alt="" coords="1300,935,1503,976"/>
+<area shape="rect" id="node50" href="$d5/d0b/class_media_libva_caps_g11.html#a6d3ad31c7bc6b99a10b76d222bc5461d" title="Get surface attributes for a given config ID." alt="" coords="1323,1000,1480,1041"/>
+<area shape="rect" id="node27" href="$da/dc3/class_media_libva_caps_g12.html#a12e44d36ad44acb967226bc443f1fd1b" title="Create and intialize an attribute vector give encode profile and entrypoint." alt="" coords="812,1372,960,1413"/>
+<area shape="rect" id="node31" href="$d2/d08/class_media_libva_caps.html#aa9e9824108265e4c398069e93b7d6ce9" title="Create encode config by given attributes." alt="" coords="1043,1335,1228,1376"/>
+<area shape="rect" id="node8" href="$d2/d08/class_media_libva_caps.html#a8892fe3e8f184a78a5ad5121a52f3127" title="Initialize AVC Low&#45;power encode profiles, entrypoints and attributes." alt="" coords="523,536,719,577"/>
+<area shape="rect" id="node14" href="$d2/d08/class_media_libva_caps.html#a52e7dae96bf620751a26af17e316864b" title="Initialize AVC encode profiles, entrypoints and attributes." alt="" coords="523,1176,719,1217"/>
+<area shape="rect" id="node17" href="$dc/d17/class_media_libva_caps_g10.html#a5c3461b107c3cde46dcf80b6952473da" title="Initialize AVC encode profiles, entrypoints and attributes." alt="" coords="788,359,984,400"/>
+<area shape="rect" id="node18" href="$dc/d17/class_media_libva_caps_g10.html#a2ebad69486cd6703ba2a0b19e80e0edf" title="Initialize HEVC low&#45;power encode profiles, entrypoints and attributes." alt="" coords="777,424,995,465"/>
+<area shape="rect" id="node19" href="$d2/d08/class_media_libva_caps.html#af2872da609f2ba24f64cd5c28057f5a6" title="Initialize HEVC encode profiles, entrypoints and attributes." alt="" coords="796,541,976,583"/>
+<area shape="rect" id="node22" href="$dc/d17/class_media_libva_caps_g10.html#a1969b41e1f2814e0a405f5ede6aec122" title="Initialize HEVC encode profiles, entrypoints and attributes." alt="" coords="785,228,987,269"/>
+<area shape="rect" id="node23" href="$d2/d08/class_media_libva_caps.html#a20a957b222d0cc3fea78a0c5290c4680" title="Initialize JPEG encode profiles, entrypoints and attributes." alt="" coords="531,653,710,695"/>
+<area shape="rect" id="node24" href="$d2/d08/class_media_libva_caps.html#a4ad70d4f27a26026c4a97ffd61df1f11" title="Initialize MPEG2 encode profiles, entrypoints and attributes." alt="" coords="525,719,716,760"/>
+<area shape="rect" id="node25" href="$d2/d08/class_media_libva_caps.html#ab6c167343ea5a084ea4672ecbde859ea" title="Initialize VP8 encode profiles, entrypoints and attributes." alt="" coords="521,784,720,825"/>
+<area shape="rect" id="node26" href="$dc/d17/class_media_libva_caps_g10.html#a5c79e5fce42f5d05ff59a1839e742b0a" title="Initialize VP9 encode profiles, entrypoints and attributes." alt="" coords="787,293,985,335"/>
+<area shape="rect" id="node5" href="$d5/d0b/class_media_libva_caps_g11.html#afb7d51788cbd63123e4ef8d041f81754" title="Initialize HEVC low&#45;power encode profiles, entrypoints and attributes." alt="" coords="512,71,729,112"/>
+<area shape="rect" id="node7" href="$d5/d0b/class_media_libva_caps_g11.html#af5352bc7670eb73f53c8ba9446342d78" title="Initialize VP9 encode profiles, entrypoints and attributes." alt="" coords="521,5,720,47"/>
+<area shape="rect" id="node6" href="$d5/d0b/class_media_libva_caps_g11.html#a4716bad4c17d14137e4ad92de82d1eb6" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="285,719,437,760"/>
+<area shape="rect" id="node9" href="$dc/d17/class_media_libva_caps_g10.html#afdc72c9aa3e57b2529e8fa0c3ff7cb5e" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="285,653,437,695"/>
+<area shape="rect" id="node11" href="$da/dde/class_media_libva_caps_g9.html#ab3f2550edcbfcd2dc9040f5049a6295e" title="Load profile entry points." alt="" coords="259,784,464,825"/>
+<area shape="rect" id="node13" href="$da/dc3/class_media_libva_caps_g12.html#a3e807a277d4303b94383715443b1a1dd" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="285,1012,437,1053"/>
+<area shape="rect" id="node10" href="$dc/d17/class_media_libva_caps_g10.html#afc1ed2c6e3955217347e030cce4beb79" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="25,661,191,687"/>
+<area shape="rect" id="node12" href="$da/dde/class_media_libva_caps_g9.html#adfd36ade10ab10c9f63410dd687cbef0" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="29,791,187,818"/>
+<area shape="rect" id="node15" href="$d2/deb/class_media_libva_caps_g8.html#aa584ccc5f48b4ee6fd7ef8d9061f93f4" title="Load profile entry points." alt="" coords="259,881,464,923"/>
+<area shape="rect" id="node16" href="$d2/deb/class_media_libva_caps_g8.html#a880b50bf03eb494dd709bcd5fef27db1" title="Constructor." alt="" coords="5,881,211,923"/>
+<area shape="rect" id="node20" href="$d5/d0b/class_media_libva_caps_g11.html#ad1f15ec34bf5bd1aad8464ebda7ce910" title="Initialize HEVC encode profiles, entrypoints and attributes." alt="" coords="519,340,722,381"/>
+<area shape="rect" id="node21" href="$da/dc3/class_media_libva_caps_g12.html#a39a3afd3ff53113d4f0681bc3da19b08" title="Initialize HEVC encode profiles, entrypoints and attributes." alt="" coords="519,1241,722,1283"/>
+<area shape="rect" id="node28" href="$da/dc3/class_media_libva_caps_g12.html#abcf2c10094ee5f7a3cc4f9bdbf478733" title="Initialize HEVC low&#45;power encode profiles, entrypoints and attributes." alt="" coords="512,1372,729,1413"/>
+<area shape="rect" id="node29" href="$d8/deb/class_media_libva_caps_p_v_c.html#acc7785084990381544dfd39b496a69ba" title="Initialize HEVC low&#45;power encode profiles, entrypoints and attributes." alt="" coords="512,1437,729,1479"/>
+<area shape="rect" id="node30" href="$da/dc3/class_media_libva_caps_g12.html#a3cbcabd16c09c21addfe365dcc7dc559" title="Initialize VP9 encode profiles, entrypoints and attributes." alt="" coords="521,1503,720,1544"/>
+<area shape="rect" id="node32" href="$d2/d08/class_media_libva_caps.html#a91c79b3b90ed916df576ccd510225c00" title="Create a configuration for the encode/decode/vp pipeline." alt="" coords="787,1438,985,1465"/>
+<area shape="rect" id="node34" href="$d5/d0b/class_media_libva_caps_g11.html#a8a880efa9ed21c86e6e0e569796e491a" title="Create and intialize an attribute array give decode profile and entrypoint." alt="" coords="812,1181,960,1223"/>
+<area shape="rect" id="node35" href="$d2/d08/class_media_libva_caps.html#a2ac40f246a3d98a1d234afce37bb63ce" title="Initialize AVC decode profiles, entrypoints and attributes." alt="" coords="523,1111,719,1152"/>
+<area shape="rect" id="node36" href="$d2/d08/class_media_libva_caps.html#a8d05d1b646896337ced3d577dc9fd394" title="Initialize HEVC decode profiles, entrypoints and attributes for specified hevc profile." alt="" coords="781,963,991,1004"/>
+<area shape="rect" id="node39" href="$d2/d08/class_media_libva_caps.html#ae581ec360cac4766ebb67ca6c75bdc86" title="Initialize JPEG decode profiles, entrypoints and attributes." alt="" coords="531,471,710,512"/>
+<area shape="rect" id="node40" href="$d2/d08/class_media_libva_caps.html#a180d675a54291e7d46f52da0633b44af" title="Initialize MPEG2 decode profiles, entrypoints and attributes." alt="" coords="525,849,716,891"/>
+<area shape="rect" id="node41" href="$d2/d08/class_media_libva_caps.html#aace1c9e529e67bafd3ed5b65671562c0" title="Initialize VC1 decode profiles, entrypoints and attributes." alt="" coords="521,915,720,956"/>
+<area shape="rect" id="node42" href="$d2/d08/class_media_libva_caps.html#a0ceba965d148ecce7d232997f311db4e" title="Initialize VP8 decode profiles, entrypoints and attributes." alt="" coords="521,980,720,1021"/>
+<area shape="rect" id="node43" href="$d2/d08/class_media_libva_caps.html#a9114d1256c8ec6d58b3de8eff7177c4b" title="Initialize VP9 decode profiles, entrypoints and attributes." alt="" coords="521,1045,720,1087"/>
+<area shape="rect" id="node37" href="$d2/d08/class_media_libva_caps.html#aeacf94ed5c14f431aa98a2a5b3da9979" title="Initialize HEVC decode profiles, entrypoints and attributes." alt="" coords="531,405,711,447"/>
+<area shape="rect" id="node38" href="$da/dc3/class_media_libva_caps_g12.html#aea3b3f33ca6d0fbfbd08d5f4684679c9" title="Initialize HEVC decode profiles, entrypoints and attributes." alt="" coords="519,1307,722,1348"/>
+</map>

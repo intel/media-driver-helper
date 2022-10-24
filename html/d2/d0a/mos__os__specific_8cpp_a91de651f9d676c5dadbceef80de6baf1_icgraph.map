@@ -1,0 +1,4 @@
+<map id="Mos_Specific_ResizeCommandBufferAndPatchList" name="Mos_Specific_ResizeCommandBufferAndPatchList">
+<area shape="rect" id="node1" title="Resizes the buffer to be used for rendering GPU commands." alt="" coords="227,5,433,47"/>
+<area shape="rect" id="node2" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Linux OS initilization." alt="" coords="5,13,179,39"/>
+</map>

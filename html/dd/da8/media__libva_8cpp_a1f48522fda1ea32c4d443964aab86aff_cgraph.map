@@ -1,0 +1,5 @@
+<map id="DdiMedia_GetCtxTypeFromVABufferID" name="DdiMedia_GetCtxTypeFromVABufferID">
+<area shape="rect" id="node1" title="Get ctx type from VA buffer ID." alt="" coords="5,31,251,57"/>
+<area shape="rect" id="node2" href="$d2/d46/media__libva__util_8cpp.html#af39e3b7b10fc72c0d236cebf73490fcb" title="Lock mutex." alt="" coords="307,5,473,32"/>
+<area shape="rect" id="node3" href="$d2/d46/media__libva__util_8cpp.html#ad5d3b7d7ae6bfdd11a5440bd64cdc872" title="Unlock mutex." alt="" coords="299,56,481,83"/>
+</map>

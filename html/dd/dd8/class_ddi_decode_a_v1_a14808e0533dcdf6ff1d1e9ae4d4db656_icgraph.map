@@ -1,0 +1,4 @@
+<map id="DdiDecodeAV1::GetFormat" name="DdiDecodeAV1::GetFormat">
+<area shape="rect" id="node1" title="Get decode format." alt="" coords="280,5,460,32"/>
+<area shape="rect" id="node2" href="$dd/dd8/class_ddi_decode_a_v1.html#abb58d8c0ac438a10f0bde32b0ec13210" title="Set common decode param setting for each codec." alt="" coords="5,5,232,32"/>
+</map>

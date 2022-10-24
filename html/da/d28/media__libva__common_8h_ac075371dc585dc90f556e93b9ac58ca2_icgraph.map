@@ -1,0 +1,32 @@
+<map id="DdiMedia_MediaSurfaceToMosResource" name="DdiMedia_MediaSurfaceToMosResource">
+<area shape="rect" id="node1" title="Media surface to mos resource." alt="" coords="1733,450,1935,491"/>
+<area shape="rect" id="node2" href="$dd/da8/media__libva_8cpp.html#a2bfa7cbc6b7a337f516fe3d870f85769" title="Decompress a compressed surface." alt="" coords="1447,5,1685,32"/>
+<area shape="rect" id="node3" href="$d4/da7/class_ddi_encode_avc_fei.html#a8aa1bf8158e271e1a326867b7d02d9ee" title="Do Encode in codechal." alt="" coords="1473,57,1659,98"/>
+<area shape="rect" id="node4" href="$d1/d83/class_ddi_encode_hevc_fei.html#a9cb0aa8e0b180df2c4d1f680d6f8edd2" title="Do Encode in codechal." alt="" coords="1475,122,1657,163"/>
+<area shape="rect" id="node5" href="$df/d0d/class_ddi_encode_a_v1.html#ae5773abb89151b59bb8f2cf45a92166f" title="Encode in CodecHal for Hevc." alt="" coords="1452,188,1680,215"/>
+<area shape="rect" id="node6" href="$d0/d2f/class_ddi_encode_avc.html#ac7b44bd8133a4e8962220b1475936998" title="Do Encode in codechal." alt="" coords="1454,239,1678,265"/>
+<area shape="rect" id="node7" href="$db/d32/class_ddi_encode_hevc.html#a49f7ee90e0ba21a5a80fb546d380ef16" title="Encode in CodecHal for Hevc." alt="" coords="1451,289,1681,316"/>
+<area shape="rect" id="node8" href="$d7/daa/class_ddi_encode_jpeg.html#a72e563fe8f05f3440415fba1e6aaef14" title="Encode in CodecHal for Jpeg." alt="" coords="1451,340,1681,367"/>
+<area shape="rect" id="node9" href="$d7/dda/class_ddi_encode_mpeg2.html#a2885b87d6b3567a8aa8b1ff74c27e3fd" title="Encode in CodecHal for Mpeg2." alt="" coords="1473,391,1659,433"/>
+<area shape="rect" id="node10" href="$db/d0d/class_ddi_encode_vp8.html#a68b02603d138237a0c968adc61f40b2e" title="Encode in CodecHal for Vp8." alt="" coords="1453,457,1679,484"/>
+<area shape="rect" id="node11" href="$dc/d76/class_ddi_encode_vp9.html#ac0e6e63feae10b5b6e807d152343a4f4" title="Encode in CodecHal for Vp9." alt="" coords="1453,508,1679,535"/>
+<area shape="rect" id="node12" href="$df/dc7/class_ddi_media_decode.html#acdd3e490ba7e318567b4acf67e84e1bf" title="Get dummy reference from DPB." alt="" coords="1469,559,1663,601"/>
+<area shape="rect" id="node13" href="$df/dc7/class_ddi_media_decode.html#a28d720aad0b08022b2d10a9f216252cf" title="Parse the processing buffer if needed." alt="" coords="1453,625,1679,666"/>
+<area shape="rect" id="node14" href="$d4/da7/class_ddi_encode_avc_fei.html#ad395e4cff671796973090feaf761aae7" title="Parse statistics data to preenc parameters." alt="" coords="1467,690,1665,731"/>
+<area shape="rect" id="node15" href="$df/dc7/class_ddi_media_decode.html#a9ed6afcaa186cd0686a57b8da7c02d99" title="Set common decode param setting for each codec." alt="" coords="1470,807,1662,849"/>
+<area shape="rect" id="node23" href="$dd/dd8/class_ddi_decode_a_v1.html#abb58d8c0ac438a10f0bde32b0ec13210" title="Set common decode param setting for each codec." alt="" coords="1171,684,1397,711"/>
+<area shape="rect" id="node29" href="$da/d9e/class_ddi_decode_j_p_e_g.html#ad2bc707faa884959214d14f86ef424d3" title="Set common decode param setting for each codec." alt="" coords="1471,873,1661,914"/>
+<area shape="rect" id="node30" href="$d0/d9e/class_ddi_decode_v_c1.html#a2fc4032332849cb88067342dedc7d1cd" title="Set common decode param setting for each codec." alt="" coords="1453,939,1679,965"/>
+<area shape="rect" id="node16" href="$df/dc7/class_ddi_media_decode.html#a2d6732fac863a69f25964462a22a72b4" title="Make the end of rendering for a picture." alt="" coords="1188,735,1380,761"/>
+<area shape="rect" id="node24" href="$d1/d8f/class_ddi_decode_a_v_c.html#a3ad60399b91d34159645ba14da10dd7c" title="Set common decode param setting for each codec." alt="" coords="1169,785,1399,812"/>
+<area shape="rect" id="node25" href="$d2/d6b/class_ddi_decode_h_e_v_c.html#a3bd8714898ab2e34e36e5fb4a6f69167" title="Set common decode param setting for each codec." alt="" coords="1187,837,1381,878"/>
+<area shape="rect" id="node26" href="$de/de1/class_ddi_decode_m_p_e_g2.html#a9301bfae787ac9a3fd990809029988ef" title="Set common decode param setting for each codec." alt="" coords="1183,902,1385,943"/>
+<area shape="rect" id="node27" href="$de/dd0/class_ddi_decode_v_p8.html#acc1fbdfb2ccfb8bf934f28338ca88471" title="Set common decode param setting for each codec." alt="" coords="1171,968,1397,995"/>
+<area shape="rect" id="node28" href="$da/d51/class_ddi_decode_v_p9.html#a71cc1f1e9e5aefe5f47e096906a1b447" title="Set common decode param setting for each codec." alt="" coords="1171,1019,1397,1045"/>
+<area shape="rect" id="node17" href="$da/d25/media__libva__decoder_8cpp.html#a78c1c188a7b54ff86ef349df5ca25159" title="End picture." alt="" coords="965,735,1121,761"/>
+<area shape="rect" id="node18" href="$dd/da8/media__libva_8cpp.html#aab87a77dd563bf28bb8747f7f253aa46" title="Make the end of rendering for a picture." alt="" coords="771,735,917,761"/>
+<area shape="rect" id="node19" href="$dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="565,735,723,761"/>
+<area shape="rect" id="node20" href="$dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,735,517,761"/>
+<area shape="rect" id="node21" href="$dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,735,332,761"/>
+<area shape="rect" id="node22" href="$dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,735,187,761"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="DdiMediaUtil_LockBuffer" name="DdiMediaUtil_LockBuffer">
+<area shape="rect" id="node1" title="Lock buffer." alt="" coords="745,195,908,221"/>
+<area shape="rect" id="node2" href="$df/dc7/class_ddi_media_decode.html#a137f37e784c53a765f53c0ee3c2793ad" title="Allocate Bs buffer." alt="" coords="483,5,689,32"/>
+<area shape="rect" id="node5" href="$df/dc7/class_ddi_media_decode.html#abcc4e92494aef68ba41fdfb5caebcbb1" title="Combine the Bitstream Before decoding execution." alt="" coords="475,57,697,98"/>
+<area shape="rect" id="node6" href="$d3/d19/class_ddi_encode_base.html#a53c6433c524fbcb2d42ca661662c2cf4" title="Report Status for Enc buffer." alt="" coords="494,122,678,163"/>
+<area shape="rect" id="node8" href="$d3/d19/class_ddi_encode_base.html#ae892c94a3ad459eea7d9a41e382f1716" title="Report Status for PreEnc buffer." alt="" coords="484,187,688,229"/>
+<area shape="rect" id="node10" href="$da/d9e/class_ddi_decode_j_p_e_g.html#ad2bc707faa884959214d14f86ef424d3" title="Set common decode param setting for each codec." alt="" coords="491,253,681,294"/>
+<area shape="rect" id="node11" href="$d3/d19/class_ddi_encode_base.html#a02b410b2e3af877e7fc9af92a9a798ef" title="Report Status for coded buffer." alt="" coords="487,319,685,345"/>
+<area shape="rect" id="node13" href="$db/d0d/class_ddi_encode_vp8.html#a636ac81474550d06eb7f386b52073039" title="Report Status for coded buffer." alt="" coords="490,369,682,396"/>
+<area shape="rect" id="node3" href="$df/dc7/class_ddi_media_decode.html#a9c6c247aea2c36731d7d7cace20637e7" title="Create buffer in ddi decode context." alt="" coords="222,5,421,32"/>
+<area shape="rect" id="node4" href="$da/d25/media__libva__decoder_8cpp.html#a70f32b808b594004ae62c45408973076" title="Create buffer." alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node7" href="$dc/da2/media__libva__encoder_8cpp.html#a954d6c33a9b9bdae559debfff9282dd4" title="Encode status report." alt="" coords="226,129,417,156"/>
+<area shape="rect" id="node9" href="$dc/da2/media__libva__encoder_8cpp.html#af5167431203e047b81f339eed2858e0f" title="Pre encode status report." alt="" coords="216,195,427,221"/>
+<area shape="rect" id="node12" href="$dc/da2/media__libva__encoder_8cpp.html#a5703a3b6cacce7738876817fbcacee27" title="Status report." alt="" coords="237,319,405,345"/>
+</map>

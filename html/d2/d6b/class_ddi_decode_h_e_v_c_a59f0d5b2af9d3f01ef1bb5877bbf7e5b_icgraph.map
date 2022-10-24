@@ -1,0 +1,6 @@
+<map id="DdiDecodeHEVC::SetupCodecPicture" name="DdiDecodeHEVC::SetupCodecPicture">
+<area shape="rect" id="node1" title="Setup Codec Picture for Hevc." alt="" coords="280,57,480,98"/>
+<area shape="rect" id="node2" href="$d2/d6b/class_ddi_decode_h_e_v_c.html#ab6c4dd8cff3a437104ae0e52be7fad1c" title="ParsePicParam for HEVC." alt="" coords="5,5,232,32"/>
+<area shape="rect" id="node3" href="$db/db1/class_ddi_decode_h_e_v_c_g11.html#a62fc00b78efb413b1fcaf0baadb4bebf" title="ParsePicParam for HEVC." alt="" coords="15,57,222,98"/>
+<area shape="rect" id="node4" href="$de/d8b/class_ddi_decode_h_e_v_c_g12.html#a32cee75aa83816f948fef3f11d4b1786" title="ParsePicParam for HEVC." alt="" coords="15,122,222,163"/>
+</map>

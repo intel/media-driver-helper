@@ -1,0 +1,6 @@
+<map id="DdiDecodeVP8::DestroyContext" name="DdiDecodeVP8::DestroyContext">
+<area shape="rect" id="node1" title="Free the allocated resource related with the decode context." alt="" coords="5,13,213,39"/>
+<area shape="rect" id="node2" href="$df/dc7/class_ddi_media_decode.html#a54cd6cf916699c84f763ae467864be60" title="Free the allocated resource related with the decode context." alt="" coords="261,13,480,39"/>
+<area shape="rect" id="node3" href="$dd/d0b/media__libva__cp__interface_8cpp.html#a12a054af657cbd6d727f002da7b5e32e" title="Delete the MhwCpInterface Object." alt="" coords="528,13,679,39"/>
+<area shape="rect" id="node4" href="$d8/dc0/class_cp_interfaces.html#a21c7d0f03682562db58db144074bf7e4" title="Delete the DdiCpInterface Object." alt="" coords="727,5,865,47"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="OsContextSpecific::GetAuxTableMgr" name="OsContextSpecific::GetAuxTableMgr">
+<area shape="rect" id="node1" title=" " alt="" coords="699,71,837,112"/>
+<area shape="rect" id="node2" href="$dd/deb/class_graphics_resource_specific.html#a8e6ecb4d46d402fdf54c29b99c2798f2" title="Frees the specified resource with flag, if locked, unlocks it." alt="" coords="469,5,644,47"/>
+<area shape="rect" id="node3" href="$dd/db5/class_gpu_context_specific.html#ad2fa9ee2cb7a73d95a97e21b4dad6fd7" title="Map resources with aux plane to aux table." alt="" coords="464,71,649,112"/>
+<area shape="rect" id="node4" href="$d3/de3/mos__os__specific_8c.html#a4e1e3a6ca6b16f98a2a41e8e6f305dca" title="Free the resource." alt="" coords="463,137,651,163"/>
+<area shape="rect" id="node5" href="$d3/de3/mos__os__specific_8c.html#a205da0d4b968a5f5d117a42f246bddb9" title="Free OS resource." alt="" coords="227,100,415,141"/>
+<area shape="rect" id="node6" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,137,179,163"/>
+</map>

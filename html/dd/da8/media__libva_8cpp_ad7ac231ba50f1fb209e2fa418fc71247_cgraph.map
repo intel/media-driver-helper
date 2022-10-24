@@ -1,0 +1,6 @@
+<map id="DdiMedia_DestroyImageFromVAImageID" name="DdiMedia_DestroyImageFromVAImageID">
+<area shape="rect" id="node1" title="Destroy image from VA image ID." alt="" coords="5,57,199,98"/>
+<area shape="rect" id="node2" href="$d2/d46/media__libva__util_8cpp.html#af39e3b7b10fc72c0d236cebf73490fcb" title="Lock mutex." alt="" coords="269,5,435,32"/>
+<area shape="rect" id="node3" href="$d2/d46/media__libva__util_8cpp.html#a03d9125165567fdfed0d322d2872a6f0" title="Release PVA image from heap." alt="" coords="247,57,457,98"/>
+<area shape="rect" id="node4" href="$d2/d46/media__libva__util_8cpp.html#ad5d3b7d7ae6bfdd11a5440bd64cdc872" title="Unlock mutex." alt="" coords="261,123,443,149"/>
+</map>

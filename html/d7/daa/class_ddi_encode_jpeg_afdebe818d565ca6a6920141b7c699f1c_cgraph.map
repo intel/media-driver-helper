@@ -1,0 +1,9 @@
+<map id="DdiEncodeJpeg::ParsePicParams" name="DdiEncodeJpeg::ParsePicParams">
+<area shape="rect" id="node1" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="5,89,224,116"/>
+<area shape="rect" id="node2" href="$dd/dab/media__libva__common_8cpp.html#aef19397fb1fe1e9a4694affbbe354818" title="Get buffer from VA buffer ID." alt="" coords="272,31,503,57"/>
+<area shape="rect" id="node5" href="$dd/dab/media__libva__common_8cpp.html#a1ef1fe178002af993a537efd2d0ffd73" title="Media buffer to mos resource." alt="" coords="292,82,483,123"/>
+<area shape="rect" id="node6" href="$d3/d19/class_ddi_encode_base.html#a2e905ab028424536672b61b21dc9bed7" title="Remove Report Status from status report list." alt="" coords="288,147,487,189"/>
+<area shape="rect" id="node3" href="$d2/d46/media__libva__util_8cpp.html#af39e3b7b10fc72c0d236cebf73490fcb" title="Lock mutex." alt="" coords="567,5,734,32"/>
+<area shape="rect" id="node4" href="$d2/d46/media__libva__util_8cpp.html#ad5d3b7d7ae6bfdd11a5440bd64cdc872" title="Unlock mutex." alt="" coords="559,56,742,83"/>
+<area shape="rect" id="node7" href="$d3/d19/class_ddi_encode_base.html#a90464d1fd4dc9b02383885384b0fdf45" title="Get Size From Status Report Buffer." alt="" coords="551,147,751,189"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="mos_gem_bo_map_wc" name="mos_gem_bo_map_wc">
+<area shape="rect" id="node1" title=" " alt="" coords="465,111,620,138"/>
+<area shape="rect" id="node2" href="$dd/deb/class_graphics_resource_specific.html#a0d48916ebb42974b8ce740c5a763a34c" title="Locks a resource and returns a mapped system memory pointer." alt="" coords="235,5,409,47"/>
+<area shape="rect" id="node3" href="$d6/d1f/class_graphics_resource_specific_next.html#a249c6543451f45fa6a5f2e47a15e4cae" title="Locks a resource and returns a mapped system memory pointer." alt="" coords="235,71,409,112"/>
+<area shape="rect" id="node4" href="$d6/d1f/class_graphics_resource_specific_next.html#a90b39a3a6ef7f13704651356ec9ebff3" title="Lock External Resource." alt="" coords="228,136,416,177"/>
+<area shape="rect" id="node5" href="$d3/de3/mos__os__specific_8c.html#a169ccb3ed47bd8debfd7369d5d200889" title="Lock resource." alt="" coords="227,202,417,229"/>
+<area shape="rect" id="node6" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,202,179,229"/>
+</map>

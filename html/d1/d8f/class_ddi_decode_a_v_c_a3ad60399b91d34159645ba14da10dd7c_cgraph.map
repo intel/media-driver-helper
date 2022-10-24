@@ -1,0 +1,7 @@
+<map id="DdiDecodeAVC::SetDecodeParams" name="DdiDecodeAVC::SetDecodeParams">
+<area shape="rect" id="node1" title="Set common decode param setting for each codec." alt="" coords="5,71,235,98"/>
+<area shape="rect" id="node2" href="$df/dc7/class_ddi_media_decode.html#a9ed6afcaa186cd0686a57b8da7c02d99" title="Set common decode param setting for each codec." alt="" coords="283,64,475,105"/>
+<area shape="rect" id="node3" href="$dd/dab/media__libva__common_8cpp.html#af0abdf2326b439d693f70d8c3c4304bc" title="Media surface to mos resource." alt="" coords="523,5,724,47"/>
+<area shape="rect" id="node4" href="$df/dc7/class_ddi_media_decode.html#a694fc389f0621214e268910a75e06c9a" title="Get decode format." alt="" coords="528,71,719,98"/>
+<area shape="rect" id="node5" href="$de/d95/class_ddi_cp_interface.html#a0a79b30df5afe068113ef119ebb1f182" title=" " alt="" coords="534,123,713,164"/>
+</map>

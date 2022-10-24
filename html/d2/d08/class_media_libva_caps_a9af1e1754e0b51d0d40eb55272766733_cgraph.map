@@ -1,0 +1,18 @@
+<map id="MediaLibvaCaps::QueryProcessingRate" name="MediaLibvaCaps::QueryProcessingRate">
+<area shape="rect" id="node1" title="Get process rate for a given config ID." alt="" coords="5,278,256,305"/>
+<area shape="rect" id="node2" href="$d2/d08/class_media_libva_caps.html#a8f68f3c3f4b343ab19cdf8c26a4f6194" title="Return decode Mb processing rate on current platform." alt="" coords="304,5,532,47"/>
+<area shape="rect" id="node3" href="$d2/d08/class_media_libva_caps.html#af13a183fe0313c13317ad783257b5382" title="Return encode Mb processing rate on current platform." alt="" coords="304,71,532,112"/>
+<area shape="rect" id="node4" href="$d2/d08/class_media_libva_caps.html#a1b50c67430d62443ff82f6b1109c3349" title="Return profile and entrypoint for a give config ID." alt="" coords="327,136,509,177"/>
+<area shape="rect" id="node9" href="$d0/de5/hwinfo__linux_8c.html#a315ff23fa28ab4f88e290d4486469d4d" title=" " alt="" coords="352,202,484,229"/>
+<area shape="rect" id="node11" href="$d2/d08/class_media_libva_caps.html#a1b7270931314dd1255af48b18a0a4b04" title="Check if the give profile is AVC." alt="" coords="323,253,513,279"/>
+<area shape="rect" id="node12" href="$d2/d08/class_media_libva_caps.html#adb4923b268ec5b1e97ef2e44fa562915" title="Check if the give profile is HEVC." alt="" coords="319,303,517,330"/>
+<area shape="rect" id="node13" href="$d2/d08/class_media_libva_caps.html#a2fcaa8a043526b011f068e64730c35cc" title="Check if the give profile is JPEG." alt="" coords="319,354,517,381"/>
+<area shape="rect" id="node14" href="$d2/d08/class_media_libva_caps.html#a5a3b006eec2838fb97a0e64c1b11b533" title="Check if the give profile is MPEG2." alt="" coords="313,405,523,431"/>
+<area shape="rect" id="node15" href="$d2/d08/class_media_libva_caps.html#a179a06dc7c8771fc02fe3c6db9f5a2be" title="Check if the give profile is VP8." alt="" coords="321,455,515,482"/>
+<area shape="rect" id="node16" href="$d2/d08/class_media_libva_caps.html#a8a84b89588fe161e9ad6b9a33218b92b" title="Check if the give profile is VP9." alt="" coords="321,506,515,533"/>
+<area shape="rect" id="node5" href="$d2/d08/class_media_libva_caps.html#a8aa5341ce3622007abb5da3f4d9f51cc" title="Check entrypoint codec type." alt="" coords="580,71,800,112"/>
+<area shape="rect" id="node8" href="$d7/d40/class_media_libva_caps_cp_interface.html#afe2c71934f9e5d5ec25a46ae23b8ace3" title=" " alt="" coords="599,136,781,177"/>
+<area shape="rect" id="node6" href="$de/dc0/class_ddi_media_protected.html#a874f0176dc127bcdafab56afa8e033e1" title="Check VA entrypoint is supported or not." alt="" coords="848,39,1025,80"/>
+<area shape="rect" id="node7" href="$de/dc0/class_ddi_media_protected.html#ac40b63a297f412229ef30fb153ade1a8" title="Get singleton object." alt="" coords="867,104,1007,145"/>
+<area shape="rect" id="node10" href="$d0/de5/hwinfo__linux_8c.html#a4d8053045501bb70e8206f0574c71b48" title=" " alt="" coords="613,202,767,229"/>
+</map>

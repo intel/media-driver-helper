@@ -1,0 +1,4 @@
+<map id="Linux_GetGPUTag" name="Linux_GetGPUTag">
+<area shape="rect" id="node1" title="Get GPU tag for the given GPU context from the status buffer." alt="" coords="227,5,357,32"/>
+<area shape="rect" id="node2" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Linux OS initilization." alt="" coords="5,5,179,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="MediaLibvaCaps::GetMbProcessingRateDec" name="MediaLibvaCaps::GetMbProcessingRateDec">
+<area shape="rect" id="node1" title="Return decode Mb processing rate on current platform." alt="" coords="304,5,532,47"/>
+<area shape="rect" id="node2" href="$d2/d08/class_media_libva_caps.html#a9af1e1754e0b51d0d40eb55272766733" title="Get process rate for a given config ID." alt="" coords="5,13,256,39"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="DdiEncodeBase" name="DdiEncodeBase">
+<area shape="rect" id="node1" title="Ddi encode base." alt="" coords="160,157,275,184"/>
+<area shape="rect" id="node3" href="$df/d0d/class_ddi_encode_a_v1.html" title="Ddi encode AV1." alt="" coords="329,5,440,32"/>
+<area shape="rect" id="node4" href="$d0/d2f/class_ddi_encode_avc.html" title="Ddi encode AVC." alt="" coords="331,56,438,83"/>
+<area shape="rect" id="node6" href="$db/d32/class_ddi_encode_hevc.html" title="DDi encode HEVC." alt="" coords="328,107,441,133"/>
+<area shape="rect" id="node8" href="$d7/daa/class_ddi_encode_jpeg.html" title="Ddi encode JPEG." alt="" coords="329,157,441,184"/>
+<area shape="rect" id="node9" href="$d7/dda/class_ddi_encode_mpeg2.html" title="Ddi encode MPEG2." alt="" coords="323,208,447,235"/>
+<area shape="rect" id="node10" href="$db/d0d/class_ddi_encode_vp8.html" title=" " alt="" coords="331,259,439,285"/>
+<area shape="rect" id="node11" href="$dc/d76/class_ddi_encode_vp9.html" title="Ddi encode VP9." alt="" coords="331,309,439,336"/>
+<area shape="rect" id="node2" href="$da/de1/class_ddi_media_base.html" title="Ddi media base class." alt="" coords="5,157,112,184"/>
+<area shape="rect" id="node5" href="$d4/da7/class_ddi_encode_avc_fei.html" title="Ddi encode AVC FEI." alt="" coords="498,56,622,83"/>
+<area shape="rect" id="node7" href="$d1/d83/class_ddi_encode_hevc_fei.html" title="Ddi encode HEVC FEI." alt="" coords="495,107,625,133"/>
+</map>

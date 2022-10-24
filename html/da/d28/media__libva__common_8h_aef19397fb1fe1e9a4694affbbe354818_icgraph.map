@@ -1,0 +1,12 @@
+<map id="DdiMedia_GetBufferFromVABufferID" name="DdiMedia_GetBufferFromVABufferID">
+<area shape="rect" id="node1" title="Get buffer from VA buffer ID." alt="" coords="515,213,745,239"/>
+<area shape="rect" id="node2" href="$d4/da7/class_ddi_encode_avc_fei.html#abc4a04aa2096e986613c80236faccb95" title="Parse FEI picture parameters." alt="" coords="260,5,455,47"/>
+<area shape="rect" id="node4" href="$d1/d83/class_ddi_encode_hevc_fei.html#aff440b32487e9bd178de4c94388364d6" title="Parse FEI picture parameters." alt="" coords="257,71,458,112"/>
+<area shape="rect" id="node5" href="$df/d0d/class_ddi_encode_a_v1.html#ad57ec3db2053f23f0586f7f1c2561907" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="249,137,465,163"/>
+<area shape="rect" id="node6" href="$d0/d2f/class_ddi_encode_avc.html#a0b083316f81ecb7e3a1977aeb427b53c" title="Parse picture params." alt="" coords="251,187,463,214"/>
+<area shape="rect" id="node7" href="$d7/daa/class_ddi_encode_jpeg.html#afdebe818d565ca6a6920141b7c699f1c" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="248,238,467,265"/>
+<area shape="rect" id="node8" href="$db/d0d/class_ddi_encode_vp8.html#a3ac332bf2c62c4e334d4b98135053f79" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="250,289,465,315"/>
+<area shape="rect" id="node9" href="$dc/d76/class_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="250,339,465,366"/>
+<area shape="rect" id="node10" href="$d4/da7/class_ddi_encode_avc_fei.html#ad395e4cff671796973090feaf761aae7" title="Parse statistics data to preenc parameters." alt="" coords="259,391,456,432"/>
+<area shape="rect" id="node3" href="$d4/da7/class_ddi_encode_avc_fei.html#a4d1423381d32ad57679b4ffba967e61a" title="Parse misc parameters." alt="" coords="5,5,200,47"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="DdiDecodeHEVC" name="DdiDecodeHEVC">
+<area shape="rect" id="node1" title="Ddi decode HEVC." alt="" coords="101,155,223,181"/>
+<area shape="rect" id="node4" href="$db/db1/class_ddi_decode_h_e_v_c_g11.html" title="Ddi decode HEVC for gen11 specific." alt="" coords="5,229,151,256"/>
+<area shape="rect" id="node5" href="$de/d8b/class_ddi_decode_h_e_v_c_g12.html" title="Ddi decode HEVC for gen12 specific." alt="" coords="175,229,320,256"/>
+<area shape="rect" id="node2" href="$df/dc7/class_ddi_media_decode.html" title="Ddi media decode." alt="" coords="102,80,222,107"/>
+<area shape="rect" id="node3" href="$da/de1/class_ddi_media_base.html" title="Ddi media base class." alt="" coords="109,5,215,32"/>
+</map>

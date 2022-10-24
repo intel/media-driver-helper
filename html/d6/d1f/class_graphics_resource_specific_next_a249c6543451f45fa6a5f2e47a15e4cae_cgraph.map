@@ -1,0 +1,13 @@
+<map id="GraphicsResourceSpecificNext::Lock" name="GraphicsResourceSpecificNext::Lock">
+<area shape="rect" id="node1" title="Locks a resource and returns a mapped system memory pointer." alt="" coords="5,195,180,236"/>
+<area shape="rect" id="node2" href="$d6/d1f/class_graphics_resource_specific_next.html#a37f6fd764062869f8bde77f03e23e18e" title="Converts an OS specific resource to a MOS resource." alt="" coords="228,5,423,47"/>
+<area shape="rect" id="node3" href="$d2/dc9/class_os_context_specific_next.html#afa91282f7d5101a024a6bc857aa95059" title=" " alt="" coords="247,71,404,112"/>
+<area shape="rect" id="node4" href="$dd/d0a/class_mos_decompression_base.html#ae90346ae797cd5566de3046e50b17bf0" title="Media memory decompression." alt="" coords="242,136,409,177"/>
+<area shape="rect" id="node5" href="$d1/d60/mos__bufmgr__api_8c.html#a9a16cb939a463525c3efb4e95527d49e" title=" " alt="" coords="275,202,375,229"/>
+<area shape="rect" id="node6" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a90b3e4373eac1f4bfbfdf3eb1a11f023" title=" " alt="" coords="248,253,403,279"/>
+<area shape="rect" id="node10" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a4f1c2e6df9ddd73a1c85eced86a8e988" title=" " alt="" coords="248,303,403,330"/>
+<area shape="rect" id="node11" href="$d2/dc9/class_os_context_specific_next.html#a38549f66c6ff4d69b4fd5ec5a1669919" title=" " alt="" coords="247,355,404,396"/>
+<area shape="rect" id="node7" href="$dc/dfc/xf86drm_8c.html#ae3c1c49d03f8a0f8b71de1f5f574a6bd" title=" " alt="" coords="471,227,539,254"/>
+<area shape="rect" id="node9" href="$de/d9d/i915_2mos__bufmgr_8c.html#a1f8620d6134e87e70e4c822bdc41dbbc" title=" " alt="" coords="471,278,540,305"/>
+<area shape="rect" id="node8" href="$dc/dfc/xf86drm_8c.html#ac49c32891ff1d2f2a7cbb33d520d9658" title=" " alt="" coords="588,227,681,254"/>
+</map>

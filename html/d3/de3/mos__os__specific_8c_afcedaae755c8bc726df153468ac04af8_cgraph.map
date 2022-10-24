@@ -1,0 +1,7 @@
+<map id="Mos_Specific_GetGpuPriority" name="Mos_Specific_GetGpuPriority">
+<area shape="rect" id="node1" title="Get gpu context priority from KMD." alt="" coords="5,13,199,39"/>
+<area shape="rect" id="node2" href="$d0/d0e/class_os_context_specific.html#ae8e518d60e5c6378421d98540839b730" title="Get the context priority from KMD." alt="" coords="247,5,385,47"/>
+<area shape="rect" id="node3" href="$de/d47/i915__production_2mos__bufmgr_8c.html#aeeb437c773b406b7afe85fbbcc7257c7" title=" " alt="" coords="433,13,599,39"/>
+<area shape="rect" id="node4" href="$dc/dfc/xf86drm_8c.html#ae3c1c49d03f8a0f8b71de1f5f574a6bd" title=" " alt="" coords="647,13,715,39"/>
+<area shape="rect" id="node5" href="$dc/dfc/xf86drm_8c.html#ac49c32891ff1d2f2a7cbb33d520d9658" title=" " alt="" coords="763,13,856,39"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="DdiMedia_MediaBufferToMosResource" name="DdiMedia_MediaBufferToMosResource">
+<area shape="rect" id="node1" title="Media buffer to mos resource." alt="" coords="519,321,709,363"/>
+<area shape="rect" id="node2" href="$df/dc7/class_ddi_media_decode.html#abcc4e92494aef68ba41fdfb5caebcbb1" title="Combine the Bitstream Before decoding execution." alt="" coords="248,5,471,47"/>
+<area shape="rect" id="node3" href="$d4/da7/class_ddi_encode_avc_fei.html#abc4a04aa2096e986613c80236faccb95" title="Parse FEI picture parameters." alt="" coords="262,71,457,112"/>
+<area shape="rect" id="node5" href="$d1/d83/class_ddi_encode_hevc_fei.html#aff440b32487e9bd178de4c94388364d6" title="Parse FEI picture parameters." alt="" coords="259,136,460,177"/>
+<area shape="rect" id="node6" href="$df/d0d/class_ddi_encode_a_v1.html#ad57ec3db2053f23f0586f7f1c2561907" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="251,202,467,229"/>
+<area shape="rect" id="node7" href="$d0/d2f/class_ddi_encode_avc.html#a0b083316f81ecb7e3a1977aeb427b53c" title="Parse picture params." alt="" coords="253,253,465,279"/>
+<area shape="rect" id="node8" href="$d7/daa/class_ddi_encode_jpeg.html#afdebe818d565ca6a6920141b7c699f1c" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="250,303,469,330"/>
+<area shape="rect" id="node9" href="$db/d0d/class_ddi_encode_vp8.html#a3ac332bf2c62c4e334d4b98135053f79" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="252,354,467,381"/>
+<area shape="rect" id="node10" href="$dc/d76/class_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="252,405,467,431"/>
+<area shape="rect" id="node11" href="$db/d0d/class_ddi_encode_vp8.html#a2be98c9526da9b09aaef118a206dbb9e" title="Parse Segment Map Parameter buffer to Encode Context." alt="" coords="260,456,459,497"/>
+<area shape="rect" id="node12" href="$dc/d76/class_ddi_encode_vp9.html#a89f04f4ba20e732e949f6ade1154dfb8" title="Parse Segment Map Parameter buffer to Encode Context." alt="" coords="260,521,459,563"/>
+<area shape="rect" id="node13" href="$d4/da7/class_ddi_encode_avc_fei.html#ad395e4cff671796973090feaf761aae7" title="Parse statistics data to preenc parameters." alt="" coords="261,587,458,628"/>
+<area shape="rect" id="node14" href="$da/d9e/class_ddi_decode_j_p_e_g.html#ad2bc707faa884959214d14f86ef424d3" title="Set common decode param setting for each codec." alt="" coords="264,652,455,693"/>
+<area shape="rect" id="node4" href="$d4/da7/class_ddi_encode_avc_fei.html#a4d1423381d32ad57679b4ffba967e61a" title="Parse misc parameters." alt="" coords="5,71,200,112"/>
+</map>

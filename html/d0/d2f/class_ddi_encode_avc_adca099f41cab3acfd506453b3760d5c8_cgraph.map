@@ -1,0 +1,4 @@
+<map id="DdiEncodeAvc::ParseMiscParamROI" name="DdiEncodeAvc::ParseMiscParamROI">
+<area shape="rect" id="node1" title="Parse region of interest settings." alt="" coords="5,5,241,32"/>
+<area shape="rect" id="node2" href="$d2/d08/class_media_libva_caps.html#a42b531822e81c6badeeea041a6080f5a" title="Query AVC ROI maxinum numbers and if support ROI in delta QP." alt="" coords="289,5,549,32"/>
+</map>

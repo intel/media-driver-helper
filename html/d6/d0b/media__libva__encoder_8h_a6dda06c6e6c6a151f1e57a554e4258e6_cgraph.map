@@ -1,0 +1,13 @@
+<map id="DdiEncode_EncStatusReport" name="DdiEncode_EncStatusReport">
+<area shape="rect" id="node1" title="Encode status report." alt="" coords="5,61,196,88"/>
+<area shape="rect" id="node2" href="$d3/d19/class_ddi_encode_base.html#a53c6433c524fbcb2d42ca661662c2cf4" title="Report Status for Enc buffer." alt="" coords="244,54,428,95"/>
+<area shape="rect" id="node3" href="$d2/d46/media__libva__util_8cpp.html#a452ad5e2bdc3551e1c0726cd718f7dd2" title="Lock buffer." alt="" coords="488,32,651,59"/>
+<area shape="rect" id="node11" href="$d3/d19/class_ddi_encode_base.html#a98fd4dc3a5e5c9cb054a385aef3eb94c" title="Update Enc status report buffer." alt="" coords="476,83,663,125"/>
+<area shape="rect" id="node4" href="$d2/d46/media__libva__util_8cpp.html#af528e64a5e19f1572b01679c70745fab" title="Lock surface." alt="" coords="711,32,885,59"/>
+<area shape="rect" id="node6" href="$d1/d60/mos__bufmgr__api_8c.html#a9a16cb939a463525c3efb4e95527d49e" title=" " alt="" coords="1183,5,1283,32"/>
+<area shape="rect" id="node7" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a90b3e4373eac1f4bfbfdf3eb1a11f023" title=" " alt="" coords="1156,60,1311,87"/>
+<area shape="rect" id="node5" href="$d2/d46/media__libva__util_8cpp.html#a7595b1d25d7f43661b735f7a7c2b87a6" title="Lock surface." alt="" coords="933,25,1108,66"/>
+<area shape="rect" id="node8" href="$dc/dfc/xf86drm_8c.html#ae3c1c49d03f8a0f8b71de1f5f574a6bd" title=" " alt="" coords="1359,35,1427,61"/>
+<area shape="rect" id="node10" href="$de/d9d/i915_2mos__bufmgr_8c.html#a1f8620d6134e87e70e4c822bdc41dbbc" title=" " alt="" coords="1359,85,1428,112"/>
+<area shape="rect" id="node9" href="$dc/dfc/xf86drm_8c.html#ac49c32891ff1d2f2a7cbb33d520d9658" title=" " alt="" coords="1476,35,1569,61"/>
+</map>

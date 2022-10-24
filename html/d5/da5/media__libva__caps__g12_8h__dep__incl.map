@@ -1,0 +1,10 @@
+<map id="media_driver/linux/gen12/ddi/media_libva_caps_g12.h" name="media_driver/linux/gen12/ddi/media_libva_caps_g12.h">
+<area shape="rect" id="node1" title="This file defines the C++ class/interface for gen12 media capbilities." alt="" coords="265,5,419,61"/>
+<area shape="rect" id="node2" href="$db/d96/media__libva__caps__dg2_8h.html" title="This file implements the C++ class/interface for dg2 capbilities." alt="" coords="5,109,156,165"/>
+<area shape="rect" id="node4" href="$d1/dcb/media__libva__caps__pvc_8h.html" title="This file implements the C++ class/interface for pvc capbilities." alt="" coords="180,109,331,165"/>
+<area shape="rect" id="node6" href="$d9/d33/media__libva__caps__xehp__sdv_8h.html" title="This file implements the C++ class/interface for Xe_XPM capbilities." alt="" coords="355,109,505,165"/>
+<area shape="rect" id="node8" href="$d5/dd6/media__libva__caps__g12_8cpp.html" title="This file implements the C++ class/interface for gen12 media capbilities." alt="" coords="529,109,683,165"/>
+<area shape="rect" id="node3" href="$d4/d2b/media__libva__caps__dg2_8cpp.html" title="This file implements the C++ class/interface for dg2 media capbilities." alt="" coords="5,213,156,269"/>
+<area shape="rect" id="node5" href="$d8/d09/media__libva__caps__pvc_8cpp.html" title="This file implements the C++ class/interface for pvc media capbilities." alt="" coords="180,213,331,269"/>
+<area shape="rect" id="node7" href="$de/d99/media__libva__caps__xehp__sdv_8cpp.html" title="This file implements the C++ class/interface for Xe_XPM media capbilities." alt="" coords="355,213,505,269"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="MediaLibvaCapsG10::GetPlatformSpecificAttrib" name="MediaLibvaCapsG10::GetPlatformSpecificAttrib">
+<area shape="rect" id="node1" title=" " alt="" coords="5,49,173,90"/>
+<area shape="rect" id="node2" href="$d2/d08/class_media_libva_caps.html#a1b7270931314dd1255af48b18a0a4b04" title="Check if the give profile is AVC." alt="" coords="225,5,416,32"/>
+<area shape="rect" id="node3" href="$d2/d08/class_media_libva_caps.html#adb4923b268ec5b1e97ef2e44fa562915" title="Check if the give profile is HEVC." alt="" coords="221,56,420,83"/>
+<area shape="rect" id="node4" href="$d2/d08/class_media_libva_caps.html#a179a06dc7c8771fc02fe3c6db9f5a2be" title="Check if the give profile is VP8." alt="" coords="224,107,417,133"/>
+</map>

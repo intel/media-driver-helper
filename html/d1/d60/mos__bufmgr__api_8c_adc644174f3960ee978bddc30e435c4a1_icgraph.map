@@ -1,0 +1,6 @@
+<map id="mos_bo_add_softpin_target" name="mos_bo_add_softpin_target">
+<area shape="rect" id="node1" title=" " alt="" coords="473,39,615,80"/>
+<area shape="rect" id="node2" href="$dc/d36/class_aux_table_mgr.html#a7bec85ebec76cafbba41645e84fa2c52" title="Insert aux table BOs into specific execute buffer." alt="" coords="239,39,425,80"/>
+<area shape="rect" id="node3" href="$dd/db5/class_gpu_context_specific.html#ad2fa9ee2cb7a73d95a97e21b4dad6fd7" title="Map resources with aux plane to aux table." alt="" coords="5,5,191,47"/>
+<area shape="rect" id="node4" href="$d9/d7e/class_gpu_context_specific_next.html#a26935472200b24ae03baea935a4eb48b" title="Map resources with aux plane to aux table." alt="" coords="5,71,191,112"/>
+</map>

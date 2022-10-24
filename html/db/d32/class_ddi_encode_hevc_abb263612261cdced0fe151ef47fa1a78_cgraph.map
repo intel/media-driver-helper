@@ -1,0 +1,4 @@
+<map id="DdiEncodeHevc::ParsePackedHeaderData" name="DdiEncodeHevc::ParsePackedHeaderData">
+<area shape="rect" id="node1" title="Parse Packed Header Data buffer to Encode Context." alt="" coords="5,5,204,47"/>
+<area shape="rect" id="node2" href="$db/d32/class_ddi_encode_hevc.html#a83680c50ae895aef002806c4567c8780" title="Find the NAL Unit Start Codes." alt="" coords="252,5,440,47"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="GraphicsResourceSpecificNext::GetBufferObject" name="GraphicsResourceSpecificNext::GetBufferObject">
+<area shape="rect" id="node1" title=" " alt="" coords="680,39,855,80"/>
+<area shape="rect" id="node2" href="$db/d2d/class_command_buffer_specific_next.html#af4712fe423a5108a48031899dc43e874" title="query command buffer status \detail This function will call mos_bo_busy()" alt="" coords="445,5,632,47"/>
+<area shape="rect" id="node3" href="$db/d2d/class_command_buffer_specific_next.html#a624f17c29775bf43ff37d30cd46e2d17" title="wait command buffer to be rendered by gpu \detail This function will call mos_bo_wait_rendering()" alt="" coords="445,71,632,112"/>
+<area shape="rect" id="node4" href="$d9/d7e/class_gpu_context_specific_next.html#ae2c5336c9113504bc161bccde71270b4" title=" " alt="" coords="233,71,397,112"/>
+<area shape="rect" id="node5" href="$d9/d7e/class_gpu_context_specific_next.html#ab65661d2005a95403d9bd7b01d9d5311" title="Destructor." alt="" coords="5,71,185,112"/>
+</map>

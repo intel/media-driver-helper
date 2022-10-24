@@ -1,0 +1,7 @@
+<map id="DdiEncodeBase::RemoveFromEncStatusReportQueue" name="DdiEncodeBase::RemoveFromEncStatusReportQueue">
+<area shape="rect" id="node1" title="Remove Enc Report Status from status report list." alt="" coords="525,71,724,112"/>
+<area shape="rect" id="node2" href="$dc/da2/media__libva__encoder_8cpp.html#a18735af1cad60d6da46d6f0ea26a802f" title="Remove from encode status report queue." alt="" coords="248,5,477,47"/>
+<area shape="rect" id="node3" href="$d4/da7/class_ddi_encode_avc_fei.html#abc4a04aa2096e986613c80236faccb95" title="Parse FEI picture parameters." alt="" coords="265,71,460,112"/>
+<area shape="rect" id="node5" href="$d1/d83/class_ddi_encode_hevc_fei.html#aff440b32487e9bd178de4c94388364d6" title="Parse FEI picture parameters." alt="" coords="262,136,463,177"/>
+<area shape="rect" id="node4" href="$d4/da7/class_ddi_encode_avc_fei.html#a4d1423381d32ad57679b4ffba967e61a" title="Parse misc parameters." alt="" coords="5,71,200,112"/>
+</map>

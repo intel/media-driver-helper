@@ -1,0 +1,4 @@
+<map id="MosOcaInterfaceSpecific::LockOcaBufAvailable" name="MosOcaInterfaceSpecific::LockOcaBufAvailable">
+<area shape="rect" id="node1" title="Get the idle oca buffer, which is neither used by hw nor locked, and lock it for edit." alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node2" href="$df/dff/class_mos_oca_interface_specific.html#a8dc891f24b47f820a58131a8657322dd" title="Oca Error Handler." alt="" coords="220,5,387,47"/>
+</map>

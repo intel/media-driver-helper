@@ -1,0 +1,15 @@
+<map id="MediaLibvaCapsG11::QuerySurfaceAttributes" name="MediaLibvaCapsG11::QuerySurfaceAttributes">
+<area shape="rect" id="node1" title="Get surface attributes for a given config ID." alt="" coords="5,257,163,299"/>
+<area shape="rect" id="node2" href="$d2/d08/class_media_libva_caps.html#a1b50c67430d62443ff82f6b1109c3349" title="Return profile and entrypoint for a give config ID." alt="" coords="225,72,406,113"/>
+<area shape="rect" id="node7" href="$d2/d08/class_media_libva_caps.html#a1b7270931314dd1255af48b18a0a4b04" title="Check if the give profile is AVC." alt="" coords="220,138,411,165"/>
+<area shape="rect" id="node8" href="$d2/d08/class_media_libva_caps.html#adb4923b268ec5b1e97ef2e44fa562915" title="Check if the give profile is HEVC." alt="" coords="216,189,415,215"/>
+<area shape="rect" id="node9" href="$d2/d08/class_media_libva_caps.html#a2fcaa8a043526b011f068e64730c35cc" title="Check if the give profile is JPEG." alt="" coords="217,239,414,266"/>
+<area shape="rect" id="node10" href="$d2/d08/class_media_libva_caps.html#a5a3b006eec2838fb97a0e64c1b11b533" title="Check if the give profile is MPEG2." alt="" coords="211,290,420,317"/>
+<area shape="rect" id="node11" href="$d2/d08/class_media_libva_caps.html#a5b48b3f09996e4e68bb1a81579a33bd2" title="Check if the give profile is VC1." alt="" coords="219,341,412,367"/>
+<area shape="rect" id="node12" href="$d2/d08/class_media_libva_caps.html#a179a06dc7c8771fc02fe3c6db9f5a2be" title="Check if the give profile is VP8." alt="" coords="219,391,412,418"/>
+<area shape="rect" id="node13" href="$d2/d08/class_media_libva_caps.html#a8a84b89588fe161e9ad6b9a33218b92b" title="Check if the give profile is VP9." alt="" coords="219,442,412,469"/>
+<area shape="rect" id="node3" href="$d2/d08/class_media_libva_caps.html#a8aa5341ce3622007abb5da3f4d9f51cc" title="Check entrypoint codec type." alt="" coords="468,39,688,80"/>
+<area shape="rect" id="node6" href="$d7/d40/class_media_libva_caps_cp_interface.html#afe2c71934f9e5d5ec25a46ae23b8ace3" title=" " alt="" coords="487,104,669,145"/>
+<area shape="rect" id="node4" href="$de/dc0/class_ddi_media_protected.html#a874f0176dc127bcdafab56afa8e033e1" title="Check VA entrypoint is supported or not." alt="" coords="736,5,913,47"/>
+<area shape="rect" id="node5" href="$de/dc0/class_ddi_media_protected.html#ac40b63a297f412229ef30fb153ade1a8" title="Get singleton object." alt="" coords="755,71,895,112"/>
+</map>

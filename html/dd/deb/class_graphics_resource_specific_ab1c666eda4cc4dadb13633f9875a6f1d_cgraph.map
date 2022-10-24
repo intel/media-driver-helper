@@ -1,0 +1,8 @@
+<map id="GraphicsResourceSpecific::Unlock" name="GraphicsResourceSpecific::Unlock">
+<area shape="rect" id="node1" title="Unlocks a resource that has already been locked, if no lock has occurred, this function does nothing." alt="" coords="5,89,180,131"/>
+<area shape="rect" id="node2" href="$d0/d0e/class_os_context_specific.html#adeeba8735b21d4c312c0a28f9e42c24e" title=" " alt="" coords="243,5,382,47"/>
+<area shape="rect" id="node3" href="$d1/d60/mos__bufmgr__api_8c.html#a47260ddcd6e035fa5384ab0a03d34f3d" title=" " alt="" coords="255,71,370,98"/>
+<area shape="rect" id="node4" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a31b072cc5cf453ddc2d61d4cd1d643bd" title=" " alt="" coords="229,122,397,149"/>
+<area shape="rect" id="node6" href="$de/d47/i915__production_2mos__bufmgr_8c.html#ae7353cf8d6c49a8c2c9f4efe2e186ec1" title=" " alt="" coords="228,173,397,199"/>
+<area shape="rect" id="node5" href="$de/d9d/i915_2mos__bufmgr_8c.html#a8c2f9288a4eef0c2628732aa21059702" title=" " alt="" coords="445,147,592,174"/>
+</map>

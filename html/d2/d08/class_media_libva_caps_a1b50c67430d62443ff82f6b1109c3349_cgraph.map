@@ -1,0 +1,7 @@
+<map id="MediaLibvaCaps::GetProfileEntrypointFromConfigId" name="MediaLibvaCaps::GetProfileEntrypointFromConfigId">
+<area shape="rect" id="node1" title="Return profile and entrypoint for a give config ID." alt="" coords="5,71,187,112"/>
+<area shape="rect" id="node2" href="$d2/d08/class_media_libva_caps.html#a8aa5341ce3622007abb5da3f4d9f51cc" title="Check entrypoint codec type." alt="" coords="235,37,455,79"/>
+<area shape="rect" id="node5" href="$d7/d40/class_media_libva_caps_cp_interface.html#afe2c71934f9e5d5ec25a46ae23b8ace3" title=" " alt="" coords="254,103,435,144"/>
+<area shape="rect" id="node3" href="$de/dc0/class_ddi_media_protected.html#a874f0176dc127bcdafab56afa8e033e1" title="Check VA entrypoint is supported or not." alt="" coords="503,5,680,47"/>
+<area shape="rect" id="node4" href="$de/dc0/class_ddi_media_protected.html#ac40b63a297f412229ef30fb153ade1a8" title="Get singleton object." alt="" coords="521,71,661,112"/>
+</map>

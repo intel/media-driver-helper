@@ -1,0 +1,7 @@
+<map id="media_driver/linux/common/cp/ddi/media_ddi_prot.h" name="media_driver/linux/common/cp/ddi/media_ddi_prot.h">
+<area shape="rect" id="node1" title="Defines base class for DDI media protected." alt="" coords="307,5,461,61"/>
+<area shape="rect" id="node2" href="$d3/deb/media__ddi__prot_8cpp.html" title="The class implementation of DdiMediaProtected base for all protected session." alt="" coords="5,109,160,165"/>
+<area shape="rect" id="node3" href="$dd/da8/media__libva_8cpp.html" title="libva(and its extension) interface implementaion." alt="" coords="185,117,378,158"/>
+<area shape="rect" id="node4" href="$d2/d4f/media__libva__caps_8cpp.html" title="This file implements the base C++ class/interface for media capbilities." alt="" coords="403,109,571,165"/>
+<area shape="rect" id="node5" href="$dd/dab/media__libva__common_8cpp.html" title="libva(and its extension) interface implemantation common functions" alt="" coords="595,109,763,165"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="MediaLibvaCapsG10::LoadHevcEncLpProfileEntrypoints" name="MediaLibvaCapsG10::LoadHevcEncLpProfileEntrypoints">
+<area shape="rect" id="node1" title="Initialize HEVC low&#45;power encode profiles, entrypoints and attributes." alt="" coords="5,186,223,228"/>
+<area shape="rect" id="node2" href="$d2/d08/class_media_libva_caps.html#af073dc5ab3b84c3e1bf85b01ad895b59" title="Add one encode configuration." alt="" coords="271,135,477,162"/>
+<area shape="rect" id="node3" href="$d2/d08/class_media_libva_caps.html#a4dcdaebd5aea9b58057d8a5b6a6be6a1" title="Add one entry to profile &amp; entrypoint table." alt="" coords="283,186,465,228"/>
+<area shape="rect" id="node4" href="$d2/d08/class_media_libva_caps.html#a075e6647c6c2d28338ae374d242e203d" title="Create and intialize an attribute vector give encode profile and entrypoint." alt="" coords="281,252,467,293"/>
+<area shape="rect" id="node5" href="$d2/d08/class_media_libva_caps.html#a5a9eb7a75e9aa39aa650b2319ddc8217" title="Check the encode RT format according to platform and encode format." alt="" coords="549,62,733,104"/>
+<area shape="rect" id="node6" href="$d2/d08/class_media_libva_caps.html#a1b7270931314dd1255af48b18a0a4b04" title="Check if the give profile is AVC." alt="" coords="809,44,1000,71"/>
+<area shape="rect" id="node7" href="$d2/d08/class_media_libva_caps.html#adb4923b268ec5b1e97ef2e44fa562915" title="Check if the give profile is HEVC." alt="" coords="805,96,1004,123"/>
+<area shape="rect" id="node8" href="$d2/d08/class_media_libva_caps.html#a8a84b89588fe161e9ad6b9a33218b92b" title="Check if the give profile is VP9." alt="" coords="808,151,1001,178"/>
+<area shape="rect" id="node9" href="$d2/d08/class_media_libva_caps.html#a393e0ca02e470006e77d486eff90bd2c" title="Create attributes map." alt="" coords="525,230,757,256"/>
+<area shape="rect" id="node10" href="$d7/d40/class_media_libva_caps_cp_interface.html#aa65b1bd998469381e0b94531effc66b7" title=" " alt="" coords="551,281,732,322"/>
+<area shape="rect" id="node11" href="$d2/d08/class_media_libva_caps.html#a4d4ee21118a9bcf86a2852603308c0ea" title="Return the platform specific value by given attribute type." alt="" coords="545,346,738,388"/>
+<area shape="rect" id="node12" href="$d2/d08/class_media_libva_caps.html#a2fcaa8a043526b011f068e64730c35cc" title="Check if the give profile is JPEG." alt="" coords="543,412,740,439"/>
+<area shape="rect" id="node13" href="$d2/d08/class_media_libva_caps.html#a5a3b006eec2838fb97a0e64c1b11b533" title="Check if the give profile is MPEG2." alt="" coords="537,463,746,490"/>
+<area shape="rect" id="node14" href="$d2/d08/class_media_libva_caps.html#a179a06dc7c8771fc02fe3c6db9f5a2be" title="Check if the give profile is VP8." alt="" coords="545,514,738,540"/>
+</map>

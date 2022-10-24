@@ -1,0 +1,9 @@
+<map id="MediaLibvaCapsG12::CreateDecAttributes" name="MediaLibvaCapsG12::CreateDecAttributes">
+<area shape="rect" id="node1" title="Create and intialize an attribute array give decode profile and entrypoint." alt="" coords="713,39,861,80"/>
+<area shape="rect" id="node2" href="$da/dc3/class_media_libva_caps_g12.html#a2a745afdb41e00f399f7058533ed0473" title="Initialize AV1 decode profiles, entrypoints and attributes." alt="" coords="466,5,662,47"/>
+<area shape="rect" id="node7" href="$da/dc3/class_media_libva_caps_g12.html#a9bfe78e33181766004fc95c046431817" title=" " alt="" coords="463,71,665,112"/>
+<area shape="rect" id="node3" href="$d8/deb/class_media_libva_caps_p_v_c.html#a09e037d4ad678e307598d94da1270201" title=" " alt="" coords="219,5,415,47"/>
+<area shape="rect" id="node4" href="$da/dc3/class_media_libva_caps_g12.html#a3e807a277d4303b94383715443b1a1dd" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="241,71,393,112"/>
+<area shape="rect" id="node5" href="$da/dc3/class_media_libva_caps_g12.html#a486e845d8fc26c527c4f5c0444aa12cb" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="5,49,171,75"/>
+<area shape="rect" id="node6" href="$d6/d4a/class_media_libva_caps_d_g2.html#a10981effe2f81e620dd69ff7b7864a80" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="12,100,164,141"/>
+</map>

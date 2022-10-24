@@ -1,0 +1,27 @@
+<map id="DdiEncodeAvcFei::ParseMiscParams" name="DdiEncodeAvcFei::ParseMiscParams">
+<area shape="rect" id="node1" title="Parse misc parameters." alt="" coords="5,421,200,463"/>
+<area shape="rect" id="node2" href="$d0/d2f/class_ddi_encode_avc.html#a0a2418352de7bff153ee83a963714f2e" title="Parse DirtyROI params." alt="" coords="269,5,484,47"/>
+<area shape="rect" id="node3" href="$d0/d2f/class_ddi_encode_avc.html#ad7e309876ac5980c33faa9f0b06fbf1b" title="Parse enc quality parameters settings." alt="" coords="269,71,484,112"/>
+<area shape="rect" id="node4" href="$d0/d2f/class_ddi_encode_avc.html#aca3a1601b19dc6a8377138056a255275" title="Parse rolling intra refresh setting." alt="" coords="248,137,505,163"/>
+<area shape="rect" id="node5" href="$d4/da7/class_ddi_encode_avc_fei.html#abc4a04aa2096e986613c80236faccb95" title="Parse FEI picture parameters." alt="" coords="279,188,474,229"/>
+<area shape="rect" id="node14" href="$d0/d2f/class_ddi_encode_avc.html#a9f0b26040e69e0a1154d7e588e84dedf" title="Parse frame rate settings." alt="" coords="261,254,492,281"/>
+<area shape="rect" id="node15" href="$d0/d2f/class_ddi_encode_avc.html#af6496e928cf08604f88ec92d3fcd0793" title="Parse HRD settings." alt="" coords="256,305,497,331"/>
+<area shape="rect" id="node16" href="$d0/d2f/class_ddi_encode_avc.html#a06eb83a080debf1adfc3c544c6e0ec26" title="Parse max frame size setting." alt="" coords="269,356,484,397"/>
+<area shape="rect" id="node17" href="$d0/d2f/class_ddi_encode_avc.html#af2b6fe5cff75c124e55e3779814bc674" title="Parse sliceSizeInBytes for enabling VDENC dynamic slice." alt="" coords="269,421,484,463"/>
+<area shape="rect" id="node18" href="$d0/d2f/class_ddi_encode_avc.html#acdf771756dc061f6f920b94b007e81fd" title="Parse qualtiy level settings." alt="" coords="269,487,484,528"/>
+<area shape="rect" id="node19" href="$d0/d2f/class_ddi_encode_avc.html#a5f2adf3e6a9a0575fd1d6a5a47a13a79" title="Parse trellis related settings." alt="" coords="269,552,484,593"/>
+<area shape="rect" id="node20" href="$d0/d2f/class_ddi_encode_avc.html#aa8bb0ea71e1f9e8022bc0630cc363518" title="Parse rate control related settings." alt="" coords="261,618,493,645"/>
+<area shape="rect" id="node21" href="$d0/d2f/class_ddi_encode_avc.html#adca099f41cab3acfd506453b3760d5c8" title="Parse region of interest settings." alt="" coords="259,669,495,695"/>
+<area shape="rect" id="node23" href="$d0/d2f/class_ddi_encode_avc.html#a12714256fefedc0865162961f8b72eb7" title="Parse rounding parameters for slices." alt="" coords="269,720,484,761"/>
+<area shape="rect" id="node24" href="$d0/d2f/class_ddi_encode_avc.html#a927aa7e138b61b84580f26c1857c617d" title="Parse rolling intra refresh setting." alt="" coords="269,785,484,827"/>
+<area shape="rect" id="node25" href="$d0/d2f/class_ddi_encode_avc.html#a81ed6e95d9adcd345e97aef03e2c552d" title="Parse sub macroblock partition setting." alt="" coords="269,851,484,892"/>
+<area shape="rect" id="node6" href="$d4/da7/class_ddi_encode_avc_fei.html#a0d666bfa37887078d01e65781cb669be" title="Add ENC output buffer information." alt="" coords="587,64,779,105"/>
+<area shape="rect" id="node7" href="$d4/da7/class_ddi_encode_avc_fei.html#a6b0dd9fbd9a3a74448b7d179823bf6ed" title="Update position." alt="" coords="583,129,783,171"/>
+<area shape="rect" id="node8" href="$dd/dab/media__libva__common_8cpp.html#aef19397fb1fe1e9a4694affbbe354818" title="Get buffer from VA buffer ID." alt="" coords="568,195,799,222"/>
+<area shape="rect" id="node11" href="$dd/dab/media__libva__common_8cpp.html#a1ef1fe178002af993a537efd2d0ffd73" title="Media buffer to mos resource." alt="" coords="588,247,779,288"/>
+<area shape="rect" id="node12" href="$d3/d19/class_ddi_encode_base.html#ac2f52eb8b998e9931a00c360e4bdc6a1" title="Remove Enc Report Status from status report list." alt="" coords="584,312,783,353"/>
+<area shape="rect" id="node9" href="$d2/d46/media__libva__util_8cpp.html#af39e3b7b10fc72c0d236cebf73490fcb" title="Lock mutex." alt="" coords="881,170,1047,197"/>
+<area shape="rect" id="node10" href="$d2/d46/media__libva__util_8cpp.html#ad5d3b7d7ae6bfdd11a5440bd64cdc872" title="Unlock mutex." alt="" coords="873,221,1055,247"/>
+<area shape="rect" id="node13" href="$d3/d19/class_ddi_encode_base.html#a5091dd9d5aad2ed4f83db1ad3c817439" title="Get Index From Enc Status Report Buffer." alt="" coords="861,312,1067,353"/>
+<area shape="rect" id="node22" href="$d2/d08/class_media_libva_caps.html#a42b531822e81c6badeeea041a6080f5a" title="Query AVC ROI maxinum numbers and if support ROI in delta QP." alt="" coords="553,669,813,695"/>
+</map>

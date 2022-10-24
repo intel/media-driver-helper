@@ -1,0 +1,6 @@
+<map id="DdiDecodeAVC::CodecHalInit" name="DdiDecodeAVC::CodecHalInit">
+<area shape="rect" id="node1" title="Initialize the back&#45;end CodecHal of DdiMediaDecode." alt="" coords="5,38,199,65"/>
+<area shape="rect" id="node2" href="$df/dc7/class_ddi_media_decode.html#a2485736be742e2720546cb5d2154f041" title="Create the back&#45;end CodecHal of DdiMediaDecode." alt="" coords="247,13,469,39"/>
+<area shape="rect" id="node4" href="$de/d95/class_ddi_cp_interface.html#abdc0b7fa497d0c47784bac848b06c78f" title=" " alt="" coords="261,63,455,90"/>
+<area shape="rect" id="node3" href="$de/d95/class_ddi_cp_interface.html#a211e81446d166db7e1089b41de3ca59f" title=" " alt="" coords="517,5,700,47"/>
+</map>

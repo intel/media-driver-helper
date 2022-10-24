@@ -1,0 +1,10 @@
+<map id="DdiMedia_MediaMemoryDecompress" name="DdiMedia_MediaMemoryDecompress">
+<area shape="rect" id="node1" title="Decompress a compressed surface." alt="" coords="5,130,244,157"/>
+<area shape="rect" id="node2" href="$dd/d0b/media__libva__cp__interface_8cpp.html#a7fc6901a1a96dbd3fad482ad10e968d2" title="Create DdiCpInterface Object Must use Delete_DdiCpInterface to delete created Object to avoid ULT Mem..." alt="" coords="317,13,468,39"/>
+<area shape="rect" id="node4" href="$dd/dab/media__libva__common_8cpp.html#af0abdf2326b439d693f70d8c3c4304bc" title="Media surface to mos resource." alt="" coords="292,64,493,105"/>
+<area shape="rect" id="node5" href="$d2/d46/media__libva__util_8cpp.html#af39e3b7b10fc72c0d236cebf73490fcb" title="Lock mutex." alt="" coords="309,130,476,157"/>
+<area shape="rect" id="node6" href="$d2/d46/media__libva__util_8cpp.html#ad5d3b7d7ae6bfdd11a5440bd64cdc872" title="Unlock mutex." alt="" coords="301,181,484,207"/>
+<area shape="rect" id="node7" href="$dd/d0b/media__libva__cp__interface_8cpp.html#a12a054af657cbd6d727f002da7b5e32e" title="Delete the MhwCpInterface Object." alt="" coords="317,231,468,258"/>
+<area shape="rect" id="node3" href="$d8/dc0/class_cp_interfaces.html#a5f90f409ed0855d41cc691c65fd50201" title="Create DdiCpInterface Object Must use Delete_DdiCpInterface to delete created Object to avoid ULT Mem..." alt="" coords="541,5,681,47"/>
+<area shape="rect" id="node8" href="$d8/dc0/class_cp_interfaces.html#a21c7d0f03682562db58db144074bf7e4" title="Delete the DdiCpInterface Object." alt="" coords="542,224,681,265"/>
+</map>

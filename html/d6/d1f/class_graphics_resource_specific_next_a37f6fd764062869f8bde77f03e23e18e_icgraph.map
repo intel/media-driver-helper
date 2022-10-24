@@ -1,0 +1,4 @@
+<map id="GraphicsResourceSpecificNext::ConvertToMosResource" name="GraphicsResourceSpecificNext::ConvertToMosResource">
+<area shape="rect" id="node1" title="Converts an OS specific resource to a MOS resource." alt="" coords="228,5,423,47"/>
+<area shape="rect" id="node2" href="$d6/d1f/class_graphics_resource_specific_next.html#a249c6543451f45fa6a5f2e47a15e4cae" title="Locks a resource and returns a mapped system memory pointer." alt="" coords="5,5,180,47"/>
+</map>

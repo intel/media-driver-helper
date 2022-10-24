@@ -1,0 +1,19 @@
+<map id="MediaLibvaCapsG12::GetPlatformSpecificAttrib" name="MediaLibvaCapsG12::GetPlatformSpecificAttrib">
+<area shape="rect" id="node1" title=" " alt="" coords="952,267,1120,308"/>
+<area shape="rect" id="node2" href="$da/dc3/class_media_libva_caps_g12.html#a22283cba15363b8f8ef068b6159503ac" title="Add surface attributes for Encoding." alt="" coords="732,71,900,112"/>
+<area shape="rect" id="node5" href="$da/dc3/class_media_libva_caps_g12.html#a425b79a2063d244608110d1f0cbb2c98" title="Create and intialize an attribute array give decode profile and entrypoint." alt="" coords="742,201,890,243"/>
+<area shape="rect" id="node12" href="$da/dc3/class_media_libva_caps_g12.html#a12e44d36ad44acb967226bc443f1fd1b" title="Create and intialize an attribute vector give encode profile and entrypoint." alt="" coords="742,267,890,308"/>
+<area shape="rect" id="node16" href="$d8/deb/class_media_libva_caps_p_v_c.html#a059542718b5471c0bc68b96978a16c6f" title="Return the platform specific value by given attribute type." alt="" coords="732,332,900,373"/>
+<area shape="rect" id="node17" href="$db/da1/class_media_libva_caps_xe_h_p.html#a03d6bfd16e2dde65cfa5fa170ddcde50" title=" " alt="" coords="728,397,904,439"/>
+<area shape="rect" id="node3" href="$d6/d4a/class_media_libva_caps_d_g2.html#ab72087ba6eb86c66527fab0cc38c483d" title="Add surface attributes for Encoding." alt="" coords="487,5,655,47"/>
+<area shape="rect" id="node4" href="$da/dc3/class_media_libva_caps_g12.html#a3ecded7b0b423581c2bcf96d223e55f0" title="Get surface attributes for a given config ID." alt="" coords="493,71,650,112"/>
+<area shape="rect" id="node6" href="$da/dc3/class_media_libva_caps_g12.html#a2a745afdb41e00f399f7058533ed0473" title="Initialize AV1 decode profiles, entrypoints and attributes." alt="" coords="473,136,669,177"/>
+<area shape="rect" id="node11" href="$da/dc3/class_media_libva_caps_g12.html#a9bfe78e33181766004fc95c046431817" title=" " alt="" coords="470,201,673,243"/>
+<area shape="rect" id="node7" href="$d8/deb/class_media_libva_caps_p_v_c.html#a09e037d4ad678e307598d94da1270201" title=" " alt="" coords="219,136,415,177"/>
+<area shape="rect" id="node8" href="$da/dc3/class_media_libva_caps_g12.html#a3e807a277d4303b94383715443b1a1dd" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="241,233,393,275"/>
+<area shape="rect" id="node9" href="$da/dc3/class_media_libva_caps_g12.html#a486e845d8fc26c527c4f5c0444aa12cb" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="5,211,171,238"/>
+<area shape="rect" id="node10" href="$d6/d4a/class_media_libva_caps_d_g2.html#a10981effe2f81e620dd69ff7b7864a80" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="12,263,164,304"/>
+<area shape="rect" id="node13" href="$da/dc3/class_media_libva_caps_g12.html#abcf2c10094ee5f7a3cc4f9bdbf478733" title="Initialize HEVC low&#45;power encode profiles, entrypoints and attributes." alt="" coords="463,267,680,308"/>
+<area shape="rect" id="node14" href="$d8/deb/class_media_libva_caps_p_v_c.html#acc7785084990381544dfd39b496a69ba" title="Initialize HEVC low&#45;power encode profiles, entrypoints and attributes." alt="" coords="463,332,680,373"/>
+<area shape="rect" id="node15" href="$da/dc3/class_media_libva_caps_g12.html#a3cbcabd16c09c21addfe365dcc7dc559" title="Initialize VP9 encode profiles, entrypoints and attributes." alt="" coords="472,397,671,439"/>
+</map>

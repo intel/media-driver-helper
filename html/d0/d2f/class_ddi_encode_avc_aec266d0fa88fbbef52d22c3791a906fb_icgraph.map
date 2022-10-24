@@ -1,0 +1,4 @@
+<map id="DdiEncodeAvc::CodechalPicTypeFromVaSlcType" name="DdiEncodeAvc::CodechalPicTypeFromVaSlcType">
+<area shape="rect" id="node1" title="Convert va slice type to codechal picture type." alt="" coords="265,5,452,47"/>
+<area shape="rect" id="node2" href="$d0/d2f/class_ddi_encode_avc.html#a65a80e0af0be360ebf1a275722ae975e" title="Parse slice parameters." alt="" coords="5,13,217,39"/>
+</map>

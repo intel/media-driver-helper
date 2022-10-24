@@ -1,0 +1,7 @@
+<map id="MosOcaInterfaceSpecific::OnOcaError" name="MosOcaInterfaceSpecific::OnOcaError">
+<area shape="rect" id="node1" title="Oca Error Handler." alt="" coords="231,104,397,145"/>
+<area shape="rect" id="node2" href="$df/dff/class_mos_oca_interface_specific.html#ac978e051aeeb0dd0b36cce42d669e388" title="Add resource to dump list." alt="" coords="5,5,183,47"/>
+<area shape="rect" id="node3" href="$df/dff/class_mos_oca_interface_specific.html#a8f6bca00cfd8e57bb9b8c5cb18bca344" title="Get the idle oca buffer, which is neither used by hw nor locked, and lock it for edit." alt="" coords="11,71,177,112"/>
+<area shape="rect" id="node4" href="$df/dff/class_mos_oca_interface_specific.html#ae67cefdd8cd889575ec4e1d1354a6f21" title="Oca operation which should be called before adding batch buffer end command for 1st level batch buffe..." alt="" coords="11,136,177,177"/>
+<area shape="rect" id="node5" href="$df/dff/class_mos_oca_interface_specific.html#a738ef2a728f0fc5d52cdfa6e5018d05a" title="Oca operation which should be called at the beginning of 1st level batch buffer start." alt="" coords="11,201,177,243"/>
+</map>

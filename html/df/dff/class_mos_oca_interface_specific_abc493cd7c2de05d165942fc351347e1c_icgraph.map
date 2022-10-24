@@ -1,0 +1,4 @@
+<map id="MosOcaInterfaceSpecific::UnlockOcaBuf" name="MosOcaInterfaceSpecific::UnlockOcaBuf">
+<area shape="rect" id="node1" title="Unlock the oca buffer when edit complete." alt="" coords="235,5,401,47"/>
+<area shape="rect" id="node2" href="$df/dff/class_mos_oca_interface_specific.html#ad57874e278a72125651aeee4a0a5b0cc" title="Unlock pending oca buffers." alt="" coords="5,5,187,47"/>
+</map>

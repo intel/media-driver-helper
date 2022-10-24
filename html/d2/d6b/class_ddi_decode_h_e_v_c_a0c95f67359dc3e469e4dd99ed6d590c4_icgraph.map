@@ -1,0 +1,4 @@
+<map id="DdiDecodeHEVC::InitResourceBuffer" name="DdiDecodeHEVC::InitResourceBuffer">
+<area shape="rect" id="node1" title="Init Resource buffer for HEVC." alt="" coords="256,5,457,47"/>
+<area shape="rect" id="node2" href="$d2/d6b/class_ddi_decode_h_e_v_c.html#a2a7096964aa5415428d4191f981b5f55" title="Initialize the back&#45;end CodecHal of DdiMediaDecode." alt="" coords="5,13,208,39"/>
+</map>

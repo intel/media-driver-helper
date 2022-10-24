@@ -1,0 +1,26 @@
+<map id="DdiMedia_EndPicture" name="DdiMedia_EndPicture">
+<area shape="rect" id="node1" title="Make the end of rendering for a picture." alt="" coords="5,493,152,520"/>
+<area shape="rect" id="node2" href="$da/d25/media__libva__decoder_8cpp.html#a78c1c188a7b54ff86ef349df5ca25159" title="End picture." alt="" coords="200,325,356,352"/>
+<area shape="rect" id="node3" href="$dd/dab/media__libva__common_8cpp.html#af27269667643d99431310f928cedb706" title="Get context from context ID." alt="" coords="674,493,910,520"/>
+<area shape="rect" id="node18" href="$dc/da2/media__libva__encoder_8cpp.html#a0cccf422946e6f4b5ae511c20acdabd1" title="End picture." alt="" coords="200,523,356,549"/>
+<area shape="rect" id="node21" href="$db/d3a/media__libva__vp_8c.html#a6b9bcfbfc955893f01905e4354365e28" title=" " alt="" coords="214,632,342,659"/>
+<area shape="rect" id="node4" href="$df/dc7/class_ddi_media_decode.html#a2d6732fac863a69f25964462a22a72b4" title="Make the end of rendering for a picture." alt="" coords="417,195,609,221"/>
+<area shape="rect" id="node15" href="$de/d95/class_ddi_cp_interface.html#af19116a818d9695645039b2c0d595448" title=" " alt="" coords="424,296,603,323"/>
+<area shape="rect" id="node16" href="$de/d95/class_ddi_cp_interface.html#a4309b3e9688a83b97603975bd4b89317" title=" " alt="" coords="425,347,601,389"/>
+<area shape="rect" id="node17" href="$de/d95/class_ddi_cp_interface.html#a001b2aba3cb1396f24ebf41285623831" title=" " alt="" coords="404,413,623,440"/>
+<area shape="rect" id="node5" href="$da/de1/class_ddi_media_base.html#a6151923f607b83045d70dcf62312d519" title="Clear Reference List." alt="" coords="700,5,884,32"/>
+<area shape="rect" id="node6" href="$df/dc7/class_ddi_media_decode.html#a695cef291e4c2d69be5a7daf2513b71e" title="Use EU path to do the scaling." alt="" coords="697,57,887,98"/>
+<area shape="rect" id="node7" href="$df/dc7/class_ddi_media_decode.html#a5c3e928d83163ccf7cc7e8fda5d9a80b" title="Init Params setting of EndPicture Function." alt="" coords="697,122,887,163"/>
+<area shape="rect" id="node8" href="$df/dc7/class_ddi_media_decode.html#a3aebeef057e3c3358ec8d23caf868775" title="Init dummy reference." alt="" coords="697,187,887,229"/>
+<area shape="rect" id="node9" href="$d3/de3/mos__os__specific_8c.html#ad8fe9d7f3e3f91b2638275c8851aee6d" title="Get Resource Information." alt="" coords="961,220,1164,247"/>
+<area shape="rect" id="node10" href="$df/dc7/class_ddi_media_decode.html#a0444d0f76a3733411eb7c2cbdc9dff33" title="Report decode mode." alt="" coords="671,304,913,331"/>
+<area shape="rect" id="node11" href="$df/dc7/class_ddi_media_decode.html#a9ed6afcaa186cd0686a57b8da7c02d99" title="Set common decode param setting for each codec." alt="" coords="696,355,888,397"/>
+<area shape="rect" id="node12" href="$dd/dab/media__libva__common_8cpp.html#af0abdf2326b439d693f70d8c3c4304bc" title="Media surface to mos resource." alt="" coords="962,297,1163,338"/>
+<area shape="rect" id="node13" href="$df/dc7/class_ddi_media_decode.html#a694fc389f0621214e268910a75e06c9a" title="Get decode format." alt="" coords="967,363,1158,389"/>
+<area shape="rect" id="node14" href="$de/d95/class_ddi_cp_interface.html#a0a79b30df5afe068113ef119ebb1f182" title=" " alt="" coords="973,414,1152,455"/>
+<area shape="rect" id="node19" href="$dc/da2/media__libva__encoder_8cpp.html#a0af89fecfe5c192e65d08e75034b8b1a" title="Get encode context from context ID." alt="" coords="408,515,619,557"/>
+<area shape="rect" id="node20" href="$d3/d19/class_ddi_encode_base.html#a7beb83b6fdbc5dddbe4f2f07fdad5293" title="Make the end of rendering for a picture." alt="" coords="420,581,607,608"/>
+<area shape="rect" id="node22" href="$db/da4/media__libva__vp__tools_8c.html#af47114e30db8962f12f1ddb00a07e4db" title="dump feature mode parameters for Android" alt="" coords="437,683,589,709"/>
+<area shape="rect" id="node23" href="$db/da4/media__libva__vp__tools_8c.html#a3b903da439ef9ce98fe256706a0c24e0" title="initialize configuration values for Android" alt="" coords="727,657,857,684"/>
+<area shape="rect" id="node24" href="$db/da4/media__libva__vp__tools_8c.html#aa4c42492e6d26b8e6c501035673f758e" title=" " alt="" coords="732,708,852,735"/>
+</map>

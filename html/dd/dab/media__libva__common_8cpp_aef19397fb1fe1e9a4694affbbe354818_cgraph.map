@@ -1,0 +1,5 @@
+<map id="DdiMedia_GetBufferFromVABufferID" name="DdiMedia_GetBufferFromVABufferID">
+<area shape="rect" id="node1" title="Get buffer from VA buffer ID." alt="" coords="5,31,236,57"/>
+<area shape="rect" id="node2" href="$d2/d46/media__libva__util_8cpp.html#af39e3b7b10fc72c0d236cebf73490fcb" title="Lock mutex." alt="" coords="292,5,459,32"/>
+<area shape="rect" id="node3" href="$d2/d46/media__libva__util_8cpp.html#ad5d3b7d7ae6bfdd11a5440bd64cdc872" title="Unlock mutex." alt="" coords="284,56,467,83"/>
+</map>

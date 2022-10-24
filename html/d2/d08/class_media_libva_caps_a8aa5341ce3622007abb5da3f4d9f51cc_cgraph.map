@@ -1,0 +1,5 @@
+<map id="MediaLibvaCaps::CheckEntrypointCodecType" name="MediaLibvaCaps::CheckEntrypointCodecType">
+<area shape="rect" id="node1" title="Check entrypoint codec type." alt="" coords="5,39,225,80"/>
+<area shape="rect" id="node2" href="$de/dc0/class_ddi_media_protected.html#a874f0176dc127bcdafab56afa8e033e1" title="Check VA entrypoint is supported or not." alt="" coords="273,5,451,47"/>
+<area shape="rect" id="node3" href="$de/dc0/class_ddi_media_protected.html#ac40b63a297f412229ef30fb153ade1a8" title="Get singleton object." alt="" coords="292,71,432,112"/>
+</map>

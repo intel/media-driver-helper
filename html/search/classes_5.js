@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['gfxdeviceinfo_0',['GfxDeviceInfo',['../struct_gfx_device_info.html',1,'']]],
-  ['gpucontextspecific_1',['GpuContextSpecific',['../class_gpu_context_specific.html',1,'']]],
-  ['graphicsresourcespecific_2',['GraphicsResourceSpecific',['../class_graphics_resource_specific.html',1,'']]]
+  ['encconfig_0',['EncConfig',['../df/dd9/struct_media_libva_caps_1_1_enc_config.html',1,'MediaLibvaCaps']]],
+  ['encodeformattable_1',['EncodeFormatTable',['../d0/d33/struct_media_libva_caps_1_1_encode_format_table.html',1,'MediaLibvaCaps']]]
 ];

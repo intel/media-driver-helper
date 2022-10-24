@@ -1,0 +1,5 @@
+<map id="DdiEncodeBase::RemoveFromPreEncStatusReportQueue" name="DdiEncodeBase::RemoveFromPreEncStatusReportQueue">
+<area shape="rect" id="node1" title="Remove PreEnc Report Status from status report list." alt="" coords="264,39,463,80"/>
+<area shape="rect" id="node2" href="$dc/da2/media__libva__encoder_8cpp.html#a6eeab1eed99a5717ddcd7bdbb83c5607" title="Remove form preencode status report queue." alt="" coords="5,5,216,47"/>
+<area shape="rect" id="node3" href="$d4/da7/class_ddi_encode_avc_fei.html#ad395e4cff671796973090feaf761aae7" title="Parse statistics data to preenc parameters." alt="" coords="12,71,209,112"/>
+</map>

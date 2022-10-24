@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['hashbucket_0',['HashBucket',['../struct_hash_bucket.html',1,'']]],
-  ['hashtable_1',['HashTable',['../struct_hash_table.html',1,'']]],
-  ['hdr_5fmetadata_5finfoframe_2',['hdr_metadata_infoframe',['../structhdr__metadata__infoframe.html',1,'']]],
-  ['hdr_5foutput_5fmetadata_3',['hdr_output_metadata',['../structhdr__output__metadata.html',1,'']]],
-  ['hybridsem_4',['HybridSem',['../struct_graphics_resource_specific_1_1_hybrid_sem.html',1,'GraphicsResourceSpecific']]]
+  ['gfxdeviceinfo_0',['GfxDeviceInfo',['../db/d4c/struct_gfx_device_info.html',1,'']]],
+  ['gpucontextspecific_1',['GpuContextSpecific',['../dd/db5/class_gpu_context_specific.html',1,'']]],
+  ['gpucontextspecificnext_2',['GpuContextSpecificNext',['../d9/d7e/class_gpu_context_specific_next.html',1,'']]],
+  ['graphicsresourcespecific_3',['GraphicsResourceSpecific',['../dd/deb/class_graphics_resource_specific.html',1,'']]],
+  ['graphicsresourcespecificnext_4',['GraphicsResourceSpecificNext',['../d6/d1f/class_graphics_resource_specific_next.html',1,'']]]
 ];

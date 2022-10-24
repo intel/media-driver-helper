@@ -1,0 +1,18 @@
+<map id="MediaLibvaCapsPVC::LoadAv1DecProfileEntrypoints" name="MediaLibvaCapsPVC::LoadAv1DecProfileEntrypoints">
+<area shape="rect" id="node1" title=" " alt="" coords="5,86,201,127"/>
+<area shape="rect" id="node2" href="$da/dc3/class_media_libva_caps_g12.html#a2a745afdb41e00f399f7058533ed0473" title="Initialize AV1 decode profiles, entrypoints and attributes." alt="" coords="249,86,445,127"/>
+<area shape="rect" id="node3" href="$d2/d08/class_media_libva_caps.html#a301a69200b263efe873043957a37c312" title="Add one decode configuration." alt="" coords="493,5,700,32"/>
+<area shape="rect" id="node4" href="$d2/d08/class_media_libva_caps.html#a4dcdaebd5aea9b58057d8a5b6a6be6a1" title="Add one entry to profile &amp; entrypoint table." alt="" coords="505,57,688,98"/>
+<area shape="rect" id="node5" href="$da/dc3/class_media_libva_caps_g12.html#a425b79a2063d244608110d1f0cbb2c98" title="Create and intialize an attribute array give decode profile and entrypoint." alt="" coords="523,245,671,286"/>
+<area shape="rect" id="node7" href="$d7/d40/class_media_libva_caps_cp_interface.html#aa65b1bd998469381e0b94531effc66b7" title=" " alt="" coords="773,45,955,86"/>
+<area shape="rect" id="node6" href="$d2/d08/class_media_libva_caps.html#a393e0ca02e470006e77d486eff90bd2c" title="Create attributes map." alt="" coords="748,277,980,304"/>
+<area shape="rect" id="node8" href="$da/dc3/class_media_libva_caps_g12.html#ace20fc5ddf181818acc6131bce20035c" title=" " alt="" coords="780,430,948,471"/>
+<area shape="rect" id="node9" href="$d2/d08/class_media_libva_caps.html#a1b7270931314dd1255af48b18a0a4b04" title="Check if the give profile is AVC." alt="" coords="1031,320,1222,347"/>
+<area shape="rect" id="node10" href="$da/dc3/class_media_libva_caps_g12.html#a665bd8d5b3da0953cafc50c6019658d8" title="Check if the give profile is HEVC." alt="" coords="1053,371,1201,413"/>
+<area shape="rect" id="node13" href="$d2/d08/class_media_libva_caps.html#a8a84b89588fe161e9ad6b9a33218b92b" title="Check if the give profile is VP9." alt="" coords="1030,555,1223,581"/>
+<area shape="rect" id="node14" href="$da/dc3/class_media_libva_caps_g12.html#a29422b3b822f95fe3cbba904a7868702" title="Check if the give profile is AV1." alt="" coords="790,110,938,151"/>
+<area shape="rect" id="node15" href="$d2/d08/class_media_libva_caps.html#a5b48b3f09996e4e68bb1a81579a33bd2" title="Check if the give profile is VC1." alt="" coords="767,176,961,203"/>
+<area shape="rect" id="node16" href="$d2/d08/class_media_libva_caps.html#a179a06dc7c8771fc02fe3c6db9f5a2be" title="Check if the give profile is VP8." alt="" coords="767,227,961,253"/>
+<area shape="rect" id="node11" href="$da/dc3/class_media_libva_caps_g12.html#a8cb6a115e2170a840c45e13c6917562a" title="Check if the give profile is HEVC SCC." alt="" coords="1053,489,1201,530"/>
+<area shape="rect" id="node12" href="$d2/d08/class_media_libva_caps.html#a2fcaa8a043526b011f068e64730c35cc" title="Check if the give profile is JPEG." alt="" coords="1028,437,1225,464"/>
+</map>

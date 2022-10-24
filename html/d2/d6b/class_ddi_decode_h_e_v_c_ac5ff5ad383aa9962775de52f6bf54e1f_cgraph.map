@@ -1,0 +1,4 @@
+<map id="DdiDecodeHEVC::ParseSliceParams" name="DdiDecodeHEVC::ParseSliceParams">
+<area shape="rect" id="node1" title="ParaSliceParam for HEVC." alt="" coords="5,5,197,47"/>
+<area shape="rect" id="node2" href="$df/dc7/class_ddi_media_decode.html#a2d86244af20ffbe150ec89b4f0aff038" title="return the Buffer offset for sliceGroup" alt="" coords="245,5,429,47"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Mos_Specific_FreeResource" name="Mos_Specific_FreeResource">
+<area shape="rect" id="node1" title="Free the resource." alt="" coords="5,71,193,98"/>
+<area shape="rect" id="node2" href="$d0/d0e/class_os_context_specific.html#a3e5f588caee2ca150863501954820b9f" title=" " alt="" coords="273,5,412,47"/>
+<area shape="rect" id="node3" href="$d1/d60/mos__bufmgr__api_8c.html#a3f50be67296c219589a0953fb792dca4" title=" " alt="" coords="271,71,414,98"/>
+<area shape="rect" id="node4" href="$dc/d36/class_aux_table_mgr.html#a73327ab525816daf157b66a7d82c28d8" title="Unmap resource from aux table." alt="" coords="241,122,444,149"/>
+</map>

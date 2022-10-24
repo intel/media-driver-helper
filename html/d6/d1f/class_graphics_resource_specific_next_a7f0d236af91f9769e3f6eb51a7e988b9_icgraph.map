@@ -1,0 +1,4 @@
+<map id="GraphicsResourceSpecificNext::SetTileModebyForce" name="GraphicsResourceSpecificNext::SetTileModebyForce">
+<area shape="rect" id="node1" title="Set tilemode by force to GMM info flag." alt="" coords="228,5,404,47"/>
+<area shape="rect" id="node2" href="$d6/d1f/class_graphics_resource_specific_next.html#a2da68b7646d44602f520cc4d172cc3fc" title="Allocate the graphic memory to back up the graphic resource." alt="" coords="5,5,180,47"/>
+</map>

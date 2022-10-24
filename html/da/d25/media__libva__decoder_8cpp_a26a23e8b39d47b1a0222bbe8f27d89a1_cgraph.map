@@ -1,0 +1,6 @@
+<map id="DdiDecode_BeginPicture" name="DdiDecode_BeginPicture">
+<area shape="rect" id="node1" title="Begin picture." alt="" coords="5,56,172,83"/>
+<area shape="rect" id="node2" href="$df/dc7/class_ddi_media_decode.html#a9ce84479a2bb62549d205c1155e2377d" title="Get ready to decoding process for a target surface." alt="" coords="237,5,439,32"/>
+<area shape="rect" id="node3" href="$dd/dab/media__libva__common_8cpp.html#af27269667643d99431310f928cedb706" title="Get context from context ID." alt="" coords="220,56,456,83"/>
+<area shape="rect" id="node4" href="$de/d95/class_ddi_cp_interface.html#a4309b3e9688a83b97603975bd4b89317" title=" " alt="" coords="250,107,426,149"/>
+</map>

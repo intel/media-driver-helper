@@ -1,0 +1,13 @@
+<map id="DdiEncodeAvc::ParsePackedHeaderData" name="DdiEncodeAvc::ParsePackedHeaderData">
+<area shape="rect" id="node1" title="Parse packedHeader data." alt="" coords="5,183,197,225"/>
+<area shape="rect" id="node2" href="$d0/d2f/class_ddi_encode_avc.html#acfc41299786091483fe997694eb65d8f" title=" " alt="" coords="245,150,440,191"/>
+<area shape="rect" id="node11" href="$d0/d2f/class_ddi_encode_avc.html#a0be627fd3991a5c15bde791d3f47a2b5" title="Find the NAL Unit Start Codes." alt="" coords="252,215,433,257"/>
+<area shape="rect" id="node3" href="$df/d1d/class_avc_in_bits.html#a1e35b601a8d2ff84d05770d73441cde6" title=" " alt="" coords="495,5,649,32"/>
+<area shape="rect" id="node4" href="$df/d1d/class_avc_in_bits.html#a2bdc2d16939c8aeaa1cc328d4f027236" title=" " alt="" coords="508,56,636,83"/>
+<area shape="rect" id="node6" href="$df/d1d/class_avc_in_bits.html#a8af2a30024d1a7ec63393efa424661ed" title=" " alt="" coords="511,107,633,133"/>
+<area shape="rect" id="node7" href="$d5/dea/class_avc_out_bits.html#a30054879a03dfa4e1d13e116c4e07fa4" title=" " alt="" coords="704,183,835,209"/>
+<area shape="rect" id="node8" href="$d5/dea/class_avc_out_bits.html#a659342ea4d5be67645b2944f27e9931e" title=" " alt="" coords="503,208,641,235"/>
+<area shape="rect" id="node9" href="$df/d1d/class_avc_in_bits.html#a3491125b29b47375e379405ad00b2ff8" title=" " alt="" coords="488,259,656,285"/>
+<area shape="rect" id="node10" href="$df/d1d/class_avc_in_bits.html#a75906f79af9d1785cfe1ea0c93c20b46" title=" " alt="" coords="505,309,639,336"/>
+<area shape="rect" id="node5" href="$df/d1d/class_avc_in_bits.html#ae998f154408feb950ef2bff311a4fb9d" title=" " alt="" coords="709,56,830,83"/>
+</map>
