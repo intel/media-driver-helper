@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -90,7 +90,7 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l01054">1054</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l01111">1111</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a98a1cbbfffe89766bb6b61135bf809dd" name="a98a1cbbfffe89766bb6b61135bf809dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a98a1cbbfffe89766bb6b61135bf809dd">&#9670;&nbsp;</a></span>delta</h2>
@@ -105,7 +105,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >Value to be added to the offset of the target buffer to make up the relocation entry. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l01069">1069</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l01126">1126</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
@@ -122,7 +122,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >Offset in the buffer the relocation entry will be written into </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l01072">1072</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l01129">1129</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
@@ -140,7 +140,7 @@ Public Attributes</h2></td></tr>
 <p >Offset value of the target buffer that the relocation entry was last written as.</p>
 <p >If the buffer has the same offset as last time, we can skip syncing and writing the relocation. This value is written back out by the execbuffer ioctl when the relocation is written. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l01082">1082</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l01139">1139</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
@@ -157,7 +157,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >Target memory domains read by this operation. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l01087">1087</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l01144">1144</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
@@ -175,7 +175,7 @@ Public Attributes</h2></td></tr>
 <p >Handle of the buffer being pointed to by this relocation entry.</p>
 <p >It's appealing to make this be an index into the mm_validate_entry list to refer to the buffer, but this allows the driver to create a relocation list for state buffers and not re-write it per exec using the buffer. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l01063">1063</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l01120">1120</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
@@ -193,12 +193,12 @@ Public Attributes</h2></td></tr>
 <p >Target memory domains written by this operation.</p>
 <p >Note that only one domain may be written by the whole execbuffer operation, so that where there are conflicts, the application will get -EINVAL back. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l01096">1096</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l01153">1153</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>media_driver/linux/common/os/i915/include/uapi/<a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a></li>
+<li>C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/i915/include/uapi/<a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

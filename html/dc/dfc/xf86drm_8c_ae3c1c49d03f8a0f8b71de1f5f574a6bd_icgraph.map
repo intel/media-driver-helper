@@ -1,52 +1,8 @@
 <map id="drmIoctl" name="drmIoctl">
-<area shape="rect" id="node1" title=" " alt="" coords="979,904,1047,931"/>
-<area shape="rect" id="node2" href="$d3/df1/class_bufmgr_prelim.html#a5bae3bb9f13a35f9a8c21a36f203bd4c" title=" " alt="" coords="742,5,917,32"/>
-<area shape="rect" id="node3" href="$d3/df1/class_bufmgr_prelim.html#a8f2f692ee2f6c335426064f63a36b3b9" title=" " alt="" coords="738,56,921,83"/>
-<area shape="rect" id="node4" href="$dc/dfc/xf86drm_8c.html#a86c1abc198277ced1634652f2189ba95" title=" " alt="" coords="780,107,879,133"/>
-<area shape="rect" id="node5" href="$dc/dfc/xf86drm_8c.html#aabb52f28bfc81b9af64866f88131d513" title=" " alt="" coords="775,157,884,184"/>
-<area shape="rect" id="node6" href="$d1/d2d/xf86drm_mode_8c.html#adc2b91c95638cb9139ee2ea340f3fa3e" title=" " alt="" coords="756,208,903,235"/>
-<area shape="rect" id="node7" href="$d1/d2d/xf86drm_mode_8c.html#a4906098a4ca599bd9a2d0e36076f890c" title=" " alt="" coords="750,259,909,285"/>
-<area shape="rect" id="node8" href="$d1/d2d/xf86drm_mode_8c.html#a6f010a7f4a792b854408a6da42b5d67e" title=" " alt="" coords="732,309,927,336"/>
-<area shape="rect" id="node9" href="$dc/dfc/xf86drm_8c.html#ad70cc6497bbcf48ff71b1e5631355b9b" title=" " alt="" coords="755,360,904,387"/>
-<area shape="rect" id="node11" href="$dc/dfc/xf86drm_8c.html#a41984eac88d9fed9e980faded101c029" title=" " alt="" coords="755,411,904,437"/>
-<area shape="rect" id="node13" href="$dc/dfc/xf86drm_8c.html#a9c525e3aa242d221939083fa92ce1463" title=" " alt="" coords="751,461,908,488"/>
-<area shape="rect" id="node14" href="$d3/de3/mos__os__specific_8c.html#aa6039ca11bf44a96683f603d5ad53eb3" title="Init Linux context." alt="" coords="531,563,654,589"/>
-<area shape="rect" id="node16" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a1f8620d6134e87e70e4c822bdc41dbbc" title=" " alt="" coords="795,816,864,843"/>
-<area shape="rect" id="node17" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a90b3e4373eac1f4bfbfdf3eb1a11f023" title=" " alt="" coords="515,835,670,861"/>
-<area shape="rect" id="node25" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a4d6ec672c5d434fc03a58dd08766fcaf" title=" " alt="" coords="751,867,907,909"/>
-<area shape="rect" id="node26" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a3abd88b581aa1c01fc86bc5b2145132e" title=" " alt="" coords="763,933,895,960"/>
-<area shape="rect" id="node27" href="$de/d47/i915__production_2mos__bufmgr_8c.html#adfcf0f71420715761e7d628a7bdbd40d" title=" " alt="" coords="752,985,907,1026"/>
-<area shape="rect" id="node28" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a8c2f9288a4eef0c2628732aa21059702" title=" " alt="" coords="756,1051,903,1077"/>
-<area shape="rect" id="node31" href="$de/d47/i915__production_2mos__bufmgr_8c.html#af5ba192f61d54bb061238b86fb060c46" title=" " alt="" coords="743,563,915,589"/>
-<area shape="rect" id="node33" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a03efa564a33b8f58908e6670831ea4ef" title=" " alt="" coords="731,613,928,640"/>
-<area shape="rect" id="node34" href="$de/d47/i915__production_2mos__bufmgr_8c.html#ac830716fd1beccb58bf3cfff8a0714ec" title=" " alt="" coords="507,1134,679,1175"/>
-<area shape="rect" id="node35" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a1a59eebcb8b4cc8f35dd6ad467583377" title=" " alt="" coords="740,1203,919,1229"/>
-<area shape="rect" id="node36" href="$de/d47/i915__production_2mos__bufmgr_8c.html#aac2c92c9f674b3ccd915faa3764204af" title=" " alt="" coords="757,664,902,691"/>
-<area shape="rect" id="node37" href="$de/d47/i915__production_2mos__bufmgr_8c.html#adbe98ee5f7816a12a295e6876c7478d0" title=" " alt="" coords="753,1253,905,1280"/>
-<area shape="rect" id="node38" href="$de/d47/i915__production_2mos__bufmgr_8c.html#aeeb437c773b406b7afe85fbbcc7257c7" title=" " alt="" coords="747,1304,912,1331"/>
-<area shape="rect" id="node39" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a8dfecbef88a9500b9fd83aa2a54ea520" title=" " alt="" coords="729,1355,929,1381"/>
-<area shape="rect" id="node40" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a13007c3685c449104f9e58086faf2057" title=" " alt="" coords="767,1405,892,1432"/>
-<area shape="rect" id="node41" href="$de/d47/i915__production_2mos__bufmgr_8c.html#ae8625ac172ef71a5dd083340bc2def73" title=" " alt="" coords="757,715,901,741"/>
-<area shape="rect" id="node42" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a9f11665e374dbeaba4f350ea6e164a89" title=" " alt="" coords="757,1456,902,1483"/>
-<area shape="rect" id="node43" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a64714197b999303c42cac58b00023fb1" title=" " alt="" coords="746,1507,913,1533"/>
-<area shape="rect" id="node44" href="$de/d47/i915__production_2mos__bufmgr_8c.html#adf079fc4242e20af606213126ad61cd1" title=" " alt="" coords="750,1557,909,1584"/>
-<area shape="rect" id="node45" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a24551f444627af13ca43f3a60d051f09" title=" " alt="" coords="760,1608,899,1635"/>
-<area shape="rect" id="node46" href="$de/d47/i915__production_2mos__bufmgr_8c.html#af3a2514b46cffac9e9687ad0d0c8ed03" title=" " alt="" coords="741,1659,918,1685"/>
-<area shape="rect" id="node47" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a3c6431a1f1b3d2be95db1086f897cd20" title=" " alt="" coords="777,1709,881,1736"/>
-<area shape="rect" id="node48" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a8e7bc54b8b548d3c802e117c9e964305" title=" " alt="" coords="747,1152,912,1179"/>
-<area shape="rect" id="node49" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a8e7912ad954abaa2ceeb5f89ae0a5066" title=" " alt="" coords="729,1760,929,1787"/>
-<area shape="rect" id="node50" href="$d3/de3/mos__os__specific_8c.html#afd2c6458bfb9ed9fe5f79bf052f126a8" title="Get TimeStamp frequency base." alt="" coords="728,1811,931,1837"/>
-<area shape="rect" id="node10" href="$de/d47/i915__production_2mos__bufmgr_8c.html#ab777ce026d20984a4a57bdb6c3f15169" title=" " alt="" coords="505,346,680,387"/>
-<area shape="rect" id="node12" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a266e3e3bc805fcc28763ba13478c19d1" title=" " alt="" coords="512,411,673,453"/>
-<area shape="rect" id="node15" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,645,179,672"/>
-<area shape="rect" id="node23" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a6a6f8aa421c5225a620c83c4f5ca3956" title=" " alt="" coords="227,1061,457,1088"/>
-<area shape="rect" id="node18" href="$d2/d46/media__libva__util_8cpp.html#a452ad5e2bdc3551e1c0726cd718f7dd2" title="Lock buffer." alt="" coords="261,944,423,971"/>
-<area shape="rect" id="node19" href="$d2/d46/media__libva__util_8cpp.html#a7595b1d25d7f43661b735f7a7c2b87a6" title="Lock surface." alt="" coords="255,995,429,1037"/>
-<area shape="rect" id="node20" href="$dd/deb/class_graphics_resource_specific.html#a0d48916ebb42974b8ce740c5a763a34c" title="Locks a resource and returns a mapped system memory pointer." alt="" coords="255,697,429,738"/>
-<area shape="rect" id="node21" href="$d6/d1f/class_graphics_resource_specific_next.html#a249c6543451f45fa6a5f2e47a15e4cae" title="Locks a resource and returns a mapped system memory pointer." alt="" coords="255,762,429,803"/>
-<area shape="rect" id="node22" href="$d6/d1f/class_graphics_resource_specific_next.html#a90b39a3a6ef7f13704651356ec9ebff3" title="Lock External Resource." alt="" coords="248,827,436,869"/>
-<area shape="rect" id="node24" href="$d3/de3/mos__os__specific_8c.html#a169ccb3ed47bd8debfd7369d5d200889" title="Lock resource." alt="" coords="247,893,437,920"/>
-<area shape="rect" id="node29" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a31b072cc5cf453ddc2d61d4cd1d643bd" title=" " alt="" coords="509,1011,677,1037"/>
-<area shape="rect" id="node30" href="$de/d47/i915__production_2mos__bufmgr_8c.html#ae7353cf8d6c49a8c2c9f4efe2e186ec1" title=" " alt="" coords="508,1061,677,1088"/>
-<area shape="rect" id="node32" href="$d0/d0e/class_os_context_specific.html#a11ac7bba2862afa0c6daf56f7f481010" title="Initialize the MOS Context." alt="" coords="515,613,670,640"/>
+<area shape="rect" id="node1" title=" " alt="" coords="211,107,279,133"/>
+<area shape="rect" id="node2" href="$dc/dfc/xf86drm_8c.html#a86c1abc198277ced1634652f2189ba95" title=" " alt="" coords="35,5,133,32"/>
+<area shape="rect" id="node3" href="$dc/dfc/xf86drm_8c.html#aabb52f28bfc81b9af64866f88131d513" title=" " alt="" coords="29,56,139,83"/>
+<area shape="rect" id="node4" href="$dc/dfc/xf86drm_8c.html#ad70cc6497bbcf48ff71b1e5631355b9b" title=" " alt="" coords="9,107,159,133"/>
+<area shape="rect" id="node5" href="$dc/dfc/xf86drm_8c.html#a41984eac88d9fed9e980faded101c029" title=" " alt="" coords="9,157,159,184"/>
+<area shape="rect" id="node6" href="$dc/dfc/xf86drm_8c.html#a9c525e3aa242d221939083fa92ce1463" title=" " alt="" coords="5,208,163,235"/>
 </map>

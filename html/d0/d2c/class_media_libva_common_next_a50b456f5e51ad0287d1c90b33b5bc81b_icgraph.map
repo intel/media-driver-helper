@@ -1,0 +1,9 @@
+<map id="MediaLibvaCommonNext::GetCtxTypeFromVABufferID" name="MediaLibvaCommonNext::GetCtxTypeFromVABufferID">
+<area shape="rect" id="node1" title="Get ctx type from VA buffer ID." alt="" coords="196,169,388,211"/>
+<area shape="rect" id="node2" href="$d0/dca/class_ddi_decode_functions.html#a75c7d18b602163827ebb296c7f86ddfe" title="Destroy buffer." alt="" coords="5,5,148,47"/>
+<area shape="rect" id="node3" href="$d9/dba/class_ddi_encode_functions.html#af717619d05bd74c643a9a682a134424d" title="Destroy buffer." alt="" coords="5,71,148,112"/>
+<area shape="rect" id="node4" href="$d0/dca/class_ddi_decode_functions.html#a5a94cef3fbad9ce4f7373ac7e604eef6" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="5,136,148,177"/>
+<area shape="rect" id="node5" href="$d9/dba/class_ddi_encode_functions.html#af6f7cb575632bc2b8ce8cd67a17e3f22" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="5,201,148,243"/>
+<area shape="rect" id="node6" href="$d0/dca/class_ddi_decode_functions.html#a2f74a636a407a08af58eb0035940e85c" title="Unmap buffer." alt="" coords="5,267,148,308"/>
+<area shape="rect" id="node7" href="$d9/dba/class_ddi_encode_functions.html#aa6919cbf75ddd4075a4228ccd5cffa6f" title="Unmap buffer." alt="" coords="5,332,148,373"/>
+</map>

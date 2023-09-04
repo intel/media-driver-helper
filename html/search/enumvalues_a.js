@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['os_5fspecific_5fresource_5fbuffer_0',['OS_SPECIFIC_RESOURCE_BUFFER',['../d3/da0/mos__os__specific_8h.html#acc2d79886815ae61f5988bfa07f90d9eadb9236a5d221433a4b4e595a4a42a5e1',1,'mos_os_specific.h']]],
-  ['os_5fspecific_5fresource_5finvalid_1',['OS_SPECIFIC_RESOURCE_INVALID',['../d3/da0/mos__os__specific_8h.html#acc2d79886815ae61f5988bfa07f90d9ea3ce20eaf5f6eee490be62117bba89b88',1,'mos_os_specific.h']]],
-  ['os_5fspecific_5fresource_5fmax_2',['OS_SPECIFIC_RESOURCE_MAX',['../d3/da0/mos__os__specific_8h.html#acc2d79886815ae61f5988bfa07f90d9eacc5041d24744604138a199542620649e',1,'mos_os_specific.h']]],
-  ['os_5fspecific_5fresource_5fsurface_3',['OS_SPECIFIC_RESOURCE_SURFACE',['../d3/da0/mos__os__specific_8h.html#acc2d79886815ae61f5988bfa07f90d9ead4dfad18de2afeab33dae14c626fddd2',1,'mos_os_specific.h']]],
-  ['others_4',['Others',['../d2/d08/class_media_libva_caps.html#adfc3c574a44431445c5e033e87687a9baf8db1ddcc6867d4a5e6979eeff22f2a3',1,'MediaLibvaCaps']]]
+  ['kadd_0',['kAdd',['../de/dce/namespacetesting_1_1internal_1_1edit__distance.html#ad46aa6da12aec1a3f166310478b53a08a63400b073f5b311a87d568b5ae27ffe8',1,'testing::internal::edit_distance']]],
+  ['kasis_1',['kAsIs',['../d0/da7/namespacetesting_1_1internal.html#ae2ef98247c76a50cdc80ceb4a6c81793af7038866be92e9978360b831e376ffaa',1,'testing::internal']]],
+  ['khexescape_2',['kHexEscape',['../d0/da7/namespacetesting_1_1internal.html#ae2ef98247c76a50cdc80ceb4a6c81793aebfa5293302338a8e8678744c103f113',1,'testing::internal']]],
+  ['kmatch_3',['kMatch',['../de/dce/namespacetesting_1_1internal_1_1edit__distance.html#ad46aa6da12aec1a3f166310478b53a08a7bdb9c74613a94f21b7489e0b5640a63',1,'testing::internal::edit_distance']]],
+  ['kremove_4',['kRemove',['../de/dce/namespacetesting_1_1internal_1_1edit__distance.html#ad46aa6da12aec1a3f166310478b53a08a814768ef6cd0264a0a10b1e701a63e78',1,'testing::internal::edit_distance']]],
+  ['kreplace_5',['kReplace',['../de/dce/namespacetesting_1_1internal_1_1edit__distance.html#ad46aa6da12aec1a3f166310478b53a08afdbf30ecf9f32f60c646a34a358615f2',1,'testing::internal::edit_distance']]],
+  ['kspecialescape_6',['kSpecialEscape',['../d0/da7/namespacetesting_1_1internal.html#ae2ef98247c76a50cdc80ceb4a6c81793ae1211108e9f35f891d9951da64794d03',1,'testing::internal']]]
 ];

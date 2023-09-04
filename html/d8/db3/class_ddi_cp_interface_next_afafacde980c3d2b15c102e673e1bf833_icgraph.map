@@ -1,0 +1,6 @@
+<map id="DdiCpInterfaceNext::StatusReportForHdcp2Buffer" name="DdiCpInterfaceNext::StatusReportForHdcp2Buffer">
+<area shape="rect" id="node1" title=" " alt="" coords="600,5,795,47"/>
+<area shape="rect" id="node2" href="$d3/d5b/classencode_1_1_ddi_encode_base.html#a02b410b2e3af877e7fc9af92a9a798ef" title="Report Status for coded buffer." alt="" coords="387,5,552,47"/>
+<area shape="rect" id="node3" href="$d9/dba/class_ddi_encode_functions.html#a97403936cd01c22a5c2e28f2d7e0191b" title="Status report." alt="" coords="196,5,339,47"/>
+<area shape="rect" id="node4" href="$d9/dba/class_ddi_encode_functions.html#af6f7cb575632bc2b8ce8cd67a17e3f22" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="5,5,148,47"/>
+</map>

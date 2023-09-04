@@ -1,0 +1,4 @@
+<map id="DdiDecodeFunctions::SetGpuPriority" name="DdiDecodeFunctions::SetGpuPriority">
+<area shape="rect" id="node1" title="Set Decode Gpu priority." alt="" coords="196,5,339,47"/>
+<area shape="rect" id="node2" href="$d0/dca/class_ddi_decode_functions.html#a199c6f3a3d6571af21256b10999fa1cc" title="Send decode buffers to the server." alt="" coords="5,5,148,47"/>
+</map>

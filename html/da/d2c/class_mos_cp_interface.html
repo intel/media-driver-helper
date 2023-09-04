@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -87,6 +87,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7c4f0f36606679b2998c08fdf743abab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e4cf4ee10c93cbb50fb5b3e5ba8cf44"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2c/class_mos_cp_interface.html#a5e4cf4ee10c93cbb50fb5b3e5ba8cf44">IsCpEnabled</a> ()</td></tr>
 <tr class="separator:a5e4cf4ee10c93cbb50fb5b3e5ba8cf44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa205451cf859160e2e97b38d97811fbb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2c/class_mos_cp_interface.html#aa205451cf859160e2e97b38d97811fbb">RegisterAndCheckProtectedGemCtx</a> (bool bRegister, void *identifier, bool *bIsStale)</td></tr>
+<tr class="separator:aa205451cf859160e2e97b38d97811fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b353686d424ddc9ec28ac0cc3ccb209"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2c/class_mos_cp_interface.html#a3b353686d424ddc9ec28ac0cc3ccb209">SetCpEnabled</a> (bool bIsCpEnabled)</td></tr>
 <tr class="separator:a3b353686d424ddc9ec28ac0cc3ccb209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca2d29b70bad59906586f4cef6467f6f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2c/class_mos_cp_interface.html#aca2d29b70bad59906586f4cef6467f6f">IsHMEnabled</a> ()</td></tr>
@@ -97,6 +99,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0d9befea4ace49cf36e0887e46154607"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2805a339ad71dc6043803fc4a882d725"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2c/class_mos_cp_interface.html#a2805a339ad71dc6043803fc4a882d725">IsSMEnabled</a> ()</td></tr>
 <tr class="separator:a2805a339ad71dc6043803fc4a882d725"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0b72edc28b92c6fb425df67fa7a6b53"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2c/class_mos_cp_interface.html#aa0b72edc28b92c6fb425df67fa7a6b53">IsCencCtxBasedSubmissionEnabled</a> ()</td></tr>
+<tr class="separator:aa0b72edc28b92c6fb425df67fa7a6b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23da066bd41e4818617aad83942b8e0a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2c/class_mos_cp_interface.html#a23da066bd41e4818617aad83942b8e0a">IsTearDownHappen</a> ()</td></tr>
 <tr class="separator:a23da066bd41e4818617aad83942b8e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fd7e52072e6666a33bbdd9de501b6c8"><td class="memItemLeft" align="right" valign="top">virtual MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2c/class_mos_cp_interface.html#a8fd7e52072e6666a33bbdd9de501b6c8">SetResourceEncryption</a> (void *pResource, bool bEncryption)</td></tr>
@@ -213,7 +217,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00162">162</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00173">173</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -240,7 +244,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00216">216</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00227">227</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -267,7 +271,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00210">210</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00221">221</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -295,7 +299,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00173">173</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00184">184</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -322,7 +326,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00204">204</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00215">215</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -366,7 +370,34 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00182">182</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00193">193</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+
+</div>
+</div>
+<a id="aa0b72edc28b92c6fb425df67fa7a6b53" name="aa0b72edc28b92c6fb425df67fa7a6b53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0b72edc28b92c6fb425df67fa7a6b53">&#9670;&nbsp;</a></span>IsCencCtxBasedSubmissionEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool MosCpInterface::IsCencCtxBasedSubmissionEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00128">128</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -420,7 +451,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00099">99</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00104">104</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -447,7 +478,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00111">111</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00116">116</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -474,7 +505,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00117">117</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00122">122</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -501,7 +532,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00123">123</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00134">134</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -528,7 +559,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00105">105</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00110">110</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -649,7 +680,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00141">141</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00152">152</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -687,7 +718,51 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00195">195</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00206">206</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+
+</div>
+</div>
+<a id="aa205451cf859160e2e97b38d97811fbb" name="aa205451cf859160e2e97b38d97811fbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa205451cf859160e2e97b38d97811fbb">&#9670;&nbsp;</a></span>RegisterAndCheckProtectedGemCtx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MosCpInterface::RegisterAndCheckProtectedGemCtx </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bRegister</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>identifier</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>bIsStale</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00094">94</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -776,7 +851,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00156">156</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00167">167</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -804,7 +879,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00094">94</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00099">99</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -842,12 +917,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00129">129</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00140">140</a> of file <a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>media_driver/linux/common/cp/os/<a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a></li>
+<li>C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_common/linux/common/cp/os/<a class="el" href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html">mos_os_cp_interface_specific.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: media_driver/linux/common/ddi/media_libva_apo_decision.cpp Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_driver/linux/common/ddi/media_libva_apo_decision.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_3115a56e2275d5beaba552b66eb05a58.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_c1c480c84d9c810d13e5396fd09e2c47.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_18eb10762497f3f6d66dac8bd6884b5d.html">common</a></li><li class="navelem"><a class="el" href="../../dir_8354df22a44158cc63dee25ba77d5a83.html">ddi</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_55776ec83c9d032fd3160e5735bb9eeb.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_71b97772b1880ae754b9c282d2ac7b3e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_fdadb0a20a244235cd810deb83932914.html">common</a></li><li class="navelem"><a class="el" href="../../dir_75a47287825a42db54397cc06be8b13b.html">ddi</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -72,7 +72,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <a href="../../da/dbb/media__libva__apo__decision_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">* Copyright (c) 2021, Intel Corporation</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">* Copyright (c) 2022, Intel Corporation</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">*</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">* Permission is hereby granted, free of charge, to any person obtaining a</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* copy of this software and associated documentation files (the &quot;Software&quot;),</span></div>
@@ -95,24 +95,47 @@ $(function() {
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &quot;<a class="code" href="../../d0/d2d/media__libva__apo__decision_8h.html">media_libva_apo_decision.h</a>&quot;</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &quot;<a class="code" href="../../d3/da0/mos__os__specific_8h.html">mos_os_specific.h</a>&quot;</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../dd/dbc/class_media_libva_apo_decision.html#a9232a9d397694337d8a6eef0f5ab8231">   30</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/dbc/class_media_libva_apo_decision.html#a9232a9d397694337d8a6eef0f5ab8231">MediaLibvaApoDecision::InitDdiApoState</a>(int32_t devicefd, <a class="code hl_typedef" href="../../d3/d6c/linux__system__info_8h.html#ad9e5fa174092bd0562179a00ce635e13">MediaUserSettingSharedPtr</a> userSettingPtr)</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>{</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">bool</span> apoMosEnabled = <a class="code hl_function" href="../../d3/da0/mos__os__specific_8h.html#abb574a804298508f35d0da0f9d86f816">SetupApoMosSwitch</a>(devicefd, userSettingPtr);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">bool</span> apoDdiEnabled = <a class="code hl_function" href="../../d3/da0/mos__os__specific_8h.html#a17a7b4b3f53ed5f9fe8653714d896d53">SetupApoDdiSwitch</a>(devicefd, userSettingPtr);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="comment">// mediaSoloEnabled is not used due to mos context is not ready for solo</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">bool</span> mediaSoloEnabled = <a class="code hl_function" href="../../d3/da0/mos__os__specific_8h.html#ab75fc1f820c9d01254bcea6cfe582b89">SetupMediaSoloSwitch</a>();</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">return</span> apoDdiEnabled &amp;&amp; apoMosEnabled;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>}</div>
-<div class="ttc" id="aclass_media_libva_apo_decision_html_a9232a9d397694337d8a6eef0f5ab8231"><div class="ttname"><a href="../../dd/dbc/class_media_libva_apo_decision.html#a9232a9d397694337d8a6eef0f5ab8231">MediaLibvaApoDecision::InitDdiApoState</a></div><div class="ttdeci">static bool InitDdiApoState(int32_t devicefd, MediaUserSettingSharedPtr userSettingPtr)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dbb/media__libva__apo__decision_8cpp_source.html#l00030">media_libva_apo_decision.cpp:30</a></div></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;<a class="code" href="../../d8/df1/hwinfo__linux_8h.html">hwinfo_linux.h</a>&quot;</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d29/media__libva__util_8h.html">media_libva_util.h</a>&quot;</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../dd/dbc/class_media_libva_apo_decision.html#a9232a9d397694337d8a6eef0f5ab8231">   32</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/dbc/class_media_libva_apo_decision.html#a9232a9d397694337d8a6eef0f5ab8231">MediaLibvaApoDecision::InitDdiApoState</a>(int32_t devicefd, <a class="code hl_typedef" href="../../d3/d6c/linux__system__info_8h.html#ad9e5fa174092bd0562179a00ce635e13">MediaUserSettingSharedPtr</a> userSettingPtr)</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>{</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <a class="code hl_define" href="../../da/d29/media__libva__util_8h.html#a5f89a703dbbc0acf5837060ec6489ece">DDI_FUNCTION_ENTER</a>();</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">bool</span> apoMosEnabled = <a class="code hl_function" href="../../d3/da0/mos__os__specific_8h.html#abb574a804298508f35d0da0f9d86f816">SetupApoMosSwitch</a>(devicefd, userSettingPtr);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">bool</span> apoDdiEnabled = <a class="code hl_function" href="../../d3/da0/mos__os__specific_8h.html#a17a7b4b3f53ed5f9fe8653714d896d53">SetupApoDdiSwitch</a>(devicefd, userSettingPtr);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">if</span> (!apoMosEnabled || !apoDdiEnabled)</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    {</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    }</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    PRODUCT_FAMILY eProductFamily = IGFX_UNKNOWN;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_function" href="../../d2/d27/hwinfo__linux_8cpp.html#a53a308f044c056096aa67ebba29fe714">HWInfo_GetGfxProductFamily</a>(devicefd, eProductFamily);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordflow">if</span> (eProductFamily &lt; IGFX_METEORLAKE)</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    {</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        apoDdiEnabled = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    }</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="comment">// mediaSoloEnabled is not used due to mos context is not ready for solo</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">bool</span> mediaSoloEnabled = <a class="code hl_function" href="../../d3/da0/mos__os__specific_8h.html#ab75fc1f820c9d01254bcea6cfe582b89">SetupMediaSoloSwitch</a>();</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordflow">if</span> (mediaSoloEnabled)</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    {</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    }</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordflow">return</span> apoDdiEnabled &amp;&amp; apoMosEnabled;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>}</div>
+<div class="ttc" id="aclass_media_libva_apo_decision_html_a9232a9d397694337d8a6eef0f5ab8231"><div class="ttname"><a href="../../dd/dbc/class_media_libva_apo_decision.html#a9232a9d397694337d8a6eef0f5ab8231">MediaLibvaApoDecision::InitDdiApoState</a></div><div class="ttdeci">static bool InitDdiApoState(int32_t devicefd, MediaUserSettingSharedPtr userSettingPtr)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dbb/media__libva__apo__decision_8cpp_source.html#l00032">media_libva_apo_decision.cpp:32</a></div></div>
+<div class="ttc" id="ahwinfo__linux_8cpp_html_a53a308f044c056096aa67ebba29fe714"><div class="ttname"><a href="../../d2/d27/hwinfo__linux_8cpp.html#a53a308f044c056096aa67ebba29fe714">HWInfo_GetGfxProductFamily</a></div><div class="ttdeci">MOS_STATUS HWInfo_GetGfxProductFamily(int32_t fd, PRODUCT_FAMILY &amp;eProductFamily)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d27/hwinfo__linux_8cpp_source.html#l00062">hwinfo_linux.cpp:62</a></div></div>
+<div class="ttc" id="ahwinfo__linux_8h_html"><div class="ttname"><a href="../../d8/df1/hwinfo__linux_8h.html">hwinfo_linux.h</a></div></div>
 <div class="ttc" id="alinux__system__info_8h_html_ad9e5fa174092bd0562179a00ce635e13"><div class="ttname"><a href="../../d3/d6c/linux__system__info_8h.html#ad9e5fa174092bd0562179a00ce635e13">MediaUserSettingSharedPtr</a></div><div class="ttdeci">std::shared_ptr&lt; MediaUserSetting::MediaUserSetting &gt; MediaUserSettingSharedPtr</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00035">linux_system_info.h:35</a></div></div>
 <div class="ttc" id="amedia__libva__apo__decision_8h_html"><div class="ttname"><a href="../../d0/d2d/media__libva__apo__decision_8h.html">media_libva_apo_decision.h</a></div></div>
+<div class="ttc" id="amedia__libva__util_8h_html"><div class="ttname"><a href="../../da/d29/media__libva__util_8h.html">media_libva_util.h</a></div><div class="ttdoc">libva(and its extension) utility head file</div></div>
+<div class="ttc" id="amedia__libva__util_8h_html_a5f89a703dbbc0acf5837060ec6489ece"><div class="ttname"><a href="../../da/d29/media__libva__util_8h.html#a5f89a703dbbc0acf5837060ec6489ece">DDI_FUNCTION_ENTER</a></div><div class="ttdeci">#define DDI_FUNCTION_ENTER()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d29/media__libva__util_8h_source.html#l00412">media_libva_util.h:412</a></div></div>
 <div class="ttc" id="amos__os__specific_8h_html"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html">mos_os_specific.h</a></div><div class="ttdoc">Common interface and structure used in MOS LINUX OS.</div></div>
-<div class="ttc" id="amos__os__specific_8h_html_a17a7b4b3f53ed5f9fe8653714d896d53"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#a17a7b4b3f53ed5f9fe8653714d896d53">SetupApoDdiSwitch</a></div><div class="ttdeci">bool SetupApoDdiSwitch(int32_t fd, MediaUserSettingSharedPtr userSettingPtr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de3/mos__os__specific_8c_source.html#l00093">mos_os_specific.c:93</a></div></div>
-<div class="ttc" id="amos__os__specific_8h_html_ab75fc1f820c9d01254bcea6cfe582b89"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#ab75fc1f820c9d01254bcea6cfe582b89">SetupMediaSoloSwitch</a></div><div class="ttdeci">bool SetupMediaSoloSwitch()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d0a/mos__os__specific_8cpp_source.html#l00083">mos_os_specific.cpp:83</a></div></div>
-<div class="ttc" id="amos__os__specific_8h_html_abb574a804298508f35d0da0f9d86f816"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#abb574a804298508f35d0da0f9d86f816">SetupApoMosSwitch</a></div><div class="ttdeci">bool SetupApoMosSwitch(int32_t fd, MediaUserSettingSharedPtr userSettingPtr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de3/mos__os__specific_8c_source.html#l00112">mos_os_specific.c:112</a></div></div>
+<div class="ttc" id="amos__os__specific_8h_html_a17a7b4b3f53ed5f9fe8653714d896d53"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#a17a7b4b3f53ed5f9fe8653714d896d53">SetupApoDdiSwitch</a></div><div class="ttdeci">bool SetupApoDdiSwitch(int32_t fd, MediaUserSettingSharedPtr userSettingPtr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de3/mos__os__specific_8c_source.html#l00102">mos_os_specific.c:102</a></div></div>
+<div class="ttc" id="amos__os__specific_8h_html_ab75fc1f820c9d01254bcea6cfe582b89"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#ab75fc1f820c9d01254bcea6cfe582b89">SetupMediaSoloSwitch</a></div><div class="ttdeci">bool SetupMediaSoloSwitch()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de3/mos__os__specific_8c_source.html#l00095">mos_os_specific.c:95</a></div></div>
+<div class="ttc" id="amos__os__specific_8h_html_abb574a804298508f35d0da0f9d86f816"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#abb574a804298508f35d0da0f9d86f816">SetupApoMosSwitch</a></div><div class="ttdeci">bool SetupApoMosSwitch(int32_t fd, MediaUserSettingSharedPtr userSettingPtr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de3/mos__os__specific_8c_source.html#l00116">mos_os_specific.c:116</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

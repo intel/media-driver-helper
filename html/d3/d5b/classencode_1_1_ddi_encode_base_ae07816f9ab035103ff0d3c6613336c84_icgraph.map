@@ -1,0 +1,4 @@
+<map id="encode::DdiEncodeBase::RenderPicture" name="encode::DdiEncodeBase::RenderPicture">
+<area shape="rect" id="node1" title="Send required buffers to for process." alt="" coords="196,5,361,47"/>
+<area shape="rect" id="node2" href="$d9/dba/class_ddi_encode_functions.html#a053d24a7d31a74ba3de99fa01a6f2073" title="Send decode buffers to the server." alt="" coords="5,5,148,47"/>
+</map>

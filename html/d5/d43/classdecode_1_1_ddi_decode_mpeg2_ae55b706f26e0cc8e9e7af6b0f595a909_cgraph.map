@@ -1,0 +1,4 @@
+<map id="decode::DdiDecodeMpeg2::DestroyContext" name="decode::DdiDecodeMpeg2::DestroyContext">
+<area shape="rect" id="node1" title="Free the allocated resource related with the decode context." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#afe9d8d29a13d66161529523bb7137f0e" title="Free the allocated resource related with the decode context." alt="" coords="228,5,393,47"/>
+</map>

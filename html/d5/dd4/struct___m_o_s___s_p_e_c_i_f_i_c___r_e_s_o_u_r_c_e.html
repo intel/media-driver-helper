@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -80,9 +80,21 @@ Collaboration diagram for _MOS_SPECIFIC_RESOURCE:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/d0a/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e__coll__graph.png" border="0" usemap="#a___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e_coll__map" alt="Collaboration graph"/></div>
 <map name="a___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e_coll__map" id="a___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e_coll__map">
-<area shape="rect" title="Structure to Linux resource." alt="" coords="5,139,211,165"/>
-<area shape="rect" href="../../db/d8b/structmos__linux__bo.html" title=" " alt="" coords="106,5,209,32"/>
-<area shape="rect" href="../../d2/da7/structmos__bufmgr.html" title=" " alt="" coords="244,139,337,165"/>
+<area shape="rect" title="Structure to Linux resource." alt="" coords="5,412,211,439"/>
+<area shape="rect" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html" title="Structure to OS context." alt="" coords="369,213,520,240"/>
+<area shape="rect" href="../../d5/d30/struct___c_o_d_e_c_h_a_l___o_s___g_p_u___c_o_n_t_e_x_t.html" title="Structure to Gpu context." alt="" coords="1965,233,2192,260"/>
+<area shape="rect" href="../../db/d8b/structmos__linux__bo.html" title=" " alt="" coords="1404,241,1507,268"/>
+<area shape="rect" href="../../d2/da7/structmos__bufmgr.html" title=" " alt="" coords="1133,271,1227,297"/>
+<area shape="rect" href="../../d4/d75/struct___p_a_t_c_h_l_o_c_a_t_i_o_n_l_i_s_t.html" title="Structure to patch location list." alt="" coords="1627,233,1789,260"/>
+<area shape="rect" href="../../dd/d1d/struct___c_m_d___b_u_f_f_e_r___b_o___p_o_o_l.html" title="Structure to buffer pool." alt="" coords="1615,168,1801,195"/>
+<area shape="rect" href="../../d4/d36/structmos__linux__context.html" title=" " alt="" coords="758,325,889,352"/>
+<area shape="rect" href="../../dd/de5/struct___a_l_l_o_c_a_t_i_o_n___l_i_s_t.html" title="Structure to Allocation List." alt="" coords="1637,284,1779,311"/>
+<area shape="rect" href="../../d3/d7b/struct___c_o_m_m_a_n_d___b_u_f_f_e_r.html" title="Structure to command buffer." alt="" coords="544,59,700,85"/>
+<area shape="rect" href="../../d2/de6/union___l_a_r_g_e___i_n_t_e_g_e_r.html" title=" " alt="" coords="40,87,176,113"/>
+<area shape="rect" href="../../d3/dc8/class_media_feature_table.html" title=" " alt="" coords="42,164,174,191"/>
+<area shape="rect" href="../../df/d79/class_media_wa_table.html" title=" " alt="" coords="54,265,162,292"/>
+<area shape="rect" href="../../dc/d36/class_aux_table_mgr.html" title="Aux Table Manager." alt="" coords="59,215,157,241"/>
+<area shape="rect" href="../../d7/d6e/struct_m_o_s___o_c_a___e_x_e_c___l_i_s_t___i_n_f_o.html" title=" " alt="" coords="724,275,923,301"/>
 </map>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -99,7 +111,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a47295d3c09270e8f447bcd5f4d53a66c"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#a47295d3c09270e8f447bcd5f4d53a66c">iDepth</a></td></tr>
 <tr class="memdesc:a47295d3c09270e8f447bcd5f4d53a66c"><td class="mdescLeft">&#160;</td><td class="mdescRight">for 3D surface  <a href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#a47295d3c09270e8f447bcd5f4d53a66c">More...</a><br /></td></tr>
 <tr class="separator:a47295d3c09270e8f447bcd5f4d53a66c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae514cf9212fb9810428aea708db72589"><td class="memItemLeft" align="right" valign="top">MOS_FORMAT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#ae514cf9212fb9810428aea708db72589">Format</a></td></tr>
+<tr class="memitem:ae514cf9212fb9810428aea708db72589"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d02/cm__surface__manager_8h.html#af5411f5a6692f1fe24088e6c534f9947">MOS_FORMAT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#ae514cf9212fb9810428aea708db72589">Format</a></td></tr>
 <tr class="separator:ae514cf9212fb9810428aea708db72589"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87f8ec317d4d57bef7d0b3df411f39b9"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#a87f8ec317d4d57bef7d0b3df411f39b9">iCount</a></td></tr>
 <tr class="separator:a87f8ec317d4d57bef7d0b3df411f39b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,7 +129,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aca26ca0c42ac7394633399713a43f11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e52d7545e1023d4dbb3365fab9fba99"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#a0e52d7545e1023d4dbb3365fab9fba99">bMapped</a></td></tr>
 <tr class="separator:a0e52d7545e1023d4dbb3365fab9fba99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34a099a92635bfe4b8323c0ab5936fd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d54/mos__bufmgr_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#a34a099a92635bfe4b8323c0ab5936fd7">bo</a></td></tr>
+<tr class="memitem:a34a099a92635bfe4b8323c0ab5936fd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#a34a099a92635bfe4b8323c0ab5936fd7">bo</a></td></tr>
 <tr class="separator:a34a099a92635bfe4b8323c0ab5936fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfb3987c8d641170a8e8ad4b231671e2"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#abfb3987c8d641170a8e8ad4b231671e2">name</a></td></tr>
 <tr class="separator:abfb3987c8d641170a8e8ad4b231671e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,17 +149,17 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a14102ebbc265bcf6d28e6283372dfbe6"><td class="memItemLeft" align="right" valign="top">MOS_PLANE_OFFSET&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#a14102ebbc265bcf6d28e6283372dfbe6">VPlaneOffset</a></td></tr>
 <tr class="memdesc:a14102ebbc265bcf6d28e6283372dfbe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">V surface plane offset.  <a href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#a14102ebbc265bcf6d28e6283372dfbe6">More...</a><br /></td></tr>
 <tr class="separator:a14102ebbc265bcf6d28e6283372dfbe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b1698943f3dc5551d48ef6ea90c6b7b"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:ab481b283562276599c80a9d49c3fed7f"><td class="memItemLeft" >&#160;&#160;&#160;int32_t&#160;&#160;&#160;<a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#adfb7b670bf0c0f955446a1b515372f25">bSemInitialized</a></td></tr>
-<tr class="separator:ab481b283562276599c80a9d49c3fed7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7883318ff5df13642e147023a7b55752"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="../../d8/df2/mos__defs__specific_8h.html#aa9ed4bbfa14edf918212c81b19b245c8">PMOS_SEMAPHORE</a> *&#160;&#160;&#160;<a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#a847ac09273898acac04c1b9d83416c9e">ppCurrentFrameSemaphore</a></td></tr>
-<tr class="memdesc:a7883318ff5df13642e147023a7b55752"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semaphore queue for hybrid decoding multi-threading case.  <a href="../../d2/df5/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e_1_1_0d2.html#a7883318ff5df13642e147023a7b55752">More...</a><br /></td></tr>
-<tr class="separator:a7883318ff5df13642e147023a7b55752"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50ea604c27434aab14eaeefc944d63eb"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="../../d8/df2/mos__defs__specific_8h.html#aa9ed4bbfa14edf918212c81b19b245c8">PMOS_SEMAPHORE</a> *&#160;&#160;&#160;<a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#a9bd02f5a1e6543728cb4050418b98c7b">ppReferenceFrameSemaphore</a></td></tr>
-<tr class="memdesc:a50ea604c27434aab14eaeefc944d63eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semaphore queue for hybrid decoding multi-threading case; post when a surface is not used as reference frame.  <a href="../../d2/df5/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e_1_1_0d2.html#a50ea604c27434aab14eaeefc944d63eb">More...</a><br /></td></tr>
-<tr class="separator:a50ea604c27434aab14eaeefc944d63eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b1698943f3dc5551d48ef6ea90c6b7b"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a4b1698943f3dc5551d48ef6ea90c6b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f12e182ac0b535b1516801da9e4f14"><td class="memItemLeft" >struct {</td></tr>
+<tr class="memitem:a0da01d82b87df8a4ce61abcdc8fd78f5"><td class="memItemLeft" >&#160;&#160;&#160;int32_t&#160;&#160;&#160;<a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#adfb7b670bf0c0f955446a1b515372f25">bSemInitialized</a></td></tr>
+<tr class="separator:a0da01d82b87df8a4ce61abcdc8fd78f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b1d2be9a84638621e0f6bb5d2b3edb3"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="../../d8/df2/mos__defs__specific_8h.html#aa9ed4bbfa14edf918212c81b19b245c8">PMOS_SEMAPHORE</a> *&#160;&#160;&#160;<a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#a847ac09273898acac04c1b9d83416c9e">ppCurrentFrameSemaphore</a></td></tr>
+<tr class="memdesc:a3b1d2be9a84638621e0f6bb5d2b3edb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semaphore queue for hybrid decoding multi-threading case.  <a href="../../dc/d0b/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e_1_1_0d3.html#a3b1d2be9a84638621e0f6bb5d2b3edb3">More...</a><br /></td></tr>
+<tr class="separator:a3b1d2be9a84638621e0f6bb5d2b3edb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e2110986057b1092201e2582b779e09"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="../../d8/df2/mos__defs__specific_8h.html#aa9ed4bbfa14edf918212c81b19b245c8">PMOS_SEMAPHORE</a> *&#160;&#160;&#160;<a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#a9bd02f5a1e6543728cb4050418b98c7b">ppReferenceFrameSemaphore</a></td></tr>
+<tr class="memdesc:a8e2110986057b1092201e2582b779e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semaphore queue for hybrid decoding multi-threading case; post when a surface is not used as reference frame.  <a href="../../dc/d0b/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e_1_1_0d3.html#a8e2110986057b1092201e2582b779e09">More...</a><br /></td></tr>
+<tr class="separator:a8e2110986057b1092201e2582b779e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f12e182ac0b535b1516801da9e4f14"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ab6f12e182ac0b535b1516801da9e4f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a265e16b22a8c38f03e78b6890cdbe5b9"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#a265e16b22a8c38f03e78b6890cdbe5b9">user_provided_va</a></td></tr>
 <tr class="separator:a265e16b22a8c38f03e78b6890cdbe5b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f97c6a3f76da265b8908dceaaa11035"><td class="memItemLeft" align="right" valign="top">GraphicsResource *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html#a7f97c6a3f76da265b8908dceaaa11035">pGfxResource</a></td></tr>
@@ -176,16 +188,16 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Structure to Linux resource. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00241">241</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00354">354</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4b1698943f3dc5551d48ef6ea90c6b7b" name="a4b1698943f3dc5551d48ef6ea90c6b7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b1698943f3dc5551d48ef6ea90c6b7b">&#9670;&nbsp;</a></span></h2>
+<a id="ab6f12e182ac0b535b1516801da9e4f14" name="ab6f12e182ac0b535b1516801da9e4f14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6f12e182ac0b535b1516801da9e4f14">&#9670;&nbsp;</a></span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct  { ... }  _MOS_SPECIFIC_RESOURCE::@3</td>
+          <td class="memname">struct  { ... }  _MOS_SPECIFIC_RESOURCE::@4</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -204,7 +216,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00292">292</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00405">405</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -222,7 +234,7 @@ Public Attributes</h2></td></tr>
 
 <p>indicate the surface not allocated by media </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00294">294</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00407">407</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -238,7 +250,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00298">298</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00411">411</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -254,7 +266,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00256">256</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00369">369</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -265,12 +277,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d54/mos__bufmgr_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a>* _MOS_SPECIFIC_RESOURCE::bo</td>
+          <td class="memname"><a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a>* _MOS_SPECIFIC_RESOURCE::bo</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00257">257</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00370">370</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -286,7 +298,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00269">269</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00382">382</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -302,7 +314,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00253">253</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00366">366</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -320,7 +332,7 @@ Public Attributes</h2></td></tr>
 
 <p>set uncompressed write flag to trace media uncomrpessedwrite request </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00301">301</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00414">414</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -336,7 +348,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00251">251</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00364">364</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -352,7 +364,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00293">293</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00406">406</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -363,12 +375,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MOS_FORMAT _MOS_SPECIFIC_RESOURCE::Format</td>
+          <td class="memname"><a class="el" href="../../d4/d02/cm__surface__manager_8h.html#af5411f5a6692f1fe24088e6c534f9947">MOS_FORMAT</a> _MOS_SPECIFIC_RESOURCE::Format</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00248">248</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00361">361</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -384,7 +396,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00250">250</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00363">363</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -400,7 +412,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00249">249</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00362">362</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -418,7 +430,7 @@ Public Attributes</h2></td></tr>
 
 <p>for 3D surface </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00247">247</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00360">360</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -434,7 +446,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00244">244</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00357">357</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -450,7 +462,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00246">246</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00359">359</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -466,7 +478,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00245">245</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00358">358</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -482,7 +494,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00254">254</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00367">367</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -498,7 +510,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00243">243</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00356">356</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -514,7 +526,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00303">303</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00416">416</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -530,7 +542,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00260">260</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00373">373</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -546,7 +558,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00304">304</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00417">417</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -562,7 +574,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00258">258</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00371">371</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -578,7 +590,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00252">252</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00365">365</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -594,7 +606,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00290">290</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00403">403</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -610,7 +622,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00291">291</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00404">404</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -628,7 +640,7 @@ Public Attributes</h2></td></tr>
 
 <p>GMM resource descriptor. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00259">259</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00372">372</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -646,7 +658,7 @@ Public Attributes</h2></td></tr>
 
 <p>Semaphore queue for hybrid decoding multi-threading case. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00270">270</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00383">383</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -664,7 +676,7 @@ Public Attributes</h2></td></tr>
 
 <p>Semaphore queue for hybrid decoding multi-threading case; post when a surface is not used as reference frame. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00271">271</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00384">384</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -680,7 +692,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00261">261</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00374">374</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -696,7 +708,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00297">297</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00410">410</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -712,7 +724,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00255">255</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00368">368</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -730,7 +742,7 @@ Public Attributes</h2></td></tr>
 
 <p>U surface plane offset. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00263">263</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00376">376</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -746,7 +758,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00288">288</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00401">401</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -765,7 +777,7 @@ Public Attributes</h2></td></tr>
 <p>V surface plane offset. </p>
 <p >to sync render target for multi-threading decoding mode </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00264">264</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00377">377</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
@@ -783,12 +795,12 @@ Public Attributes</h2></td></tr>
 
 <p>Y surface plane offset. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00262">262</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html#l00375">375</a> of file <a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>media_common/linux/common/os/<a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a></li>
+<li>C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_common/linux/common/os/<a class="el" href="../../d3/da0/mos__os__specific_8h_source.html">mos_os_specific.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: media_driver/linux/common/os/memory_policy_manager_specific.cpp Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_driver/linux/common/os/memory_policy_manager_specific.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_3115a56e2275d5beaba552b66eb05a58.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_c1c480c84d9c810d13e5396fd09e2c47.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_18eb10762497f3f6d66dac8bd6884b5d.html">common</a></li><li class="navelem"><a class="el" href="../../dir_cfbb9b4bd7e2bb91b6819f54ddde9bdd.html">os</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_55776ec83c9d032fd3160e5735bb9eeb.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_71b97772b1880ae754b9c282d2ac7b3e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_fdadb0a20a244235cd810deb83932914.html">common</a></li><li class="navelem"><a class="el" href="../../dir_0e11ed6de9a4bd3ddcd60797adc23b75.html">os</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -124,9 +124,19 @@ $(function() {
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        }</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    }</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>}</div>
-<div class="ttc" id="alinux__media__skuwa_8h_html_a5129708d0b43d82745124b524d8aab22"><div class="ttname"><a href="../../d5/d39/linux__media__skuwa_8h.html#a5129708d0b43d82745124b524d8aab22">MEDIA_IS_WA</a></div><div class="ttdeci">#define MEDIA_IS_WA(s, w)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00304">linux_media_skuwa.h:304</a></div></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordflow">if</span>(memPolicyPar-&gt;isServer)</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    {</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordflow">if</span> (strcmp(memPolicyPar-&gt;resName, <span class="stringliteral">&quot;MOS CmdBuf&quot;</span>) == 0 ||</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            strcmp(memPolicyPar-&gt;resName, <span class="stringliteral">&quot;BatchBuffer&quot;</span>) == 0</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            )</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        {</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            mem_type = MOS_MEMPOOL_SYSTEMMEMORY;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        }</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    }</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>}</div>
+<div class="ttc" id="alinux__media__skuwa_8h_html_a5129708d0b43d82745124b524d8aab22"><div class="ttname"><a href="../../d5/d39/linux__media__skuwa_8h.html#a5129708d0b43d82745124b524d8aab22">MEDIA_IS_WA</a></div><div class="ttdeci">#define MEDIA_IS_WA(s, w)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00308">linux_media_skuwa.h:308</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

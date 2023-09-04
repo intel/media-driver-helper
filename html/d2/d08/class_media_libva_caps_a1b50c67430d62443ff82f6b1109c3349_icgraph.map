@@ -1,5 +1,5 @@
 <map id="MediaLibvaCaps::GetProfileEntrypointFromConfigId" name="MediaLibvaCaps::GetProfileEntrypointFromConfigId">
-<area shape="rect" id="node1" title="Return profile and entrypoint for a give config ID." alt="" coords="304,225,485,266"/>
+<area shape="rect" id="node1" title="Return profile and entrypoint for a give config ID." alt="" coords="304,254,485,295"/>
 <area shape="rect" id="node2" href="$d2/d08/class_media_libva_caps.html#aa4e55b5a3bb7f746971e200094e06147" title="Get attributes for a given decode config ID." alt="" coords="18,5,243,32"/>
 <area shape="rect" id="node3" href="$d2/d08/class_media_libva_caps.html#aba71a16df9057b01d855f1b53d306728" title="Get attributes for a given encode config ID." alt="" coords="18,56,243,83"/>
 <area shape="rect" id="node4" href="$d7/d40/class_media_libva_caps_cp_interface.html#aff0e05d3a1d4f21b2dd22b1cdc07b561" title=" " alt="" coords="19,107,242,149"/>
@@ -9,4 +9,5 @@
 <area shape="rect" id="node8" href="$d2/d08/class_media_libva_caps.html#ad5a394aeb1cc307b36e17c43ffdf4b4b" title="Get surface attributes for a given config ID." alt="" coords="29,342,232,383"/>
 <area shape="rect" id="node9" href="$d5/d0b/class_media_libva_caps_g11.html#a6d3ad31c7bc6b99a10b76d222bc5461d" title="Get surface attributes for a given config ID." alt="" coords="52,407,209,449"/>
 <area shape="rect" id="node10" href="$da/dc3/class_media_libva_caps_g12.html#a3ecded7b0b423581c2bcf96d223e55f0" title="Get surface attributes for a given config ID." alt="" coords="52,473,209,514"/>
+<area shape="rect" id="node11" href="$dd/d43/class_media_libva_caps_mtl_base.html#acb4831f50112939230a1e587390f2e56" title="Get surface attributes for a given config ID." alt="" coords="48,538,213,579"/>
 </map>

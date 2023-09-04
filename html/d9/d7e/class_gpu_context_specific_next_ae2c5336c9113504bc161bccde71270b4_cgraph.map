@@ -1,9 +1,7 @@
 <map id="GpuContextSpecificNext::Clear" name="GpuContextSpecificNext::Clear">
 <area shape="rect" id="node1" title=" " alt="" coords="5,27,169,69"/>
-<area shape="rect" id="node2" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a1a59eebcb8b4cc8f35dd6ad467583377" title=" " alt="" coords="221,5,400,32"/>
-<area shape="rect" id="node5" href="$db/d2d/class_command_buffer_specific_next.html#a624f17c29775bf43ff37d30cd46e2d17" title="wait command buffer to be rendered by gpu \detail This function will call mos_bo_wait_rendering()" alt="" coords="217,57,404,98"/>
-<area shape="rect" id="node3" href="$dc/dfc/xf86drm_8c.html#ae3c1c49d03f8a0f8b71de1f5f574a6bd" title=" " alt="" coords="505,5,573,32"/>
-<area shape="rect" id="node4" href="$dc/dfc/xf86drm_8c.html#ac49c32891ff1d2f2a7cbb33d520d9658" title=" " alt="" coords="675,5,768,32"/>
-<area shape="rect" id="node6" href="$d6/d1f/class_graphics_resource_specific_next.html#a62675abbabe01e50d86df533a3876e5c" title=" " alt="" coords="452,57,627,98"/>
-<area shape="rect" id="node7" href="$d1/d60/mos__bufmgr__api_8c.html#a2684cbc7d8463456345f52cf3e470896" title=" " alt="" coords="460,123,619,149"/>
+<area shape="rect" id="node2" href="$d7/d73/mos__bufmgr__api__mock_8c.html#aa872d6fd06ad299be49a9f6a11f46ce5" title=" " alt="" coords="237,5,384,32"/>
+<area shape="rect" id="node3" href="$db/d2d/class_command_buffer_specific_next.html#a624f17c29775bf43ff37d30cd46e2d17" title="wait command buffer to be rendered by gpu \detail This function will call mos_bo_wait_rendering()" alt="" coords="217,57,404,98"/>
+<area shape="rect" id="node4" href="$d6/d1f/class_graphics_resource_specific_next.html#a62675abbabe01e50d86df533a3876e5c" title=" " alt="" coords="452,27,627,69"/>
+<area shape="rect" id="node5" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a2684cbc7d8463456345f52cf3e470896" title=" " alt="" coords="460,93,619,120"/>
 </map>

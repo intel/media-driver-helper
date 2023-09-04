@@ -1,4 +1,5 @@
 <map id="MediaLibvaCaps::GetSurfaceModifier" name="MediaLibvaCaps::GetSurfaceModifier">
-<area shape="rect" id="node1" title="Get surface drm modifier." alt="" coords="201,5,391,47"/>
-<area shape="rect" id="node2" href="$da/dc3/class_media_libva_caps_g12.html#a13e4d2c186f424e30b9285edc4d7e291" title="Get surface drm modifier." alt="" coords="5,5,153,47"/>
+<area shape="rect" id="node1" title="Get surface drm modifier." alt="" coords="217,39,407,80"/>
+<area shape="rect" id="node2" href="$da/dc3/class_media_libva_caps_g12.html#a13e4d2c186f424e30b9285edc4d7e291" title="Get surface drm modifier." alt="" coords="13,5,161,47"/>
+<area shape="rect" id="node3" href="$dd/d43/class_media_libva_caps_mtl_base.html#a784bfb830fc7eb5ee3c97a79e6b1e091" title="Get surface drm modifier." alt="" coords="5,71,169,112"/>
 </map>

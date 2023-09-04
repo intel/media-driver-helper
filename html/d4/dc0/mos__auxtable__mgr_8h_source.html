@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: media_driver/linux/common/os/mos_auxtable_mgr.h Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/mos_auxtable_mgr.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_3115a56e2275d5beaba552b66eb05a58.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_c1c480c84d9c810d13e5396fd09e2c47.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_18eb10762497f3f6d66dac8bd6884b5d.html">common</a></li><li class="navelem"><a class="el" href="../../dir_cfbb9b4bd7e2bb91b6819f54ddde9bdd.html">os</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_3c3410289b14e1df332ecc9157e3894f.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_32ec30427766471c663c1286f4b04a0e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_986d2ce2ac55d27cc447e8d78f5db418.html">common</a></li><li class="navelem"><a class="el" href="../../dir_11379992f964418e636509c17f24b568.html">os</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -96,36 +96,34 @@ $(function() {
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#ifndef MOS_AUXTABLE_MGR_H</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#define MOS_AUXTABLE_MGR_H</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &quot;<a class="code" href="../../de/d59/xf86drm_8h.html">xf86drm.h</a>&quot;</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d68/drm_8h.html">drm.h</a>&quot;</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#include &quot;<a class="code" href="../../d0/d85/i915__drm_8h.html">i915_drm.h</a>&quot;</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d54/mos__bufmgr_8h.html">mos_bufmgr.h</a>&quot;</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#include &quot;mos_os.h&quot;</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../dc/d36/class_aux_table_mgr.html">   40</a></span><span class="keyword">class </span><a class="code hl_class" href="../../dc/d36/class_aux_table_mgr.html">AuxTableMgr</a></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>{</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#a6def40ae68418a18132134fefa6dc9ea">AuxTableMgr</a>(<a class="code hl_struct" href="../../d2/da7/structmos__bufmgr.html">MOS_BUFMGR</a> *bufMgr, GMM_CLIENT_CONTEXT *gmmClientContext);</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keyword">virtual</span> <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#a27bf30cd2d825afabd8b98819e01d472">~AuxTableMgr</a>();</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../dc/d36/class_aux_table_mgr.html">AuxTableMgr</a> * <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#a3f282a1240689d76d05cf56f92d8a24c">CreateAuxTableMgr</a>(<a class="code hl_struct" href="../../d2/da7/structmos__bufmgr.html">MOS_BUFMGR</a> *bufMgr, <a class="code hl_class" href="../../d3/dc8/class_media_feature_table.html">MEDIA_FEATURE_TABLE</a> *sku, GMM_CLIENT_CONTEXT *gmmClientContext);</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    MOS_STATUS  <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#addd894f3a783c1ae6bb1ff4ddc28bba1">MapResource</a>(GMM_RESOURCE_INFO *gmmResInfo, <a class="code hl_struct" href="../../db/d8b/structmos__linux__bo.html">MOS_LINUX_BO</a> *bo);</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    MOS_STATUS  <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#a73327ab525816daf157b66a7d82c28d8">UnmapResource</a>(GMM_RESOURCE_INFO *gmmResInfo, <a class="code hl_struct" href="../../db/d8b/structmos__linux__bo.html">MOS_LINUX_BO</a> *bo);</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    MOS_STATUS  <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#a7bec85ebec76cafbba41645e84fa2c52">EmitAuxTableBOList</a>(<a class="code hl_struct" href="../../db/d8b/structmos__linux__bo.html">MOS_LINUX_BO</a> *cmd_bo);</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    uint64_t    <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#a5fa13ca490dc1e9661ff4a0d5be113ce">GetAuxTableBase</a>();</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    GMM_CLIENT_CONTEXT *m_gmmClientContext = <span class="keyword">nullptr</span>;     </div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordtype">void</span> *m_gmmPageTableMgr = <span class="keyword">nullptr</span>;                    </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>};</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="preprocessor">#endif </span><span class="comment">//MOS_AUXTABLE_MGR_H</span></div>
-<div class="ttc" id="aclass_aux_table_mgr_html"><div class="ttname"><a href="../../dc/d36/class_aux_table_mgr.html">AuxTableMgr</a></div><div class="ttdoc">Aux Table Manager.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dc0/mos__auxtable__mgr_8h_source.html#l00040">mos_auxtable_mgr.h:41</a></div></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &quot;<a class="code" href="../../d5/d3a/mos__bufmgr__api_8h.html">mos_bufmgr_api.h</a>&quot;</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;mos_os.h&quot;</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../dc/d36/class_aux_table_mgr.html">   37</a></span><span class="keyword">class </span><a class="code hl_class" href="../../dc/d36/class_aux_table_mgr.html">AuxTableMgr</a></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>{</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#a6def40ae68418a18132134fefa6dc9ea">AuxTableMgr</a>(<a class="code hl_struct" href="../../d2/da7/structmos__bufmgr.html">MOS_BUFMGR</a> *bufMgr, GMM_CLIENT_CONTEXT *gmmClientContext);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">virtual</span> <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#a27bf30cd2d825afabd8b98819e01d472">~AuxTableMgr</a>();</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../dc/d36/class_aux_table_mgr.html">AuxTableMgr</a> * <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#a3f282a1240689d76d05cf56f92d8a24c">CreateAuxTableMgr</a>(<a class="code hl_struct" href="../../d2/da7/structmos__bufmgr.html">MOS_BUFMGR</a> *bufMgr, <a class="code hl_class" href="../../d3/dc8/class_media_feature_table.html">MEDIA_FEATURE_TABLE</a> *sku, GMM_CLIENT_CONTEXT *gmmClientContext);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    MOS_STATUS  <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#addd894f3a783c1ae6bb1ff4ddc28bba1">MapResource</a>(GMM_RESOURCE_INFO *gmmResInfo, <a class="code hl_struct" href="../../db/d8b/structmos__linux__bo.html">MOS_LINUX_BO</a> *bo);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    MOS_STATUS  <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#a73327ab525816daf157b66a7d82c28d8">UnmapResource</a>(GMM_RESOURCE_INFO *gmmResInfo, <a class="code hl_struct" href="../../db/d8b/structmos__linux__bo.html">MOS_LINUX_BO</a> *bo);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    MOS_STATUS  <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#a7bec85ebec76cafbba41645e84fa2c52">EmitAuxTableBOList</a>(<a class="code hl_struct" href="../../db/d8b/structmos__linux__bo.html">MOS_LINUX_BO</a> *cmd_bo);</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    uint64_t    <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#a5fa13ca490dc1e9661ff4a0d5be113ce">GetAuxTableBase</a>();</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    GMM_CLIENT_CONTEXT *m_gmmClientContext = <span class="keyword">nullptr</span>;     </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordtype">void</span> *m_gmmPageTableMgr = <span class="keyword">nullptr</span>;                    </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>MEDIA_CLASS_DEFINE_END(<a class="code hl_class" href="../../dc/d36/class_aux_table_mgr.html">AuxTableMgr</a>)</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>};</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="preprocessor">#endif </span><span class="comment">//MOS_AUXTABLE_MGR_H</span></div>
+<div class="ttc" id="aclass_aux_table_mgr_html"><div class="ttname"><a href="../../dc/d36/class_aux_table_mgr.html">AuxTableMgr</a></div><div class="ttdoc">Aux Table Manager.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dc0/mos__auxtable__mgr_8h_source.html#l00037">mos_auxtable_mgr.h:38</a></div></div>
 <div class="ttc" id="aclass_aux_table_mgr_html_a27bf30cd2d825afabd8b98819e01d472"><div class="ttname"><a href="../../dc/d36/class_aux_table_mgr.html#a27bf30cd2d825afabd8b98819e01d472">AuxTableMgr::~AuxTableMgr</a></div><div class="ttdeci">virtual ~AuxTableMgr()</div><div class="ttdoc">Destructor.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d4e/mos__auxtable__mgr_8cpp_source.html#l00148">mos_auxtable_mgr.cpp:148</a></div></div>
 <div class="ttc" id="aclass_aux_table_mgr_html_a3f282a1240689d76d05cf56f92d8a24c"><div class="ttname"><a href="../../dc/d36/class_aux_table_mgr.html#a3f282a1240689d76d05cf56f92d8a24c">AuxTableMgr::CreateAuxTableMgr</a></div><div class="ttdeci">static AuxTableMgr * CreateAuxTableMgr(MOS_BUFMGR *bufMgr, MEDIA_FEATURE_TABLE *sku, GMM_CLIENT_CONTEXT *gmmClientContext)</div><div class="ttdoc">Create AuxTableMgr object.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d4e/mos__auxtable__mgr_8cpp_source.html#l00161">mos_auxtable_mgr.cpp:161</a></div></div>
 <div class="ttc" id="aclass_aux_table_mgr_html_a5fa13ca490dc1e9661ff4a0d5be113ce"><div class="ttname"><a href="../../dc/d36/class_aux_table_mgr.html#a5fa13ca490dc1e9661ff4a0d5be113ce">AuxTableMgr::GetAuxTableBase</a></div><div class="ttdeci">uint64_t GetAuxTableBase()</div><div class="ttdoc">Get aux table base address.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d4e/mos__auxtable__mgr_8cpp_source.html#l00258">mos_auxtable_mgr.cpp:258</a></div></div>
@@ -133,13 +131,10 @@ $(function() {
 <div class="ttc" id="aclass_aux_table_mgr_html_a73327ab525816daf157b66a7d82c28d8"><div class="ttname"><a href="../../dc/d36/class_aux_table_mgr.html#a73327ab525816daf157b66a7d82c28d8">AuxTableMgr::UnmapResource</a></div><div class="ttdeci">MOS_STATUS UnmapResource(GMM_RESOURCE_INFO *gmmResInfo, MOS_LINUX_BO *bo)</div><div class="ttdoc">Unmap resource from aux table.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d4e/mos__auxtable__mgr_8cpp_source.html#l00211">mos_auxtable_mgr.cpp:211</a></div></div>
 <div class="ttc" id="aclass_aux_table_mgr_html_a7bec85ebec76cafbba41645e84fa2c52"><div class="ttname"><a href="../../dc/d36/class_aux_table_mgr.html#a7bec85ebec76cafbba41645e84fa2c52">AuxTableMgr::EmitAuxTableBOList</a></div><div class="ttdeci">MOS_STATUS EmitAuxTableBOList(MOS_LINUX_BO *cmd_bo)</div><div class="ttdoc">Insert aux table BOs into specific execute buffer.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d4e/mos__auxtable__mgr_8cpp_source.html#l00229">mos_auxtable_mgr.cpp:229</a></div></div>
 <div class="ttc" id="aclass_aux_table_mgr_html_addd894f3a783c1ae6bb1ff4ddc28bba1"><div class="ttname"><a href="../../dc/d36/class_aux_table_mgr.html#addd894f3a783c1ae6bb1ff4ddc28bba1">AuxTableMgr::MapResource</a></div><div class="ttdeci">MOS_STATUS MapResource(GMM_RESOURCE_INFO *gmmResInfo, MOS_LINUX_BO *bo)</div><div class="ttdoc">Map resource to aux table.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d4e/mos__auxtable__mgr_8cpp_source.html#l00175">mos_auxtable_mgr.cpp:175</a></div></div>
-<div class="ttc" id="aclass_media_feature_table_html"><div class="ttname"><a href="../../d3/dc8/class_media_feature_table.html">MediaFeatureTable</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00036">linux_media_skuwa.h:37</a></div></div>
-<div class="ttc" id="adrm_8h_html"><div class="ttname"><a href="../../da/d68/drm_8h.html">drm.h</a></div></div>
-<div class="ttc" id="ai915__drm_8h_html"><div class="ttname"><a href="../../d0/d85/i915__drm_8h.html">i915_drm.h</a></div></div>
-<div class="ttc" id="amos__bufmgr_8h_html"><div class="ttname"><a href="../../da/d54/mos__bufmgr_8h.html">mos_bufmgr.h</a></div></div>
+<div class="ttc" id="aclass_media_feature_table_html"><div class="ttname"><a href="../../d3/dc8/class_media_feature_table.html">MediaFeatureTable</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00037">linux_media_skuwa.h:38</a></div></div>
+<div class="ttc" id="amos__bufmgr__api_8h_html"><div class="ttname"><a href="../../d5/d3a/mos__bufmgr__api_8h.html">mos_bufmgr_api.h</a></div><div class="ttdoc">Public definitions of Intel-specific bufmgr api functions.</div></div>
 <div class="ttc" id="astructmos__bufmgr_html"><div class="ttname"><a href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00042">mos_bufmgr_priv.h:42</a></div></div>
-<div class="ttc" id="astructmos__linux__bo_html"><div class="ttname"><a href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d54/mos__bufmgr_8h_source.html#l00091">mos_bufmgr.h:91</a></div></div>
-<div class="ttc" id="axf86drm_8h_html"><div class="ttname"><a href="../../de/d59/xf86drm_8h.html">xf86drm.h</a></div></div>
+<div class="ttc" id="astructmos__linux__bo_html"><div class="ttname"><a href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3a/mos__bufmgr__api_8h_source.html#l00150">mos_bufmgr_api.h:150</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

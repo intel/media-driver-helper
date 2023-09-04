@@ -1,0 +1,9 @@
+<map id="decode::DdiDecodeAv1::SetDecodeParams" name="decode::DdiDecodeAv1::SetDecodeParams">
+<area shape="rect" id="node1" title="Set common decode param setting for each codec." alt="" coords="5,100,161,141"/>
+<area shape="rect" id="node2" href="$df/dcc/classdecode_1_1_ddi_decode_av1.html#a9b14c4e45c4eab628d535342687037f7" title="Get decode format." alt="" coords="231,5,387,47"/>
+<area shape="rect" id="node3" href="$d0/d2c/class_media_libva_common_next.html#a777c49ecedc8b526e631300f286a1822" title="Get surface from VA surface ID." alt="" coords="209,71,408,112"/>
+<area shape="rect" id="node4" href="$d0/d2c/class_media_libva_common_next.html#addb0f1dd555e0790bd642131052b7010" title="Media surface to mos resource." alt="" coords="456,127,659,168"/>
+<area shape="rect" id="node5" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#a2e92d25c2758e24cb0a185c72f8574cd" title="Set common decode param setting for each codec." alt="" coords="226,189,391,231"/>
+<area shape="rect" id="node6" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#ace3659f833c399b9fe9198fbc9e58620" title="Get decode format." alt="" coords="475,192,640,233"/>
+<area shape="rect" id="node7" href="$d8/db3/class_ddi_cp_interface_next.html#a830230eb67e8282964db6fc4a3f11062" title=" " alt="" coords="488,257,627,299"/>
+</map>

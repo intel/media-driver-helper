@@ -1,0 +1,12 @@
+<map id="decode::DdiDecodeBase::GetFormat" name="decode::DdiDecodeBase::GetFormat">
+<area shape="rect" id="node1" title="Get decode format." alt="" coords="632,201,797,243"/>
+<area shape="rect" id="node2" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#a2e92d25c2758e24cb0a185c72f8574cd" title="Set common decode param setting for each codec." alt="" coords="419,201,584,243"/>
+<area shape="rect" id="node3" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#a95ccfdb5ed288581db77ce816894eb8b" title="Make the end of rendering for a picture." alt="" coords="201,5,366,47"/>
+<area shape="rect" id="node5" href="$df/dcc/classdecode_1_1_ddi_decode_av1.html#ae9a99e2ed06b29dec77a121a89d2c572" title="Set common decode param setting for each codec." alt="" coords="205,71,361,112"/>
+<area shape="rect" id="node6" href="$d3/da0/classdecode_1_1_ddi_decode_avc.html#add50adc433a21efc1dc86ec1e82e8c5d" title="Set common decode param setting for each codec." alt="" coords="205,136,361,177"/>
+<area shape="rect" id="node7" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a5616fe4ea8d5f20c1d347cf6d5d5ede4" title="Set common decode param setting for each codec." alt="" coords="202,201,365,243"/>
+<area shape="rect" id="node8" href="$d5/d43/classdecode_1_1_ddi_decode_mpeg2.html#afa56065ec1d87386ebcb51cda92c80f7" title="Set common decode param setting for each codec." alt="" coords="196,267,371,308"/>
+<area shape="rect" id="node9" href="$da/da1/classdecode_1_1_ddi_decode_vp8.html#a67bd9fc071b840fec8c0737a26bf1b3d" title="Set common decode param setting for each codec." alt="" coords="204,332,363,373"/>
+<area shape="rect" id="node10" href="$df/dd3/classdecode_1_1_ddi_decode_vp9.html#aef7835c2d740cba7d578fcb3c8e97a54" title="Set common decode param setting for each codec." alt="" coords="204,397,363,439"/>
+<area shape="rect" id="node4" href="$d0/dca/class_ddi_decode_functions.html#a4459234668737505fb043c1c9e1c1f10" title="Make the end of rendering for a picture." alt="" coords="5,5,148,47"/>
+</map>

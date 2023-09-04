@@ -1,7 +1,0 @@
-<map id="mos_gem_bo_context_exec2" name="mos_gem_bo_context_exec2">
-<area shape="rect" id="node1" title=" " alt="" coords="233,104,384,145"/>
-<area shape="rect" id="node2" href="$dd/db5/class_gpu_context_specific.html#a06da7434200ce4de9775ef3eef6b1eaf" title="Combin cmd buffer for each pipe and use one submission in scalability mode." alt="" coords="5,5,185,47"/>
-<area shape="rect" id="node3" href="$d9/d7e/class_gpu_context_specific_next.html#a5430ec3b4fcf012d4f772676fe3e615d" title="Combin cmd buffer for each pipe and use one submission in scalability mode." alt="" coords="5,71,185,112"/>
-<area shape="rect" id="node4" href="$dd/db5/class_gpu_context_specific.html#a502ffef170a11d423cbb05aac9455f91" title="Submit command buffer for single pipe in scalability mode." alt="" coords="14,136,177,177"/>
-<area shape="rect" id="node5" href="$d9/d7e/class_gpu_context_specific_next.html#a8d2b4015db37e60859b1cd5a27febd82" title="Submit command buffer for single pipe in scalability mode." alt="" coords="13,201,177,243"/>
-</map>

@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -90,7 +90,7 @@ Public Attributes</h2></td></tr>
 <p >The format and meaning of the blob content are documented in the Programmer's Reference Manual. struct <a class="el" href="../../da/d67/structdrm__i915__gem__create__ext.html">drm_i915_gem_create_ext</a> - Existing gem_create behaviour, with added extension support using struct <a class="el" href="../../de/d0b/structi915__user__extension.html">i915_user_extension</a>.</p>
 <p >Note that new buffer flags should be added here, at least for the stuff that is immutable. Previously we would have two ioctls, one to create the object with gem_create, and another to apply various parameters, however this creates some ambiguity for the params which are considered immutable. Also in general we're phasing out the various SET/GET ioctls. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l03487">3487</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l03586">3586</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a4f0f5961e039a1a0b327797cdcf3b5fe" name="a4f0f5961e039a1a0b327797cdcf3b5fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4f0f5961e039a1a0b327797cdcf3b5fe">&#9670;&nbsp;</a></span>extensions</h2>
@@ -104,7 +104,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l03600">3600</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l03687">3687</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
@@ -120,7 +120,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l03580">3580</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l03663">3663</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
@@ -138,7 +138,7 @@ Public Attributes</h2></td></tr>
 <p >@handle: Returned handle for the object.</p>
 <p >Object handles are nonzero. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l03536">3536</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l03619">3619</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
@@ -155,22 +155,18 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >@size: Requested size for the object.</p>
 <p >The (page-aligned) allocated size for the object will be returned.</p>
-<p >DG2 64K min page size implications:</p>
-<p >On discrete platforms, starting from DG2, we have to contend with GTT page size restrictions when dealing with I915_MEMORY_CLASS_DEVICE objects. Specifically the hardware only supports 64K or larger GTT page sizes for such memory. The kernel will already ensure that all I915_MEMORY_CLASS_DEVICE memory is allocated using 64K or larger page sizes underneath.</p>
-<p >Note that the returned size here will always reflect any required rounding up done by the kernel, i.e 4K will now become 64K on devices such as DG2. The kernel will always select the largest minimum page-size for the set of possible placements as the value to use when rounding up the @size.</p>
-<p >Special DG2 GTT address alignment requirement:</p>
-<p >The GTT alignment will also need to be at least 2M for such objects.</p>
-<p >Note that due to how the hardware implements 64K GTT page support, we have some further complications:</p>
+<p >On platforms like DG2/ATS the kernel will always use 64K or larger pages for I915_MEMORY_CLASS_DEVICE. The kernel also requires a minimum of 64K GTT alignment for such objects.</p>
+<p >NOTE: Previously the ABI here required a minimum GTT alignment of 2M on DG2/ATS, due to how the hardware implemented 64K GTT page support, where we had the following complications:</p>
 <p >1) The entire PDE (which covers a 2MB virtual address range), must contain only 64K PTEs, i.e mixing 4K and 64K PTEs in the same PDE is forbidden by the hardware.</p>
 <p >2) We still need to support 4K PTEs for I915_MEMORY_CLASS_SYSTEM objects.</p>
-<p >To keep things simple for userland, we mandate that any GTT mappings must be aligned to and rounded up to 2MB. The kernel will internally pad them out to the next 2MB boundary. As this only wastes virtual address space and avoids userland having to copy any needlessly complicated PDE sharing scheme (coloring) and only affects DG2, this is deemed to be a good compromise. </p>
+<p >However on actual production HW this was completely changed to now allow setting a TLB hint at the PTE level (see PS64), which is a lot more flexible than the above. With this the 2M restriction was dropped where we now only require 64K. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l03529">3529</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l03612">3612</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>media_driver/linux/common/os/i915/include/uapi/<a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a></li>
+<li>C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/i915/include/uapi/<a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

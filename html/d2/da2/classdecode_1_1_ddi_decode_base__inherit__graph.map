@@ -1,0 +1,11 @@
+<map id="decode::DdiDecodeBase" name="decode::DdiDecodeBase">
+<area shape="rect" id="node1" title="Ddi decode base." alt="" coords="204,157,369,184"/>
+<area shape="rect" id="node3" href="$df/dcc/classdecode_1_1_ddi_decode_av1.html" title="Ddi Decode AV1." alt="" coords="427,5,583,32"/>
+<area shape="rect" id="node4" href="$d3/da0/classdecode_1_1_ddi_decode_avc.html" title="Ddi decode Avc." alt="" coords="427,56,583,83"/>
+<area shape="rect" id="node5" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html" title="DDI Decode HEVC." alt="" coords="423,107,586,133"/>
+<area shape="rect" id="node6" href="$db/df1/classdecode_1_1_ddi_decode_jpeg.html" title="This class defines the member fields, functions etc used by JPEG decoder." alt="" coords="423,157,586,184"/>
+<area shape="rect" id="node7" href="$d5/d43/classdecode_1_1_ddi_decode_mpeg2.html" title="Ddi Decode MPEG2." alt="" coords="417,208,592,235"/>
+<area shape="rect" id="node8" href="$da/da1/classdecode_1_1_ddi_decode_vp8.html" title="Ddi decode VP8." alt="" coords="425,259,584,285"/>
+<area shape="rect" id="node9" href="$df/dd3/classdecode_1_1_ddi_decode_vp9.html" title="Ddi decode VP9." alt="" coords="425,309,584,336"/>
+<area shape="rect" id="node2" href="$d7/d54/classcodec_1_1_ddi_codec_base.html" title="Ddi codec base class." alt="" coords="5,157,156,184"/>
+</map>

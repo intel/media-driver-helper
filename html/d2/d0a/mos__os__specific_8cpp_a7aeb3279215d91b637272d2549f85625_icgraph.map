@@ -1,0 +1,18 @@
+<map id="Mos_Specific_GetResourceInfo" name="Mos_Specific_GetResourceInfo">
+<area shape="rect" id="node1" title="Get Resource Information." alt="" coords="1668,195,1871,222"/>
+<area shape="rect" id="node2" href="$df/dc7/class_ddi_media_decode.html#a2d6732fac863a69f25964462a22a72b4" title="Make the end of rendering for a picture." alt="" coords="1169,42,1361,69"/>
+<area shape="rect" id="node9" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#a95ccfdb5ed288581db77ce816894eb8b" title="Make the end of rendering for a picture." alt="" coords="1183,276,1348,317"/>
+<area shape="rect" id="node11" href="$df/dc7/class_ddi_media_decode.html#acdd3e490ba7e318567b4acf67e84e1bf" title="Get dummy reference from DPB." alt="" coords="1417,123,1612,164"/>
+<area shape="rect" id="node12" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#a2e1b7f263c6531a7b5cc1f2a1646469f" title="Get dummy reference from DPB." alt="" coords="1409,188,1620,229"/>
+<area shape="rect" id="node13" href="$df/dc7/class_ddi_media_decode.html#a3aebeef057e3c3358ec8d23caf868775" title="Init dummy reference." alt="" coords="1419,5,1610,47"/>
+<area shape="rect" id="node14" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#aceba894197dffebb528f30a6444271b4" title="Init dummy reference." alt="" coords="1432,305,1597,347"/>
+<area shape="rect" id="node15" href="$d2/d0a/mos__os__specific_8cpp.html#af32ef68510c731e300b178fd596f5d8e" title=" " alt="" coords="1422,371,1607,398"/>
+<area shape="rect" id="node3" href="$da/d25/media__libva__decoder_8cpp.html#a78c1c188a7b54ff86ef349df5ca25159" title="End picture." alt="" coords="965,42,1121,69"/>
+<area shape="rect" id="node4" href="$dd/da8/media__libva_8cpp.html#aab87a77dd563bf28bb8747f7f253aa46" title="Make the end of rendering for a picture." alt="" coords="771,42,917,69"/>
+<area shape="rect" id="node5" href="$dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="565,42,723,69"/>
+<area shape="rect" id="node6" href="$dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,42,517,69"/>
+<area shape="rect" id="node7" href="$dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,42,332,69"/>
+<area shape="rect" id="node8" href="$dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,42,187,69"/>
+<area shape="rect" id="node10" href="$d0/dca/class_ddi_decode_functions.html#a4459234668737505fb043c1c9e1c1f10" title="Make the end of rendering for a picture." alt="" coords="972,276,1115,317"/>
+<area shape="rect" id="node16" href="$d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Unified OS Initializes OS Linux Interface." alt="" coords="1179,371,1352,398"/>
+</map>

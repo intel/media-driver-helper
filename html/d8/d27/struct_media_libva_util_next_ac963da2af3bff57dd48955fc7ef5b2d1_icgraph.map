@@ -1,0 +1,8 @@
+<map id="MediaLibvaUtilNext::FreeSurface" name="MediaLibvaUtilNext::FreeSurface">
+<area shape="rect" id="node1" title="Free surface." alt="" coords="479,39,611,80"/>
+<area shape="rect" id="node2" href="$d0/d2c/class_media_libva_common_next.html#aa3146ec745529e72c5e4fbf906f8d611" title="Replace the surface with given format." alt="" coords="216,5,431,47"/>
+<area shape="rect" id="node4" href="$d0/d2c/class_media_libva_common_next.html#afae7b82aa32d185d574450c1b073d7c1" title="replace the surface with correlation variant format" alt="" coords="229,71,418,112"/>
+<area shape="rect" id="node3" href="$db/df1/classdecode_1_1_ddi_decode_jpeg.html#ac64496e4fc18f7e3ddff2662fc7d8518" title="Set common decode param setting for each codec." alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node5" href="$d1/d90/classencode_1_1_ddi_encode_hevc.html#a4406e7b36762c461980b59e86a5a95cd" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="5,71,168,112"/>
+<area shape="rect" id="node6" href="$db/d20/classencode_1_1_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="7,136,166,177"/>
+</map>

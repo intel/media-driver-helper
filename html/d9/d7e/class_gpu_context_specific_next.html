@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -66,7 +66,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d7/dbd/class_gpu_context_specific_next-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">GpuContextSpecificNext Class Reference</div></div>
 </div><!--header-->
@@ -87,8 +89,23 @@ Collaboration diagram for GpuContextSpecificNext:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/d33/class_gpu_context_specific_next__coll__graph.png" border="0" usemap="#a_gpu_context_specific_next_coll__map" alt="Collaboration graph"/></div>
 <map name="a_gpu_context_specific_next_coll__map" id="a_gpu_context_specific_next_coll__map">
-<area shape="rect" title=" " alt="" coords="5,80,169,107"/>
-<area shape="rect" title=" " alt="" coords="28,5,147,32"/>
+<area shape="rect" title=" " alt="" coords="2485,172,2649,199"/>
+<area shape="rect" title=" " alt="" coords="2141,5,2259,32"/>
+<area shape="rect" href="../../dd/de5/struct___a_l_l_o_c_a_t_i_o_n___l_i_s_t.html" title="Structure to Allocation List." alt="" coords="253,75,396,101"/>
+<area shape="rect" href="../../d5/d30/struct___c_o_d_e_c_h_a_l___o_s___g_p_u___c_o_n_t_e_x_t.html" title="Structure to Gpu context." alt="" coords="540,377,767,404"/>
+<area shape="rect" href="../../d4/d75/struct___p_a_t_c_h_l_o_c_a_t_i_o_n_l_i_s_t.html" title="Structure to patch location list." alt="" coords="2119,321,2281,348"/>
+<area shape="rect" href="../../db/d8b/structmos__linux__bo.html" title=" " alt="" coords="1887,343,1989,369"/>
+<area shape="rect" href="../../d2/da7/structmos__bufmgr.html" title=" " alt="" coords="1607,347,1701,373"/>
+<area shape="rect" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html" title="Structure to Linux resource." alt="" coords="2097,421,2303,448"/>
+<area shape="rect" href="../../dd/d1d/struct___c_m_d___b_u_f_f_e_r___b_o___p_o_o_l.html" title="Structure to buffer pool." alt="" coords="2107,172,2293,199"/>
+<area shape="rect" href="../../d4/d36/structmos__linux__context.html" title=" " alt="" coords="1223,296,1354,323"/>
+<area shape="rect" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html" title="Structure to OS context." alt="" coords="912,251,1063,277"/>
+<area shape="rect" href="../../d3/d7b/struct___c_o_m_m_a_n_d___b_u_f_f_e_r.html" title="Structure to command buffer." alt="" coords="247,279,403,305"/>
+<area shape="rect" href="../../d2/de6/union___l_a_r_g_e___i_n_t_e_g_e_r.html" title=" " alt="" coords="5,227,141,253"/>
+<area shape="rect" href="../../d3/dc8/class_media_feature_table.html" title=" " alt="" coords="587,276,719,303"/>
+<area shape="rect" href="../../df/d79/class_media_wa_table.html" title=" " alt="" coords="599,327,707,353"/>
+<area shape="rect" href="../../dc/d36/class_aux_table_mgr.html" title="Aux Table Manager." alt="" coords="604,225,703,252"/>
+<area shape="rect" href="../../d7/d6e/struct_m_o_s___o_c_a___e_x_e_c___l_i_s_t___i_n_f_o.html" title=" " alt="" coords="1189,385,1388,412"/>
 </map>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -100,11 +117,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab65661d2005a95403d9bd7b01d9d5311"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#ab65661d2005a95403d9bd7b01d9d5311">~GpuContextSpecificNext</a> ()</td></tr>
 <tr class="memdesc:ab65661d2005a95403d9bd7b01d9d5311"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#ab65661d2005a95403d9bd7b01d9d5311">More...</a><br /></td></tr>
 <tr class="separator:ab65661d2005a95403d9bd7b01d9d5311"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cf4924fda0fc8f5f53f0b033a4f7299"><td class="memItemLeft" align="right" valign="top">MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299">Init</a> (OsContextNext *osContext, MOS_STREAM_HANDLE streamState, PMOS_GPUCTX_CREATOPTIONS createOption)</td></tr>
+<tr class="memitem:a2cf4924fda0fc8f5f53f0b033a4f7299"><td class="memItemLeft" align="right" valign="top">virtual MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299">Init</a> (OsContextNext *osContext, MOS_STREAM_HANDLE streamState, PMOS_GPUCTX_CREATOPTIONS createOption)</td></tr>
 <tr class="memdesc:a2cf4924fda0fc8f5f53f0b033a4f7299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize gpu context.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299">More...</a><br /></td></tr>
 <tr class="separator:a2cf4924fda0fc8f5f53f0b033a4f7299"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2c5336c9113504bc161bccde71270b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#ae2c5336c9113504bc161bccde71270b4">Clear</a> (void)</td></tr>
 <tr class="separator:ae2c5336c9113504bc161bccde71270b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1026a8e104dbcb38237c4b7195e0dee5"><td class="memItemLeft" align="right" valign="top">MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5">PatchGPUContextProtection</a> (MOS_STREAM_HANDLE streamState)</td></tr>
+<tr class="memdesc:a1026a8e104dbcb38237c4b7195e0dee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recreate GPU context as protected or clear if needed.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5">More...</a><br /></td></tr>
+<tr class="separator:a1026a8e104dbcb38237c4b7195e0dee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21db8184c0c25f266f67b51976c24c15"><td class="memItemLeft" align="right" valign="top">MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a21db8184c0c25f266f67b51976c24c15">RegisterResource</a> (<a class="el" href="../../d3/da0/mos__os__specific_8h.html#af802a0a20ec057e9c3654db298a7f4af">PMOS_RESOURCE</a> osResource, bool writeFlag)</td></tr>
 <tr class="memdesc:a21db8184c0c25f266f67b51976c24c15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register graphics resource.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a21db8184c0c25f266f67b51976c24c15">More...</a><br /></td></tr>
 <tr class="separator:a21db8184c0c25f266f67b51976c24c15"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,20 +159,43 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5e5e834d995c2532eaebedfb7d85a2de"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a5e5e834d995c2532eaebedfb7d85a2de">GetGpuStatusTag</a> ()</td></tr>
 <tr class="memdesc:a5e5e834d995c2532eaebedfb7d85a2de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get GPU status tag.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a5e5e834d995c2532eaebedfb7d85a2de">More...</a><br /></td></tr>
 <tr class="separator:a5e5e834d995c2532eaebedfb7d85a2de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6c23297b193b3145d084b6c17a3283e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a7532a079f6923294ce8500f74572af04">MOS_LINUX_CONTEXT</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#aa6c23297b193b3145d084b6c17a3283e">GetI915Context</a> (uint32_t ctxNodeIndex)</td></tr>
+<tr class="memdesc:aa6c23297b193b3145d084b6c17a3283e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get i915 ctx.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#aa6c23297b193b3145d084b6c17a3283e">More...</a><br /></td></tr>
+<tr class="separator:aa6c23297b193b3145d084b6c17a3283e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a164edc71cbb9fe76cbc6b2bf5252743f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a164edc71cbb9fe76cbc6b2bf5252743f">IncrementGpuStatusTag</a> ()</td></tr>
 <tr class="memdesc:a164edc71cbb9fe76cbc6b2bf5252743f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment GPU status tag.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a164edc71cbb9fe76cbc6b2bf5252743f">More...</a><br /></td></tr>
 <tr class="separator:a164edc71cbb9fe76cbc6b2bf5252743f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa30fb54497e99678e8d071fd490f198"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#aaa30fb54497e99678e8d071fd490f198">ResetGpuContextStatus</a> ()</td></tr>
 <tr class="separator:aaa30fb54497e99678e8d071fd490f198"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac69df33fe586b2a689d0f2513604fadd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#ac69df33fe586b2a689d0f2513604fadd">UpdatePriority</a> (int32_t priority)</td></tr>
+<tr class="memitem:ac69df33fe586b2a689d0f2513604fadd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#ac69df33fe586b2a689d0f2513604fadd">UpdatePriority</a> (int32_t priority)</td></tr>
 <tr class="memdesc:ac69df33fe586b2a689d0f2513604fadd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Gpu priority for workload scheduling.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#ac69df33fe586b2a689d0f2513604fadd">More...</a><br /></td></tr>
 <tr class="separator:ac69df33fe586b2a689d0f2513604fadd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac77560a0aae571abecf3c8ff50f2730"><td class="memItemLeft" align="right" valign="top">MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#aac77560a0aae571abecf3c8ff50f2730">AllocateGPUStatusBuf</a> ()</td></tr>
 <tr class="memdesc:aac77560a0aae571abecf3c8ff50f2730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate gpu status buffer for gpu sync.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#aac77560a0aae571abecf3c8ff50f2730">More...</a><br /></td></tr>
 <tr class="separator:aac77560a0aae571abecf3c8ff50f2730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae74b7278314b05e89f5806188fd09341"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#ae74b7278314b05e89f5806188fd09341">StoreCreateOptions</a> (PMOS_GPUCTX_CREATOPTIONS createoption)</td></tr>
+<tr class="memdesc:ae74b7278314b05e89f5806188fd09341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store create options to member variable.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#ae74b7278314b05e89f5806188fd09341">More...</a><br /></td></tr>
+<tr class="separator:ae74b7278314b05e89f5806188fd09341"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c893dc4244a22b884ea1a9a2abce9d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#af802a0a20ec057e9c3654db298a7f4af">PMOS_RESOURCE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a2c893dc4244a22b884ea1a9a2abce9d0">GetOcaRTLogResource</a> (<a class="el" href="../../d3/da0/mos__os__specific_8h.html#af802a0a20ec057e9c3654db298a7f4af">PMOS_RESOURCE</a> globalInst)</td></tr>
+<tr class="memdesc:a2c893dc4244a22b884ea1a9a2abce9d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Oca RTLog resource instance on GPU Context.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a2c893dc4244a22b884ea1a9a2abce9d0">More...</a><br /></td></tr>
+<tr class="separator:a2c893dc4244a22b884ea1a9a2abce9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a3a3c1b5bd4245bed3ab813ccbdd22a7a"><td class="memItemLeft" align="right" valign="top">static GpuContextNext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a3a3c1b5bd4245bed3ab813ccbdd22a7a">Create</a> (const <a class="el" href="../../d3/da0/mos__os__specific_8h.html#a4f326e83e5d6f4ec4cdf11aeaeff484e">MOS_GPU_NODE</a> gpuNode, CmdBufMgrNext *cmdBufMgr, GpuContextNext *reusedContext)</td></tr>
+<tr class="memdesc:a3a3c1b5bd4245bed3ab813ccbdd22a7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static entrypoint, get the gpu context object.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a3a3c1b5bd4245bed3ab813ccbdd22a7a">More...</a><br /></td></tr>
+<tr class="separator:a3a3c1b5bd4245bed3ab813ccbdd22a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a1b960a737bf13069a09a6570b82e746a"><td class="memItemLeft" align="right" valign="top">virtual MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a1b960a737bf13069a09a6570b82e746a">Init3DCtx</a> (<a class="el" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a> osParameters, PMOS_GPUCTX_CREATOPTIONS createOption, unsigned int *nengine, void *engine_map)</td></tr>
+<tr class="separator:a1b960a737bf13069a09a6570b82e746a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0bddcb9bfcdc8898676bcb09a57a0fe"><td class="memItemLeft" align="right" valign="top">virtual MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#aa0bddcb9bfcdc8898676bcb09a57a0fe">InitComputeCtx</a> (<a class="el" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a> osParameters, unsigned int *nengine, void *engine_map, <a class="el" href="../../d3/da0/mos__os__specific_8h.html#a4f326e83e5d6f4ec4cdf11aeaeff484e">MOS_GPU_NODE</a> gpuNode, bool *isEngineSelectEnable)</td></tr>
+<tr class="separator:aa0bddcb9bfcdc8898676bcb09a57a0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0285aa383f24f68148c1a2fad7cc3edf"><td class="memItemLeft" align="right" valign="top">virtual MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a0285aa383f24f68148c1a2fad7cc3edf">InitVdVeCtx</a> (<a class="el" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a> osParameters, MOS_STREAM_HANDLE streamState, PMOS_GPUCTX_CREATOPTIONS createOption, unsigned int *nengine, void *engine_map, <a class="el" href="../../d3/da0/mos__os__specific_8h.html#a4f326e83e5d6f4ec4cdf11aeaeff484e">MOS_GPU_NODE</a> gpuNode, bool *isEngineSelectEnable)</td></tr>
+<tr class="separator:a0285aa383f24f68148c1a2fad7cc3edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adafd592cf65884aa9b58515bdb282ffc"><td class="memItemLeft" align="right" valign="top">virtual MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#adafd592cf65884aa9b58515bdb282ffc">InitBltCtx</a> (<a class="el" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a> osParameters, unsigned int *nengine, void *engine_map)</td></tr>
+<tr class="separator:adafd592cf65884aa9b58515bdb282ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26935472200b24ae03baea935a4eb48b"><td class="memItemLeft" align="right" valign="top">MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a26935472200b24ae03baea935a4eb48b">MapResourcesToAuxTable</a> (<a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *cmd_bo)</td></tr>
 <tr class="memdesc:a26935472200b24ae03baea935a4eb48b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map resources with aux plane to aux table.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a26935472200b24ae03baea935a4eb48b">More...</a><br /></td></tr>
 <tr class="separator:a26935472200b24ae03baea935a4eb48b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,21 +203,107 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a4375b6756e392c83db1e56d31777deec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e1ad97eb40b1c7fe5957834ccf7b23e"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a3e1ad97eb40b1c7fe5957834ccf7b23e">GetVcsExecFlag</a> (<a class="el" href="../../d3/da0/mos__os__specific_8h.html#ab2610217f143a4c0e6dce51035f1f8f1">PMOS_COMMAND_BUFFER</a> cmdBuffer, <a class="el" href="../../d3/da0/mos__os__specific_8h.html#a4f326e83e5d6f4ec4cdf11aeaeff484e">MOS_GPU_NODE</a> gpuNode)</td></tr>
 <tr class="separator:a3e1ad97eb40b1c7fe5957834ccf7b23e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d2b4015db37e60859b1cd5a27febd82"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a8d2b4015db37e60859b1cd5a27febd82">SubmitPipeCommands</a> (MOS_COMMAND_BUFFER *cmdBuffer, <a class="el" href="../../da/d54/mos__bufmgr_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a> *cmdBo, <a class="el" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a> osContext, const std::vector&lt; <a class="el" href="../../da/d54/mos__bufmgr_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a> * &gt; &amp;skipSyncBoList, uint32_t execFlag, int32_t dr4)</td></tr>
+<tr class="memitem:a8d2b4015db37e60859b1cd5a27febd82"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a8d2b4015db37e60859b1cd5a27febd82">SubmitPipeCommands</a> (MOS_COMMAND_BUFFER *cmdBuffer, <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a> *cmdBo, <a class="el" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a> osContext, const std::vector&lt; <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a> * &gt; &amp;skipSyncBoList, uint32_t execFlag, int32_t dr4)</td></tr>
 <tr class="memdesc:a8d2b4015db37e60859b1cd5a27febd82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit command buffer for single pipe in scalability mode.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a8d2b4015db37e60859b1cd5a27febd82">More...</a><br /></td></tr>
 <tr class="separator:a8d2b4015db37e60859b1cd5a27febd82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5430ec3b4fcf012d4f772676fe3e615d"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a5430ec3b4fcf012d4f772676fe3e615d">ParallelSubmitCommands</a> (std::map&lt; uint32_t, <a class="el" href="../../d3/da0/mos__os__specific_8h.html#ab2610217f143a4c0e6dce51035f1f8f1">PMOS_COMMAND_BUFFER</a> &gt; secondaryCmdBufs, <a class="el" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a> osContext, uint32_t execFlag, int32_t dr4)</td></tr>
+<tr class="memitem:a5430ec3b4fcf012d4f772676fe3e615d"><td class="memItemLeft" align="right" valign="top">virtual int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a5430ec3b4fcf012d4f772676fe3e615d">ParallelSubmitCommands</a> (std::map&lt; uint32_t, <a class="el" href="../../d3/da0/mos__os__specific_8h.html#ab2610217f143a4c0e6dce51035f1f8f1">PMOS_COMMAND_BUFFER</a> &gt; secondaryCmdBufs, <a class="el" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a> osContext, uint32_t execFlag, int32_t dr4)</td></tr>
 <tr class="memdesc:a5430ec3b4fcf012d4f772676fe3e615d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combin cmd buffer for each pipe and use one submission in scalability mode.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a5430ec3b4fcf012d4f772676fe3e615d">More...</a><br /></td></tr>
 <tr class="separator:a5430ec3b4fcf012d4f772676fe3e615d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c6b1a609bbe6ef2174c1beed11b1d94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a5c6b1a609bbe6ef2174c1beed11b1d94">SetEngineQueryFlags</a> (PMOS_GPUCTX_CREATOPTIONS option, <a class="el" href="../../da/d68/drm_8h.html#ac2a2bfb32105ffe8e74b67670b7ec440">__u64</a> &amp;caps)</td></tr>
 <tr class="memdesc:a5c6b1a609bbe6ef2174c1beed11b1d94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the flags of engin quering according to create options.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a5c6b1a609bbe6ef2174c1beed11b1d94">More...</a><br /></td></tr>
 <tr class="separator:a5c6b1a609bbe6ef2174c1beed11b1d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb9095912d03569523ee58b035d645ab"><td class="memItemLeft" align="right" valign="top">MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#abb9095912d03569523ee58b035d645ab">ReportEngineInfo</a> (struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> *engineMap, int engineNum, bool engineSelectEnable=false)</td></tr>
-<tr class="separator:abb9095912d03569523ee58b035d645ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86b6d92734a70ae6bdcf1764ace34bd0"><td class="memItemLeft" align="right" valign="top">virtual MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a86b6d92734a70ae6bdcf1764ace34bd0">ReportEngineInfo</a> (void *engine_map, int engineNum, bool engineSelectEnable=false)</td></tr>
+<tr class="separator:a86b6d92734a70ae6bdcf1764ace34bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6edf73699a719186f1778487c3a16b9b"><td class="memItemLeft" align="right" valign="top">MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a6edf73699a719186f1778487c3a16b9b">ReportMemoryInfo</a> (struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td></tr>
 <tr class="separator:a6edf73699a719186f1778487c3a16b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fe9fe1d8fe15d107535f88ef26af52b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a6fe9fe1d8fe15d107535f88ef26af52b">UnlockPendingOcaBuffers</a> (<a class="el" href="../../d3/da0/mos__os__specific_8h.html#ab2610217f143a4c0e6dce51035f1f8f1">PMOS_COMMAND_BUFFER</a> cmdBuffer, <a class="el" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a> mosContext)</td></tr>
 <tr class="separator:a6fe9fe1d8fe15d107535f88ef26af52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af82dfb00f7345fca2a8699ddd07c5034"><td class="memItemLeft" align="right" valign="top">MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034">RecreateContext</a> (bool bIsProtected, MOS_STREAM_HANDLE streamState)</td></tr>
+<tr class="memdesc:af82dfb00f7345fca2a8699ddd07c5034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recreate GEM Context.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034">More...</a><br /></td></tr>
+<tr class="separator:af82dfb00f7345fca2a8699ddd07c5034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a029404d619249d3f00bec4135e9df2d1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; CommandBufferNext * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a029404d619249d3f00bec4135e9df2d1">m_cmdBufPool</a></td></tr>
+<tr class="memdesc:a029404d619249d3f00bec4135e9df2d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal command buffer pool per gpu context  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a029404d619249d3f00bec4135e9df2d1">More...</a><br /></td></tr>
+<tr class="separator:a029404d619249d3f00bec4135e9df2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47cd1b61f965d0d72a61a7055edb2016"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/df2/mos__defs__specific_8h.html#af4b79d7254d07ac86a0a71b4f3fb3960">PMOS_MUTEX</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a47cd1b61f965d0d72a61a7055edb2016">m_cmdBufPoolMutex</a> = nullptr</td></tr>
+<tr class="memdesc:a47cd1b61f965d0d72a61a7055edb2016"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal command buffer pool per gpu context  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a47cd1b61f965d0d72a61a7055edb2016">More...</a><br /></td></tr>
+<tr class="separator:a47cd1b61f965d0d72a61a7055edb2016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad45bf415200cb7e4478a2ab0c726dda9"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#ad45bf415200cb7e4478a2ab0c726dda9">m_nextFetchIndex</a> = 0</td></tr>
+<tr class="memdesc:ad45bf415200cb7e4478a2ab0c726dda9"><td class="mdescLeft">&#160;</td><td class="mdescRight">next fetch index of m_cmdBufPool  <a href="../../d9/d7e/class_gpu_context_specific_next.html#ad45bf415200cb7e4478a2ab0c726dda9">More...</a><br /></td></tr>
+<tr class="separator:ad45bf415200cb7e4478a2ab0c726dda9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fed2dca5ee543a57b36dd863993afcd"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a3fed2dca5ee543a57b36dd863993afcd">m_commandBufferSize</a> = 0</td></tr>
+<tr class="memdesc:a3fed2dca5ee543a57b36dd863993afcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialized comamnd buffer size  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a3fed2dca5ee543a57b36dd863993afcd">More...</a><br /></td></tr>
+<tr class="separator:a3fed2dca5ee543a57b36dd863993afcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3fdceff23c95acf76353deb6c582d49"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#ac3fdceff23c95acf76353deb6c582d49">m_cmdBufFlushed</a></td></tr>
+<tr class="memdesc:ac3fdceff23c95acf76353deb6c582d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to indicate current command buffer flused or not, if not re-use it.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#ac3fdceff23c95acf76353deb6c582d49">More...</a><br /></td></tr>
+<tr class="separator:ac3fdceff23c95acf76353deb6c582d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11f8f057a36a9b1a3b16c17ba6857ae5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#ab2610217f143a4c0e6dce51035f1f8f1">PMOS_COMMAND_BUFFER</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a11f8f057a36a9b1a3b16c17ba6857ae5">m_commandBuffer</a> = nullptr</td></tr>
+<tr class="memdesc:a11f8f057a36a9b1a3b16c17ba6857ae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal back up for in-use command buffer  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a11f8f057a36a9b1a3b16c17ba6857ae5">More...</a><br /></td></tr>
+<tr class="separator:a11f8f057a36a9b1a3b16c17ba6857ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a4c5cc9ecdc1a35e7953ecd815c1963"><td class="memItemLeft" align="right" valign="top">std::map&lt; uint32_t, <a class="el" href="../../d3/da0/mos__os__specific_8h.html#ab2610217f143a4c0e6dce51035f1f8f1">PMOS_COMMAND_BUFFER</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a3a4c5cc9ecdc1a35e7953ecd815c1963">m_secondaryCmdBufs</a></td></tr>
+<tr class="memdesc:a3a4c5cc9ecdc1a35e7953ecd815c1963"><td class="mdescLeft">&#160;</td><td class="mdescRight">secondary command buffers for scalability  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a3a4c5cc9ecdc1a35e7953ecd815c1963">More...</a><br /></td></tr>
+<tr class="separator:a3a4c5cc9ecdc1a35e7953ecd815c1963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd72e67d444b42352c5520f0d0801d94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#ad2d113d74c6bf9b37a631c093b2d3168">ALLOCATION_LIST</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#acd72e67d444b42352c5520f0d0801d94">m_allocationList</a> = nullptr</td></tr>
+<tr class="memdesc:acd72e67d444b42352c5520f0d0801d94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allcoation List related struct.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#acd72e67d444b42352c5520f0d0801d94">More...</a><br /></td></tr>
+<tr class="separator:acd72e67d444b42352c5520f0d0801d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae088250d7f84290a45ffb37bd37788bc"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#ae088250d7f84290a45ffb37bd37788bc">m_numAllocations</a> = 0</td></tr>
+<tr class="memdesc:ae088250d7f84290a45ffb37bd37788bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of registered allocation list  <a href="../../d9/d7e/class_gpu_context_specific_next.html#ae088250d7f84290a45ffb37bd37788bc">More...</a><br /></td></tr>
+<tr class="separator:ae088250d7f84290a45ffb37bd37788bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9815f3f50ddf46de2e1a502c9fa60ea"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#ac9815f3f50ddf46de2e1a502c9fa60ea">m_maxNumAllocations</a> = 0</td></tr>
+<tr class="memdesc:ac9815f3f50ddf46de2e1a502c9fa60ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">max number of allocation list  <a href="../../d9/d7e/class_gpu_context_specific_next.html#ac9815f3f50ddf46de2e1a502c9fa60ea">More...</a><br /></td></tr>
+<tr class="separator:ac9815f3f50ddf46de2e1a502c9fa60ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a6a731d1c6838f8ba09d7c2afadfa15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#a9c58412fab95184c4bcbacedb0a56f9d">PATCHLOCATIONLIST</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a4a6a731d1c6838f8ba09d7c2afadfa15">m_patchLocationList</a> = nullptr</td></tr>
+<tr class="memdesc:a4a6a731d1c6838f8ba09d7c2afadfa15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pathc List related struct.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a4a6a731d1c6838f8ba09d7c2afadfa15">More...</a><br /></td></tr>
+<tr class="separator:a4a6a731d1c6838f8ba09d7c2afadfa15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3df9efdbec81c10bb06de098b3f2f6b"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#ae3df9efdbec81c10bb06de098b3f2f6b">m_currentNumPatchLocations</a> = 0</td></tr>
+<tr class="memdesc:ae3df9efdbec81c10bb06de098b3f2f6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of registered patch list  <a href="../../d9/d7e/class_gpu_context_specific_next.html#ae3df9efdbec81c10bb06de098b3f2f6b">More...</a><br /></td></tr>
+<tr class="separator:ae3df9efdbec81c10bb06de098b3f2f6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b8bdde7a48f71fa81bd8fd7a6bd4bb9"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a2b8bdde7a48f71fa81bd8fd7a6bd4bb9">m_maxPatchLocationsize</a></td></tr>
+<tr class="memdesc:a2b8bdde7a48f71fa81bd8fd7a6bd4bb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">max number of patch list  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a2b8bdde7a48f71fa81bd8fd7a6bd4bb9">More...</a><br /></td></tr>
+<tr class="separator:a2b8bdde7a48f71fa81bd8fd7a6bd4bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d6a3d585bfd7b2d0a728cd6a947212d"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a1d6a3d585bfd7b2d0a728cd6a947212d">m_resCount</a> = 0</td></tr>
+<tr class="memdesc:a1d6a3d585bfd7b2d0a728cd6a947212d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resource registrations.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a1d6a3d585bfd7b2d0a728cd6a947212d">More...</a><br /></td></tr>
+<tr class="separator:a1d6a3d585bfd7b2d0a728cd6a947212d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bc35c5318c6b86061989a5e4db94e25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#af802a0a20ec057e9c3654db298a7f4af">PMOS_RESOURCE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a4bc35c5318c6b86061989a5e4db94e25">m_attachedResources</a> = nullptr</td></tr>
+<tr class="memdesc:a4bc35c5318c6b86061989a5e4db94e25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to resources list.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a4bc35c5318c6b86061989a5e4db94e25">More...</a><br /></td></tr>
+<tr class="separator:a4bc35c5318c6b86061989a5e4db94e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af26377119115d657849b030b22fcb9d0"><td class="memItemLeft" align="right" valign="top">bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#af26377119115d657849b030b22fcb9d0">m_writeModeList</a> = nullptr</td></tr>
+<tr class="memdesc:af26377119115d657849b030b22fcb9d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write mode.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#af26377119115d657849b030b22fcb9d0">More...</a><br /></td></tr>
+<tr class="separator:af26377119115d657849b030b22fcb9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed8b732d4688a231b6845c41c2ce3dc3"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#aed8b732d4688a231b6845c41c2ce3dc3">m_GPUStatusTag</a> = 0</td></tr>
+<tr class="memdesc:aed8b732d4688a231b6845c41c2ce3dc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">GPU Status tag.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#aed8b732d4688a231b6845c41c2ce3dc3">More...</a><br /></td></tr>
+<tr class="separator:aed8b732d4688a231b6845c41c2ce3dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e8c421693b045640ec0caeaf8a40a86"><td class="memItemLeft" align="right" valign="top">OsContextNext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a0e8c421693b045640ec0caeaf8a40a86">m_osContext</a> = nullptr</td></tr>
+<tr class="memdesc:a0e8c421693b045640ec0caeaf8a40a86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Os context.  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a0e8c421693b045640ec0caeaf8a40a86">More...</a><br /></td></tr>
+<tr class="separator:a0e8c421693b045640ec0caeaf8a40a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adca57ff0d11ba3ed532f02a21c70801f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#adca57ff0d11ba3ed532f02a21c70801f">m_osParameters</a> = nullptr</td></tr>
+<tr class="memdesc:adca57ff0d11ba3ed532f02a21c70801f"><td class="mdescLeft">&#160;</td><td class="mdescRight">mos context  <a href="../../d9/d7e/class_gpu_context_specific_next.html#adca57ff0d11ba3ed532f02a21c70801f">More...</a><br /></td></tr>
+<tr class="separator:adca57ff0d11ba3ed532f02a21c70801f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1103223997a28c258097ff279000888"><td class="memItemLeft" align="right" valign="top">MOS_GPUCTX_CREATOPTIONS_ENHANCED&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#ab1103223997a28c258097ff279000888">m_createOptionEnhanced</a></td></tr>
+<tr class="memdesc:ab1103223997a28c258097ff279000888"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores create otpions if user is using MOS_GPUCTX_CREATOPTIONS_ENHANCED  <a href="../../d9/d7e/class_gpu_context_specific_next.html#ab1103223997a28c258097ff279000888">More...</a><br /></td></tr>
+<tr class="separator:ab1103223997a28c258097ff279000888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1af15b5a22316358ca15899f30f167cf"><td class="memItemLeft" align="right" valign="top">MOS_GPUCTX_CREATOPTIONS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a1af15b5a22316358ca15899f30f167cf">m_createOption</a></td></tr>
+<tr class="memdesc:a1af15b5a22316358ca15899f30f167cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores create otpions if user is using MOS_GPUCTX_CREATOPTIONS  <a href="../../d9/d7e/class_gpu_context_specific_next.html#a1af15b5a22316358ca15899f30f167cf">More...</a><br /></td></tr>
+<tr class="separator:a1af15b5a22316358ca15899f30f167cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c72e585bd42b6fec0a45014c48eaecb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a6c72e585bd42b6fec0a45014c48eaecb">m_bEnhancedUsed</a> = false</td></tr>
+<tr class="separator:a6c72e585bd42b6fec0a45014c48eaecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab12bb18adcbf83894bbb37f2cf39ead3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#ab12bb18adcbf83894bbb37f2cf39ead3">m_bProtectedContext</a> = false</td></tr>
+<tr class="memdesc:ab12bb18adcbf83894bbb37f2cf39ead3"><td class="mdescLeft">&#160;</td><td class="mdescRight">false if clear GEM context is created as protected or not  <a href="../../d9/d7e/class_gpu_context_specific_next.html#ab12bb18adcbf83894bbb37f2cf39ead3">More...</a><br /></td></tr>
+<tr class="separator:ab12bb18adcbf83894bbb37f2cf39ead3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9183a2380135e220f3f473b5c24c7654"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a7532a079f6923294ce8500f74572af04">MOS_LINUX_CONTEXT</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a9183a2380135e220f3f473b5c24c7654">m_i915Context</a> [<a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#aef99850df41fab43bee1f4fb10951931">MAX_ENGINE_INSTANCE_NUM</a>+1]</td></tr>
+<tr class="separator:a9183a2380135e220f3f473b5c24c7654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f22224b0ad13d038ba23238df40ccd6"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a1f22224b0ad13d038ba23238df40ccd6">m_i915ExecFlag</a> = 0</td></tr>
+<tr class="separator:a1f22224b0ad13d038ba23238df40ccd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaedf7b497431aef11177301f1e4b7b81"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#aaedf7b497431aef11177301f1e4b7b81">m_currCtxPriority</a> = 0</td></tr>
+<tr class="separator:aaedf7b497431aef11177301f1e4b7b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d43ce9721297981d27ae0bf68f00ae3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a5d43ce9721297981d27ae0bf68f00ae3">m_ocaLogSectionSupported</a> = true</td></tr>
+<tr class="separator:a5d43ce9721297981d27ae0bf68f00ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa36b44fa970b9547e20182bcba1e821d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#aa36b44fa970b9547e20182bcba1e821d">m_ocaRtLogResInited</a> = false</td></tr>
+<tr class="separator:aa36b44fa970b9547e20182bcba1e821d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1082352d102d85844cad96c87e706ad6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#adba7c79e7d93c06ae6b3b460deb82b80">MOS_RESOURCE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7e/class_gpu_context_specific_next.html#a1082352d102d85844cad96c87e706ad6">m_ocaRtLogResource</a> = {}</td></tr>
+<tr class="separator:a1082352d102d85844cad96c87e706ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -214,7 +343,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Constructor. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00039">39</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00058">58</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 
 </div>
 </div>
@@ -235,7 +364,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Destructor. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00077">77</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00096">96</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -243,12 +372,10 @@ Here is the call graph for this function:</div>
 <map name="ad9/d7e/class_gpu_context_specific_next_ab65661d2005a95403d9bd7b01d9d5311_cgraph" id="ad9/d7e/class_gpu_context_specific_next_ab65661d2005a95403d9bd7b01d9d5311_cgraph">
 <area shape="rect" title="Destructor." alt="" coords="5,27,185,69"/>
 <area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#ae2c5336c9113504bc161bccde71270b4" title=" " alt="" coords="233,27,397,69"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a1a59eebcb8b4cc8f35dd6ad467583377" title=" " alt="" coords="449,5,628,32"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#aa872d6fd06ad299be49a9f6a11f46ce5" title=" " alt="" coords="465,5,612,32"/>
 <area shape="rect" href="../../db/d2d/class_command_buffer_specific_next.html#a624f17c29775bf43ff37d30cd46e2d17" title="wait command buffer to be rendered by gpu \detail This function will call mos_bo_wait_rendering()" alt="" coords="445,57,632,98"/>
-<area shape="rect" href="../../dc/dfc/xf86drm_8c.html#ae3c1c49d03f8a0f8b71de1f5f574a6bd" title=" " alt="" coords="733,5,801,32"/>
-<area shape="rect" href="../../dc/dfc/xf86drm_8c.html#ac49c32891ff1d2f2a7cbb33d520d9658" title=" " alt="" coords="903,5,996,32"/>
-<area shape="rect" href="../../d6/d1f/class_graphics_resource_specific_next.html#a62675abbabe01e50d86df533a3876e5c" title=" " alt="" coords="680,57,855,98"/>
-<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a2684cbc7d8463456345f52cf3e470896" title=" " alt="" coords="688,123,847,149"/>
+<area shape="rect" href="../../d6/d1f/class_graphics_resource_specific_next.html#a62675abbabe01e50d86df533a3876e5c" title=" " alt="" coords="680,27,855,69"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a2684cbc7d8463456345f52cf3e470896" title=" " alt="" coords="688,93,847,120"/>
 </map>
 </div>
 
@@ -273,14 +400,18 @@ Here is the call graph for this function:</div>
 <p>Allocate gpu status buffer for gpu sync. </p>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01688">1688</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01934">1934</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_aac77560a0aae571abecf3c8ff50f2730_icgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_aac77560a0aae571abecf3c8ff50f2730_icgraph" alt=""/></div>
 <map name="ad9/d7e/class_gpu_context_specific_next_aac77560a0aae571abecf3c8ff50f2730_icgraph" id="ad9/d7e/class_gpu_context_specific_next_aac77560a0aae571abecf3c8ff50f2730_icgraph">
-<area shape="rect" title="Allocate gpu status buffer for gpu sync." alt="" coords="217,5,381,47"/>
-<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="5,5,169,47"/>
+<area shape="rect" title="Allocate gpu status buffer for gpu sync." alt="" coords="1139,5,1303,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="927,5,1091,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="715,5,879,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="471,5,667,47"/>
+<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="227,13,423,39"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,13,179,39"/>
 </map>
 </div>
 
@@ -302,19 +433,17 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00411">411</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00656">656</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_ae2c5336c9113504bc161bccde71270b4_cgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_ae2c5336c9113504bc161bccde71270b4_cgraph" alt=""/></div>
 <map name="ad9/d7e/class_gpu_context_specific_next_ae2c5336c9113504bc161bccde71270b4_cgraph" id="ad9/d7e/class_gpu_context_specific_next_ae2c5336c9113504bc161bccde71270b4_cgraph">
 <area shape="rect" title=" " alt="" coords="5,27,169,69"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a1a59eebcb8b4cc8f35dd6ad467583377" title=" " alt="" coords="221,5,400,32"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#aa872d6fd06ad299be49a9f6a11f46ce5" title=" " alt="" coords="237,5,384,32"/>
 <area shape="rect" href="../../db/d2d/class_command_buffer_specific_next.html#a624f17c29775bf43ff37d30cd46e2d17" title="wait command buffer to be rendered by gpu \detail This function will call mos_bo_wait_rendering()" alt="" coords="217,57,404,98"/>
-<area shape="rect" href="../../dc/dfc/xf86drm_8c.html#ae3c1c49d03f8a0f8b71de1f5f574a6bd" title=" " alt="" coords="505,5,573,32"/>
-<area shape="rect" href="../../dc/dfc/xf86drm_8c.html#ac49c32891ff1d2f2a7cbb33d520d9658" title=" " alt="" coords="675,5,768,32"/>
-<area shape="rect" href="../../d6/d1f/class_graphics_resource_specific_next.html#a62675abbabe01e50d86df533a3876e5c" title=" " alt="" coords="452,57,627,98"/>
-<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a2684cbc7d8463456345f52cf3e470896" title=" " alt="" coords="460,123,619,149"/>
+<area shape="rect" href="../../d6/d1f/class_graphics_resource_specific_next.html#a62675abbabe01e50d86df533a3876e5c" title=" " alt="" coords="452,27,627,69"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a2684cbc7d8463456345f52cf3e470896" title=" " alt="" coords="460,93,619,120"/>
 </map>
 </div>
 <div class="dynheader">
@@ -322,8 +451,76 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_ae2c5336c9113504bc161bccde71270b4_icgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_ae2c5336c9113504bc161bccde71270b4_icgraph" alt=""/></div>
 <map name="ad9/d7e/class_gpu_context_specific_next_ae2c5336c9113504bc161bccde71270b4_icgraph" id="ad9/d7e/class_gpu_context_specific_next_ae2c5336c9113504bc161bccde71270b4_icgraph">
-<area shape="rect" title=" " alt="" coords="233,5,397,47"/>
-<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#ab65661d2005a95403d9bd7b01d9d5311" title="Destructor." alt="" coords="5,5,185,47"/>
+<area shape="rect" title=" " alt="" coords="943,39,1107,80"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="723,5,887,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#ab65661d2005a95403d9bd7b01d9d5311" title="Destructor." alt="" coords="715,71,895,112"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="471,5,667,47"/>
+<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="227,13,423,39"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,13,179,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3a3c1b5bd4245bed3ab813ccbdd22a7a" name="a3a3c1b5bd4245bed3ab813ccbdd22a7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a3c1b5bd4245bed3ab813ccbdd22a7a">&#9670;&nbsp;</a></span>Create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GpuContextNext * GpuContextSpecificNext::Create </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/da0/mos__os__specific_8h.html#a4f326e83e5d6f4ec4cdf11aeaeff484e">MOS_GPU_NODE</a>&#160;</td>
+          <td class="paramname"><em>gpuNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CmdBufMgrNext *&#160;</td>
+          <td class="paramname"><em>cmdBufMgr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GpuContextNext *&#160;</td>
+          <td class="paramname"><em>reusedContext</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Static entrypoint, get the gpu context object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpuNode</td><td>Gpu node </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cmdBufMgr</td><td>Command buffer manager </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">reusedContext</td><td>Reused gpu context </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>GpuContextNext* the os specific object for gpu context </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00103">103</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_a3a3c1b5bd4245bed3ab813ccbdd22a7a_cgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_a3a3c1b5bd4245bed3ab813ccbdd22a7a_cgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_a3a3c1b5bd4245bed3ab813ccbdd22a7a_cgraph" id="ad9/d7e/class_gpu_context_specific_next_a3a3c1b5bd4245bed3ab813ccbdd22a7a_cgraph">
+<area shape="rect" title="Static entrypoint, get the gpu context object." alt="" coords="5,5,169,47"/>
+<area shape="rect" href="../../d2/dc9/class_os_context_specific_next.html#a9748acf89b1cf95ae2029e6249c9dea6" title=" " alt="" coords="217,5,375,47"/>
 </map>
 </div>
 
@@ -355,7 +552,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00557">557</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00806">806</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -395,7 +592,44 @@ Here is the call graph for this function:</div>
 <p>Get GPU status tag. </p>
 <p >Gets the status tag </p><dl class="section return"><dt>Returns</dt><dd>uint32_t Returns the tag </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00174">174</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00199">199</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="aa6c23297b193b3145d084b6c17a3283e" name="aa6c23297b193b3145d084b6c17a3283e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6c23297b193b3145d084b6c17a3283e">&#9670;&nbsp;</a></span>GetI915Context()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a7532a079f6923294ce8500f74572af04">MOS_LINUX_CONTEXT</a> * GpuContextSpecificNext::GetI915Context </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>ctxNodeIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get i915 ctx. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ctxNodeIndex</td><td>ctx index in array </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>MOS_LINUX_CONTEXT mos linux ctx in array of ctxNodeIndex </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00208">208</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
 
 </div>
 </div>
@@ -425,7 +659,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00779">779</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01028">1028</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 
 </div>
 </div>
@@ -445,7 +679,30 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00798">798</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01047">1047</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a2c893dc4244a22b884ea1a9a2abce9d0" name="a2c893dc4244a22b884ea1a9a2abce9d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c893dc4244a22b884ea1a9a2abce9d0">&#9670;&nbsp;</a></span>GetOcaRTLogResource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#af802a0a20ec057e9c3654db298a7f4af">PMOS_RESOURCE</a> GpuContextSpecificNext::GetOcaRTLogResource </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#af802a0a20ec057e9c3654db298a7f4af">PMOS_RESOURCE</a>&#160;</td>
+          <td class="paramname"><em>globalInst</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get Oca RTLog resource instance on GPU Context. </p>
+<dl class="section return"><dt>Returns</dt><dd>PMOS_RESOURCE </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01973">1973</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 
 </div>
 </div>
@@ -483,7 +740,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00880">880</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01129">1129</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -520,7 +777,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00860">860</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01109">1109</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -550,7 +807,7 @@ Here is the caller graph for this function:</div>
 
 <p>Increment GPU status tag. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01639">1639</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01885">1885</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 
 </div>
 </div>
@@ -559,6 +816,9 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">MOS_STATUS GpuContextSpecificNext::Init </td>
@@ -584,6 +844,11 @@ Here is the caller graph for this function:</div>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Initialize gpu context. </p>
@@ -597,39 +862,368 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00084">84</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00512">512</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_a2cf4924fda0fc8f5f53f0b033a4f7299_cgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_a2cf4924fda0fc8f5f53f0b033a4f7299_cgraph" alt=""/></div>
 <map name="ad9/d7e/class_gpu_context_specific_next_a2cf4924fda0fc8f5f53f0b033a4f7299_cgraph" id="ad9/d7e/class_gpu_context_specific_next_a2cf4924fda0fc8f5f53f0b033a4f7299_cgraph">
-<area shape="rect" title="Initialize gpu context." alt="" coords="5,647,169,688"/>
-<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#aac77560a0aae571abecf3c8ff50f2730" title="Allocate gpu status buffer for gpu sync." alt="" coords="224,5,388,47"/>
-<area shape="rect" href="../../df/dff/class_mos_oca_interface_specific.html#a4f013e87bbbb934dc99e18ac665a446a" title=" " alt="" coords="223,71,389,112"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#ac830716fd1beccb58bf3cfff8a0714ec" title=" " alt="" coords="220,479,392,520"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a1a59eebcb8b4cc8f35dd6ad467583377" title=" " alt="" coords="716,146,895,173"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a8dfecbef88a9500b9fd83aa2a54ea520" title=" " alt="" coords="705,205,905,231"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a53c5a048f182955e498bbb0484f52965" title=" " alt="" coords="253,835,359,862"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a24551f444627af13ca43f3a60d051f09" title=" " alt="" coords="237,566,375,593"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#af3a2514b46cffac9e9687ad0d0c8ed03" title=" " alt="" coords="217,734,395,761"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a623f87a4f58678f03055aa14a6b5f838" title=" " alt="" coords="450,793,650,819"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a55c2d2f1ff80e6ad4e808a4acbb8df3c" title=" " alt="" coords="467,909,633,951"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a3135f99ada36271932b62ee0b134041d" title=" " alt="" coords="223,617,389,659"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a8e7912ad954abaa2ceeb5f89ae0a5066" title=" " alt="" coords="705,271,905,298"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#acd2ffdec560b77d52a8709d00996e63b" title=" " alt="" coords="229,886,383,913"/>
-<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#abb9095912d03569523ee58b035d645ab" title=" " alt="" coords="224,937,388,979"/>
-<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a6edf73699a719186f1778487c3a16b9b" title=" " alt="" coords="224,1003,388,1044"/>
-<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a5c6b1a609bbe6ef2174c1beed11b1d94" title="Set the flags of engin quering according to create options." alt="" coords="224,1068,388,1109"/>
-<area shape="rect" href="../../dc/dfc/xf86drm_8c.html#ae3c1c49d03f8a0f8b71de1f5f574a6bd" title=" " alt="" coords="953,355,1021,382"/>
-<area shape="rect" href="../../d3/df1/class_bufmgr_prelim.html#a6c6eb6029351b6466e1d016e0295f405" title=" " alt="" coords="443,625,657,651"/>
-<area shape="rect" href="../../de/d9d/i915_2mos__bufmgr_8c.html#a123c3dd44eb62ef541d693ca59a155b6" title=" " alt="" coords="469,457,631,499"/>
-<area shape="rect" href="../../de/d9d/i915_2mos__bufmgr_8c.html#a8e7bc54b8b548d3c802e117c9e964305" title=" " alt="" coords="723,742,888,769"/>
-<area shape="rect" href="../../d3/df1/class_bufmgr_prelim.html#a2d796682a60b2a3e9834755023a73dec" title=" " alt="" coords="447,289,653,331"/>
-<area shape="rect" href="../../dc/dfc/xf86drm_8c.html#ac49c32891ff1d2f2a7cbb33d520d9658" title=" " alt="" coords="1069,355,1163,382"/>
-<area shape="rect" href="../../d3/df1/class_bufmgr_prelim.html#a314be08db926a680de34b4d342c494d1" title=" " alt="" coords="455,574,645,601"/>
-<area shape="rect" href="../../d3/df1/class_bufmgr_prelim.html#a4cd0ce851a280c5c11e3136736532048" title=" " alt="" coords="455,844,645,885"/>
-<area shape="rect" href="../../d3/df1/class_bufmgr_prelim.html#a43c06e733cf303cd2f1c7448b16f5836" title=" " alt="" coords="463,676,637,717"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a8e7bc54b8b548d3c802e117c9e964305" title=" " alt="" coords="723,570,888,597"/>
+<area shape="rect" title="Initialize gpu context." alt="" coords="5,337,169,378"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#aac77560a0aae571abecf3c8ff50f2730" title="Allocate gpu status buffer for gpu sync." alt="" coords="229,42,393,83"/>
+<area shape="rect" href="../../df/dff/class_mos_oca_interface_specific.html#a4f013e87bbbb934dc99e18ac665a446a" title=" " alt="" coords="227,107,394,149"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a1b960a737bf13069a09a6570b82e746a" title=" " alt="" coords="229,173,393,214"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#adafd592cf65884aa9b58515bdb282ffc" title=" " alt="" coords="229,238,393,279"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#aa0bddcb9bfcdc8898676bcb09a57a0fe" title=" " alt="" coords="229,303,393,345"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a0285aa383f24f68148c1a2fad7cc3edf" title=" " alt="" coords="229,369,393,410"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a15d0de738dc2d046cb2cefe17980e49e" title=" " alt="" coords="217,435,404,461"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#af3a2514b46cffac9e9687ad0d0c8ed03" title=" " alt="" coords="222,485,399,512"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a86b6d92734a70ae6bdcf1764ace34bd0" title=" " alt="" coords="229,537,393,578"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#ae74b7278314b05e89f5806188fd09341" title="Store create options to member variable." alt="" coords="229,602,393,643"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#ad967040b35e62d7da73adb66612c15c4" title=" " alt="" coords="482,209,622,250"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a8dfecbef88a9500b9fd83aa2a54ea520" title=" " alt="" coords="452,56,652,83"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a43e06ee7d2ea9da0163d1c5ebfdc28b5" title=" " alt="" coords="499,107,605,133"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#ad06b2333a74605f1f27390ad0012ac82" title=" " alt="" coords="483,275,621,301"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a55c2d2f1ff80e6ad4e808a4acbb8df3c" title=" " alt="" coords="469,326,635,367"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a8e7912ad954abaa2ceeb5f89ae0a5066" title=" " alt="" coords="452,157,652,184"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#ab0805208759bed34afe6484f5238df28" title=" " alt="" coords="475,5,629,32"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#aa872d6fd06ad299be49a9f6a11f46ce5" title=" " alt="" coords="479,457,625,484"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a623f87a4f58678f03055aa14a6b5f838" title=" " alt="" coords="452,508,652,535"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a3135f99ada36271932b62ee0b134041d" title=" " alt="" coords="469,559,635,601"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a5c6b1a609bbe6ef2174c1beed11b1d94" title="Set the flags of engin quering according to create options." alt="" coords="470,391,634,433"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_a2cf4924fda0fc8f5f53f0b033a4f7299_icgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_a2cf4924fda0fc8f5f53f0b033a4f7299_icgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_a2cf4924fda0fc8f5f53f0b033a4f7299_icgraph" id="ad9/d7e/class_gpu_context_specific_next_a2cf4924fda0fc8f5f53f0b033a4f7299_icgraph">
+<area shape="rect" title="Initialize gpu context." alt="" coords="927,5,1091,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="715,5,879,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="471,5,667,47"/>
+<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="227,13,423,39"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,13,179,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1b960a737bf13069a09a6570b82e746a" name="a1b960a737bf13069a09a6570b82e746a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b960a737bf13069a09a6570b82e746a">&#9670;&nbsp;</a></span>Init3DCtx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MOS_STATUS GpuContextSpecificNext::Init3DCtx </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a>&#160;</td>
+          <td class="paramname"><em>osParameters</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PMOS_GPUCTX_CREATOPTIONS&#160;</td>
+          <td class="paramname"><em>createOption</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int *&#160;</td>
+          <td class="paramname"><em>nengine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>engine_map</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00219">219</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_a1b960a737bf13069a09a6570b82e746a_cgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_a1b960a737bf13069a09a6570b82e746a_cgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_a1b960a737bf13069a09a6570b82e746a_cgraph" id="ad9/d7e/class_gpu_context_specific_next_a1b960a737bf13069a09a6570b82e746a_cgraph">
+<area shape="rect" title=" " alt="" coords="5,165,169,207"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#ad967040b35e62d7da73adb66612c15c4" title=" " alt="" coords="247,5,387,47"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a8dfecbef88a9500b9fd83aa2a54ea520" title=" " alt="" coords="217,71,417,98"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a43e06ee7d2ea9da0163d1c5ebfdc28b5" title=" " alt="" coords="265,122,370,149"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#ad06b2333a74605f1f27390ad0012ac82" title=" " alt="" coords="248,173,387,199"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a55c2d2f1ff80e6ad4e808a4acbb8df3c" title=" " alt="" coords="235,224,400,265"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a8e7912ad954abaa2ceeb5f89ae0a5066" title=" " alt="" coords="217,290,417,317"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#ab0805208759bed34afe6484f5238df28" title=" " alt="" coords="241,341,394,367"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_a1b960a737bf13069a09a6570b82e746a_icgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_a1b960a737bf13069a09a6570b82e746a_icgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_a1b960a737bf13069a09a6570b82e746a_icgraph" id="ad9/d7e/class_gpu_context_specific_next_a1b960a737bf13069a09a6570b82e746a_icgraph">
+<area shape="rect" title=" " alt="" coords="1139,5,1303,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="927,5,1091,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="715,5,879,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="471,5,667,47"/>
+<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="227,13,423,39"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,13,179,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adafd592cf65884aa9b58515bdb282ffc" name="adafd592cf65884aa9b58515bdb282ffc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adafd592cf65884aa9b58515bdb282ffc">&#9670;&nbsp;</a></span>InitBltCtx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MOS_STATUS GpuContextSpecificNext::InitBltCtx </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a>&#160;</td>
+          <td class="paramname"><em>osParameters</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int *&#160;</td>
+          <td class="paramname"><em>nengine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>engine_map</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00470">470</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_adafd592cf65884aa9b58515bdb282ffc_cgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_adafd592cf65884aa9b58515bdb282ffc_cgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_adafd592cf65884aa9b58515bdb282ffc_cgraph" id="ad9/d7e/class_gpu_context_specific_next_adafd592cf65884aa9b58515bdb282ffc_cgraph">
+<area shape="rect" title=" " alt="" coords="5,64,169,105"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#ad967040b35e62d7da73adb66612c15c4" title=" " alt="" coords="230,5,370,47"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#ad06b2333a74605f1f27390ad0012ac82" title=" " alt="" coords="231,71,369,98"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a55c2d2f1ff80e6ad4e808a4acbb8df3c" title=" " alt="" coords="217,123,383,164"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_adafd592cf65884aa9b58515bdb282ffc_icgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_adafd592cf65884aa9b58515bdb282ffc_icgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_adafd592cf65884aa9b58515bdb282ffc_icgraph" id="ad9/d7e/class_gpu_context_specific_next_adafd592cf65884aa9b58515bdb282ffc_icgraph">
+<area shape="rect" title=" " alt="" coords="1139,5,1303,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="927,5,1091,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="715,5,879,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="471,5,667,47"/>
+<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="227,13,423,39"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,13,179,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa0bddcb9bfcdc8898676bcb09a57a0fe" name="aa0bddcb9bfcdc8898676bcb09a57a0fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0bddcb9bfcdc8898676bcb09a57a0fe">&#9670;&nbsp;</a></span>InitComputeCtx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MOS_STATUS GpuContextSpecificNext::InitComputeCtx </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a>&#160;</td>
+          <td class="paramname"><em>osParameters</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int *&#160;</td>
+          <td class="paramname"><em>nengine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>engine_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#a4f326e83e5d6f4ec4cdf11aeaeff484e">MOS_GPU_NODE</a>&#160;</td>
+          <td class="paramname"><em>gpuNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>isEngineSelectEnable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00285">285</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_aa0bddcb9bfcdc8898676bcb09a57a0fe_cgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_aa0bddcb9bfcdc8898676bcb09a57a0fe_cgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_aa0bddcb9bfcdc8898676bcb09a57a0fe_cgraph" id="ad9/d7e/class_gpu_context_specific_next_aa0bddcb9bfcdc8898676bcb09a57a0fe_cgraph">
+<area shape="rect" title=" " alt="" coords="5,64,169,105"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#ad967040b35e62d7da73adb66612c15c4" title=" " alt="" coords="230,5,370,47"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#ad06b2333a74605f1f27390ad0012ac82" title=" " alt="" coords="231,71,369,98"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a55c2d2f1ff80e6ad4e808a4acbb8df3c" title=" " alt="" coords="217,123,383,164"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_aa0bddcb9bfcdc8898676bcb09a57a0fe_icgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_aa0bddcb9bfcdc8898676bcb09a57a0fe_icgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_aa0bddcb9bfcdc8898676bcb09a57a0fe_icgraph" id="ad9/d7e/class_gpu_context_specific_next_aa0bddcb9bfcdc8898676bcb09a57a0fe_icgraph">
+<area shape="rect" title=" " alt="" coords="1139,5,1303,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="927,5,1091,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="715,5,879,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="471,5,667,47"/>
+<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="227,13,423,39"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,13,179,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0285aa383f24f68148c1a2fad7cc3edf" name="a0285aa383f24f68148c1a2fad7cc3edf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0285aa383f24f68148c1a2fad7cc3edf">&#9670;&nbsp;</a></span>InitVdVeCtx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MOS_STATUS GpuContextSpecificNext::InitVdVeCtx </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a>&#160;</td>
+          <td class="paramname"><em>osParameters</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MOS_STREAM_HANDLE&#160;</td>
+          <td class="paramname"><em>streamState</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PMOS_GPUCTX_CREATOPTIONS&#160;</td>
+          <td class="paramname"><em>createOption</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int *&#160;</td>
+          <td class="paramname"><em>nengine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>engine_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#a4f326e83e5d6f4ec4cdf11aeaeff484e">MOS_GPU_NODE</a>&#160;</td>
+          <td class="paramname"><em>gpuNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>isEngineSelectEnable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00329">329</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_a0285aa383f24f68148c1a2fad7cc3edf_cgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_a0285aa383f24f68148c1a2fad7cc3edf_cgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_a0285aa383f24f68148c1a2fad7cc3edf_cgraph" id="ad9/d7e/class_gpu_context_specific_next_a0285aa383f24f68148c1a2fad7cc3edf_cgraph">
+<area shape="rect" title=" " alt="" coords="5,165,169,207"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#ad967040b35e62d7da73adb66612c15c4" title=" " alt="" coords="247,5,387,47"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#aa872d6fd06ad299be49a9f6a11f46ce5" title=" " alt="" coords="244,71,391,98"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#ad06b2333a74605f1f27390ad0012ac82" title=" " alt="" coords="248,122,387,149"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a623f87a4f58678f03055aa14a6b5f838" title=" " alt="" coords="217,173,417,199"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a55c2d2f1ff80e6ad4e808a4acbb8df3c" title=" " alt="" coords="235,224,400,265"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a3135f99ada36271932b62ee0b134041d" title=" " alt="" coords="235,289,400,331"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a5c6b1a609bbe6ef2174c1beed11b1d94" title="Set the flags of engin quering according to create options." alt="" coords="235,355,399,396"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_a0285aa383f24f68148c1a2fad7cc3edf_icgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_a0285aa383f24f68148c1a2fad7cc3edf_icgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_a0285aa383f24f68148c1a2fad7cc3edf_icgraph" id="ad9/d7e/class_gpu_context_specific_next_a0285aa383f24f68148c1a2fad7cc3edf_icgraph">
+<area shape="rect" title=" " alt="" coords="1139,5,1303,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="927,5,1091,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="715,5,879,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="471,5,667,47"/>
+<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="227,13,423,39"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,13,179,39"/>
 </map>
 </div>
 
@@ -662,7 +1256,7 @@ Here is the call graph for this function:</div>
 <p>Map resources with aux plane to aux table. </p>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00956">956</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01205">1205</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -672,8 +1266,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="../../dc/d36/class_aux_table_mgr.html#a7bec85ebec76cafbba41645e84fa2c52" title="Insert aux table BOs into specific execute buffer." alt="" coords="239,5,425,47"/>
 <area shape="rect" href="../../d2/dc9/class_os_context_specific_next.html#aaac9f4dda0cc172057eb04c58c4fe85c" title=" " alt="" coords="253,71,411,112"/>
 <area shape="rect" href="../../dc/d36/class_aux_table_mgr.html#addd894f3a783c1ae6bb1ff4ddc28bba1" title="Map resource to aux table." alt="" coords="239,137,425,163"/>
-<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#adc644174f3960ee978bddc30e435c4a1" title=" " alt="" coords="473,5,615,47"/>
-<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a9f633354d05942184c4d7d4caf55c2a8" title=" " alt="" coords="475,137,613,163"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#adc644174f3960ee978bddc30e435c4a1" title=" " alt="" coords="473,5,615,47"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a9f633354d05942184c4d7d4caf55c2a8" title=" " alt="" coords="475,137,613,163"/>
 </map>
 </div>
 
@@ -720,7 +1314,7 @@ Here is the call graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -728,17 +1322,175 @@ Here is the call graph for this function:</div>
 <p>Combin cmd buffer for each pipe and use one submission in scalability mode. </p>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Return 0 if successful, otherwise error code </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01552">1552</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01798">1798</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_a5430ec3b4fcf012d4f772676fe3e615d_cgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_a5430ec3b4fcf012d4f772676fe3e615d_cgraph" alt=""/></div>
 <map name="ad9/d7e/class_gpu_context_specific_next_a5430ec3b4fcf012d4f772676fe3e615d_cgraph" id="ad9/d7e/class_gpu_context_specific_next_a5430ec3b4fcf012d4f772676fe3e615d_cgraph">
-<area shape="rect" title="Combin cmd buffer for each pipe and use one submission in scalability mode." alt="" coords="5,39,185,80"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a4f57f7a785d87f7128a9cd7faefa68af" title=" " alt="" coords="233,5,384,47"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a72724e3d4b302ed325855040837ca0ed" title=" " alt="" coords="233,71,384,112"/>
-<area shape="rect" href="../../de/d9d/i915_2mos__bufmgr_8c.html#ae9150d9d22c0cb853ce90e899af1c9eb" title=" " alt="" coords="432,13,511,39"/>
-<area shape="rect" href="../../de/d9d/i915_2mos__bufmgr_8c.html#a24aba19a78abaffb248ffdaede9d49b5" title=" " alt="" coords="432,78,511,105"/>
+<area shape="rect" title="Combin cmd buffer for each pipe and use one submission in scalability mode." alt="" coords="5,23,185,65"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#addbc9e53746c11494408a9a0810d37d8" title=" " alt="" coords="233,5,393,32"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a8b8a4016fb184c1eff3bac4846b0ad06" title=" " alt="" coords="233,56,393,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1026a8e104dbcb38237c4b7195e0dee5" name="a1026a8e104dbcb38237c4b7195e0dee5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1026a8e104dbcb38237c4b7195e0dee5">&#9670;&nbsp;</a></span>PatchGPUContextProtection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MOS_STATUS GpuContextSpecificNext::PatchGPUContextProtection </td>
+          <td>(</td>
+          <td class="paramtype">MOS_STREAM_HANDLE&#160;</td>
+          <td class="paramname"><em>streamState</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Recreate GPU context as protected or clear if needed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">streamState</td><td>Os stream state </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00151">151</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_a1026a8e104dbcb38237c4b7195e0dee5_cgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_a1026a8e104dbcb38237c4b7195e0dee5_cgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_a1026a8e104dbcb38237c4b7195e0dee5_cgraph" id="ad9/d7e/class_gpu_context_specific_next_a1026a8e104dbcb38237c4b7195e0dee5_cgraph">
+<area shape="rect" title="Recreate GPU context as protected or clear if needed." alt="" coords="5,233,201,274"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="249,233,413,274"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#ae2c5336c9113504bc161bccde71270b4" title=" " alt="" coords="461,86,625,127"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="461,378,625,419"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#aa872d6fd06ad299be49a9f6a11f46ce5" title=" " alt="" coords="935,161,1081,188"/>
+<area shape="rect" href="../../db/d2d/class_command_buffer_specific_next.html#a624f17c29775bf43ff37d30cd46e2d17" title="wait command buffer to be rendered by gpu \detail This function will call mos_bo_wait_rendering()" alt="" coords="673,27,860,69"/>
+<area shape="rect" href="../../d6/d1f/class_graphics_resource_specific_next.html#a62675abbabe01e50d86df533a3876e5c" title=" " alt="" coords="921,57,1095,98"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a2684cbc7d8463456345f52cf3e470896" title=" " alt="" coords="929,5,1087,32"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#aac77560a0aae571abecf3c8ff50f2730" title="Allocate gpu status buffer for gpu sync." alt="" coords="685,145,849,186"/>
+<area shape="rect" href="../../df/dff/class_mos_oca_interface_specific.html#a4f013e87bbbb934dc99e18ac665a446a" title=" " alt="" coords="683,210,850,251"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a1b960a737bf13069a09a6570b82e746a" title=" " alt="" coords="685,639,849,681"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#adafd592cf65884aa9b58515bdb282ffc" title=" " alt="" coords="685,509,849,550"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#aa0bddcb9bfcdc8898676bcb09a57a0fe" title=" " alt="" coords="685,574,849,615"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a0285aa383f24f68148c1a2fad7cc3edf" title=" " alt="" coords="685,443,849,485"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a15d0de738dc2d046cb2cefe17980e49e" title=" " alt="" coords="673,276,860,303"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#af3a2514b46cffac9e9687ad0d0c8ed03" title=" " alt="" coords="678,327,855,353"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a86b6d92734a70ae6bdcf1764ace34bd0" title=" " alt="" coords="685,378,849,419"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#ae74b7278314b05e89f5806188fd09341" title="Store create options to member variable." alt="" coords="685,705,849,746"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#ad967040b35e62d7da73adb66612c15c4" title=" " alt="" coords="938,530,1078,571"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a8dfecbef88a9500b9fd83aa2a54ea520" title=" " alt="" coords="908,697,1108,724"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a43e06ee7d2ea9da0163d1c5ebfdc28b5" title=" " alt="" coords="955,748,1061,775"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#ad06b2333a74605f1f27390ad0012ac82" title=" " alt="" coords="939,596,1077,623"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a55c2d2f1ff80e6ad4e808a4acbb8df3c" title=" " alt="" coords="925,465,1091,506"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a8e7912ad954abaa2ceeb5f89ae0a5066" title=" " alt="" coords="908,799,1108,825"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#ab0805208759bed34afe6484f5238df28" title=" " alt="" coords="931,647,1085,673"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a623f87a4f58678f03055aa14a6b5f838" title=" " alt="" coords="908,348,1108,375"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a3135f99ada36271932b62ee0b134041d" title=" " alt="" coords="925,399,1091,441"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a5c6b1a609bbe6ef2174c1beed11b1d94" title="Set the flags of engin quering according to create options." alt="" coords="926,282,1090,323"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_a1026a8e104dbcb38237c4b7195e0dee5_icgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_a1026a8e104dbcb38237c4b7195e0dee5_icgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_a1026a8e104dbcb38237c4b7195e0dee5_icgraph" id="ad9/d7e/class_gpu_context_specific_next_a1026a8e104dbcb38237c4b7195e0dee5_icgraph">
+<area shape="rect" title="Recreate GPU context as protected or clear if needed." alt="" coords="471,5,667,47"/>
+<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="227,13,423,39"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,13,179,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af82dfb00f7345fca2a8699ddd07c5034" name="af82dfb00f7345fca2a8699ddd07c5034"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af82dfb00f7345fca2a8699ddd07c5034">&#9670;&nbsp;</a></span>RecreateContext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MOS_STATUS GpuContextSpecificNext::RecreateContext </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bIsProtected</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MOS_STREAM_HANDLE&#160;</td>
+          <td class="paramname"><em>streamState</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Recreate GEM Context. </p>
+<dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise error code </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00132">132</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_af82dfb00f7345fca2a8699ddd07c5034_cgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_af82dfb00f7345fca2a8699ddd07c5034_cgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_af82dfb00f7345fca2a8699ddd07c5034_cgraph" id="ad9/d7e/class_gpu_context_specific_next_af82dfb00f7345fca2a8699ddd07c5034_cgraph">
+<area shape="rect" title="Recreate GEM Context." alt="" coords="5,233,169,274"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#ae2c5336c9113504bc161bccde71270b4" title=" " alt="" coords="217,86,381,127"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="217,378,381,419"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#aa872d6fd06ad299be49a9f6a11f46ce5" title=" " alt="" coords="691,161,837,188"/>
+<area shape="rect" href="../../db/d2d/class_command_buffer_specific_next.html#a624f17c29775bf43ff37d30cd46e2d17" title="wait command buffer to be rendered by gpu \detail This function will call mos_bo_wait_rendering()" alt="" coords="429,27,616,69"/>
+<area shape="rect" href="../../d6/d1f/class_graphics_resource_specific_next.html#a62675abbabe01e50d86df533a3876e5c" title=" " alt="" coords="677,57,851,98"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a2684cbc7d8463456345f52cf3e470896" title=" " alt="" coords="685,5,843,32"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#aac77560a0aae571abecf3c8ff50f2730" title="Allocate gpu status buffer for gpu sync." alt="" coords="441,145,605,186"/>
+<area shape="rect" href="../../df/dff/class_mos_oca_interface_specific.html#a4f013e87bbbb934dc99e18ac665a446a" title=" " alt="" coords="439,210,606,251"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a1b960a737bf13069a09a6570b82e746a" title=" " alt="" coords="441,639,605,681"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#adafd592cf65884aa9b58515bdb282ffc" title=" " alt="" coords="441,509,605,550"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#aa0bddcb9bfcdc8898676bcb09a57a0fe" title=" " alt="" coords="441,574,605,615"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a0285aa383f24f68148c1a2fad7cc3edf" title=" " alt="" coords="441,443,605,485"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a15d0de738dc2d046cb2cefe17980e49e" title=" " alt="" coords="429,276,616,303"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#af3a2514b46cffac9e9687ad0d0c8ed03" title=" " alt="" coords="434,327,611,353"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a86b6d92734a70ae6bdcf1764ace34bd0" title=" " alt="" coords="441,378,605,419"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#ae74b7278314b05e89f5806188fd09341" title="Store create options to member variable." alt="" coords="441,705,605,746"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#ad967040b35e62d7da73adb66612c15c4" title=" " alt="" coords="694,530,834,571"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a8dfecbef88a9500b9fd83aa2a54ea520" title=" " alt="" coords="664,697,864,724"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a43e06ee7d2ea9da0163d1c5ebfdc28b5" title=" " alt="" coords="711,748,817,775"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#ad06b2333a74605f1f27390ad0012ac82" title=" " alt="" coords="695,596,833,623"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a55c2d2f1ff80e6ad4e808a4acbb8df3c" title=" " alt="" coords="681,465,847,506"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a8e7912ad954abaa2ceeb5f89ae0a5066" title=" " alt="" coords="664,799,864,825"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#ab0805208759bed34afe6484f5238df28" title=" " alt="" coords="687,647,841,673"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a623f87a4f58678f03055aa14a6b5f838" title=" " alt="" coords="664,348,864,375"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a3135f99ada36271932b62ee0b134041d" title=" " alt="" coords="681,399,847,441"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a5c6b1a609bbe6ef2174c1beed11b1d94" title="Set the flags of engin quering according to create options." alt="" coords="682,282,846,323"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_af82dfb00f7345fca2a8699ddd07c5034_icgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_af82dfb00f7345fca2a8699ddd07c5034_icgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_af82dfb00f7345fca2a8699ddd07c5034_icgraph" id="ad9/d7e/class_gpu_context_specific_next_af82dfb00f7345fca2a8699ddd07c5034_icgraph">
+<area shape="rect" title="Recreate GEM Context." alt="" coords="715,5,879,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="471,5,667,47"/>
+<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="227,13,423,39"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,13,179,39"/>
 </map>
 </div>
 
@@ -780,7 +1532,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00467">467</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00716">716</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -793,8 +1545,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="abb9095912d03569523ee58b035d645ab" name="abb9095912d03569523ee58b035d645ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb9095912d03569523ee58b035d645ab">&#9670;&nbsp;</a></span>ReportEngineInfo()</h2>
+<a id="a86b6d92734a70ae6bdcf1764ace34bd0" name="a86b6d92734a70ae6bdcf1764ace34bd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86b6d92734a70ae6bdcf1764ace34bd0">&#9670;&nbsp;</a></span>ReportEngineInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -805,8 +1557,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">MOS_STATUS GpuContextSpecificNext::ReportEngineInfo </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> *&#160;</td>
-          <td class="paramname"><em>engineMap</em>, </td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>engine_map</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -828,7 +1580,7 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -837,10 +1589,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_abb9095912d03569523ee58b035d645ab_icgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_abb9095912d03569523ee58b035d645ab_icgraph" alt=""/></div>
-<map name="ad9/d7e/class_gpu_context_specific_next_abb9095912d03569523ee58b035d645ab_icgraph" id="ad9/d7e/class_gpu_context_specific_next_abb9095912d03569523ee58b035d645ab_icgraph">
-<area shape="rect" title=" " alt="" coords="217,5,381,47"/>
-<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="5,5,169,47"/>
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_a86b6d92734a70ae6bdcf1764ace34bd0_icgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_a86b6d92734a70ae6bdcf1764ace34bd0_icgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_a86b6d92734a70ae6bdcf1764ace34bd0_icgraph" id="ad9/d7e/class_gpu_context_specific_next_a86b6d92734a70ae6bdcf1764ace34bd0_icgraph">
+<area shape="rect" title=" " alt="" coords="1139,5,1303,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="927,5,1091,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="715,5,879,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="471,5,667,47"/>
+<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="227,13,423,39"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,13,179,39"/>
 </map>
 </div>
 
@@ -871,15 +1627,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d03/mos__gpucontext__specific__next__ext_8cpp_source.html#l00048">48</a> of file <a class="el" href="../../d8/d03/mos__gpucontext__specific__next__ext_8cpp_source.html">mos_gpucontext_specific_next_ext.cpp</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_a6edf73699a719186f1778487c3a16b9b_icgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_a6edf73699a719186f1778487c3a16b9b_icgraph" alt=""/></div>
-<map name="ad9/d7e/class_gpu_context_specific_next_a6edf73699a719186f1778487c3a16b9b_icgraph" id="ad9/d7e/class_gpu_context_specific_next_a6edf73699a719186f1778487c3a16b9b_icgraph">
-<area shape="rect" title=" " alt="" coords="217,5,381,47"/>
-<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="5,5,169,47"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -901,7 +1648,7 @@ Here is the caller graph for this function:</div>
 <p>reset command buffer space </p>
 <p >resets the command buffer space </p><dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00736">736</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00985">985</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 
 </div>
 </div>
@@ -920,7 +1667,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01670">1670</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01916">1916</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 
 </div>
 </div>
@@ -949,7 +1696,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00851">851</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01100">1100</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 
 </div>
 </div>
@@ -985,7 +1732,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00817">817</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01066">1066</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1024,7 +1771,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00708">708</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00957">957</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 
 </div>
 </div>
@@ -1071,8 +1818,13 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_a5c6b1a609bbe6ef2174c1beed11b1d94_icgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_a5c6b1a609bbe6ef2174c1beed11b1d94_icgraph" alt=""/></div>
 <map name="ad9/d7e/class_gpu_context_specific_next_a5c6b1a609bbe6ef2174c1beed11b1d94_icgraph" id="ad9/d7e/class_gpu_context_specific_next_a5c6b1a609bbe6ef2174c1beed11b1d94_icgraph">
-<area shape="rect" title="Set the flags of engin quering according to create options." alt="" coords="217,5,381,47"/>
-<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="5,5,169,47"/>
+<area shape="rect" title="Set the flags of engin quering according to create options." alt="" coords="1351,5,1515,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a0285aa383f24f68148c1a2fad7cc3edf" title=" " alt="" coords="1139,5,1303,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="927,5,1091,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="715,5,879,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="471,5,667,47"/>
+<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="227,13,423,39"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,13,179,39"/>
 </map>
 </div>
 
@@ -1094,7 +1846,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00749">749</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00998">998</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1143,7 +1895,43 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00520">520</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00769">769</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ae74b7278314b05e89f5806188fd09341" name="ae74b7278314b05e89f5806188fd09341"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae74b7278314b05e89f5806188fd09341">&#9670;&nbsp;</a></span>StoreCreateOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GpuContextSpecificNext::StoreCreateOptions </td>
+          <td>(</td>
+          <td class="paramtype">PMOS_GPUCTX_CREATOPTIONS&#160;</td>
+          <td class="paramname"><em>createoption</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Store create options to member variable. </p>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00045">45</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_ae74b7278314b05e89f5806188fd09341_icgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_ae74b7278314b05e89f5806188fd09341_icgraph" alt=""/></div>
+<map name="ad9/d7e/class_gpu_context_specific_next_ae74b7278314b05e89f5806188fd09341_icgraph" id="ad9/d7e/class_gpu_context_specific_next_ae74b7278314b05e89f5806188fd09341_icgraph">
+<area shape="rect" title="Store create options to member variable." alt="" coords="1139,5,1303,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="927,5,1091,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="715,5,879,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="471,5,667,47"/>
+<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="227,13,423,39"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,13,179,39"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1179,7 +1967,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l00978">978</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01227">1227</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 
 </div>
 </div>
@@ -1201,7 +1989,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d54/mos__bufmgr_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a> *&#160;</td>
           <td class="paramname"><em>cmdBo</em>, </td>
         </tr>
         <tr>
@@ -1213,7 +2001,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="../../da/d54/mos__bufmgr_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a> * &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a> * &gt; &amp;&#160;</td>
           <td class="paramname"><em>skipSyncBoList</em>, </td>
         </tr>
         <tr>
@@ -1244,16 +2032,15 @@ Here is the call graph for this function:</div>
 <p>Submit command buffer for single pipe in scalability mode. </p>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Return 0 if successful, otherwise error code </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01467">1467</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01718">1718</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_a8d2b4015db37e60859b1cd5a27febd82_cgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_a8d2b4015db37e60859b1cd5a27febd82_cgraph" alt=""/></div>
 <map name="ad9/d7e/class_gpu_context_specific_next_a8d2b4015db37e60859b1cd5a27febd82_cgraph" id="ad9/d7e/class_gpu_context_specific_next_a8d2b4015db37e60859b1cd5a27febd82_cgraph">
-<area shape="rect" title="Submit command buffer for single pipe in scalability mode." alt="" coords="5,39,169,80"/>
-<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a16ca35243e2aa1710c05996a47ca108e" title=" " alt="" coords="217,5,388,47"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a4f57f7a785d87f7128a9cd7faefa68af" title=" " alt="" coords="227,71,378,112"/>
-<area shape="rect" href="../../de/d9d/i915_2mos__bufmgr_8c.html#ae9150d9d22c0cb853ce90e899af1c9eb" title=" " alt="" coords="436,78,515,105"/>
+<area shape="rect" title="Submit command buffer for single pipe in scalability mode." alt="" coords="5,27,169,69"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#addbc9e53746c11494408a9a0810d37d8" title=" " alt="" coords="223,5,383,32"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a16ca35243e2aa1710c05996a47ca108e" title=" " alt="" coords="217,57,388,98"/>
 </map>
 </div>
 
@@ -1293,7 +2080,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01441">1441</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01692">1692</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1301,7 +2088,7 @@ Here is the call graph for this function:</div>
 <map name="ad9/d7e/class_gpu_context_specific_next_a6fe9fe1d8fe15d107535f88ef26af52b_cgraph" id="ad9/d7e/class_gpu_context_specific_next_a6fe9fe1d8fe15d107535f88ef26af52b_cgraph">
 <area shape="rect" title=" " alt="" coords="5,39,187,80"/>
 <area shape="rect" href="../../df/dff/class_mos_oca_interface_specific.html#a3a5bca78569f3279b9d81d159db4a4b6" title=" " alt="" coords="235,5,401,47"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a84de01a33dcb0ce0f2b32a7175b5299f" title=" " alt="" coords="249,71,387,112"/>
+<area shape="rect" href="../../d1/d60/mos__bufmgr__api_8c.html#a84de01a33dcb0ce0f2b32a7175b5299f" title=" " alt="" coords="249,71,387,112"/>
 </map>
 </div>
 
@@ -1312,6 +2099,9 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void GpuContextSpecificNext::UpdatePriority </td>
@@ -1321,6 +2111,11 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Set the Gpu priority for workload scheduling. </p>
@@ -1332,16 +2127,14 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01648">1648</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html#l01894">1894</a> of file <a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d7e/class_gpu_context_specific_next_ac69df33fe586b2a689d0f2513604fadd_cgraph.png" border="0" usemap="#ad9/d7e/class_gpu_context_specific_next_ac69df33fe586b2a689d0f2513604fadd_cgraph" alt=""/></div>
 <map name="ad9/d7e/class_gpu_context_specific_next_ac69df33fe586b2a689d0f2513604fadd_cgraph" id="ad9/d7e/class_gpu_context_specific_next_ac69df33fe586b2a689d0f2513604fadd_cgraph">
 <area shape="rect" title="Set the Gpu priority for workload scheduling." alt="" coords="5,5,169,47"/>
-<area shape="rect" href="../../de/d47/i915__production_2mos__bufmgr_8c.html#a8e7bc54b8b548d3c802e117c9e964305" title=" " alt="" coords="217,13,383,39"/>
-<area shape="rect" href="../../dc/dfc/xf86drm_8c.html#ae3c1c49d03f8a0f8b71de1f5f574a6bd" title=" " alt="" coords="431,13,499,39"/>
-<area shape="rect" href="../../dc/dfc/xf86drm_8c.html#ac49c32891ff1d2f2a7cbb33d520d9658" title=" " alt="" coords="547,13,640,39"/>
+<area shape="rect" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a8e7bc54b8b548d3c802e117c9e964305" title=" " alt="" coords="217,13,383,39"/>
 </map>
 </div>
 
@@ -1371,7 +2164,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00095">95</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00120">120</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1417,14 +2210,757 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00144">144</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00169">169</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="acd72e67d444b42352c5520f0d0801d94" name="acd72e67d444b42352c5520f0d0801d94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd72e67d444b42352c5520f0d0801d94">&#9670;&nbsp;</a></span>m_allocationList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#ad2d113d74c6bf9b37a631c093b2d3168">ALLOCATION_LIST</a>* GpuContextSpecificNext::m_allocationList = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Allcoation List related struct. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00358">358</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a4bc35c5318c6b86061989a5e4db94e25" name="a4bc35c5318c6b86061989a5e4db94e25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bc35c5318c6b86061989a5e4db94e25">&#9670;&nbsp;</a></span>m_attachedResources</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#af802a0a20ec057e9c3654db298a7f4af">PMOS_RESOURCE</a> GpuContextSpecificNext::m_attachedResources = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pointer to resources list. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00369">369</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a6c72e585bd42b6fec0a45014c48eaecb" name="a6c72e585bd42b6fec0a45014c48eaecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c72e585bd42b6fec0a45014c48eaecb">&#9670;&nbsp;</a></span>m_bEnhancedUsed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GpuContextSpecificNext::m_bEnhancedUsed = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >true if caller is using MOS_GPUCTX_CREATOPTIONS_ENHANCED, false if using MOS_GPUCTX_CREATOPTIONS </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00383">383</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="ab12bb18adcbf83894bbb37f2cf39ead3" name="ab12bb18adcbf83894bbb37f2cf39ead3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab12bb18adcbf83894bbb37f2cf39ead3">&#9670;&nbsp;</a></span>m_bProtectedContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GpuContextSpecificNext::m_bProtectedContext = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>false if clear GEM context is created as protected or not </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00385">385</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="ac3fdceff23c95acf76353deb6c582d49" name="ac3fdceff23c95acf76353deb6c582d49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3fdceff23c95acf76353deb6c582d49">&#9670;&nbsp;</a></span>m_cmdBufFlushed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile bool GpuContextSpecificNext::m_cmdBufFlushed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag to indicate current command buffer flused or not, if not re-use it. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00349">349</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a029404d619249d3f00bec4135e9df2d1" name="a029404d619249d3f00bec4135e9df2d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a029404d619249d3f00bec4135e9df2d1">&#9670;&nbsp;</a></span>m_cmdBufPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;CommandBufferNext *&gt; GpuContextSpecificNext::m_cmdBufPool</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>internal command buffer pool per gpu context </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00336">336</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a47cd1b61f965d0d72a61a7055edb2016" name="a47cd1b61f965d0d72a61a7055edb2016"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47cd1b61f965d0d72a61a7055edb2016">&#9670;&nbsp;</a></span>m_cmdBufPoolMutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/df2/mos__defs__specific_8h.html#af4b79d7254d07ac86a0a71b4f3fb3960">PMOS_MUTEX</a> GpuContextSpecificNext::m_cmdBufPoolMutex = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>internal command buffer pool per gpu context </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00339">339</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a11f8f057a36a9b1a3b16c17ba6857ae5" name="a11f8f057a36a9b1a3b16c17ba6857ae5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11f8f057a36a9b1a3b16c17ba6857ae5">&#9670;&nbsp;</a></span>m_commandBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#ab2610217f143a4c0e6dce51035f1f8f1">PMOS_COMMAND_BUFFER</a> GpuContextSpecificNext::m_commandBuffer = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>internal back up for in-use command buffer </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00352">352</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a3fed2dca5ee543a57b36dd863993afcd" name="a3fed2dca5ee543a57b36dd863993afcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fed2dca5ee543a57b36dd863993afcd">&#9670;&nbsp;</a></span>m_commandBufferSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t GpuContextSpecificNext::m_commandBufferSize = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>initialized comamnd buffer size </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00345">345</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a1af15b5a22316358ca15899f30f167cf" name="a1af15b5a22316358ca15899f30f167cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1af15b5a22316358ca15899f30f167cf">&#9670;&nbsp;</a></span>m_createOption</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MOS_GPUCTX_CREATOPTIONS GpuContextSpecificNext::m_createOption</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>stores create otpions if user is using MOS_GPUCTX_CREATOPTIONS </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00382">382</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="ab1103223997a28c258097ff279000888" name="ab1103223997a28c258097ff279000888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1103223997a28c258097ff279000888">&#9670;&nbsp;</a></span>m_createOptionEnhanced</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MOS_GPUCTX_CREATOPTIONS_ENHANCED GpuContextSpecificNext::m_createOptionEnhanced</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>stores create otpions if user is using MOS_GPUCTX_CREATOPTIONS_ENHANCED </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00381">381</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="aaedf7b497431aef11177301f1e4b7b81" name="aaedf7b497431aef11177301f1e4b7b81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaedf7b497431aef11177301f1e4b7b81">&#9670;&nbsp;</a></span>m_currCtxPriority</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t GpuContextSpecificNext::m_currCtxPriority = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00389">389</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="ae3df9efdbec81c10bb06de098b3f2f6b" name="ae3df9efdbec81c10bb06de098b3f2f6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3df9efdbec81c10bb06de098b3f2f6b">&#9670;&nbsp;</a></span>m_currentNumPatchLocations</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t GpuContextSpecificNext::m_currentNumPatchLocations = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>number of registered patch list </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00364">364</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="aed8b732d4688a231b6845c41c2ce3dc3" name="aed8b732d4688a231b6845c41c2ce3dc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed8b732d4688a231b6845c41c2ce3dc3">&#9670;&nbsp;</a></span>m_GPUStatusTag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t GpuContextSpecificNext::m_GPUStatusTag = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>GPU Status tag. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00373">373</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a9183a2380135e220f3f473b5c24c7654" name="a9183a2380135e220f3f473b5c24c7654"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9183a2380135e220f3f473b5c24c7654">&#9670;&nbsp;</a></span>m_i915Context</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a7532a079f6923294ce8500f74572af04">MOS_LINUX_CONTEXT</a>* GpuContextSpecificNext::m_i915Context[<a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#aef99850df41fab43bee1f4fb10951931">MAX_ENGINE_INSTANCE_NUM</a>+1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00387">387</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a1f22224b0ad13d038ba23238df40ccd6" name="a1f22224b0ad13d038ba23238df40ccd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f22224b0ad13d038ba23238df40ccd6">&#9670;&nbsp;</a></span>m_i915ExecFlag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t GpuContextSpecificNext::m_i915ExecFlag = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00388">388</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="ac9815f3f50ddf46de2e1a502c9fa60ea" name="ac9815f3f50ddf46de2e1a502c9fa60ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9815f3f50ddf46de2e1a502c9fa60ea">&#9670;&nbsp;</a></span>m_maxNumAllocations</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t GpuContextSpecificNext::m_maxNumAllocations = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>max number of allocation list </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00360">360</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a2b8bdde7a48f71fa81bd8fd7a6bd4bb9" name="a2b8bdde7a48f71fa81bd8fd7a6bd4bb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b8bdde7a48f71fa81bd8fd7a6bd4bb9">&#9670;&nbsp;</a></span>m_maxPatchLocationsize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t GpuContextSpecificNext::m_maxPatchLocationsize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>max number of patch list </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00365">365</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="ad45bf415200cb7e4478a2ab0c726dda9" name="ad45bf415200cb7e4478a2ab0c726dda9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad45bf415200cb7e4478a2ab0c726dda9">&#9670;&nbsp;</a></span>m_nextFetchIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t GpuContextSpecificNext::m_nextFetchIndex = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>next fetch index of m_cmdBufPool </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00342">342</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="ae088250d7f84290a45ffb37bd37788bc" name="ae088250d7f84290a45ffb37bd37788bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae088250d7f84290a45ffb37bd37788bc">&#9670;&nbsp;</a></span>m_numAllocations</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t GpuContextSpecificNext::m_numAllocations = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>number of registered allocation list </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00359">359</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a5d43ce9721297981d27ae0bf68f00ae3" name="a5d43ce9721297981d27ae0bf68f00ae3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d43ce9721297981d27ae0bf68f00ae3">&#9670;&nbsp;</a></span>m_ocaLogSectionSupported</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GpuContextSpecificNext::m_ocaLogSectionSupported = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00390">390</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="aa36b44fa970b9547e20182bcba1e821d" name="aa36b44fa970b9547e20182bcba1e821d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa36b44fa970b9547e20182bcba1e821d">&#9670;&nbsp;</a></span>m_ocaRtLogResInited</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GpuContextSpecificNext::m_ocaRtLogResInited = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00393">393</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a1082352d102d85844cad96c87e706ad6" name="a1082352d102d85844cad96c87e706ad6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1082352d102d85844cad96c87e706ad6">&#9670;&nbsp;</a></span>m_ocaRtLogResource</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#adba7c79e7d93c06ae6b3b460deb82b80">MOS_RESOURCE</a> GpuContextSpecificNext::m_ocaRtLogResource = {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00394">394</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a0e8c421693b045640ec0caeaf8a40a86" name="a0e8c421693b045640ec0caeaf8a40a86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e8c421693b045640ec0caeaf8a40a86">&#9670;&nbsp;</a></span>m_osContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">OsContextNext* GpuContextSpecificNext::m_osContext = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Os context. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00376">376</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="adca57ff0d11ba3ed532f02a21c70801f" name="adca57ff0d11ba3ed532f02a21c70801f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adca57ff0d11ba3ed532f02a21c70801f">&#9670;&nbsp;</a></span>m_osParameters</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a> GpuContextSpecificNext::m_osParameters = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>mos context </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00379">379</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a4a6a731d1c6838f8ba09d7c2afadfa15" name="a4a6a731d1c6838f8ba09d7c2afadfa15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a6a731d1c6838f8ba09d7c2afadfa15">&#9670;&nbsp;</a></span>m_patchLocationList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#a9c58412fab95184c4bcbacedb0a56f9d">PATCHLOCATIONLIST</a>* GpuContextSpecificNext::m_patchLocationList = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pathc List related struct. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00363">363</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a1d6a3d585bfd7b2d0a728cd6a947212d" name="a1d6a3d585bfd7b2d0a728cd6a947212d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d6a3d585bfd7b2d0a728cd6a947212d">&#9670;&nbsp;</a></span>m_resCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t GpuContextSpecificNext::m_resCount = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resource registrations. </p>
+<p >number of resources registered </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00368">368</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="a3a4c5cc9ecdc1a35e7953ecd815c1963" name="a3a4c5cc9ecdc1a35e7953ecd815c1963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a4c5cc9ecdc1a35e7953ecd815c1963">&#9670;&nbsp;</a></span>m_secondaryCmdBufs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;uint32_t, <a class="el" href="../../d3/da0/mos__os__specific_8h.html#ab2610217f143a4c0e6dce51035f1f8f1">PMOS_COMMAND_BUFFER</a>&gt; GpuContextSpecificNext::m_secondaryCmdBufs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>secondary command buffers for scalability </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00355">355</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
+
+</div>
+</div>
+<a id="af26377119115d657849b030b22fcb9d0" name="af26377119115d657849b030b22fcb9d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af26377119115d657849b030b22fcb9d0">&#9670;&nbsp;</a></span>m_writeModeList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool* GpuContextSpecificNext::m_writeModeList = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write mode. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html#l00370">370</a> of file <a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>media_softlet/linux/common/os/<a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a></li>
-<li>media_softlet/linux/common/os/<a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a></li>
-<li>media_softlet/linux/common/os/<a class="el" href="../../d8/d03/mos__gpucontext__specific__next__ext_8cpp_source.html">mos_gpucontext_specific_next_ext.cpp</a></li>
+<li>C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/<a class="el" href="../../d4/d25/mos__gpucontext__specific__next_8h_source.html">mos_gpucontext_specific_next.h</a></li>
+<li>C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/<a class="el" href="../../dc/dd9/mos__gpucontext__specific__next_8cpp_source.html">mos_gpucontext_specific_next.cpp</a></li>
+<li>C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/<a class="el" href="../../d8/d03/mos__gpucontext__specific__next__ext_8cpp_source.html">mos_gpucontext_specific_next_ext.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

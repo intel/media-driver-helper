@@ -1,5 +1,5 @@
 <map id="CommandBufferSpecific::waitReady" name="CommandBufferSpecific::waitReady">
 <area shape="rect" id="node1" title="wait command buffer to be rendered by gpu \detail This function will call mos_bo_wait_rendering()" alt="" coords="5,35,165,76"/>
 <area shape="rect" id="node2" href="$dd/deb/class_graphics_resource_specific.html#a7a1b371663073acb9af681f4645ad528" title=" " alt="" coords="213,5,388,47"/>
-<area shape="rect" id="node3" href="$d1/d60/mos__bufmgr__api_8c.html#a2684cbc7d8463456345f52cf3e470896" title=" " alt="" coords="221,71,380,98"/>
+<area shape="rect" id="node3" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a2684cbc7d8463456345f52cf3e470896" title=" " alt="" coords="221,71,380,98"/>
 </map>

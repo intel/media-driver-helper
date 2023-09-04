@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: media_softlet/linux/common/shared/skuwa_dumper_specific.c Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/shared/skuwa_dumper_specific.c Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_eb769a76f330a5c58e31180c7ee972cf.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_89ef60be54512353afcbd7baec3b722c.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_4fed1f8ed79d9f97d1e2fe61a41f97cc.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b06197aabccedf553875ae9fc0ecc85e.html">shared</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_3c3410289b14e1df332ecc9157e3894f.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_32ec30427766471c663c1286f4b04a0e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_986d2ce2ac55d27cc447e8d78f5db418.html">common</a></li><li class="navelem"><a class="el" href="../../dir_852dd4a3d94f372f89bced9ed322c1c4.html">shared</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -95,11 +95,11 @@ $(function() {
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#if (_DEBUG || _RELEASE_INTERNAL)</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;vphal.h&quot;</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &quot;mhw_vebox.h&quot;</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;mos_os.h&quot;</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#include &quot;vp_dumper.h&quot;</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#include &quot;ctype.h&quot;</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;mhw_vebox.h&quot;</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &quot;mos_os.h&quot;</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;vp_dumper.h&quot;</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#include &quot;ctype.h&quot;</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#include &quot;vp_utils.h&quot;</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>MOS_STATUS VpParameterDumper::SkuWa_DumpToXML(</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <a class="code hl_class" href="../../d3/dc8/class_media_feature_table.html">MEDIA_FEATURE_TABLE</a>             *skuTable,</div>
@@ -120,44 +120,44 @@ $(function() {
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <a class="code hl_typedef" href="../../d3/dc8/class_media_feature_table.html#a0f0b564d0172d8ef1597188fd2526455">MediaFeatureTable::MediaMap</a> *            mediaSkuMap = skuTable-&gt;<a class="code hl_function" href="../../d3/dc8/class_media_feature_table.html#adc9d29e60722d89c0beb5d9a86570f7d">GetMediaSku</a>();</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <a class="code hl_typedef" href="../../df/d79/class_media_wa_table.html#a8559efbbd6d1a64d4f4e4e139583c59f">MediaWaTable::MediaMap</a> *                 mediaWaMap  = waTable-&gt;<a class="code hl_function" href="../../df/d79/class_media_wa_table.html#a3632e39e3aabbe53f979a83f1b269886">GetMediaWa</a>();</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    VPHAL_DEBUG_CHK_NULL(pParamsDumpSpec);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    VP_DEBUG_CHK_NULL(pParamsDumpSpec);</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordflow">if</span> (!enableSkuWaDump)</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordflow">goto</span> finish;</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    VPHAL_DEBUG_CHK_NULL(skuTable);</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    VPHAL_DEBUG_CHK_NULL(waTable);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    VP_DEBUG_CHK_NULL(skuTable);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    VP_DEBUG_CHK_NULL(waTable);</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    VPHAL_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">true</span>, &amp;pcOutContents, <span class="stringliteral">&quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;utf-8\&quot;?&gt;\n&quot;</span>));</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    VPHAL_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\n&quot;</span>));</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    VP_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">true</span>, &amp;pcOutContents, <span class="stringliteral">&quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;utf-8\&quot;?&gt;\n&quot;</span>));</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    VP_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\n&quot;</span>));</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    VPHAL_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t&lt;ID&gt;%d&lt;/ID&gt;\n&quot;</span>, MosUtilities::MosGetPid()));</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    VP_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t&lt;ID&gt;%d&lt;/ID&gt;\n&quot;</span>, MosUtilities::MosGetPid()));</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    VPHAL_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t&lt;!-- SkuTable infomation --&gt;\n&quot;</span>));</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    VPHAL_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t&lt;SkuTable&gt;\n&quot;</span>));</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    VP_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t&lt;!-- SkuTable infomation --&gt;\n&quot;</span>));</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    VP_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t&lt;SkuTable&gt;\n&quot;</span>));</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    VPHAL_DEBUG_CHK_NULL(mediaSkuMap);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    VP_DEBUG_CHK_NULL(mediaSkuMap);</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordflow">for</span> (iter = mediaSkuMap-&gt;begin(); iter != mediaSkuMap-&gt;end(); iter++)</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    {</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        VPHAL_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t\t&lt;%s&gt; %d &lt;/%s&gt;\n&quot;</span>, iter-&gt;first.c_str(), <span class="keywordtype">unsigned</span>(iter-&gt;second), iter-&gt;first.c_str()));</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        VP_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t\t&lt;%s&gt; %d &lt;/%s&gt;\n&quot;</span>, iter-&gt;first.c_str(), <span class="keywordtype">unsigned</span>(iter-&gt;second), iter-&gt;first.c_str()));</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    }</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    VPHAL_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t&lt;/SkuTable&gt;\n&quot;</span>));</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    VP_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t&lt;/SkuTable&gt;\n&quot;</span>));</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    VPHAL_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t&lt;!-- WaTable information --&gt;\n&quot;</span>));</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    VPHAL_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t&lt;WaTable&gt;\n&quot;</span>));</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    VP_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t&lt;!-- WaTable information --&gt;\n&quot;</span>));</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    VP_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t&lt;WaTable&gt;\n&quot;</span>));</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    VPHAL_DEBUG_CHK_NULL(mediaWaMap);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    VP_DEBUG_CHK_NULL(mediaWaMap);</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keywordflow">for</span> (iter = mediaWaMap-&gt;begin(); iter != mediaWaMap-&gt;end(); iter++)</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    {</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        VPHAL_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t\t&lt;%s&gt; %d &lt;/%s&gt;\n&quot;</span>, iter-&gt;first.c_str(), <span class="keywordtype">unsigned</span>(iter-&gt;second), iter-&gt;first.c_str()));</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        VP_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t\t&lt;%s&gt; %d &lt;/%s&gt;\n&quot;</span>, iter-&gt;first.c_str(), <span class="keywordtype">unsigned</span>(iter-&gt;second), iter-&gt;first.c_str()));</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    }</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    VPHAL_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t&lt;/WaTable&gt;\n&quot;</span>));</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    VP_DEBUG_CHK_STATUS(VpDumperTool::AppendString(<span class="keyword">false</span>, &amp;pcOutContents, <span class="stringliteral">&quot;\t&lt;/WaTable&gt;\n&quot;</span>));</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    MOS_SecureStringPrint(sPath, <a class="code hl_define" href="../../d8/df2/mos__defs__specific_8h.html#ab99ded389af74001a6298fc9e44e74e5">MAX_PATH</a>, <a class="code hl_define" href="../../d8/df2/mos__defs__specific_8h.html#ab99ded389af74001a6298fc9e44e74e5">MAX_PATH</a>, <span class="stringliteral">&quot;%s%c%s.xml&quot;</span>, pParamsDumpSpec-&gt;outFileLocation, <a class="code hl_define" href="../../d3/da0/mos__os__specific_8h.html#a0700365f467dc1c4c5faef36ab96cd0f">MOS_DIR_SEPERATOR</a>, SkuWatableFileName.c_str());</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    VpDumperTool::GetOsFilePath(sPath, sOsPath);</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    VPHAL_DEBUG_CHK_STATUS(MosUtilities::MosWriteFileFromPtr(sOsPath, pcOutContents, strlen(pcOutContents)));</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    VP_DEBUG_CHK_STATUS(MosUtilities::MosWriteFileFromPtr(sOsPath, pcOutContents, strlen(pcOutContents)));</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>finish:</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordflow">if</span> (pcOutContents)</div>
@@ -170,14 +170,14 @@ $(function() {
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>}</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="preprocessor">#endif  </span><span class="comment">// (_DEBUG || _RELEASE_INTERNAL)</span></div>
-<div class="ttc" id="aclass_media_feature_table_html"><div class="ttname"><a href="../../d3/dc8/class_media_feature_table.html">MediaFeatureTable</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00036">linux_media_skuwa.h:37</a></div></div>
-<div class="ttc" id="aclass_media_feature_table_html_a0f0b564d0172d8ef1597188fd2526455"><div class="ttname"><a href="../../d3/dc8/class_media_feature_table.html#a0f0b564d0172d8ef1597188fd2526455">MediaFeatureTable::MediaMap</a></div><div class="ttdeci">std::map&lt; SkuKey, uint8_t &gt; MediaMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00040">linux_media_skuwa.h:40</a></div></div>
-<div class="ttc" id="aclass_media_feature_table_html_adc9d29e60722d89c0beb5d9a86570f7d"><div class="ttname"><a href="../../d3/dc8/class_media_feature_table.html#adc9d29e60722d89c0beb5d9a86570f7d">MediaFeatureTable::GetMediaSku</a></div><div class="ttdeci">MediaMap * GetMediaSku()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00151">linux_media_skuwa.h:151</a></div></div>
-<div class="ttc" id="aclass_media_wa_table_html"><div class="ttname"><a href="../../df/d79/class_media_wa_table.html">MediaWaTable</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00160">linux_media_skuwa.h:161</a></div></div>
-<div class="ttc" id="aclass_media_wa_table_html_a3632e39e3aabbe53f979a83f1b269886"><div class="ttname"><a href="../../df/d79/class_media_wa_table.html#a3632e39e3aabbe53f979a83f1b269886">MediaWaTable::GetMediaWa</a></div><div class="ttdeci">MediaMap * GetMediaWa()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00273">linux_media_skuwa.h:273</a></div></div>
-<div class="ttc" id="aclass_media_wa_table_html_a8559efbbd6d1a64d4f4e4e139583c59f"><div class="ttname"><a href="../../df/d79/class_media_wa_table.html#a8559efbbd6d1a64d4f4e4e139583c59f">MediaWaTable::MediaMap</a></div><div class="ttdeci">std::map&lt; WaKey, uint8_t &gt; MediaMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00164">linux_media_skuwa.h:164</a></div></div>
+<div class="ttc" id="aclass_media_feature_table_html"><div class="ttname"><a href="../../d3/dc8/class_media_feature_table.html">MediaFeatureTable</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00037">linux_media_skuwa.h:38</a></div></div>
+<div class="ttc" id="aclass_media_feature_table_html_a0f0b564d0172d8ef1597188fd2526455"><div class="ttname"><a href="../../d3/dc8/class_media_feature_table.html#a0f0b564d0172d8ef1597188fd2526455">MediaFeatureTable::MediaMap</a></div><div class="ttdeci">std::map&lt; SkuKey, uint8_t &gt; MediaMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00041">linux_media_skuwa.h:41</a></div></div>
+<div class="ttc" id="aclass_media_feature_table_html_adc9d29e60722d89c0beb5d9a86570f7d"><div class="ttname"><a href="../../d3/dc8/class_media_feature_table.html#adc9d29e60722d89c0beb5d9a86570f7d">MediaFeatureTable::GetMediaSku</a></div><div class="ttdeci">MediaMap * GetMediaSku()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00152">linux_media_skuwa.h:152</a></div></div>
+<div class="ttc" id="aclass_media_wa_table_html"><div class="ttname"><a href="../../df/d79/class_media_wa_table.html">MediaWaTable</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00163">linux_media_skuwa.h:164</a></div></div>
+<div class="ttc" id="aclass_media_wa_table_html_a3632e39e3aabbe53f979a83f1b269886"><div class="ttname"><a href="../../df/d79/class_media_wa_table.html#a3632e39e3aabbe53f979a83f1b269886">MediaWaTable::GetMediaWa</a></div><div class="ttdeci">MediaMap * GetMediaWa()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00276">linux_media_skuwa.h:276</a></div></div>
+<div class="ttc" id="aclass_media_wa_table_html_a8559efbbd6d1a64d4f4e4e139583c59f"><div class="ttname"><a href="../../df/d79/class_media_wa_table.html#a8559efbbd6d1a64d4f4e4e139583c59f">MediaWaTable::MediaMap</a></div><div class="ttdeci">std::map&lt; WaKey, uint8_t &gt; MediaMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00167">linux_media_skuwa.h:167</a></div></div>
 <div class="ttc" id="amos__defs__specific_8h_html_ab99ded389af74001a6298fc9e44e74e5"><div class="ttname"><a href="../../d8/df2/mos__defs__specific_8h.html#ab99ded389af74001a6298fc9e44e74e5">MAX_PATH</a></div><div class="ttdeci">#define MAX_PATH</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/df2/mos__defs__specific_8h_source.html#l00041">mos_defs_specific.h:41</a></div></div>
-<div class="ttc" id="amos__os__specific_8h_html_a0700365f467dc1c4c5faef36ab96cd0f"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#a0700365f467dc1c4c5faef36ab96cd0f">MOS_DIR_SEPERATOR</a></div><div class="ttdeci">#define MOS_DIR_SEPERATOR</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00111">mos_os_specific.h:111</a></div></div>
+<div class="ttc" id="amos__os__specific_8h_html_a0700365f467dc1c4c5faef36ab96cd0f"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#a0700365f467dc1c4c5faef36ab96cd0f">MOS_DIR_SEPERATOR</a></div><div class="ttdeci">#define MOS_DIR_SEPERATOR</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00224">mos_os_specific.h:224</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

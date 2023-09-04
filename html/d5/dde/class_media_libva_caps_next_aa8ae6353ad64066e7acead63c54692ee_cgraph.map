@@ -1,0 +1,5 @@
+<map id="MediaLibvaCapsNext::GetConfigAttributes" name="MediaLibvaCapsNext::GetConfigAttributes">
+<area shape="rect" id="node1" title="Get attributes for a given profile/entrypoint pair." alt="" coords="5,39,148,80"/>
+<area shape="rect" id="node2" href="$d5/dde/class_media_libva_caps_next.html#a11965888916cdb6566bf289372f694cf" title="Get the general attribute." alt="" coords="197,5,359,47"/>
+<area shape="rect" id="node3" href="$d6/dc6/class_media_caps_table_specific.html#a3673c2c7b4286a198b8b8fde034fd3c1" title="Get Supported Attrib Value." alt="" coords="196,71,360,112"/>
+</map>

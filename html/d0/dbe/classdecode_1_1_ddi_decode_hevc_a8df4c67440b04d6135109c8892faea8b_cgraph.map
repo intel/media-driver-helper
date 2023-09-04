@@ -1,0 +1,6 @@
+<map id="decode::DdiDecodeHevc::ParseSliceParams" name="decode::DdiDecodeHevc::ParseSliceParams">
+<area shape="rect" id="node1" title="ParaSliceParam for HEVC." alt="" coords="5,71,168,112"/>
+<area shape="rect" id="node2" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#a9257e1bf4d5ab2cedb70bb525e68fcca" title="return the Buffer offset for sliceGroup" alt="" coords="216,5,381,47"/>
+<area shape="rect" id="node3" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a81c2856f310b0749d51c41b7e66c8147" title="if it is range extention" alt="" coords="217,71,380,112"/>
+<area shape="rect" id="node4" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a3858c2569ef60d035496f6779138d0b0" title="If it is hevc scc profile." alt="" coords="217,136,380,177"/>
+</map>

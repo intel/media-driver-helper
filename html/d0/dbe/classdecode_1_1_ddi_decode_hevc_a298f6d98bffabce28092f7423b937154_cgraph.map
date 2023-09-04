@@ -1,0 +1,12 @@
+<map id="decode::DdiDecodeHevc::InitResourceBuffer" name="decode::DdiDecodeHevc::InitResourceBuffer">
+<area shape="rect" id="node1" title="Init Resource buffer for HEVC." alt="" coords="5,93,168,135"/>
+<area shape="rect" id="node2" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a22e9ef48542a477a903f7eceb274826b" title="Free Resource buffer for HEVC." alt="" coords="216,60,379,101"/>
+<area shape="rect" id="node10" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a81c2856f310b0749d51c41b7e66c8147" title="if it is range extention" alt="" coords="216,125,379,167"/>
+<area shape="rect" id="node3" href="$d8/d27/struct_media_libva_util_next.html#a5b8159cf6deb7fd21c9355e98e8fd449" title="Free buffer." alt="" coords="427,31,559,72"/>
+<area shape="rect" id="node5" href="$d8/d27/struct_media_libva_util_next.html#afec9f4a36af1fd7e8c98a4eeaca10552" title="Unlock buffer." alt="" coords="612,89,744,131"/>
+<area shape="rect" id="node4" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a3f50be67296c219589a0953fb792dca4" title=" " alt="" coords="607,38,749,65"/>
+<area shape="rect" id="node6" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a47260ddcd6e035fa5384ab0a03d34f3d" title=" " alt="" coords="988,71,1103,98"/>
+<area shape="rect" id="node7" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a6eb56267625d905b3689c8cfcca0b1f8" title=" " alt="" coords="977,122,1113,149"/>
+<area shape="rect" id="node8" href="$d8/d27/struct_media_libva_util_next.html#a3be42318ad8bd9e8d0d3d051d11b34c9" title="Unlock surface." alt="" coords="797,5,929,47"/>
+<area shape="rect" id="node9" href="$d8/d27/struct_media_libva_util_next.html#a5015821cdaf933faa70cba831be7d6ab" title="Swizzle Surface." alt="" coords="979,5,1111,47"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="codec::DdiCodecBase::ClearRefList" name="codec::DdiCodecBase::ClearRefList">
+<area shape="rect" id="node1" title="Clear Reference List." alt="" coords="409,136,560,177"/>
+<area shape="rect" id="node2" href="$db/d26/classencode_1_1_ddi_encode_a_v1.html#ae5773abb89151b59bb8f2cf45a92166f" title="Encode in CodecHal for Av1." alt="" coords="199,5,359,47"/>
+<area shape="rect" id="node3" href="$de/dec/classencode_1_1_ddi_encode_avc.html#ac7b44bd8133a4e8962220b1475936998" title="Do Encode in codechal." alt="" coords="201,71,357,112"/>
+<area shape="rect" id="node4" href="$d1/d90/classencode_1_1_ddi_encode_hevc.html#a49f7ee90e0ba21a5a80fb546d380ef16" title="Encode in CodecHal for Hevc." alt="" coords="197,136,360,177"/>
+<area shape="rect" id="node5" href="$db/d20/classencode_1_1_ddi_encode_vp9.html#ac0e6e63feae10b5b6e807d152343a4f4" title="Encode in CodecHal for Vp9." alt="" coords="199,201,358,243"/>
+<area shape="rect" id="node6" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#a95ccfdb5ed288581db77ce816894eb8b" title="Make the end of rendering for a picture." alt="" coords="196,267,361,308"/>
+<area shape="rect" id="node7" href="$d0/dca/class_ddi_decode_functions.html#a4459234668737505fb043c1c9e1c1f10" title="Make the end of rendering for a picture." alt="" coords="5,267,148,308"/>
+</map>

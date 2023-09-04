@@ -1,0 +1,11 @@
+<map id="encode::DdiEncodeBase::GetSizeFromStatusReportBuffer" name="encode::DdiEncodeBase::GetSizeFromStatusReportBuffer">
+<area shape="rect" id="node1" title="Get Size From Status Report Buffer." alt="" coords="675,201,891,243"/>
+<area shape="rect" id="node2" href="$d3/d5b/classencode_1_1_ddi_encode_base.html#a2e905ab028424536672b61b21dc9bed7" title="Remove Report Status from status report list." alt="" coords="407,136,627,177"/>
+<area shape="rect" id="node7" href="$d3/d5b/classencode_1_1_ddi_encode_base.html#a02b410b2e3af877e7fc9af92a9a798ef" title="Report Status for coded buffer." alt="" coords="434,233,599,275"/>
+<area shape="rect" id="node3" href="$db/d26/classencode_1_1_ddi_encode_a_v1.html#ad57ec3db2053f23f0586f7f1c2561907" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="197,5,357,47"/>
+<area shape="rect" id="node4" href="$d1/d90/classencode_1_1_ddi_encode_hevc.html#a4406e7b36762c461980b59e86a5a95cd" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="196,71,359,112"/>
+<area shape="rect" id="node5" href="$da/d51/classencode_1_1_ddi_encode_jpeg.html#afdebe818d565ca6a6920141b7c699f1c" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="196,136,359,177"/>
+<area shape="rect" id="node6" href="$db/d20/classencode_1_1_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="198,201,357,243"/>
+<area shape="rect" id="node8" href="$d9/dba/class_ddi_encode_functions.html#a97403936cd01c22a5c2e28f2d7e0191b" title="Status report." alt="" coords="206,267,349,308"/>
+<area shape="rect" id="node9" href="$d9/dba/class_ddi_encode_functions.html#af6f7cb575632bc2b8ce8cd67a17e3f22" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="5,267,148,308"/>
+</map>

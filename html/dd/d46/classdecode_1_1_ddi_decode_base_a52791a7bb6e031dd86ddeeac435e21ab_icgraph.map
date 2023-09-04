@@ -1,0 +1,5 @@
+<map id="decode::DdiDecodeBase::BeginPicture" name="decode::DdiDecodeBase::BeginPicture">
+<area shape="rect" id="node1" title="Get ready to decoding process for a target surface." alt="" coords="216,39,381,80"/>
+<area shape="rect" id="node2" href="$d0/dca/class_ddi_decode_functions.html#a5bfd26a93bc7b3a71b83bf5ff11a84de" title="Get ready to decode a picture to a target surface." alt="" coords="15,5,158,47"/>
+<area shape="rect" id="node3" href="$db/df1/classdecode_1_1_ddi_decode_jpeg.html#acd3bf6a252aaf2021477d01218b623c3" title="Get ready to decoding process for a target surface." alt="" coords="5,71,168,112"/>
+</map>

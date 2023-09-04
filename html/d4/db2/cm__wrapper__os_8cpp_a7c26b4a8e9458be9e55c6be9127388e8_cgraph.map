@@ -1,0 +1,6 @@
+<map id="DestroyCmDeviceFromVA" name="DestroyCmDeviceFromVA">
+<area shape="rect" id="node1" title="Destroy Cm Device and free heap in VA context." alt="" coords="5,56,179,83"/>
+<area shape="rect" id="node2" href="$dd/dab/media__libva__common_8cpp.html#af27269667643d99431310f928cedb706" title="Get context from context ID." alt="" coords="227,5,463,32"/>
+<area shape="rect" id="node3" href="$da/d12/cm__global__api__os_8cpp.html#a3ef394efa7be8e87e0c6ee158d8cb314" title="Destroys the CmDevice." alt="" coords="282,56,407,83"/>
+<area shape="rect" id="node4" href="$da/d88/class_c_m_r_t___u_m_d_1_1_cm_device_r_t.html#a75be00533c2680b642855b106a1451de" title=" " alt="" coords="257,107,433,149"/>
+</map>

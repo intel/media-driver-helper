@@ -1,6 +1,0 @@
-<map id="mos_get_context_param" name="mos_get_context_param">
-<area shape="rect" id="node1" title=" " alt="" coords="655,13,820,39"/>
-<area shape="rect" id="node2" href="$d0/d0e/class_os_context_specific.html#ae8e518d60e5c6378421d98540839b730" title="Get the context priority from KMD." alt="" coords="468,5,607,47"/>
-<area shape="rect" id="node3" href="$d3/de3/mos__os__specific_8c.html#afcedaae755c8bc726df153468ac04af8" title="Get gpu context priority from KMD." alt="" coords="227,13,420,39"/>
-<area shape="rect" id="node4" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,13,179,39"/>
-</map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: media_softlet/linux/common/os/mos_os_virtualengine_scalability_specific_next.h Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/mos_os_virtualengine_scalability_specific_next.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_eb769a76f330a5c58e31180c7ee972cf.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_89ef60be54512353afcbd7baec3b722c.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_4fed1f8ed79d9f97d1e2fe61a41f97cc.html">common</a></li><li class="navelem"><a class="el" href="../../dir_64eaabcbed192c2a1a2816231d5c3931.html">os</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_3c3410289b14e1df332ecc9157e3894f.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_32ec30427766471c663c1286f4b04a0e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_986d2ce2ac55d27cc447e8d78f5db418.html">common</a></li><li class="navelem"><a class="el" href="../../dir_11379992f964418e636509c17f24b568.html">os</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -104,7 +104,7 @@ $(function() {
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    MOS_STATUS <a class="code hl_function" href="../../d3/d11/class_mos_os_ve_scalability_specific.html#aea436f2a461444446890636b423cca8c">Initialize</a>(</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        MOS_STREAM_HANDLE stream,</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        PMOS_VIRTUALENGINE_INIT_PARAMS pVEInitParms);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <a class="code hl_typedef" href="../../d3/da0/mos__os__specific_8h.html#aeb6ddc85f43cc913b51fa179bca46925">PMOS_VIRTUALENGINE_INIT_PARAMS</a> pVEInitParms);</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="comment">// Secondary cmd buf are maintained in GPU context in multi-pipe mode</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d3/d11/class_mos_os_ve_scalability_specific.html#a3673325d4da93add8fbdf7e6820def53">   42</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d11/class_mos_os_ve_scalability_specific.html#a3673325d4da93add8fbdf7e6820def53">ResetSecdryCmdBufStates</a>() {}</div>
@@ -127,7 +127,7 @@ $(function() {
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="comment">// No hint parameters to set</span></div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="../../d3/d11/class_mos_os_ve_scalability_specific.html#a40bd488a15dec5e93bbe2b04608c1854">   61</a></span>    MOS_STATUS <a class="code hl_function" href="../../d3/d11/class_mos_os_ve_scalability_specific.html#a40bd488a15dec5e93bbe2b04608c1854">SetHintParams</a>(</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        PMOS_VIRTUALENGINE_SET_PARAMS pVEParams) { <span class="keywordflow">return</span> MOS_STATUS_SUCCESS; }</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <a class="code hl_typedef" href="../../d3/da0/mos__os__specific_8h.html#a937411b0720f03208455a4c4b4551f51">PMOS_VIRTUALENGINE_SET_PARAMS</a> pVEParams) { <span class="keywordflow">return</span> MOS_STATUS_SUCCESS; }</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    MOS_STATUS <a class="code hl_function" href="../../d3/d11/class_mos_os_ve_scalability_specific.html#aa152c776559bcbd1811ea2c9e2424a50">GetHintParams</a>(</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <span class="keywordtype">bool</span> bScalableMode,</div>
@@ -153,7 +153,9 @@ $(function() {
 <div class="ttc" id="aclass_mos_os_ve_scalability_specific_html_aabfb116261b72867e0a2312e9b1b3995"><div class="ttname"><a href="../../d3/d11/class_mos_os_ve_scalability_specific.html#aabfb116261b72867e0a2312e9b1b3995">MosOsVeScalabilitySpecific::ReturnSecdryCmdBuf</a></div><div class="ttdeci">MOS_STATUS ReturnSecdryCmdBuf(PMOS_COMMAND_BUFFER pScdryCmdBuf, uint32_t dwBufIdxPlus1)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dff/mos__os__virtualengine__scalability__specific__next_8h_source.html#l00054">mos_os_virtualengine_scalability_specific_next.h:54</a></div></div>
 <div class="ttc" id="aclass_mos_os_ve_scalability_specific_html_ac1e7a88317cb7c546bac1d4791435921"><div class="ttname"><a href="../../d3/d11/class_mos_os_ve_scalability_specific.html#ac1e7a88317cb7c546bac1d4791435921">MosOsVeScalabilitySpecific::Destroy</a></div><div class="ttdeci">void Destroy()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dff/mos__os__virtualengine__scalability__specific__next_8h_source.html#l00070">mos_os_virtualengine_scalability_specific_next.h:70</a></div></div>
 <div class="ttc" id="aclass_mos_os_ve_scalability_specific_html_aea436f2a461444446890636b423cca8c"><div class="ttname"><a href="../../d3/d11/class_mos_os_ve_scalability_specific.html#aea436f2a461444446890636b423cca8c">MosOsVeScalabilitySpecific::Initialize</a></div><div class="ttdeci">MOS_STATUS Initialize(MOS_STREAM_HANDLE stream, PMOS_VIRTUALENGINE_INIT_PARAMS pVEInitParms)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d49/mos__os__virtualengine__scalability__specific__next_8cpp_source.html#l00030">mos_os_virtualengine_scalability_specific_next.cpp:30</a></div></div>
-<div class="ttc" id="amos__os__specific_8h_html_ab2610217f143a4c0e6dce51035f1f8f1"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#ab2610217f143a4c0e6dce51035f1f8f1">PMOS_COMMAND_BUFFER</a></div><div class="ttdeci">struct _MOS_COMMAND_BUFFER * PMOS_COMMAND_BUFFER</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00157">mos_os_specific.h:157</a></div></div>
+<div class="ttc" id="amos__os__specific_8h_html_a937411b0720f03208455a4c4b4551f51"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#a937411b0720f03208455a4c4b4551f51">PMOS_VIRTUALENGINE_SET_PARAMS</a></div><div class="ttdeci">struct _MOS_VIRTUALENGINE_SET_PARAMS * PMOS_VIRTUALENGINE_SET_PARAMS</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l01063">mos_os_specific.h:1063</a></div></div>
+<div class="ttc" id="amos__os__specific_8h_html_ab2610217f143a4c0e6dce51035f1f8f1"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#ab2610217f143a4c0e6dce51035f1f8f1">PMOS_COMMAND_BUFFER</a></div><div class="ttdeci">struct _MOS_COMMAND_BUFFER * PMOS_COMMAND_BUFFER</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00270">mos_os_specific.h:270</a></div></div>
+<div class="ttc" id="amos__os__specific_8h_html_aeb6ddc85f43cc913b51fa179bca46925"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#aeb6ddc85f43cc913b51fa179bca46925">PMOS_VIRTUALENGINE_INIT_PARAMS</a></div><div class="ttdeci">struct _MOS_VIRTUALENGINE_INIT_PARAMS * PMOS_VIRTUALENGINE_INIT_PARAMS</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l01041">mos_os_specific.h:1041</a></div></div>
 <div class="ttc" id="astruct___m_o_s___s_p_e_c_i_f_i_c___v_e___h_i_n_t___p_a_r_a_m_s_html"><div class="ttname"><a href="../../d5/d0c/struct___m_o_s___s_p_e_c_i_f_i_c___v_e___h_i_n_t___p_a_r_a_m_s.html">_MOS_SPECIFIC_VE_HINT_PARAMS</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de0/mos__os__virtualengine__specific_8h_source.html#l00034">mos_os_virtualengine_specific.h:35</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

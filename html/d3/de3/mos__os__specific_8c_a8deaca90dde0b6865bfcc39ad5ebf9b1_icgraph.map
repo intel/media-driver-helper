@@ -1,11 +1,12 @@
 <map id="Linux_WaitAndReleaseCmdBuffer" name="Linux_WaitAndReleaseCmdBuffer">
-<area shape="rect" id="node1" title="Wait and release command buffer." alt="" coords="915,56,1132,83"/>
-<area shape="rect" id="node2" href="$d3/de3/mos__os__specific_8c.html#aa6039ca11bf44a96683f603d5ad53eb3" title="Init Linux context." alt="" coords="241,69,364,96"/>
-<area shape="rect" id="node4" href="$d3/de3/mos__os__specific_8c.html#a4c99f3b3f65823152fdf10a10bc01b4f" title="Release command buffer pool." alt="" coords="670,107,863,133"/>
-<area shape="rect" id="node8" href="$d3/de3/mos__os__specific_8c.html#ad7cb824d8d496425810e1b8eec36c915" title="Wait for the fetch command." alt="" coords="667,5,867,32"/>
-<area shape="rect" id="node3" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,107,179,133"/>
-<area shape="rect" id="node5" href="$d3/de3/mos__os__specific_8c.html#af543e54556f76e87f60599969a971b94" title="Destroy Linux context." alt="" coords="470,107,575,133"/>
-<area shape="rect" id="node6" href="$d3/de3/mos__os__specific_8c.html#a0c4af9880d68a1a27a6ff4122d6a0bc3" title=" " alt="" coords="449,157,597,184"/>
-<area shape="rect" id="node7" href="$d3/de3/mos__os__specific_8c.html#a43d7b7e93bb2945e2258bdaa98f27245" title="Destroys OS specific allocations." alt="" coords="227,132,379,159"/>
-<area shape="rect" id="node9" href="$d3/de3/mos__os__specific_8c.html#a0ed49569d207f5db4c9fad78f1f74fcf" title="Insert command buffer." alt="" coords="427,5,619,32"/>
+<area shape="rect" id="node1" title="Wait and release command buffer." alt="" coords="1148,56,1365,83"/>
+<area shape="rect" id="node2" href="$d3/de3/mos__os__specific_8c.html#aa6039ca11bf44a96683f603d5ad53eb3" title="Init Linux context." alt="" coords="475,56,597,83"/>
+<area shape="rect" id="node4" href="$d3/de3/mos__os__specific_8c.html#a4c99f3b3f65823152fdf10a10bc01b4f" title="Release command buffer pool." alt="" coords="903,107,1097,133"/>
+<area shape="rect" id="node9" href="$d3/de3/mos__os__specific_8c.html#ad7cb824d8d496425810e1b8eec36c915" title="Wait for the fetch command." alt="" coords="900,5,1100,32"/>
+<area shape="rect" id="node3" href="$d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,107,179,133"/>
+<area shape="rect" id="node5" href="$d3/de3/mos__os__specific_8c.html#af543e54556f76e87f60599969a971b94" title="Destroy Linux context." alt="" coords="703,107,809,133"/>
+<area shape="rect" id="node6" href="$d3/de3/mos__os__specific_8c.html#a0c4af9880d68a1a27a6ff4122d6a0bc3" title=" " alt="" coords="682,157,830,184"/>
+<area shape="rect" id="node7" href="$d2/d0a/mos__os__specific_8cpp.html#afa2a1942256e8ba90c13e06ad3e6d4cf" title="Destroys OS specific allocations." alt="" coords="460,157,612,184"/>
+<area shape="rect" id="node8" href="$d2/d0a/mos__os__specific_8cpp.html#af32ef68510c731e300b178fd596f5d8e" title=" " alt="" coords="227,107,412,133"/>
+<area shape="rect" id="node10" href="$d3/de3/mos__os__specific_8c.html#a0ed49569d207f5db4c9fad78f1f74fcf" title="Insert command buffer." alt="" coords="660,5,852,32"/>
 </map>

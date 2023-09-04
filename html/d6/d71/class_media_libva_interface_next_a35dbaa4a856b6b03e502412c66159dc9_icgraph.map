@@ -1,0 +1,6 @@
+<map id="MediaLibvaInterfaceNext::MediaMemoryDecompress" name="MediaLibvaInterfaceNext::MediaMemoryDecompress">
+<area shape="rect" id="node1" title="Decompress a compressed surface." alt="" coords="423,39,608,80"/>
+<area shape="rect" id="node2" href="$d3/de1/class_ddi_media_functions.html#a4f7fbc13276e15b941c3a85f6a5a1eaf" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="233,39,375,80"/>
+<area shape="rect" id="node3" href="$d9/dba/class_ddi_encode_functions.html#af6f7cb575632bc2b8ce8cd67a17e3f22" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="24,5,167,47"/>
+<area shape="rect" id="node4" href="$df/d20/class_ddi_vp_functions.html#aefbc6c35995dea36f958c2bad49df271" title=" " alt="" coords="5,71,185,112"/>
+</map>

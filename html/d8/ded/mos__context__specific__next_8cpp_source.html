@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: media_softlet/linux/common/os/mos_context_specific_next.cpp Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/mos_context_specific_next.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_eb769a76f330a5c58e31180c7ee972cf.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_89ef60be54512353afcbd7baec3b722c.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_4fed1f8ed79d9f97d1e2fe61a41f97cc.html">common</a></li><li class="navelem"><a class="el" href="../../dir_64eaabcbed192c2a1a2816231d5c3931.html">os</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_3c3410289b14e1df332ecc9157e3894f.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_32ec30427766471c663c1286f4b04a0e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_986d2ce2ac55d27cc447e8d78f5db418.html">common</a></li><li class="navelem"><a class="el" href="../../dir_11379992f964418e636509c17f24b568.html">os</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -115,310 +115,332 @@ $(function() {
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/df3/mos__context__specific__next_8h.html">mos_context_specific_next.h</a>&quot;</span></div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#include &quot;mos_gpucontextmgr_next.h&quot;</span></div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#include &quot;mos_cmdbufmgr_next.h&quot;</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#include &quot;media_user_settings_mgr.h&quot;</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#include &quot;mos_oca_rtlog_mgr.h&quot;</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../d8/ded/mos__context__specific__next_8cpp.html#a8b4a0f269e7c62dcebdb7d39d1302df2">   51</a></span><span class="preprocessor">#define BATCH_BUFFER_SIZE 0x80000</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../d2/dc9/class_os_context_specific_next.html#a99c9c4bbe06fb16f75375e004cce9061">   53</a></span><a class="code hl_function" href="../../d2/dc9/class_os_context_specific_next.html#a99c9c4bbe06fb16f75375e004cce9061">OsContextSpecificNext::OsContextSpecificNext</a>()</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>{</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    MOS_OS_FUNCTION_ENTER;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>}</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="../../d2/dc9/class_os_context_specific_next.html#af1ea045d37b93ad3bf847c47967b64ff">   58</a></span><a class="code hl_function" href="../../d2/dc9/class_os_context_specific_next.html#af1ea045d37b93ad3bf847c47967b64ff">OsContextSpecificNext::~OsContextSpecificNext</a>()</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>{</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    MOS_OS_FUNCTION_ENTER;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>}</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="../../d2/dc9/class_os_context_specific_next.html#a6f14f9d95d6d84e5ff69dcf01210a0a1">   63</a></span>MOS_STATUS <a class="code hl_function" href="../../d2/dc9/class_os_context_specific_next.html#a6f14f9d95d6d84e5ff69dcf01210a0a1">OsContextSpecificNext::Init</a>(DDI_DEVICE_CONTEXT ddiDriverContext)</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>{</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    uint32_t      iDeviceId = 0;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    MOS_STATUS    eStatus   = MOS_STATUS_SUCCESS;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    uint32_t      value     = 0;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <a class="code hl_typedef" href="../../d3/d6c/linux__system__info_8h.html#ad9e5fa174092bd0562179a00ce635e13">MediaUserSettingSharedPtr</a>   userSettingPtr = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    MOS_OS_FUNCTION_ENTER;</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    eStatus = MOS_STATUS_SUCCESS;</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <a class="code hl_struct" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html">PMOS_CONTEXT</a> osDriverContext = (<a class="code hl_typedef" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a>)ddiDriverContext;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordflow">if</span> (GetOsContextValid() == <span class="keyword">false</span>)</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    {</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        m_skuTable.reset();</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        m_waTable.reset();</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        MosUtilities::MosZeroMemory(&amp;m_platformInfo, <span class="keyword">sizeof</span>(m_platformInfo));</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        MosUtilities::MosZeroMemory(&amp;m_gtSystemInfo, <span class="keyword">sizeof</span>(m_gtSystemInfo));</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <span class="keywordflow">if</span>( <span class="keyword">nullptr</span> == osDriverContext  ||</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            0 &gt;= osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a85038fc0f7d281af1aeee830d1d2c8bc">fd</a> )</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        {</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            MOS_OS_ASSERT(<span class="keyword">false</span>);</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            <span class="keywordflow">return</span> MOS_STATUS_INVALID_HANDLE;</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        }</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        m_fd = osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a85038fc0f7d281af1aeee830d1d2c8bc">fd</a>;</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        userSettingPtr = MosInterface::MosGetUserSettingInstance(osDriverContext);</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        m_bufmgr = <a class="code hl_function" href="../../da/d54/mos__bufmgr_8h.html#a25a9cc740e644384af15186bdf7fcc60">mos_bufmgr_gem_init</a>(m_fd, <a class="code hl_define" href="../../d8/ded/mos__context__specific__next_8cpp.html#a8b4a0f269e7c62dcebdb7d39d1302df2">BATCH_BUFFER_SIZE</a>);</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        <span class="keywordflow">if</span> (<span class="keyword">nullptr</span> == m_bufmgr)</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        {</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>            MOS_OS_ASSERTMESSAGE(<span class="stringliteral">&quot;Not able to allocate buffer manager, fd=0x%d&quot;</span>, m_fd);</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>            <span class="keywordflow">return</span> MOS_STATUS_INVALID_PARAMETER;</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        }</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <a class="code hl_function" href="../../da/d54/mos__bufmgr_8h.html#ad6b43bf11356e5cdec681c4b7570648e">mos_bufmgr_gem_enable_reuse</a>(m_bufmgr);</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a5fbe7237e6dbdf7d11ffecad133268ef">bufmgr</a>                 = m_bufmgr;</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        <span class="comment">//Latency reducation:replace HWGetDeviceID to get device using ioctl from drm.</span></div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>        iDeviceId   = <a class="code hl_function" href="../../da/d54/mos__bufmgr_8h.html#a520b7a5659d8df915cb4627a1b250c22">mos_bufmgr_gem_get_devid</a>(m_bufmgr);</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        m_isAtomSOC = <a class="code hl_define" href="../../d8/df1/hwinfo__linux_8h.html#a3db190e1ea083a85a35a88627c1635e1">IS_ATOMSOC</a>(iDeviceId);</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        eStatus = NullHW::Init(osDriverContext);</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        <span class="keywordflow">if</span> (!NullHW::IsEnabled())</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        {</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>            eStatus = <a class="code hl_function" href="../../d0/de5/hwinfo__linux_8c.html#a315ff23fa28ab4f88e290d4486469d4d">HWInfo_GetGfxInfo</a>(m_fd, m_bufmgr, &amp;m_platformInfo, &amp;m_skuTable, &amp;m_waTable, &amp;m_gtSystemInfo, userSettingPtr);</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        }</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        {</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>            m_platformInfo = osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a34729ebf6a7a5fb849242541e48c4227">platform</a>;</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>            m_skuTable = osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a17b0892aef2ff18a49d1b47bb5a85bd7">SkuTable</a>;</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>            m_waTable = osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#ac2b0da9d557f5111bd96bd678bd4db5c">WaTable</a>;</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>            m_gtSystemInfo = osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a0e9d6fcf503b58545cc826567fb49fee">gtSystemInfo</a>;</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>            iDeviceId = osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#aa5688c0b92d3db07630e910ef835868f">iDeviceId</a>;</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>        }</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>        <span class="keywordflow">if</span> (eStatus != MOS_STATUS_SUCCESS)</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>        {</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>            MOS_OS_ASSERTMESSAGE(<span class="stringliteral">&quot;Fatal error - unsuccesfull Sku/Wa/GtSystemInfo initialization&quot;</span>);</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>            <span class="keywordflow">return</span> eStatus;</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        }</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        ReadUserSetting(</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>            userSettingPtr,</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>            value,</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>            <a class="code hl_define" href="../../db/d7b/mos__util__user__feature__keys__specific_8h.html#a0f237225b14ec6418ccbd83758b4f88b">__MEDIA_USER_FEATURE_VALUE_ENABLE_SOFTPIN</a>,</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>            MediaUserSetting::Group::Device);</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        <span class="keywordflow">if</span> (value)</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        {</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>            <span class="keywordtype">bool</span> softpin_va1Malign = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>            <span class="keywordflow">if</span> (<a class="code hl_define" href="../../d5/d39/linux__media__skuwa_8h.html#af2837af828b6821083c018450404113e">MEDIA_IS_SKU</a>(&amp;m_skuTable, Ftr1MGranularAuxTable))</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>            {</div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>                softpin_va1Malign = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>            }</div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>            <a class="code hl_function" href="../../da/d54/mos__bufmgr_8h.html#af32f1c27f541dc41bba9c45a8cac7280">mos_bufmgr_gem_enable_softpin</a>(m_bufmgr, softpin_va1Malign);</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>        }</div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="../../d5/d39/linux__media__skuwa_8h.html#af2837af828b6821083c018450404113e">MEDIA_IS_SKU</a>(&amp;m_skuTable, FtrEnableMediaKernels) == 0)</div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>        {</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>            <a class="code hl_define" href="../../d5/d39/linux__media__skuwa_8h.html#a97f56c86446a7de260f9ae44962f1c2a">MEDIA_WR_WA</a>(&amp;m_waTable, WaHucStreamoutOnlyDisable, 0);</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>        }</div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>        MosUtilities::MosTraceSetupInfo(</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>            (VA_MAJOR_VERSION &lt;&lt; 16) | VA_MINOR_VERSION,</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>            m_platformInfo.eProductFamily,</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>            m_platformInfo.eRenderCoreFamily,</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>            (m_platformInfo.usRevId &lt;&lt; 16) | m_platformInfo.usDeviceID);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#include &quot;mos_oca_rtlog_mgr.h&quot;</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../d8/ded/mos__context__specific__next_8cpp.html#a8b4a0f269e7c62dcebdb7d39d1302df2">   50</a></span><span class="preprocessor">#define BATCH_BUFFER_SIZE 0x80000</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="../../d2/dc9/class_os_context_specific_next.html#a99c9c4bbe06fb16f75375e004cce9061">   52</a></span><a class="code hl_function" href="../../d2/dc9/class_os_context_specific_next.html#a99c9c4bbe06fb16f75375e004cce9061">OsContextSpecificNext::OsContextSpecificNext</a>()</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>{</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    MOS_OS_FUNCTION_ENTER;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>}</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="../../d2/dc9/class_os_context_specific_next.html#af1ea045d37b93ad3bf847c47967b64ff">   57</a></span><a class="code hl_function" href="../../d2/dc9/class_os_context_specific_next.html#af1ea045d37b93ad3bf847c47967b64ff">OsContextSpecificNext::~OsContextSpecificNext</a>()</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>{</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    MOS_OS_FUNCTION_ENTER;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>}</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../d2/dc9/class_os_context_specific_next.html#a6f14f9d95d6d84e5ff69dcf01210a0a1">   62</a></span>MOS_STATUS <a class="code hl_function" href="../../d2/dc9/class_os_context_specific_next.html#a6f14f9d95d6d84e5ff69dcf01210a0a1">OsContextSpecificNext::Init</a>(DDI_DEVICE_CONTEXT ddiDriverContext)</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>{</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    uint32_t      iDeviceId = 0;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    MOS_STATUS    eStatus   = MOS_STATUS_SUCCESS;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    uint32_t      value     = 0;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <a class="code hl_typedef" href="../../d3/d6c/linux__system__info_8h.html#ad9e5fa174092bd0562179a00ce635e13">MediaUserSettingSharedPtr</a>   userSettingPtr = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    MOS_OS_FUNCTION_ENTER;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    eStatus = MOS_STATUS_SUCCESS;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <a class="code hl_struct" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html">PMOS_CONTEXT</a> osDriverContext = (<a class="code hl_typedef" href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a>)ddiDriverContext;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordflow">if</span> (GetOsContextValid() == <span class="keyword">false</span>)</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    {</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        m_skuTable.reset();</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        m_waTable.reset();</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        MosUtilities::MosZeroMemory(&amp;m_platformInfo, <span class="keyword">sizeof</span>(m_platformInfo));</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        MosUtilities::MosZeroMemory(&amp;m_gtSystemInfo, <span class="keyword">sizeof</span>(m_gtSystemInfo));</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        <span class="keywordflow">if</span>( <span class="keyword">nullptr</span> == osDriverContext  ||</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>            0 &gt; osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a85038fc0f7d281af1aeee830d1d2c8bc">fd</a> )</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        {</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>            MOS_OS_ASSERT(<span class="keyword">false</span>);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            <span class="keywordflow">return</span> MOS_STATUS_INVALID_HANDLE;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        }</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        m_fd = osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a85038fc0f7d281af1aeee830d1d2c8bc">fd</a>;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        userSettingPtr = MosInterface::MosGetUserSettingInstance(osDriverContext);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        m_bufmgr = <a class="code hl_function" href="../../de/ddd/mos__bufmgr__mock_8c.html#a4b6358a05950f5cb9b6bcf5f83a84639">mos_bufmgr_gem_init</a>(m_fd, <a class="code hl_define" href="../../d8/ded/mos__context__specific__next_8cpp.html#a8b4a0f269e7c62dcebdb7d39d1302df2">BATCH_BUFFER_SIZE</a>, &amp;m_deviceType);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        <span class="keywordflow">if</span> (<span class="keyword">nullptr</span> == m_bufmgr)</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        {</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>            MOS_OS_ASSERTMESSAGE(<span class="stringliteral">&quot;Not able to allocate buffer manager, fd=0x%d&quot;</span>, m_fd);</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>            <span class="keywordflow">return</span> MOS_STATUS_INVALID_PARAMETER;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        }</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <a class="code hl_function" href="../../d5/d3a/mos__bufmgr__api_8h.html#a2f34fd41509c71a9f1748f8232e66fe2">mos_bufmgr_enable_reuse</a>(m_bufmgr);</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a5fbe7237e6dbdf7d11ffecad133268ef">bufmgr</a>                 = m_bufmgr;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        <span class="comment">//Latency reducation:replace HWGetDeviceID to get device using ioctl from drm.</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        iDeviceId   = <a class="code hl_function" href="../../d5/d3a/mos__bufmgr__api_8h.html#ada620cad387f9109a0a91f72e15cbf2d">mos_bufmgr_get_devid</a>(m_bufmgr);</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>        m_isAtomSOC = <a class="code hl_define" href="../../d8/df1/hwinfo__linux_8h.html#a3db190e1ea083a85a35a88627c1635e1">IS_ATOMSOC</a>(iDeviceId);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>        eStatus = NullHwInit((MOS_CONTEXT_HANDLE)osDriverContext);</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        <span class="keywordflow">if</span> (!GetNullHwIsEnabled())</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        {</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>            eStatus = <a class="code hl_function" href="../../d2/d27/hwinfo__linux_8cpp.html#a315ff23fa28ab4f88e290d4486469d4d">HWInfo_GetGfxInfo</a>(m_fd, m_bufmgr, &amp;m_platformInfo, &amp;m_skuTable, &amp;m_waTable, &amp;m_gtSystemInfo, userSettingPtr);</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        }</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        {</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>            m_platformInfo  = osDriverContext-&gt;m_platform;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>            m_skuTable      = osDriverContext-&gt;m_skuTable;</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>            m_waTable       = osDriverContext-&gt;m_waTable;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>            m_gtSystemInfo  = osDriverContext-&gt;m_gtSystemInfo;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>            iDeviceId       = osDriverContext-&gt;iDeviceId;</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        }</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>        <span class="keywordflow">if</span> (eStatus != MOS_STATUS_SUCCESS)</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>        {</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>            MOS_OS_ASSERTMESSAGE(<span class="stringliteral">&quot;Fatal error - unsuccesfull Sku/Wa/GtSystemInfo initialization&quot;</span>);</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>            <span class="keywordflow">return</span> eStatus;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        }</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>        ReadUserSetting(</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>            userSettingPtr,</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>            value,</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>            <a class="code hl_define" href="../../db/d7b/mos__util__user__feature__keys__specific_8h.html#a0f237225b14ec6418ccbd83758b4f88b">__MEDIA_USER_FEATURE_VALUE_ENABLE_SOFTPIN</a>,</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>            MediaUserSetting::Group::Device);</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        <span class="keywordflow">if</span> (value)</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        {</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>            <span class="keywordtype">bool</span> softpin_va1Malign = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>            <span class="keywordflow">if</span> (<a class="code hl_define" href="../../d5/d39/linux__media__skuwa_8h.html#af2837af828b6821083c018450404113e">MEDIA_IS_SKU</a>(&amp;m_skuTable, Ftr1MGranularAuxTable))</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>            {</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>                softpin_va1Malign = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>            }</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>            <a class="code hl_function" href="../../d5/d3a/mos__bufmgr__api_8h.html#a6c9bf46ebe36ffb7971d270eb2842858">mos_bufmgr_enable_softpin</a>(m_bufmgr, softpin_va1Malign);</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>            ReadUserSetting(</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>                userSettingPtr,</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>                value,</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>                <a class="code hl_define" href="../../db/d7b/mos__util__user__feature__keys__specific_8h.html#a3ec1fce884ee979bb68cbd5f5c958a73">__MEDIA_USER_FEATURE_VALUE_ENABLE_VM_BIND</a>,</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>                MediaUserSetting::Group::Device);</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>            <span class="keywordflow">if</span> (value)</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>            {</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>                 <a class="code hl_function" href="../../d5/d3a/mos__bufmgr__api_8h.html#a987ef9691e375594341de1da5432c5d0">mos_bufmgr_enable_vmbind</a>(m_bufmgr);</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>                 MOS_OS_NORMALMESSAGE(<span class="stringliteral">&quot;mos_bufmg_enable_vmbind&quot;</span>);</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>            }</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>        }</div>
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>        <a class="code hl_typedef" href="../../d3/d23/media__skuwa__specific_8h.html#a2628b92090fe116f1e3c085a98634843">GMM_SKU_FEATURE_TABLE</a>   gmmSkuTable   = {};</div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>        <a class="code hl_typedef" href="../../d3/d23/media__skuwa__specific_8h.html#af2e04c26b293d9ca8d64e1bd42129b26">GMM_WA_TABLE</a>            gmmWaTable    = {};</div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>        <a class="code hl_typedef" href="../../d3/d23/media__skuwa__specific_8h.html#adfd10433a3c3a5996133a8f66deeae2d">GMM_GT_SYSTEM_INFO</a>      gmmGtInfo     = {};</div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>        <a class="code hl_typedef" href="../../d3/d23/media__skuwa__specific_8h.html#a44b22bc17be298600222e18aad19063c">GMM_ADAPTER_BDF</a>         gmmAdapterBDF = {};</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>        eStatus = <a class="code hl_function" href="../../d0/de5/hwinfo__linux_8c.html#ad581268e16b72676f72b9648157b446d">HWInfo_GetGmmInfo</a>(m_fd, &amp;gmmSkuTable, &amp;gmmWaTable, &amp;gmmGtInfo);</div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>        <span class="keywordflow">if</span> (MOS_STATUS_SUCCESS != eStatus)</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>        {</div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>            MOS_OS_ASSERTMESSAGE(<span class="stringliteral">&quot;Fatal error - unsuccesfull Gmm Sku/Wa/GtSystemInfo initialization&quot;</span>);</div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>            <span class="keywordflow">return</span> eStatus;</div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>        }</div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>        eStatus = MosInterface::GetAdapterBDF(osDriverContext, &amp;gmmAdapterBDF);</div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>        <span class="keywordflow">if</span> (MOS_STATUS_SUCCESS != eStatus)</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>        uint64_t isRecoverableContextEnabled = 0;</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>        <a class="code hl_struct" href="../../d4/d36/structmos__linux__context.html">MOS_LINUX_CONTEXT</a> *intel_context = <a class="code hl_function" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a3841ebcf95a60286225d68b39262de31">mos_context_create_ext</a>(m_bufmgr, 0, <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>        <span class="keywordtype">int</span> ret = <a class="code hl_function" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#aeeb437c773b406b7afe85fbbcc7257c7">mos_get_context_param</a>(intel_context, 0, <a class="code hl_define" href="../../d5/d3a/mos__bufmgr__api_8h.html#ac8f912c35d9444fe1f6977791af577db">DRM_CONTEXT_PARAM_RECOVERABLE</a>, &amp;isRecoverableContextEnabled);</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>        <span class="keywordflow">if</span> (ret == -EINVAL)</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>        {</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>            isRecoverableContextEnabled = 1;</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>        }</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>        <span class="keywordflow">if</span> (intel_context)</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>        {</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>            <a class="code hl_function" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#aa872d6fd06ad299be49a9f6a11f46ce5">mos_context_destroy</a>(intel_context);</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>        }</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>        <span class="comment">// set recoverablecontext disabled if want disable object capture</span></div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="../../d5/d39/linux__media__skuwa_8h.html#a5129708d0b43d82745124b524d8aab22">MEDIA_IS_WA</a>(&amp;m_waTable, WaDisableSetObjectCapture) &amp;&amp; isRecoverableContextEnabled)</div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>        {</div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>            MOS_OS_ASSERTMESSAGE(<span class="stringliteral">&quot;Fatal error - unsuccesfull Gmm Adapter BDF initialization&quot;</span>);</div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>            <span class="keywordflow">return</span> eStatus;</div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>        }</div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>        <span class="comment">// Initialize Gmm context</span></div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>        GMM_INIT_IN_ARGS  gmmInitAgrs = {};</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>        GMM_INIT_OUT_ARGS gmmOutArgs  = {};</div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>        gmmInitAgrs.Platform          = m_platformInfo;</div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>        gmmInitAgrs.pSkuTable         = &amp;gmmSkuTable;</div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>        gmmInitAgrs.pWaTable          = &amp;gmmWaTable;</div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>        gmmInitAgrs.pGtSysInfo        = &amp;gmmGtInfo;</div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>        gmmInitAgrs.FileDescriptor    = gmmAdapterBDF.Data;</div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>        gmmInitAgrs.ClientType        = (GMM_CLIENT)<a class="code hl_define" href="../../d3/da0/mos__os__specific_8h.html#ad6536029dca3847879d020e482660cb3">GMM_LIBVA_LINUX</a>;</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>            <a class="code hl_function" href="../../d5/d3a/mos__bufmgr__api_8h.html#a5ac96bcf6b2e6f5057d75ae80ec35b70">mos_bufmgr_disable_object_capture</a>(m_bufmgr);</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>        }</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="../../d5/d39/linux__media__skuwa_8h.html#af2837af828b6821083c018450404113e">MEDIA_IS_SKU</a>(&amp;m_skuTable, FtrEnableMediaKernels) == 0)</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>        {</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>            <a class="code hl_define" href="../../d5/d39/linux__media__skuwa_8h.html#a97f56c86446a7de260f9ae44962f1c2a">MEDIA_WR_WA</a>(&amp;m_waTable, WaHucStreamoutOnlyDisable, 0);</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>        }</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>        MosUtilities::MosTraceSetupInfo(</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>            (VA_MAJOR_VERSION &lt;&lt; 16) | VA_MINOR_VERSION,</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>            m_platformInfo.eProductFamily,</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>            m_platformInfo.eRenderCoreFamily,</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>            (m_platformInfo.usRevId &lt;&lt; 16) | m_platformInfo.usDeviceID);</div>
 <div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span> </div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>        GMM_STATUS status = InitializeGmm(&amp;gmmInitAgrs, &amp;gmmOutArgs);</div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>        <span class="keywordflow">if</span> (status != GMM_SUCCESS)</div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>        {</div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>            MOS_OS_ASSERTMESSAGE(<span class="stringliteral">&quot;Fatal error - InitializeGmm fail.&quot;</span>);</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>            <span class="keywordflow">return</span> MOS_STATUS_INVALID_PARAMETER;</div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>        }</div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>        m_gmmClientContext = gmmOutArgs.pGmmClientContext;</div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>        m_auxTableMgr = <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#a3f282a1240689d76d05cf56f92d8a24c">AuxTableMgr::CreateAuxTableMgr</a>(m_bufmgr, &amp;m_skuTable, m_gmmClientContext);</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span> </div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span><span class="preprocessor">#if (_DEBUG || _RELEASE_INTERNAL)</span></div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>        ReadUserSettingForDebug(</div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>            userSettingPtr,</div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>            osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a37a19e81886836434577f23a1a24a7ad">bSimIsActive</a>,</div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>            __MEDIA_USER_FEATURE_VALUE_SIM_ENABLE,</div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>            MediaUserSetting::Group::Device);</div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>        <a class="code hl_typedef" href="../../d3/d23/media__skuwa__specific_8h.html#a2628b92090fe116f1e3c085a98634843">GMM_SKU_FEATURE_TABLE</a>   gmmSkuTable   = {};</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>        <a class="code hl_typedef" href="../../d3/d23/media__skuwa__specific_8h.html#af2e04c26b293d9ca8d64e1bd42129b26">GMM_WA_TABLE</a>            gmmWaTable    = {};</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>        <a class="code hl_typedef" href="../../d3/d23/media__skuwa__specific_8h.html#adfd10433a3c3a5996133a8f66deeae2d">GMM_GT_SYSTEM_INFO</a>      gmmGtInfo     = {};</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>        <a class="code hl_typedef" href="../../d3/d23/media__skuwa__specific_8h.html#a44b22bc17be298600222e18aad19063c">GMM_ADAPTER_BDF</a>         gmmAdapterBDF = {};</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>        eStatus = <a class="code hl_function" href="../../d2/d27/hwinfo__linux_8cpp.html#adcb437dae44557d2d7194e6dff6c0274">HWInfo_GetGmmInfo</a>(m_bufmgr, &amp;gmmSkuTable, &amp;gmmWaTable, &amp;gmmGtInfo);</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>        <span class="keywordflow">if</span> (MOS_STATUS_SUCCESS != eStatus)</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>        {</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>            MOS_OS_ASSERTMESSAGE(<span class="stringliteral">&quot;Fatal error - unsuccesfull Gmm Sku/Wa/GtSystemInfo initialization&quot;</span>);</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>            <span class="keywordflow">return</span> eStatus;</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>        }</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span> </div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>        eStatus = MosInterface::GetAdapterBDF(osDriverContext, &amp;gmmAdapterBDF);</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>        <span class="keywordflow">if</span> (MOS_STATUS_SUCCESS != eStatus)</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>        {</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>            MOS_OS_ASSERTMESSAGE(<span class="stringliteral">&quot;Fatal error - unsuccesfull Gmm Adapter BDF initialization&quot;</span>);</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>            <span class="keywordflow">return</span> eStatus;</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>        }</div>
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span> </div>
-<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>        m_useSwSwizzling = osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a37a19e81886836434577f23a1a24a7ad">bSimIsActive</a> || <a class="code hl_define" href="../../d5/d39/linux__media__skuwa_8h.html#af2837af828b6821083c018450404113e">MEDIA_IS_SKU</a>(&amp;m_skuTable, FtrUseSwSwizzling);</div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span> </div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>        m_tileYFlag      = <a class="code hl_define" href="../../d5/d39/linux__media__skuwa_8h.html#af2837af828b6821083c018450404113e">MEDIA_IS_SKU</a>(&amp;m_skuTable, FtrTileY);</div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span> </div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>        m_use64BitRelocs = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>        <span class="keywordflow">if</span> (!NullHW::IsEnabled())</div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>        {</div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>            osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#aa5688c0b92d3db07630e910ef835868f">iDeviceId</a>              = iDeviceId;</div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>            osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a17b0892aef2ff18a49d1b47bb5a85bd7">SkuTable</a>               = m_skuTable;</div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>            osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#ac2b0da9d557f5111bd96bd678bd4db5c">WaTable</a>                = m_waTable;</div>
-<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>            osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a0e9d6fcf503b58545cc826567fb49fee">gtSystemInfo</a>           = m_gtSystemInfo;</div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>            osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a34729ebf6a7a5fb849242541e48c4227">platform</a>               = m_platformInfo;</div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>        }</div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>        osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a5419a73df2515cc8c0a647018438dbfe">pGmmClientContext</a>      = m_gmmClientContext;</div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>        osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#ad8ea82d059f24332a0c0f3aaecf07838">m_auxTableMgr</a>          = m_auxTableMgr;</div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>        osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a64a104c3e8d1ea22b264c01304c60354">bUseSwSwizzling</a>        = m_useSwSwizzling;</div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>        osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a4b53851c04ddd40ab5262210d8106cd1">bTileYFlag</a>             = m_tileYFlag;</div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>        osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a5c0eb69805f66533e6f1f452df01ac1c">bIsAtomSOC</a>             = m_isAtomSOC;</div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>        osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#ae7bfe9dcdc4a906495cea4145edef836">m_osDeviceContext</a>      = <span class="keyword">this</span>;</div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span> </div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>        m_usesPatchList             = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>        m_usesGfxAddress            = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span> </div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>        SetOsContextValid(<span class="keyword">true</span>);</div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>        <span class="comment">// Prepare the command buffer manager</span></div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>        m_cmdBufMgr = CmdBufMgrNext::GetObject();</div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>        MOS_OS_CHK_NULL_RETURN(m_cmdBufMgr);</div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>        MOS_OS_CHK_STATUS_RETURN(m_cmdBufMgr-&gt;Initialize(<span class="keyword">this</span>, <a class="code hl_define" href="../../d3/da0/mos__os__specific_8h.html#acf5b4949b2bcaa055cc03fa33274f6d9">COMMAND_BUFFER_SIZE</a>/2));</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>        <span class="comment">// Initialize Gmm context</span></div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>        GMM_INIT_IN_ARGS  gmmInitAgrs = {};</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>        GMM_INIT_OUT_ARGS gmmOutArgs  = {};</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>        gmmInitAgrs.Platform          = m_platformInfo;</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>        gmmInitAgrs.pSkuTable         = &amp;gmmSkuTable;</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>        gmmInitAgrs.pWaTable          = &amp;gmmWaTable;</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>        gmmInitAgrs.pGtSysInfo        = &amp;gmmGtInfo;</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>        gmmInitAgrs.FileDescriptor    = gmmAdapterBDF.Data;</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>        gmmInitAgrs.ClientType        = (GMM_CLIENT)<a class="code hl_define" href="../../d3/da0/mos__os__specific_8h.html#ad6536029dca3847879d020e482660cb3">GMM_LIBVA_LINUX</a>;</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span> </div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>        GMM_STATUS status = InitializeGmm(&amp;gmmInitAgrs, &amp;gmmOutArgs);</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>        <span class="keywordflow">if</span> (status != GMM_SUCCESS)</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>        {</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>            MOS_OS_ASSERTMESSAGE(<span class="stringliteral">&quot;Fatal error - InitializeGmm fail.&quot;</span>);</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>            <span class="keywordflow">return</span> MOS_STATUS_INVALID_PARAMETER;</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>        }</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>        m_gmmClientContext = gmmOutArgs.pGmmClientContext;</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span> </div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>        m_auxTableMgr = <a class="code hl_function" href="../../dc/d36/class_aux_table_mgr.html#a3f282a1240689d76d05cf56f92d8a24c">AuxTableMgr::CreateAuxTableMgr</a>(m_bufmgr, &amp;m_skuTable, m_gmmClientContext);</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span><span class="preprocessor">#if (_DEBUG || _RELEASE_INTERNAL)</span></div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>        ReadUserSettingForDebug(</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>            userSettingPtr,</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>            osDriverContext-&gt;bSimIsActive,</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>            __MEDIA_USER_FEATURE_VALUE_SIM_ENABLE,</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>            MediaUserSetting::Group::Device);</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span> </div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>        m_useSwSwizzling = osDriverContext-&gt;bSimIsActive || <a class="code hl_define" href="../../d5/d39/linux__media__skuwa_8h.html#af2837af828b6821083c018450404113e">MEDIA_IS_SKU</a>(&amp;m_skuTable, FtrUseSwSwizzling);</div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>        <span class="comment">// Prepare the gpu Context manager</span></div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>        m_gpuContextMgr = GpuContextMgrNext::GetObject(<span class="keyword">this</span>);</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>        MOS_OS_CHK_NULL_RETURN(m_gpuContextMgr);</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>        m_tileYFlag      = <a class="code hl_define" href="../../d5/d39/linux__media__skuwa_8h.html#af2837af828b6821083c018450404113e">MEDIA_IS_SKU</a>(&amp;m_skuTable, FtrTileY);</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>        m_use64BitRelocs = <span class="keyword">true</span>;</div>
 <div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>        m_perfData = (PERF_DATA*)MOS_AllocAndZeroMemory(<span class="keyword">sizeof</span>(PERF_DATA));</div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        MOS_OS_CHK_NULL_RETURN(m_perfData);</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>        osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a384ccdf011fafc42d991a6b739cb8189">pPerfData</a> = m_perfData;</div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span> </div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>        <span class="comment">//It must be done with m_gpuContextMgr ready. Insides it will create gpu context.</span></div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="preprocessor">#ifdef _MMC_SUPPORTED</span></div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>        m_mosDecompression = MOS_New(<a class="code hl_class" href="../../d8/dee/class_mos_decompression.html">MosDecompression</a>, osDriverContext);</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>        MOS_OS_CHK_NULL_RETURN(m_mosDecompression);</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>        osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#ac2218da32a679b375e606b67b572c929">ppMediaMemDecompState</a> = m_mosDecompression-&gt;GetMediaMemDecompState();</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>        MOS_OS_CHK_NULL_RETURN(osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#ac2218da32a679b375e606b67b572c929">ppMediaMemDecompState</a>);</div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>        <span class="keywordflow">if</span> (*osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#ac2218da32a679b375e606b67b572c929">ppMediaMemDecompState</a> == <span class="keyword">nullptr</span>)</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>        {</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>            MOS_OS_NORMALMESSAGE(<span class="stringliteral">&quot;Decomp state creation failed&quot;</span>);</div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>        }</div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>        m_mosMediaCopy = MOS_New(MosMediaCopy, osDriverContext);</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>        <span class="keywordflow">if</span> (<span class="keyword">nullptr</span> == m_mosMediaCopy)</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>        {</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>            MOS_OS_NORMALMESSAGE(<span class="stringliteral">&quot;m_mosMediaCopy creation failed&quot;</span>);</div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>        }</div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>        <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>        {</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>            osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a4a3e161626a6321fb3ad422e632ea12a">ppMediaCopyState</a> = (<span class="keywordtype">void</span> **)m_mosMediaCopy-&gt;GetMediaCopyState();</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>            <span class="keywordflow">if</span> ((<span class="keyword">nullptr</span> == osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a4a3e161626a6321fb3ad422e632ea12a">ppMediaCopyState</a>) || (<span class="keyword">nullptr</span> == *osDriverContext-&gt;<a class="code hl_variable" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a4a3e161626a6321fb3ad422e632ea12a">ppMediaCopyState</a>))</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>            {</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>                MOS_OS_NORMALMESSAGE(<span class="stringliteral">&quot;Media Copy state creation failed&quot;</span>);</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>            }</div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>        }</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    }</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    MOS_OS_CHK_STATUS_RETURN(MosOcaRTLogMgr::InitMgr(m_ocaRTLogMgr, <span class="keyword">this</span>));</div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    <span class="keywordflow">return</span> eStatus;</div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>}</div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span> </div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno"><a class="line" href="../../d2/dc9/class_os_context_specific_next.html#a3ca4add9759c62aa0e7b43bea7c53a6f">  268</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/dc9/class_os_context_specific_next.html#a3ca4add9759c62aa0e7b43bea7c53a6f">OsContextSpecificNext::Destroy</a>()</div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>{</div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    MOS_OS_FUNCTION_ENTER;</div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span> </div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>    <span class="keywordflow">if</span> (GetOsContextValid() == <span class="keyword">true</span>)</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    {</div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>        <span class="keywordflow">if</span> (m_auxTableMgr != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>        {</div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>            MOS_Delete(m_auxTableMgr);</div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>            m_auxTableMgr = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>        }</div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span> </div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>        m_skuTable.reset();</div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>        m_waTable.reset();</div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span> </div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>        <a class="code hl_function" href="../../da/d54/mos__bufmgr_8h.html#a75c62b9fde28fdc7acc8fcb47497f866">mos_bufmgr_destroy</a>(m_bufmgr);</div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span> </div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>        <span class="comment">// Delete Gmm context</span></div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>        GMM_INIT_OUT_ARGS gmmOutArgs = {};</div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>        gmmOutArgs.pGmmClientContext = m_gmmClientContext;</div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>        GmmAdapterDestroy(&amp;gmmOutArgs);</div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>        m_gmmClientContext = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span> </div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>        SetOsContextValid(<span class="keyword">false</span>);</div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span> </div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>        <span class="keywordflow">if</span> (m_perfData != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>        {</div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>           MOS_FreeMemory(m_perfData);</div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>           m_perfData = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>        }</div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span> </div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>        <span class="keywordflow">if</span> (m_mosMediaCopy != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>        {</div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>           MOS_Delete(m_mosMediaCopy);</div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>        }</div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>    }</div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span> </div>
-<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>}</div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span> </div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>        <span class="keywordflow">if</span> (!GetNullHwIsEnabled())</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        {</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>            osDriverContext-&gt;iDeviceId              = iDeviceId;</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>            osDriverContext-&gt;m_skuTable             = m_skuTable;</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>            osDriverContext-&gt;m_waTable              = m_waTable;</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>            osDriverContext-&gt;m_gtSystemInfo         = m_gtSystemInfo;</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>            osDriverContext-&gt;m_platform             = m_platformInfo;</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>        }</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>        osDriverContext-&gt;pGmmClientContext      = m_gmmClientContext;</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>        osDriverContext-&gt;m_auxTableMgr          = m_auxTableMgr;</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>        osDriverContext-&gt;bUseSwSwizzling        = m_useSwSwizzling;</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>        osDriverContext-&gt;bTileYFlag             = m_tileYFlag;</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>        osDriverContext-&gt;bIsAtomSOC             = m_isAtomSOC;</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>        osDriverContext-&gt;m_osDeviceContext      = <span class="keyword">this</span>;</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span> </div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>        m_usesPatchList             = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>        m_usesGfxAddress            = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span> </div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>        SetOsContextValid(<span class="keyword">true</span>);</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>        <span class="comment">// Prepare the command buffer manager</span></div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>        m_cmdBufMgr = CmdBufMgrNext::GetObject();</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>        MOS_OS_CHK_NULL_RETURN(m_cmdBufMgr);</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>        MOS_OS_CHK_STATUS_RETURN(m_cmdBufMgr-&gt;Initialize(<span class="keyword">this</span>, <a class="code hl_define" href="../../d3/da0/mos__os__specific_8h.html#acf5b4949b2bcaa055cc03fa33274f6d9">COMMAND_BUFFER_SIZE</a>/2));</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span> </div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>        <span class="comment">// Prepare the gpu Context manager</span></div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>        m_gpuContextMgr = GpuContextMgrNext::GetObject(<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>        MOS_OS_CHK_NULL_RETURN(m_gpuContextMgr);</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span> </div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>        m_perfData = (PERF_DATA*)MOS_AllocAndZeroMemory(<span class="keyword">sizeof</span>(PERF_DATA));</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>        MOS_OS_CHK_NULL_RETURN(m_perfData);</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>        osDriverContext-&gt;pPerfData = m_perfData;</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span> </div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>        <span class="comment">//It must be done with m_gpuContextMgr ready. Insides it will create gpu context.</span></div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span><span class="preprocessor">#ifdef _MMC_SUPPORTED</span></div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>        m_mosDecompression = MOS_New(<a class="code hl_class" href="../../d8/dee/class_mos_decompression.html">MosDecompression</a>, osDriverContext);</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>        MOS_OS_CHK_NULL_RETURN(m_mosDecompression);</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>        osDriverContext-&gt;ppMediaMemDecompState = m_mosDecompression-&gt;GetMediaMemDecompState();</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>        MOS_OS_CHK_NULL_RETURN(osDriverContext-&gt;ppMediaMemDecompState);</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>        <span class="keywordflow">if</span> (*osDriverContext-&gt;ppMediaMemDecompState == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>        {</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>            MOS_OS_NORMALMESSAGE(<span class="stringliteral">&quot;Decomp state creation failed&quot;</span>);</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        }</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>        m_mosMediaCopy = MOS_New(MosMediaCopy, osDriverContext);</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>        <span class="keywordflow">if</span> (<span class="keyword">nullptr</span> == m_mosMediaCopy)</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>        {</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>            MOS_OS_NORMALMESSAGE(<span class="stringliteral">&quot;m_mosMediaCopy creation failed&quot;</span>);</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>        }</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>        <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>        {</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>            osDriverContext-&gt;ppMediaCopyState = (<span class="keywordtype">void</span> **)m_mosMediaCopy-&gt;GetMediaCopyState();</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>            <span class="keywordflow">if</span> ((<span class="keyword">nullptr</span> == osDriverContext-&gt;ppMediaCopyState) || (<span class="keyword">nullptr</span> == *osDriverContext-&gt;ppMediaCopyState))</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>            {</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>                MOS_OS_NORMALMESSAGE(<span class="stringliteral">&quot;Media Copy state creation failed&quot;</span>);</div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>            }</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>        }</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>    }</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    MosOcaRTLogMgr::RegisterContext(<span class="keyword">this</span>, osDriverContext);</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    <span class="keywordflow">return</span> eStatus;</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>}</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span> </div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno"><a class="line" href="../../d2/dc9/class_os_context_specific_next.html#a3ca4add9759c62aa0e7b43bea7c53a6f">  296</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/dc9/class_os_context_specific_next.html#a3ca4add9759c62aa0e7b43bea7c53a6f">OsContextSpecificNext::Destroy</a>()</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>{</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>    MOS_OS_FUNCTION_ENTER;</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span> </div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>    <span class="keywordflow">if</span> (GetOsContextValid() == <span class="keyword">true</span>)</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>    {</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>        <span class="keywordflow">if</span> (m_auxTableMgr != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>        {</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>            MOS_Delete(m_auxTableMgr);</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>            m_auxTableMgr = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>        }</div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span> </div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>        m_skuTable.reset();</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>        m_waTable.reset();</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span> </div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>        <a class="code hl_function" href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a75c62b9fde28fdc7acc8fcb47497f866">mos_bufmgr_destroy</a>(m_bufmgr);</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span> </div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>        <span class="comment">// Delete Gmm context</span></div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>        GMM_INIT_OUT_ARGS gmmOutArgs = {};</div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>        gmmOutArgs.pGmmClientContext = m_gmmClientContext;</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>        GmmAdapterDestroy(&amp;gmmOutArgs);</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>        m_gmmClientContext = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span> </div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>        SetOsContextValid(<span class="keyword">false</span>);</div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span> </div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>        <span class="keywordflow">if</span> (m_perfData != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>        {</div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>           MOS_FreeMemory(m_perfData);</div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>           m_perfData = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>        }</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span> </div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>        <span class="keywordflow">if</span> (m_mosMediaCopy != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>        {</div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>           MOS_Delete(m_mosMediaCopy);</div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>        }</div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>    }</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span> </div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>}</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span> </div>
 <div class="ttc" id="aclass_aux_table_mgr_html_a3f282a1240689d76d05cf56f92d8a24c"><div class="ttname"><a href="../../dc/d36/class_aux_table_mgr.html#a3f282a1240689d76d05cf56f92d8a24c">AuxTableMgr::CreateAuxTableMgr</a></div><div class="ttdeci">static AuxTableMgr * CreateAuxTableMgr(MOS_BUFMGR *bufMgr, MEDIA_FEATURE_TABLE *sku, GMM_CLIENT_CONTEXT *gmmClientContext)</div><div class="ttdoc">Create AuxTableMgr object.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d4e/mos__auxtable__mgr_8cpp_source.html#l00161">mos_auxtable_mgr.cpp:161</a></div></div>
 <div class="ttc" id="aclass_mos_decompression_html"><div class="ttname"><a href="../../d8/dee/class_mos_decompression.html">MosDecompression</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d47/mos__decompression_8h_source.html#l00032">mos_decompression.h:33</a></div></div>
-<div class="ttc" id="aclass_os_context_specific_next_html_a3ca4add9759c62aa0e7b43bea7c53a6f"><div class="ttname"><a href="../../d2/dc9/class_os_context_specific_next.html#a3ca4add9759c62aa0e7b43bea7c53a6f">OsContextSpecificNext::Destroy</a></div><div class="ttdeci">void Destroy()</div><div class="ttdoc">Destroy the os specific MOS context.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/ded/mos__context__specific__next_8cpp_source.html#l00268">mos_context_specific_next.cpp:268</a></div></div>
-<div class="ttc" id="aclass_os_context_specific_next_html_a6f14f9d95d6d84e5ff69dcf01210a0a1"><div class="ttname"><a href="../../d2/dc9/class_os_context_specific_next.html#a6f14f9d95d6d84e5ff69dcf01210a0a1">OsContextSpecificNext::Init</a></div><div class="ttdeci">MOS_STATUS Init(DDI_DEVICE_CONTEXT osDriverContext)</div><div class="ttdoc">Initialize the MOS Context.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/ded/mos__context__specific__next_8cpp_source.html#l00063">mos_context_specific_next.cpp:63</a></div></div>
-<div class="ttc" id="aclass_os_context_specific_next_html_a99c9c4bbe06fb16f75375e004cce9061"><div class="ttname"><a href="../../d2/dc9/class_os_context_specific_next.html#a99c9c4bbe06fb16f75375e004cce9061">OsContextSpecificNext::OsContextSpecificNext</a></div><div class="ttdeci">OsContextSpecificNext()</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/ded/mos__context__specific__next_8cpp_source.html#l00053">mos_context_specific_next.cpp:53</a></div></div>
-<div class="ttc" id="aclass_os_context_specific_next_html_af1ea045d37b93ad3bf847c47967b64ff"><div class="ttname"><a href="../../d2/dc9/class_os_context_specific_next.html#af1ea045d37b93ad3bf847c47967b64ff">OsContextSpecificNext::~OsContextSpecificNext</a></div><div class="ttdeci">~OsContextSpecificNext()</div><div class="ttdoc">Destructor.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/ded/mos__context__specific__next_8cpp_source.html#l00058">mos_context_specific_next.cpp:58</a></div></div>
-<div class="ttc" id="ahwinfo__linux_8c_html_a315ff23fa28ab4f88e290d4486469d4d"><div class="ttname"><a href="../../d0/de5/hwinfo__linux_8c.html#a315ff23fa28ab4f88e290d4486469d4d">HWInfo_GetGfxInfo</a></div><div class="ttdeci">MOS_STATUS HWInfo_GetGfxInfo(int32_t fd, MOS_BUFMGR *pDrmBufMgr, PLATFORM *gfxPlatform, MEDIA_FEATURE_TABLE *skuTable, MEDIA_WA_TABLE *waTable, MEDIA_SYSTEM_INFO *gtSystemInfo, MediaUserSettingSharedPtr userSettingPtr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/de5/hwinfo__linux_8c_source.html#l00156">hwinfo_linux.c:156</a></div></div>
-<div class="ttc" id="ahwinfo__linux_8c_html_ad581268e16b72676f72b9648157b446d"><div class="ttname"><a href="../../d0/de5/hwinfo__linux_8c.html#ad581268e16b72676f72b9648157b446d">HWInfo_GetGmmInfo</a></div><div class="ttdeci">MOS_STATUS HWInfo_GetGmmInfo(int32_t fd, SHADOW_MEDIA_FEATURE_TABLE *shadowSkuTable, SHADOW_MEDIA_WA_TABLE *shadowWaTable, MEDIA_SYSTEM_INFO *systemInfo)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/de5/hwinfo__linux_8c_source.html#l00487">hwinfo_linux.c:487</a></div></div>
+<div class="ttc" id="aclass_os_context_specific_next_html_a3ca4add9759c62aa0e7b43bea7c53a6f"><div class="ttname"><a href="../../d2/dc9/class_os_context_specific_next.html#a3ca4add9759c62aa0e7b43bea7c53a6f">OsContextSpecificNext::Destroy</a></div><div class="ttdeci">void Destroy()</div><div class="ttdoc">Destroy the os specific MOS context.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/ded/mos__context__specific__next_8cpp_source.html#l00296">mos_context_specific_next.cpp:296</a></div></div>
+<div class="ttc" id="aclass_os_context_specific_next_html_a6f14f9d95d6d84e5ff69dcf01210a0a1"><div class="ttname"><a href="../../d2/dc9/class_os_context_specific_next.html#a6f14f9d95d6d84e5ff69dcf01210a0a1">OsContextSpecificNext::Init</a></div><div class="ttdeci">MOS_STATUS Init(DDI_DEVICE_CONTEXT osDriverContext)</div><div class="ttdoc">Initialize the MOS Context.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/ded/mos__context__specific__next_8cpp_source.html#l00062">mos_context_specific_next.cpp:62</a></div></div>
+<div class="ttc" id="aclass_os_context_specific_next_html_a99c9c4bbe06fb16f75375e004cce9061"><div class="ttname"><a href="../../d2/dc9/class_os_context_specific_next.html#a99c9c4bbe06fb16f75375e004cce9061">OsContextSpecificNext::OsContextSpecificNext</a></div><div class="ttdeci">OsContextSpecificNext()</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/ded/mos__context__specific__next_8cpp_source.html#l00052">mos_context_specific_next.cpp:52</a></div></div>
+<div class="ttc" id="aclass_os_context_specific_next_html_af1ea045d37b93ad3bf847c47967b64ff"><div class="ttname"><a href="../../d2/dc9/class_os_context_specific_next.html#af1ea045d37b93ad3bf847c47967b64ff">OsContextSpecificNext::~OsContextSpecificNext</a></div><div class="ttdeci">~OsContextSpecificNext()</div><div class="ttdoc">Destructor.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/ded/mos__context__specific__next_8cpp_source.html#l00057">mos_context_specific_next.cpp:57</a></div></div>
+<div class="ttc" id="ahwinfo__linux_8cpp_html_a315ff23fa28ab4f88e290d4486469d4d"><div class="ttname"><a href="../../d2/d27/hwinfo__linux_8cpp.html#a315ff23fa28ab4f88e290d4486469d4d">HWInfo_GetGfxInfo</a></div><div class="ttdeci">MOS_STATUS HWInfo_GetGfxInfo(int32_t fd, MOS_BUFMGR *pDrmBufMgr, PLATFORM *gfxPlatform, MEDIA_FEATURE_TABLE *skuTable, MEDIA_WA_TABLE *waTable, MEDIA_SYSTEM_INFO *gtSystemInfo, MediaUserSettingSharedPtr userSettingPtr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d27/hwinfo__linux_8cpp_source.html#l00100">hwinfo_linux.cpp:100</a></div></div>
+<div class="ttc" id="ahwinfo__linux_8cpp_html_adcb437dae44557d2d7194e6dff6c0274"><div class="ttname"><a href="../../d2/d27/hwinfo__linux_8cpp.html#adcb437dae44557d2d7194e6dff6c0274">HWInfo_GetGmmInfo</a></div><div class="ttdeci">MOS_STATUS HWInfo_GetGmmInfo(MOS_BUFMGR *pDrmBufMgr, SHADOW_MEDIA_FEATURE_TABLE *shadowSkuTable, SHADOW_MEDIA_WA_TABLE *shadowWaTable, MEDIA_SYSTEM_INFO *systemInfo)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d27/hwinfo__linux_8cpp_source.html#l00280">hwinfo_linux.cpp:280</a></div></div>
 <div class="ttc" id="ahwinfo__linux_8h_html"><div class="ttname"><a href="../../d8/df1/hwinfo__linux_8h.html">hwinfo_linux.h</a></div></div>
-<div class="ttc" id="ahwinfo__linux_8h_html_a3db190e1ea083a85a35a88627c1635e1"><div class="ttname"><a href="../../d8/df1/hwinfo__linux_8h.html#a3db190e1ea083a85a35a88627c1635e1">IS_ATOMSOC</a></div><div class="ttdeci">#define IS_ATOMSOC(device_id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/df1/hwinfo__linux_8h_source.html#l00046">hwinfo_linux.h:46</a></div></div>
-<div class="ttc" id="alinux__media__skuwa_8h_html_a97f56c86446a7de260f9ae44962f1c2a"><div class="ttname"><a href="../../d5/d39/linux__media__skuwa_8h.html#a97f56c86446a7de260f9ae44962f1c2a">MEDIA_WR_WA</a></div><div class="ttdeci">#define MEDIA_WR_WA(s, w, v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00305">linux_media_skuwa.h:305</a></div></div>
-<div class="ttc" id="alinux__media__skuwa_8h_html_af2837af828b6821083c018450404113e"><div class="ttname"><a href="../../d5/d39/linux__media__skuwa_8h.html#af2837af828b6821083c018450404113e">MEDIA_IS_SKU</a></div><div class="ttdeci">#define MEDIA_IS_SKU(s, f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00302">linux_media_skuwa.h:302</a></div></div>
+<div class="ttc" id="ahwinfo__linux_8h_html_a3db190e1ea083a85a35a88627c1635e1"><div class="ttname"><a href="../../d8/df1/hwinfo__linux_8h.html#a3db190e1ea083a85a35a88627c1635e1">IS_ATOMSOC</a></div><div class="ttdeci">#define IS_ATOMSOC(device_id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/df1/hwinfo__linux_8h_source.html#l00047">hwinfo_linux.h:47</a></div></div>
+<div class="ttc" id="alinux__media__skuwa_8h_html_a5129708d0b43d82745124b524d8aab22"><div class="ttname"><a href="../../d5/d39/linux__media__skuwa_8h.html#a5129708d0b43d82745124b524d8aab22">MEDIA_IS_WA</a></div><div class="ttdeci">#define MEDIA_IS_WA(s, w)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00308">linux_media_skuwa.h:308</a></div></div>
+<div class="ttc" id="alinux__media__skuwa_8h_html_a97f56c86446a7de260f9ae44962f1c2a"><div class="ttname"><a href="../../d5/d39/linux__media__skuwa_8h.html#a97f56c86446a7de260f9ae44962f1c2a">MEDIA_WR_WA</a></div><div class="ttdeci">#define MEDIA_WR_WA(s, w, v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00309">linux_media_skuwa.h:309</a></div></div>
+<div class="ttc" id="alinux__media__skuwa_8h_html_af2837af828b6821083c018450404113e"><div class="ttname"><a href="../../d5/d39/linux__media__skuwa_8h.html#af2837af828b6821083c018450404113e">MEDIA_IS_SKU</a></div><div class="ttdeci">#define MEDIA_IS_SKU(s, f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00306">linux_media_skuwa.h:306</a></div></div>
 <div class="ttc" id="alinux__system__info_8h_html_ad9e5fa174092bd0562179a00ce635e13"><div class="ttname"><a href="../../d3/d6c/linux__system__info_8h.html#ad9e5fa174092bd0562179a00ce635e13">MediaUserSettingSharedPtr</a></div><div class="ttdeci">std::shared_ptr&lt; MediaUserSetting::MediaUserSetting &gt; MediaUserSettingSharedPtr</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00035">linux_system_info.h:35</a></div></div>
 <div class="ttc" id="amedia__skuwa__specific_8h_html_a2628b92090fe116f1e3c085a98634843"><div class="ttname"><a href="../../d3/d23/media__skuwa__specific_8h.html#a2628b92090fe116f1e3c085a98634843">GMM_SKU_FEATURE_TABLE</a></div><div class="ttdeci">SHADOW_MEDIA_FEATURE_TABLE GMM_SKU_FEATURE_TABLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d23/media__skuwa__specific_8h_source.html#l00040">media_skuwa_specific.h:40</a></div></div>
 <div class="ttc" id="amedia__skuwa__specific_8h_html_a44b22bc17be298600222e18aad19063c"><div class="ttname"><a href="../../d3/d23/media__skuwa__specific_8h.html#a44b22bc17be298600222e18aad19063c">GMM_ADAPTER_BDF</a></div><div class="ttdeci">MEDIA_ADAPTER_BDF GMM_ADAPTER_BDF</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d23/media__skuwa__specific_8h_source.html#l00043">media_skuwa_specific.h:43</a></div></div>
 <div class="ttc" id="amedia__skuwa__specific_8h_html_adfd10433a3c3a5996133a8f66deeae2d"><div class="ttname"><a href="../../d3/d23/media__skuwa__specific_8h.html#adfd10433a3c3a5996133a8f66deeae2d">GMM_GT_SYSTEM_INFO</a></div><div class="ttdeci">MEDIA_GT_SYSTEM_INFO GMM_GT_SYSTEM_INFO</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d23/media__skuwa__specific_8h_source.html#l00042">media_skuwa_specific.h:42</a></div></div>
 <div class="ttc" id="amedia__skuwa__specific_8h_html_af2e04c26b293d9ca8d64e1bd42129b26"><div class="ttname"><a href="../../d3/d23/media__skuwa__specific_8h.html#af2e04c26b293d9ca8d64e1bd42129b26">GMM_WA_TABLE</a></div><div class="ttdeci">SHADOW_MEDIA_WA_TABLE GMM_WA_TABLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d23/media__skuwa__specific_8h_source.html#l00041">media_skuwa_specific.h:41</a></div></div>
-<div class="ttc" id="amos__bufmgr_8h_html_a25a9cc740e644384af15186bdf7fcc60"><div class="ttname"><a href="../../da/d54/mos__bufmgr_8h.html#a25a9cc740e644384af15186bdf7fcc60">mos_bufmgr_gem_init</a></div><div class="ttdeci">struct mos_bufmgr * mos_bufmgr_gem_init(int fd, int batch_size)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9d/i915_2mos__bufmgr_8c_source.html#l04601">mos_bufmgr.c:4601</a></div></div>
-<div class="ttc" id="amos__bufmgr_8h_html_a520b7a5659d8df915cb4627a1b250c22"><div class="ttname"><a href="../../da/d54/mos__bufmgr_8h.html#a520b7a5659d8df915cb4627a1b250c22">mos_bufmgr_gem_get_devid</a></div><div class="ttdeci">int mos_bufmgr_gem_get_devid(struct mos_bufmgr *bufmgr)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9d/i915_2mos__bufmgr_8c_source.html#l04136">mos_bufmgr.c:4136</a></div></div>
-<div class="ttc" id="amos__bufmgr_8h_html_a75c62b9fde28fdc7acc8fcb47497f866"><div class="ttname"><a href="../../da/d54/mos__bufmgr_8h.html#a75c62b9fde28fdc7acc8fcb47497f866">mos_bufmgr_destroy</a></div><div class="ttdeci">void mos_bufmgr_destroy(struct mos_bufmgr *bufmgr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d60/mos__bufmgr__api_8c_source.html#l00142">mos_bufmgr_api.c:142</a></div></div>
-<div class="ttc" id="amos__bufmgr_8h_html_ad6b43bf11356e5cdec681c4b7570648e"><div class="ttname"><a href="../../da/d54/mos__bufmgr_8h.html#ad6b43bf11356e5cdec681c4b7570648e">mos_bufmgr_gem_enable_reuse</a></div><div class="ttdeci">void mos_bufmgr_gem_enable_reuse(struct mos_bufmgr *bufmgr)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9d/i915_2mos__bufmgr_8c_source.html#l03811">mos_bufmgr.c:3811</a></div></div>
-<div class="ttc" id="amos__bufmgr_8h_html_af32f1c27f541dc41bba9c45a8cac7280"><div class="ttname"><a href="../../da/d54/mos__bufmgr_8h.html#af32f1c27f541dc41bba9c45a8cac7280">mos_bufmgr_gem_enable_softpin</a></div><div class="ttdeci">void mos_bufmgr_gem_enable_softpin(struct mos_bufmgr *bufmgr, bool va1m_align)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9d/i915_2mos__bufmgr_8c_source.html#l04587">mos_bufmgr.c:4587</a></div></div>
-<div class="ttc" id="amos__context__specific__next_8cpp_html_a8b4a0f269e7c62dcebdb7d39d1302df2"><div class="ttname"><a href="../../d8/ded/mos__context__specific__next_8cpp.html#a8b4a0f269e7c62dcebdb7d39d1302df2">BATCH_BUFFER_SIZE</a></div><div class="ttdeci">#define BATCH_BUFFER_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/ded/mos__context__specific__next_8cpp_source.html#l00051">mos_context_specific_next.cpp:51</a></div></div>
+<div class="ttc" id="amos__bufmgr__api_8h_html_a2f34fd41509c71a9f1748f8232e66fe2"><div class="ttname"><a href="../../d5/d3a/mos__bufmgr__api_8h.html#a2f34fd41509c71a9f1748f8232e66fe2">mos_bufmgr_enable_reuse</a></div><div class="ttdeci">void mos_bufmgr_enable_reuse(struct mos_bufmgr *bufmgr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d60/mos__bufmgr__api_8c_source.html#l01122">mos_bufmgr_api.c:1122</a></div></div>
+<div class="ttc" id="amos__bufmgr__api_8h_html_a5ac96bcf6b2e6f5057d75ae80ec35b70"><div class="ttname"><a href="../../d5/d3a/mos__bufmgr__api_8h.html#a5ac96bcf6b2e6f5057d75ae80ec35b70">mos_bufmgr_disable_object_capture</a></div><div class="ttdeci">void mos_bufmgr_disable_object_capture(struct mos_bufmgr *bufmgr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d60/mos__bufmgr__api_8c_source.html#l01178">mos_bufmgr_api.c:1178</a></div></div>
+<div class="ttc" id="amos__bufmgr__api_8h_html_a6c9bf46ebe36ffb7971d270eb2842858"><div class="ttname"><a href="../../d5/d3a/mos__bufmgr__api_8h.html#a6c9bf46ebe36ffb7971d270eb2842858">mos_bufmgr_enable_softpin</a></div><div class="ttdeci">void mos_bufmgr_enable_softpin(struct mos_bufmgr *bufmgr, bool va1m_align)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d60/mos__bufmgr__api_8c_source.html#l01141">mos_bufmgr_api.c:1141</a></div></div>
+<div class="ttc" id="amos__bufmgr__api_8h_html_a987ef9691e375594341de1da5432c5d0"><div class="ttname"><a href="../../d5/d3a/mos__bufmgr__api_8h.html#a987ef9691e375594341de1da5432c5d0">mos_bufmgr_enable_vmbind</a></div><div class="ttdeci">void mos_bufmgr_enable_vmbind(struct mos_bufmgr *bufmgr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d60/mos__bufmgr__api_8c_source.html#l01160">mos_bufmgr_api.c:1160</a></div></div>
+<div class="ttc" id="amos__bufmgr__api_8h_html_ac8f912c35d9444fe1f6977791af577db"><div class="ttname"><a href="../../d5/d3a/mos__bufmgr__api_8h.html#ac8f912c35d9444fe1f6977791af577db">DRM_CONTEXT_PARAM_RECOVERABLE</a></div><div class="ttdeci">#define DRM_CONTEXT_PARAM_RECOVERABLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3a/mos__bufmgr__api_8h_source.html#l00057">mos_bufmgr_api.h:57</a></div></div>
+<div class="ttc" id="amos__bufmgr__api_8h_html_ada620cad387f9109a0a91f72e15cbf2d"><div class="ttname"><a href="../../d5/d3a/mos__bufmgr__api_8h.html#ada620cad387f9109a0a91f72e15cbf2d">mos_bufmgr_get_devid</a></div><div class="ttdeci">int mos_bufmgr_get_devid(struct mos_bufmgr *bufmgr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d60/mos__bufmgr__api_8c_source.html#l01217">mos_bufmgr_api.c:1217</a></div></div>
+<div class="ttc" id="amos__bufmgr__api__mock_8c_html_a3841ebcf95a60286225d68b39262de31"><div class="ttname"><a href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a3841ebcf95a60286225d68b39262de31">mos_context_create_ext</a></div><div class="ttdeci">struct mos_linux_context * mos_context_create_ext(struct mos_bufmgr *bufmgr, __u32 flags, bool bContextProtected)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d73/mos__bufmgr__api__mock_8c_source.html#l00314">mos_bufmgr_api_mock.c:314</a></div></div>
+<div class="ttc" id="amos__bufmgr__api__mock_8c_html_a75c62b9fde28fdc7acc8fcb47497f866"><div class="ttname"><a href="../../d7/d73/mos__bufmgr__api__mock_8c.html#a75c62b9fde28fdc7acc8fcb47497f866">mos_bufmgr_destroy</a></div><div class="ttdeci">void mos_bufmgr_destroy(struct mos_bufmgr *bufmgr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d73/mos__bufmgr__api__mock_8c_source.html#l00120">mos_bufmgr_api_mock.c:120</a></div></div>
+<div class="ttc" id="amos__bufmgr__api__mock_8c_html_aa872d6fd06ad299be49a9f6a11f46ce5"><div class="ttname"><a href="../../d7/d73/mos__bufmgr__api__mock_8c.html#aa872d6fd06ad299be49a9f6a11f46ce5">mos_context_destroy</a></div><div class="ttdeci">void mos_context_destroy(struct mos_linux_context *ctx)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d73/mos__bufmgr__api__mock_8c_source.html#l00339">mos_bufmgr_api_mock.c:339</a></div></div>
+<div class="ttc" id="amos__bufmgr__api__mock_8c_html_aeeb437c773b406b7afe85fbbcc7257c7"><div class="ttname"><a href="../../d7/d73/mos__bufmgr__api__mock_8c.html#aeeb437c773b406b7afe85fbbcc7257c7">mos_get_context_param</a></div><div class="ttdeci">int mos_get_context_param(struct mos_linux_context *ctx, uint32_t size, uint64_t param, uint64_t *value)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d73/mos__bufmgr__api__mock_8c_source.html#l00432">mos_bufmgr_api_mock.c:432</a></div></div>
+<div class="ttc" id="amos__bufmgr__mock_8c_html_a4b6358a05950f5cb9b6bcf5f83a84639"><div class="ttname"><a href="../../de/ddd/mos__bufmgr__mock_8c.html#a4b6358a05950f5cb9b6bcf5f83a84639">mos_bufmgr_gem_init</a></div><div class="ttdeci">struct mos_bufmgr * mos_bufmgr_gem_init(int fd, int batch_size, int *device_type)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/ddd/mos__bufmgr__mock_8c_source.html#l03855">mos_bufmgr_mock.c:3855</a></div></div>
+<div class="ttc" id="amos__context__specific__next_8cpp_html_a8b4a0f269e7c62dcebdb7d39d1302df2"><div class="ttname"><a href="../../d8/ded/mos__context__specific__next_8cpp.html#a8b4a0f269e7c62dcebdb7d39d1302df2">BATCH_BUFFER_SIZE</a></div><div class="ttdeci">#define BATCH_BUFFER_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/ded/mos__context__specific__next_8cpp_source.html#l00050">mos_context_specific_next.cpp:50</a></div></div>
 <div class="ttc" id="amos__context__specific__next_8h_html"><div class="ttname"><a href="../../d9/df3/mos__context__specific__next_8h.html">mos_context_specific_next.h</a></div><div class="ttdoc">Container for Linux specific parameters shared across different GPU contexts of the same device insta...</div></div>
-<div class="ttc" id="amos__os__specific_8h_html_a32af10c5623b7683882802233fe8a39e"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a></div><div class="ttdeci">struct _MOS_OS_CONTEXT * PMOS_CONTEXT</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00523">mos_os_specific.h:523</a></div></div>
-<div class="ttc" id="amos__os__specific_8h_html_acf5b4949b2bcaa055cc03fa33274f6d9"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#acf5b4949b2bcaa055cc03fa33274f6d9">COMMAND_BUFFER_SIZE</a></div><div class="ttdeci">#define COMMAND_BUFFER_SIZE</div><div class="ttdoc">Definitions specific to Linux.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00102">mos_os_specific.h:102</a></div></div>
-<div class="ttc" id="amos__os__specific_8h_html_ad6536029dca3847879d020e482660cb3"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#ad6536029dca3847879d020e482660cb3">GMM_LIBVA_LINUX</a></div><div class="ttdeci">#define GMM_LIBVA_LINUX</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00060">mos_os_specific.h:60</a></div></div>
+<div class="ttc" id="amos__os__specific_8h_html_a32af10c5623b7683882802233fe8a39e"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#a32af10c5623b7683882802233fe8a39e">PMOS_CONTEXT</a></div><div class="ttdeci">struct _MOS_OS_CONTEXT * PMOS_CONTEXT</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00641">mos_os_specific.h:641</a></div></div>
+<div class="ttc" id="amos__os__specific_8h_html_acf5b4949b2bcaa055cc03fa33274f6d9"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#acf5b4949b2bcaa055cc03fa33274f6d9">COMMAND_BUFFER_SIZE</a></div><div class="ttdeci">#define COMMAND_BUFFER_SIZE</div><div class="ttdoc">Definitions specific to Linux.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00215">mos_os_specific.h:215</a></div></div>
+<div class="ttc" id="amos__os__specific_8h_html_ad6536029dca3847879d020e482660cb3"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#ad6536029dca3847879d020e482660cb3">GMM_LIBVA_LINUX</a></div><div class="ttdeci">#define GMM_LIBVA_LINUX</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00173">mos_os_specific.h:173</a></div></div>
 <div class="ttc" id="amos__util__user__feature__keys__specific_8h_html_a0f237225b14ec6418ccbd83758b4f88b"><div class="ttname"><a href="../../db/d7b/mos__util__user__feature__keys__specific_8h.html#a0f237225b14ec6418ccbd83758b4f88b">__MEDIA_USER_FEATURE_VALUE_ENABLE_SOFTPIN</a></div><div class="ttdeci">#define __MEDIA_USER_FEATURE_VALUE_ENABLE_SOFTPIN</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7b/mos__util__user__feature__keys__specific_8h_source.html#l00040">mos_util_user_feature_keys_specific.h:40</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html">_MOS_OS_CONTEXT</a></div><div class="ttdoc">Structure to OS context.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00527">mos_os_specific.h:528</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_a0e9d6fcf503b58545cc826567fb49fee"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a0e9d6fcf503b58545cc826567fb49fee">_MOS_OS_CONTEXT::gtSystemInfo</a></div><div class="ttdeci">MEDIA_SYSTEM_INFO gtSystemInfo</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00546">mos_os_specific.h:546</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_a17b0892aef2ff18a49d1b47bb5a85bd7"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a17b0892aef2ff18a49d1b47bb5a85bd7">_MOS_OS_CONTEXT::SkuTable</a></div><div class="ttdeci">MEDIA_FEATURE_TABLE SkuTable</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00544">mos_os_specific.h:544</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_a34729ebf6a7a5fb849242541e48c4227"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a34729ebf6a7a5fb849242541e48c4227">_MOS_OS_CONTEXT::platform</a></div><div class="ttdeci">PLATFORM platform</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00543">mos_os_specific.h:543</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_a37a19e81886836434577f23a1a24a7ad"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a37a19e81886836434577f23a1a24a7ad">_MOS_OS_CONTEXT::bSimIsActive</a></div><div class="ttdeci">bool bSimIsActive</div><div class="ttdoc">To indicate if simulation environment.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00597">mos_os_specific.h:597</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_a384ccdf011fafc42d991a6b739cb8189"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a384ccdf011fafc42d991a6b739cb8189">_MOS_OS_CONTEXT::pPerfData</a></div><div class="ttdeci">PERF_DATA * pPerfData</div><div class="ttdoc">Add Perf Data for KMD to capture perf tag.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00557">mos_os_specific.h:557</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_a4a3e161626a6321fb3ad422e632ea12a"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a4a3e161626a6321fb3ad422e632ea12a">_MOS_OS_CONTEXT::ppMediaCopyState</a></div><div class="ttdeci">void ** ppMediaCopyState</div><div class="ttdoc">Media memory copy data structure.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00571">mos_os_specific.h:571</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_a4b53851c04ddd40ab5262210d8106cd1"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a4b53851c04ddd40ab5262210d8106cd1">_MOS_OS_CONTEXT::bTileYFlag</a></div><div class="ttdeci">bool bTileYFlag</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00568">mos_os_specific.h:568</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_a5419a73df2515cc8c0a647018438dbfe"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a5419a73df2515cc8c0a647018438dbfe">_MOS_OS_CONTEXT::pGmmClientContext</a></div><div class="ttdeci">GMM_CLIENT_CONTEXT * pGmmClientContext</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00589">mos_os_specific.h:589</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_a5c0eb69805f66533e6f1f452df01ac1c"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a5c0eb69805f66533e6f1f452df01ac1c">_MOS_OS_CONTEXT::bIsAtomSOC</a></div><div class="ttdeci">int32_t bIsAtomSOC</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00563">mos_os_specific.h:563</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_a5fbe7237e6dbdf7d11ffecad133268ef"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a5fbe7237e6dbdf7d11ffecad133268ef">_MOS_OS_CONTEXT::bufmgr</a></div><div class="ttdeci">MOS_BUFMGR * bufmgr</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00549">mos_os_specific.h:549</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_a64a104c3e8d1ea22b264c01304c60354"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a64a104c3e8d1ea22b264c01304c60354">_MOS_OS_CONTEXT::bUseSwSwizzling</a></div><div class="ttdeci">bool bUseSwSwizzling</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00567">mos_os_specific.h:567</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_a85038fc0f7d281af1aeee830d1d2c8bc"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a85038fc0f7d281af1aeee830d1d2c8bc">_MOS_OS_CONTEXT::fd</a></div><div class="ttdeci">int fd</div><div class="ttdoc">handle for /dev/dri/card0</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00564">mos_os_specific.h:564</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_aa5688c0b92d3db07630e910ef835868f"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#aa5688c0b92d3db07630e910ef835868f">_MOS_OS_CONTEXT::iDeviceId</a></div><div class="ttdeci">int iDeviceId</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00561">mos_os_specific.h:561</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_ac2218da32a679b375e606b67b572c929"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#ac2218da32a679b375e606b67b572c929">_MOS_OS_CONTEXT::ppMediaMemDecompState</a></div><div class="ttdeci">void ** ppMediaMemDecompState</div><div class="ttdoc">Media memory decompression data structure.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00570">mos_os_specific.h:570</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_ac2b0da9d557f5111bd96bd678bd4db5c"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#ac2b0da9d557f5111bd96bd678bd4db5c">_MOS_OS_CONTEXT::WaTable</a></div><div class="ttdeci">MEDIA_WA_TABLE WaTable</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00545">mos_os_specific.h:545</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_ad8ea82d059f24332a0c0f3aaecf07838"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#ad8ea82d059f24332a0c0f3aaecf07838">_MOS_OS_CONTEXT::m_auxTableMgr</a></div><div class="ttdeci">AuxTableMgr * m_auxTableMgr</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00590">mos_os_specific.h:590</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_ae7bfe9dcdc4a906495cea4145edef836"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#ae7bfe9dcdc4a906495cea4145edef836">_MOS_OS_CONTEXT::m_osDeviceContext</a></div><div class="ttdeci">MOS_DEVICE_HANDLE m_osDeviceContext</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00576">mos_os_specific.h:576</a></div></div>
+<div class="ttc" id="amos__util__user__feature__keys__specific_8h_html_a3ec1fce884ee979bb68cbd5f5c958a73"><div class="ttname"><a href="../../db/d7b/mos__util__user__feature__keys__specific_8h.html#a3ec1fce884ee979bb68cbd5f5c958a73">__MEDIA_USER_FEATURE_VALUE_ENABLE_VM_BIND</a></div><div class="ttdeci">#define __MEDIA_USER_FEATURE_VALUE_ENABLE_VM_BIND</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7b/mos__util__user__feature__keys__specific_8h_source.html#l00042">mos_util_user_feature_keys_specific.h:42</a></div></div>
+<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html">_MOS_OS_CONTEXT</a></div><div class="ttdoc">Structure to OS context.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00645">mos_os_specific.h:646</a></div></div>
+<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_a5fbe7237e6dbdf7d11ffecad133268ef"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a5fbe7237e6dbdf7d11ffecad133268ef">_MOS_OS_CONTEXT::bufmgr</a></div><div class="ttdeci">MOS_BUFMGR * bufmgr</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00667">mos_os_specific.h:667</a></div></div>
+<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html_a85038fc0f7d281af1aeee830d1d2c8bc"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html#a85038fc0f7d281af1aeee830d1d2c8bc">_MOS_OS_CONTEXT::fd</a></div><div class="ttdeci">int fd</div><div class="ttdoc">handle for /dev/dri/card0</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00682">mos_os_specific.h:682</a></div></div>
+<div class="ttc" id="astructmos__linux__context_html"><div class="ttname"><a href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3a/mos__bufmgr__api_8h_source.html#l00143">mos_bufmgr_api.h:143</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

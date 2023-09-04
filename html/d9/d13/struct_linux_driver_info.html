@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -95,10 +95,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a6fdb228e292645214f14b04df3a75e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0d170d3442ddf53aa241a885df97260"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d13/struct_linux_driver_info.html#ae0d170d3442ddf53aa241a885df97260">hasHuc</a>: 1</td></tr>
 <tr class="separator:ae0d170d3442ddf53aa241a885df97260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a448241eef894ac24e9a8634fcc1b0a9b"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d13/struct_linux_driver_info.html#a448241eef894ac24e9a8634fcc1b0a9b">hasProtectedHuc</a>: 1</td></tr>
+<tr class="separator:a448241eef894ac24e9a8634fcc1b0a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cba077e8e6dfda06b8256f021f64044"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d13/struct_linux_driver_info.html#a6cba077e8e6dfda06b8256f021f64044">hasPpgtt</a>: 1</td></tr>
 <tr class="separator:a6cba077e8e6dfda06b8256f021f64044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bae40b054d0a6a988b4607cbb9954b8"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d13/struct_linux_driver_info.html#a9bae40b054d0a6a988b4607cbb9954b8">hasPreemption</a>: 1</td></tr>
 <tr class="separator:a9bae40b054d0a6a988b4607cbb9954b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae130fa1fd8bacb8b0d6bd49f4b7776bb"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d13/struct_linux_driver_info.html#ae130fa1fd8bacb8b0d6bd49f4b7776bb">isServer</a>: 1</td></tr>
+<tr class="separator:ae130fa1fd8bacb8b0d6bd49f4b7776bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -228,7 +232,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6c/linux__system__info_8h_source.html#l00057">57</a> of file <a class="el" href="../../d3/d6c/linux__system__info_8h_source.html">linux_system_info.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6c/linux__system__info_8h_source.html#l00058">58</a> of file <a class="el" href="../../d3/d6c/linux__system__info_8h_source.html">linux_system_info.h</a>.</p>
 
 </div>
 </div>
@@ -244,7 +248,23 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6c/linux__system__info_8h_source.html#l00058">58</a> of file <a class="el" href="../../d3/d6c/linux__system__info_8h_source.html">linux_system_info.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6c/linux__system__info_8h_source.html#l00059">59</a> of file <a class="el" href="../../d3/d6c/linux__system__info_8h_source.html">linux_system_info.h</a>.</p>
+
+</div>
+</div>
+<a id="a448241eef894ac24e9a8634fcc1b0a9b" name="a448241eef894ac24e9a8634fcc1b0a9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a448241eef894ac24e9a8634fcc1b0a9b">&#9670;&nbsp;</a></span>hasProtectedHuc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LinuxDriverInfo::hasProtectedHuc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d6c/linux__system__info_8h_source.html#l00057">57</a> of file <a class="el" href="../../d3/d6c/linux__system__info_8h_source.html">linux_system_info.h</a>.</p>
 
 </div>
 </div>
@@ -261,6 +281,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d6c/linux__system__info_8h_source.html#l00054">54</a> of file <a class="el" href="../../d3/d6c/linux__system__info_8h_source.html">linux_system_info.h</a>.</p>
+
+</div>
+</div>
+<a id="ae130fa1fd8bacb8b0d6bd49f4b7776bb" name="ae130fa1fd8bacb8b0d6bd49f4b7776bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae130fa1fd8bacb8b0d6bd49f4b7776bb">&#9670;&nbsp;</a></span>isServer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LinuxDriverInfo::isServer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d6c/linux__system__info_8h_source.html#l00060">60</a> of file <a class="el" href="../../d3/d6c/linux__system__info_8h_source.html">linux_system_info.h</a>.</p>
 
 </div>
 </div>
@@ -297,7 +333,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>media_driver/linux/common/os/<a class="el" href="../../d3/d6c/linux__system__info_8h_source.html">linux_system_info.h</a></li>
+<li>C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/<a class="el" href="../../d3/d6c/linux__system__info_8h_source.html">linux_system_info.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

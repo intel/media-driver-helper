@@ -1,0 +1,4 @@
+<map id="DdiVpFunctions::DdiSetProcPipelineParams" name="DdiVpFunctions::DdiSetProcPipelineParams">
+<area shape="rect" id="node1" title="Extract VAProcPipelineParameterBuffer params and set the appropriate VPHAL params." alt="" coords="269,5,457,47"/>
+<area shape="rect" id="node2" href="$df/d20/class_ddi_vp_functions.html#af89d7b343436c14ebc77e41f69fcf0f9" title="Ddi process pipeline." alt="" coords="5,13,221,39"/>
+</map>

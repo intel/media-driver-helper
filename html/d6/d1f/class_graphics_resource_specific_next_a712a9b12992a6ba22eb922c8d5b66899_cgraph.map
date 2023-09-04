@@ -1,7 +1,6 @@
 <map id="GraphicsResourceSpecificNext::UnlockExternalResource" name="GraphicsResourceSpecificNext::UnlockExternalResource">
 <area shape="rect" id="node1" title="Unlock External Resource." alt="" coords="5,49,205,90"/>
-<area shape="rect" id="node2" href="$d1/d60/mos__bufmgr__api_8c.html#a47260ddcd6e035fa5384ab0a03d34f3d" title=" " alt="" coords="281,5,395,32"/>
-<area shape="rect" id="node3" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a31b072cc5cf453ddc2d61d4cd1d643bd" title=" " alt="" coords="254,56,422,83"/>
-<area shape="rect" id="node5" href="$de/d47/i915__production_2mos__bufmgr_8c.html#ae7353cf8d6c49a8c2c9f4efe2e186ec1" title=" " alt="" coords="253,107,423,133"/>
-<area shape="rect" id="node4" href="$de/d9d/i915_2mos__bufmgr_8c.html#a8c2f9288a4eef0c2628732aa21059702" title=" " alt="" coords="471,81,617,108"/>
+<area shape="rect" id="node2" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a47260ddcd6e035fa5384ab0a03d34f3d" title=" " alt="" coords="265,5,379,32"/>
+<area shape="rect" id="node3" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a6eb56267625d905b3689c8cfcca0b1f8" title=" " alt="" coords="254,56,390,83"/>
+<area shape="rect" id="node4" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a3257cef9f0c5174d6c13a3aa0cfafbef" title=" " alt="" coords="253,107,391,133"/>
 </map>

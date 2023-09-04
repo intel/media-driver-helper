@@ -1,0 +1,6 @@
+<map id="Linux_WaitForAvailableCmdBo" name="Linux_WaitForAvailableCmdBo">
+<area shape="rect" id="node1" title="Wait for the fetch command." alt="" coords="5,31,205,57"/>
+<area shape="rect" id="node2" href="$d2/d0a/mos__os__specific_8cpp.html#a7f1c417b5eca3deb0023be2b8a36d1a0" title="Wait and release command buffer." alt="" coords="253,31,471,57"/>
+<area shape="rect" id="node3" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a3f50be67296c219589a0953fb792dca4" title=" " alt="" coords="527,5,669,32"/>
+<area shape="rect" id="node4" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a2684cbc7d8463456345f52cf3e470896" title=" " alt="" coords="519,56,677,83"/>
+</map>

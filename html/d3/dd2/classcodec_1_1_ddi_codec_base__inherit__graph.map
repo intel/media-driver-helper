@@ -1,0 +1,17 @@
+<map id="codec::DdiCodecBase" name="codec::DdiCodecBase">
+<area shape="rect" id="node1" title="Ddi codec base class." alt="" coords="5,335,156,361"/>
+<area shape="rect" id="node2" href="$dd/d46/classdecode_1_1_ddi_decode_base.html" title="Ddi decode base." alt="" coords="204,183,369,209"/>
+<area shape="rect" id="node10" href="$d3/d5b/classencode_1_1_ddi_encode_base.html" title="Ddi encode base." alt="" coords="204,436,369,463"/>
+<area shape="rect" id="node3" href="$df/dcc/classdecode_1_1_ddi_decode_av1.html" title="Ddi Decode AV1." alt="" coords="427,5,583,32"/>
+<area shape="rect" id="node4" href="$d3/da0/classdecode_1_1_ddi_decode_avc.html" title="Ddi decode Avc." alt="" coords="427,56,583,83"/>
+<area shape="rect" id="node5" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html" title="DDI Decode HEVC." alt="" coords="423,107,586,133"/>
+<area shape="rect" id="node6" href="$db/df1/classdecode_1_1_ddi_decode_jpeg.html" title="This class defines the member fields, functions etc used by JPEG decoder." alt="" coords="423,157,586,184"/>
+<area shape="rect" id="node7" href="$d5/d43/classdecode_1_1_ddi_decode_mpeg2.html" title="Ddi Decode MPEG2." alt="" coords="417,208,592,235"/>
+<area shape="rect" id="node8" href="$da/da1/classdecode_1_1_ddi_decode_vp8.html" title="Ddi decode VP8." alt="" coords="425,259,584,285"/>
+<area shape="rect" id="node9" href="$df/dd3/classdecode_1_1_ddi_decode_vp9.html" title="Ddi decode VP9." alt="" coords="425,309,584,336"/>
+<area shape="rect" id="node11" href="$db/d26/classencode_1_1_ddi_encode_a_v1.html" title="DDi encode AV1." alt="" coords="425,360,585,387"/>
+<area shape="rect" id="node12" href="$de/dec/classencode_1_1_ddi_encode_avc.html" title="Ddi encode AVC." alt="" coords="427,411,583,437"/>
+<area shape="rect" id="node13" href="$d1/d90/classencode_1_1_ddi_encode_hevc.html" title="DDi encode HEVC." alt="" coords="423,461,586,488"/>
+<area shape="rect" id="node14" href="$da/d51/classencode_1_1_ddi_encode_jpeg.html" title="Ddi encode JPEG." alt="" coords="423,512,586,539"/>
+<area shape="rect" id="node15" href="$db/d20/classencode_1_1_ddi_encode_vp9.html" title="Ddi encode VP9." alt="" coords="425,563,584,589"/>
+</map>

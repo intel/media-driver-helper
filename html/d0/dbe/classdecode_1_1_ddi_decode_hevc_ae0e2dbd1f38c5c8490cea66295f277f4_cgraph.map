@@ -1,0 +1,12 @@
+<map id="decode::DdiDecodeHevc::DestroyContext" name="decode::DdiDecodeHevc::DestroyContext">
+<area shape="rect" id="node1" title="Free the allocated resource related with the decode context." alt="" coords="5,39,168,80"/>
+<area shape="rect" id="node2" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#afe9d8d29a13d66161529523bb7137f0e" title="Free the allocated resource related with the decode context." alt="" coords="216,5,381,47"/>
+<area shape="rect" id="node3" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a22e9ef48542a477a903f7eceb274826b" title="Free Resource buffer for HEVC." alt="" coords="217,71,380,112"/>
+<area shape="rect" id="node4" href="$d8/d27/struct_media_libva_util_next.html#a5b8159cf6deb7fd21c9355e98e8fd449" title="Free buffer." alt="" coords="429,41,561,83"/>
+<area shape="rect" id="node6" href="$d8/d27/struct_media_libva_util_next.html#afec9f4a36af1fd7e8c98a4eeaca10552" title="Unlock buffer." alt="" coords="615,100,747,141"/>
+<area shape="rect" id="node5" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a3f50be67296c219589a0953fb792dca4" title=" " alt="" coords="609,49,752,75"/>
+<area shape="rect" id="node7" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a47260ddcd6e035fa5384ab0a03d34f3d" title=" " alt="" coords="991,82,1105,109"/>
+<area shape="rect" id="node8" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a6eb56267625d905b3689c8cfcca0b1f8" title=" " alt="" coords="980,133,1116,159"/>
+<area shape="rect" id="node9" href="$d8/d27/struct_media_libva_util_next.html#a3be42318ad8bd9e8d0d3d051d11b34c9" title="Unlock surface." alt="" coords="800,16,932,57"/>
+<area shape="rect" id="node10" href="$d8/d27/struct_media_libva_util_next.html#a5015821cdaf933faa70cba831be7d6ab" title="Swizzle Surface." alt="" coords="982,16,1114,57"/>
+</map>

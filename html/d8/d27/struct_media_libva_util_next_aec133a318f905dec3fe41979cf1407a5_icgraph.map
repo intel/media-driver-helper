@@ -1,0 +1,5 @@
+<map id="MediaLibvaUtilNext::UnRefBufObjInMediaBuffer" name="MediaLibvaUtilNext::UnRefBufObjInMediaBuffer">
+<area shape="rect" id="node1" title="Unreference buf object media buffer." alt="" coords="196,39,379,80"/>
+<area shape="rect" id="node2" href="$d9/dba/class_ddi_encode_functions.html#af717619d05bd74c643a9a682a134424d" title="Destroy buffer." alt="" coords="5,5,148,47"/>
+<area shape="rect" id="node3" href="$d3/de1/class_ddi_media_functions.html#a6f36de2b62f1f4aad7156fb4cfed08eb" title="Destroy buffer." alt="" coords="6,71,147,112"/>
+</map>

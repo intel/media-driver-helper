@@ -1,38 +1,36 @@
 <map id="DdiMediaUtil_LockMutex" name="DdiMediaUtil_LockMutex">
-<area shape="rect" id="node1" title="Lock mutex." alt="" coords="1084,613,1251,640"/>
-<area shape="rect" id="node2" href="$dd/dab/media__libva__common_8cpp.html#a12eaeb1a9855f9acd6206baf9fd6f938" title="Destroy buffer from VA buffer ID." alt="" coords="790,188,1030,215"/>
-<area shape="rect" id="node3" href="$dd/da8/media__libva_8cpp.html#ad7ac231ba50f1fb209e2fa418fc71247" title="Destroy image from VA image ID." alt="" coords="813,239,1007,281"/>
-<area shape="rect" id="node4" href="$dd/dab/media__libva__common_8cpp.html#aef19397fb1fe1e9a4694affbbe354818" title="Get buffer from VA buffer ID." alt="" coords="795,305,1025,332"/>
-<area shape="rect" id="node14" href="$dd/dab/media__libva__common_8cpp.html#a5bffba5ea7554a014d9672a4fe6474fe" title="Get context from VA buffer ID." alt="" coords="789,563,1031,589"/>
-<area shape="rect" id="node15" href="$dd/da8/media__libva_8cpp.html#ab9a0946477d1a7adf1991ee5a42eacf1" title="Get ctx from VA buffer ID." alt="" coords="801,613,1019,640"/>
-<area shape="rect" id="node16" href="$dd/da8/media__libva_8cpp.html#a1f48522fda1ea32c4d443964aab86aff" title="Get ctx type from VA buffer ID." alt="" coords="787,664,1033,691"/>
-<area shape="rect" id="node17" href="$dd/dab/media__libva__common_8cpp.html#a657d73dd26a91b746552fe64b4c77fd3" title="Get surface from VA surface ID." alt="" coords="784,512,1036,539"/>
-<area shape="rect" id="node27" href="$dd/da8/media__libva_8cpp.html#a6a6f39620116ded248303bbae9503ef9" title="Get VA image from VA image ID." alt="" coords="784,715,1036,741"/>
-<area shape="rect" id="node28" href="$dd/da8/media__libva_8cpp.html#a3f8359fbf39500f36d7423b750556ecf" title="Initialize Media Context." alt="" coords="820,765,1000,792"/>
-<area shape="rect" id="node32" href="$dd/da8/media__libva_8cpp.html#a2bfa7cbc6b7a337f516fe3d870f85769" title="Decompress a compressed surface." alt="" coords="791,816,1029,843"/>
-<area shape="rect" id="node33" href="$dd/dab/media__libva__common_8cpp.html#a083a9fe93e8cc09886b8a2f8d60ee360" title="replace the surface with given format" alt="" coords="809,867,1011,909"/>
-<area shape="rect" id="node35" href="$dd/dab/media__libva__common_8cpp.html#a17aafe4ca12d9ab5c9c552759def7bfd" title="replace the surface with correlation variant format" alt="" coords="809,446,1011,487"/>
-<area shape="rect" id="node36" href="$d1/d4b/class_ddi_media_util___lock_guard.html#ab814b488fab5f09a2ec08264559f4779" title=" " alt="" coords="823,933,997,974"/>
-<area shape="rect" id="node5" href="$d4/da7/class_ddi_encode_avc_fei.html#abc4a04aa2096e986613c80236faccb95" title="Parse FEI picture parameters." alt="" coords="525,122,720,163"/>
-<area shape="rect" id="node7" href="$d1/d83/class_ddi_encode_hevc_fei.html#aff440b32487e9bd178de4c94388364d6" title="Parse FEI picture parameters." alt="" coords="522,57,723,98"/>
-<area shape="rect" id="node8" href="$df/d0d/class_ddi_encode_a_v1.html#ad57ec3db2053f23f0586f7f1c2561907" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="515,305,731,332"/>
-<area shape="rect" id="node9" href="$d0/d2f/class_ddi_encode_avc.html#a0b083316f81ecb7e3a1977aeb427b53c" title="Parse picture params." alt="" coords="242,508,454,535"/>
-<area shape="rect" id="node10" href="$d7/daa/class_ddi_encode_jpeg.html#afdebe818d565ca6a6920141b7c699f1c" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="513,5,732,32"/>
-<area shape="rect" id="node11" href="$db/d0d/class_ddi_encode_vp8.html#a3ac332bf2c62c4e334d4b98135053f79" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="515,356,730,383"/>
-<area shape="rect" id="node12" href="$dc/d76/class_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="515,407,730,433"/>
-<area shape="rect" id="node13" href="$d4/da7/class_ddi_encode_avc_fei.html#ad395e4cff671796973090feaf761aae7" title="Parse statistics data to preenc parameters." alt="" coords="524,239,721,281"/>
-<area shape="rect" id="node6" href="$d4/da7/class_ddi_encode_avc_fei.html#a4d1423381d32ad57679b4ffba967e61a" title="Parse misc parameters." alt="" coords="251,122,445,163"/>
-<area shape="rect" id="node18" href="$d2/d6b/class_ddi_decode_h_e_v_c.html#ab6c4dd8cff3a437104ae0e52be7fad1c" title="ParsePicParam for HEVC." alt="" coords="235,772,461,799"/>
-<area shape="rect" id="node19" href="$db/db1/class_ddi_decode_h_e_v_c_g11.html#a62fc00b78efb413b1fcaf0baadb4bebf" title="ParsePicParam for HEVC." alt="" coords="245,830,451,871"/>
-<area shape="rect" id="node20" href="$de/d8b/class_ddi_decode_h_e_v_c_g12.html#a32cee75aa83816f948fef3f11d4b1786" title="ParsePicParam for HEVC." alt="" coords="245,681,451,722"/>
-<area shape="rect" id="node21" href="$db/d32/class_ddi_encode_hevc.html#a4406e7b36762c461980b59e86a5a95cd" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="513,457,732,484"/>
-<area shape="rect" id="node22" href="$df/dc7/class_ddi_media_decode.html#a28d720aad0b08022b2d10a9f216252cf" title="Parse the processing buffer if needed." alt="" coords="509,895,736,937"/>
-<area shape="rect" id="node23" href="$dd/dd8/class_ddi_decode_a_v1.html#abb58d8c0ac438a10f0bde32b0ec13210" title="Set common decode param setting for each codec." alt="" coords="509,559,736,585"/>
-<area shape="rect" id="node24" href="$d0/d2f/class_ddi_encode_avc.html#ac8d3005ab5aefe043f2bc6bdaa6abc9f" title="Setup Codec Picture for AVC." alt="" coords="530,610,715,651"/>
-<area shape="rect" id="node26" href="$d2/d6b/class_ddi_decode_h_e_v_c.html#a59f0d5b2af9d3f01ef1bb5877bbf7e5b" title="Setup Codec Picture for Hevc." alt="" coords="523,727,723,769"/>
-<area shape="rect" id="node25" href="$d0/d2f/class_ddi_encode_avc.html#a65a80e0af0be360ebf1a275722ae975e" title="Parse slice parameters." alt="" coords="242,617,454,644"/>
-<area shape="rect" id="node29" href="$dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="554,961,691,988"/>
-<area shape="rect" id="node30" href="$dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="299,961,397,988"/>
-<area shape="rect" id="node31" href="$dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,961,187,988"/>
-<area shape="rect" id="node34" href="$da/d9e/class_ddi_decode_j_p_e_g.html#ad2bc707faa884959214d14f86ef424d3" title="Set common decode param setting for each codec." alt="" coords="527,1013,718,1054"/>
+<area shape="rect" id="node1" title="Lock mutex." alt="" coords="1084,558,1251,585"/>
+<area shape="rect" id="node2" href="$dd/dab/media__libva__common_8cpp.html#a12eaeb1a9855f9acd6206baf9fd6f938" title="Destroy buffer from VA buffer ID." alt="" coords="790,162,1030,189"/>
+<area shape="rect" id="node3" href="$dd/da8/media__libva_8cpp.html#ad7ac231ba50f1fb209e2fa418fc71247" title="Destroy image from VA image ID." alt="" coords="813,213,1007,255"/>
+<area shape="rect" id="node4" href="$dd/dab/media__libva__common_8cpp.html#aef19397fb1fe1e9a4694affbbe354818" title="Get buffer from VA buffer ID." alt="" coords="795,279,1025,306"/>
+<area shape="rect" id="node13" href="$dd/dab/media__libva__common_8cpp.html#a5bffba5ea7554a014d9672a4fe6474fe" title="Get context from VA buffer ID." alt="" coords="789,507,1031,534"/>
+<area shape="rect" id="node14" href="$dd/da8/media__libva_8cpp.html#ab9a0946477d1a7adf1991ee5a42eacf1" title="Get ctx from VA buffer ID." alt="" coords="801,558,1019,585"/>
+<area shape="rect" id="node15" href="$dd/da8/media__libva_8cpp.html#a1f48522fda1ea32c4d443964aab86aff" title="Get ctx type from VA buffer ID." alt="" coords="787,609,1033,635"/>
+<area shape="rect" id="node16" href="$dd/dab/media__libva__common_8cpp.html#a657d73dd26a91b746552fe64b4c77fd3" title="Get surface from VA surface ID." alt="" coords="784,457,1036,483"/>
+<area shape="rect" id="node25" href="$dd/da8/media__libva_8cpp.html#a6a6f39620116ded248303bbae9503ef9" title="Get VA image from VA image ID." alt="" coords="784,659,1036,686"/>
+<area shape="rect" id="node26" href="$dd/da8/media__libva_8cpp.html#a3f8359fbf39500f36d7423b750556ecf" title="Initialize Media Context." alt="" coords="820,710,1000,737"/>
+<area shape="rect" id="node30" href="$dd/da8/media__libva_8cpp.html#a2bfa7cbc6b7a337f516fe3d870f85769" title="Decompress a compressed surface." alt="" coords="791,761,1029,787"/>
+<area shape="rect" id="node31" href="$dd/dab/media__libva__common_8cpp.html#a083a9fe93e8cc09886b8a2f8d60ee360" title="replace the surface with given format" alt="" coords="809,812,1011,853"/>
+<area shape="rect" id="node33" href="$dd/dab/media__libva__common_8cpp.html#a17aafe4ca12d9ab5c9c552759def7bfd" title="replace the surface with correlation variant format" alt="" coords="809,391,1011,432"/>
+<area shape="rect" id="node34" href="$d1/d4b/class_ddi_media_util___lock_guard.html#ab814b488fab5f09a2ec08264559f4779" title=" " alt="" coords="823,877,997,919"/>
+<area shape="rect" id="node5" href="$d4/da7/class_ddi_encode_avc_fei.html#abc4a04aa2096e986613c80236faccb95" title="Parse FEI picture parameters." alt="" coords="525,5,720,47"/>
+<area shape="rect" id="node7" href="$d1/d83/class_ddi_encode_hevc_fei.html#aff440b32487e9bd178de4c94388364d6" title="Parse FEI picture parameters." alt="" coords="522,71,723,112"/>
+<area shape="rect" id="node8" href="$df/d0d/class_ddi_encode_a_v1.html#ad57ec3db2053f23f0586f7f1c2561907" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="515,254,731,281"/>
+<area shape="rect" id="node9" href="$d7/daa/class_ddi_encode_jpeg.html#afdebe818d565ca6a6920141b7c699f1c" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="513,137,732,163"/>
+<area shape="rect" id="node10" href="$db/d0d/class_ddi_encode_vp8.html#a3ac332bf2c62c4e334d4b98135053f79" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="515,305,730,331"/>
+<area shape="rect" id="node11" href="$dc/d76/class_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="515,355,730,382"/>
+<area shape="rect" id="node12" href="$d4/da7/class_ddi_encode_avc_fei.html#ad395e4cff671796973090feaf761aae7" title="Parse statistics data to preenc parameters." alt="" coords="524,188,721,229"/>
+<area shape="rect" id="node6" href="$d4/da7/class_ddi_encode_avc_fei.html#a4d1423381d32ad57679b4ffba967e61a" title="Parse misc parameters." alt="" coords="251,5,445,47"/>
+<area shape="rect" id="node17" href="$d2/d6b/class_ddi_decode_h_e_v_c.html#ab6c4dd8cff3a437104ae0e52be7fad1c" title="ParsePicParam for HEVC." alt="" coords="235,595,461,622"/>
+<area shape="rect" id="node18" href="$db/db1/class_ddi_decode_h_e_v_c_g11.html#a62fc00b78efb413b1fcaf0baadb4bebf" title="ParsePicParam for HEVC." alt="" coords="245,657,451,699"/>
+<area shape="rect" id="node19" href="$de/d8b/class_ddi_decode_h_e_v_c_g12.html#a32cee75aa83816f948fef3f11d4b1786" title="ParsePicParam for HEVC." alt="" coords="245,729,451,771"/>
+<area shape="rect" id="node20" href="$db/d32/class_ddi_encode_hevc.html#a4406e7b36762c461980b59e86a5a95cd" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="513,406,732,433"/>
+<area shape="rect" id="node21" href="$df/dc7/class_ddi_media_decode.html#a28d720aad0b08022b2d10a9f216252cf" title="Parse the processing buffer if needed." alt="" coords="509,793,736,835"/>
+<area shape="rect" id="node22" href="$dd/dd8/class_ddi_decode_a_v1.html#abb58d8c0ac438a10f0bde32b0ec13210" title="Set common decode param setting for each codec." alt="" coords="509,457,736,483"/>
+<area shape="rect" id="node23" href="$d0/d2f/class_ddi_encode_avc.html#ac8d3005ab5aefe043f2bc6bdaa6abc9f" title="Setup Codec Picture for AVC." alt="" coords="530,508,715,549"/>
+<area shape="rect" id="node24" href="$d2/d6b/class_ddi_decode_h_e_v_c.html#a59f0d5b2af9d3f01ef1bb5877bbf7e5b" title="Setup Codec Picture for Hevc." alt="" coords="523,625,723,667"/>
+<area shape="rect" id="node27" href="$dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="554,859,691,886"/>
+<area shape="rect" id="node28" href="$dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="299,859,397,886"/>
+<area shape="rect" id="node29" href="$dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,859,187,886"/>
+<area shape="rect" id="node32" href="$da/d9e/class_ddi_decode_j_p_e_g.html#ad2bc707faa884959214d14f86ef424d3" title="Set common decode param setting for each codec." alt="" coords="527,911,718,952"/>
 </map>

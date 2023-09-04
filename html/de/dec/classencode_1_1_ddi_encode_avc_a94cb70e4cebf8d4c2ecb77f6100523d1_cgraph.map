@@ -1,0 +1,18 @@
+<map id="encode::DdiEncodeAvc::ParseMiscParams" name="encode::DdiEncodeAvc::ParseMiscParams">
+<area shape="rect" id="node1" title="Parse misc parameters." alt="" coords="5,463,161,504"/>
+<area shape="rect" id="node2" href="$de/dec/classencode_1_1_ddi_encode_avc.html#a0a2418352de7bff153ee83a963714f2e" title="Parse DirtyROI params." alt="" coords="245,5,424,47"/>
+<area shape="rect" id="node3" href="$de/dec/classencode_1_1_ddi_encode_avc.html#ad7e309876ac5980c33faa9f0b06fbf1b" title="Parse enc quality parameters settings." alt="" coords="237,71,432,112"/>
+<area shape="rect" id="node4" href="$de/dec/classencode_1_1_ddi_encode_avc.html#aca3a1601b19dc6a8377138056a255275" title="Parse rolling intra refresh setting." alt="" coords="248,136,421,177"/>
+<area shape="rect" id="node5" href="$de/dec/classencode_1_1_ddi_encode_avc.html#a9f0b26040e69e0a1154d7e588e84dedf" title="Parse frame rate settings." alt="" coords="257,201,413,243"/>
+<area shape="rect" id="node6" href="$de/dec/classencode_1_1_ddi_encode_avc.html#af6496e928cf08604f88ec92d3fcd0793" title="Parse HRD settings." alt="" coords="256,267,413,308"/>
+<area shape="rect" id="node7" href="$de/dec/classencode_1_1_ddi_encode_avc.html#a06eb83a080debf1adfc3c544c6e0ec26" title="Parse max frame size setting." alt="" coords="225,332,444,373"/>
+<area shape="rect" id="node8" href="$de/dec/classencode_1_1_ddi_encode_avc.html#af2b6fe5cff75c124e55e3779814bc674" title="Parse sliceSizeInBytes for enabling VDENC dynamic slice." alt="" coords="229,397,440,439"/>
+<area shape="rect" id="node9" href="$de/dec/classencode_1_1_ddi_encode_avc.html#a1e921f457a445fce8f59383caae8b07c" title="Parse max frame size setting for multiple pass." alt="" coords="209,463,460,504"/>
+<area shape="rect" id="node10" href="$de/dec/classencode_1_1_ddi_encode_avc.html#acdf771756dc061f6f920b94b007e81fd" title="Parse qualtiy level settings." alt="" coords="235,528,435,569"/>
+<area shape="rect" id="node11" href="$de/dec/classencode_1_1_ddi_encode_avc.html#a5f2adf3e6a9a0575fd1d6a5a47a13a79" title="Parse trellis related settings." alt="" coords="233,593,436,635"/>
+<area shape="rect" id="node12" href="$de/dec/classencode_1_1_ddi_encode_avc.html#aa8bb0ea71e1f9e8022bc0630cc363518" title="Parse rate control related settings." alt="" coords="257,659,413,700"/>
+<area shape="rect" id="node13" href="$de/dec/classencode_1_1_ddi_encode_avc.html#adca099f41cab3acfd506453b3760d5c8" title="Parse region of interest settings." alt="" coords="257,724,413,765"/>
+<area shape="rect" id="node14" href="$de/dec/classencode_1_1_ddi_encode_avc.html#a12714256fefedc0865162961f8b72eb7" title="Parse rounding parameters for slices." alt="" coords="243,789,427,831"/>
+<area shape="rect" id="node15" href="$de/dec/classencode_1_1_ddi_encode_avc.html#a927aa7e138b61b84580f26c1857c617d" title="Parse rolling intra refresh setting." alt="" coords="238,855,431,896"/>
+<area shape="rect" id="node16" href="$de/dec/classencode_1_1_ddi_encode_avc.html#a81ed6e95d9adcd345e97aef03e2c552d" title="Parse sub macroblock partition setting." alt="" coords="227,920,442,961"/>
+</map>

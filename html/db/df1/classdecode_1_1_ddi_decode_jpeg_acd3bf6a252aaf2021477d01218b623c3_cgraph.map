@@ -1,0 +1,11 @@
+<map id="decode::DdiDecodeJpeg::BeginPicture" name="decode::DdiDecodeJpeg::BeginPicture">
+<area shape="rect" id="node1" title="Get ready to decoding process for a target surface." alt="" coords="5,39,168,80"/>
+<area shape="rect" id="node2" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#a52791a7bb6e031dd86ddeeac435e21ab" title="Get ready to decoding process for a target surface." alt="" coords="216,5,381,47"/>
+<area shape="rect" id="node3" href="$d8/d27/struct_media_libva_util_next.html#a5b8159cf6deb7fd21c9355e98e8fd449" title="Free buffer." alt="" coords="233,71,365,112"/>
+<area shape="rect" id="node4" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a3f50be67296c219589a0953fb792dca4" title=" " alt="" coords="429,27,572,54"/>
+<area shape="rect" id="node5" href="$d8/d27/struct_media_libva_util_next.html#afec9f4a36af1fd7e8c98a4eeaca10552" title="Unlock buffer." alt="" coords="435,129,567,171"/>
+<area shape="rect" id="node6" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a47260ddcd6e035fa5384ab0a03d34f3d" title=" " alt="" coords="811,187,925,214"/>
+<area shape="rect" id="node7" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a6eb56267625d905b3689c8cfcca0b1f8" title=" " alt="" coords="800,137,936,163"/>
+<area shape="rect" id="node8" href="$d8/d27/struct_media_libva_util_next.html#a3be42318ad8bd9e8d0d3d051d11b34c9" title="Unlock surface." alt="" coords="620,71,752,112"/>
+<area shape="rect" id="node9" href="$d8/d27/struct_media_libva_util_next.html#a5015821cdaf933faa70cba831be7d6ab" title="Swizzle Surface." alt="" coords="802,71,934,112"/>
+</map>

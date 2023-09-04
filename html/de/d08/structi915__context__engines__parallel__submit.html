@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -117,7 +117,7 @@ Public Attributes</h2></td></tr>
 <p >Example 3 pseudo code: set_engines(INVALID) set_parallel(engine_index=0, width=2, num_siblings=2, engines=CS[0],CS[1],CS[1],CS[3])</p>
 <p >Results in the following valid and invalid placements: CS[0], CS[1] CS[1], CS[3] - Not logically contiguous, return -EINVAL </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02350">2350</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02422">2422</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a8328ac28f43497cb1e1778fcaf3fc243" name="a8328ac28f43497cb1e1778fcaf3fc243"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8328ac28f43497cb1e1778fcaf3fc243">&#9670;&nbsp;</a></span>base</h2>
@@ -132,7 +132,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >@base: base user extension. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02354">2354</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02426">2426</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
@@ -149,7 +149,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >@engine_index: slot for parallel engine </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02359">2359</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02431">2431</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
@@ -167,7 +167,7 @@ Public Attributes</h2></td></tr>
 <p >@engines: 2-d array of engine instances to configure parallel engine</p>
 <p >length = width (i) * num_siblings (j) index = j + i * num_siblings </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02394">2394</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02466">2466</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
@@ -184,7 +184,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >@flags: all undefined flags must be zero, currently not defined flags </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02381">2381</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02453">2453</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
@@ -201,7 +201,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >@mbz16: reserved for future use; must be zero </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02376">2376</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02448">2448</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
@@ -218,7 +218,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >@mbz64: reserved for future use; must be zero </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02386">2386</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02458">2458</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
@@ -235,7 +235,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >@num_siblings: number of siblings per context or in other words the number of possible placements for each submission </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02371">2371</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02443">2443</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
@@ -252,12 +252,12 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >@width: number of contexts per parallel engine or in other words the number of batches in each submission </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02365">2365</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d85/i915__drm_8h_source.html#l02437">2437</a> of file <a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>media_driver/linux/common/os/i915/include/uapi/<a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a></li>
+<li>C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/i915/include/uapi/<a class="el" href="../../d0/d85/i915__drm_8h_source.html">i915_drm.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

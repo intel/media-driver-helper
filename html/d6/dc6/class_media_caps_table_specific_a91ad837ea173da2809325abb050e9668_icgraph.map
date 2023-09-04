@@ -1,0 +1,5 @@
+<map id="MediaCapsTableSpecific::QuerySurfaceAttributesFromConfigId" name="MediaCapsTableSpecific::QuerySurfaceAttributesFromConfigId">
+<area shape="rect" id="node1" title="Query SurfaceAttributes From ConfigId." alt="" coords="439,5,633,61"/>
+<area shape="rect" id="node2" href="$d5/dde/class_media_libva_caps_next.html#a910d07d5a39fe7461a16bb03d9569a36" title="Get surface attributes for a given config ID." alt="" coords="225,13,391,54"/>
+<area shape="rect" id="node3" href="$d3/d5b/classencode_1_1_ddi_encode_base.html#af0e2a9579015ca6d95ffec8fb1edc927" title="Check if the resolution is valid for a cofigId." alt="" coords="5,13,177,54"/>
+</map>

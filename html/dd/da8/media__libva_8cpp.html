@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: media_driver/linux/common/ddi/media_libva.cpp File Reference</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_driver/linux/common/ddi/media_libva.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_3115a56e2275d5beaba552b66eb05a58.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_c1c480c84d9c810d13e5396fd09e2c47.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_18eb10762497f3f6d66dac8bd6884b5d.html">common</a></li><li class="navelem"><a class="el" href="../../dir_8354df22a44158cc63dee25ba77d5a83.html">ddi</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_55776ec83c9d032fd3160e5735bb9eeb.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_71b97772b1880ae754b9c282d2ac7b3e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_fdadb0a20a244235cd810deb83932914.html">common</a></li><li class="navelem"><a class="el" href="../../dir_75a47287825a42db54397cc06be8b13b.html">ddi</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -93,6 +93,9 @@ $(function() {
 <code>#include &quot;<a class="el" href="../../d8/d5b/media__libva__vp_8h_source.html">media_libva_vp.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d1c/media__ddi__prot_8h_source.html">media_ddi_prot.h</a>&quot;</code><br />
 <code>#include &quot;mos_os.h&quot;</code><br />
+<code>#include &quot;mos_context.h&quot;</code><br />
+<code>#include &quot;mos_cmdbufmgr.h&quot;</code><br />
+<code>#include &quot;mos_gpucontextmgr.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/df1/hwinfo__linux_8h_source.html">hwinfo_linux.h</a>&quot;</code><br />
 <code>#include &quot;mediamemdecomp.h&quot;</code><br />
 <code>#include &quot;mos_solo_generic.h&quot;</code><br />
@@ -108,58 +111,58 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for media_libva.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../de/def/media__libva_8cpp__incl.png" border="0" usemap="#amedia__driver_2linux_2common_2ddi_2media__libva_8cpp" alt=""/></div>
-<map name="amedia__driver_2linux_2common_2ddi_2media__libva_8cpp" id="amedia__driver_2linux_2common_2ddi_2media__libva_8cpp">
-<area shape="rect" title="libva(and its extension) interface implementaion." alt="" coords="1155,5,1349,47"/>
-<area shape="rect" title=" " alt="" coords="148,483,209,509"/>
-<area shape="rect" title=" " alt="" coords="45,102,109,129"/>
-<area shape="rect" title=" " alt="" coords="134,102,199,129"/>
-<area shape="rect" title=" " alt="" coords="223,102,281,129"/>
-<area shape="rect" title=" " alt="" coords="305,102,399,129"/>
-<area shape="rect" title=" " alt="" coords="424,102,507,129"/>
-<area shape="rect" title=" " alt="" coords="531,102,599,129"/>
-<area shape="rect" title=" " alt="" coords="624,102,699,129"/>
-<area shape="rect" href="../../d9/d62/media__libva_8h.html" title="libva(and its extension) interface head file" alt="" coords="1423,259,1523,285"/>
-<area shape="rect" title=" " alt="" coords="614,408,693,435"/>
-<area shape="rect" href="../../da/d29/media__libva__util_8h.html" title="libva(and its extension) utility head file" alt="" coords="415,259,539,285"/>
-<area shape="rect" href="../../dd/d2a/media__libva__decoder_8h.html" title="libva(and its extension) decoder head file" alt="" coords="1290,102,1443,129"/>
-<area shape="rect" href="../../d6/d0b/media__libva__encoder_8h.html" title="libva(and its extension) encoder head file" alt="" coords="1061,102,1214,129"/>
-<area shape="rect" href="../../d8/d5b/media__libva__vp_8h.html" title="Header for Video Acceleration (LibVA) VP extensions for VPG drivers." alt="" coords="902,102,1021,129"/>
-<area shape="rect" href="../../d9/d1c/media__ddi__prot_8h.html" title="Defines base class for DDI media protected." alt="" coords="3046,259,3167,285"/>
-<area shape="rect" href="../../d8/df1/hwinfo__linux_8h.html" title=" " alt="" coords="666,259,769,285"/>
-<area shape="rect" title=" " alt="" coords="1626,102,1769,129"/>
-<area shape="rect" title=" " alt="" coords="1793,102,1932,129"/>
-<area shape="rect" href="../../d0/dce/media__libva__caps_8h.html" title="This file defines the base C++ class/interface for media capbilities." alt="" coords="1467,102,1602,129"/>
-<area shape="rect" title=" " alt="" coords="2007,102,2174,129"/>
-<area shape="rect" title=" " alt="" coords="2199,102,2369,129"/>
-<area shape="rect" title=" " alt="" coords="2394,95,2537,136"/>
-<area shape="rect" title=" " alt="" coords="2561,102,2676,129"/>
-<area shape="rect" title=" " alt="" coords="2945,184,3060,211"/>
-<area shape="rect" href="../../d7/d7d/drm__fourcc_8h.html" title=" " alt="" coords="2918,102,3015,129"/>
-<area shape="rect" href="../../d0/d2d/media__libva__apo__decision_8h.html" title=" " alt="" coords="3039,102,3222,129"/>
-<area shape="rect" href="../../d3/da4/mos__oca__interface__specific_8h.html" title="Linux specfic OCA interface class." alt="" coords="2701,102,2894,129"/>
-<area shape="rect" title=" " alt="" coords="1501,408,1563,435"/>
-<area shape="rect" title=" " alt="" coords="1055,408,1172,435"/>
-<area shape="rect" title=" " alt="" coords="1511,333,1625,360"/>
-<area shape="rect" title=" " alt="" coords="1650,333,1774,360"/>
-<area shape="rect" title=" " alt="" coords="1798,333,1933,360"/>
-<area shape="rect" title=" " alt="" coords="1957,333,2077,360"/>
-<area shape="rect" title=" " alt="" coords="1304,408,1424,435"/>
-<area shape="rect" title=" " alt="" coords="2101,333,2216,360"/>
-<area shape="rect" title=" " alt="" coords="2240,333,2355,360"/>
-<area shape="rect" title=" " alt="" coords="2379,333,2501,360"/>
-<area shape="rect" title=" " alt="" coords="999,333,1086,360"/>
-<area shape="rect" title=" " alt="" coords="774,408,917,435"/>
-<area shape="rect" title=" " alt="" coords="2525,333,2648,360"/>
-<area shape="rect" title=" " alt="" coords="2672,333,2757,360"/>
-<area shape="rect" title=" " alt="" coords="2781,333,2920,360"/>
-<area shape="rect" title=" " alt="" coords="1111,333,1284,360"/>
-<area shape="rect" href="../../da/d28/media__libva__common_8h.html" title="libva(and its extension) interface implemantation common head file" alt="" coords="767,333,924,360"/>
-<area shape="rect" href="../../da/d54/mos__bufmgr_8h.html" title=" " alt="" coords="325,408,429,435"/>
-<area shape="rect" title=" " alt="" coords="415,333,539,360"/>
-<area shape="rect" href="../../db/df7/media__libva__cp__interface_8h.html" title="This file defines the C++ class/interface for DDI interface of content protection." alt="" coords="1050,184,1227,211"/>
-<area shape="rect" href="../../d8/da6/media__ddi__decode__base_8h.html" title="Defines base class for DDI media decoder." alt="" coords="1404,184,1580,211"/>
-<area shape="rect" title=" " alt="" coords="1604,184,1660,211"/>
+<div class="center"><img src="../../de/def/media__libva_8cpp__incl.png" border="0" usemap="#a_c_1_2_users_2xiaoganx_2_project_2media__driver__upstream_2media-driver_2media__driver_2linux_2common_2ddi_2media__libva_8cpp" alt=""/></div>
+<map name="a_c_1_2_users_2xiaoganx_2_project_2media__driver__upstream_2media-driver_2media__driver_2linux_2common_2ddi_2media__libva_8cpp" id="a_c_1_2_users_2xiaoganx_2_project_2media__driver__upstream_2media-driver_2media__driver_2linux_2common_2ddi_2media__libva_8cpp">
+<area shape="rect" title="libva(and its extension) interface implementaion." alt="" coords="2317,5,2541,76"/>
+<area shape="rect" title=" " alt="" coords="951,131,1013,158"/>
+<area shape="rect" title=" " alt="" coords="1037,131,1101,158"/>
+<area shape="rect" title=" " alt="" coords="1125,131,1191,158"/>
+<area shape="rect" title=" " alt="" coords="1215,131,1272,158"/>
+<area shape="rect" title=" " alt="" coords="1296,131,1391,158"/>
+<area shape="rect" title=" " alt="" coords="1415,131,1498,158"/>
+<area shape="rect" title=" " alt="" coords="1523,131,1591,158"/>
+<area shape="rect" title=" " alt="" coords="1615,131,1690,158"/>
+<area shape="rect" href="../../d9/d62/media__libva_8h.html" title="libva(and its extension) interface head file" alt="" coords="1151,213,1251,240"/>
+<area shape="rect" title=" " alt="" coords="2293,363,2372,389"/>
+<area shape="rect" href="../../da/d29/media__libva__util_8h.html" title="libva(and its extension) utility head file" alt="" coords="2120,131,2244,158"/>
+<area shape="rect" href="../../dd/d2a/media__libva__decoder_8h.html" title="libva(and its extension) decoder head file" alt="" coords="1765,131,1919,158"/>
+<area shape="rect" href="../../d6/d0b/media__libva__encoder_8h.html" title="libva(and its extension) encoder head file" alt="" coords="1943,131,2096,158"/>
+<area shape="rect" href="../../d8/d5b/media__libva__vp_8h.html" title="Header for Video Acceleration (LibVA) VP extensions for VPG drivers." alt="" coords="2245,213,2364,240"/>
+<area shape="rect" href="../../d9/d1c/media__ddi__prot_8h.html" title="Defines base class for DDI media protected." alt="" coords="2444,213,2565,240"/>
+<area shape="rect" title=" " alt="" coords="2421,131,2529,158"/>
+<area shape="rect" title=" " alt="" coords="2553,131,2683,158"/>
+<area shape="rect" title=" " alt="" coords="2707,131,2857,158"/>
+<area shape="rect" href="../../d8/df1/hwinfo__linux_8h.html" title=" " alt="" coords="2881,131,2984,158"/>
+<area shape="rect" title=" " alt="" coords="3008,131,3151,158"/>
+<area shape="rect" title=" " alt="" coords="3175,131,3314,158"/>
+<area shape="rect" href="../../d0/dce/media__libva__caps_8h.html" title="This file defines the base C++ class/interface for media capbilities." alt="" coords="2948,213,3083,240"/>
+<area shape="rect" title=" " alt="" coords="3389,131,3556,158"/>
+<area shape="rect" title=" " alt="" coords="3581,131,3751,158"/>
+<area shape="rect" title=" " alt="" coords="3776,124,3919,165"/>
+<area shape="rect" title=" " alt="" coords="3943,131,4058,158"/>
+<area shape="rect" title=" " alt="" coords="4269,213,4383,240"/>
+<area shape="rect" href="../../d7/d7d/drm__fourcc_8h.html" title=" " alt="" coords="4133,131,4231,158"/>
+<area shape="rect" href="../../d0/d2d/media__libva__apo__decision_8h.html" title=" " alt="" coords="4255,131,4437,158"/>
+<area shape="rect" href="../../d3/da4/mos__oca__interface__specific_8h.html" title="Linux specfic OCA interface class." alt="" coords="4461,131,4655,158"/>
+<area shape="rect" title=" " alt="" coords="2397,363,2458,389"/>
+<area shape="rect" title=" " alt="" coords="1259,363,1377,389"/>
+<area shape="rect" title=" " alt="" coords="23,288,138,315"/>
+<area shape="rect" title=" " alt="" coords="163,288,287,315"/>
+<area shape="rect" title=" " alt="" coords="311,288,445,315"/>
+<area shape="rect" title=" " alt="" coords="470,288,590,315"/>
+<area shape="rect" title=" " alt="" coords="797,363,917,389"/>
+<area shape="rect" title=" " alt="" coords="614,288,729,315"/>
+<area shape="rect" title=" " alt="" coords="803,288,918,315"/>
+<area shape="rect" title=" " alt="" coords="942,288,1065,315"/>
+<area shape="rect" title=" " alt="" coords="2180,288,2267,315"/>
+<area shape="rect" title=" " alt="" coords="1955,363,2097,389"/>
+<area shape="rect" title=" " alt="" coords="1139,288,1262,315"/>
+<area shape="rect" title=" " alt="" coords="1286,288,1371,315"/>
+<area shape="rect" title=" " alt="" coords="1395,288,1534,315"/>
+<area shape="rect" title=" " alt="" coords="1558,288,1731,315"/>
+<area shape="rect" href="../../da/d28/media__libva__common_8h.html" title="libva(and its extension) interface implemantation common head file" alt="" coords="1947,288,2105,315"/>
+<area shape="rect" href="../../d5/d01/ddi__codec__def__specific_8h.html" title="libva codec interface head file" alt="" coords="1756,288,1923,315"/>
+<area shape="rect" title=" " alt="" coords="2097,213,2221,240"/>
 </map>
 </div>
 </div>
@@ -196,10 +199,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ac77b5c1f6d4039c5e642d438c516b9f6"><td class="memItemLeft" align="right" valign="top">VAStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#ac77b5c1f6d4039c5e642d438c516b9f6">DdiMedia_SetFrameID</a> (VADisplay dpy, VASurfaceID surface, uint32_t frame_id)</td></tr>
 <tr class="memdesc:ac77b5c1f6d4039c5e642d438c516b9f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Frame ID.  <a href="../../dd/da8/media__libva_8cpp.html#ac77b5c1f6d4039c5e642d438c516b9f6">More...</a><br /></td></tr>
 <tr class="separator:ac77b5c1f6d4039c5e642d438c516b9f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a216846238e1ac9a43f3f59bc369de9e5"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#a216846238e1ac9a43f3f59bc369de9e5">DdiMedia_MediaFormatToOsFormat</a> (<a class="el" href="../../da/d28/media__libva__common_8h.html#ad693e89f585b14e91e8795758b096fb7">DDI_MEDIA_FORMAT</a> format)</td></tr>
+<tr class="memitem:a216846238e1ac9a43f3f59bc369de9e5"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#a216846238e1ac9a43f3f59bc369de9e5">DdiMedia_MediaFormatToOsFormat</a> (<a class="el" href="../../d3/df3/media__libva__common__next_8h.html#ad693e89f585b14e91e8795758b096fb7">DDI_MEDIA_FORMAT</a> format)</td></tr>
 <tr class="memdesc:a216846238e1ac9a43f3f59bc369de9e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert media format to OS format.  <a href="../../dd/da8/media__libva_8cpp.html#a216846238e1ac9a43f3f59bc369de9e5">More...</a><br /></td></tr>
 <tr class="separator:a216846238e1ac9a43f3f59bc369de9e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48ed3cad484b8944c509f1fdcd706822"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d28/media__libva__common_8h.html#ad693e89f585b14e91e8795758b096fb7">DDI_MEDIA_FORMAT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#a48ed3cad484b8944c509f1fdcd706822">DdiMedia_OsFormatToMediaFormat</a> (int32_t fourcc, int32_t rtformatType)</td></tr>
+<tr class="memitem:a48ed3cad484b8944c509f1fdcd706822"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/df3/media__libva__common__next_8h.html#ad693e89f585b14e91e8795758b096fb7">DDI_MEDIA_FORMAT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#a48ed3cad484b8944c509f1fdcd706822">DdiMedia_OsFormatToMediaFormat</a> (int32_t fourcc, int32_t rtformatType)</td></tr>
 <tr class="memdesc:a48ed3cad484b8944c509f1fdcd706822"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert Os format to media format.  <a href="../../dd/da8/media__libva_8cpp.html#a48ed3cad484b8944c509f1fdcd706822">More...</a><br /></td></tr>
 <tr class="separator:a48ed3cad484b8944c509f1fdcd706822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a6f39620116ded248303bbae9503ef9"><td class="memItemLeft" align="right" valign="top">VAImage *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#a6a6f39620116ded248303bbae9503ef9">DdiMedia_GetVAImageFromVAImageID</a> (<a class="el" href="../../da/d28/media__libva__common_8h.html#af077198a12c225f80b87d2f1684c3172">PDDI_MEDIA_CONTEXT</a> mediaCtx, VAImageID imageID)</td></tr>
@@ -214,7 +217,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ad7ac231ba50f1fb209e2fa418fc71247"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#ad7ac231ba50f1fb209e2fa418fc71247">DdiMedia_DestroyImageFromVAImageID</a> (<a class="el" href="../../da/d28/media__libva__common_8h.html#af077198a12c225f80b87d2f1684c3172">PDDI_MEDIA_CONTEXT</a> mediaCtx, VAImageID imageID)</td></tr>
 <tr class="memdesc:ad7ac231ba50f1fb209e2fa418fc71247"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy image from VA image ID.  <a href="../../dd/da8/media__libva_8cpp.html#ad7ac231ba50f1fb209e2fa418fc71247">More...</a><br /></td></tr>
 <tr class="separator:ad7ac231ba50f1fb209e2fa418fc71247"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bfa7cbc6b7a337f516fe3d870f85769"><td class="memItemLeft" align="right" valign="top">VAStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#a2bfa7cbc6b7a337f516fe3d870f85769">DdiMedia_MediaMemoryDecompress</a> (<a class="el" href="../../da/d28/media__libva__common_8h.html#af077198a12c225f80b87d2f1684c3172">PDDI_MEDIA_CONTEXT</a> mediaCtx, <a class="el" href="../../da/d28/media__libva__common_8h.html#ae2f6cd075fa66c302183294fbf78f001">DDI_MEDIA_SURFACE</a> *mediaSurface)</td></tr>
+<tr class="memitem:a2bfa7cbc6b7a337f516fe3d870f85769"><td class="memItemLeft" align="right" valign="top">VAStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#a2bfa7cbc6b7a337f516fe3d870f85769">DdiMedia_MediaMemoryDecompress</a> (<a class="el" href="../../da/d28/media__libva__common_8h.html#af077198a12c225f80b87d2f1684c3172">PDDI_MEDIA_CONTEXT</a> mediaCtx, <a class="el" href="../../d3/df0/ddi__media__functions_8h.html#ae2f6cd075fa66c302183294fbf78f001">DDI_MEDIA_SURFACE</a> *mediaSurface)</td></tr>
 <tr class="memdesc:a2bfa7cbc6b7a337f516fe3d870f85769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decompress a compressed surface.  <a href="../../dd/da8/media__libva_8cpp.html#a2bfa7cbc6b7a337f516fe3d870f85769">More...</a><br /></td></tr>
 <tr class="separator:a2bfa7cbc6b7a337f516fe3d870f85769"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bb4dfd0b468c7aab5fa4296e4576ddb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#a2bb4dfd0b468c7aab5fa4296e4576ddb">FreeForMediaContext</a> (<a class="el" href="../../da/d28/media__libva__common_8h.html#af077198a12c225f80b87d2f1684c3172">PDDI_MEDIA_CONTEXT</a> mediaCtx)</td></tr>
@@ -422,13 +425,13 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aa8944b0fd1e9755920b0f967900d1b88"><td class="memItemLeft" align="right" valign="top">VAProcFilterType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#aa8944b0fd1e9755920b0f967900d1b88">vp_supported_filters</a> [<a class="el" href="../../d9/d62/media__libva_8h.html#a01d44ad0eb73409e4c01b95e6ab185ce">DDI_VP_MAX_NUM_FILTERS</a>]</td></tr>
+<tr class="memitem:aa8944b0fd1e9755920b0f967900d1b88"><td class="memItemLeft" align="right" valign="top">VAProcFilterType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#aa8944b0fd1e9755920b0f967900d1b88">vp_supported_filters</a> [<a class="el" href="../../da/d8d/ddi__vp__functions_8h.html#a01d44ad0eb73409e4c01b95e6ab185ce">DDI_VP_MAX_NUM_FILTERS</a>]</td></tr>
 <tr class="separator:aa8944b0fd1e9755920b0f967900d1b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a888e8cbf314340b2dbd386d7c77b950c"><td class="memItemLeft" align="right" valign="top">VAProcColorStandardType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#a888e8cbf314340b2dbd386d7c77b950c">vp_input_color_std</a> [<a class="el" href="../../d9/d62/media__libva_8h.html#ad59b2fc6d18bc4db88899ef29b4a956c">DDI_VP_NUM_INPUT_COLOR_STD</a>]</td></tr>
+<tr class="memitem:a888e8cbf314340b2dbd386d7c77b950c"><td class="memItemLeft" align="right" valign="top">VAProcColorStandardType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#a888e8cbf314340b2dbd386d7c77b950c">vp_input_color_std</a> [<a class="el" href="../../d3/df0/ddi__media__functions_8h.html#ad59b2fc6d18bc4db88899ef29b4a956c">DDI_VP_NUM_INPUT_COLOR_STD</a>]</td></tr>
 <tr class="separator:a888e8cbf314340b2dbd386d7c77b950c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d596454509cdedbb571214ecf37527b"><td class="memItemLeft" align="right" valign="top">VAProcColorStandardType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#a7d596454509cdedbb571214ecf37527b">vp_output_color_std</a> [<a class="el" href="../../d9/d62/media__libva_8h.html#a72b402c0569f277904bd59f194614aea">DDI_VP_NUM_OUT_COLOR_STD</a>]</td></tr>
+<tr class="memitem:a7d596454509cdedbb571214ecf37527b"><td class="memItemLeft" align="right" valign="top">VAProcColorStandardType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#a7d596454509cdedbb571214ecf37527b">vp_output_color_std</a> [<a class="el" href="../../d3/df0/ddi__media__functions_8h.html#a72b402c0569f277904bd59f194614aea">DDI_VP_NUM_OUT_COLOR_STD</a>]</td></tr>
 <tr class="separator:a7d596454509cdedbb571214ecf37527b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3408f3c3e850bebaaebbdedbb08497a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d28/media__libva__common_8h.html#a4dfcf71b24c4309b5830cd1c6ccb6f3c">MEDIA_MUTEX_T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#a3408f3c3e850bebaaebbdedbb08497a4">GlobalMutex</a> = <a class="el" href="../../da/d28/media__libva__common_8h.html#a2ff4163c82a28009853971947a049ab3">MEDIA_MUTEX_INITIALIZER</a></td></tr>
+<tr class="memitem:a3408f3c3e850bebaaebbdedbb08497a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/df3/media__libva__common__next_8h.html#a4dfcf71b24c4309b5830cd1c6ccb6f3c">MEDIA_MUTEX_T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/media__libva_8cpp.html#a3408f3c3e850bebaaebbdedbb08497a4">GlobalMutex</a> = <a class="el" href="../../d3/df3/media__libva__common__next_8h.html#a2ff4163c82a28009853971947a049ab3">MEDIA_MUTEX_INITIALIZER</a></td></tr>
 <tr class="separator:a3408f3c3e850bebaaebbdedbb08497a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -448,7 +451,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00066">66</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00077">77</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>
@@ -480,7 +483,7 @@ Variables</h2></td></tr>
 
 <p>Get VA_MAJOR_VERSION and VA_MINOR_VERSION from libva To form the function name in the format of <em>vaDriverInit</em>[VA_MAJOR_VERSION]_[VA_MINOR_VERSION]. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07473">7473</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07494">7494</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>
@@ -496,7 +499,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07475">7475</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07496">7496</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>
@@ -526,7 +529,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07474">7474</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07495">7495</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>
@@ -556,62 +559,62 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07460">7460</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07481">7481</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/da8/media__libva_8cpp_ae9014e1bab00040226807482945522b8_cgraph.png" border="0" usemap="#add/da8/media__libva_8cpp_ae9014e1bab00040226807482945522b8_cgraph" alt=""/></div>
 <map name="add/da8/media__libva_8cpp_ae9014e1bab00040226807482945522b8_cgraph" id="add/da8/media__libva_8cpp_ae9014e1bab00040226807482945522b8_cgraph">
-<area shape="rect" title="Init VA driver 0.31." alt="" coords="5,71,103,98"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="151,71,288,98"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a4c0acbfc0aaea245a56c7f7299403f3d" title="Get Device FD." alt="" coords="347,17,505,43"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a3f8359fbf39500f36d7423b750556ecf" title="Initialize Media Context." alt="" coords="336,71,516,98"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="347,1207,505,1234"/>
+<area shape="rect" title="Init VA driver 0.31." alt="" coords="5,99,103,126"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="151,99,288,126"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a4c0acbfc0aaea245a56c7f7299403f3d" title="Get Device FD." alt="" coords="347,15,505,42"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a3f8359fbf39500f36d7423b750556ecf" title="Initialize Media Context." alt="" coords="336,70,516,97"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="347,1186,505,1213"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#af8cad689a9794ecbac420820968aa72b" title="Load DDI function pointer." alt="" coords="359,121,493,163"/>
 <area shape="rect" href="../../d2/d46/media__libva__util_8cpp.html#ace51703b65bc0d06fcef6d247325dd0d" title="Open Intel&#39;s Graphics Device to get the file descriptor." alt="" coords="589,5,774,47"/>
 <area shape="rect" href="../../d2/d46/media__libva__util_8cpp.html#af39e3b7b10fc72c0d236cebf73490fcb" title="Lock mutex." alt="" coords="598,71,765,98"/>
-<area shape="rect" href="../../dc/da2/media__libva__encoder_8cpp.html#a30b3f7b5c02cc450c327d6b34e3a3953" title="MFE submit." alt="" coords="604,122,759,149"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a88a9892aa6d6b6a1587b61049d2fdbe7" title="Aquire buffer handle." alt="" coords="581,173,781,199"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee4b92775111c3a9a0757cc93ee82cd4" title="Add context." alt="" coords="585,223,778,250"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a41539c53dd3924c673d27d880f212928" title="Associate subpicture." alt="" coords="580,274,783,301"/>
-<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#a6912501cc13d2446fd41f22c99175433" title="Attach protected session to display or context." alt="" coords="569,325,793,367"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0082470dc5e9b05f26567daa14c75de4" title="Get ready to decode a picture to a target surface." alt="" coords="603,391,760,418"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab38e024d0a3547c2fa5db958aed909df" title="Check for buffer info." alt="" coords="613,442,749,469"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aa9fb13236c51fb743f2e12f990a35aea" title="Convey to the server how many valid elements are in the buffer." alt="" coords="572,493,791,519"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0dedfb7c6f142e3ae890071c4e7ba2fa" title="Create buffer." alt="" coords="604,543,759,570"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aea1ef1ffe77fb07511e2b49578e4fd89" title="Create a configuration for the encode/decode/vp pipeline." alt="" coords="603,594,760,621"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a57219c2a7ec277f902082d45ac099a5c" title="Create context." alt="" coords="598,645,765,671"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a07e8261495cfbc950013c3ef8d6172ff" title="Create an image." alt="" coords="603,695,759,722"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a19c935be79a4ed0c2a0f0da42c2d2169" title="Create Mfe Context." alt="" coords="588,747,775,788"/>
-<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ac668d443eb9e436723fc5dda7bb74689" title="Create protected session." alt="" coords="569,812,793,853"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ac5dfc5c4e972ed56d2f7562b13c7370b" title="Create subpicture." alt="" coords="590,878,773,905"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a6079f5a9491ffd6e9862a5b1a2117000" title="Create surfaces." alt="" coords="595,929,767,955"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a4e0799c3d9f9e93ad19cd3993ed04d10" title="Create surfaces2." alt="" coords="592,979,771,1006"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a15f6d5b6e9f6228d75ed8ca35261e4e8" title="Deassociate subpicture." alt="" coords="573,1030,790,1057"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a6e1172830448fec11febef2bb7a651fa" title="Derive image." alt="" coords="605,1081,758,1107"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae89594508033f97f837dae2dc1b203a7" title="Destroy buffer." alt="" coords="601,1131,762,1158"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0b018cb5c7ecf60e3042ff3909a9466f" title="Free resources associated with a given config." alt="" coords="599,1182,763,1209"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#afe49c010b81480571dc5d0dd853432f1" title="Destroy context." alt="" coords="595,1233,768,1259"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#af97e63cf6c952556246c8eb39f460c75" title="Free allocated surfaceheap elements." alt="" coords="600,1283,763,1310"/>
-<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ae48a537f4bbc934c78113c0538d1ba31" title="Destroy protected session." alt="" coords="566,1335,797,1376"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ac280bf01d23582d4173680e6c685a8dd" title="Destroy subpicture." alt="" coords="586,1401,777,1427"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aeacc43432056a7aabc8a64747b22730f" title="Destroy resources associated with surfaces." alt="" coords="592,1451,771,1478"/>
-<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#a6b887a3ae8960404b0b2dfb4b02df632" title="Detach protected session from display or context." alt="" coords="568,1503,795,1544"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aab87a77dd563bf28bb8747f7f253aa46" title="Make the end of rendering for a picture." alt="" coords="608,1569,755,1595"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a8b1956151c38967a3c140f1c438ae762" title="API for export surface handle to other component." alt="" coords="579,1619,784,1646"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a87f6005817a2c0e401a64fb88f7a9213" title="Get attributes for a given profile/entrypoint pair." alt="" coords="583,1670,779,1697"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab0314f1f62f6fd33a320500f921244fa" title="Get display attributes." alt="" coords="580,1721,783,1747"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2f90c44e9db2920418d2bbd78c715db3" title="Retrive surface data into a VAImage." alt="" coords="612,1771,751,1798"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#af0e8cb988f98f05b8e6904261a66700c" title="Get surface attributes for the supplied config." alt="" coords="579,1822,783,1849"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a9e07aa98a11c01b69e8afbd910d7fef1" title="Lock surface." alt="" coords="604,1873,759,1899"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab3f56e9ec7879b326ef4940e9e4339bc" title="Map buffer." alt="" coords="611,1923,752,1950"/>
-<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ae189e9edd536dcf2f5ffb9f1085a0eea" title="TEE execution for the particular protected session." alt="" coords="564,1975,799,2016"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a48789a225c318e0a4653eaad5b0cd770" title="Copy data from a VAImage to a surface." alt="" coords="612,2041,751,2067"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee41b06aaf8abfdc01d6c97ab355de54" title="Put surface." alt="" coords="608,2091,755,2118"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a74bd0e650a6eed1877e726f722f52220" title="Query all attributes for a given configuration." alt="" coords="576,2142,787,2169"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2222f6a6ea7f17459f2070f0733074b8" title="Query supported entrypoints for a given profile." alt="" coords="571,2193,791,2219"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a9f2c6be99cb53765b3b2afd2e0a35bc5" title="Query supported profiles." alt="" coords="583,2243,780,2270"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aa7943de265feec3d631c09897b98f394" title="Query display attributes." alt="" coords="573,2294,790,2321"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a00f9991669f42291f63c16457e089256" title="Query supported image formats." alt="" coords="581,2345,782,2371"/>
+<area shape="rect" href="../../dc/da2/media__libva__encoder_8cpp.html#a30b3f7b5c02cc450c327d6b34e3a3953" title="MFE submit." alt="" coords="604,126,759,153"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a88a9892aa6d6b6a1587b61049d2fdbe7" title="Aquire buffer handle." alt="" coords="581,177,781,203"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee4b92775111c3a9a0757cc93ee82cd4" title="Add context." alt="" coords="585,227,778,254"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a41539c53dd3924c673d27d880f212928" title="Associate subpicture." alt="" coords="580,278,783,305"/>
+<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#a6912501cc13d2446fd41f22c99175433" title="Attach protected session to display or context." alt="" coords="569,329,793,371"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0082470dc5e9b05f26567daa14c75de4" title="Get ready to decode a picture to a target surface." alt="" coords="603,395,760,422"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab38e024d0a3547c2fa5db958aed909df" title="Check for buffer info." alt="" coords="613,446,749,473"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aa9fb13236c51fb743f2e12f990a35aea" title="Convey to the server how many valid elements are in the buffer." alt="" coords="572,497,791,523"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0dedfb7c6f142e3ae890071c4e7ba2fa" title="Create buffer." alt="" coords="604,547,759,574"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aea1ef1ffe77fb07511e2b49578e4fd89" title="Create a configuration for the encode/decode/vp pipeline." alt="" coords="603,598,760,625"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a57219c2a7ec277f902082d45ac099a5c" title="Create context." alt="" coords="598,649,765,675"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a07e8261495cfbc950013c3ef8d6172ff" title="Create an image." alt="" coords="603,699,759,726"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a19c935be79a4ed0c2a0f0da42c2d2169" title="Create Mfe Context." alt="" coords="588,751,775,792"/>
+<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ac668d443eb9e436723fc5dda7bb74689" title="Create protected session." alt="" coords="569,816,793,857"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ac5dfc5c4e972ed56d2f7562b13c7370b" title="Create subpicture." alt="" coords="590,882,773,909"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a6079f5a9491ffd6e9862a5b1a2117000" title="Create surfaces." alt="" coords="595,933,767,959"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a4e0799c3d9f9e93ad19cd3993ed04d10" title="Create surfaces2." alt="" coords="592,983,771,1010"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a15f6d5b6e9f6228d75ed8ca35261e4e8" title="Deassociate subpicture." alt="" coords="573,1034,790,1061"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a6e1172830448fec11febef2bb7a651fa" title="Derive image." alt="" coords="605,1085,758,1111"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae89594508033f97f837dae2dc1b203a7" title="Destroy buffer." alt="" coords="601,1135,762,1162"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0b018cb5c7ecf60e3042ff3909a9466f" title="Free resources associated with a given config." alt="" coords="599,1186,763,1213"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#afe49c010b81480571dc5d0dd853432f1" title="Destroy context." alt="" coords="595,1237,768,1263"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#af97e63cf6c952556246c8eb39f460c75" title="Free allocated surfaceheap elements." alt="" coords="600,1287,763,1314"/>
+<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ae48a537f4bbc934c78113c0538d1ba31" title="Destroy protected session." alt="" coords="566,1339,797,1380"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ac280bf01d23582d4173680e6c685a8dd" title="Destroy subpicture." alt="" coords="586,1405,777,1431"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aeacc43432056a7aabc8a64747b22730f" title="Destroy resources associated with surfaces." alt="" coords="592,1455,771,1482"/>
+<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#a6b887a3ae8960404b0b2dfb4b02df632" title="Detach protected session from display or context." alt="" coords="568,1507,795,1548"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aab87a77dd563bf28bb8747f7f253aa46" title="Make the end of rendering for a picture." alt="" coords="608,1573,755,1599"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a8b1956151c38967a3c140f1c438ae762" title="API for export surface handle to other component." alt="" coords="579,1623,784,1650"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a87f6005817a2c0e401a64fb88f7a9213" title="Get attributes for a given profile/entrypoint pair." alt="" coords="583,1674,779,1701"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab0314f1f62f6fd33a320500f921244fa" title="Get display attributes." alt="" coords="580,1725,783,1751"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2f90c44e9db2920418d2bbd78c715db3" title="Retrive surface data into a VAImage." alt="" coords="612,1775,751,1802"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#af0e8cb988f98f05b8e6904261a66700c" title="Get surface attributes for the supplied config." alt="" coords="579,1826,783,1853"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a9e07aa98a11c01b69e8afbd910d7fef1" title="Lock surface." alt="" coords="604,1877,759,1903"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab3f56e9ec7879b326ef4940e9e4339bc" title="Map buffer." alt="" coords="611,1927,752,1954"/>
+<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ae189e9edd536dcf2f5ffb9f1085a0eea" title="TEE execution for the particular protected session." alt="" coords="564,1979,799,2020"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a48789a225c318e0a4653eaad5b0cd770" title="Copy data from a VAImage to a surface." alt="" coords="612,2045,751,2071"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee41b06aaf8abfdc01d6c97ab355de54" title="Put surface." alt="" coords="608,2095,755,2122"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a74bd0e650a6eed1877e726f722f52220" title="Query all attributes for a given configuration." alt="" coords="576,2146,787,2173"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2222f6a6ea7f17459f2070f0733074b8" title="Query supported entrypoints for a given profile." alt="" coords="571,2197,791,2223"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a9f2c6be99cb53765b3b2afd2e0a35bc5" title="Query supported profiles." alt="" coords="583,2247,780,2274"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aa7943de265feec3d631c09897b98f394" title="Query display attributes." alt="" coords="573,2298,790,2325"/>
 </map>
 </div>
 <div class="dynheader">
@@ -636,7 +639,7 @@ Here is the caller graph for this function:</div>
           <td class="memname">VAStatus DdiDestroyContextCM </td>
           <td>(</td>
           <td class="paramtype">VADriverContextP&#160;</td>
-          <td class="paramname"><em>vaDrvCtx</em>, </td>
+          <td class="paramname"><em>vaDriverCtx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -651,6 +654,9 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >\purpose: Free CM context \params [in] [out] None </p><dl class="section return"><dt>Returns</dt><dd>VA_STATUS_SUCCESS if call succeeds </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d46/media__libva__cm_8c_source.html#l00046">46</a> of file <a class="el" href="../../de/d46/media__libva__cm_8c_source.html">media_libva_cm.c</a>.</p>
 
 </div>
 </div>
@@ -697,62 +703,62 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01664">1664</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01674">1674</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/da8/media__libva_8cpp_a7c936e0d42e34369e8fdc18e5d37921e_cgraph.png" border="0" usemap="#add/da8/media__libva_8cpp_a7c936e0d42e34369e8fdc18e5d37921e_cgraph" alt=""/></div>
 <map name="add/da8/media__libva_8cpp_a7c936e0d42e34369e8fdc18e5d37921e_cgraph" id="add/da8/media__libva_8cpp_a7c936e0d42e34369e8fdc18e5d37921e_cgraph">
-<area shape="rect" title="Initialize." alt="" coords="5,71,143,98"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a4c0acbfc0aaea245a56c7f7299403f3d" title="Get Device FD." alt="" coords="201,17,360,43"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a3f8359fbf39500f36d7423b750556ecf" title="Initialize Media Context." alt="" coords="191,71,371,98"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="202,1233,359,1259"/>
+<area shape="rect" title="Initialize." alt="" coords="5,99,143,126"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a4c0acbfc0aaea245a56c7f7299403f3d" title="Get Device FD." alt="" coords="201,15,360,42"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a3f8359fbf39500f36d7423b750556ecf" title="Initialize Media Context." alt="" coords="191,70,371,97"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="202,1211,359,1238"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#af8cad689a9794ecbac420820968aa72b" title="Load DDI function pointer." alt="" coords="213,121,348,163"/>
 <area shape="rect" href="../../d2/d46/media__libva__util_8cpp.html#ace51703b65bc0d06fcef6d247325dd0d" title="Open Intel&#39;s Graphics Device to get the file descriptor." alt="" coords="443,5,629,47"/>
 <area shape="rect" href="../../d2/d46/media__libva__util_8cpp.html#af39e3b7b10fc72c0d236cebf73490fcb" title="Lock mutex." alt="" coords="453,71,619,98"/>
-<area shape="rect" href="../../dc/da2/media__libva__encoder_8cpp.html#a30b3f7b5c02cc450c327d6b34e3a3953" title="MFE submit." alt="" coords="459,122,613,149"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a88a9892aa6d6b6a1587b61049d2fdbe7" title="Aquire buffer handle." alt="" coords="436,173,636,199"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee4b92775111c3a9a0757cc93ee82cd4" title="Add context." alt="" coords="439,223,633,250"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a41539c53dd3924c673d27d880f212928" title="Associate subpicture." alt="" coords="435,274,637,301"/>
-<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#a6912501cc13d2446fd41f22c99175433" title="Attach protected session to display or context." alt="" coords="424,325,648,367"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0082470dc5e9b05f26567daa14c75de4" title="Get ready to decode a picture to a target surface." alt="" coords="457,391,615,418"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab38e024d0a3547c2fa5db958aed909df" title="Check for buffer info." alt="" coords="468,442,604,469"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aa9fb13236c51fb743f2e12f990a35aea" title="Convey to the server how many valid elements are in the buffer." alt="" coords="427,493,645,519"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0dedfb7c6f142e3ae890071c4e7ba2fa" title="Create buffer." alt="" coords="459,543,613,570"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aea1ef1ffe77fb07511e2b49578e4fd89" title="Create a configuration for the encode/decode/vp pipeline." alt="" coords="457,594,615,621"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a57219c2a7ec277f902082d45ac099a5c" title="Create context." alt="" coords="453,645,619,671"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a07e8261495cfbc950013c3ef8d6172ff" title="Create an image." alt="" coords="458,695,614,722"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a19c935be79a4ed0c2a0f0da42c2d2169" title="Create Mfe Context." alt="" coords="443,747,629,788"/>
-<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ac668d443eb9e436723fc5dda7bb74689" title="Create protected session." alt="" coords="424,812,648,853"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ac5dfc5c4e972ed56d2f7562b13c7370b" title="Create subpicture." alt="" coords="445,878,627,905"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a6079f5a9491ffd6e9862a5b1a2117000" title="Create surfaces." alt="" coords="450,929,622,955"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a4e0799c3d9f9e93ad19cd3993ed04d10" title="Create surfaces2." alt="" coords="447,979,625,1006"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a15f6d5b6e9f6228d75ed8ca35261e4e8" title="Deassociate subpicture." alt="" coords="427,1030,645,1057"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a6e1172830448fec11febef2bb7a651fa" title="Derive image." alt="" coords="459,1081,613,1107"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae89594508033f97f837dae2dc1b203a7" title="Destroy buffer." alt="" coords="455,1131,617,1158"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0b018cb5c7ecf60e3042ff3909a9466f" title="Free resources associated with a given config." alt="" coords="454,1182,618,1209"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#afe49c010b81480571dc5d0dd853432f1" title="Destroy context." alt="" coords="449,1233,623,1259"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#af97e63cf6c952556246c8eb39f460c75" title="Free allocated surfaceheap elements." alt="" coords="455,1283,617,1310"/>
-<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ae48a537f4bbc934c78113c0538d1ba31" title="Destroy protected session." alt="" coords="421,1335,651,1376"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ac280bf01d23582d4173680e6c685a8dd" title="Destroy subpicture." alt="" coords="441,1401,631,1427"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aeacc43432056a7aabc8a64747b22730f" title="Destroy resources associated with surfaces." alt="" coords="447,1451,625,1478"/>
-<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#a6b887a3ae8960404b0b2dfb4b02df632" title="Detach protected session from display or context." alt="" coords="423,1503,649,1544"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aab87a77dd563bf28bb8747f7f253aa46" title="Make the end of rendering for a picture." alt="" coords="463,1569,609,1595"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a8b1956151c38967a3c140f1c438ae762" title="API for export surface handle to other component." alt="" coords="433,1619,639,1646"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a87f6005817a2c0e401a64fb88f7a9213" title="Get attributes for a given profile/entrypoint pair." alt="" coords="438,1670,634,1697"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab0314f1f62f6fd33a320500f921244fa" title="Get display attributes." alt="" coords="435,1721,637,1747"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2f90c44e9db2920418d2bbd78c715db3" title="Retrive surface data into a VAImage." alt="" coords="467,1771,605,1798"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#af0e8cb988f98f05b8e6904261a66700c" title="Get surface attributes for the supplied config." alt="" coords="434,1822,638,1849"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a9e07aa98a11c01b69e8afbd910d7fef1" title="Lock surface." alt="" coords="459,1873,613,1899"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab3f56e9ec7879b326ef4940e9e4339bc" title="Map buffer." alt="" coords="465,1923,607,1950"/>
-<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ae189e9edd536dcf2f5ffb9f1085a0eea" title="TEE execution for the particular protected session." alt="" coords="419,1975,653,2016"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a48789a225c318e0a4653eaad5b0cd770" title="Copy data from a VAImage to a surface." alt="" coords="467,2041,605,2067"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee41b06aaf8abfdc01d6c97ab355de54" title="Put surface." alt="" coords="463,2091,609,2118"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a74bd0e650a6eed1877e726f722f52220" title="Query all attributes for a given configuration." alt="" coords="431,2142,641,2169"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2222f6a6ea7f17459f2070f0733074b8" title="Query supported entrypoints for a given profile." alt="" coords="426,2193,646,2219"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a9f2c6be99cb53765b3b2afd2e0a35bc5" title="Query supported profiles." alt="" coords="437,2243,635,2270"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aa7943de265feec3d631c09897b98f394" title="Query display attributes." alt="" coords="427,2294,645,2321"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a00f9991669f42291f63c16457e089256" title="Query supported image formats." alt="" coords="435,2345,637,2371"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a465f524cc3f8db9f36a02d948d2254a2" title="Query processing rate." alt="" coords="431,2395,641,2422"/>
+<area shape="rect" href="../../dc/da2/media__libva__encoder_8cpp.html#a30b3f7b5c02cc450c327d6b34e3a3953" title="MFE submit." alt="" coords="459,126,613,153"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a88a9892aa6d6b6a1587b61049d2fdbe7" title="Aquire buffer handle." alt="" coords="436,177,636,203"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee4b92775111c3a9a0757cc93ee82cd4" title="Add context." alt="" coords="439,227,633,254"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a41539c53dd3924c673d27d880f212928" title="Associate subpicture." alt="" coords="435,278,637,305"/>
+<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#a6912501cc13d2446fd41f22c99175433" title="Attach protected session to display or context." alt="" coords="424,329,648,371"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0082470dc5e9b05f26567daa14c75de4" title="Get ready to decode a picture to a target surface." alt="" coords="457,395,615,422"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab38e024d0a3547c2fa5db958aed909df" title="Check for buffer info." alt="" coords="468,446,604,473"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aa9fb13236c51fb743f2e12f990a35aea" title="Convey to the server how many valid elements are in the buffer." alt="" coords="427,497,645,523"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0dedfb7c6f142e3ae890071c4e7ba2fa" title="Create buffer." alt="" coords="459,547,613,574"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aea1ef1ffe77fb07511e2b49578e4fd89" title="Create a configuration for the encode/decode/vp pipeline." alt="" coords="457,598,615,625"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a57219c2a7ec277f902082d45ac099a5c" title="Create context." alt="" coords="453,649,619,675"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a07e8261495cfbc950013c3ef8d6172ff" title="Create an image." alt="" coords="458,699,614,726"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a19c935be79a4ed0c2a0f0da42c2d2169" title="Create Mfe Context." alt="" coords="443,751,629,792"/>
+<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ac668d443eb9e436723fc5dda7bb74689" title="Create protected session." alt="" coords="424,816,648,857"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ac5dfc5c4e972ed56d2f7562b13c7370b" title="Create subpicture." alt="" coords="445,882,627,909"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a6079f5a9491ffd6e9862a5b1a2117000" title="Create surfaces." alt="" coords="450,933,622,959"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a4e0799c3d9f9e93ad19cd3993ed04d10" title="Create surfaces2." alt="" coords="447,983,625,1010"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a15f6d5b6e9f6228d75ed8ca35261e4e8" title="Deassociate subpicture." alt="" coords="427,1034,645,1061"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a6e1172830448fec11febef2bb7a651fa" title="Derive image." alt="" coords="459,1085,613,1111"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae89594508033f97f837dae2dc1b203a7" title="Destroy buffer." alt="" coords="455,1135,617,1162"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0b018cb5c7ecf60e3042ff3909a9466f" title="Free resources associated with a given config." alt="" coords="454,1186,618,1213"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#afe49c010b81480571dc5d0dd853432f1" title="Destroy context." alt="" coords="449,1237,623,1263"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#af97e63cf6c952556246c8eb39f460c75" title="Free allocated surfaceheap elements." alt="" coords="455,1287,617,1314"/>
+<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ae48a537f4bbc934c78113c0538d1ba31" title="Destroy protected session." alt="" coords="421,1339,651,1380"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ac280bf01d23582d4173680e6c685a8dd" title="Destroy subpicture." alt="" coords="441,1405,631,1431"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aeacc43432056a7aabc8a64747b22730f" title="Destroy resources associated with surfaces." alt="" coords="447,1455,625,1482"/>
+<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#a6b887a3ae8960404b0b2dfb4b02df632" title="Detach protected session from display or context." alt="" coords="423,1507,649,1548"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aab87a77dd563bf28bb8747f7f253aa46" title="Make the end of rendering for a picture." alt="" coords="463,1573,609,1599"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a8b1956151c38967a3c140f1c438ae762" title="API for export surface handle to other component." alt="" coords="433,1623,639,1650"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a87f6005817a2c0e401a64fb88f7a9213" title="Get attributes for a given profile/entrypoint pair." alt="" coords="438,1674,634,1701"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab0314f1f62f6fd33a320500f921244fa" title="Get display attributes." alt="" coords="435,1725,637,1751"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2f90c44e9db2920418d2bbd78c715db3" title="Retrive surface data into a VAImage." alt="" coords="467,1775,605,1802"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#af0e8cb988f98f05b8e6904261a66700c" title="Get surface attributes for the supplied config." alt="" coords="434,1826,638,1853"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a9e07aa98a11c01b69e8afbd910d7fef1" title="Lock surface." alt="" coords="459,1877,613,1903"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab3f56e9ec7879b326ef4940e9e4339bc" title="Map buffer." alt="" coords="465,1927,607,1954"/>
+<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ae189e9edd536dcf2f5ffb9f1085a0eea" title="TEE execution for the particular protected session." alt="" coords="419,1979,653,2020"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a48789a225c318e0a4653eaad5b0cd770" title="Copy data from a VAImage to a surface." alt="" coords="467,2045,605,2071"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee41b06aaf8abfdc01d6c97ab355de54" title="Put surface." alt="" coords="463,2095,609,2122"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a74bd0e650a6eed1877e726f722f52220" title="Query all attributes for a given configuration." alt="" coords="431,2146,641,2173"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2222f6a6ea7f17459f2070f0733074b8" title="Query supported entrypoints for a given profile." alt="" coords="426,2197,646,2223"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a9f2c6be99cb53765b3b2afd2e0a35bc5" title="Query supported profiles." alt="" coords="437,2247,635,2274"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aa7943de265feec3d631c09897b98f394" title="Query display attributes." alt="" coords="427,2298,645,2325"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a00f9991669f42291f63c16457e089256" title="Query supported image formats." alt="" coords="435,2349,637,2375"/>
 </map>
 </div>
 <div class="dynheader">
@@ -811,7 +817,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06784">6784</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06781">6781</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -870,17 +876,19 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03049">3049</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03059">3059</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/da8/media__libva_8cpp_aee4b92775111c3a9a0757cc93ee82cd4_icgraph.png" border="0" usemap="#add/da8/media__libva_8cpp_aee4b92775111c3a9a0757cc93ee82cd4_icgraph" alt=""/></div>
 <map name="add/da8/media__libva_8cpp_aee4b92775111c3a9a0757cc93ee82cd4_icgraph" id="add/da8/media__libva_8cpp_aee4b92775111c3a9a0757cc93ee82cd4_icgraph">
-<area shape="rect" title="Add context." alt="" coords="771,5,964,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="565,5,723,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,5,517,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,5,332,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,5,187,32"/>
+<area shape="rect" title="Add context." alt="" coords="959,42,1152,69"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#a4e9e27f9d863267604d3243b31f0dd7c" title="Add context." alt="" coords="771,5,911,47"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="565,71,723,98"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#af8cad689a9794ecbac420820968aa72b" title="Load DDI function pointer." alt="" coords="577,5,711,47"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,42,517,69"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,42,332,69"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,42,187,69"/>
 </map>
 </div>
 
@@ -999,7 +1007,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_ERROR_UNIMPLEMENTED </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05939">5939</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05936">5936</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1058,7 +1066,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03934">3934</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03945">3945</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1131,7 +1139,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06345">6345</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06342">6342</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1191,7 +1199,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03302">3302</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03312">3312</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1232,7 +1240,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02193">2193</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02202">2202</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>
@@ -1286,7 +1294,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06152">6152</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06149">6149</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>
@@ -1361,7 +1369,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03250">3250</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03260">3260</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1442,7 +1450,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02400">2400</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02407">2407</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1536,7 +1544,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03170">3170</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03180">3180</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1609,7 +1617,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04556">4556</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04587">4587</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1661,17 +1669,19 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02962">2962</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02972">2972</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/da8/media__libva_8cpp_a19c935be79a4ed0c2a0f0da42c2d2169_icgraph.png" border="0" usemap="#add/da8/media__libva_8cpp_a19c935be79a4ed0c2a0f0da42c2d2169_icgraph" alt=""/></div>
 <map name="add/da8/media__libva_8cpp_a19c935be79a4ed0c2a0f0da42c2d2169_icgraph" id="add/da8/media__libva_8cpp_a19c935be79a4ed0c2a0f0da42c2d2169_icgraph">
-<area shape="rect" title="Create Mfe Context." alt="" coords="771,5,957,47"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="565,13,723,39"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,13,517,39"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,13,332,39"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,13,187,39"/>
+<area shape="rect" title="Create Mfe Context." alt="" coords="995,35,1181,76"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#a71b2a27ce4226a0bcc231cae56c0ef2b" title="Create Mfe Context." alt="" coords="771,5,947,47"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="565,71,723,98"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#af8cad689a9794ecbac420820968aa72b" title="Load DDI function pointer." alt="" coords="577,5,711,47"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,42,517,69"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,42,332,69"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,42,187,69"/>
 </map>
 </div>
 
@@ -1720,7 +1730,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_ERROR_UNIMPLEMENTED </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05776">5776</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05773">5773</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1800,7 +1810,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02458">2458</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02465">2465</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1894,7 +1904,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02591">2591</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02601">2601</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1960,7 +1970,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_ERROR_UNIMPLEMENTED </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05993">5993</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05990">5990</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2019,7 +2029,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04788">4788</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04819">4819</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2071,7 +2081,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03744">3744</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03755">3755</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2123,7 +2133,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02422">2422</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02429">2429</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2175,7 +2185,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03222">3222</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03232">3232</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2239,7 +2249,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05095">5095</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05126">5126</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2291,7 +2301,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool True if destroy image from VA image ID, else fail </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01039">1039</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01049">1049</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2342,7 +2352,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_ERROR_UNIMPLEMENTED </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05802">5802</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05799">5799</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2402,7 +2412,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02508">2508</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02515">2515</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2454,7 +2464,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04024">4024</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04035">4035</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2473,7 +2483,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="../../df/dc7/class_ddi_media_decode.html#a695cef291e4c2d69be5a7daf2513b71e" title="Use EU path to do the scaling." alt="" coords="697,57,887,98"/>
 <area shape="rect" href="../../df/dc7/class_ddi_media_decode.html#a5c3e928d83163ccf7cc7e8fda5d9a80b" title="Init Params setting of EndPicture Function." alt="" coords="697,122,887,163"/>
 <area shape="rect" href="../../df/dc7/class_ddi_media_decode.html#a3aebeef057e3c3358ec8d23caf868775" title="Init dummy reference." alt="" coords="697,187,887,229"/>
-<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#ad8fe9d7f3e3f91b2638275c8851aee6d" title="Get Resource Information." alt="" coords="961,220,1164,247"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#a7aeb3279215d91b637272d2549f85625" title="Get Resource Information." alt="" coords="961,220,1164,247"/>
 <area shape="rect" href="../../df/dc7/class_ddi_media_decode.html#a0444d0f76a3733411eb7c2cbdc9dff33" title="Report decode mode." alt="" coords="671,304,913,331"/>
 <area shape="rect" href="../../df/dc7/class_ddi_media_decode.html#a9ed6afcaa186cd0686a57b8da7c02d99" title="Set common decode param setting for each codec." alt="" coords="696,355,888,397"/>
 <area shape="rect" href="../../dd/dab/media__libva__common_8cpp.html#af0abdf2326b439d693f70d8c3c4304bc" title="Media surface to mos resource." alt="" coords="962,297,1163,338"/>
@@ -2558,7 +2568,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07178">7178</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07194">7194</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2617,7 +2627,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07504">7504</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07525">7525</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>
@@ -2679,7 +2689,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02438">2438</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02445">2445</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2731,7 +2741,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void* Pointer to buffer heap element context </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00986">986</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00996">996</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2781,7 +2791,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>uint32_t </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01012">1012</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01022">1022</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2831,7 +2841,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01558">1558</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01568">1568</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2899,7 +2909,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_ERROR_UNIMPLEMENTED </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06056">6056</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06053">6053</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3045,14 +3055,15 @@ Here is the caller graph for this function:</div>
 <p >This function retrieves the surface attributes matching the supplied config. The caller shall provide an <code>attrib_list</code> with all attributes to be retrieved. Upon successful return, the attributes in <code>attrib_list</code> are updated with the requested value. Unknown attributes or attributes that are not supported for the given config will have their <code>flags</code> field set to <code>VA_SURFACE_ATTRIB_NOT_SUPPORTED</code>.</p>
 <p >param[in] ctx the VA display param[in] config the config identifying a codec or a video processing pipeline param[out] attrib_list the list of attributes on output, with at least <code>type</code> fields filled in, and possibly <code>value</code> fields whenever necessary.The updated list of attributes and flags on output param[in] num_attribs the number of attributes supplied in the <code>attrib_list</code> array </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06752">6752</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06749">6749</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/da8/media__libva_8cpp_af0e8cb988f98f05b8e6904261a66700c_icgraph.png" border="0" usemap="#add/da8/media__libva_8cpp_af0e8cb988f98f05b8e6904261a66700c_icgraph" alt=""/></div>
 <map name="add/da8/media__libva_8cpp_af0e8cb988f98f05b8e6904261a66700c_icgraph" id="add/da8/media__libva_8cpp_af0e8cb988f98f05b8e6904261a66700c_icgraph">
-<area shape="rect" title="Get surface attributes for the supplied config." alt="" coords="771,5,975,32"/>
+<area shape="rect" title="Get surface attributes for the supplied config." alt="" coords="771,35,975,61"/>
 <area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="565,5,723,32"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#a2c1859014797fd845305f27a4835da42" title="Get surface attributes for the supplied config." alt="" coords="569,57,719,98"/>
 <area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,5,517,32"/>
 <area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,5,332,32"/>
 <area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,5,187,32"/>
@@ -3097,7 +3108,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAImage* Pointer to VAImage </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00960">960</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00970">970</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3168,7 +3179,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00341">341</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00345">345</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>
@@ -3230,7 +3241,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01722">1722</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01732">1732</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3279,7 +3290,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02081">2081</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02090">2090</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3393,7 +3404,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06408">6408</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06405">6405</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3452,7 +3463,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03636">3636</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03647">3647</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3527,7 +3538,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07559">7559</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07580">7580</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3590,7 +3601,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03357">3357</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03367">3367</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3617,7 +3628,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">int32_t DdiMedia_MediaFormatToOsFormat </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d28/media__libva__common_8h.html#ad693e89f585b14e91e8795758b096fb7">DDI_MEDIA_FORMAT</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d3/df3/media__libva__common__next_8h.html#ad693e89f585b14e91e8795758b096fb7">DDI_MEDIA_FORMAT</a>&#160;</td>
           <td class="paramname"><em>format</em></td><td>)</td>
           <td></td>
         </tr>
@@ -3633,7 +3644,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Os format if call sucesss,else VA_STATUS_ERROR_UNSUPPORTED_RT_FORMAT if fail </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00394">394</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00398">398</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>
@@ -3652,7 +3663,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d28/media__libva__common_8h.html#ae2f6cd075fa66c302183294fbf78f001">DDI_MEDIA_SURFACE</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d3/df0/ddi__media__functions_8h.html#ae2f6cd075fa66c302183294fbf78f001">DDI_MEDIA_SURFACE</a> *&#160;</td>
           <td class="paramname"><em>mediaSurface</em>&#160;</td>
         </tr>
         <tr>
@@ -3673,7 +3684,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01274">1274</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01284">1284</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3699,7 +3710,7 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d28/media__libva__common_8h.html#ad693e89f585b14e91e8795758b096fb7">DDI_MEDIA_FORMAT</a> DdiMedia_OsFormatToMediaFormat </td>
+          <td class="memname"><a class="el" href="../../d3/df3/media__libva__common__next_8h.html#ad693e89f585b14e91e8795758b096fb7">DDI_MEDIA_FORMAT</a> DdiMedia_OsFormatToMediaFormat </td>
           <td>(</td>
           <td class="paramtype">int32_t&#160;</td>
           <td class="paramname"><em>fourcc</em>, </td>
@@ -3728,7 +3739,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>DDI_MEDIA_FORMAT Ddi media format </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00511">511</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00515">515</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>
@@ -3968,7 +3979,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04489">4489</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04520">4520</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4049,7 +4060,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02376">2376</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02383">2383</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4116,7 +4127,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02334">2334</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02341">2341</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4176,7 +4187,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02357">2357</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02364">2364</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4235,7 +4246,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06023">6023</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06020">6020</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4295,7 +4306,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04542">4542</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04573">4573</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4361,17 +4372,19 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06118">6118</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06115">6115</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/da8/media__libva_8cpp_a465f524cc3f8db9f36a02d948d2254a2_icgraph.png" border="0" usemap="#add/da8/media__libva_8cpp_a465f524cc3f8db9f36a02d948d2254a2_icgraph" alt=""/></div>
 <map name="add/da8/media__libva_8cpp_a465f524cc3f8db9f36a02d948d2254a2_icgraph" id="add/da8/media__libva_8cpp_a465f524cc3f8db9f36a02d948d2254a2_icgraph">
-<area shape="rect" title="Query processing rate." alt="" coords="771,5,981,32"/>
+<area shape="rect" title="Query processing rate." alt="" coords="976,35,1187,61"/>
 <area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="565,5,723,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,5,517,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,5,332,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,5,187,32"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#ace22ad8bb9886848e6f7b20012c1825e" title="Query processing rate." alt="" coords="771,57,928,98"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,35,517,61"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,35,332,61"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,35,187,61"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#af8cad689a9794ecbac420820968aa72b" title="Load DDI function pointer." alt="" coords="577,57,711,98"/>
 </map>
 </div>
 
@@ -4427,7 +4440,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05745">5745</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05742">5742</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4493,7 +4506,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04469">4469</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04500">4500</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4559,17 +4572,19 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04386">4386</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04397">4397</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/da8/media__libva_8cpp_a6e236954640ad67872b9b698a79f1035_icgraph.png" border="0" usemap="#add/da8/media__libva_8cpp_a6e236954640ad67872b9b698a79f1035_icgraph" alt=""/></div>
 <map name="add/da8/media__libva_8cpp_a6e236954640ad67872b9b698a79f1035_icgraph" id="add/da8/media__libva_8cpp_a6e236954640ad67872b9b698a79f1035_icgraph">
-<area shape="rect" title="Report MB error info." alt="" coords="771,5,961,32"/>
+<area shape="rect" title="Report MB error info." alt="" coords="956,35,1147,61"/>
 <area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="565,5,723,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,5,517,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,5,332,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,5,187,32"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#a07eb20c22f7516713c4eb209547b5a92" title="Report MB error info." alt="" coords="771,57,908,98"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,35,517,61"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,35,332,61"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,35,187,61"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#af8cad689a9794ecbac420820968aa72b" title="Load DDI function pointer." alt="" coords="577,57,711,98"/>
 </map>
 </div>
 
@@ -4618,7 +4633,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04337">4337</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04348">4348</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4691,7 +4706,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06624">6624</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06621">6621</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -4766,7 +4781,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06563">6563</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06560">6560</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -4848,7 +4863,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06655">6655</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06652">6652</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4900,7 +4915,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06875">6875</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06872">6872</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4959,17 +4974,19 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03123">3123</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03133">3133</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/da8/media__libva_8cpp_af1bb087fc49ea3ff099e1007473718c4_icgraph.png" border="0" usemap="#add/da8/media__libva_8cpp_af1bb087fc49ea3ff099e1007473718c4_icgraph" alt=""/></div>
 <map name="add/da8/media__libva_8cpp_af1bb087fc49ea3ff099e1007473718c4_icgraph" id="add/da8/media__libva_8cpp_af1bb087fc49ea3ff099e1007473718c4_icgraph">
-<area shape="rect" title="Release context." alt="" coords="771,5,988,32"/>
+<area shape="rect" title="Release context." alt="" coords="983,35,1200,61"/>
 <area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="565,5,723,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,5,517,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,5,332,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,5,187,32"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#a3d4d0cc62b9fa8bb79b0262dd86e776e" title="Release context." alt="" coords="771,57,935,98"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,35,517,61"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,35,332,61"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,35,187,61"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#af8cad689a9794ecbac420820968aa72b" title="Load DDI function pointer." alt="" coords="577,57,711,98"/>
 </map>
 </div>
 
@@ -5025,7 +5042,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03981">3981</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03992">3992</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5085,7 +5102,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_ERROR_UNIMPLEMENTED </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06088">6088</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06085">6085</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5144,7 +5161,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00365">365</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00369">369</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>
@@ -5191,7 +5208,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_ERROR_UNIMPLEMENTED if call success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05136">5136</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05167">5167</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5264,7 +5281,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_ERROR_UNIMPLEMENTED </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05860">5860</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05857">5857</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5323,7 +5340,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_ERROR_UNIMPLEMENTED </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05891">5891</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05888">5888</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5382,7 +5399,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_ERROR_UNIMPLEMENTED </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05828">5828</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05825">5825</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5434,7 +5451,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04159">4159</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l04170">4170</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5475,17 +5492,19 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02209">2209</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l02218">2218</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/da8/media__libva_8cpp_a5cb6eaa8ceef8fd5403bf01f725d4dde_icgraph.png" border="0" usemap="#add/da8/media__libva_8cpp_a5cb6eaa8ceef8fd5403bf01f725d4dde_icgraph" alt=""/></div>
 <map name="add/da8/media__libva_8cpp_a5cb6eaa8ceef8fd5403bf01f725d4dde_icgraph" id="add/da8/media__libva_8cpp_a5cb6eaa8ceef8fd5403bf01f725d4dde_icgraph">
-<area shape="rect" title="clean up all library internal resources" alt="" coords="771,5,911,32"/>
+<area shape="rect" title="clean up all library internal resources" alt="" coords="953,35,1093,61"/>
 <area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="565,5,723,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,5,517,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,5,332,32"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,5,187,32"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#a71cbe8c43414b69539997075b69e4c9f" title="clean up all library internal resources" alt="" coords="771,57,905,98"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,35,517,61"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,35,332,61"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,35,187,61"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#af8cad689a9794ecbac420820968aa72b" title="Load DDI function pointer." alt="" coords="577,57,711,98"/>
 </map>
 </div>
 
@@ -5527,7 +5546,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06505">6505</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l06502">6502</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5579,7 +5598,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03645">3645</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l03656">3656</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5611,7 +5630,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01540">1540</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01550">1550</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -5648,7 +5667,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01517">1517</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01527">1527</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -5713,7 +5732,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05150">5150</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l05181">5181</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>
@@ -5742,62 +5761,62 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>VAStatus VA_STATUS_SUCCESS if success, else fail reason </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07486">7486</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l07507">7507</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/da8/media__libva_8cpp_a2cba1eba951b4e52d4c5041d45721b6c_cgraph.png" border="0" usemap="#add/da8/media__libva_8cpp_a2cba1eba951b4e52d4c5041d45721b6c_cgraph" alt=""/></div>
 <map name="add/da8/media__libva_8cpp_a2cba1eba951b4e52d4c5041d45721b6c_cgraph" id="add/da8/media__libva_8cpp_a2cba1eba951b4e52d4c5041d45721b6c_cgraph">
-<area shape="rect" title="VA driver init function name." alt="" coords="5,71,187,98"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,71,332,98"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,71,517,98"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a4c0acbfc0aaea245a56c7f7299403f3d" title="Get Device FD." alt="" coords="576,17,735,43"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a3f8359fbf39500f36d7423b750556ecf" title="Initialize Media Context." alt="" coords="565,71,745,98"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="577,1182,734,1209"/>
+<area shape="rect" title="VA driver init function name." alt="" coords="5,99,187,126"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,99,332,126"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,99,517,126"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a4c0acbfc0aaea245a56c7f7299403f3d" title="Get Device FD." alt="" coords="576,15,735,42"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a3f8359fbf39500f36d7423b750556ecf" title="Initialize Media Context." alt="" coords="565,70,745,97"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="577,1161,734,1187"/>
+<area shape="rect" href="../../d0/df7/class_media_libva_interface.html#af8cad689a9794ecbac420820968aa72b" title="Load DDI function pointer." alt="" coords="588,121,723,163"/>
 <area shape="rect" href="../../d2/d46/media__libva__util_8cpp.html#ace51703b65bc0d06fcef6d247325dd0d" title="Open Intel&#39;s Graphics Device to get the file descriptor." alt="" coords="818,5,1003,47"/>
 <area shape="rect" href="../../d2/d46/media__libva__util_8cpp.html#af39e3b7b10fc72c0d236cebf73490fcb" title="Lock mutex." alt="" coords="827,71,994,98"/>
-<area shape="rect" href="../../dc/da2/media__libva__encoder_8cpp.html#a30b3f7b5c02cc450c327d6b34e3a3953" title="MFE submit." alt="" coords="833,122,988,149"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a88a9892aa6d6b6a1587b61049d2fdbe7" title="Aquire buffer handle." alt="" coords="811,173,1011,199"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee4b92775111c3a9a0757cc93ee82cd4" title="Add context." alt="" coords="814,223,1007,250"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a41539c53dd3924c673d27d880f212928" title="Associate subpicture." alt="" coords="809,274,1012,301"/>
-<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#a6912501cc13d2446fd41f22c99175433" title="Attach protected session to display or context." alt="" coords="799,325,1023,367"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0082470dc5e9b05f26567daa14c75de4" title="Get ready to decode a picture to a target surface." alt="" coords="832,391,989,418"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab38e024d0a3547c2fa5db958aed909df" title="Check for buffer info." alt="" coords="843,442,979,469"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aa9fb13236c51fb743f2e12f990a35aea" title="Convey to the server how many valid elements are in the buffer." alt="" coords="801,493,1020,519"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0dedfb7c6f142e3ae890071c4e7ba2fa" title="Create buffer." alt="" coords="833,543,988,570"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aea1ef1ffe77fb07511e2b49578e4fd89" title="Create a configuration for the encode/decode/vp pipeline." alt="" coords="832,594,989,621"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a57219c2a7ec277f902082d45ac099a5c" title="Create context." alt="" coords="827,645,994,671"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a07e8261495cfbc950013c3ef8d6172ff" title="Create an image." alt="" coords="833,695,989,722"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a19c935be79a4ed0c2a0f0da42c2d2169" title="Create Mfe Context." alt="" coords="817,747,1004,788"/>
-<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ac668d443eb9e436723fc5dda7bb74689" title="Create protected session." alt="" coords="799,812,1023,853"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ac5dfc5c4e972ed56d2f7562b13c7370b" title="Create subpicture." alt="" coords="819,878,1002,905"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a6079f5a9491ffd6e9862a5b1a2117000" title="Create surfaces." alt="" coords="825,929,997,955"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a4e0799c3d9f9e93ad19cd3993ed04d10" title="Create surfaces2." alt="" coords="821,979,1000,1006"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a15f6d5b6e9f6228d75ed8ca35261e4e8" title="Deassociate subpicture." alt="" coords="802,1030,1019,1057"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a6e1172830448fec11febef2bb7a651fa" title="Derive image." alt="" coords="834,1081,987,1107"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae89594508033f97f837dae2dc1b203a7" title="Destroy buffer." alt="" coords="830,1131,991,1158"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0b018cb5c7ecf60e3042ff3909a9466f" title="Free resources associated with a given config." alt="" coords="829,1182,993,1209"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#afe49c010b81480571dc5d0dd853432f1" title="Destroy context." alt="" coords="824,1233,997,1259"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#af97e63cf6c952556246c8eb39f460c75" title="Free allocated surfaceheap elements." alt="" coords="829,1283,992,1310"/>
-<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ae48a537f4bbc934c78113c0538d1ba31" title="Destroy protected session." alt="" coords="795,1335,1026,1376"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ac280bf01d23582d4173680e6c685a8dd" title="Destroy subpicture." alt="" coords="815,1401,1006,1427"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aeacc43432056a7aabc8a64747b22730f" title="Destroy resources associated with surfaces." alt="" coords="821,1451,1000,1478"/>
-<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#a6b887a3ae8960404b0b2dfb4b02df632" title="Detach protected session from display or context." alt="" coords="797,1503,1024,1544"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aab87a77dd563bf28bb8747f7f253aa46" title="Make the end of rendering for a picture." alt="" coords="837,1569,984,1595"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a8b1956151c38967a3c140f1c438ae762" title="API for export surface handle to other component." alt="" coords="808,1619,1013,1646"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a87f6005817a2c0e401a64fb88f7a9213" title="Get attributes for a given profile/entrypoint pair." alt="" coords="813,1670,1009,1697"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab0314f1f62f6fd33a320500f921244fa" title="Get display attributes." alt="" coords="809,1721,1012,1747"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2f90c44e9db2920418d2bbd78c715db3" title="Retrive surface data into a VAImage." alt="" coords="841,1771,980,1798"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#af0e8cb988f98f05b8e6904261a66700c" title="Get surface attributes for the supplied config." alt="" coords="809,1822,1013,1849"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a9e07aa98a11c01b69e8afbd910d7fef1" title="Lock surface." alt="" coords="833,1873,988,1899"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab3f56e9ec7879b326ef4940e9e4339bc" title="Map buffer." alt="" coords="840,1923,981,1950"/>
-<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ae189e9edd536dcf2f5ffb9f1085a0eea" title="TEE execution for the particular protected session." alt="" coords="793,1975,1028,2016"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a48789a225c318e0a4653eaad5b0cd770" title="Copy data from a VAImage to a surface." alt="" coords="841,2041,980,2067"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee41b06aaf8abfdc01d6c97ab355de54" title="Put surface." alt="" coords="837,2091,984,2118"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a74bd0e650a6eed1877e726f722f52220" title="Query all attributes for a given configuration." alt="" coords="805,2142,1016,2169"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2222f6a6ea7f17459f2070f0733074b8" title="Query supported entrypoints for a given profile." alt="" coords="801,2193,1021,2219"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a9f2c6be99cb53765b3b2afd2e0a35bc5" title="Query supported profiles." alt="" coords="812,2243,1009,2270"/>
-<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aa7943de265feec3d631c09897b98f394" title="Query display attributes." alt="" coords="802,2294,1019,2321"/>
+<area shape="rect" href="../../dc/da2/media__libva__encoder_8cpp.html#a30b3f7b5c02cc450c327d6b34e3a3953" title="MFE submit." alt="" coords="833,126,988,153"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a88a9892aa6d6b6a1587b61049d2fdbe7" title="Aquire buffer handle." alt="" coords="811,177,1011,203"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee4b92775111c3a9a0757cc93ee82cd4" title="Add context." alt="" coords="814,227,1007,254"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a41539c53dd3924c673d27d880f212928" title="Associate subpicture." alt="" coords="809,278,1012,305"/>
+<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#a6912501cc13d2446fd41f22c99175433" title="Attach protected session to display or context." alt="" coords="799,329,1023,371"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0082470dc5e9b05f26567daa14c75de4" title="Get ready to decode a picture to a target surface." alt="" coords="832,395,989,422"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab38e024d0a3547c2fa5db958aed909df" title="Check for buffer info." alt="" coords="843,446,979,473"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aa9fb13236c51fb743f2e12f990a35aea" title="Convey to the server how many valid elements are in the buffer." alt="" coords="801,497,1020,523"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0dedfb7c6f142e3ae890071c4e7ba2fa" title="Create buffer." alt="" coords="833,547,988,574"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aea1ef1ffe77fb07511e2b49578e4fd89" title="Create a configuration for the encode/decode/vp pipeline." alt="" coords="832,598,989,625"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a57219c2a7ec277f902082d45ac099a5c" title="Create context." alt="" coords="827,649,994,675"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a07e8261495cfbc950013c3ef8d6172ff" title="Create an image." alt="" coords="833,699,989,726"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a19c935be79a4ed0c2a0f0da42c2d2169" title="Create Mfe Context." alt="" coords="817,751,1004,792"/>
+<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ac668d443eb9e436723fc5dda7bb74689" title="Create protected session." alt="" coords="799,816,1023,857"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ac5dfc5c4e972ed56d2f7562b13c7370b" title="Create subpicture." alt="" coords="819,882,1002,909"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a6079f5a9491ffd6e9862a5b1a2117000" title="Create surfaces." alt="" coords="825,933,997,959"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a4e0799c3d9f9e93ad19cd3993ed04d10" title="Create surfaces2." alt="" coords="821,983,1000,1010"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a15f6d5b6e9f6228d75ed8ca35261e4e8" title="Deassociate subpicture." alt="" coords="802,1034,1019,1061"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a6e1172830448fec11febef2bb7a651fa" title="Derive image." alt="" coords="834,1085,987,1111"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ae89594508033f97f837dae2dc1b203a7" title="Destroy buffer." alt="" coords="830,1135,991,1162"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a0b018cb5c7ecf60e3042ff3909a9466f" title="Free resources associated with a given config." alt="" coords="829,1186,993,1213"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#afe49c010b81480571dc5d0dd853432f1" title="Destroy context." alt="" coords="824,1237,997,1263"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#af97e63cf6c952556246c8eb39f460c75" title="Free allocated surfaceheap elements." alt="" coords="829,1287,992,1314"/>
+<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ae48a537f4bbc934c78113c0538d1ba31" title="Destroy protected session." alt="" coords="795,1339,1026,1380"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ac280bf01d23582d4173680e6c685a8dd" title="Destroy subpicture." alt="" coords="815,1405,1006,1431"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aeacc43432056a7aabc8a64747b22730f" title="Destroy resources associated with surfaces." alt="" coords="821,1455,1000,1482"/>
+<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#a6b887a3ae8960404b0b2dfb4b02df632" title="Detach protected session from display or context." alt="" coords="797,1507,1024,1548"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aab87a77dd563bf28bb8747f7f253aa46" title="Make the end of rendering for a picture." alt="" coords="837,1573,984,1599"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a8b1956151c38967a3c140f1c438ae762" title="API for export surface handle to other component." alt="" coords="808,1623,1013,1650"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a87f6005817a2c0e401a64fb88f7a9213" title="Get attributes for a given profile/entrypoint pair." alt="" coords="813,1674,1009,1701"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab0314f1f62f6fd33a320500f921244fa" title="Get display attributes." alt="" coords="809,1725,1012,1751"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2f90c44e9db2920418d2bbd78c715db3" title="Retrive surface data into a VAImage." alt="" coords="841,1775,980,1802"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#af0e8cb988f98f05b8e6904261a66700c" title="Get surface attributes for the supplied config." alt="" coords="809,1826,1013,1853"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a9e07aa98a11c01b69e8afbd910d7fef1" title="Lock surface." alt="" coords="833,1877,988,1903"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#ab3f56e9ec7879b326ef4940e9e4339bc" title="Map buffer." alt="" coords="840,1927,981,1954"/>
+<area shape="rect" href="../../de/dc0/class_ddi_media_protected.html#ae189e9edd536dcf2f5ffb9f1085a0eea" title="TEE execution for the particular protected session." alt="" coords="793,1979,1028,2020"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a48789a225c318e0a4653eaad5b0cd770" title="Copy data from a VAImage to a surface." alt="" coords="841,2045,980,2071"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#aee41b06aaf8abfdc01d6c97ab355de54" title="Put surface." alt="" coords="837,2095,984,2122"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a74bd0e650a6eed1877e726f722f52220" title="Query all attributes for a given configuration." alt="" coords="805,2146,1016,2173"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a2222f6a6ea7f17459f2070f0733074b8" title="Query supported entrypoints for a given profile." alt="" coords="801,2197,1021,2223"/>
+<area shape="rect" href="../../dd/da8/media__libva_8cpp.html#a9f2c6be99cb53765b3b2afd2e0a35bc5" title="Query supported profiles." alt="" coords="812,2247,1009,2274"/>
 </map>
 </div>
 
@@ -5811,12 +5830,12 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d28/media__libva__common_8h.html#a4dfcf71b24c4309b5830cd1c6ccb6f3c">MEDIA_MUTEX_T</a> GlobalMutex = <a class="el" href="../../da/d28/media__libva__common_8h.html#a2ff4163c82a28009853971947a049ab3">MEDIA_MUTEX_INITIALIZER</a></td>
+          <td class="memname"><a class="el" href="../../d3/df3/media__libva__common__next_8h.html#a4dfcf71b24c4309b5830cd1c6ccb6f3c">MEDIA_MUTEX_T</a> GlobalMutex = <a class="el" href="../../d3/df3/media__libva__common__next_8h.html#a2ff4163c82a28009853971947a049ab3">MEDIA_MUTEX_INITIALIZER</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01357">1357</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l01367">1367</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>
@@ -5827,7 +5846,7 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">VAProcColorStandardType vp_input_color_std[<a class="el" href="../../d9/d62/media__libva_8h.html#ad59b2fc6d18bc4db88899ef29b4a956c">DDI_VP_NUM_INPUT_COLOR_STD</a>]</td>
+          <td class="memname">VAProcColorStandardType vp_input_color_std[<a class="el" href="../../d3/df0/ddi__media__functions_8h.html#ad59b2fc6d18bc4db88899ef29b4a956c">DDI_VP_NUM_INPUT_COLOR_STD</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5840,7 +5859,7 @@ Here is the call graph for this function:</div>
 <div class="line">    VAProcColorStandardExplicit</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00099">99</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00103">103</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>
@@ -5851,7 +5870,7 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">VAProcColorStandardType vp_output_color_std[<a class="el" href="../../d9/d62/media__libva_8h.html#a72b402c0569f277904bd59f194614aea">DDI_VP_NUM_OUT_COLOR_STD</a>]</td>
+          <td class="memname">VAProcColorStandardType vp_output_color_std[<a class="el" href="../../d3/df0/ddi__media__functions_8h.html#a72b402c0569f277904bd59f194614aea">DDI_VP_NUM_OUT_COLOR_STD</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5864,7 +5883,7 @@ Here is the call graph for this function:</div>
 <div class="line">    VAProcColorStandardExplicit</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00108">108</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00112">112</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>
@@ -5875,7 +5894,7 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">VAProcFilterType vp_supported_filters[<a class="el" href="../../d9/d62/media__libva_8h.html#a01d44ad0eb73409e4c01b95e6ab185ce">DDI_VP_MAX_NUM_FILTERS</a>]</td>
+          <td class="memname">VAProcFilterType vp_supported_filters[<a class="el" href="../../da/d8d/ddi__vp__functions_8h.html#a01d44ad0eb73409e4c01b95e6ab185ce">DDI_VP_MAX_NUM_FILTERS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5893,7 +5912,7 @@ Here is the call graph for this function:</div>
 <div class="line"> </div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00085">85</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/da8/media__libva_8cpp_source.html#l00089">89</a> of file <a class="el" href="../../dd/da8/media__libva_8cpp_source.html">media_libva.cpp</a>.</p>
 
 </div>
 </div>

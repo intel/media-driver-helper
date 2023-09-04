@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['intel_28r_29_20media_20driver_20for_20vaapi_0',['Intel(R) Media Driver for VAAPI',['../index.html',1,'']]]
+  ['customization_20points_0',['Customization Points',['../d7/d39/md__c___users_xiaoganx__project_media_driver_upstream_media_driver_media_driver_linux_ult_ult_ap3367cdb693bd1268229eeb3de619e117.html',1,'']]]
 ];

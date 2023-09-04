@@ -1,0 +1,4 @@
+<map id="MediaLibvaInterfaceNext::DestroyBufFromVABufferID" name="MediaLibvaInterfaceNext::DestroyBufFromVABufferID">
+<area shape="rect" id="node1" title="Destroy buffer from VA buffer ID." alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node2" href="$d8/d27/struct_media_libva_util_next.html#a2e508d9f994ca6d724466b154c11490c" title="Release pmedia buffer from heap." alt="" coords="240,5,455,47"/>
+</map>

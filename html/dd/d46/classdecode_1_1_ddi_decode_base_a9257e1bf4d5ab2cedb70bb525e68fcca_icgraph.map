@@ -1,0 +1,4 @@
+<map id="decode::DdiDecodeBase::GetBsBufOffset" name="decode::DdiDecodeBase::GetBsBufOffset">
+<area shape="rect" id="node1" title="return the Buffer offset for sliceGroup" alt="" coords="216,5,381,47"/>
+<area shape="rect" id="node2" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a8df4c67440b04d6135109c8892faea8b" title="ParaSliceParam for HEVC." alt="" coords="5,5,168,47"/>
+</map>

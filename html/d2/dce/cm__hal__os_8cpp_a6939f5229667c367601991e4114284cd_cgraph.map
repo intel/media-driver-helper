@@ -1,0 +1,32 @@
+<map id="HalCm_OsInitInterface" name="HalCm_OsInitInterface">
+<area shape="rect" id="node1" title=" " alt="" coords="5,659,156,685"/>
+<area shape="rect" id="node2" href="$d2/dce/cm__hal__os_8cpp.html#a902a944501e537d53d4ed12244ee4aeb" title=" " alt="" coords="244,23,392,65"/>
+<area shape="rect" id="node7" href="$d2/dce/cm__hal__os_8cpp.html#aec169ee543f8fb83943baaf1632b720a" title=" " alt="" coords="221,89,415,130"/>
+<area shape="rect" id="node8" href="$d2/dce/cm__hal__os_8cpp.html#a3ae1928ad3a0784612efe507cc8e6067" title="Decompress the surface." alt="" coords="225,155,411,181"/>
+<area shape="rect" id="node9" href="$d2/dce/cm__hal__os_8cpp.html#a58b3041940b619c15ed1d111556e642c" title=" " alt="" coords="231,206,405,247"/>
+<area shape="rect" id="node11" href="$d2/dce/cm__hal__os_8cpp.html#a942a9185a581e97b1dc02b4375e4fdbb" title=" " alt="" coords="237,272,399,299"/>
+<area shape="rect" id="node12" href="$d2/dce/cm__hal__os_8cpp.html#a61910418ceb1e87159c4740b8a261b9a" title=" " alt="" coords="227,323,409,349"/>
+<area shape="rect" id="node13" href="$d2/dce/cm__hal__os_8cpp.html#ade0b67b8910cb7713f2e0624f85fb685" title=" " alt="" coords="208,373,428,400"/>
+<area shape="rect" id="node14" href="$d2/dce/cm__hal__os_8cpp.html#aaa43af0dcf078020e188713ed9506d8b" title=" " alt="" coords="247,424,389,451"/>
+<area shape="rect" id="node15" href="$d2/dce/cm__hal__os_8cpp.html#a93a0dd7f9f60095030636d86d52e8093" title=" " alt="" coords="233,475,403,517"/>
+<area shape="rect" id="node16" href="$d2/dce/cm__hal__os_8cpp.html#a463b6d914d72e1d216bcacc5a7ef045e" title=" " alt="" coords="227,541,409,568"/>
+<area shape="rect" id="node17" href="$d2/dce/cm__hal__os_8cpp.html#a451afc369ab70bd2bf2885612d405bc9" title=" " alt="" coords="239,593,397,634"/>
+<area shape="rect" id="node18" href="$d2/dce/cm__hal__os_8cpp.html#abf1a422d2769a58ca567be8b494ff6fc" title=" " alt="" coords="245,659,391,685"/>
+<area shape="rect" id="node19" href="$d2/dce/cm__hal__os_8cpp.html#a5bcff9e3fff7737c3a6d3ed353f8a3cb" title=" " alt="" coords="204,709,432,736"/>
+<area shape="rect" id="node21" href="$d2/dce/cm__hal__os_8cpp.html#adfde1f5db50994dd29245115b2578514" title=" " alt="" coords="225,761,411,802"/>
+<area shape="rect" id="node22" href="$d2/dce/cm__hal__os_8cpp.html#ae7857c1583e571a1137b5e98fab4cdaa" title=" " alt="" coords="233,827,403,853"/>
+<area shape="rect" id="node23" href="$d2/dce/cm__hal__os_8cpp.html#aca7f6d4aa06179f03a523ce5e231301f" title=" " alt="" coords="481,815,685,857"/>
+<area shape="rect" id="node24" href="$d2/dce/cm__hal__os_8cpp.html#a37a56200cf374e2d18f73fa9317f818d" title=" " alt="" coords="239,928,397,955"/>
+<area shape="rect" id="node25" href="$d2/dce/cm__hal__os_8cpp.html#a76481debb375111db20a51d6935f2b08" title=" " alt="" coords="213,979,423,1021"/>
+<area shape="rect" id="node26" href="$d2/dce/cm__hal__os_8cpp.html#a9a12b93512bd4ba2f9f9acbd542a749a" title=" " alt="" coords="207,1045,429,1086"/>
+<area shape="rect" id="node27" href="$d2/dce/cm__hal__os_8cpp.html#affa20fb79c139acbf556a5ce3a41b909" title="initialization os resource from DDI" alt="" coords="213,1111,423,1137"/>
+<area shape="rect" id="node28" href="$d2/dce/cm__hal__os_8cpp.html#af053069bfe2fe534bee0d8007717d756" title=" " alt="" coords="247,1161,389,1188"/>
+<area shape="rect" id="node29" href="$d2/dce/cm__hal__os_8cpp.html#acf747901a67e0410ebdeec3349525d87" title=" " alt="" coords="251,1212,385,1239"/>
+<area shape="rect" id="node30" href="$d2/dce/cm__hal__os_8cpp.html#a729936c1f59e86dc2e836b66a1b804b4" title="Updates tracker resource used in state heap management." alt="" coords="215,1263,421,1305"/>
+<area shape="rect" id="node3" href="$d2/dce/cm__hal__os_8cpp.html#a3f515f149d05f10cef3ce8dc2520d945" title=" " alt="" coords="480,5,685,32"/>
+<area shape="rect" id="node5" href="$d2/d0a/mos__os__specific_8cpp.html#a6f80ce1594279b8d5b628f5c67f960dc" title="Convert to MOS tile type." alt="" coords="513,56,653,83"/>
+<area shape="rect" id="node6" href="$d7/d73/mos__bufmgr__api__mock_8c.html#acc56e5634918b0ad7bc6e9557bc6c6bc" title=" " alt="" coords="508,107,657,133"/>
+<area shape="rect" id="node4" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a84139156d4ebc96631db501e09791a18" title=" " alt="" coords="733,455,861,481"/>
+<area shape="rect" id="node10" href="$d1/d60/mos__bufmgr__api_8c.html#ab73059a033d4f28aecc2203ce4f40af1" title=" " alt="" coords="499,213,666,240"/>
+<area shape="rect" id="node20" href="$d2/dce/cm__hal__os_8cpp.html#a791435a8248c696b1f0cdf87b34e5581" title=" " alt="" coords="499,709,667,736"/>
+</map>

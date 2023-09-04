@@ -1,0 +1,4 @@
+<map id="encode::DdiEncodeAvc::ContextInitialize" name="encode::DdiEncodeAvc::ContextInitialize">
+<area shape="rect" id="node1" title="Initialize the encode context and do codechal setting." alt="" coords="5,5,161,47"/>
+<area shape="rect" id="node2" href="$d8/db3/class_ddi_cp_interface_next.html#a46891694e453f53c360b5909f206142a" title=" " alt="" coords="209,5,397,47"/>
+</map>

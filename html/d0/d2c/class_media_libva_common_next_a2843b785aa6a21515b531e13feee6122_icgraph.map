@@ -1,0 +1,5 @@
+<map id="MediaLibvaCommonNext::MovePriorityBufferIdToEnd" name="MediaLibvaCommonNext::MovePriorityBufferIdToEnd">
+<area shape="rect" id="node1" title="Move the priority bufferID to the end of buffers." alt="" coords="196,39,377,80"/>
+<area shape="rect" id="node2" href="$d0/dca/class_ddi_decode_functions.html#a199c6f3a3d6571af21256b10999fa1cc" title="Send decode buffers to the server." alt="" coords="5,5,148,47"/>
+<area shape="rect" id="node3" href="$d9/dba/class_ddi_encode_functions.html#a053d24a7d31a74ba3de99fa01a6f2073" title="Send decode buffers to the server." alt="" coords="5,71,148,112"/>
+</map>

@@ -1,10 +1,4 @@
 <map id="BufmgrPrelim::QueryEngines" name="BufmgrPrelim::QueryEngines">
-<area shape="rect" id="node1" title=" " alt="" coords="901,53,1092,79"/>
-<area shape="rect" id="node2" href="$d3/df1/class_bufmgr_prelim.html#ad00c4873c0fa8249779e12e6cb74dfbc" title=" " alt="" coords="721,27,847,54"/>
-<area shape="rect" id="node3" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a24551f444627af13ca43f3a60d051f09" title=" " alt="" coords="715,78,853,105"/>
-<area shape="rect" id="node4" href="$dd/db5/class_gpu_context_specific.html#a7f26377c4d99da4cc9d253d7eb4d3d51" title="Initialize gpu context." alt="" coords="513,5,650,47"/>
-<area shape="rect" id="node7" href="$d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="499,71,663,112"/>
-<area shape="rect" id="node8" href="$df/dd7/class_mos_mock_adaptor_specific.html#aef505165d8ddbaaa007abf87a8c3b20d" title="Initialize SKU/WA table for device context." alt="" coords="496,136,667,177"/>
-<area shape="rect" id="node5" href="$d3/de3/mos__os__specific_8c.html#a40108667c1798c84a3344c1e31d74924" title=" " alt="" coords="227,5,448,47"/>
-<area shape="rect" id="node6" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,13,179,39"/>
+<area shape="rect" id="node1" title=" " alt="" coords="179,5,369,32"/>
+<area shape="rect" id="node2" href="$d3/df1/class_bufmgr_prelim.html#ad00c4873c0fa8249779e12e6cb74dfbc" title=" " alt="" coords="5,5,131,32"/>
 </map>

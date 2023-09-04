@@ -1,0 +1,4 @@
+<map id="Mos_Specific_GetGpuStatusTag" name="Mos_Specific_GetGpuStatusTag">
+<area shape="rect" id="node1" title="Get GPU status tag." alt="" coords="5,5,216,32"/>
+<area shape="rect" id="node2" href="$d2/d0a/mos__os__specific_8cpp.html#aa73b3ac6ce944d035f441d9b6527ad9d" title="Get GPU status tag for the given GPU context." alt="" coords="264,5,443,32"/>
+</map>

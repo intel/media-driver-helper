@@ -1,9 +1,8 @@
 <map id="DdiMediaBase::UpdateRegisteredRTSurfaceFlag" name="DdiMediaBase::UpdateRegisteredRTSurfaceFlag">
-<area shape="rect" id="node1" title="Update Registered Render Target Surface Flag." alt="" coords="280,151,497,193"/>
+<area shape="rect" id="node1" title="Update Registered Render Target Surface Flag." alt="" coords="280,122,497,163"/>
 <area shape="rect" id="node2" href="$d2/d6b/class_ddi_decode_h_e_v_c.html#ab6c4dd8cff3a437104ae0e52be7fad1c" title="ParsePicParam for HEVC." alt="" coords="5,5,232,32"/>
 <area shape="rect" id="node3" href="$db/db1/class_ddi_decode_h_e_v_c_g11.html#a62fc00b78efb413b1fcaf0baadb4bebf" title="ParsePicParam for HEVC." alt="" coords="15,57,222,98"/>
 <area shape="rect" id="node4" href="$de/d8b/class_ddi_decode_h_e_v_c_g12.html#a32cee75aa83816f948fef3f11d4b1786" title="ParsePicParam for HEVC." alt="" coords="15,122,222,163"/>
 <area shape="rect" id="node5" href="$df/d0d/class_ddi_encode_a_v1.html#ad57ec3db2053f23f0586f7f1c2561907" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="11,188,227,215"/>
-<area shape="rect" id="node6" href="$d0/d2f/class_ddi_encode_avc.html#a0b083316f81ecb7e3a1977aeb427b53c" title="Parse picture params." alt="" coords="13,239,225,265"/>
-<area shape="rect" id="node7" href="$dc/d76/class_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="11,289,226,316"/>
+<area shape="rect" id="node6" href="$dc/d76/class_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="11,239,226,265"/>
 </map>

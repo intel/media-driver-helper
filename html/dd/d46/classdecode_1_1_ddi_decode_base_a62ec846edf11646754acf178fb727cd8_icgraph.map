@@ -1,0 +1,10 @@
+<map id="decode::DdiDecodeBase::CreateCodecHal" name="decode::DdiDecodeBase::CreateCodecHal">
+<area shape="rect" id="node1" title="Create the back&#45;end CodecHal of DdiDecodeBase." alt="" coords="228,201,393,243"/>
+<area shape="rect" id="node2" href="$df/dcc/classdecode_1_1_ddi_decode_av1.html#a090b4402d8a2055cf10d9bfb961bf3f1" title="Initialize the back&#45;end CodecHal of DdiDecodeBase." alt="" coords="15,5,171,47"/>
+<area shape="rect" id="node3" href="$d3/da0/classdecode_1_1_ddi_decode_avc.html#a326d952b26feaf2c0f6466997a5afe77" title="Initialize the back&#45;end CodecHal of DdiDecodeBase." alt="" coords="15,71,171,112"/>
+<area shape="rect" id="node4" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a9bd2f978ca5958da04cd0494051f1090" title="Initialize the back&#45;end CodecHal of DdiDecodeBase." alt="" coords="11,136,174,177"/>
+<area shape="rect" id="node5" href="$db/df1/classdecode_1_1_ddi_decode_jpeg.html#ae7c153002301e9132c077d9e70714103" title="Initialize the back&#45;end CodecHal of DdiDecodeBase." alt="" coords="11,201,174,243"/>
+<area shape="rect" id="node6" href="$d5/d43/classdecode_1_1_ddi_decode_mpeg2.html#a702139a0ed884a917c8fc354ac33d044" title="Initialize the back&#45;end CodecHal of DdiDecodeBase." alt="" coords="5,267,180,308"/>
+<area shape="rect" id="node7" href="$da/da1/classdecode_1_1_ddi_decode_vp8.html#ac418618cd271ee03606ded189bb9298f" title="Initialize the back&#45;end CodecHal of DdiDecodeBase." alt="" coords="13,332,172,373"/>
+<area shape="rect" id="node8" href="$df/dd3/classdecode_1_1_ddi_decode_vp9.html#ab09a61601987e2d4a5e4f779536baaa0" title="Initialize the back&#45;end CodecHal of DdiDecodeBase." alt="" coords="13,397,172,439"/>
+</map>

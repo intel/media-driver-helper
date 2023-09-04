@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -111,9 +111,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5f970b3ac2d5ecfbf3bf7f48dccacd24"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc0/class_cp_interfaces.html#a5f970b3ac2d5ecfbf3bf7f48dccacd24">Delete_MediaLibvaCapsCpInterface</a> (<a class="el" href="../../d7/d40/class_media_libva_caps_cp_interface.html">MediaLibvaCapsCpInterface</a> *pInterface)=0</td></tr>
 <tr class="memdesc:a5f970b3ac2d5ecfbf3bf7f48dccacd24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the <a class="el" href="../../d7/d40/class_media_libva_caps_cp_interface.html">MediaLibvaCapsCpInterface</a> Object.  <a href="../../d8/dc0/class_cp_interfaces.html#a5f970b3ac2d5ecfbf3bf7f48dccacd24">More...</a><br /></td></tr>
 <tr class="separator:a5f970b3ac2d5ecfbf3bf7f48dccacd24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53aabdee7dd73dab164c2fd22af47d1f"><td class="memItemLeft" align="right" valign="top">virtual DecodeCpInterface *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc0/class_cp_interfaces.html#a53aabdee7dd73dab164c2fd22af47d1f">Create_DecodeCpInterface</a> (CodechalSetting *codechalSettings, CodechalHwInterface *hwInterfaceInput)=0</td></tr>
-<tr class="memdesc:a53aabdee7dd73dab164c2fd22af47d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create DecodeCpInterface Object Must use Delete_DecodeCpInterface to delete created Object to avoid ULT Memory Leak errors.  <a href="../../d8/dc0/class_cp_interfaces.html#a53aabdee7dd73dab164c2fd22af47d1f">More...</a><br /></td></tr>
-<tr class="separator:a53aabdee7dd73dab164c2fd22af47d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e21d32d0623c1151f42119f2950a8da"><td class="memItemLeft" align="right" valign="top">virtual DecodeCpInterface *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc0/class_cp_interfaces.html#a3e21d32d0623c1151f42119f2950a8da">Create_DecodeCpInterface</a> (CodechalSetting *codechalSettings, MhwCpInterface *cpInterface, <a class="el" href="../../d3/da0/mos__os__specific_8h.html#a403773434172df7c3ae8e408d090aa91">PMOS_INTERFACE</a> osInterface)=0</td></tr>
+<tr class="memdesc:a3e21d32d0623c1151f42119f2950a8da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create DecodeCpInterface Object Must use Delete_DecodeCpInterface to delete created Object to avoid ULT Memory Leak errors.  <a href="../../d8/dc0/class_cp_interfaces.html#a3e21d32d0623c1151f42119f2950a8da">More...</a><br /></td></tr>
+<tr class="separator:a3e21d32d0623c1151f42119f2950a8da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66c5a3d4a92ff3960b2418ff22379443"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc0/class_cp_interfaces.html#a66c5a3d4a92ff3960b2418ff22379443">Delete_DecodeCpInterface</a> (DecodeCpInterface *pInterface)=0</td></tr>
 <tr class="memdesc:a66c5a3d4a92ff3960b2418ff22379443"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the DecodeCpInterface Object.  <a href="../../d8/dc0/class_cp_interfaces.html#a66c5a3d4a92ff3960b2418ff22379443">More...</a><br /></td></tr>
 <tr class="separator:a66c5a3d4a92ff3960b2418ff22379443"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,8 +227,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a53aabdee7dd73dab164c2fd22af47d1f" name="a53aabdee7dd73dab164c2fd22af47d1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53aabdee7dd73dab164c2fd22af47d1f">&#9670;&nbsp;</a></span>Create_DecodeCpInterface()</h2>
+<a id="a3e21d32d0623c1151f42119f2950a8da" name="a3e21d32d0623c1151f42119f2950a8da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e21d32d0623c1151f42119f2950a8da">&#9670;&nbsp;</a></span>Create_DecodeCpInterface()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -245,8 +245,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">CodechalHwInterface *&#160;</td>
-          <td class="paramname"><em>hwInterfaceInput</em>&#160;</td>
+          <td class="paramtype">MhwCpInterface *&#160;</td>
+          <td class="paramname"><em>cpInterface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/da0/mos__os__specific_8h.html#a403773434172df7c3ae8e408d090aa91">PMOS_INTERFACE</a>&#160;</td>
+          <td class="paramname"><em>osInterface</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -273,10 +279,10 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d8/dc0/class_cp_interfaces_a53aabdee7dd73dab164c2fd22af47d1f_icgraph.png" border="0" usemap="#ad8/dc0/class_cp_interfaces_a53aabdee7dd73dab164c2fd22af47d1f_icgraph" alt=""/></div>
-<map name="ad8/dc0/class_cp_interfaces_a53aabdee7dd73dab164c2fd22af47d1f_icgraph" id="ad8/dc0/class_cp_interfaces_a53aabdee7dd73dab164c2fd22af47d1f_icgraph">
+<div class="center"><img src="../../d8/dc0/class_cp_interfaces_a3e21d32d0623c1151f42119f2950a8da_icgraph.png" border="0" usemap="#ad8/dc0/class_cp_interfaces_a3e21d32d0623c1151f42119f2950a8da_icgraph" alt=""/></div>
+<map name="ad8/dc0/class_cp_interfaces_a3e21d32d0623c1151f42119f2950a8da_icgraph" id="ad8/dc0/class_cp_interfaces_a3e21d32d0623c1151f42119f2950a8da_icgraph">
 <area shape="rect" title="Create DecodeCpInterface Object Must use Delete_DecodeCpInterface to delete created Object to avoid U..." alt="" coords="229,5,369,47"/>
-<area shape="rect" href="../../d0/d50/decodecp__interface_8cpp.html#a7144ca02b7b82dfd41cc1f574610630f" title=" " alt="" coords="5,13,181,39"/>
+<area shape="rect" href="../../d0/d50/decodecp__interface_8cpp.html#a850d69d7dd561aa6bf656bb25f63ec00" title=" " alt="" coords="5,13,181,39"/>
 </map>
 </div>
 
@@ -422,7 +428,7 @@ Here is the caller graph for this function:</div>
 <map name="ad8/dc0/class_cp_interfaces_ab8f9087e172ef8caf1674594c85dbe9b_icgraph" id="ad8/dc0/class_cp_interfaces_ab8f9087e172ef8caf1674594c85dbe9b_icgraph">
 <area shape="rect" title="Create MosCpInterface Object Must use Delete_MosCpInterface to delete created Object to avoid ULT Mem..." alt="" coords="432,5,572,47"/>
 <area shape="rect" href="../../de/dc9/mos__os__cp__interface__specific_8cpp.html#a77625fb0b977b977e6228dae7b465d5d" title="Create MosCpInterface Object Must use Delete_MosCpInterface to delete created Object to avoid ULT Mem..." alt="" coords="227,13,384,39"/>
-<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,13,179,39"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,13,179,39"/>
 </map>
 </div>
 
@@ -704,11 +710,12 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d8/dc0/class_cp_interfaces_ae0892ff41b0c2745b0efed6338f321cd_icgraph.png" border="0" usemap="#ad8/dc0/class_cp_interfaces_ae0892ff41b0c2745b0efed6338f321cd_icgraph" alt=""/></div>
 <map name="ad8/dc0/class_cp_interfaces_ae0892ff41b0c2745b0efed6338f321cd_icgraph" id="ad8/dc0/class_cp_interfaces_ae0892ff41b0c2745b0efed6338f321cd_icgraph">
-<area shape="rect" title="Delete the MosCpInterface Object." alt="" coords="827,23,965,65"/>
-<area shape="rect" href="../../de/dc9/mos__os__cp__interface__specific_8cpp.html#a7d0cf41d2cad87f9faf222902b6f5145" title="Delete the MosCpInterface Object." alt="" coords="623,31,779,57"/>
-<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a0c4af9880d68a1a27a6ff4122d6a0bc3" title=" " alt="" coords="427,5,575,32"/>
-<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a43d7b7e93bb2945e2258bdaa98f27245" title="Destroys OS specific allocations." alt="" coords="227,31,379,57"/>
-<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,31,179,57"/>
+<area shape="rect" title="Delete the MosCpInterface Object." alt="" coords="1060,23,1199,65"/>
+<area shape="rect" href="../../de/dc9/mos__os__cp__interface__specific_8cpp.html#a7d0cf41d2cad87f9faf222902b6f5145" title="Delete the MosCpInterface Object." alt="" coords="856,31,1012,57"/>
+<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a0c4af9880d68a1a27a6ff4122d6a0bc3" title=" " alt="" coords="660,5,808,32"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#afa2a1942256e8ba90c13e06ad3e6d4cf" title="Destroys OS specific allocations." alt="" coords="460,31,612,57"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,31,179,57"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#af32ef68510c731e300b178fd596f5d8e" title=" " alt="" coords="227,56,412,83"/>
 </map>
 </div>
 
@@ -758,7 +765,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>media_driver/linux/common/cp/shared/<a class="el" href="../../de/d11/cp__interfaces_8h_source.html">cp_interfaces.h</a></li>
+<li>C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_driver/linux/common/cp/shared/<a class="el" href="../../de/d11/cp__interfaces_8h_source.html">cp_interfaces.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

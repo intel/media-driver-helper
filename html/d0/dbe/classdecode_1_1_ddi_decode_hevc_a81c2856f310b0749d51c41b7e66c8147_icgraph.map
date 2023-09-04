@@ -1,0 +1,10 @@
+<map id="decode::DdiDecodeHevc::IsRextProfile" name="decode::DdiDecodeHevc::IsRextProfile">
+<area shape="rect" id="node1" title="if it is range extention" alt="" coords="435,188,597,229"/>
+<area shape="rect" id="node2" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#ad81a63130acfa86a0b306233dfb4c271" title="Allocate slice control buffer." alt="" coords="220,5,383,47"/>
+<area shape="rect" id="node3" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a8ff1409edaf4e2cf196ff03ae2d68bd3" title="Alloc SliceParam content for HEVC." alt="" coords="216,71,387,112"/>
+<area shape="rect" id="node4" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a9bd2f978ca5958da04cd0494051f1090" title="Initialize the back&#45;end CodecHal of DdiDecodeBase." alt="" coords="5,192,168,233"/>
+<area shape="rect" id="node5" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#ab0f68c5a6de8ab5465a021030d0f2365" title="Get Picture parameter size." alt="" coords="220,188,383,229"/>
+<area shape="rect" id="node6" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a298f6d98bffabce28092f7423b937154" title="Init Resource buffer for HEVC." alt="" coords="220,253,383,295"/>
+<area shape="rect" id="node7" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a2af8be6cce20ec9717696f828e366560" title="ParsePicParam for HEVC." alt="" coords="220,319,383,360"/>
+<area shape="rect" id="node8" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a8df4c67440b04d6135109c8892faea8b" title="ParaSliceParam for HEVC." alt="" coords="220,384,383,425"/>
+</map>

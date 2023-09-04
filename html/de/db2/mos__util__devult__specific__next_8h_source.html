@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: media_softlet/linux/common/os/mos_util_devult_specific_next.h Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/mos_util_devult_specific_next.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_eb769a76f330a5c58e31180c7ee972cf.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_89ef60be54512353afcbd7baec3b722c.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_4fed1f8ed79d9f97d1e2fe61a41f97cc.html">common</a></li><li class="navelem"><a class="el" href="../../dir_64eaabcbed192c2a1a2816231d5c3931.html">os</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_3c3410289b14e1df332ecc9157e3894f.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_32ec30427766471c663c1286f4b04a0e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_986d2ce2ac55d27cc447e8d78f5db418.html">common</a></li><li class="navelem"><a class="el" href="../../dir_11379992f964418e636509c17f24b568.html">os</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -103,7 +103,7 @@ $(function() {
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keyword">template</span>&lt;<span class="keyword">class </span>_Fun, <span class="keyword">class</span>... _Types&gt;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d4/d59/class_mos_util_dev_ult_specific.html#ae88476e921ac58ff07fc523e3a38273f">   36</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d59/class_mos_util_dev_ult_specific.html#ae88476e921ac58ff07fc523e3a38273f">MOS_DEVULT_FuncCall</a>(_Fun fun, _Types&amp;&amp;... ags)</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    {</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">if</span> (MosUtilities::m_mosUltFlag &amp;&amp; fun)</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">if</span> (MosUtilities::m_mosUltFlag &amp;&amp; (*MosUtilities::m_mosUltFlag) &amp;&amp; fun)</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        {</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            fun(std::forward&lt;_Types&gt;(ags)...);</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        }</div>
@@ -117,7 +117,7 @@ $(function() {
 <div class="ttc" id="aclass_mos_util_dev_ult_specific_html"><div class="ttname"><a href="../../d4/d59/class_mos_util_dev_ult_specific.html">MosUtilDevUltSpecific</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/db2/mos__util__devult__specific__next_8h_source.html#l00032">mos_util_devult_specific_next.h:33</a></div></div>
 <div class="ttc" id="aclass_mos_util_dev_ult_specific_html_ae88476e921ac58ff07fc523e3a38273f"><div class="ttname"><a href="../../d4/d59/class_mos_util_dev_ult_specific.html#ae88476e921ac58ff07fc523e3a38273f">MosUtilDevUltSpecific::MOS_DEVULT_FuncCall</a></div><div class="ttdeci">static void MOS_DEVULT_FuncCall(_Fun fun, _Types &amp;&amp;... ags)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db2/mos__util__devult__specific__next_8h_source.html#l00036">mos_util_devult_specific_next.h:36</a></div></div>
 <div class="ttc" id="amos__defs__specific_8h_html_a164adf1d23336854fc8dbea76d922a50"><div class="ttname"><a href="../../d8/df2/mos__defs__specific_8h.html#a164adf1d23336854fc8dbea76d922a50">MOS_EXPORT_DECL</a></div><div class="ttdeci">#define MOS_EXPORT_DECL</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/df2/mos__defs__specific_8h_source.html#l00050">mos_defs_specific.h:50</a></div></div>
-<div class="ttc" id="amos__os__specific_8h_html_ab2610217f143a4c0e6dce51035f1f8f1"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#ab2610217f143a4c0e6dce51035f1f8f1">PMOS_COMMAND_BUFFER</a></div><div class="ttdeci">struct _MOS_COMMAND_BUFFER * PMOS_COMMAND_BUFFER</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00157">mos_os_specific.h:157</a></div></div>
+<div class="ttc" id="amos__os__specific_8h_html_ab2610217f143a4c0e6dce51035f1f8f1"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#ab2610217f143a4c0e6dce51035f1f8f1">PMOS_COMMAND_BUFFER</a></div><div class="ttdeci">struct _MOS_COMMAND_BUFFER * PMOS_COMMAND_BUFFER</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00270">mos_os_specific.h:270</a></div></div>
 <div class="ttc" id="amos__util__devult__specific__next_8h_html_af84b3ed7d90e8aa8384a8162ea6a923b"><div class="ttname"><a href="../../de/db2/mos__util__devult__specific__next_8h.html#af84b3ed7d90e8aa8384a8162ea6a923b">pfnUltGetCmdBuf</a></div><div class="ttdeci">MOS_EXPORT_DECL void(* pfnUltGetCmdBuf)(PMOS_COMMAND_BUFFER pCmdBuffer)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d56/mos__util__devult__specific_8cpp_source.html#l00030">mos_util_devult_specific.cpp:30</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

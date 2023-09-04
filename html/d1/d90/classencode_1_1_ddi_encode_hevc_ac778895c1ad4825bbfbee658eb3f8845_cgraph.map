@@ -1,0 +1,4 @@
+<map id="encode::DdiEncodeHevc::ParseSeqParams" name="encode::DdiEncodeHevc::ParseSeqParams">
+<area shape="rect" id="node1" title="Parse Sequence Parameter buffer to Encode Context." alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node2" href="$d3/d5b/classencode_1_1_ddi_encode_base.html#a904bdf2d75f1647e4a63bc24e24947e4" title="Convert rate control method in VAAPI to the term in HAL." alt="" coords="216,5,381,47"/>
+</map>

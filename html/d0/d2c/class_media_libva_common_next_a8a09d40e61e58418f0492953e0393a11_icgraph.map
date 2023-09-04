@@ -1,0 +1,10 @@
+<map id="MediaLibvaCommonNext::MediaBufferToMosResource" name="MediaLibvaCommonNext::MediaBufferToMosResource">
+<area shape="rect" id="node1" title="Media buffer to mos resource." alt="" coords="235,201,427,243"/>
+<area shape="rect" id="node2" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#ab39df38ab45b1f10ac3d638f27d51c3b" title="Combine the Bitstream Before decoding execution." alt="" coords="5,5,187,47"/>
+<area shape="rect" id="node3" href="$db/d26/classencode_1_1_ddi_encode_a_v1.html#ad57ec3db2053f23f0586f7f1c2561907" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="16,71,176,112"/>
+<area shape="rect" id="node4" href="$d1/d90/classencode_1_1_ddi_encode_hevc.html#a4406e7b36762c461980b59e86a5a95cd" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="15,136,177,177"/>
+<area shape="rect" id="node5" href="$da/d51/classencode_1_1_ddi_encode_jpeg.html#afdebe818d565ca6a6920141b7c699f1c" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="15,201,177,243"/>
+<area shape="rect" id="node6" href="$db/d20/classencode_1_1_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="17,267,175,308"/>
+<area shape="rect" id="node7" href="$db/d20/classencode_1_1_ddi_encode_vp9.html#a89f04f4ba20e732e949f6ade1154dfb8" title="Parse Segment Map Parameter buffer to Encode Context." alt="" coords="17,332,175,373"/>
+<area shape="rect" id="node8" href="$db/df1/classdecode_1_1_ddi_decode_jpeg.html#ac64496e4fc18f7e3ddff2662fc7d8518" title="Set common decode param setting for each codec." alt="" coords="15,397,177,439"/>
+</map>

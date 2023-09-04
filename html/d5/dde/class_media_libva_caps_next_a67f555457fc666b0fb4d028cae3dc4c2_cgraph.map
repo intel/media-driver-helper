@@ -1,0 +1,4 @@
+<map id="MediaLibvaCapsNext::GetImageFormatsMaxNum" name="MediaLibvaCapsNext::GetImageFormatsMaxNum">
+<area shape="rect" id="node1" title="Return the maxinum number of supported image formats for current platform ipVersion." alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node2" href="$d6/dc6/class_media_caps_table_specific.html#a1239b573347fd014da1ae6f082c7a058" title="Return the maxinum number of supported image formats for current platform ipVersion." alt="" coords="240,5,427,47"/>
+</map>

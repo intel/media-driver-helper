@@ -1,0 +1,9 @@
+<map id="codec::DdiCodecBase::GetRenderTargetID" name="codec::DdiCodecBase::GetRenderTargetID">
+<area shape="rect" id="node1" title="Get Render Target Index." alt="" coords="427,136,577,177"/>
+<area shape="rect" id="node2" href="$db/d26/classencode_1_1_ddi_encode_a_v1.html#ad57ec3db2053f23f0586f7f1c2561907" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="217,5,377,47"/>
+<area shape="rect" id="node3" href="$d1/d90/classencode_1_1_ddi_encode_hevc.html#a4406e7b36762c461980b59e86a5a95cd" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="216,71,379,112"/>
+<area shape="rect" id="node4" href="$db/d20/classencode_1_1_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="218,136,377,177"/>
+<area shape="rect" id="node5" href="$de/dec/classencode_1_1_ddi_encode_avc.html#ac8d3005ab5aefe043f2bc6bdaa6abc9f" title="Setup Codec Picture for AVC." alt="" coords="219,201,375,243"/>
+<area shape="rect" id="node6" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a5c5a704d2335b1dec07206c46381e181" title="Setup Codec Picture for Hevc." alt="" coords="216,267,379,308"/>
+<area shape="rect" id="node7" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a2af8be6cce20ec9717696f828e366560" title="ParsePicParam for HEVC." alt="" coords="5,267,168,308"/>
+</map>

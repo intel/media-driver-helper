@@ -1,0 +1,10 @@
+<map id="DdiCpCapsInterface::IsCpConfigId" name="DdiCpCapsInterface::IsCpConfigId">
+<area shape="rect" id="node1" title="Check if the configID is a valid cp config id." alt="" coords="916,39,1052,80"/>
+<area shape="rect" id="node2" href="$d6/dc6/class_media_caps_table_specific.html#aee62e33b1d153476f1650248188bc7e1" title="Destory the VAConfigID." alt="" coords="693,5,857,47"/>
+<area shape="rect" id="node4" href="$d6/dc6/class_media_caps_table_specific.html#ace939befa8457bbdee6c4d35de59f7a2" title="Get specific config item." alt="" coords="681,71,868,112"/>
+<area shape="rect" id="node3" href="$d5/dde/class_media_libva_caps_next.html#ae27f5098e71c67984da35d34e0329e36" title="Destory the VAConfigID." alt="" coords="465,5,607,47"/>
+<area shape="rect" id="node5" href="$d5/dde/class_media_libva_caps_next.html#a89a12c3d8f1269646c05b4ec787b3c69" title="Query all attributes for a given configuration." alt="" coords="457,71,615,112"/>
+<area shape="rect" id="node6" href="$d6/dc6/class_media_caps_table_specific.html#a91ad837ea173da2809325abb050e9668" title="Query SurfaceAttributes From ConfigId." alt="" coords="439,137,633,193"/>
+<area shape="rect" id="node7" href="$d5/dde/class_media_libva_caps_next.html#a910d07d5a39fe7461a16bb03d9569a36" title="Get surface attributes for a given config ID." alt="" coords="225,144,391,185"/>
+<area shape="rect" id="node8" href="$d3/d5b/classencode_1_1_ddi_encode_base.html#af0e2a9579015ca6d95ffec8fb1edc927" title="Check if the resolution is valid for a cofigId." alt="" coords="5,144,177,185"/>
+</map>

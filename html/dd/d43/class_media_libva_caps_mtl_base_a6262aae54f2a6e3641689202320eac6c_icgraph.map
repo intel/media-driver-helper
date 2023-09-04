@@ -1,0 +1,13 @@
+<map id="MediaLibvaCapsMtlBase::IsAV1Profile" name="MediaLibvaCapsMtlBase::IsAV1Profile">
+<area shape="rect" id="node1" title="Check if the give profile is AV1." alt="" coords="916,136,1080,177"/>
+<area shape="rect" id="node2" href="$dd/d43/class_media_libva_caps_mtl_base.html#a60d01f2089f6a01c199ff1fe6e585bda" title="Create and intialize an attribute array give decode profile and entrypoint." alt="" coords="703,39,867,80"/>
+<area shape="rect" id="node6" href="$dd/d43/class_media_libva_caps_mtl_base.html#a01134d7f2838d8aa10346cf13f57c5fd" title="Create and intialize an attribute vector give encode profile and entrypoint." alt="" coords="703,136,867,177"/>
+<area shape="rect" id="node11" href="$dd/d43/class_media_libva_caps_mtl_base.html#acb4831f50112939230a1e587390f2e56" title="Get surface attributes for a given config ID." alt="" coords="703,201,868,243"/>
+<area shape="rect" id="node3" href="$dd/d43/class_media_libva_caps_mtl_base.html#ac8b8c973a0f5a1d90a0514498652ee3d" title="Initialize AV1 decode profiles, entrypoints and attributes." alt="" coords="440,5,644,47"/>
+<area shape="rect" id="node4" href="$dd/d43/class_media_libva_caps_mtl_base.html#a9499ff3bc3363ac612139ce5e8226119" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="217,136,381,177"/>
+<area shape="rect" id="node5" href="$dd/d43/class_media_libva_caps_mtl_base.html#a9227577429500449197c305e8e65ef34" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="5,136,169,177"/>
+<area shape="rect" id="node7" href="$dd/d43/class_media_libva_caps_mtl_base.html#a1ea2f9bf90105368e3e5b4031ce885a2" title="Initialize AV1 encode profiles, entrypoints and attributes." alt="" coords="440,71,644,112"/>
+<area shape="rect" id="node8" href="$dd/d43/class_media_libva_caps_mtl_base.html#ab6f1d47c417de7591932660ac939a376" title="Initialize AVC Low&#45;power encode profiles, entrypoints and attributes." alt="" coords="433,136,651,177"/>
+<area shape="rect" id="node9" href="$dd/d43/class_media_libva_caps_mtl_base.html#af9cd2388bb7c69ddcdf91348b3bbc6d3" title="Initialize HEVC low&#45;power encode profiles, entrypoints and attributes." alt="" coords="429,201,655,243"/>
+<area shape="rect" id="node10" href="$dd/d43/class_media_libva_caps_mtl_base.html#a4deada81b0747997ce0e49d276cb5c53" title="Initialize VP9 encode profiles, entrypoints and attributes." alt="" coords="439,267,645,308"/>
+</map>

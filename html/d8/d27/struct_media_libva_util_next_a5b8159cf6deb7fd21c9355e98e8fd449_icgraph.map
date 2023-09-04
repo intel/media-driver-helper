@@ -1,0 +1,36 @@
+<map id="MediaLibvaUtilNext::FreeBuffer" name="MediaLibvaUtilNext::FreeBuffer">
+<area shape="rect" id="node1" title="Free buffer." alt="" coords="1321,471,1453,512"/>
+<area shape="rect" id="node2" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#a5bcb64bccfb739bcb617d9703f55f280" title="Allocate Bs buffer." alt="" coords="439,319,605,360"/>
+<area shape="rect" id="node5" href="$db/df1/classdecode_1_1_ddi_decode_jpeg.html#acd3bf6a252aaf2021477d01218b623c3" title="Get ready to decoding process for a target surface." alt="" coords="1111,683,1273,724"/>
+<area shape="rect" id="node6" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#ab39df38ab45b1f10ac3d638f27d51c3b" title="Combine the Bitstream Before decoding execution." alt="" coords="431,384,613,425"/>
+<area shape="rect" id="node7" href="$d9/dba/class_ddi_encode_functions.html#af717619d05bd74c643a9a682a134424d" title="Destroy buffer." alt="" coords="1121,748,1263,789"/>
+<area shape="rect" id="node8" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a22e9ef48542a477a903f7eceb274826b" title="Free Resource buffer for HEVC." alt="" coords="694,740,857,781"/>
+<area shape="rect" id="node12" href="$d8/d27/struct_media_libva_util_next.html#aaca4091fb1fff5b0616fbff4e6b36663" title="Lock surface." alt="" coords="1120,188,1264,229"/>
+<area shape="rect" id="node22" href="$db/df1/classdecode_1_1_ddi_decode_jpeg.html#ac64496e4fc18f7e3ddff2662fc7d8518" title="Set common decode param setting for each codec." alt="" coords="441,467,603,508"/>
+<area shape="rect" id="node25" href="$d8/d27/struct_media_libva_util_next.html#a3be42318ad8bd9e8d0d3d051d11b34c9" title="Unlock surface." alt="" coords="1126,529,1258,571"/>
+<area shape="rect" id="node3" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#aea3d9d702e4aef92385d5eea6bb6adf5" title="Create buffer in ddi decode context." alt="" coords="203,371,369,412"/>
+<area shape="rect" id="node4" href="$d0/dca/class_ddi_decode_functions.html#a8af958f9a2f478f5baeb65d6e5340b7e" title="Create buffer." alt="" coords="5,371,148,412"/>
+<area shape="rect" id="node9" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a9bd2f978ca5958da04cd0494051f1090" title="Initialize the back&#45;end CodecHal of DdiDecodeBase." alt="" coords="205,711,367,752"/>
+<area shape="rect" id="node10" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#ae0e2dbd1f38c5c8490cea66295f277f4" title="Free the allocated resource related with the decode context." alt="" coords="441,799,603,840"/>
+<area shape="rect" id="node11" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a298f6d98bffabce28092f7423b937154" title="Init Resource buffer for HEVC." alt="" coords="441,681,603,723"/>
+<area shape="rect" id="node13" href="$d8/d27/struct_media_libva_util_next.html#a00aebfc5edf6cb84bd8d41b5ed2ea9b8" title="Lock surface." alt="" coords="931,188,1063,229"/>
+<area shape="rect" id="node14" href="$d8/d27/struct_media_libva_util_next.html#af263d4448ac6fcd14b9959d8b776eb79" title="Lock buffer." alt="" coords="709,188,841,229"/>
+<area shape="rect" id="node15" href="$d3/d5b/classencode_1_1_ddi_encode_base.html#a53c6433c524fbcb2d42ca661662c2cf4" title="Report Status for Enc buffer." alt="" coords="439,253,605,295"/>
+<area shape="rect" id="node17" href="$d9/dba/class_ddi_encode_functions.html#af6f7cb575632bc2b8ce8cd67a17e3f22" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="5,129,148,171"/>
+<area shape="rect" id="node18" href="$d3/de1/class_ddi_media_functions.html#a4f7fbc13276e15b941c3a85f6a5a1eaf" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="451,188,593,229"/>
+<area shape="rect" id="node20" href="$d3/d5b/classencode_1_1_ddi_encode_base.html#ae892c94a3ad459eea7d9a41e382f1716" title="Report Status for PreEnc buffer." alt="" coords="439,5,605,47"/>
+<area shape="rect" id="node23" href="$d3/d5b/classencode_1_1_ddi_encode_base.html#a02b410b2e3af877e7fc9af92a9a798ef" title="Report Status for coded buffer." alt="" coords="439,71,605,112"/>
+<area shape="rect" id="node16" href="$d9/dba/class_ddi_encode_functions.html#a929ca9ff67d7bc9b21d6ad9f413bbbc7" title="Encode status report." alt="" coords="215,305,357,347"/>
+<area shape="rect" id="node19" href="$df/d20/class_ddi_vp_functions.html#aefbc6c35995dea36f958c2bad49df271" title=" " alt="" coords="196,188,376,229"/>
+<area shape="rect" id="node21" href="$d9/dba/class_ddi_encode_functions.html#acbaf3b43dc15f898b0fbf25810ff34dd" title="Pre encode status report." alt="" coords="211,5,361,47"/>
+<area shape="rect" id="node24" href="$d9/dba/class_ddi_encode_functions.html#a97403936cd01c22a5c2e28f2d7e0191b" title="Status report." alt="" coords="215,71,357,112"/>
+<area shape="rect" id="node26" href="$d8/d27/struct_media_libva_util_next.html#ac963da2af3bff57dd48955fc7ef5b2d1" title="Free surface." alt="" coords="931,565,1063,607"/>
+<area shape="rect" id="node31" href="$d8/d27/struct_media_libva_util_next.html#afec9f4a36af1fd7e8c98a4eeaca10552" title="Unlock buffer." alt="" coords="931,500,1063,541"/>
+<area shape="rect" id="node27" href="$d0/d2c/class_media_libva_common_next.html#aa3146ec745529e72c5e4fbf906f8d611" title="Replace the surface with given format." alt="" coords="668,609,883,651"/>
+<area shape="rect" id="node28" href="$d0/d2c/class_media_libva_common_next.html#afae7b82aa32d185d574450c1b073d7c1" title="replace the surface with correlation variant format" alt="" coords="681,864,870,905"/>
+<area shape="rect" id="node29" href="$d1/d90/classencode_1_1_ddi_encode_hevc.html#a4406e7b36762c461980b59e86a5a95cd" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="441,864,603,905"/>
+<area shape="rect" id="node30" href="$db/d20/classencode_1_1_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="443,929,601,971"/>
+<area shape="rect" id="node32" href="$d9/dba/class_ddi_encode_functions.html#aa6919cbf75ddd4075a4228ccd5cffa6f" title="Unmap buffer." alt="" coords="451,557,593,599"/>
+<area shape="rect" id="node33" href="$d3/de1/class_ddi_media_functions.html#aef3b53ff490d834d205f4a7c77d0eeb2" title="Unmap buffer." alt="" coords="705,675,846,716"/>
+<area shape="rect" id="node34" href="$df/d20/class_ddi_vp_functions.html#ac22d4c7277bbb00b83685ae7e573d4f1" title="Unmap buffer." alt="" coords="424,630,620,657"/>
+</map>

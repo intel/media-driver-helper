@@ -1,0 +1,12 @@
+<map id="MediaLibvaCommonNext::GetSurfaceFromVASurfaceID" name="MediaLibvaCommonNext::GetSurfaceFromVASurfaceID">
+<area shape="rect" id="node1" title="Get surface from VA surface ID." alt="" coords="461,246,660,287"/>
+<area shape="rect" id="node2" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a2af8be6cce20ec9717696f828e366560" title="ParsePicParam for HEVC." alt="" coords="5,216,168,258"/>
+<area shape="rect" id="node3" href="$db/d26/classencode_1_1_ddi_encode_a_v1.html#ad57ec3db2053f23f0586f7f1c2561907" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="235,50,395,91"/>
+<area shape="rect" id="node4" href="$d1/d90/classencode_1_1_ddi_encode_hevc.html#a4406e7b36762c461980b59e86a5a95cd" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="233,115,396,156"/>
+<area shape="rect" id="node5" href="$db/d20/classencode_1_1_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="235,180,394,222"/>
+<area shape="rect" id="node6" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#abef388bd2f83aa45c0e4f9bbed8295c3" title="Parse the processing buffer if needed." alt="" coords="232,246,397,287"/>
+<area shape="rect" id="node7" href="$df/dcc/classdecode_1_1_ddi_decode_av1.html#ae9a99e2ed06b29dec77a121a89d2c572" title="Set common decode param setting for each codec." alt="" coords="237,311,393,352"/>
+<area shape="rect" id="node8" href="$de/dec/classencode_1_1_ddi_encode_avc.html#ac8d3005ab5aefe043f2bc6bdaa6abc9f" title="Setup Codec Picture for AVC." alt="" coords="237,376,393,418"/>
+<area shape="rect" id="node9" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a5c5a704d2335b1dec07206c46381e181" title="Setup Codec Picture for Hevc." alt="" coords="233,442,396,483"/>
+<area shape="rect" id="node10" href="$df/d20/class_ddi_vp_functions.html#a0c4ab692ae6fcdb554371a80191642da" title="Status check after SyncSurface2." alt="" coords="216,508,413,534"/>
+</map>

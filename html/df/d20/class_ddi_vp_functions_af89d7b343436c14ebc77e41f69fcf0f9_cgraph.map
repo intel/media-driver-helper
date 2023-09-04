@@ -1,0 +1,7 @@
+<map id="DdiVpFunctions::ProcessPipeline" name="DdiVpFunctions::ProcessPipeline">
+<area shape="rect" id="node1" title="Ddi process pipeline." alt="" coords="5,93,221,120"/>
+<area shape="rect" id="node2" href="$df/d20/class_ddi_vp_functions.html#aa72785e3cb0d8ea569b6b179c16a8b60" title="Get ready to decode a picture to a target surface." alt="" coords="269,5,465,32"/>
+<area shape="rect" id="node3" href="$df/d20/class_ddi_vp_functions.html#ae27ea8dd57642643ba8165fb1902bfa5" title="Extract VAProcPipelineParameterBuffer params and set the appropriate VPHAL params." alt="" coords="273,57,461,98"/>
+<area shape="rect" id="node4" href="$df/d20/class_ddi_vp_functions.html#aa33924a5ecabdec9a4ac08f8c92ad7ae" title="Make the end of rendering for a picture." alt="" coords="274,123,461,149"/>
+<area shape="rect" id="node5" href="$d0/d2c/class_media_libva_common_next.html#ac187946363a2c722501f6c6d0a4394ad" title="Get context from context ID." alt="" coords="513,141,696,182"/>
+</map>

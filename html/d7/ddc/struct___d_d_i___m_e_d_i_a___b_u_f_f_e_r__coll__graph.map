@@ -1,20 +1,30 @@
 <map id="_DDI_MEDIA_BUFFER" name="_DDI_MEDIA_BUFFER">
-<area shape="rect" id="node1" title=" " alt="" coords="993,426,1150,453"/>
-<area shape="rect" id="node4" href="$d4/daa/struct___d_d_i___m_e_d_i_a___s_u_r_f_a_c_e.html" title=" " alt="" coords="1309,310,1475,337"/>
-<area shape="rect" id="node2" href="$db/d8b/structmos__linux__bo.html" title=" " alt="" coords="5,361,108,387"/>
-<area shape="rect" id="node3" href="$d2/da7/structmos__bufmgr.html" title=" " alt="" coords="293,526,387,553"/>
-<area shape="rect" id="node10" href="$dc/d3c/struct_d_d_i___m_e_d_i_a___c_o_n_t_e_x_t.html" title="Ddi media context." alt="" coords="605,531,761,558"/>
-<area shape="rect" id="node5" href="$d5/d10/struct___d_d_i___m_e_d_i_a___s_u_r_f_a_c_e___d_e_s_c_r_i_p_t_o_r.html" title="Surface descriptor for external DRM buffer." alt="" coords="988,196,1155,237"/>
-<area shape="rect" id="node6" href="$d9/d7f/union___d_d_i___m_e_d_i_a___s_u_r_f_a_c_e___s_t_a_t_u_s___r_e_p_o_r_t.html" title=" " alt="" coords="988,120,1155,161"/>
-<area shape="rect" id="node7" href="$d9/d61/struct___d_d_i___m_e_d_i_a___s_u_r_f_a_c_e___s_t_a_t_u_s___r_e_p_o_r_t_1_1___d_d_i___m_e_d_i_a__c4f721cd490bbcea4781707f24652303.html" title="Ddi media surface decode status." alt="" coords="583,5,784,76"/>
-<area shape="rect" id="node8" href="$d7/d19/struct___d_d_i___m_e_d_i_a___s_u_r_f_a_c_e___s_t_a_t_u_s___r_e_p_o_r_t_1_1___d_d_i___m_e_d_i_a__0ecf74bd49c62dc5320586a658c345e9.html" title="Ddi media surface cenc status." alt="" coords="564,101,803,157"/>
-<area shape="rect" id="node9" href="$da/d62/struct___d_d_i___m_e_d_i_a___s_u_r_f_a_c_e___s_t_a_t_u_s___r_e_p_o_r_t_1_1___d_d_i___m_e_d_i_a__689dede2493cbf4ef4c08d9744e3a5b1.html" title="Ddi media surface vpp status." alt="" coords="568,181,799,237"/>
-<area shape="rect" id="node14" href="$d2/d08/class_media_libva_caps.html" title="Media libva caps." alt="" coords="1013,577,1129,603"/>
-<area shape="rect" id="node15" href="$d7/d40/class_media_libva_caps_cp_interface.html" title=" " alt="" coords="1301,531,1483,558"/>
-<area shape="rect" id="node11" href="$d3/dc8/class_media_feature_table.html" title=" " alt="" coords="274,627,406,654"/>
-<area shape="rect" id="node12" href="$df/d79/class_media_wa_table.html" title=" " alt="" coords="286,678,394,705"/>
-<area shape="rect" id="node13" href="$d4/d97/struct___d_d_i___m_e_d_i_a___h_e_a_p.html" title=" " alt="" coords="269,475,411,502"/>
-<area shape="rect" id="node16" href="$d0/d33/struct_media_libva_caps_1_1_encode_format_table.html" title=" " alt="" coords="579,673,788,715"/>
-<area shape="rect" id="node17" href="$d2/d5b/class_media_libva_caps_1_1_profile_entrypoint.html" title="Profile entrypoint." alt="" coords="574,622,793,649"/>
-<area shape="rect" id="node18" href="$dc/d36/class_aux_table_mgr.html" title="Aux Table Manager." alt="" coords="291,577,389,603"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1283,324,1441,351"/>
+<area shape="rect" id="node17" href="$d4/daa/struct___d_d_i___m_e_d_i_a___s_u_r_f_a_c_e.html" title=" " alt="" coords="1599,308,1766,335"/>
+<area shape="rect" id="node2" href="$db/d8b/structmos__linux__bo.html" title=" " alt="" coords="53,477,156,504"/>
+<area shape="rect" id="node3" href="$d2/da7/structmos__bufmgr.html" title=" " alt="" coords="471,471,564,497"/>
+<area shape="rect" id="node8" href="$d4/d75/struct___p_a_t_c_h_l_o_c_a_t_i_o_n_l_i_s_t.html" title="Structure to patch location list." alt="" coords="436,623,599,649"/>
+<area shape="rect" id="node11" href="$d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html" title="Structure to Linux resource." alt="" coords="415,521,620,548"/>
+<area shape="rect" id="node12" href="$dd/d1d/struct___c_m_d___b_u_f_f_e_r___b_o___p_o_o_l.html" title="Structure to buffer pool." alt="" coords="644,751,831,777"/>
+<area shape="rect" id="node4" href="$d4/d36/structmos__linux__context.html" title=" " alt="" coords="909,417,1039,444"/>
+<area shape="rect" id="node5" href="$d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html" title="Structure to OS context." alt="" coords="1287,699,1437,725"/>
+<area shape="rect" id="node23" href="$dc/d3c/struct_d_d_i___m_e_d_i_a___c_o_n_t_e_x_t.html" title="Media heap for shared internal structures." alt="" coords="896,1028,1052,1055"/>
+<area shape="rect" id="node6" href="$d5/d30/struct___c_o_d_e_c_h_a_l___o_s___g_p_u___c_o_n_t_e_x_t.html" title="Structure to Gpu context." alt="" coords="861,647,1087,673"/>
+<area shape="rect" id="node7" href="$dd/de5/struct___a_l_l_o_c_a_t_i_o_n___l_i_s_t.html" title="Structure to Allocation List." alt="" coords="446,572,589,599"/>
+<area shape="rect" id="node9" href="$d3/d7b/struct___c_o_m_m_a_n_d___b_u_f_f_e_r.html" title="Structure to command buffer." alt="" coords="439,727,595,753"/>
+<area shape="rect" id="node10" href="$d2/de6/union___l_a_r_g_e___i_n_t_e_g_e_r.html" title=" " alt="" coords="37,823,173,849"/>
+<area shape="rect" id="node13" href="$d3/dc8/class_media_feature_table.html" title=" " alt="" coords="451,1249,583,1276"/>
+<area shape="rect" id="node14" href="$df/d79/class_media_wa_table.html" title=" " alt="" coords="463,915,571,941"/>
+<area shape="rect" id="node15" href="$dc/d36/class_aux_table_mgr.html" title="Aux Table Manager." alt="" coords="468,1000,567,1027"/>
+<area shape="rect" id="node16" href="$d7/d6e/struct_m_o_s___o_c_a___e_x_e_c___l_i_s_t___i_n_f_o.html" title=" " alt="" coords="5,568,204,595"/>
+<area shape="rect" id="node18" href="$d5/d10/struct___d_d_i___m_e_d_i_a___s_u_r_f_a_c_e___d_e_s_c_r_i_p_t_o_r.html" title="Surface descriptor for external DRM buffer." alt="" coords="1279,375,1445,417"/>
+<area shape="rect" id="node19" href="$d9/d7f/union___d_d_i___m_e_d_i_a___s_u_r_f_a_c_e___s_t_a_t_u_s___r_e_p_o_r_t.html" title=" " alt="" coords="1279,181,1445,222"/>
+<area shape="rect" id="node20" href="$d9/d61/struct___d_d_i___m_e_d_i_a___s_u_r_f_a_c_e___s_t_a_t_u_s___r_e_p_o_r_t_1_1___d_d_i___m_e_d_i_a__c4f721cd490bbcea4781707f24652303.html" title="Ddi media surface decode status." alt="" coords="873,149,1075,219"/>
+<area shape="rect" id="node21" href="$d7/d19/struct___d_d_i___m_e_d_i_a___s_u_r_f_a_c_e___s_t_a_t_u_s___r_e_p_o_r_t_1_1___d_d_i___m_e_d_i_a__0ecf74bd49c62dc5320586a658c345e9.html" title="Ddi media surface cenc status." alt="" coords="855,244,1093,300"/>
+<area shape="rect" id="node22" href="$da/d62/struct___d_d_i___m_e_d_i_a___s_u_r_f_a_c_e___s_t_a_t_u_s___r_e_p_o_r_t_1_1___d_d_i___m_e_d_i_a__689dede2493cbf4ef4c08d9744e3a5b1.html" title="Ddi media surface vpp status." alt="" coords="859,68,1089,124"/>
+<area shape="rect" id="node25" href="$d2/d08/class_media_libva_caps.html" title="Media libva caps." alt="" coords="1304,1120,1420,1147"/>
+<area shape="rect" id="node26" href="$d7/d40/class_media_libva_caps_cp_interface.html" title=" " alt="" coords="1592,1075,1773,1101"/>
+<area shape="rect" id="node24" href="$d4/d97/struct___d_d_i___m_e_d_i_a___h_e_a_p.html" title=" " alt="" coords="447,1180,588,1207"/>
+<area shape="rect" id="node27" href="$d0/d33/struct_media_libva_caps_1_1_encode_format_table.html" title=" " alt="" coords="869,1382,1079,1423"/>
+<area shape="rect" id="node28" href="$d2/d5b/class_media_libva_caps_1_1_profile_entrypoint.html" title="Profile entrypoint." alt="" coords="865,1331,1083,1357"/>
 </map>

@@ -1,0 +1,5 @@
+<map id="decode::DdiDecodeHevc::SetupCodecPicture" name="decode::DdiDecodeHevc::SetupCodecPicture">
+<area shape="rect" id="node1" title="Setup Codec Picture for Hevc." alt="" coords="5,39,168,80"/>
+<area shape="rect" id="node2" href="$d7/d54/classcodec_1_1_ddi_codec_base.html#ad3fe6a5f67eb48fa73d9175b7b0e7f15" title="Get Render Target Index." alt="" coords="240,5,391,47"/>
+<area shape="rect" id="node3" href="$d0/d2c/class_media_libva_common_next.html#a777c49ecedc8b526e631300f286a1822" title="Get surface from VA surface ID." alt="" coords="216,71,415,112"/>
+</map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: media_driver/linux/Xe_M/ddi/media_sysinfo_xe.cpp Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_driver/linux/Xe_M/ddi/media_sysinfo_xe.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_3115a56e2275d5beaba552b66eb05a58.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_c1c480c84d9c810d13e5396fd09e2c47.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_d8f0ef01667536299de8695c417df309.html">Xe_M</a></li><li class="navelem"><a class="el" href="../../dir_f963500ee4d4e90109bc50eb8796562b.html">ddi</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_55776ec83c9d032fd3160e5735bb9eeb.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_71b97772b1880ae754b9c282d2ac7b3e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_d7cc27b07d500b8b100c4ecf32cc34c4.html">Xe_M</a></li><li class="navelem"><a class="el" href="../../dir_a88c2d93c578292958e5828407290e12.html">ddi</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -101,7 +101,7 @@ $(function() {
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d5b/linux__skuwa__debug_8h.html">linux_skuwa_debug.h</a>&quot;</span></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#include &quot;<a class="code" href="../../d5/d39/linux__media__skuwa_8h.html">linux_media_skuwa.h</a>&quot;</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#include &quot;<a class="code" href="../../d2/d01/linux__shadow__skuwa_8h.html">linux_shadow_skuwa.h</a>&quot;</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#include &quot;mos_utilities.h&quot;</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#include &quot;<a class="code" href="../../d3/d85/media__user__setting__specific_8h.html">media_user_setting_specific.h</a>&quot;</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../da/d45/media__sysinfo__xe_8cpp.html#a1a6f5cfbcdbf0a85c40a8a5e86ac9e3c">   36</a></span><span class="preprocessor">#define THREADS_NUMBER_PER_EU_HP 8</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
@@ -273,277 +273,273 @@ $(function() {
 <div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>    waTable-&gt;WaDisregardPlatformChecks          = 1;</div>
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    waTable-&gt;Wa4kAlignUVOffsetNV12LinearSurface = 1;</div>
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span> </div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    waTable-&gt;WaDefaultTile4 = 1;</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    waTable-&gt;Wa_15010089951 = 1;</div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>    waTable-&gt;Wa_15010089951 = 1;</div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span> </div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>}</div>
-<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span> </div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno"><a class="line" href="../../da/d45/media__sysinfo__xe_8cpp.html#a45d7a9855d83911f3fd04105d5d99e37">  213</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#a45d7a9855d83911f3fd04105d5d99e37">InitPvcShadowWa</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="../../db/d4c/struct_gfx_device_info.html">GfxDeviceInfo</a> *devInfo,</div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>                            <a class="code hl_typedef" href="../../d2/d01/linux__shadow__skuwa_8h.html#a444ef5d4eba6908e360e4bac954a15e7">SHADOW_MEDIA_WA_TABLE</a> *waTable,</div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>                            <span class="keyword">struct</span> <a class="code hl_struct" href="../../d9/d13/struct_linux_driver_info.html">LinuxDriverInfo</a> *drvInfo)</div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>{</div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>    <span class="keywordflow">if</span> ((devInfo == <span class="keyword">nullptr</span>) || (waTable == <span class="keyword">nullptr</span>) || (drvInfo == <span class="keyword">nullptr</span>))</div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    {</div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>        <a class="code hl_define" href="../../da/d5b/linux__skuwa__debug_8h.html#a52325d1746dce6ad4df6ee657f45eacb">DEVINFO_ERROR</a>(<span class="stringliteral">&quot;null ptr is passed\n&quot;</span>);</div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    }</div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span> </div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    <span class="comment">/* by default PPGTT is enabled */</span></div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    waTable-&gt;WaForceGlobalGTT = 0;</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>    <span class="keywordflow">if</span> (drvInfo-&gt;<a class="code hl_variable" href="../../d9/d13/struct_linux_driver_info.html#a6cba077e8e6dfda06b8256f021f64044">hasPpgtt</a> == 0)</div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    {</div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>        waTable-&gt;WaForceGlobalGTT = 1;</div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>    }</div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>    waTable-&gt;WaDisregardPlatformChecks          = 1;</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    waTable-&gt;Wa4kAlignUVOffsetNV12LinearSurface = 1;</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    <span class="comment">// Set it to 0 if need to support 256B compress mode</span></div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>    waTable-&gt;WaLimit128BMediaCompr = 0;</div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>    waTable-&gt;WaDefaultTile4 = 1;</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>}</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span> </div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span><span class="keyword">static</span> <span class="keyword">struct </span><a class="code hl_struct" href="../../db/d4c/struct_gfx_device_info.html">GfxDeviceInfo</a> xehpGt4Info = {</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    .<a class="code hl_variable" href="../../db/d4c/struct_gfx_device_info.html#a308dedab449c9633713537ce225caec2">platformType</a>  = PLATFORM_MOBILE,</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>    .productFamily = IGFX_XE_HP_SDV,</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>    .displayFamily = IGFX_XE_HP_CORE,</div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>    .renderFamily  = IGFX_XE_HP_CORE,</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>    .mediaFamily   = IGFX_UNKNOWN_CORE,</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>    .eGTType       = GTTYPE_GT4,</div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>    .L3CacheSizeInKb = 0,</div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>    .L3BankCount   = 0,</div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    .EUCount       = 0,</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    .SliceCount    = 0,</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>    .SubSliceCount = 0,</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    .MaxEuPerSubSlice = 0,</div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>    .isLCIA        = 0,</div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    .hasLLC        = 0,</div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    .hasERAM       = 0,</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    .InitMediaSysInfo = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#a33bec5cdfc5dbefd805c112c08dafeb5">InitXeHPMediaSysInfo</a>,</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    .InitShadowSku    = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#ae2f8a075d0c11319c912dc02251e24f1">InitXeHPShadowSku</a>,</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    .InitShadowWa     = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#a1c8a7a43d83f4b704cefe028b2da8260">InitXeHPShadowWa</a>,</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>};</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span><span class="keyword">static</span> <span class="keyword">struct </span><a class="code hl_struct" href="../../db/d4c/struct_gfx_device_info.html">GfxDeviceInfo</a> pvcGt4Info = {</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    .<a class="code hl_variable" href="../../db/d4c/struct_gfx_device_info.html#a308dedab449c9633713537ce225caec2">platformType</a>  = PLATFORM_MOBILE,</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    .productFamily = IGFX_PVC,</div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    .displayFamily = IGFX_GEN12_CORE,</div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>    .renderFamily  = IGFX_XE_HPC_CORE,</div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>    .mediaFamily   = IGFX_UNKNOWN_CORE,</div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>    .eGTType       = GTTYPE_GT4,</div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>    .L3CacheSizeInKb = 0,</div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    .L3BankCount   = 0,</div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>    .EUCount       = 0,</div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>    .SliceCount    = 0,</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    .SubSliceCount = 0,</div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>    .MaxEuPerSubSlice = 0,</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    .isLCIA        = 0,</div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>    .hasLLC        = 0,</div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>    .hasERAM       = 0,</div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>    .InitMediaSysInfo = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#a33bec5cdfc5dbefd805c112c08dafeb5">InitXeHPMediaSysInfo</a>,</div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>    .InitShadowSku    = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#ae56d4750f21d1fc6c5baef4c78a47e20">InitPvcShadowSku</a>,</div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>    .InitShadowWa     = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#a45d7a9855d83911f3fd04105d5d99e37">InitPvcShadowWa</a>,</div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>};</div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span> </div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span><span class="keyword">static</span> <span class="keyword">struct </span><a class="code hl_struct" href="../../db/d4c/struct_gfx_device_info.html">GfxDeviceInfo</a> dg2Gt4Info = {</div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    .<a class="code hl_variable" href="../../db/d4c/struct_gfx_device_info.html#a308dedab449c9633713537ce225caec2">platformType</a>  = PLATFORM_MOBILE,</div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    .productFamily = IGFX_DG2,</div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>    .displayFamily = IGFX_GEN12_CORE,</div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>    .renderFamily  = IGFX_XE_HPG_CORE,</div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>    .mediaFamily   = IGFX_UNKNOWN_CORE,</div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>    .eGTType       = GTTYPE_UNDEFINED,</div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    .L3CacheSizeInKb = 0,</div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>    .L3BankCount   = 0,</div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    .EUCount       = 0,</div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    .SliceCount    = 0,</div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    .SubSliceCount = 0,</div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>    .MaxEuPerSubSlice = 0,</div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>    .isLCIA        = 0,</div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>    .hasLLC        = 0,</div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>    .hasERAM       = 0,</div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>    .InitMediaSysInfo = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#a33bec5cdfc5dbefd805c112c08dafeb5">InitXeHPMediaSysInfo</a>,</div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>    .InitShadowSku    = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#ae2f8a075d0c11319c912dc02251e24f1">InitXeHPShadowSku</a>,</div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>    .InitShadowWa     = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#a1c8a7a43d83f4b704cefe028b2da8260">InitXeHPShadowWa</a>,</div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>};</div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span> </div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Devicef2d2 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>    RegisterDevice(0xF2D2, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span> </div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0201 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>    RegisterDevice(0x0201, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span> </div>
-<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0202 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>    RegisterDevice(0x0202, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span> </div>
-<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0203 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>    RegisterDevice(0x0203, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span> </div>
-<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0204 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>    RegisterDevice(0x0204, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span> </div>
-<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0205 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>    RegisterDevice(0x0205, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span> </div>
-<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0206 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>    RegisterDevice(0x0206, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span> </div>
-<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0207 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>    RegisterDevice(0x0207, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span> </div>
-<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0208 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>    RegisterDevice(0x0208, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span> </div>
-<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0209 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>    RegisterDevice(0x0209, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span> </div>
-<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device020A = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>    RegisterDevice(0x020A, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span> </div>
-<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device020B = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>    RegisterDevice(0x020B, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span> </div>
-<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device020C = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>    RegisterDevice(0x020C, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span> </div>
-<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device020D = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>    RegisterDevice(0x020D, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span> </div>
-<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device020E = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>    RegisterDevice(0x020E, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span> </div>
-<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device020F = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>    RegisterDevice(0x020F, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span> </div>
-<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0210 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>    RegisterDevice(0x0210, &amp;xehpGt4Info);</div>
-<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span> </div>
-<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0bd0 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>    RegisterDevice(0x0bd0, &amp;pvcGt4Info);</div>
-<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span> </div>
-<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0bd5 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>    RegisterDevice(0x0bd5, &amp;pvcGt4Info);</div>
-<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span> </div>
-<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0bd6 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span>    RegisterDevice(0x0bd6, &amp;pvcGt4Info);</div>
-<div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span> </div>
-<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0bd7 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span>    RegisterDevice(0x0bd7, &amp;pvcGt4Info);</div>
-<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span> </div>
-<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0bd8 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>    RegisterDevice(0x0bd8, &amp;pvcGt4Info);</div>
-<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span> </div>
-<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0bd9 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span>    RegisterDevice(0x0bd9, &amp;pvcGt4Info); </div>
-<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span> </div>
-<div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0be0 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>    RegisterDevice(0x0be0, &amp;pvcGt4Info);</div>
-<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span> </div>
-<div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0be1 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span>    RegisterDevice(0x0be1, &amp;pvcGt4Info);</div>
-<div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span> </div>
-<div class="line"><a id="l00379" name="l00379"></a><span class="lineno">  379</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0be5 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span>    RegisterDevice(0x0be5, &amp;pvcGt4Info);</div>
-<div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span> </div>
-<div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F80 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span>    RegisterDevice(0x4F80, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span> </div>
-<div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F81 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span>    RegisterDevice(0x4F81, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span> </div>
-<div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F82 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span>    RegisterDevice(0x4F82, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span> </div>
-<div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F83 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span>    RegisterDevice(0x4F83, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span> </div>
-<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F84 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span>    RegisterDevice(0x4F84, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span> </div>
-<div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F85 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span>    RegisterDevice(0x4F85, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span> </div>
-<div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F86 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span>    RegisterDevice(0x4F86, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00402" name="l00402"></a><span class="lineno">  402</span> </div>
-<div class="line"><a id="l00403" name="l00403"></a><span class="lineno">  403</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F87 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00404" name="l00404"></a><span class="lineno">  404</span>    RegisterDevice(0x4F87, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span> </div>
-<div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F88 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span>    RegisterDevice(0x4F88, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00408" name="l00408"></a><span class="lineno">  408</span> </div>
-<div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5690 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00410" name="l00410"></a><span class="lineno">  410</span>    RegisterDevice(0x5690, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span> </div>
-<div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5691 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span>    RegisterDevice(0x5691, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00414" name="l00414"></a><span class="lineno">  414</span> </div>
-<div class="line"><a id="l00415" name="l00415"></a><span class="lineno">  415</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5692 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span>    RegisterDevice(0x5692, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00417" name="l00417"></a><span class="lineno">  417</span> </div>
-<div class="line"><a id="l00418" name="l00418"></a><span class="lineno">  418</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5693 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00419" name="l00419"></a><span class="lineno">  419</span>    RegisterDevice(0x5693, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00420" name="l00420"></a><span class="lineno">  420</span> </div>
-<div class="line"><a id="l00421" name="l00421"></a><span class="lineno">  421</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5694 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00422" name="l00422"></a><span class="lineno">  422</span>    RegisterDevice(0x5694, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span> </div>
-<div class="line"><a id="l00424" name="l00424"></a><span class="lineno">  424</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5695 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00425" name="l00425"></a><span class="lineno">  425</span>    RegisterDevice(0x5695, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00426" name="l00426"></a><span class="lineno">  426</span> </div>
-<div class="line"><a id="l00427" name="l00427"></a><span class="lineno">  427</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5696 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00428" name="l00428"></a><span class="lineno">  428</span>    RegisterDevice(0x5696, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00429" name="l00429"></a><span class="lineno">  429</span> </div>
-<div class="line"><a id="l00430" name="l00430"></a><span class="lineno">  430</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5697 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00431" name="l00431"></a><span class="lineno">  431</span>    RegisterDevice(0x5697, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00432" name="l00432"></a><span class="lineno">  432</span> </div>
-<div class="line"><a id="l00433" name="l00433"></a><span class="lineno">  433</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5698 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00434" name="l00434"></a><span class="lineno">  434</span>    RegisterDevice(0x5698, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00435" name="l00435"></a><span class="lineno">  435</span> </div>
-<div class="line"><a id="l00436" name="l00436"></a><span class="lineno">  436</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A0 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span>    RegisterDevice(0x56A0, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00438" name="l00438"></a><span class="lineno">  438</span> </div>
-<div class="line"><a id="l00439" name="l00439"></a><span class="lineno">  439</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A1 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span>    RegisterDevice(0x56A1, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00441" name="l00441"></a><span class="lineno">  441</span> </div>
-<div class="line"><a id="l00442" name="l00442"></a><span class="lineno">  442</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A2 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00443" name="l00443"></a><span class="lineno">  443</span>    RegisterDevice(0x56A2, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00444" name="l00444"></a><span class="lineno">  444</span> </div>
-<div class="line"><a id="l00445" name="l00445"></a><span class="lineno">  445</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A3 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00446" name="l00446"></a><span class="lineno">  446</span>    RegisterDevice(0x56A3, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span> </div>
-<div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A4 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span>    RegisterDevice(0x56A4, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span> </div>
-<div class="line"><a id="l00451" name="l00451"></a><span class="lineno">  451</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A5 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00452" name="l00452"></a><span class="lineno">  452</span>    RegisterDevice(0x56A5, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00453" name="l00453"></a><span class="lineno">  453</span> </div>
-<div class="line"><a id="l00454" name="l00454"></a><span class="lineno">  454</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A6 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00455" name="l00455"></a><span class="lineno">  455</span>    RegisterDevice(0x56A6, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00456" name="l00456"></a><span class="lineno">  456</span> </div>
-<div class="line"><a id="l00457" name="l00457"></a><span class="lineno">  457</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A7 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span>    RegisterDevice(0x56A7, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span> </div>
-<div class="line"><a id="l00460" name="l00460"></a><span class="lineno">  460</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A8 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00461" name="l00461"></a><span class="lineno">  461</span>    RegisterDevice(0x56A8, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00462" name="l00462"></a><span class="lineno">  462</span> </div>
-<div class="line"><a id="l00463" name="l00463"></a><span class="lineno">  463</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A9 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00464" name="l00464"></a><span class="lineno">  464</span>    RegisterDevice(0x56A9, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00465" name="l00465"></a><span class="lineno">  465</span> </div>
-<div class="line"><a id="l00466" name="l00466"></a><span class="lineno">  466</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56B0 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00467" name="l00467"></a><span class="lineno">  467</span>    RegisterDevice(0x56B0, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00468" name="l00468"></a><span class="lineno">  468</span> </div>
-<div class="line"><a id="l00469" name="l00469"></a><span class="lineno">  469</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56B1 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00470" name="l00470"></a><span class="lineno">  470</span>    RegisterDevice(0x56B1, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00471" name="l00471"></a><span class="lineno">  471</span> </div>
-<div class="line"><a id="l00472" name="l00472"></a><span class="lineno">  472</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56C0 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00473" name="l00473"></a><span class="lineno">  473</span>    RegisterDevice(0x56C0, &amp;dg2Gt4Info);</div>
-<div class="line"><a id="l00474" name="l00474"></a><span class="lineno">  474</span> </div>
-<div class="line"><a id="l00475" name="l00475"></a><span class="lineno">  475</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56C1 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
-<div class="line"><a id="l00476" name="l00476"></a><span class="lineno">  476</span>    RegisterDevice(0x56C1, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>}</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span> </div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno"><a class="line" href="../../da/d45/media__sysinfo__xe_8cpp.html#a45d7a9855d83911f3fd04105d5d99e37">  211</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#a45d7a9855d83911f3fd04105d5d99e37">InitPvcShadowWa</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="../../db/d4c/struct_gfx_device_info.html">GfxDeviceInfo</a> *devInfo,</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>                            <a class="code hl_typedef" href="../../d2/d01/linux__shadow__skuwa_8h.html#a444ef5d4eba6908e360e4bac954a15e7">SHADOW_MEDIA_WA_TABLE</a> *waTable,</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>                            <span class="keyword">struct</span> <a class="code hl_struct" href="../../d9/d13/struct_linux_driver_info.html">LinuxDriverInfo</a> *drvInfo)</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>{</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>    <span class="keywordflow">if</span> ((devInfo == <span class="keyword">nullptr</span>) || (waTable == <span class="keyword">nullptr</span>) || (drvInfo == <span class="keyword">nullptr</span>))</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>    {</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>        <a class="code hl_define" href="../../da/d5b/linux__skuwa__debug_8h.html#a52325d1746dce6ad4df6ee657f45eacb">DEVINFO_ERROR</a>(<span class="stringliteral">&quot;null ptr is passed\n&quot;</span>);</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    }</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    <span class="comment">/* by default PPGTT is enabled */</span></div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    waTable-&gt;WaForceGlobalGTT = 0;</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    <span class="keywordflow">if</span> (drvInfo-&gt;<a class="code hl_variable" href="../../d9/d13/struct_linux_driver_info.html#a6cba077e8e6dfda06b8256f021f64044">hasPpgtt</a> == 0)</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    {</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>        waTable-&gt;WaForceGlobalGTT = 1;</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    }</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>    waTable-&gt;WaDisregardPlatformChecks          = 1;</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>    waTable-&gt;Wa4kAlignUVOffsetNV12LinearSurface = 1;</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    <span class="comment">// Set it to 0 if need to support 256B compress mode</span></div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    waTable-&gt;WaLimit128BMediaCompr = 0;</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span> </div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>}</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span> </div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span><span class="keyword">static</span> <span class="keyword">struct </span><a class="code hl_struct" href="../../db/d4c/struct_gfx_device_info.html">GfxDeviceInfo</a> xehpGt4Info = {</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>    .<a class="code hl_variable" href="../../db/d4c/struct_gfx_device_info.html#a308dedab449c9633713537ce225caec2">platformType</a>  = PLATFORM_MOBILE,</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>    .productFamily = IGFX_XE_HP_SDV,</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>    .displayFamily = IGFX_XE_HP_CORE,</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>    .renderFamily  = IGFX_XE_HP_CORE,</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    .mediaFamily   = IGFX_UNKNOWN_CORE,</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>    .eGTType       = GTTYPE_GT4,</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>    .L3CacheSizeInKb = 0,</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>    .L3BankCount   = 0,</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>    .EUCount       = 0,</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>    .SliceCount    = 0,</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>    .SubSliceCount = 0,</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>    .MaxEuPerSubSlice = 0,</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    .isLCIA        = 0,</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    .hasLLC        = 0,</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>    .hasERAM       = 0,</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    .InitMediaSysInfo = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#a33bec5cdfc5dbefd805c112c08dafeb5">InitXeHPMediaSysInfo</a>,</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>    .InitShadowSku    = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#ae2f8a075d0c11319c912dc02251e24f1">InitXeHPShadowSku</a>,</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    .InitShadowWa     = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#a1c8a7a43d83f4b704cefe028b2da8260">InitXeHPShadowWa</a>,</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>};</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span> </div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span><span class="keyword">static</span> <span class="keyword">struct </span><a class="code hl_struct" href="../../db/d4c/struct_gfx_device_info.html">GfxDeviceInfo</a> pvcGt4Info = {</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    .<a class="code hl_variable" href="../../db/d4c/struct_gfx_device_info.html#a308dedab449c9633713537ce225caec2">platformType</a>  = PLATFORM_MOBILE,</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>    .productFamily = IGFX_PVC,</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    .displayFamily = IGFX_GEN12_CORE,</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>    .renderFamily  = IGFX_XE_HPC_CORE,</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    .mediaFamily   = IGFX_UNKNOWN_CORE,</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    .eGTType       = GTTYPE_GT4,</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    .L3CacheSizeInKb = 0,</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>    .L3BankCount   = 0,</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>    .EUCount       = 0,</div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>    .SliceCount    = 0,</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>    .SubSliceCount = 0,</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    .MaxEuPerSubSlice = 0,</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>    .isLCIA        = 0,</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>    .hasLLC        = 0,</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    .hasERAM       = 0,</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>    .InitMediaSysInfo = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#a33bec5cdfc5dbefd805c112c08dafeb5">InitXeHPMediaSysInfo</a>,</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    .InitShadowSku    = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#ae56d4750f21d1fc6c5baef4c78a47e20">InitPvcShadowSku</a>,</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>    .InitShadowWa     = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#a45d7a9855d83911f3fd04105d5d99e37">InitPvcShadowWa</a>,</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>};</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span> </div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span><span class="keyword">static</span> <span class="keyword">struct </span><a class="code hl_struct" href="../../db/d4c/struct_gfx_device_info.html">GfxDeviceInfo</a> dg2Gt4Info = {</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>    .<a class="code hl_variable" href="../../db/d4c/struct_gfx_device_info.html#a308dedab449c9633713537ce225caec2">platformType</a>  = PLATFORM_MOBILE,</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>    .productFamily = IGFX_DG2,</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>    .displayFamily = IGFX_GEN12_CORE,</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    .renderFamily  = IGFX_XE_HPG_CORE,</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    .mediaFamily   = IGFX_UNKNOWN_CORE,</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    .eGTType       = GTTYPE_UNDEFINED,</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>    .L3CacheSizeInKb = 0,</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>    .L3BankCount   = 0,</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>    .EUCount       = 0,</div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>    .SliceCount    = 0,</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    .SubSliceCount = 0,</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>    .MaxEuPerSubSlice = 0,</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    .isLCIA        = 0,</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    .hasLLC        = 0,</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    .hasERAM       = 0,</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>    .InitMediaSysInfo = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#a33bec5cdfc5dbefd805c112c08dafeb5">InitXeHPMediaSysInfo</a>,</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>    .InitShadowSku    = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#ae2f8a075d0c11319c912dc02251e24f1">InitXeHPShadowSku</a>,</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>    .InitShadowWa     = <a class="code hl_function" href="../../da/d45/media__sysinfo__xe_8cpp.html#a1c8a7a43d83f4b704cefe028b2da8260">InitXeHPShadowWa</a>,</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>};</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span> </div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Devicef2d2 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>    RegisterDevice(0xF2D2, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span> </div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0201 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>    RegisterDevice(0x0201, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span> </div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0202 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>    RegisterDevice(0x0202, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span> </div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0203 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>    RegisterDevice(0x0203, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span> </div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0204 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>    RegisterDevice(0x0204, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span> </div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0205 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>    RegisterDevice(0x0205, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span> </div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0206 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>    RegisterDevice(0x0206, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span> </div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0207 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>    RegisterDevice(0x0207, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span> </div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0208 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>    RegisterDevice(0x0208, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span> </div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0209 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>    RegisterDevice(0x0209, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span> </div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device020A = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>    RegisterDevice(0x020A, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span> </div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device020B = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>    RegisterDevice(0x020B, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span> </div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device020C = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>    RegisterDevice(0x020C, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span> </div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device020D = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>    RegisterDevice(0x020D, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span> </div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device020E = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>    RegisterDevice(0x020E, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span> </div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device020F = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>    RegisterDevice(0x020F, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span> </div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpGt4Device0210 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>    RegisterDevice(0x0210, &amp;xehpGt4Info);</div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span> </div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0bd0 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>    RegisterDevice(0x0bd0, &amp;pvcGt4Info);</div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span> </div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0bd5 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>    RegisterDevice(0x0bd5, &amp;pvcGt4Info);</div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span> </div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0bd6 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>    RegisterDevice(0x0bd6, &amp;pvcGt4Info);</div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span> </div>
+<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0bd7 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>    RegisterDevice(0x0bd7, &amp;pvcGt4Info);</div>
+<div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span> </div>
+<div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0bd8 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>    RegisterDevice(0x0bd8, &amp;pvcGt4Info);</div>
+<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span> </div>
+<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0bd9 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>    RegisterDevice(0x0bd9, &amp;pvcGt4Info); </div>
+<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span> </div>
+<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0bda = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>    RegisterDevice(0x0bda, &amp;pvcGt4Info);</div>
+<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span> </div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0bdb = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span>    RegisterDevice(0x0bdb, &amp;pvcGt4Info);</div>
+<div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span> </div>
+<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0be0 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>    RegisterDevice(0x0be0, &amp;pvcGt4Info);</div>
+<div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span> </div>
+<div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0be1 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00379" name="l00379"></a><span class="lineno">  379</span>    RegisterDevice(0x0be1, &amp;pvcGt4Info);</div>
+<div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span> </div>
+<div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcGt4Device0be5 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span>    RegisterDevice(0x0be5, &amp;pvcGt4Info);</div>
+<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span> </div>
+<div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F80 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span>    RegisterDevice(0x4F80, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span> </div>
+<div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F81 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span>    RegisterDevice(0x4F81, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span> </div>
+<div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F82 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span>    RegisterDevice(0x4F82, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span> </div>
+<div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F83 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span>    RegisterDevice(0x4F83, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span> </div>
+<div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F84 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span>    RegisterDevice(0x4F84, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span> </div>
+<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F85 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span>    RegisterDevice(0x4F85, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span> </div>
+<div class="line"><a id="l00402" name="l00402"></a><span class="lineno">  402</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F86 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00403" name="l00403"></a><span class="lineno">  403</span>    RegisterDevice(0x4F86, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00404" name="l00404"></a><span class="lineno">  404</span> </div>
+<div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F87 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span>    RegisterDevice(0x4F87, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span> </div>
+<div class="line"><a id="l00408" name="l00408"></a><span class="lineno">  408</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device4F88 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span>    RegisterDevice(0x4F88, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00410" name="l00410"></a><span class="lineno">  410</span> </div>
+<div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5690 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span>    RegisterDevice(0x5690, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span> </div>
+<div class="line"><a id="l00414" name="l00414"></a><span class="lineno">  414</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5691 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00415" name="l00415"></a><span class="lineno">  415</span>    RegisterDevice(0x5691, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span> </div>
+<div class="line"><a id="l00417" name="l00417"></a><span class="lineno">  417</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5692 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00418" name="l00418"></a><span class="lineno">  418</span>    RegisterDevice(0x5692, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00419" name="l00419"></a><span class="lineno">  419</span> </div>
+<div class="line"><a id="l00420" name="l00420"></a><span class="lineno">  420</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5693 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00421" name="l00421"></a><span class="lineno">  421</span>    RegisterDevice(0x5693, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00422" name="l00422"></a><span class="lineno">  422</span> </div>
+<div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5694 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00424" name="l00424"></a><span class="lineno">  424</span>    RegisterDevice(0x5694, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00425" name="l00425"></a><span class="lineno">  425</span> </div>
+<div class="line"><a id="l00426" name="l00426"></a><span class="lineno">  426</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5695 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00427" name="l00427"></a><span class="lineno">  427</span>    RegisterDevice(0x5695, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00428" name="l00428"></a><span class="lineno">  428</span> </div>
+<div class="line"><a id="l00429" name="l00429"></a><span class="lineno">  429</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5696 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00430" name="l00430"></a><span class="lineno">  430</span>    RegisterDevice(0x5696, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00431" name="l00431"></a><span class="lineno">  431</span> </div>
+<div class="line"><a id="l00432" name="l00432"></a><span class="lineno">  432</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device5697 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00433" name="l00433"></a><span class="lineno">  433</span>    RegisterDevice(0x5697, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00434" name="l00434"></a><span class="lineno">  434</span> </div>
+<div class="line"><a id="l00435" name="l00435"></a><span class="lineno">  435</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A0 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00436" name="l00436"></a><span class="lineno">  436</span>    RegisterDevice(0x56A0, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span> </div>
+<div class="line"><a id="l00438" name="l00438"></a><span class="lineno">  438</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A1 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00439" name="l00439"></a><span class="lineno">  439</span>    RegisterDevice(0x56A1, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span> </div>
+<div class="line"><a id="l00441" name="l00441"></a><span class="lineno">  441</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A2 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00442" name="l00442"></a><span class="lineno">  442</span>    RegisterDevice(0x56A2, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00443" name="l00443"></a><span class="lineno">  443</span> </div>
+<div class="line"><a id="l00444" name="l00444"></a><span class="lineno">  444</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A3 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00445" name="l00445"></a><span class="lineno">  445</span>    RegisterDevice(0x56A3, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00446" name="l00446"></a><span class="lineno">  446</span> </div>
+<div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A4 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span>    RegisterDevice(0x56A4, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span> </div>
+<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A5 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00451" name="l00451"></a><span class="lineno">  451</span>    RegisterDevice(0x56A5, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00452" name="l00452"></a><span class="lineno">  452</span> </div>
+<div class="line"><a id="l00453" name="l00453"></a><span class="lineno">  453</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56A6 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00454" name="l00454"></a><span class="lineno">  454</span>    RegisterDevice(0x56A6, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00455" name="l00455"></a><span class="lineno">  455</span> </div>
+<div class="line"><a id="l00456" name="l00456"></a><span class="lineno">  456</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56B0 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00457" name="l00457"></a><span class="lineno">  457</span>    RegisterDevice(0x56B0, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span> </div>
+<div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56B1 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00460" name="l00460"></a><span class="lineno">  460</span>    RegisterDevice(0x56B1, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00461" name="l00461"></a><span class="lineno">  461</span> </div>
+<div class="line"><a id="l00462" name="l00462"></a><span class="lineno">  462</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56B2 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00463" name="l00463"></a><span class="lineno">  463</span>    RegisterDevice(0x56B2, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00464" name="l00464"></a><span class="lineno">  464</span> </div>
+<div class="line"><a id="l00465" name="l00465"></a><span class="lineno">  465</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56B3 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00466" name="l00466"></a><span class="lineno">  466</span>    RegisterDevice(0x56B3, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00467" name="l00467"></a><span class="lineno">  467</span> </div>
+<div class="line"><a id="l00468" name="l00468"></a><span class="lineno">  468</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56C0 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00469" name="l00469"></a><span class="lineno">  469</span>    RegisterDevice(0x56C0, &amp;dg2Gt4Info);</div>
+<div class="line"><a id="l00470" name="l00470"></a><span class="lineno">  470</span> </div>
+<div class="line"><a id="l00471" name="l00471"></a><span class="lineno">  471</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2Gt4Device56C1 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00472" name="l00472"></a><span class="lineno">  472</span>    RegisterDevice(0x56C1, &amp;dg2Gt4Info);</div>
 <div class="ttc" id="alinux__media__skuwa_8h_html"><div class="ttname"><a href="../../d5/d39/linux__media__skuwa_8h.html">linux_media_skuwa.h</a></div></div>
 <div class="ttc" id="alinux__shadow__skuwa_8h_html"><div class="ttname"><a href="../../d2/d01/linux__shadow__skuwa_8h.html">linux_shadow_skuwa.h</a></div></div>
 <div class="ttc" id="alinux__shadow__skuwa_8h_html_a444ef5d4eba6908e360e4bac954a15e7"><div class="ttname"><a href="../../d2/d01/linux__shadow__skuwa_8h.html#a444ef5d4eba6908e360e4bac954a15e7">SHADOW_MEDIA_WA_TABLE</a></div><div class="ttdeci">WA_TABLE SHADOW_MEDIA_WA_TABLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d01/linux__shadow__skuwa_8h_source.html#l00034">linux_shadow_skuwa.h:34</a></div></div>
@@ -555,21 +551,22 @@ $(function() {
 <div class="ttc" id="amedia__sysinfo__xe_8cpp_html_a1a6f5cfbcdbf0a85c40a8a5e86ac9e3c"><div class="ttname"><a href="../../da/d45/media__sysinfo__xe_8cpp.html#a1a6f5cfbcdbf0a85c40a8a5e86ac9e3c">THREADS_NUMBER_PER_EU_HP</a></div><div class="ttdeci">#define THREADS_NUMBER_PER_EU_HP</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/media__sysinfo__xe_8cpp_source.html#l00036">media_sysinfo_xe.cpp:36</a></div></div>
 <div class="ttc" id="amedia__sysinfo__xe_8cpp_html_a1c8a7a43d83f4b704cefe028b2da8260"><div class="ttname"><a href="../../da/d45/media__sysinfo__xe_8cpp.html#a1c8a7a43d83f4b704cefe028b2da8260">InitXeHPShadowWa</a></div><div class="ttdeci">bool InitXeHPShadowWa(struct GfxDeviceInfo *devInfo, SHADOW_MEDIA_WA_TABLE *waTable, struct LinuxDriverInfo *drvInfo)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/media__sysinfo__xe_8cpp_source.html#l00186">media_sysinfo_xe.cpp:186</a></div></div>
 <div class="ttc" id="amedia__sysinfo__xe_8cpp_html_a33bec5cdfc5dbefd805c112c08dafeb5"><div class="ttname"><a href="../../da/d45/media__sysinfo__xe_8cpp.html#a33bec5cdfc5dbefd805c112c08dafeb5">InitXeHPMediaSysInfo</a></div><div class="ttdeci">bool InitXeHPMediaSysInfo(struct GfxDeviceInfo *devInfo, MEDIA_GT_SYSTEM_INFO *sysInfo)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/media__sysinfo__xe_8cpp_source.html#l00041">media_sysinfo_xe.cpp:41</a></div></div>
-<div class="ttc" id="amedia__sysinfo__xe_8cpp_html_a45d7a9855d83911f3fd04105d5d99e37"><div class="ttname"><a href="../../da/d45/media__sysinfo__xe_8cpp.html#a45d7a9855d83911f3fd04105d5d99e37">InitPvcShadowWa</a></div><div class="ttdeci">bool InitPvcShadowWa(struct GfxDeviceInfo *devInfo, SHADOW_MEDIA_WA_TABLE *waTable, struct LinuxDriverInfo *drvInfo)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/media__sysinfo__xe_8cpp_source.html#l00213">media_sysinfo_xe.cpp:213</a></div></div>
+<div class="ttc" id="amedia__sysinfo__xe_8cpp_html_a45d7a9855d83911f3fd04105d5d99e37"><div class="ttname"><a href="../../da/d45/media__sysinfo__xe_8cpp.html#a45d7a9855d83911f3fd04105d5d99e37">InitPvcShadowWa</a></div><div class="ttdeci">bool InitPvcShadowWa(struct GfxDeviceInfo *devInfo, SHADOW_MEDIA_WA_TABLE *waTable, struct LinuxDriverInfo *drvInfo)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/media__sysinfo__xe_8cpp_source.html#l00211">media_sysinfo_xe.cpp:211</a></div></div>
 <div class="ttc" id="amedia__sysinfo__xe_8cpp_html_a5c5758d87b6dbe864aa4dc3cd32e860a"><div class="ttname"><a href="../../da/d45/media__sysinfo__xe_8cpp.html#a5c5758d87b6dbe864aa4dc3cd32e860a">base_fact</a></div><div class="ttdeci">DeviceInfoFactory&lt; GfxDeviceInfo &gt; base_fact</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/media__sysinfo__xe_8cpp_source.html#l00039">media_sysinfo_xe.cpp:39</a></div></div>
 <div class="ttc" id="amedia__sysinfo__xe_8cpp_html_ae2f8a075d0c11319c912dc02251e24f1"><div class="ttname"><a href="../../da/d45/media__sysinfo__xe_8cpp.html#ae2f8a075d0c11319c912dc02251e24f1">InitXeHPShadowSku</a></div><div class="ttdeci">bool InitXeHPShadowSku(struct GfxDeviceInfo *devInfo, SHADOW_MEDIA_FEATURE_TABLE *skuTable, struct LinuxDriverInfo *drvInfo)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/media__sysinfo__xe_8cpp_source.html#l00086">media_sysinfo_xe.cpp:86</a></div></div>
 <div class="ttc" id="amedia__sysinfo__xe_8cpp_html_ae56d4750f21d1fc6c5baef4c78a47e20"><div class="ttname"><a href="../../da/d45/media__sysinfo__xe_8cpp.html#ae56d4750f21d1fc6c5baef4c78a47e20">InitPvcShadowSku</a></div><div class="ttdeci">bool InitPvcShadowSku(struct GfxDeviceInfo *devInfo, SHADOW_MEDIA_FEATURE_TABLE *skuTable, struct LinuxDriverInfo *drvInfo)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/media__sysinfo__xe_8cpp_source.html#l00135">media_sysinfo_xe.cpp:135</a></div></div>
-<div class="ttc" id="astruct_gfx_device_info_html"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html">GfxDeviceInfo</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00086">linux_system_info.h:87</a></div></div>
-<div class="ttc" id="astruct_gfx_device_info_html_a06cb86cc7357361087b482fa8027e412"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html#a06cb86cc7357361087b482fa8027e412">GfxDeviceInfo::hasERAM</a></div><div class="ttdeci">uint32_t hasERAM</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00102">linux_system_info.h:102</a></div></div>
-<div class="ttc" id="astruct_gfx_device_info_html_a0a34717addadc78da4dba1758b5b99fa"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html#a0a34717addadc78da4dba1758b5b99fa">GfxDeviceInfo::L3BankCount</a></div><div class="ttdeci">uint32_t L3BankCount</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00095">linux_system_info.h:95</a></div></div>
-<div class="ttc" id="astruct_gfx_device_info_html_a308dedab449c9633713537ce225caec2"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html#a308dedab449c9633713537ce225caec2">GfxDeviceInfo::platformType</a></div><div class="ttdeci">uint32_t platformType</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00088">linux_system_info.h:88</a></div></div>
-<div class="ttc" id="astruct_gfx_device_info_html_a5e3df0e703c638add4d8769b4c706500"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html#a5e3df0e703c638add4d8769b4c706500">GfxDeviceInfo::SubSliceCount</a></div><div class="ttdeci">uint32_t SubSliceCount</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00098">linux_system_info.h:98</a></div></div>
-<div class="ttc" id="astruct_gfx_device_info_html_a71c648a398c2c1b91b1ae1bd4b74930d"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html#a71c648a398c2c1b91b1ae1bd4b74930d">GfxDeviceInfo::EUCount</a></div><div class="ttdeci">uint32_t EUCount</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00096">linux_system_info.h:96</a></div></div>
-<div class="ttc" id="astruct_gfx_device_info_html_a8ebeffac5e3c09faaf8b8e23967b8983"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html#a8ebeffac5e3c09faaf8b8e23967b8983">GfxDeviceInfo::MaxEuPerSubSlice</a></div><div class="ttdeci">uint32_t MaxEuPerSubSlice</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00099">linux_system_info.h:99</a></div></div>
-<div class="ttc" id="astruct_gfx_device_info_html_adebd42e06752ffb19733379c8c7b3abb"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html#adebd42e06752ffb19733379c8c7b3abb">GfxDeviceInfo::SliceCount</a></div><div class="ttdeci">uint32_t SliceCount</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00097">linux_system_info.h:97</a></div></div>
+<div class="ttc" id="amedia__user__setting__specific_8h_html"><div class="ttname"><a href="../../d3/d85/media__user__setting__specific_8h.html">media_user_setting_specific.h</a></div><div class="ttdoc">media user setting specific</div></div>
+<div class="ttc" id="astruct_gfx_device_info_html"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html">GfxDeviceInfo</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00088">linux_system_info.h:89</a></div></div>
+<div class="ttc" id="astruct_gfx_device_info_html_a06cb86cc7357361087b482fa8027e412"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html#a06cb86cc7357361087b482fa8027e412">GfxDeviceInfo::hasERAM</a></div><div class="ttdeci">uint32_t hasERAM</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00104">linux_system_info.h:104</a></div></div>
+<div class="ttc" id="astruct_gfx_device_info_html_a0a34717addadc78da4dba1758b5b99fa"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html#a0a34717addadc78da4dba1758b5b99fa">GfxDeviceInfo::L3BankCount</a></div><div class="ttdeci">uint32_t L3BankCount</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00097">linux_system_info.h:97</a></div></div>
+<div class="ttc" id="astruct_gfx_device_info_html_a308dedab449c9633713537ce225caec2"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html#a308dedab449c9633713537ce225caec2">GfxDeviceInfo::platformType</a></div><div class="ttdeci">uint32_t platformType</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00090">linux_system_info.h:90</a></div></div>
+<div class="ttc" id="astruct_gfx_device_info_html_a5e3df0e703c638add4d8769b4c706500"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html#a5e3df0e703c638add4d8769b4c706500">GfxDeviceInfo::SubSliceCount</a></div><div class="ttdeci">uint32_t SubSliceCount</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00100">linux_system_info.h:100</a></div></div>
+<div class="ttc" id="astruct_gfx_device_info_html_a71c648a398c2c1b91b1ae1bd4b74930d"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html#a71c648a398c2c1b91b1ae1bd4b74930d">GfxDeviceInfo::EUCount</a></div><div class="ttdeci">uint32_t EUCount</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00098">linux_system_info.h:98</a></div></div>
+<div class="ttc" id="astruct_gfx_device_info_html_a8ebeffac5e3c09faaf8b8e23967b8983"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html#a8ebeffac5e3c09faaf8b8e23967b8983">GfxDeviceInfo::MaxEuPerSubSlice</a></div><div class="ttdeci">uint32_t MaxEuPerSubSlice</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00101">linux_system_info.h:101</a></div></div>
+<div class="ttc" id="astruct_gfx_device_info_html_adebd42e06752ffb19733379c8c7b3abb"><div class="ttname"><a href="../../db/d4c/struct_gfx_device_info.html#adebd42e06752ffb19733379c8c7b3abb">GfxDeviceInfo::SliceCount</a></div><div class="ttdeci">uint32_t SliceCount</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00099">linux_system_info.h:99</a></div></div>
 <div class="ttc" id="astruct_linux_driver_info_html"><div class="ttname"><a href="../../d9/d13/struct_linux_driver_info.html">LinuxDriverInfo</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00045">linux_system_info.h:46</a></div></div>
 <div class="ttc" id="astruct_linux_driver_info_html_a3683554a1bf2d2028f560eeeeb0ad870"><div class="ttname"><a href="../../d9/d13/struct_linux_driver_info.html#a3683554a1bf2d2028f560eeeeb0ad870">LinuxDriverInfo::hasVebox</a></div><div class="ttdeci">uint32_t hasVebox</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00054">linux_system_info.h:54</a></div></div>
-<div class="ttc" id="astruct_linux_driver_info_html_a6cba077e8e6dfda06b8256f021f64044"><div class="ttname"><a href="../../d9/d13/struct_linux_driver_info.html#a6cba077e8e6dfda06b8256f021f64044">LinuxDriverInfo::hasPpgtt</a></div><div class="ttdeci">uint32_t hasPpgtt</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00057">linux_system_info.h:57</a></div></div>
+<div class="ttc" id="astruct_linux_driver_info_html_a6cba077e8e6dfda06b8256f021f64044"><div class="ttname"><a href="../../d9/d13/struct_linux_driver_info.html#a6cba077e8e6dfda06b8256f021f64044">LinuxDriverInfo::hasPpgtt</a></div><div class="ttdeci">uint32_t hasPpgtt</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00058">linux_system_info.h:58</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

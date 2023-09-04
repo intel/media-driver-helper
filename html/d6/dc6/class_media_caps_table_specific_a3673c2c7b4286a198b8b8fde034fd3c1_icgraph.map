@@ -1,0 +1,7 @@
+<map id="MediaCapsTableSpecific::QuerySupportedAttrib" name="MediaCapsTableSpecific::QuerySupportedAttrib">
+<area shape="rect" id="node1" title="Get Supported Attrib Value." alt="" coords="387,71,551,112"/>
+<area shape="rect" id="node2" href="$d5/dde/class_media_libva_caps_next.html#a3a9c7a9d1b8e3d80550dd270004f8ea4" title="Check attrib when create a configuration." alt="" coords="196,5,339,47"/>
+<area shape="rect" id="node4" href="$d5/dde/class_media_libva_caps_next.html#a9e0f8f96e0fa0e8b9108503af39b2ce8" title="Get Attrib Value." alt="" coords="196,71,339,112"/>
+<area shape="rect" id="node5" href="$d5/dde/class_media_libva_caps_next.html#aa8ae6353ad64066e7acead63c54692ee" title="Get attributes for a given profile/entrypoint pair." alt="" coords="196,136,339,177"/>
+<area shape="rect" id="node3" href="$d5/dde/class_media_libva_caps_next.html#a183d4b420d1f45e5b93296259152274c" title="Create a configuration." alt="" coords="5,5,148,47"/>
+</map>

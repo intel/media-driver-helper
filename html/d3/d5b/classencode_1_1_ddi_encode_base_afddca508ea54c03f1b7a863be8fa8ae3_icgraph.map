@@ -1,0 +1,6 @@
+<map id="encode::DdiEncodeBase::GetIndexFromPreEncStatusReportBuffer" name="encode::DdiEncodeBase::GetIndexFromPreEncStatusReportBuffer">
+<area shape="rect" id="node1" title="Get Index From PreEnc Status Report Buffer." alt="" coords="743,5,973,61"/>
+<area shape="rect" id="node2" href="$d3/d5b/classencode_1_1_ddi_encode_base.html#ad159963c94c9f8fad5a80a96d8fa3c3c" title="Remove PreEnc Report Status from status report list." alt="" coords="469,5,695,61"/>
+<area shape="rect" id="node3" href="$d9/dba/class_ddi_encode_functions.html#a7fe24ff37130163ddb9c751d82f407f0" title="Remove form preencode status report queue." alt="" coords="196,5,421,61"/>
+<area shape="rect" id="node4" href="$d9/dba/class_ddi_encode_functions.html#af717619d05bd74c643a9a682a134424d" title="Destroy buffer." alt="" coords="5,13,148,54"/>
+</map>

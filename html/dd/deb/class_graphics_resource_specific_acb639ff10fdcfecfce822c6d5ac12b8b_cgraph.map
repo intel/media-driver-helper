@@ -1,8 +1,8 @@
 <map id="GraphicsResourceSpecific::Allocate" name="GraphicsResourceSpecific::Allocate">
 <area shape="rect" id="node1" title="Allocate the graphic memory to back up the graphic resource." alt="" coords="5,115,180,156"/>
 <area shape="rect" id="node2" href="$d0/d0e/class_os_context_specific.html#ace013e05d6bf289c7bebd5adcc1fbda7" title=" " alt="" coords="239,5,392,47"/>
-<area shape="rect" id="node3" href="$d1/d60/mos__bufmgr__api_8c.html#af8b481d73fdffe558648a023e8c2bfa8" title=" " alt="" coords="264,71,367,98"/>
-<area shape="rect" id="node4" href="$d1/d60/mos__bufmgr__api_8c.html#a333c395f5691e0cc0bf366929b4be6d7" title=" " alt="" coords="249,122,382,149"/>
-<area shape="rect" id="node5" href="$d1/d60/mos__bufmgr__api_8c.html#acc56e5634918b0ad7bc6e9557bc6c6bc" title=" " alt="" coords="241,173,390,199"/>
+<area shape="rect" id="node3" href="$d7/d73/mos__bufmgr__api__mock_8c.html#aa325d5048df51438d30d99c2be3552d9" title=" " alt="" coords="264,71,367,98"/>
+<area shape="rect" id="node4" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a6e057dd4ad453cda0286dfcd045a3630" title=" " alt="" coords="249,122,382,149"/>
+<area shape="rect" id="node5" href="$d7/d73/mos__bufmgr__api__mock_8c.html#acc56e5634918b0ad7bc6e9557bc6c6bc" title=" " alt="" coords="241,173,390,199"/>
 <area shape="rect" id="node6" href="$dd/deb/class_graphics_resource_specific.html#a9c94cbe7923adf52fb28366ab12dd7ea" title="Set tilemode by force to GMM info flag." alt="" coords="228,224,403,265"/>
 </map>

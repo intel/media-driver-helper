@@ -3,5 +3,5 @@
 <area shape="rect" id="node2" href="$dd/deb/class_graphics_resource_specific.html#acb639ff10fdcfecfce822c6d5ac12b8b" title="Allocate the graphic memory to back up the graphic resource." alt="" coords="236,5,411,47"/>
 <area shape="rect" id="node3" href="$dd/deb/class_graphics_resource_specific.html#a8e6ecb4d46d402fdf54c29b99c2798f2" title="Frees the specified resource with flag, if locked, unlocks it." alt="" coords="236,71,411,112"/>
 <area shape="rect" id="node4" href="$d3/de3/mos__os__specific_8c.html#a14ee0445c136c676063a8fc640a9a191" title="Get current GMM client context." alt="" coords="227,136,420,177"/>
-<area shape="rect" id="node5" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,143,179,170"/>
+<area shape="rect" id="node5" href="$d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,143,179,170"/>
 </map>

@@ -1,0 +1,52 @@
+<map id="C:/Users/xiaoganx/Project/media_driver_upstream/media&#45;driver/media_softlet/linux/common/ddi/media_libva_caps_next.h" name="C:/Users/xiaoganx/Project/media_driver_upstream/media&#45;driver/media_softlet/linux/common/ddi/media_libva_caps_next.h">
+<area shape="rect" id="node1" title="Header file of media caps next class on linux." alt="" coords="1577,5,1775,91"/>
+<area shape="rect" id="node2" href="$d3/d68/media__capstable__specific_8h.html" title="Header file of media caps table class on specific os." alt="" coords="422,139,605,165"/>
+<area shape="rect" id="node10" href="$d3/df3/media__libva__common__next_8h.html" title="libva common next head file" alt="" coords="2388,377,2535,419"/>
+<area shape="rect" id="node3" title=" " alt="" coords="428,385,484,411"/>
+<area shape="rect" id="node4" title=" " alt="" coords="139,385,186,411"/>
+<area shape="rect" id="node5" title=" " alt="" coords="85,221,125,247"/>
+<area shape="rect" id="node6" title=" " alt="" coords="2849,541,2911,568"/>
+<area shape="rect" id="node7" title=" " alt="" coords="793,541,933,568"/>
+<area shape="rect" id="node8" href="$d2/da8/capstable__data__linux__definition_8h.html" title="This file defines the data structure for MediaCapsTableLinux." alt="" coords="496,213,640,255"/>
+<area shape="rect" id="node50" title=" " alt="" coords="200,221,331,247"/>
+<area shape="rect" id="node9" href="$d4/df0/media__libva__util__next_8h.html" title="libva(and its extension) utility head file" alt="" coords="2234,303,2390,329"/>
+<area shape="rect" id="node39" href="$d8/df1/hwinfo__linux_8h.html" title=" " alt="" coords="134,541,237,568"/>
+<area shape="rect" id="node42" href="$d3/d6c/linux__system__info_8h.html" title=" " alt="" coords="142,691,279,717"/>
+<area shape="rect" id="node45" href="$dd/dcb/media__ddi__decode__const_8h.html" title="Add some const string definition for media_libva_decoder." alt="" coords="774,303,954,329"/>
+<area shape="rect" id="node46" href="$d4/d65/media__ddi__encode__const_8h.html" title="Add some const string definition for media_libva_encoder." alt="" coords="363,303,543,329"/>
+<area shape="rect" id="node47" href="$d9/d17/media__libva__caps__factory_8h.html" title="Defines one template class to create the instance of DDI MediaLibvaCaps." alt="" coords="568,303,749,329"/>
+<area shape="rect" id="node38" title=" " alt="" coords="2261,385,2363,411"/>
+<area shape="rect" id="node11" title=" " alt="" coords="2312,541,2429,568"/>
+<area shape="rect" id="node12" title=" " alt="" coords="2727,541,2825,568"/>
+<area shape="rect" id="node13" title=" " alt="" coords="709,840,792,867"/>
+<area shape="rect" id="node14" href="$d5/d3a/mos__bufmgr__api_8h.html" title="Public definitions of Intel&#45;specific bufmgr api functions." alt="" coords="731,616,859,643"/>
+<area shape="rect" id="node25" href="$d8/df2/mos__defs__specific_8h.html" title="Defines common types and macros across different platform on Linux." alt="" coords="2466,467,2606,493"/>
+<area shape="rect" id="node29" href="$da/d28/media__libva__common_8h.html" title="libva(and its extension) interface implemantation common head file" alt="" coords="1939,467,2096,493"/>
+<area shape="rect" id="node15" title=" " alt="" coords="847,691,908,717"/>
+<area shape="rect" id="node16" href="$da/d68/drm_8h.html" title=" " alt="" coords="767,691,822,717"/>
+<area shape="rect" id="node21" href="$d4/d8d/libdrm__macros_8h.html" title=" " alt="" coords="599,691,718,717"/>
+<area shape="rect" id="node23" href="$d3/d23/media__skuwa__specific_8h.html" title="Defines the media_specific skuwa for Linux." alt="" coords="363,691,525,717"/>
+<area shape="rect" id="node17" title=" " alt="" coords="350,840,415,867"/>
+<area shape="rect" id="node18" title=" " alt="" coords="649,765,749,792"/>
+<area shape="rect" id="node19" title=" " alt="" coords="773,765,864,792"/>
+<area shape="rect" id="node20" href="$d6/d9b/drm__mode_8h.html" title=" " alt="" coords="889,765,983,792"/>
+<area shape="rect" id="node22" title=" " alt="" coords="478,765,573,792"/>
+<area shape="rect" id="node24" href="$d2/d01/linux__shadow__skuwa_8h.html" title=" " alt="" coords="248,765,403,792"/>
+<area shape="rect" id="node26" title=" " alt="" coords="2454,541,2530,568"/>
+<area shape="rect" id="node27" title=" " alt="" coords="2554,541,2609,568"/>
+<area shape="rect" id="node28" title=" " alt="" coords="2633,541,2703,568"/>
+<area shape="rect" id="node30" title=" " alt="" coords="1538,541,1678,568"/>
+<area shape="rect" id="node31" title=" " alt="" coords="1702,541,1885,568"/>
+<area shape="rect" id="node32" title=" " alt="" coords="2075,541,2237,568"/>
+<area shape="rect" id="node33" title=" " alt="" coords="2087,616,2166,643"/>
+<area shape="rect" id="node34" href="$d4/dc0/mos__auxtable__mgr_8h.html" title="Container class for GMM aux table manager wrapper." alt="" coords="1909,541,2051,568"/>
+<area shape="rect" id="node35" title=" " alt="" coords="1059,541,1202,568"/>
+<area shape="rect" id="node36" title=" " alt="" coords="1227,541,1347,568"/>
+<area shape="rect" id="node37" href="$d8/d42/ddi__media__context_8h.html" title="ddi media context defination head file" alt="" coords="1371,541,1514,568"/>
+<area shape="rect" id="node40" title=" " alt="" coords="39,616,129,643"/>
+<area shape="rect" id="node41" title=" " alt="" coords="153,616,231,643"/>
+<area shape="rect" id="node43" title=" " alt="" coords="5,765,80,792"/>
+<area shape="rect" id="node44" title=" " alt="" coords="104,765,173,792"/>
+<area shape="rect" id="node48" title=" " alt="" coords="675,385,728,411"/>
+<area shape="rect" id="node49" title=" " alt="" coords="585,385,650,411"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="decode::DdiDecodeBase::DestroyContext" name="decode::DdiDecodeBase::DestroyContext">
+<area shape="rect" id="node1" title="Free the allocated resource related with the decode context." alt="" coords="228,235,393,276"/>
+<area shape="rect" id="node2" href="$d0/dca/class_ddi_decode_functions.html#a2a9c3bf2a81604f0f0c542e450c03bb2" title="Clean and free decode context structure." alt="" coords="21,5,164,47"/>
+<area shape="rect" id="node3" href="$df/dcc/classdecode_1_1_ddi_decode_av1.html#a2af29f8a131fd47ae57ab845df1e78bf" title="Free the allocated resource related with the decode context." alt="" coords="15,71,171,112"/>
+<area shape="rect" id="node4" href="$d3/da0/classdecode_1_1_ddi_decode_avc.html#a0798321215b0ac8ce84d299d6d5bb1dd" title="Free the allocated resource related with the decode context." alt="" coords="15,136,171,177"/>
+<area shape="rect" id="node5" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#ae0e2dbd1f38c5c8490cea66295f277f4" title="Free the allocated resource related with the decode context." alt="" coords="11,201,174,243"/>
+<area shape="rect" id="node6" href="$db/df1/classdecode_1_1_ddi_decode_jpeg.html#a9fc7e11f7697e6eb6104e0601fca0231" title="Free the allocated resource related with the decode context." alt="" coords="11,267,174,308"/>
+<area shape="rect" id="node7" href="$d5/d43/classdecode_1_1_ddi_decode_mpeg2.html#ae55b706f26e0cc8e9e7af6b0f595a909" title="Free the allocated resource related with the decode context." alt="" coords="5,332,180,373"/>
+<area shape="rect" id="node8" href="$da/da1/classdecode_1_1_ddi_decode_vp8.html#ad51383c39264ac4188d586ad767bd6bd" title="Free the allocated resource related with the decode context." alt="" coords="13,397,172,439"/>
+<area shape="rect" id="node9" href="$df/dd3/classdecode_1_1_ddi_decode_vp9.html#a81f78fc557f4c8836211b1f2d49bb52a" title="Free the allocated resource related with the decode context." alt="" coords="13,463,172,504"/>
+</map>

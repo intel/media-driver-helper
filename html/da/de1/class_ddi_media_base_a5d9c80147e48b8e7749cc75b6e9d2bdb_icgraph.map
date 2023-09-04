@@ -1,10 +1,9 @@
 <map id="DdiMediaBase::RegisterRTSurfaces" name="DdiMediaBase::RegisterRTSurfaces">
-<area shape="rect" id="node1" title="Register Render Target Surface." alt="" coords="272,157,501,184"/>
+<area shape="rect" id="node1" title="Register Render Target Surface." alt="" coords="272,132,501,159"/>
 <area shape="rect" id="node2" href="$df/d0d/class_ddi_encode_a_v1.html#ad57ec3db2053f23f0586f7f1c2561907" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="7,5,223,32"/>
-<area shape="rect" id="node3" href="$d0/d2f/class_ddi_encode_avc.html#a0b083316f81ecb7e3a1977aeb427b53c" title="Parse picture params." alt="" coords="9,56,221,83"/>
-<area shape="rect" id="node4" href="$db/d32/class_ddi_encode_hevc.html#a4406e7b36762c461980b59e86a5a95cd" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="5,107,224,133"/>
-<area shape="rect" id="node5" href="$db/d0d/class_ddi_encode_vp8.html#a3ac332bf2c62c4e334d4b98135053f79" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="7,157,222,184"/>
-<area shape="rect" id="node6" href="$dc/d76/class_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="7,208,222,235"/>
-<area shape="rect" id="node7" href="$d4/da7/class_ddi_encode_avc_fei.html#ad395e4cff671796973090feaf761aae7" title="Parse statistics data to preenc parameters." alt="" coords="16,259,213,301"/>
-<area shape="rect" id="node8" href="$da/d9e/class_ddi_decode_j_p_e_g.html#ad2bc707faa884959214d14f86ef424d3" title="Set common decode param setting for each codec." alt="" coords="19,325,210,366"/>
+<area shape="rect" id="node3" href="$db/d32/class_ddi_encode_hevc.html#a4406e7b36762c461980b59e86a5a95cd" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="5,56,224,83"/>
+<area shape="rect" id="node4" href="$db/d0d/class_ddi_encode_vp8.html#a3ac332bf2c62c4e334d4b98135053f79" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="7,107,222,133"/>
+<area shape="rect" id="node5" href="$dc/d76/class_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="7,157,222,184"/>
+<area shape="rect" id="node6" href="$d4/da7/class_ddi_encode_avc_fei.html#ad395e4cff671796973090feaf761aae7" title="Parse statistics data to preenc parameters." alt="" coords="16,209,213,250"/>
+<area shape="rect" id="node7" href="$da/d9e/class_ddi_decode_j_p_e_g.html#ad2bc707faa884959214d14f86ef424d3" title="Set common decode param setting for each codec." alt="" coords="19,274,210,315"/>
 </map>

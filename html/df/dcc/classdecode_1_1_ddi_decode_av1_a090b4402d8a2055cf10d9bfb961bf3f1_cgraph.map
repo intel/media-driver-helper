@@ -1,0 +1,6 @@
+<map id="decode::DdiDecodeAv1::CodecHalInit" name="decode::DdiDecodeAv1::CodecHalInit">
+<area shape="rect" id="node1" title="Initialize the back&#45;end CodecHal of DdiDecodeBase." alt="" coords="5,39,161,80"/>
+<area shape="rect" id="node2" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#a62ec846edf11646754acf178fb727cd8" title="Create the back&#45;end CodecHal of DdiDecodeBase." alt="" coords="209,5,375,47"/>
+<area shape="rect" id="node4" href="$d8/db3/class_ddi_cp_interface_next.html#a3b0e7ab129cef6260ced8ba852bfa7f2" title=" " alt="" coords="225,71,359,112"/>
+<area shape="rect" id="node3" href="$d8/db3/class_ddi_cp_interface_next.html#ada242498f5a9ad7f41e5ab192c36e192" title=" " alt="" coords="423,5,565,47"/>
+</map>

@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -71,14 +71,27 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../da/d54/mos__bufmgr_8h_source.html">mos_bufmgr.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html">mos_bufmgr_api.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for mos_linux_bo:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d8/db1/structmos__linux__bo__coll__graph.png" border="0" usemap="#amos__linux__bo_coll__map" alt="Collaboration graph"/></div>
 <map name="amos__linux__bo_coll__map" id="amos__linux__bo_coll__map">
-<area shape="rect" title=" " alt="" coords="40,5,143,32"/>
-<area shape="rect" href="../../d2/da7/structmos__bufmgr.html" title=" " alt="" coords="45,139,138,165"/>
+<area shape="rect" title=" " alt="" coords="22,251,125,277"/>
+<area shape="rect" href="../../d2/da7/structmos__bufmgr.html" title=" " alt="" coords="756,120,849,147"/>
+<area shape="rect" href="../../d4/d75/struct___p_a_t_c_h_l_o_c_a_t_i_o_n_l_i_s_t.html" title="Structure to patch location list." alt="" coords="271,352,433,379"/>
+<area shape="rect" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html" title="Structure to Linux resource." alt="" coords="249,301,455,328"/>
+<area shape="rect" href="../../dd/d1d/struct___c_m_d___b_u_f_f_e_r___b_o___p_o_o_l.html" title="Structure to buffer pool." alt="" coords="479,241,665,268"/>
+<area shape="rect" href="../../d4/d36/structmos__linux__context.html" title=" " alt="" coords="1339,200,1469,227"/>
+<area shape="rect" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html" title="Structure to OS context." alt="" coords="1061,340,1212,367"/>
+<area shape="rect" href="../../d5/d30/struct___c_o_d_e_c_h_a_l___o_s___g_p_u___c_o_n_t_e_x_t.html" title="Structure to Gpu context." alt="" coords="689,456,916,483"/>
+<area shape="rect" href="../../dd/de5/struct___a_l_l_o_c_a_t_i_o_n___l_i_s_t.html" title="Structure to Allocation List." alt="" coords="281,403,423,429"/>
+<area shape="rect" href="../../d3/d7b/struct___c_o_m_m_a_n_d___b_u_f_f_e_r.html" title="Structure to command buffer." alt="" coords="274,507,430,533"/>
+<area shape="rect" href="../../d2/de6/union___l_a_r_g_e___i_n_t_e_g_e_r.html" title=" " alt="" coords="5,532,141,559"/>
+<area shape="rect" href="../../d3/dc8/class_media_feature_table.html" title=" " alt="" coords="737,608,869,635"/>
+<area shape="rect" href="../../df/d79/class_media_wa_table.html" title=" " alt="" coords="749,355,857,381"/>
+<area shape="rect" href="../../dc/d36/class_aux_table_mgr.html" title="Aux Table Manager." alt="" coords="753,405,852,432"/>
+<area shape="rect" href="../../d7/d6e/struct_m_o_s___o_c_a___e_x_e_c___l_i_s_t___i_n_f_o.html" title=" " alt="" coords="253,64,451,91"/>
 </map>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -100,10 +113,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:abbae4f39f2e5d6c4c5040af652ab6276"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2133a32a3b43761bc187f9b6d8e85ddc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8b/structmos__linux__bo.html#a2133a32a3b43761bc187f9b6d8e85ddc">aux_mapped</a></td></tr>
 <tr class="separator:a2133a32a3b43761bc187f9b6d8e85ddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5107732f80188ae26b43ea51e011a44b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8b/structmos__linux__bo.html#a5107732f80188ae26b43ea51e011a44b">vm_id</a></td></tr>
+<tr class="separator:a5107732f80188ae26b43ea51e011a44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html#l00091">91</a> of file <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html">mos_bufmgr.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html#l00150">150</a> of file <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html">mos_bufmgr_api.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="adc913639f8df25d73984c76d22f23b51" name="adc913639f8df25d73984c76d22f23b51"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adc913639f8df25d73984c76d22f23b51">&#9670;&nbsp;</a></span>align</h2>
@@ -119,7 +134,7 @@ Public Attributes</h2></td></tr>
 <p >Alignment requirement for object</p>
 <p >Used for GTT mapping &amp; pinning the object. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html#l00105">105</a> of file <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html">mos_bufmgr.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html#l00164">164</a> of file <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html">mos_bufmgr_api.h</a>.</p>
 
 </div>
 </div>
@@ -136,7 +151,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >indicate if the bo mapped into aux table </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html#l00141">141</a> of file <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html">mos_bufmgr.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html#l00200">200</a> of file <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html">mos_bufmgr_api.h</a>.</p>
 
 </div>
 </div>
@@ -153,7 +168,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >Buffer manager context associated with this buffer object </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html#l00124">124</a> of file <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html">mos_bufmgr.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html#l00183">183</a> of file <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html">mos_bufmgr_api.h</a>.</p>
 
 </div>
 </div>
@@ -170,7 +185,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >MM-specific handle for accessing object </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html#l00129">129</a> of file <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html">mos_bufmgr.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html#l00188">188</a> of file <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html">mos_bufmgr_api.h</a>.</p>
 
 </div>
 </div>
@@ -187,7 +202,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >Deprecated field containing (possibly the low 32-bits of) the last seen virtual card address. Use offset64 instead. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html#l00111">111</a> of file <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html">mos_bufmgr.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html#l00170">170</a> of file <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html">mos_bufmgr_api.h</a>.</p>
 
 </div>
 </div>
@@ -204,7 +219,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >Last seen card virtual address (offset from the beginning of the aperture) for the object. This should be used to fill relocation entries when calling drm_intel_bo_emit_reloc() </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html#l00136">136</a> of file <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html">mos_bufmgr.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html#l00195">195</a> of file <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html">mos_bufmgr_api.h</a>.</p>
 
 </div>
 </div>
@@ -222,7 +237,7 @@ Public Attributes</h2></td></tr>
 <p >Size in bytes of the buffer object.</p>
 <p >The size may be larger than the size originally requested for the allocation, such as being aligned to page size. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html#l00098">98</a> of file <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html">mos_bufmgr.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html#l00157">157</a> of file <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html">mos_bufmgr_api.h</a>.</p>
 
 </div>
 </div>
@@ -239,12 +254,28 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >Virtual address for accessing the buffer data. Only valid while mapped. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html#l00120">120</a> of file <a class="el" href="../../da/d54/mos__bufmgr_8h_source.html">mos_bufmgr.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html#l00179">179</a> of file <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html">mos_bufmgr_api.h</a>.</p>
+
+</div>
+</div>
+<a id="a5107732f80188ae26b43ea51e011a44b" name="a5107732f80188ae26b43ea51e011a44b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5107732f80188ae26b43ea51e011a44b">&#9670;&nbsp;</a></span>vm_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a> mos_linux_bo::vm_id</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html#l00202">202</a> of file <a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html">mos_bufmgr_api.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>media_driver/linux/common/os/i915/include/<a class="el" href="../../da/d54/mos__bufmgr_8h_source.html">mos_bufmgr.h</a></li>
+<li>C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/i915/include/<a class="el" href="../../d5/d3a/mos__bufmgr__api_8h_source.html">mos_bufmgr_api.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,0 +1,4 @@
+<map id="encode::DdiEncodeBase::BeginPicture" name="encode::DdiEncodeBase::BeginPicture">
+<area shape="rect" id="node1" title="Get ready to process for a target surface." alt="" coords="196,5,361,47"/>
+<area shape="rect" id="node2" href="$d9/dba/class_ddi_encode_functions.html#a796c93c9cb0cd70be2cede05c21c903e" title="Get ready to decode a picture to a target surface." alt="" coords="5,5,148,47"/>
+</map>

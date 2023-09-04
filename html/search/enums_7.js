@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['os_5fspecific_5fresource_5ftype_0',['OS_SPECIFIC_RESOURCE_TYPE',['../d3/da0/mos__os__specific_8h.html#acc2d79886815ae61f5988bfa07f90d9e',1,'mos_os_specific.h']]]
+  ['meminfotype_0',['MemInfoType',['../d0/db6/memory__leak__detector_8h.html#a6858366adc400fd20dea1f3f9d4a3c4b',1,'memory_leak_detector.h']]],
+  ['mos_5fmemory_5fzone_1',['mos_memory_zone',['../d5/d3a/mos__bufmgr__api_8h.html#a34eaf687ab1c7e3e203505cff861ed50',1,'mos_bufmgr_api.h']]]
 ];

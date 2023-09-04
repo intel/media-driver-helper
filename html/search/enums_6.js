@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['mos_5faub_5fdump_5fbmp_5fformat_0',['mos_aub_dump_bmp_format',['../da/d54/mos__bufmgr_8h.html#a292fb984cfbac48dae534cf44e78c509',1,'mos_bufmgr.h']]],
-  ['mos_5fmemory_5fzone_1',['mos_memory_zone',['../da/d54/mos__bufmgr_8h.html#a34eaf687ab1c7e3e203505cff861ed50',1,'mos_bufmgr.h']]]
+  ['i915_5fmocs_5ftable_5findex_0',['i915_mocs_table_index',['../d0/d85/i915__drm_8h.html#a3690c60e8c11141d7829a879e6ad01c5',1,'i915_drm.h']]],
+  ['intel_5fhwconfig_1',['intel_hwconfig',['../d7/d56/intel__hwconfig__types_8h.html#ac62eabfe70edfb5d39d0e700c67606a7',1,'intel_hwconfig_types.h']]]
 ];

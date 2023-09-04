@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: media_softlet/linux/common/os/mos_user_setting_specific.cpp Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/mos_user_setting_specific.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_eb769a76f330a5c58e31180c7ee972cf.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_89ef60be54512353afcbd7baec3b722c.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_4fed1f8ed79d9f97d1e2fe61a41f97cc.html">common</a></li><li class="navelem"><a class="el" href="../../dir_64eaabcbed192c2a1a2816231d5c3931.html">os</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_3c3410289b14e1df332ecc9157e3894f.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_32ec30427766471c663c1286f4b04a0e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_986d2ce2ac55d27cc447e8d78f5db418.html">common</a></li><li class="navelem"><a class="el" href="../../dir_11379992f964418e636509c17f24b568.html">os</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -112,11 +112,20 @@ $(function() {
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        0,</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keyword">true</span>); <span class="comment">//&quot;Disable KMD Watchdog&quot;</span></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordflow">return</span> MOS_STATUS_SUCCESS;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>}</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    DeclareUserSettingKey(</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        userSettingPtr,</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <a class="code hl_define" href="../../db/d7b/mos__util__user__feature__keys__specific_8h.html#a3ec1fce884ee979bb68cbd5f5c958a73">__MEDIA_USER_FEATURE_VALUE_ENABLE_VM_BIND</a>,</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        MediaUserSetting::Group::Device,</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        0,</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keyword">true</span>); <span class="comment">//&quot;Enable VM Bind.&quot;</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordflow">return</span> MOS_STATUS_SUCCESS;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>}</div>
 <div class="ttc" id="alinux__system__info_8h_html_ad9e5fa174092bd0562179a00ce635e13"><div class="ttname"><a href="../../d3/d6c/linux__system__info_8h.html#ad9e5fa174092bd0562179a00ce635e13">MediaUserSettingSharedPtr</a></div><div class="ttdeci">std::shared_ptr&lt; MediaUserSetting::MediaUserSetting &gt; MediaUserSettingSharedPtr</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6c/linux__system__info_8h_source.html#l00035">linux_system_info.h:35</a></div></div>
 <div class="ttc" id="amos__util__user__feature__keys__specific_8h_html_a0f237225b14ec6418ccbd83758b4f88b"><div class="ttname"><a href="../../db/d7b/mos__util__user__feature__keys__specific_8h.html#a0f237225b14ec6418ccbd83758b4f88b">__MEDIA_USER_FEATURE_VALUE_ENABLE_SOFTPIN</a></div><div class="ttdeci">#define __MEDIA_USER_FEATURE_VALUE_ENABLE_SOFTPIN</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7b/mos__util__user__feature__keys__specific_8h_source.html#l00040">mos_util_user_feature_keys_specific.h:40</a></div></div>
 <div class="ttc" id="amos__util__user__feature__keys__specific_8h_html_a3d5a817720aa8df17419571146749e35"><div class="ttname"><a href="../../db/d7b/mos__util__user__feature__keys__specific_8h.html#a3d5a817720aa8df17419571146749e35">__MEDIA_USER_FEATURE_VALUE_DISABLE_KMD_WATCHDOG</a></div><div class="ttdeci">#define __MEDIA_USER_FEATURE_VALUE_DISABLE_KMD_WATCHDOG</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7b/mos__util__user__feature__keys__specific_8h_source.html#l00041">mos_util_user_feature_keys_specific.h:41</a></div></div>
+<div class="ttc" id="amos__util__user__feature__keys__specific_8h_html_a3ec1fce884ee979bb68cbd5f5c958a73"><div class="ttname"><a href="../../db/d7b/mos__util__user__feature__keys__specific_8h.html#a3ec1fce884ee979bb68cbd5f5c958a73">__MEDIA_USER_FEATURE_VALUE_ENABLE_VM_BIND</a></div><div class="ttdeci">#define __MEDIA_USER_FEATURE_VALUE_ENABLE_VM_BIND</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7b/mos__util__user__feature__keys__specific_8h_source.html#l00042">mos_util_user_feature_keys_specific.h:42</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

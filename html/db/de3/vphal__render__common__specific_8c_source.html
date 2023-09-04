@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: media_driver/linux/common/vp/hal/vphal_render_common_specific.c Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_driver/linux/common/vp/hal/vphal_render_common_specific.c Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_3115a56e2275d5beaba552b66eb05a58.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_c1c480c84d9c810d13e5396fd09e2c47.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_18eb10762497f3f6d66dac8bd6884b5d.html">common</a></li><li class="navelem"><a class="el" href="../../dir_4a8dff192091fcbb006933ec88cd142f.html">vp</a></li><li class="navelem"><a class="el" href="../../dir_1d849a31c796b35483c0de1bff528b70.html">hal</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_55776ec83c9d032fd3160e5735bb9eeb.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_71b97772b1880ae754b9c282d2ac7b3e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_fdadb0a20a244235cd810deb83932914.html">common</a></li><li class="navelem"><a class="el" href="../../dir_1f0dd4aaf58dd3c54eaf7a77528759f7.html">vp</a></li><li class="navelem"><a class="el" href="../../dir_32d24398e77c12c6d9f92527c4760f53.html">hal</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -98,19 +98,23 @@ $(function() {
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../db/de3/vphal__render__common__specific_8c.html#ad6af28024cbd71a9b5e55ef81c16c047">   38</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="../../db/de3/vphal__render__common__specific_8c.html#ad6af28024cbd71a9b5e55ef81c16c047">VpHal_RndrCommonIsMiBBEndNeeded</a>(</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <a class="code hl_typedef" href="../../d3/da0/mos__os__specific_8h.html#a403773434172df7c3ae8e408d090aa91">PMOS_INTERFACE</a>           pOsInterface)</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>{</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">bool</span> needed = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    VPHAL_RENDER_ASSERT(pOsInterface);</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordflow">if</span> (pOsInterface-&gt;osCpInterface &amp;&amp;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            pOsInterface-&gt;osCpInterface-&gt;IsHMEnabled())</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    {</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        needed = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    }</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordflow">return</span> needed;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}</div>
-<div class="ttc" id="amos__os__specific_8h_html_a403773434172df7c3ae8e408d090aa91"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#a403773434172df7c3ae8e408d090aa91">PMOS_INTERFACE</a></div><div class="ttdeci">struct _MOS_INTERFACE * PMOS_INTERFACE</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00156">mos_os_specific.h:156</a></div></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#ifdef WDDM_LINUX</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">bool</span> needed = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">bool</span> needed = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    VPHAL_RENDER_ASSERT(pOsInterface);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordflow">if</span> (pOsInterface-&gt;osCpInterface &amp;&amp;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            pOsInterface-&gt;osCpInterface-&gt;IsHMEnabled())</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        needed = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordflow">return</span> needed;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>}</div>
+<div class="ttc" id="amos__os__specific_8h_html_a403773434172df7c3ae8e408d090aa91"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#a403773434172df7c3ae8e408d090aa91">PMOS_INTERFACE</a></div><div class="ttdeci">struct _MOS_INTERFACE * PMOS_INTERFACE</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00269">mos_os_specific.h:269</a></div></div>
 <div class="ttc" id="avphal__render__common__specific_8c_html_ad6af28024cbd71a9b5e55ef81c16c047"><div class="ttname"><a href="../../db/de3/vphal__render__common__specific_8c.html#ad6af28024cbd71a9b5e55ef81c16c047">VpHal_RndrCommonIsMiBBEndNeeded</a></div><div class="ttdeci">bool VpHal_RndrCommonIsMiBBEndNeeded(PMOS_INTERFACE pOsInterface)</div><div class="ttdoc">Determine if the Batch Buffer End is needed to add in the end.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de3/vphal__render__common__specific_8c_source.html#l00038">vphal_render_common_specific.c:38</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

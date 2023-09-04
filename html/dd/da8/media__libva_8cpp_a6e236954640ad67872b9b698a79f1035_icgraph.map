@@ -1,7 +1,9 @@
 <map id="DdiMedia_QuerySurfaceError" name="DdiMedia_QuerySurfaceError">
-<area shape="rect" id="node1" title="Report MB error info." alt="" coords="771,5,961,32"/>
+<area shape="rect" id="node1" title="Report MB error info." alt="" coords="956,35,1147,61"/>
 <area shape="rect" id="node2" href="$dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="565,5,723,32"/>
-<area shape="rect" id="node3" href="$dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,5,517,32"/>
-<area shape="rect" id="node4" href="$dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,5,332,32"/>
-<area shape="rect" id="node5" href="$dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,5,187,32"/>
+<area shape="rect" id="node6" href="$d0/df7/class_media_libva_interface.html#a07eb20c22f7516713c4eb209547b5a92" title="Report MB error info." alt="" coords="771,57,908,98"/>
+<area shape="rect" id="node3" href="$dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,35,517,61"/>
+<area shape="rect" id="node4" href="$dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,35,332,61"/>
+<area shape="rect" id="node5" href="$dd/da8/media__libva_8cpp.html#a2cba1eba951b4e52d4c5041d45721b6c" title="VA driver init function name." alt="" coords="5,35,187,61"/>
+<area shape="rect" id="node7" href="$d0/df7/class_media_libva_interface.html#af8cad689a9794ecbac420820968aa72b" title="Load DDI function pointer." alt="" coords="577,57,711,98"/>
 </map>

@@ -1,0 +1,5 @@
+<map id="encode::DdiEncodeBase::EncStatusReport" name="encode::DdiEncodeBase::EncStatusReport">
+<area shape="rect" id="node1" title="Report Status for Enc buffer." alt="" coords="387,5,552,47"/>
+<area shape="rect" id="node2" href="$d9/dba/class_ddi_encode_functions.html#a929ca9ff67d7bc9b21d6ad9f413bbbc7" title="Encode status report." alt="" coords="196,5,339,47"/>
+<area shape="rect" id="node3" href="$d9/dba/class_ddi_encode_functions.html#af6f7cb575632bc2b8ce8cd67a17e3f22" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="5,5,148,47"/>
+</map>

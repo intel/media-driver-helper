@@ -1,0 +1,5 @@
+<map id="encode::DdiEncodeBase::EncBufferExistInStatusReport" name="encode::DdiEncodeBase::EncBufferExistInStatusReport">
+<area shape="rect" id="node1" title="Check if Enc buffer exist in status report list." alt="" coords="447,5,649,47"/>
+<area shape="rect" id="node2" href="$d9/dba/class_ddi_encode_functions.html#a215cc4a9a926c6e6a706c40d8625d058" title="Encode buffer exist in status report." alt="" coords="196,5,399,47"/>
+<area shape="rect" id="node3" href="$d9/dba/class_ddi_encode_functions.html#af6f7cb575632bc2b8ce8cd67a17e3f22" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="5,5,148,47"/>
+</map>

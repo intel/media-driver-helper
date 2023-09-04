@@ -1,0 +1,10 @@
+<map id="MediaLibvaCapsNext::QuerySurfaceAttributes" name="MediaLibvaCapsNext::QuerySurfaceAttributes">
+<area shape="rect" id="node1" title="Get surface attributes for a given config ID." alt="" coords="5,136,171,177"/>
+<area shape="rect" id="node2" href="$d6/dc6/class_media_caps_table_specific.html#a91ad837ea173da2809325abb050e9668" title="Query SurfaceAttributes From ConfigId." alt="" coords="219,129,413,185"/>
+<area shape="rect" id="node3" href="$d6/dc6/class_media_caps_table_specific.html#ace939befa8457bbdee6c4d35de59f7a2" title="Get specific config item." alt="" coords="461,136,648,177"/>
+<area shape="rect" id="node4" href="$d0/d64/class_ddi_cp_caps_interface.html#a2b934edf03a59d20bed7f154802410d7" title="Get the vaild cp ConfigID." alt="" coords="710,5,846,47"/>
+<area shape="rect" id="node5" href="$d0/d64/class_ddi_cp_caps_interface.html#a53d062ee31762f798742282a8f95c096" title="Check if the configID is a valid cp config id." alt="" coords="710,71,846,112"/>
+<area shape="rect" id="node6" href="$d6/dc6/class_media_caps_table_specific.html#ad797e04e7a8a020804da8968c791763f" title="Check if the configID is a valid decode config." alt="" coords="696,136,860,177"/>
+<area shape="rect" id="node7" href="$d6/dc6/class_media_caps_table_specific.html#a84fc50486986fa565909634541d80f0f" title="Check if the configID is a valid encode config." alt="" coords="696,201,860,243"/>
+<area shape="rect" id="node8" href="$d6/dc6/class_media_caps_table_specific.html#a63498b1b37bb76b3b168be1b2f45b95b" title="Check if the configID is a valid vp config." alt="" coords="696,267,860,308"/>
+</map>

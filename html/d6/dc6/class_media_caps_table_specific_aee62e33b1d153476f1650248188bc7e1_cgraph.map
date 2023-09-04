@@ -1,0 +1,8 @@
+<map id="MediaCapsTableSpecific::DestroyConfig" name="MediaCapsTableSpecific::DestroyConfig">
+<area shape="rect" id="node1" title="Destory the VAConfigID." alt="" coords="5,136,169,177"/>
+<area shape="rect" id="node2" href="$d0/d64/class_ddi_cp_caps_interface.html#a2b934edf03a59d20bed7f154802410d7" title="Get the vaild cp ConfigID." alt="" coords="231,5,367,47"/>
+<area shape="rect" id="node3" href="$d0/d64/class_ddi_cp_caps_interface.html#a53d062ee31762f798742282a8f95c096" title="Check if the configID is a valid cp config id." alt="" coords="231,71,367,112"/>
+<area shape="rect" id="node4" href="$d6/dc6/class_media_caps_table_specific.html#ad797e04e7a8a020804da8968c791763f" title="Check if the configID is a valid decode config." alt="" coords="217,136,381,177"/>
+<area shape="rect" id="node5" href="$d6/dc6/class_media_caps_table_specific.html#a84fc50486986fa565909634541d80f0f" title="Check if the configID is a valid encode config." alt="" coords="217,201,381,243"/>
+<area shape="rect" id="node6" href="$d6/dc6/class_media_caps_table_specific.html#a63498b1b37bb76b3b168be1b2f45b95b" title="Check if the configID is a valid vp config." alt="" coords="217,267,381,308"/>
+</map>

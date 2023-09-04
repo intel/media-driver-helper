@@ -1,0 +1,6 @@
+<map id="decode::DdiDecodeHevc::FreeResourceBuffer" name="decode::DdiDecodeHevc::FreeResourceBuffer">
+<area shape="rect" id="node1" title="Free Resource buffer for HEVC." alt="" coords="427,25,589,67"/>
+<area shape="rect" id="node2" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a9bd2f978ca5958da04cd0494051f1090" title="Initialize the back&#45;end CodecHal of DdiDecodeBase." alt="" coords="5,29,168,71"/>
+<area shape="rect" id="node3" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#ae0e2dbd1f38c5c8490cea66295f277f4" title="Free the allocated resource related with the decode context." alt="" coords="216,25,379,67"/>
+<area shape="rect" id="node4" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a298f6d98bffabce28092f7423b937154" title="Init Resource buffer for HEVC." alt="" coords="216,91,379,132"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="encode::DdiEncodeAvc::GetAVCProfileFromVAProfile" name="encode::DdiEncodeAvc::GetAVCProfileFromVAProfile">
+<area shape="rect" id="node1" title="Get profile from va profile." alt="" coords="209,5,408,47"/>
+<area shape="rect" id="node2" href="$de/dec/classencode_1_1_ddi_encode_avc.html#ade39ce32fa3193bb798b18afd47bafed" title="Parse Sequence parameters." alt="" coords="5,5,161,47"/>
+</map>

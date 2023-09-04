@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['decode_0',['decode',['../d0/d5a/namespacedecode.html',1,'']]]
+  ['apisticker_0',['APISticker',['../d4/dbd/namespace_a_p_i_sticker.html',1,'']]]
 ];

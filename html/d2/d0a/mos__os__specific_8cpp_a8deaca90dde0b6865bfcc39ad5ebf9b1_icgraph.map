@@ -1,7 +1,0 @@
-<map id="Linux_WaitAndReleaseCmdBuffer" name="Linux_WaitAndReleaseCmdBuffer">
-<area shape="rect" id="node1" title="Wait and release command buffer." alt="" coords="864,5,1081,32"/>
-<area shape="rect" id="node2" href="$d2/d0a/mos__os__specific_8cpp.html#a4c99f3b3f65823152fdf10a10bc01b4f" title="Release command buffer pool." alt="" coords="623,5,816,32"/>
-<area shape="rect" id="node3" href="$d2/d0a/mos__os__specific_8cpp.html#a0c4af9880d68a1a27a6ff4122d6a0bc3" title=" " alt="" coords="427,5,575,32"/>
-<area shape="rect" id="node4" href="$d3/de3/mos__os__specific_8c.html#a43d7b7e93bb2945e2258bdaa98f27245" title="Destroys OS specific allocations." alt="" coords="227,5,379,32"/>
-<area shape="rect" id="node5" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,5,179,32"/>
-</map>

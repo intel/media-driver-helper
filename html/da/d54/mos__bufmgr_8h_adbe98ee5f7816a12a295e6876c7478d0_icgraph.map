@@ -1,9 +1,0 @@
-<map id="mos_gem_vm_destroy" name="mos_gem_vm_destroy">
-<area shape="rect" id="node1" title=" " alt="" coords="623,71,775,98"/>
-<area shape="rect" id="node2" href="$d0/d0e/class_os_context_specific.html#a35b7f852a889e998cf29707f89876bdb" title="Destroy the os specific MOS context." alt="" coords="431,5,570,47"/>
-<area shape="rect" id="node3" href="$d3/de3/mos__os__specific_8c.html#af543e54556f76e87f60599969a971b94" title="Destroy Linux context." alt="" coords="448,71,553,98"/>
-<area shape="rect" id="node6" href="$d3/de3/mos__os__specific_8c.html#a0c4af9880d68a1a27a6ff4122d6a0bc3" title=" " alt="" coords="427,122,575,149"/>
-<area shape="rect" id="node4" href="$d3/de3/mos__os__specific_8c.html#aa6039ca11bf44a96683f603d5ad53eb3" title="Init Linux context." alt="" coords="241,71,364,98"/>
-<area shape="rect" id="node5" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,97,179,123"/>
-<area shape="rect" id="node7" href="$d3/de3/mos__os__specific_8c.html#a43d7b7e93bb2945e2258bdaa98f27245" title="Destroys OS specific allocations." alt="" coords="227,122,379,149"/>
-</map>

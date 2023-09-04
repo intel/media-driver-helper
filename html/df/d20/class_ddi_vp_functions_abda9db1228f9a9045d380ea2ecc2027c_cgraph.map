@@ -1,0 +1,6 @@
+<map id="DdiVpFunctions::DestroyBuffer" name="DdiVpFunctions::DestroyBuffer">
+<area shape="rect" id="node1" title="Destroy buffer." alt="" coords="5,46,205,73"/>
+<area shape="rect" id="node2" href="$d6/d71/class_media_libva_interface_next.html#a7eafeb42c83977d582cc33d72fb580d1" title="Destroy buffer from VA buffer ID." alt="" coords="253,5,440,47"/>
+<area shape="rect" id="node4" href="$d0/d2c/class_media_libva_common_next.html#a5096ade40493cb8e6d8c8ab5c3f1336c" title="Get buffer from VA buffer ID." alt="" coords="258,71,435,112"/>
+<area shape="rect" id="node3" href="$d8/d27/struct_media_libva_util_next.html#a2e508d9f994ca6d724466b154c11490c" title="Release pmedia buffer from heap." alt="" coords="488,5,703,47"/>
+</map>

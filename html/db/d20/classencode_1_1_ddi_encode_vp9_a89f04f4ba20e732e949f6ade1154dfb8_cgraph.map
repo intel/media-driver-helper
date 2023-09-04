@@ -1,0 +1,4 @@
+<map id="encode::DdiEncodeVp9::ParseSegMapParams" name="encode::DdiEncodeVp9::ParseSegMapParams">
+<area shape="rect" id="node1" title="Parse Segment Map Parameter buffer to Encode Context." alt="" coords="5,5,164,47"/>
+<area shape="rect" id="node2" href="$d0/d2c/class_media_libva_common_next.html#a8a09d40e61e58418f0492953e0393a11" title="Media buffer to mos resource." alt="" coords="212,5,404,47"/>
+</map>

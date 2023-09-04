@@ -1,0 +1,6 @@
+<map id="encode::DdiEncodeAvc::EncodeInCodecHal" name="encode::DdiEncodeAvc::EncodeInCodecHal">
+<area shape="rect" id="node1" title="Do Encode in codechal." alt="" coords="5,71,161,112"/>
+<area shape="rect" id="node2" href="$d7/d54/classcodec_1_1_ddi_codec_base.html#a28f6c9d0d2baf784ca5279070389fed7" title="Clear Reference List." alt="" coords="235,5,386,47"/>
+<area shape="rect" id="node3" href="$d0/d2c/class_media_libva_common_next.html#addb0f1dd555e0790bd642131052b7010" title="Media surface to mos resource." alt="" coords="209,71,412,112"/>
+<area shape="rect" id="node4" href="$d8/db3/class_ddi_cp_interface_next.html#a4ab9b76793a3f07d2dd6414ddc99517e" title=" " alt="" coords="213,136,408,177"/>
+</map>

@@ -1,7 +1,0 @@
-<map id="Mos_Specific_UnlockResource" name="Mos_Specific_UnlockResource">
-<area shape="rect" id="node1" title="Unlock resource." alt="" coords="5,56,208,83"/>
-<area shape="rect" id="node2" href="$d1/d60/mos__bufmgr__api_8c.html#a47260ddcd6e035fa5384ab0a03d34f3d" title=" " alt="" coords="283,5,398,32"/>
-<area shape="rect" id="node3" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a31b072cc5cf453ddc2d61d4cd1d643bd" title=" " alt="" coords="257,56,425,83"/>
-<area shape="rect" id="node5" href="$de/d47/i915__production_2mos__bufmgr_8c.html#ae7353cf8d6c49a8c2c9f4efe2e186ec1" title=" " alt="" coords="256,107,425,133"/>
-<area shape="rect" id="node4" href="$de/d9d/i915_2mos__bufmgr_8c.html#a8c2f9288a4eef0c2628732aa21059702" title=" " alt="" coords="473,81,620,108"/>
-</map>

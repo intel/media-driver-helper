@@ -1,0 +1,8 @@
+<map id="DdiEncodeFunctions::RenderPicture" name="DdiEncodeFunctions::RenderPicture">
+<area shape="rect" id="node1" title="Send decode buffers to the server." alt="" coords="5,136,148,177"/>
+<area shape="rect" id="node2" href="$d0/d2c/class_media_libva_common_next.html#ac187946363a2c722501f6c6d0a4394ad" title="Get context from context ID." alt="" coords="196,5,379,47"/>
+<area shape="rect" id="node3" href="$d0/d2c/class_media_libva_common_next.html#a6f2d1d1319bb80af5708551d6d558411" title="Get gpu priority." alt="" coords="205,71,370,112"/>
+<area shape="rect" id="node4" href="$d0/d2c/class_media_libva_common_next.html#a2843b785aa6a21515b531e13feee6122" title="Move the priority bufferID to the end of buffers." alt="" coords="197,136,378,177"/>
+<area shape="rect" id="node5" href="$d3/d5b/classencode_1_1_ddi_encode_base.html#ae07816f9ab035103ff0d3c6613336c84" title="Send required buffers to for process." alt="" coords="205,201,370,243"/>
+<area shape="rect" id="node6" href="$d9/dba/class_ddi_encode_functions.html#a3c0aec5594712cb6bae6cd22ffa573b1" title="Set Encode Gpu Priority." alt="" coords="216,267,359,308"/>
+</map>

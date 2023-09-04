@@ -1,0 +1,7 @@
+<map id="codec::DdiCodecBase::RegisterRTSurfaces" name="codec::DdiCodecBase::RegisterRTSurfaces">
+<area shape="rect" id="node1" title="Register Render Target Surface." alt="" coords="216,104,367,145"/>
+<area shape="rect" id="node2" href="$db/d26/classencode_1_1_ddi_encode_a_v1.html#ad57ec3db2053f23f0586f7f1c2561907" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="7,5,167,47"/>
+<area shape="rect" id="node3" href="$d1/d90/classencode_1_1_ddi_encode_hevc.html#a4406e7b36762c461980b59e86a5a95cd" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="5,71,168,112"/>
+<area shape="rect" id="node4" href="$db/d20/classencode_1_1_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="7,136,166,177"/>
+<area shape="rect" id="node5" href="$db/df1/classdecode_1_1_ddi_decode_jpeg.html#ac64496e4fc18f7e3ddff2662fc7d8518" title="Set common decode param setting for each codec." alt="" coords="5,201,168,243"/>
+</map>

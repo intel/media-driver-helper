@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -136,8 +136,29 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a991495a9cc98dbe5878e73158e2bd45f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d8/df2/mos__defs__specific_8h.html#af4b79d7254d07ac86a0a71b4f3fb3960">PMOS_MUTEX</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dff/class_mos_oca_interface_specific.html#a991495a9cc98dbe5878e73158e2bd45f">GetMutex</a> ()</td></tr>
 <tr class="memdesc:a991495a9cc98dbe5878e73158e2bd45f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the mutex for oca buffer handles protection.  <a href="../../df/dff/class_mos_oca_interface_specific.html#a991495a9cc98dbe5878e73158e2bd45f">More...</a><br /></td></tr>
 <tr class="separator:a991495a9cc98dbe5878e73158e2bd45f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a587a53dc84318cb59fc8aae638b78b75"><td class="memItemLeft" align="right" valign="top">virtual MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dff/class_mos_oca_interface_specific.html#a587a53dc84318cb59fc8aae638b78b75">InsertOcaBufHandleMap</a> (uint32_t *key, MOS_OCA_BUFFER_HANDLE <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a4cb10971641fded3e45362915051c8ef">handle</a>)</td></tr>
+<tr class="memdesc:a587a53dc84318cb59fc8aae638b78b75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert OCA buffer handle into m_hOcaMap.  <a href="../../df/dff/class_mos_oca_interface_specific.html#a587a53dc84318cb59fc8aae638b78b75">More...</a><br /></td></tr>
+<tr class="separator:a587a53dc84318cb59fc8aae638b78b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80f32ec6564d2c1013c83cf2ecf83cc9"><td class="memItemLeft" align="right" valign="top">virtual MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dff/class_mos_oca_interface_specific.html#a80f32ec6564d2c1013c83cf2ecf83cc9">RemoveOcaBufHandleFromMap</a> (uint32_t *key)</td></tr>
+<tr class="memdesc:a80f32ec6564d2c1013c83cf2ecf83cc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove OCA buffer handle from m_hOcaMap.  <a href="../../df/dff/class_mos_oca_interface_specific.html#a80f32ec6564d2c1013c83cf2ecf83cc9">More...</a><br /></td></tr>
+<tr class="separator:a80f32ec6564d2c1013c83cf2ecf83cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f3bb1e22f6f80f4b4d27f55822444a"><td class="memItemLeft" align="right" valign="top">virtual MOS_OCA_BUFFER_HANDLE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dff/class_mos_oca_interface_specific.html#a10f3bb1e22f6f80f4b4d27f55822444a">GetOcaBufHandleFromMap</a> (uint32_t *key)</td></tr>
+<tr class="memdesc:a10f3bb1e22f6f80f4b4d27f55822444a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get OCA buffer handle from m_hOcaMap.  <a href="../../df/dff/class_mos_oca_interface_specific.html#a10f3bb1e22f6f80f4b4d27f55822444a">More...</a><br /></td></tr>
+<tr class="separator:a10f3bb1e22f6f80f4b4d27f55822444a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e49c032b38ac8362bbae8e7641fd481"><td class="memItemLeft" align="right" valign="top">virtual MOS_STATUS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dff/class_mos_oca_interface_specific.html#a9e49c032b38ac8362bbae8e7641fd481">GetOCAStatus</a> ()</td></tr>
+<tr class="memdesc:a9e49c032b38ac8362bbae8e7641fd481"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get OCA status.  <a href="../../df/dff/class_mos_oca_interface_specific.html#a9e49c032b38ac8362bbae8e7641fd481">More...</a><br /></td></tr>
+<tr class="separator:a9e49c032b38ac8362bbae8e7641fd481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9ed803846fdbdb888f0fe49fcabc6b7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dff/class_mos_oca_interface_specific.html#af9ed803846fdbdb888f0fe49fcabc6b7">SetOCAStatus</a> (MOS_STATUS status)</td></tr>
+<tr class="memdesc:af9ed803846fdbdb888f0fe49fcabc6b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set OCA status.  <a href="../../df/dff/class_mos_oca_interface_specific.html#af9ed803846fdbdb888f0fe49fcabc6b7">More...</a><br /></td></tr>
+<tr class="separator:af9ed803846fdbdb888f0fe49fcabc6b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdbd65415c1252be17d3efb9659711ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dff/class_mos_oca_interface_specific.html#abdbd65415c1252be17d3efb9659711ea">SetOCAErrorLineNumber</a> (uint32_t num)</td></tr>
+<tr class="memdesc:abdbd65415c1252be17d3efb9659711ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set OCA error line number.  <a href="../../df/dff/class_mos_oca_interface_specific.html#abdbd65415c1252be17d3efb9659711ea">More...</a><br /></td></tr>
+<tr class="separator:abdbd65415c1252be17d3efb9659711ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b7c5d55c108990b1977c93b0b3764e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dff/class_mos_oca_interface_specific.html#a4b7c5d55c108990b1977c93b0b3764e6">IsOcaEnabled</a> ()</td></tr>
 <tr class="separator:a4b7c5d55c108990b1977c93b0b3764e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49da4275bdc610a8335a2683e409ad60"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dff/class_mos_oca_interface_specific.html#a49da4275bdc610a8335a2683e409ad60">IsOcaDumpExecListInfoEnabled</a> ()</td></tr>
+<tr class="memdesc:a49da4275bdc610a8335a2683e409ad60"><td class="mdescLeft">&#160;</td><td class="mdescRight">return oca dump exec list info is enabled or not.  <a href="../../df/dff/class_mos_oca_interface_specific.html#a49da4275bdc610a8335a2683e409ad60">More...</a><br /></td></tr>
+<tr class="separator:a49da4275bdc610a8335a2683e409ad60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -157,12 +178,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a3a5bca78569f3279b9d81d159db4a4b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f013e87bbbb934dc99e18ac665a446a"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dff/class_mos_oca_interface_specific.html#a4f013e87bbbb934dc99e18ac665a446a">IncreaseSize</a> (uint32_t cmdBufSize)</td></tr>
 <tr class="separator:a4f013e87bbbb934dc99e18ac665a446a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1728c5deec1157db65e161bb6361dc44"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dff/class_mos_oca_interface_specific.html#a1728c5deec1157db65e161bb6361dc44">InitOcaLogSection</a> (<a class="el" href="../../da/d54/mos__bufmgr_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a> *bo)</td></tr>
+<tr class="memitem:a1728c5deec1157db65e161bb6361dc44"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dff/class_mos_oca_interface_specific.html#a1728c5deec1157db65e161bb6361dc44">InitOcaLogSection</a> (<a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a> *bo)</td></tr>
 <tr class="separator:a1728c5deec1157db65e161bb6361dc44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html#l00063">63</a> of file <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html">mos_oca_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html#l00064">64</a> of file <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html">mos_oca_interface_specific.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acedef241f79fc7a81f1eef02709e20fd" name="acedef241f79fc7a81f1eef02709e20fd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acedef241f79fc7a81f1eef02709e20fd">&#9670;&nbsp;</a></span>~MosOcaInterfaceSpecific()</h2>
@@ -189,7 +210,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Destructor. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00776">776</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00799">799</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 
 </div>
 </div>
@@ -266,7 +287,7 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00353">353</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00360">360</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -347,7 +368,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00525">525</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00532">532</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -391,7 +412,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00757">757</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00780">780</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -433,7 +454,74 @@ Here is the caller graph for this function:</div>
 <p>Get the mutex for oca buffer handles protection. </p>
 <dl class="section return"><dt>Returns</dt><dd>PMOS_MUTEX Return PMOS_MUTEX if successful, otherwise nullptr </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html#l00257">257</a> of file <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html">mos_oca_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html#l00258">258</a> of file <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html">mos_oca_interface_specific.h</a>.</p>
+
+</div>
+</div>
+<a id="a10f3bb1e22f6f80f4b4d27f55822444a" name="a10f3bb1e22f6f80f4b4d27f55822444a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10f3bb1e22f6f80f4b4d27f55822444a">&#9670;&nbsp;</a></span>GetOcaBufHandleFromMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MOS_OCA_BUFFER_HANDLE MosOcaInterfaceSpecific::GetOcaBufHandleFromMap </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get OCA buffer handle from m_hOcaMap. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The key of m_hOcaMap. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>MOS_OCA_BUFFER_HANDLE Return oca buffer handle. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00925">925</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a9e49c032b38ac8362bbae8e7641fd481" name="a9e49c032b38ac8362bbae8e7641fd481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e49c032b38ac8362bbae8e7641fd481">&#9670;&nbsp;</a></span>GetOCAStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MOS_STATUS MosOcaInterfaceSpecific::GetOCAStatus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get OCA status. </p>
+<dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return oca status </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html#l00297">297</a> of file <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html">mos_oca_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -461,17 +549,21 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00582">582</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00589">589</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../df/dff/class_mos_oca_interface_specific_a4f013e87bbbb934dc99e18ac665a446a_icgraph.png" border="0" usemap="#adf/dff/class_mos_oca_interface_specific_a4f013e87bbbb934dc99e18ac665a446a_icgraph" alt=""/></div>
 <map name="adf/dff/class_mos_oca_interface_specific_a4f013e87bbbb934dc99e18ac665a446a_icgraph" id="adf/dff/class_mos_oca_interface_specific_a4f013e87bbbb934dc99e18ac665a446a_icgraph">
-<area shape="rect" title=" " alt="" coords="293,104,460,145"/>
-<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="43,5,207,47"/>
-<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a8ae558e7d60dcaf2fa3a62f95be2eec7" title=" " alt="" coords="5,71,245,112"/>
-<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a79b65abafdb888e44b7bec9e3ff3eca6" title=" " alt="" coords="43,136,207,177"/>
-<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a5a986f079415e08aa69e2adcde0ecb41" title=" " alt="" coords="35,201,216,243"/>
+<area shape="rect" title=" " alt="" coords="1215,104,1381,145"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="965,5,1129,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a8ae558e7d60dcaf2fa3a62f95be2eec7" title=" " alt="" coords="927,71,1167,112"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a79b65abafdb888e44b7bec9e3ff3eca6" title=" " alt="" coords="965,136,1129,177"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a5a986f079415e08aa69e2adcde0ecb41" title=" " alt="" coords="956,201,1137,243"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="715,5,879,47"/>
+<area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="471,5,667,47"/>
+<area shape="rect" href="../../d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="227,13,423,39"/>
+<area shape="rect" href="../../d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,13,179,39"/>
 </map>
 </div>
 
@@ -503,7 +595,7 @@ Here is the caller graph for this function:</div>
 
 <p>Oca Interface Initialize. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00822">822</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00847">847</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -542,7 +634,7 @@ Here is the call graph for this function:</div>
 
 <p>Initialize oca error handler related items. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00679">679</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00692">692</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 
 </div>
 </div>
@@ -558,7 +650,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void MosOcaInterfaceSpecific::InitOcaLogSection </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d54/mos__bufmgr_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a5df63edaea6c08a789ef2b5e8bc792a6">MOS_LINUX_BO</a> *&#160;</td>
           <td class="paramname"><em>bo</em></td><td>)</td>
           <td></td>
         </tr>
@@ -570,7 +662,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00587">587</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00594">594</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -580,6 +672,83 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="../../d9/d7e/class_gpu_context_specific_next.html#a4b487a086dcdcc1fa9ec6096d318852e" title=" " alt="" coords="5,5,169,47"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="a587a53dc84318cb59fc8aae638b78b75" name="a587a53dc84318cb59fc8aae638b78b75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a587a53dc84318cb59fc8aae638b78b75">&#9670;&nbsp;</a></span>InsertOcaBufHandleMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MOS_STATUS MosOcaInterfaceSpecific::InsertOcaBufHandleMap </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MOS_OCA_BUFFER_HANDLE&#160;</td>
+          <td class="paramname"><em>handle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Insert OCA buffer handle into m_hOcaMap. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The key of m_hOcaMap. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">handle</td><td>Oca buffer handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if insert successfully, otherwise insert failed. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00882">882</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a49da4275bdc610a8335a2683e409ad60" name="a49da4275bdc610a8335a2683e409ad60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49da4275bdc610a8335a2683e409ad60">&#9670;&nbsp;</a></span>IsOcaDumpExecListInfoEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MosOcaInterfaceSpecific::IsOcaDumpExecListInfoEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return oca dump exec list info is enabled or not. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html#l00360">360</a> of file <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html">mos_oca_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -606,7 +775,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html#l00290">290</a> of file <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html">mos_oca_interface_specific.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html#l00352">352</a> of file <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html">mos_oca_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -711,7 +880,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00215">215</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00222">222</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -803,7 +972,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00184">184</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00191">191</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -867,7 +1036,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00297">297</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00304">304</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 
 </div>
 </div>
@@ -943,7 +1112,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00277">277</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00284">284</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 
 </div>
 </div>
@@ -1008,7 +1177,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00638">638</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00651">651</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1108,7 +1277,118 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00255">255</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00262">262</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a80f32ec6564d2c1013c83cf2ecf83cc9" name="a80f32ec6564d2c1013c83cf2ecf83cc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80f32ec6564d2c1013c83cf2ecf83cc9">&#9670;&nbsp;</a></span>RemoveOcaBufHandleFromMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MOS_STATUS MosOcaInterfaceSpecific::RemoveOcaBufHandleFromMap </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Remove OCA buffer handle from m_hOcaMap. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The key of m_hOcaMap. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if erase successfully, otherwise erase failed. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00905">905</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+
+</div>
+</div>
+<a id="abdbd65415c1252be17d3efb9659711ea" name="abdbd65415c1252be17d3efb9659711ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdbd65415c1252be17d3efb9659711ea">&#9670;&nbsp;</a></span>SetOCAErrorLineNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MosOcaInterfaceSpecific::SetOCAErrorLineNumber </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>num</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set OCA error line number. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">num</td><td>line number </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html#l00319">319</a> of file <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html">mos_oca_interface_specific.h</a>.</p>
+
+</div>
+</div>
+<a id="af9ed803846fdbdb888f0fe49fcabc6b7" name="af9ed803846fdbdb888f0fe49fcabc6b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9ed803846fdbdb888f0fe49fcabc6b7">&#9670;&nbsp;</a></span>SetOCAStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MosOcaInterfaceSpecific::SetOCAStatus </td>
+          <td>(</td>
+          <td class="paramtype">MOS_STATUS&#160;</td>
+          <td class="paramname"><em>status</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set OCA status. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">status</td><td>oca status </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html#l00308">308</a> of file <a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html">mos_oca_interface_specific.h</a>.</p>
 
 </div>
 </div>
@@ -1170,7 +1450,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00315">315</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00322">322</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1208,7 +1488,7 @@ Here is the call graph for this function:</div>
 
 <p>Oca Interface uninitialize. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00835">835</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00860">860</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1254,7 +1534,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00119">119</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00126">126</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1300,7 +1580,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00132">132</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00139">139</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 
 </div>
 </div>
@@ -1355,7 +1635,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MOS_STATUS Return MOS_STATUS_SUCCESS if successful, otherwise failed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00144">144</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html#l00151">151</a> of file <a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1369,8 +1649,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>media_driver/linux/common/os/<a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html">mos_oca_interface_specific.h</a></li>
-<li>media_driver/linux/common/os/<a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a></li>
+<li>C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/<a class="el" href="../../d3/da4/mos__oca__interface__specific_8h_source.html">mos_oca_interface_specific.h</a></li>
+<li>C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/<a class="el" href="../../dc/d25/mos__oca__specific_8cpp_source.html">mos_oca_specific.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

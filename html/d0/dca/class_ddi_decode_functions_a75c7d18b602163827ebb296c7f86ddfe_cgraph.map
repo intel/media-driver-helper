@@ -1,0 +1,6 @@
+<map id="DdiDecodeFunctions::DestroyBuffer" name="DdiDecodeFunctions::DestroyBuffer">
+<area shape="rect" id="node1" title="Destroy buffer." alt="" coords="5,71,148,112"/>
+<area shape="rect" id="node2" href="$d0/d2c/class_media_libva_common_next.html#a5096ade40493cb8e6d8c8ab5c3f1336c" title="Get buffer from VA buffer ID." alt="" coords="203,5,381,47"/>
+<area shape="rect" id="node3" href="$d0/d2c/class_media_libva_common_next.html#ab2b0f2475fcbfc1b74096ec56ff02d7d" title="Get ctx from VA buffer ID." alt="" coords="209,71,375,112"/>
+<area shape="rect" id="node4" href="$d0/d2c/class_media_libva_common_next.html#a50b456f5e51ad0287d1c90b33b5bc81b" title="Get ctx type from VA buffer ID." alt="" coords="196,136,388,177"/>
+</map>

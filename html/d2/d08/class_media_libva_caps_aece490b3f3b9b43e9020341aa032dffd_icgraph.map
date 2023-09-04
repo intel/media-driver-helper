@@ -1,6 +1,7 @@
 <map id="MediaLibvaCaps::SetExternalSurfaceTileFormat" name="MediaLibvaCaps::SetExternalSurfaceTileFormat">
-<area shape="rect" id="node1" title="Set tile format according to external surface&#39;s modifier." alt="" coords="995,39,1187,80"/>
-<area shape="rect" id="node2" href="$d2/d46/media__libva__util_8cpp.html#a7d64de07a525e078869b0588644071e6" title="Allocate surface." alt="" coords="753,46,947,73"/>
+<area shape="rect" id="node1" title="Set tile format according to external surface&#39;s modifier." alt="" coords="1004,68,1196,109"/>
+<area shape="rect" id="node2" href="$d2/d46/media__libva__util_8cpp.html#a7d64de07a525e078869b0588644071e6" title="Allocate surface." alt="" coords="758,46,951,73"/>
+<area shape="rect" id="node9" href="$dd/d43/class_media_libva_caps_mtl_base.html#ae4422ca6bb5a1394db62fc92afd8e00c" title="Set tile format according to external surface&#39;s modifier." alt="" coords="753,97,956,139"/>
 <area shape="rect" id="node3" href="$d2/d46/media__libva__util_8cpp.html#a3e2b7e92d5a6ed64e58f18fee025378c" title="Create surface." alt="" coords="521,46,705,73"/>
 <area shape="rect" id="node4" href="$dd/dab/media__libva__common_8cpp.html#a083a9fe93e8cc09886b8a2f8d60ee360" title="replace the surface with given format" alt="" coords="272,5,473,47"/>
 <area shape="rect" id="node6" href="$dd/dab/media__libva__common_8cpp.html#a17aafe4ca12d9ab5c9c552759def7bfd" title="replace the surface with correlation variant format" alt="" coords="272,71,473,112"/>

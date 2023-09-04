@@ -1,52 +1,52 @@
 <map id="VA_DRV_INIT_FUC_NAME" name="VA_DRV_INIT_FUC_NAME">
-<area shape="rect" id="node1" title="VA driver init function name." alt="" coords="5,71,187,98"/>
-<area shape="rect" id="node2" href="$dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,71,332,98"/>
-<area shape="rect" id="node3" href="$dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,71,517,98"/>
-<area shape="rect" id="node4" href="$dd/da8/media__libva_8cpp.html#a4c0acbfc0aaea245a56c7f7299403f3d" title="Get Device FD." alt="" coords="576,17,735,43"/>
-<area shape="rect" id="node6" href="$dd/da8/media__libva_8cpp.html#a3f8359fbf39500f36d7423b750556ecf" title="Initialize Media Context." alt="" coords="565,71,745,98"/>
-<area shape="rect" id="node8" href="$dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="577,1182,734,1209"/>
+<area shape="rect" id="node1" title="VA driver init function name." alt="" coords="5,99,187,126"/>
+<area shape="rect" id="node2" href="$dd/da8/media__libva_8cpp.html#ae9014e1bab00040226807482945522b8" title="Init VA driver 0.31." alt="" coords="235,99,332,126"/>
+<area shape="rect" id="node3" href="$dd/da8/media__libva_8cpp.html#a7c936e0d42e34369e8fdc18e5d37921e" title="Initialize." alt="" coords="380,99,517,126"/>
+<area shape="rect" id="node4" href="$dd/da8/media__libva_8cpp.html#a4c0acbfc0aaea245a56c7f7299403f3d" title="Get Device FD." alt="" coords="576,15,735,42"/>
+<area shape="rect" id="node6" href="$dd/da8/media__libva_8cpp.html#a3f8359fbf39500f36d7423b750556ecf" title="Initialize Media Context." alt="" coords="565,70,745,97"/>
+<area shape="rect" id="node8" href="$dd/da8/media__libva_8cpp.html#aee3dc3df12a1378de4fde9b614168719" title="Load DDI function." alt="" coords="577,1161,734,1187"/>
+<area shape="rect" id="node50" href="$d0/df7/class_media_libva_interface.html#af8cad689a9794ecbac420820968aa72b" title="Load DDI function pointer." alt="" coords="588,121,723,163"/>
 <area shape="rect" id="node5" href="$d2/d46/media__libva__util_8cpp.html#ace51703b65bc0d06fcef6d247325dd0d" title="Open Intel&#39;s Graphics Device to get the file descriptor." alt="" coords="818,5,1003,47"/>
 <area shape="rect" id="node7" href="$d2/d46/media__libva__util_8cpp.html#af39e3b7b10fc72c0d236cebf73490fcb" title="Lock mutex." alt="" coords="827,71,994,98"/>
-<area shape="rect" id="node9" href="$dc/da2/media__libva__encoder_8cpp.html#a30b3f7b5c02cc450c327d6b34e3a3953" title="MFE submit." alt="" coords="833,122,988,149"/>
-<area shape="rect" id="node10" href="$dd/da8/media__libva_8cpp.html#a88a9892aa6d6b6a1587b61049d2fdbe7" title="Aquire buffer handle." alt="" coords="811,173,1011,199"/>
-<area shape="rect" id="node11" href="$dd/da8/media__libva_8cpp.html#aee4b92775111c3a9a0757cc93ee82cd4" title="Add context." alt="" coords="814,223,1007,250"/>
-<area shape="rect" id="node12" href="$dd/da8/media__libva_8cpp.html#a41539c53dd3924c673d27d880f212928" title="Associate subpicture." alt="" coords="809,274,1012,301"/>
-<area shape="rect" id="node13" href="$de/dc0/class_ddi_media_protected.html#a6912501cc13d2446fd41f22c99175433" title="Attach protected session to display or context." alt="" coords="799,325,1023,367"/>
-<area shape="rect" id="node14" href="$dd/da8/media__libva_8cpp.html#a0082470dc5e9b05f26567daa14c75de4" title="Get ready to decode a picture to a target surface." alt="" coords="832,391,989,418"/>
-<area shape="rect" id="node15" href="$dd/da8/media__libva_8cpp.html#ab38e024d0a3547c2fa5db958aed909df" title="Check for buffer info." alt="" coords="843,442,979,469"/>
-<area shape="rect" id="node16" href="$dd/da8/media__libva_8cpp.html#aa9fb13236c51fb743f2e12f990a35aea" title="Convey to the server how many valid elements are in the buffer." alt="" coords="801,493,1020,519"/>
-<area shape="rect" id="node17" href="$dd/da8/media__libva_8cpp.html#a0dedfb7c6f142e3ae890071c4e7ba2fa" title="Create buffer." alt="" coords="833,543,988,570"/>
-<area shape="rect" id="node18" href="$dd/da8/media__libva_8cpp.html#aea1ef1ffe77fb07511e2b49578e4fd89" title="Create a configuration for the encode/decode/vp pipeline." alt="" coords="832,594,989,621"/>
-<area shape="rect" id="node19" href="$dd/da8/media__libva_8cpp.html#a57219c2a7ec277f902082d45ac099a5c" title="Create context." alt="" coords="827,645,994,671"/>
-<area shape="rect" id="node20" href="$dd/da8/media__libva_8cpp.html#a07e8261495cfbc950013c3ef8d6172ff" title="Create an image." alt="" coords="833,695,989,722"/>
-<area shape="rect" id="node21" href="$dd/da8/media__libva_8cpp.html#a19c935be79a4ed0c2a0f0da42c2d2169" title="Create Mfe Context." alt="" coords="817,747,1004,788"/>
-<area shape="rect" id="node22" href="$de/dc0/class_ddi_media_protected.html#ac668d443eb9e436723fc5dda7bb74689" title="Create protected session." alt="" coords="799,812,1023,853"/>
-<area shape="rect" id="node23" href="$dd/da8/media__libva_8cpp.html#ac5dfc5c4e972ed56d2f7562b13c7370b" title="Create subpicture." alt="" coords="819,878,1002,905"/>
-<area shape="rect" id="node24" href="$dd/da8/media__libva_8cpp.html#a6079f5a9491ffd6e9862a5b1a2117000" title="Create surfaces." alt="" coords="825,929,997,955"/>
-<area shape="rect" id="node25" href="$dd/da8/media__libva_8cpp.html#a4e0799c3d9f9e93ad19cd3993ed04d10" title="Create surfaces2." alt="" coords="821,979,1000,1006"/>
-<area shape="rect" id="node26" href="$dd/da8/media__libva_8cpp.html#a15f6d5b6e9f6228d75ed8ca35261e4e8" title="Deassociate subpicture." alt="" coords="802,1030,1019,1057"/>
-<area shape="rect" id="node27" href="$dd/da8/media__libva_8cpp.html#a6e1172830448fec11febef2bb7a651fa" title="Derive image." alt="" coords="834,1081,987,1107"/>
-<area shape="rect" id="node28" href="$dd/da8/media__libva_8cpp.html#ae89594508033f97f837dae2dc1b203a7" title="Destroy buffer." alt="" coords="830,1131,991,1158"/>
-<area shape="rect" id="node29" href="$dd/da8/media__libva_8cpp.html#a0b018cb5c7ecf60e3042ff3909a9466f" title="Free resources associated with a given config." alt="" coords="829,1182,993,1209"/>
-<area shape="rect" id="node30" href="$dd/da8/media__libva_8cpp.html#afe49c010b81480571dc5d0dd853432f1" title="Destroy context." alt="" coords="824,1233,997,1259"/>
-<area shape="rect" id="node31" href="$dd/da8/media__libva_8cpp.html#af97e63cf6c952556246c8eb39f460c75" title="Free allocated surfaceheap elements." alt="" coords="829,1283,992,1310"/>
-<area shape="rect" id="node32" href="$de/dc0/class_ddi_media_protected.html#ae48a537f4bbc934c78113c0538d1ba31" title="Destroy protected session." alt="" coords="795,1335,1026,1376"/>
-<area shape="rect" id="node33" href="$dd/da8/media__libva_8cpp.html#ac280bf01d23582d4173680e6c685a8dd" title="Destroy subpicture." alt="" coords="815,1401,1006,1427"/>
-<area shape="rect" id="node34" href="$dd/da8/media__libva_8cpp.html#aeacc43432056a7aabc8a64747b22730f" title="Destroy resources associated with surfaces." alt="" coords="821,1451,1000,1478"/>
-<area shape="rect" id="node35" href="$de/dc0/class_ddi_media_protected.html#a6b887a3ae8960404b0b2dfb4b02df632" title="Detach protected session from display or context." alt="" coords="797,1503,1024,1544"/>
-<area shape="rect" id="node36" href="$dd/da8/media__libva_8cpp.html#aab87a77dd563bf28bb8747f7f253aa46" title="Make the end of rendering for a picture." alt="" coords="837,1569,984,1595"/>
-<area shape="rect" id="node37" href="$dd/da8/media__libva_8cpp.html#a8b1956151c38967a3c140f1c438ae762" title="API for export surface handle to other component." alt="" coords="808,1619,1013,1646"/>
-<area shape="rect" id="node38" href="$dd/da8/media__libva_8cpp.html#a87f6005817a2c0e401a64fb88f7a9213" title="Get attributes for a given profile/entrypoint pair." alt="" coords="813,1670,1009,1697"/>
-<area shape="rect" id="node39" href="$dd/da8/media__libva_8cpp.html#ab0314f1f62f6fd33a320500f921244fa" title="Get display attributes." alt="" coords="809,1721,1012,1747"/>
-<area shape="rect" id="node40" href="$dd/da8/media__libva_8cpp.html#a2f90c44e9db2920418d2bbd78c715db3" title="Retrive surface data into a VAImage." alt="" coords="841,1771,980,1798"/>
-<area shape="rect" id="node41" href="$dd/da8/media__libva_8cpp.html#af0e8cb988f98f05b8e6904261a66700c" title="Get surface attributes for the supplied config." alt="" coords="809,1822,1013,1849"/>
-<area shape="rect" id="node42" href="$dd/da8/media__libva_8cpp.html#a9e07aa98a11c01b69e8afbd910d7fef1" title="Lock surface." alt="" coords="833,1873,988,1899"/>
-<area shape="rect" id="node43" href="$dd/da8/media__libva_8cpp.html#ab3f56e9ec7879b326ef4940e9e4339bc" title="Map buffer." alt="" coords="840,1923,981,1950"/>
-<area shape="rect" id="node44" href="$de/dc0/class_ddi_media_protected.html#ae189e9edd536dcf2f5ffb9f1085a0eea" title="TEE execution for the particular protected session." alt="" coords="793,1975,1028,2016"/>
-<area shape="rect" id="node45" href="$dd/da8/media__libva_8cpp.html#a48789a225c318e0a4653eaad5b0cd770" title="Copy data from a VAImage to a surface." alt="" coords="841,2041,980,2067"/>
-<area shape="rect" id="node46" href="$dd/da8/media__libva_8cpp.html#aee41b06aaf8abfdc01d6c97ab355de54" title="Put surface." alt="" coords="837,2091,984,2118"/>
-<area shape="rect" id="node47" href="$dd/da8/media__libva_8cpp.html#a74bd0e650a6eed1877e726f722f52220" title="Query all attributes for a given configuration." alt="" coords="805,2142,1016,2169"/>
-<area shape="rect" id="node48" href="$dd/da8/media__libva_8cpp.html#a2222f6a6ea7f17459f2070f0733074b8" title="Query supported entrypoints for a given profile." alt="" coords="801,2193,1021,2219"/>
-<area shape="rect" id="node49" href="$dd/da8/media__libva_8cpp.html#a9f2c6be99cb53765b3b2afd2e0a35bc5" title="Query supported profiles." alt="" coords="812,2243,1009,2270"/>
-<area shape="rect" id="node50" href="$dd/da8/media__libva_8cpp.html#aa7943de265feec3d631c09897b98f394" title="Query display attributes." alt="" coords="802,2294,1019,2321"/>
+<area shape="rect" id="node9" href="$dc/da2/media__libva__encoder_8cpp.html#a30b3f7b5c02cc450c327d6b34e3a3953" title="MFE submit." alt="" coords="833,126,988,153"/>
+<area shape="rect" id="node10" href="$dd/da8/media__libva_8cpp.html#a88a9892aa6d6b6a1587b61049d2fdbe7" title="Aquire buffer handle." alt="" coords="811,177,1011,203"/>
+<area shape="rect" id="node11" href="$dd/da8/media__libva_8cpp.html#aee4b92775111c3a9a0757cc93ee82cd4" title="Add context." alt="" coords="814,227,1007,254"/>
+<area shape="rect" id="node12" href="$dd/da8/media__libva_8cpp.html#a41539c53dd3924c673d27d880f212928" title="Associate subpicture." alt="" coords="809,278,1012,305"/>
+<area shape="rect" id="node13" href="$de/dc0/class_ddi_media_protected.html#a6912501cc13d2446fd41f22c99175433" title="Attach protected session to display or context." alt="" coords="799,329,1023,371"/>
+<area shape="rect" id="node14" href="$dd/da8/media__libva_8cpp.html#a0082470dc5e9b05f26567daa14c75de4" title="Get ready to decode a picture to a target surface." alt="" coords="832,395,989,422"/>
+<area shape="rect" id="node15" href="$dd/da8/media__libva_8cpp.html#ab38e024d0a3547c2fa5db958aed909df" title="Check for buffer info." alt="" coords="843,446,979,473"/>
+<area shape="rect" id="node16" href="$dd/da8/media__libva_8cpp.html#aa9fb13236c51fb743f2e12f990a35aea" title="Convey to the server how many valid elements are in the buffer." alt="" coords="801,497,1020,523"/>
+<area shape="rect" id="node17" href="$dd/da8/media__libva_8cpp.html#a0dedfb7c6f142e3ae890071c4e7ba2fa" title="Create buffer." alt="" coords="833,547,988,574"/>
+<area shape="rect" id="node18" href="$dd/da8/media__libva_8cpp.html#aea1ef1ffe77fb07511e2b49578e4fd89" title="Create a configuration for the encode/decode/vp pipeline." alt="" coords="832,598,989,625"/>
+<area shape="rect" id="node19" href="$dd/da8/media__libva_8cpp.html#a57219c2a7ec277f902082d45ac099a5c" title="Create context." alt="" coords="827,649,994,675"/>
+<area shape="rect" id="node20" href="$dd/da8/media__libva_8cpp.html#a07e8261495cfbc950013c3ef8d6172ff" title="Create an image." alt="" coords="833,699,989,726"/>
+<area shape="rect" id="node21" href="$dd/da8/media__libva_8cpp.html#a19c935be79a4ed0c2a0f0da42c2d2169" title="Create Mfe Context." alt="" coords="817,751,1004,792"/>
+<area shape="rect" id="node22" href="$de/dc0/class_ddi_media_protected.html#ac668d443eb9e436723fc5dda7bb74689" title="Create protected session." alt="" coords="799,816,1023,857"/>
+<area shape="rect" id="node23" href="$dd/da8/media__libva_8cpp.html#ac5dfc5c4e972ed56d2f7562b13c7370b" title="Create subpicture." alt="" coords="819,882,1002,909"/>
+<area shape="rect" id="node24" href="$dd/da8/media__libva_8cpp.html#a6079f5a9491ffd6e9862a5b1a2117000" title="Create surfaces." alt="" coords="825,933,997,959"/>
+<area shape="rect" id="node25" href="$dd/da8/media__libva_8cpp.html#a4e0799c3d9f9e93ad19cd3993ed04d10" title="Create surfaces2." alt="" coords="821,983,1000,1010"/>
+<area shape="rect" id="node26" href="$dd/da8/media__libva_8cpp.html#a15f6d5b6e9f6228d75ed8ca35261e4e8" title="Deassociate subpicture." alt="" coords="802,1034,1019,1061"/>
+<area shape="rect" id="node27" href="$dd/da8/media__libva_8cpp.html#a6e1172830448fec11febef2bb7a651fa" title="Derive image." alt="" coords="834,1085,987,1111"/>
+<area shape="rect" id="node28" href="$dd/da8/media__libva_8cpp.html#ae89594508033f97f837dae2dc1b203a7" title="Destroy buffer." alt="" coords="830,1135,991,1162"/>
+<area shape="rect" id="node29" href="$dd/da8/media__libva_8cpp.html#a0b018cb5c7ecf60e3042ff3909a9466f" title="Free resources associated with a given config." alt="" coords="829,1186,993,1213"/>
+<area shape="rect" id="node30" href="$dd/da8/media__libva_8cpp.html#afe49c010b81480571dc5d0dd853432f1" title="Destroy context." alt="" coords="824,1237,997,1263"/>
+<area shape="rect" id="node31" href="$dd/da8/media__libva_8cpp.html#af97e63cf6c952556246c8eb39f460c75" title="Free allocated surfaceheap elements." alt="" coords="829,1287,992,1314"/>
+<area shape="rect" id="node32" href="$de/dc0/class_ddi_media_protected.html#ae48a537f4bbc934c78113c0538d1ba31" title="Destroy protected session." alt="" coords="795,1339,1026,1380"/>
+<area shape="rect" id="node33" href="$dd/da8/media__libva_8cpp.html#ac280bf01d23582d4173680e6c685a8dd" title="Destroy subpicture." alt="" coords="815,1405,1006,1431"/>
+<area shape="rect" id="node34" href="$dd/da8/media__libva_8cpp.html#aeacc43432056a7aabc8a64747b22730f" title="Destroy resources associated with surfaces." alt="" coords="821,1455,1000,1482"/>
+<area shape="rect" id="node35" href="$de/dc0/class_ddi_media_protected.html#a6b887a3ae8960404b0b2dfb4b02df632" title="Detach protected session from display or context." alt="" coords="797,1507,1024,1548"/>
+<area shape="rect" id="node36" href="$dd/da8/media__libva_8cpp.html#aab87a77dd563bf28bb8747f7f253aa46" title="Make the end of rendering for a picture." alt="" coords="837,1573,984,1599"/>
+<area shape="rect" id="node37" href="$dd/da8/media__libva_8cpp.html#a8b1956151c38967a3c140f1c438ae762" title="API for export surface handle to other component." alt="" coords="808,1623,1013,1650"/>
+<area shape="rect" id="node38" href="$dd/da8/media__libva_8cpp.html#a87f6005817a2c0e401a64fb88f7a9213" title="Get attributes for a given profile/entrypoint pair." alt="" coords="813,1674,1009,1701"/>
+<area shape="rect" id="node39" href="$dd/da8/media__libva_8cpp.html#ab0314f1f62f6fd33a320500f921244fa" title="Get display attributes." alt="" coords="809,1725,1012,1751"/>
+<area shape="rect" id="node40" href="$dd/da8/media__libva_8cpp.html#a2f90c44e9db2920418d2bbd78c715db3" title="Retrive surface data into a VAImage." alt="" coords="841,1775,980,1802"/>
+<area shape="rect" id="node41" href="$dd/da8/media__libva_8cpp.html#af0e8cb988f98f05b8e6904261a66700c" title="Get surface attributes for the supplied config." alt="" coords="809,1826,1013,1853"/>
+<area shape="rect" id="node42" href="$dd/da8/media__libva_8cpp.html#a9e07aa98a11c01b69e8afbd910d7fef1" title="Lock surface." alt="" coords="833,1877,988,1903"/>
+<area shape="rect" id="node43" href="$dd/da8/media__libva_8cpp.html#ab3f56e9ec7879b326ef4940e9e4339bc" title="Map buffer." alt="" coords="840,1927,981,1954"/>
+<area shape="rect" id="node44" href="$de/dc0/class_ddi_media_protected.html#ae189e9edd536dcf2f5ffb9f1085a0eea" title="TEE execution for the particular protected session." alt="" coords="793,1979,1028,2020"/>
+<area shape="rect" id="node45" href="$dd/da8/media__libva_8cpp.html#a48789a225c318e0a4653eaad5b0cd770" title="Copy data from a VAImage to a surface." alt="" coords="841,2045,980,2071"/>
+<area shape="rect" id="node46" href="$dd/da8/media__libva_8cpp.html#aee41b06aaf8abfdc01d6c97ab355de54" title="Put surface." alt="" coords="837,2095,984,2122"/>
+<area shape="rect" id="node47" href="$dd/da8/media__libva_8cpp.html#a74bd0e650a6eed1877e726f722f52220" title="Query all attributes for a given configuration." alt="" coords="805,2146,1016,2173"/>
+<area shape="rect" id="node48" href="$dd/da8/media__libva_8cpp.html#a2222f6a6ea7f17459f2070f0733074b8" title="Query supported entrypoints for a given profile." alt="" coords="801,2197,1021,2223"/>
+<area shape="rect" id="node49" href="$dd/da8/media__libva_8cpp.html#a9f2c6be99cb53765b3b2afd2e0a35bc5" title="Query supported profiles." alt="" coords="812,2247,1009,2274"/>
 </map>

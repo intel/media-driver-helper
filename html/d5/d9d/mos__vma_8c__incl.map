@@ -1,11 +1,11 @@
-<map id="media_driver/linux/common/os/mos_vma.c" name="media_driver/linux/common/os/mos_vma.c">
-<area shape="rect" id="node1" title="interface for virtual memory address allocation" alt="" coords="62,5,226,47"/>
-<area shape="rect" id="node2" href="$d4/def/mos__vma_8h.html" title="interface for virtual memory address allocation" alt="" coords="100,95,188,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="64,244,138,271"/>
-<area shape="rect" id="node4" title=" " alt="" coords="23,169,88,196"/>
-<area shape="rect" id="node5" title=" " alt="" coords="113,169,174,196"/>
-<area shape="rect" id="node6" title=" " alt="" coords="198,169,262,196"/>
-<area shape="rect" id="node7" href="$da/d23/list_8h.html" title=" " alt="" coords="286,169,337,196"/>
-<area shape="rect" id="node8" title=" " alt="" coords="231,244,299,271"/>
-<area shape="rect" id="node9" title=" " alt="" coords="324,244,393,271"/>
+<map id="C:/Users/xiaoganx/Project/media_driver_upstream/media&#45;driver/media_softlet/linux/common/os/mos_vma.c" name="C:/Users/xiaoganx/Project/media_driver_upstream/media&#45;driver/media_softlet/linux/common/os/mos_vma.c">
+<area shape="rect" id="node1" title="interface for virtual memory address allocation" alt="" coords="46,5,241,76"/>
+<area shape="rect" id="node2" href="$d4/def/mos__vma_8h.html" title="interface for virtual memory address allocation" alt="" coords="100,124,188,151"/>
+<area shape="rect" id="node3" title=" " alt="" coords="64,273,138,300"/>
+<area shape="rect" id="node4" title=" " alt="" coords="23,199,88,225"/>
+<area shape="rect" id="node5" title=" " alt="" coords="113,199,174,225"/>
+<area shape="rect" id="node6" title=" " alt="" coords="198,199,262,225"/>
+<area shape="rect" id="node7" href="$da/d23/list_8h.html" title=" " alt="" coords="286,199,337,225"/>
+<area shape="rect" id="node8" title=" " alt="" coords="231,273,299,300"/>
+<area shape="rect" id="node9" title=" " alt="" coords="324,273,393,300"/>
 </map>

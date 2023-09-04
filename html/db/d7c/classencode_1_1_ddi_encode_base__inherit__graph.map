@@ -1,0 +1,9 @@
+<map id="encode::DdiEncodeBase" name="encode::DdiEncodeBase">
+<area shape="rect" id="node1" title="Ddi encode base." alt="" coords="204,107,369,133"/>
+<area shape="rect" id="node3" href="$db/d26/classencode_1_1_ddi_encode_a_v1.html" title="DDi encode AV1." alt="" coords="419,5,579,32"/>
+<area shape="rect" id="node4" href="$de/dec/classencode_1_1_ddi_encode_avc.html" title="Ddi encode AVC." alt="" coords="421,56,577,83"/>
+<area shape="rect" id="node5" href="$d1/d90/classencode_1_1_ddi_encode_hevc.html" title="DDi encode HEVC." alt="" coords="417,107,580,133"/>
+<area shape="rect" id="node6" href="$da/d51/classencode_1_1_ddi_encode_jpeg.html" title="Ddi encode JPEG." alt="" coords="417,157,580,184"/>
+<area shape="rect" id="node7" href="$db/d20/classencode_1_1_ddi_encode_vp9.html" title="Ddi encode VP9." alt="" coords="419,208,578,235"/>
+<area shape="rect" id="node2" href="$d7/d54/classcodec_1_1_ddi_codec_base.html" title="Ddi codec base class." alt="" coords="5,107,156,133"/>
+</map>

@@ -1,7 +1,9 @@
 <map id="GraphicsResourceSpecificNext::Allocate" name="GraphicsResourceSpecificNext::Allocate">
-<area shape="rect" id="node1" title="Allocate the graphic memory to back up the graphic resource." alt="" coords="5,74,180,115"/>
-<area shape="rect" id="node2" href="$d1/d60/mos__bufmgr__api_8c.html#af8b481d73fdffe558648a023e8c2bfa8" title=" " alt="" coords="265,5,367,32"/>
-<area shape="rect" id="node3" href="$d1/d60/mos__bufmgr__api_8c.html#a333c395f5691e0cc0bf366929b4be6d7" title=" " alt="" coords="249,56,383,83"/>
-<area shape="rect" id="node4" href="$d1/d60/mos__bufmgr__api_8c.html#acc56e5634918b0ad7bc6e9557bc6c6bc" title=" " alt="" coords="241,107,391,133"/>
-<area shape="rect" id="node5" href="$d6/d1f/class_graphics_resource_specific_next.html#a7f0d236af91f9769e3f6eb51a7e988b9" title="Set tilemode by force to GMM info flag." alt="" coords="228,158,404,199"/>
+<area shape="rect" id="node1" title="Allocate the graphic memory to back up the graphic resource." alt="" coords="5,140,180,181"/>
+<area shape="rect" id="node2" href="$d2/dc9/class_os_context_specific_next.html#ad305a1886d6f7c5e2eb3aa9c967f1220" title=" " alt="" coords="247,5,404,47"/>
+<area shape="rect" id="node3" href="$d7/d73/mos__bufmgr__api__mock_8c.html#aa325d5048df51438d30d99c2be3552d9" title=" " alt="" coords="274,71,377,98"/>
+<area shape="rect" id="node4" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a6e057dd4ad453cda0286dfcd045a3630" title=" " alt="" coords="259,122,392,149"/>
+<area shape="rect" id="node5" href="$d7/d73/mos__bufmgr__api__mock_8c.html#acc56e5634918b0ad7bc6e9557bc6c6bc" title=" " alt="" coords="251,173,400,199"/>
+<area shape="rect" id="node6" href="$d7/d73/mos__bufmgr__api__mock_8c.html#ac255d434f7ec12661809f6db78a0d302" title=" " alt="" coords="228,223,423,250"/>
+<area shape="rect" id="node7" href="$d6/d1f/class_graphics_resource_specific_next.html#a7f0d236af91f9769e3f6eb51a7e988b9" title="Set tilemode by force to GMM info flag." alt="" coords="237,275,413,316"/>
 </map>

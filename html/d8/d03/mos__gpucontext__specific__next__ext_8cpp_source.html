@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: media_softlet/linux/common/os/mos_gpucontext_specific_next_ext.cpp Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/mos_gpucontext_specific_next_ext.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -20,9 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="../../17888862.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;22.5.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_eb769a76f330a5c58e31180c7ee972cf.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_89ef60be54512353afcbd7baec3b722c.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_4fed1f8ed79d9f97d1e2fe61a41f97cc.html">common</a></li><li class="navelem"><a class="el" href="../../dir_64eaabcbed192c2a1a2816231d5c3931.html">os</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_3c3410289b14e1df332ecc9157e3894f.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_32ec30427766471c663c1286f4b04a0e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_986d2ce2ac55d27cc447e8d78f5db418.html">common</a></li><li class="navelem"><a class="el" href="../../dir_11379992f964418e636509c17f24b568.html">os</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -120,19 +120,18 @@ $(function() {
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordflow">return</span> MOS_STATUS_SUCCESS;</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>}</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../d9/d7e/class_gpu_context_specific_next.html#abb9095912d03569523ee58b035d645ab">   53</a></span>MOS_STATUS <a class="code hl_function" href="../../d9/d7e/class_gpu_context_specific_next.html#abb9095912d03569523ee58b035d645ab">GpuContextSpecificNext::ReportEngineInfo</a>(</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keyword">struct</span> <a class="code hl_struct" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> *engineMap, <span class="keywordtype">int</span> engineNum,</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../d9/d7e/class_gpu_context_specific_next.html#a86b6d92734a70ae6bdcf1764ace34bd0">   53</a></span>MOS_STATUS <a class="code hl_function" href="../../d9/d7e/class_gpu_context_specific_next.html#a86b6d92734a70ae6bdcf1764ace34bd0">GpuContextSpecificNext::ReportEngineInfo</a>(</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordtype">void</span> *engine_map, <span class="keywordtype">int</span> engineNum,</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordtype">bool</span> engineSelectEnable)</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>{</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordflow">return</span> MOS_STATUS_SUCCESS;</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>}</div>
 <div class="ttc" id="aclass_gpu_context_specific_next_html_a5c6b1a609bbe6ef2174c1beed11b1d94"><div class="ttname"><a href="../../d9/d7e/class_gpu_context_specific_next.html#a5c6b1a609bbe6ef2174c1beed11b1d94">GpuContextSpecificNext::SetEngineQueryFlags</a></div><div class="ttdeci">void SetEngineQueryFlags(PMOS_GPUCTX_CREATOPTIONS option, __u64 &amp;caps)</div><div class="ttdoc">Set the flags of engin quering according to create options.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d03/mos__gpucontext__specific__next__ext_8cpp_source.html#l00027">mos_gpucontext_specific_next_ext.cpp:27</a></div></div>
 <div class="ttc" id="aclass_gpu_context_specific_next_html_a6edf73699a719186f1778487c3a16b9b"><div class="ttname"><a href="../../d9/d7e/class_gpu_context_specific_next.html#a6edf73699a719186f1778487c3a16b9b">GpuContextSpecificNext::ReportMemoryInfo</a></div><div class="ttdeci">MOS_STATUS ReportMemoryInfo(struct mos_bufmgr *bufmgr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d03/mos__gpucontext__specific__next__ext_8cpp_source.html#l00048">mos_gpucontext_specific_next_ext.cpp:48</a></div></div>
-<div class="ttc" id="aclass_gpu_context_specific_next_html_abb9095912d03569523ee58b035d645ab"><div class="ttname"><a href="../../d9/d7e/class_gpu_context_specific_next.html#abb9095912d03569523ee58b035d645ab">GpuContextSpecificNext::ReportEngineInfo</a></div><div class="ttdeci">MOS_STATUS ReportEngineInfo(struct i915_engine_class_instance *engineMap, int engineNum, bool engineSelectEnable=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d03/mos__gpucontext__specific__next__ext_8cpp_source.html#l00053">mos_gpucontext_specific_next_ext.cpp:53</a></div></div>
+<div class="ttc" id="aclass_gpu_context_specific_next_html_a86b6d92734a70ae6bdcf1764ace34bd0"><div class="ttname"><a href="../../d9/d7e/class_gpu_context_specific_next.html#a86b6d92734a70ae6bdcf1764ace34bd0">GpuContextSpecificNext::ReportEngineInfo</a></div><div class="ttdeci">virtual MOS_STATUS ReportEngineInfo(void *engine_map, int engineNum, bool engineSelectEnable=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d03/mos__gpucontext__specific__next__ext_8cpp_source.html#l00053">mos_gpucontext_specific_next_ext.cpp:53</a></div></div>
 <div class="ttc" id="adrm_8h_html_ac2a2bfb32105ffe8e74b67670b7ec440"><div class="ttname"><a href="../../da/d68/drm_8h.html#ac2a2bfb32105ffe8e74b67670b7ec440">__u64</a></div><div class="ttdeci">uint64_t __u64</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d68/drm_8h_source.html#l00056">drm.h:56</a></div></div>
-<div class="ttc" id="ai915__drm_8h_html_a2d36a974dc52aae51b8c73245dfd9e48"><div class="ttname"><a href="../../d0/d85/i915__drm_8h.html#a2d36a974dc52aae51b8c73245dfd9e48">I915_VIDEO_AND_ENHANCE_CLASS_CAPABILITY_SFC</a></div><div class="ttdeci">#define I915_VIDEO_AND_ENHANCE_CLASS_CAPABILITY_SFC</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/i915__drm_8h_source.html#l03203">i915_drm.h:3203</a></div></div>
+<div class="ttc" id="ai915__drm_8h_html_a2d36a974dc52aae51b8c73245dfd9e48"><div class="ttname"><a href="../../d0/d85/i915__drm_8h.html#a2d36a974dc52aae51b8c73245dfd9e48">I915_VIDEO_AND_ENHANCE_CLASS_CAPABILITY_SFC</a></div><div class="ttdeci">#define I915_VIDEO_AND_ENHANCE_CLASS_CAPABILITY_SFC</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/i915__drm_8h_source.html#l03302">i915_drm.h:3302</a></div></div>
 <div class="ttc" id="amos__gpucontext__specific__next_8h_html"><div class="ttname"><a href="../../d4/d25/mos__gpucontext__specific__next_8h.html">mos_gpucontext_specific_next.h</a></div></div>
-<div class="ttc" id="astructi915__engine__class__instance_html"><div class="ttname"><a href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/i915__drm_8h_source.html#l00234">i915_drm.h:234</a></div></div>
 <div class="ttc" id="astructmos__bufmgr_html"><div class="ttname"><a href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00042">mos_bufmgr_priv.h:42</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

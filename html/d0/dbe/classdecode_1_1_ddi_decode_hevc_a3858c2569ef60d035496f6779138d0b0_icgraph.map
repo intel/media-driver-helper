@@ -1,0 +1,6 @@
+<map id="decode::DdiDecodeHevc::IsSccProfile" name="decode::DdiDecodeHevc::IsSccProfile">
+<area shape="rect" id="node1" title="If it is hevc scc profile." alt="" coords="216,71,379,112"/>
+<area shape="rect" id="node2" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a9bd2f978ca5958da04cd0494051f1090" title="Initialize the back&#45;end CodecHal of DdiDecodeBase." alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node3" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a2af8be6cce20ec9717696f828e366560" title="ParsePicParam for HEVC." alt="" coords="5,71,168,112"/>
+<area shape="rect" id="node4" href="$d0/dbe/classdecode_1_1_ddi_decode_hevc.html#a8df4c67440b04d6135109c8892faea8b" title="ParaSliceParam for HEVC." alt="" coords="5,136,168,177"/>
+</map>

@@ -1,0 +1,30 @@
+<map id="GpuContextSpecificNext::PatchGPUContextProtection" name="GpuContextSpecificNext::PatchGPUContextProtection">
+<area shape="rect" id="node1" title="Recreate GPU context as protected or clear if needed." alt="" coords="5,233,201,274"/>
+<area shape="rect" id="node2" href="$d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="249,233,413,274"/>
+<area shape="rect" id="node3" href="$d9/d7e/class_gpu_context_specific_next.html#ae2c5336c9113504bc161bccde71270b4" title=" " alt="" coords="461,86,625,127"/>
+<area shape="rect" id="node8" href="$d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="461,378,625,419"/>
+<area shape="rect" id="node4" href="$d7/d73/mos__bufmgr__api__mock_8c.html#aa872d6fd06ad299be49a9f6a11f46ce5" title=" " alt="" coords="935,161,1081,188"/>
+<area shape="rect" id="node5" href="$db/d2d/class_command_buffer_specific_next.html#a624f17c29775bf43ff37d30cd46e2d17" title="wait command buffer to be rendered by gpu \detail This function will call mos_bo_wait_rendering()" alt="" coords="673,27,860,69"/>
+<area shape="rect" id="node6" href="$d6/d1f/class_graphics_resource_specific_next.html#a62675abbabe01e50d86df533a3876e5c" title=" " alt="" coords="921,57,1095,98"/>
+<area shape="rect" id="node7" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a2684cbc7d8463456345f52cf3e470896" title=" " alt="" coords="929,5,1087,32"/>
+<area shape="rect" id="node9" href="$d9/d7e/class_gpu_context_specific_next.html#aac77560a0aae571abecf3c8ff50f2730" title="Allocate gpu status buffer for gpu sync." alt="" coords="685,145,849,186"/>
+<area shape="rect" id="node10" href="$df/dff/class_mos_oca_interface_specific.html#a4f013e87bbbb934dc99e18ac665a446a" title=" " alt="" coords="683,210,850,251"/>
+<area shape="rect" id="node11" href="$d9/d7e/class_gpu_context_specific_next.html#a1b960a737bf13069a09a6570b82e746a" title=" " alt="" coords="685,639,849,681"/>
+<area shape="rect" id="node19" href="$d9/d7e/class_gpu_context_specific_next.html#adafd592cf65884aa9b58515bdb282ffc" title=" " alt="" coords="685,509,849,550"/>
+<area shape="rect" id="node20" href="$d9/d7e/class_gpu_context_specific_next.html#aa0bddcb9bfcdc8898676bcb09a57a0fe" title=" " alt="" coords="685,574,849,615"/>
+<area shape="rect" id="node21" href="$d9/d7e/class_gpu_context_specific_next.html#a0285aa383f24f68148c1a2fad7cc3edf" title=" " alt="" coords="685,443,849,485"/>
+<area shape="rect" id="node25" href="$d1/d60/mos__bufmgr__api_8c.html#a15d0de738dc2d046cb2cefe17980e49e" title=" " alt="" coords="673,276,860,303"/>
+<area shape="rect" id="node26" href="$d1/d60/mos__bufmgr__api_8c.html#af3a2514b46cffac9e9687ad0d0c8ed03" title=" " alt="" coords="678,327,855,353"/>
+<area shape="rect" id="node27" href="$d9/d7e/class_gpu_context_specific_next.html#a86b6d92734a70ae6bdcf1764ace34bd0" title=" " alt="" coords="685,378,849,419"/>
+<area shape="rect" id="node28" href="$d9/d7e/class_gpu_context_specific_next.html#ae74b7278314b05e89f5806188fd09341" title="Store create options to member variable." alt="" coords="685,705,849,746"/>
+<area shape="rect" id="node12" href="$d7/d73/mos__bufmgr__api__mock_8c.html#ad967040b35e62d7da73adb66612c15c4" title=" " alt="" coords="938,530,1078,571"/>
+<area shape="rect" id="node13" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a8dfecbef88a9500b9fd83aa2a54ea520" title=" " alt="" coords="908,697,1108,724"/>
+<area shape="rect" id="node14" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a43e06ee7d2ea9da0163d1c5ebfdc28b5" title=" " alt="" coords="955,748,1061,775"/>
+<area shape="rect" id="node15" href="$d1/d60/mos__bufmgr__api_8c.html#ad06b2333a74605f1f27390ad0012ac82" title=" " alt="" coords="939,596,1077,623"/>
+<area shape="rect" id="node16" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a55c2d2f1ff80e6ad4e808a4acbb8df3c" title=" " alt="" coords="925,465,1091,506"/>
+<area shape="rect" id="node17" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a8e7912ad954abaa2ceeb5f89ae0a5066" title=" " alt="" coords="908,799,1108,825"/>
+<area shape="rect" id="node18" href="$d7/d73/mos__bufmgr__api__mock_8c.html#ab0805208759bed34afe6484f5238df28" title=" " alt="" coords="931,647,1085,673"/>
+<area shape="rect" id="node22" href="$d1/d60/mos__bufmgr__api_8c.html#a623f87a4f58678f03055aa14a6b5f838" title=" " alt="" coords="908,348,1108,375"/>
+<area shape="rect" id="node23" href="$d1/d60/mos__bufmgr__api_8c.html#a3135f99ada36271932b62ee0b134041d" title=" " alt="" coords="925,399,1091,441"/>
+<area shape="rect" id="node24" href="$d9/d7e/class_gpu_context_specific_next.html#a5c6b1a609bbe6ef2174c1beed11b1d94" title="Set the flags of engin quering according to create options." alt="" coords="926,282,1090,323"/>
+</map>

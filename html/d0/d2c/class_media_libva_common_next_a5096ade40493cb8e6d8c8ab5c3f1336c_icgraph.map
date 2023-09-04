@@ -1,0 +1,19 @@
+<map id="MediaLibvaCommonNext::GetBufferFromVABufferID" name="MediaLibvaCommonNext::GetBufferFromVABufferID">
+<area shape="rect" id="node1" title="Get buffer from VA buffer ID." alt="" coords="497,404,675,445"/>
+<area shape="rect" id="node2" href="$d0/dca/class_ddi_decode_functions.html#a75c7d18b602163827ebb296c7f86ddfe" title="Destroy buffer." alt="" coords="278,5,421,47"/>
+<area shape="rect" id="node3" href="$d9/dba/class_ddi_encode_functions.html#af717619d05bd74c643a9a682a134424d" title="Destroy buffer." alt="" coords="278,71,421,112"/>
+<area shape="rect" id="node4" href="$d3/de1/class_ddi_media_functions.html#a6f36de2b62f1f4aad7156fb4cfed08eb" title="Destroy buffer." alt="" coords="279,136,420,177"/>
+<area shape="rect" id="node5" href="$df/d20/class_ddi_vp_functions.html#abda9db1228f9a9045d380ea2ecc2027c" title="Destroy buffer." alt="" coords="249,202,449,229"/>
+<area shape="rect" id="node6" href="$d0/dca/class_ddi_decode_functions.html#a5a94cef3fbad9ce4f7373ac7e604eef6" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="278,253,421,295"/>
+<area shape="rect" id="node7" href="$d9/dba/class_ddi_encode_functions.html#af6f7cb575632bc2b8ce8cd67a17e3f22" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="32,312,175,353"/>
+<area shape="rect" id="node8" href="$d3/de1/class_ddi_media_functions.html#a4f7fbc13276e15b941c3a85f6a5a1eaf" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="279,371,420,412"/>
+<area shape="rect" id="node10" href="$db/d26/classencode_1_1_ddi_encode_a_v1.html#ad57ec3db2053f23f0586f7f1c2561907" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="269,436,429,477"/>
+<area shape="rect" id="node11" href="$d1/d90/classencode_1_1_ddi_encode_hevc.html#a4406e7b36762c461980b59e86a5a95cd" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="268,501,431,543"/>
+<area shape="rect" id="node12" href="$da/d51/classencode_1_1_ddi_encode_jpeg.html#afdebe818d565ca6a6920141b7c699f1c" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="268,567,431,608"/>
+<area shape="rect" id="node13" href="$db/d20/classencode_1_1_ddi_encode_vp9.html#ad08a59db9832f42e46618f3368200c05" title="Parse Picture Parameter buffer to Encode Context." alt="" coords="270,632,429,673"/>
+<area shape="rect" id="node14" href="$d0/dca/class_ddi_decode_functions.html#a2f74a636a407a08af58eb0035940e85c" title="Unmap buffer." alt="" coords="278,697,421,739"/>
+<area shape="rect" id="node15" href="$d9/dba/class_ddi_encode_functions.html#aa6919cbf75ddd4075a4228ccd5cffa6f" title="Unmap buffer." alt="" coords="32,756,175,797"/>
+<area shape="rect" id="node16" href="$d3/de1/class_ddi_media_functions.html#aef3b53ff490d834d205f4a7c77d0eeb2" title="Unmap buffer." alt="" coords="279,815,420,856"/>
+<area shape="rect" id="node9" href="$df/d20/class_ddi_vp_functions.html#aefbc6c35995dea36f958c2bad49df271" title=" " alt="" coords="13,377,193,419"/>
+<area shape="rect" id="node17" href="$df/d20/class_ddi_vp_functions.html#ac22d4c7277bbb00b83685ae7e573d4f1" title="Unmap buffer." alt="" coords="5,822,201,849"/>
+</map>

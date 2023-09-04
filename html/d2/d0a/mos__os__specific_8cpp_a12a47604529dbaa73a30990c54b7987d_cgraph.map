@@ -1,9 +1,0 @@
-<map id="Mos_Specific_CreateGpuContext" name="Mos_Specific_CreateGpuContext">
-<area shape="rect" id="node1" title="Create GPU context." alt="" coords="5,81,220,108"/>
-<area shape="rect" id="node2" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a8dfecbef88a9500b9fd83aa2a54ea520" title=" " alt="" coords="268,5,468,32"/>
-<area shape="rect" id="node5" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a53c5a048f182955e498bbb0484f52965" title=" " alt="" coords="315,56,421,83"/>
-<area shape="rect" id="node6" href="$de/d47/i915__production_2mos__bufmgr_8c.html#a8e7912ad954abaa2ceeb5f89ae0a5066" title=" " alt="" coords="268,107,468,133"/>
-<area shape="rect" id="node7" href="$de/d47/i915__production_2mos__bufmgr_8c.html#acd2ffdec560b77d52a8709d00996e63b" title=" " alt="" coords="291,157,445,184"/>
-<area shape="rect" id="node3" href="$dc/dfc/xf86drm_8c.html#ae3c1c49d03f8a0f8b71de1f5f574a6bd" title=" " alt="" coords="516,56,584,83"/>
-<area shape="rect" id="node4" href="$dc/dfc/xf86drm_8c.html#ac49c32891ff1d2f2a7cbb33d520d9658" title=" " alt="" coords="632,56,725,83"/>
-</map>

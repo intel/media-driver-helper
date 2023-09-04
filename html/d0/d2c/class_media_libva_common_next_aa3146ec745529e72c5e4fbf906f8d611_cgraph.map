@@ -1,0 +1,13 @@
+<map id="MediaLibvaCommonNext::ReplaceSurfaceWithNewFormat" name="MediaLibvaCommonNext::ReplaceSurfaceWithNewFormat">
+<area shape="rect" id="node1" title="Replace the surface with given format." alt="" coords="5,105,220,146"/>
+<area shape="rect" id="node2" href="$d8/d27/struct_media_libva_util_next.html#a0214295930792c7658f6a4046bfffccd" title="Create surface." alt="" coords="268,71,400,113"/>
+<area shape="rect" id="node3" href="$d8/d27/struct_media_libva_util_next.html#ac963da2af3bff57dd48955fc7ef5b2d1" title="Free surface." alt="" coords="268,137,400,178"/>
+<area shape="rect" id="node4" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a3f50be67296c219589a0953fb792dca4" title=" " alt="" coords="879,5,1021,32"/>
+<area shape="rect" id="node5" href="$d8/d27/struct_media_libva_util_next.html#a3be42318ad8bd9e8d0d3d051d11b34c9" title="Unlock surface." alt="" coords="483,137,615,178"/>
+<area shape="rect" id="node11" href="$dc/d36/class_aux_table_mgr.html#a73327ab525816daf157b66a7d82c28d8" title="Unmap resource from aux table." alt="" coords="448,203,651,229"/>
+<area shape="rect" id="node6" href="$d8/d27/struct_media_libva_util_next.html#a5b8159cf6deb7fd21c9355e98e8fd449" title="Free buffer." alt="" coords="699,107,831,149"/>
+<area shape="rect" id="node8" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a47260ddcd6e035fa5384ab0a03d34f3d" title=" " alt="" coords="1080,103,1195,129"/>
+<area shape="rect" id="node9" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a6eb56267625d905b3689c8cfcca0b1f8" title=" " alt="" coords="1069,187,1205,213"/>
+<area shape="rect" id="node10" href="$d8/d27/struct_media_libva_util_next.html#a5015821cdaf933faa70cba831be7d6ab" title="Swizzle Surface." alt="" coords="699,225,831,266"/>
+<area shape="rect" id="node7" href="$d8/d27/struct_media_libva_util_next.html#afec9f4a36af1fd7e8c98a4eeaca10552" title="Unlock buffer." alt="" coords="884,137,1016,178"/>
+</map>

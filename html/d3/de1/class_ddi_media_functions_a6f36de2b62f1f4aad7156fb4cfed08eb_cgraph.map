@@ -1,0 +1,8 @@
+<map id="DdiMediaFunctions::DestroyBuffer" name="DdiMediaFunctions::DestroyBuffer">
+<area shape="rect" id="node1" title="Destroy buffer." alt="" coords="5,71,147,112"/>
+<area shape="rect" id="node2" href="$d6/d71/class_media_libva_interface_next.html#a7eafeb42c83977d582cc33d72fb580d1" title="Destroy buffer from VA buffer ID." alt="" coords="195,5,381,47"/>
+<area shape="rect" id="node4" href="$d0/d2c/class_media_libva_common_next.html#a5096ade40493cb8e6d8c8ab5c3f1336c" title="Get buffer from VA buffer ID." alt="" coords="199,71,377,112"/>
+<area shape="rect" id="node5" href="$d8/d27/struct_media_libva_util_next.html#aec133a318f905dec3fe41979cf1407a5" title="Unreference buf object media buffer." alt="" coords="197,136,379,177"/>
+<area shape="rect" id="node3" href="$d8/d27/struct_media_libva_util_next.html#a2e508d9f994ca6d724466b154c11490c" title="Release pmedia buffer from heap." alt="" coords="429,5,644,47"/>
+<area shape="rect" id="node6" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a3f50be67296c219589a0953fb792dca4" title=" " alt="" coords="465,143,608,170"/>
+</map>
