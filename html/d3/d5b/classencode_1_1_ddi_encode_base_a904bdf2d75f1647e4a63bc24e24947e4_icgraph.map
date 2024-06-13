@@ -1,6 +1,5 @@
 <map id="encode::DdiEncodeBase::VARC2HalRC" name="encode::DdiEncodeBase::VARC2HalRC">
-<area shape="rect" id="node1" title="Convert rate control method in VAAPI to the term in HAL." alt="" coords="216,71,381,112"/>
-<area shape="rect" id="node2" href="$db/d26/classencode_1_1_ddi_encode_a_v1.html#af1443b656625fa9fc1cdc45bb11ba87e" title="Parse Sequence Parameter buffer to Encode Context." alt="" coords="7,5,167,47"/>
-<area shape="rect" id="node3" href="$de/dec/classencode_1_1_ddi_encode_avc.html#ade39ce32fa3193bb798b18afd47bafed" title="Parse Sequence parameters." alt="" coords="9,71,165,112"/>
-<area shape="rect" id="node4" href="$d1/d90/classencode_1_1_ddi_encode_hevc.html#ac778895c1ad4825bbfbee658eb3f8845" title="Parse Sequence Parameter buffer to Encode Context." alt="" coords="5,136,168,177"/>
+<area shape="rect" id="node1" title="Convert rate control method in VAAPI to the term in HAL." alt="" coords="216,39,381,80"/>
+<area shape="rect" id="node2" href="$de/dec/classencode_1_1_ddi_encode_avc.html#ade39ce32fa3193bb798b18afd47bafed" title="Parse Sequence parameters." alt="" coords="9,5,165,47"/>
+<area shape="rect" id="node3" href="$d1/d90/classencode_1_1_ddi_encode_hevc.html#ac778895c1ad4825bbfbee658eb3f8845" title="Parse Sequence Parameter buffer to Encode Context." alt="" coords="5,71,168,112"/>
 </map>

@@ -34,7 +34,7 @@ var searchData=
   ['mos_5fmmap_5foperation_31',['MOS_MMAP_OPERATION',['../d3/da0/mos__os__specific_8h.html#a74999846aa91da259f425dffc12ce664',1,'mos_os_specific.h']]],
   ['mos_5fmutex_32',['MOS_MUTEX',['../d8/df2/mos__defs__specific_8h.html#a2b80bb5ee704e100ef8985668a1d91d7',1,'mos_defs_specific.h']]],
   ['mos_5foca_5fbuffer_5fconfig_33',['MOS_OCA_BUFFER_CONFIG',['../dc/d49/mos__oca__defs__specific_8h.html#a68b532c596a40858c1ee58c36526d7a1',1,'mos_oca_defs_specific.h']]],
-  ['mos_5foca_5fexec_5flist_5finfo_34',['mos_oca_exec_list_info',['../d5/d3a/mos__bufmgr__api_8h.html#a4afde56a7ca7220534552cda8cecc9ae',1,'mos_bufmgr_api.h']]],
+  ['mos_5foca_5fexec_5flist_5finfo_34',['mos_oca_exec_list_info',['../d5/d3a/mos__bufmgr__api_8h.html#a4afde56a7ca7220534552cda8cecc9ae',1,'mos_oca_exec_list_info():&#160;mos_bufmgr_api.h'],['../da/d41/mos__bufmgr__xe_8c.html#a4afde56a7ca7220534552cda8cecc9ae',1,'mos_oca_exec_list_info():&#160;mos_bufmgr_xe.c']]],
   ['mos_5foca_5flog_5fheader_5fexec_5flist_5finfo_35',['MOS_OCA_LOG_HEADER_EXEC_LIST_INFO',['../dc/d49/mos__oca__defs__specific_8h.html#a0c11be15253e88c7cfd999cdf0b2ea0c',1,'mos_oca_defs_specific.h']]],
   ['mos_5foca_5fresource_5finfo_36',['MOS_OCA_RESOURCE_INFO',['../dc/d49/mos__oca__defs__specific_8h.html#a2787d04654332b965c96269fdec31a45',1,'mos_oca_defs_specific.h']]],
   ['mos_5fos_5fallocation_37',['MOS_OS_ALLOCATION',['../d3/da0/mos__os__specific_8h.html#a1d465d627cf109c909a7eea7ba80e722',1,'mos_os_specific.h']]],
@@ -58,5 +58,9 @@ var searchData=
   ['mos_5fvirtualengine_5fset_5fparams_55',['MOS_VIRTUALENGINE_SET_PARAMS',['../d3/da0/mos__os__specific_8h.html#a16aa6d8489e8d2eb905ab2b92ee084ee',1,'mos_os_specific.h']]],
   ['mos_5fvma_5fheap_56',['mos_vma_heap',['../d4/def/mos__vma_8h.html#afb3c7ffa1abbf5d3711adc244a79de71',1,'mos_vma.h']]],
   ['mos_5fvma_5fhole_57',['mos_vma_hole',['../d4/def/mos__vma_8h.html#aef9df07ed05a45ae24b74859428748c7',1,'mos_vma.h']]],
-  ['mutexlock_58',['MutexLock',['../d0/da7/namespacetesting_1_1internal.html#a08b187c6cc4e28400aadf9a32fccc8de',1,'testing::internal']]]
+  ['mos_5fxe_5fbo_5fgem_58',['mos_xe_bo_gem',['../da/d41/mos__bufmgr__xe_8c.html#a35ccd83946173d32dc50a9c79ee37232',1,'mos_bufmgr_xe.c']]],
+  ['mos_5fxe_5fbufmgr_5fgem_59',['mos_xe_bufmgr_gem',['../da/d41/mos__bufmgr__xe_8c.html#ad7d35ff2f8d6c3d7b480a2eb6410a94e',1,'mos_bufmgr_xe.c']]],
+  ['mos_5fxe_5fdevice_60',['mos_xe_device',['../da/d41/mos__bufmgr__xe_8c.html#a0e438c6a9a00f1f516c68eed7440d659',1,'mos_bufmgr_xe.c']]],
+  ['mos_5fxe_5fexec_5fbo_61',['mos_xe_exec_bo',['../da/d41/mos__bufmgr__xe_8c.html#ae77681bef5734cab099cbe547b23e0af',1,'mos_bufmgr_xe.c']]],
+  ['mutexlock_62',['MutexLock',['../d0/da7/namespacetesting_1_1internal.html#a08b187c6cc4e28400aadf9a32fccc8de',1,'testing::internal']]]
 ];

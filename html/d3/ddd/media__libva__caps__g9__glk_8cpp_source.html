@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_driver/linux/gen9_glk/ddi/media_libva_caps_g9_glk.cpp Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media-driver/media_driver/linux/gen9_glk/ddi/media_libva_caps_g9_glk.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;24.2.6</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_55776ec83c9d032fd3160e5735bb9eeb.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_71b97772b1880ae754b9c282d2ac7b3e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_0c34f519302b594bd013c86a6a1887a0.html">gen9_glk</a></li><li class="navelem"><a class="el" href="../../dir_ffb81aecc99fc7835a71088f8d8ace01.html">ddi</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_9f344d85c56218b4cc4cd630467c6da2.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_cf531a48a76214fcf45a89345f779f1f.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_311ea0f377c5de6cdc50ddc6c60874ba.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_7a18969a5174f3b251790fcf14ca00a8.html">gen9_glk</a></li><li class="navelem"><a class="el" href="../../dir_2fa67e40a75cbcbaf16945f649a3031e.html">ddi</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -110,7 +110,7 @@ $(function() {
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordtype">bool</span> vdencActive,</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        uint32_t *mbProcessingRatePerSec)</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>{</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_define" href="../../da/d29/media__libva__util_8h.html#a4e7bb61a487d6c0b1b73285b53a8c302">DDI_CHK_NULL</a>(mbProcessingRatePerSec, <span class="stringliteral">&quot;Null pointer&quot;</span>, VA_STATUS_ERROR_INVALID_PARAMETER);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_define" href="../../d4/df0/media__libva__util__next_8h.html#a4e7bb61a487d6c0b1b73285b53a8c302">DDI_CHK_NULL</a>(mbProcessingRatePerSec, <span class="stringliteral">&quot;Null pointer&quot;</span>, VA_STATUS_ERROR_INVALID_PARAMETER);</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">const</span> uint32_t mbRate[7] = { 991254, 885321, 839852, 838299, 838471, 704420, 703934 };</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    *mbProcessingRatePerSec = mbRate[tuIdx];</div>
@@ -130,8 +130,8 @@ $(function() {
 <div class="ttc" id="amedia__libva__caps__factory_8h_html"><div class="ttname"><a href="../../d9/d17/media__libva__caps__factory_8h.html">media_libva_caps_factory.h</a></div><div class="ttdoc">Defines one template class to create the instance of DDI MediaLibvaCaps.</div></div>
 <div class="ttc" id="amedia__libva__caps__g9__glk_8h_html"><div class="ttname"><a href="../../d9/db8/media__libva__caps__g9__glk_8h.html">media_libva_caps_g9_glk.h</a></div><div class="ttdoc">This file defines the C++ class/interface for GLK media capbilities.</div></div>
 <div class="ttc" id="amedia__libva__util_8h_html"><div class="ttname"><a href="../../da/d29/media__libva__util_8h.html">media_libva_util.h</a></div><div class="ttdoc">libva(and its extension) utility head file</div></div>
-<div class="ttc" id="amedia__libva__util_8h_html_a4e7bb61a487d6c0b1b73285b53a8c302"><div class="ttname"><a href="../../da/d29/media__libva__util_8h.html#a4e7bb61a487d6c0b1b73285b53a8c302">DDI_CHK_NULL</a></div><div class="ttdeci">#define DDI_CHK_NULL(_ptr, _str, _ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d29/media__libva__util_8h_source.html#l00420">media_libva_util.h:420</a></div></div>
-<div class="ttc" id="astruct_d_d_i___m_e_d_i_a___c_o_n_t_e_x_t_html"><div class="ttname"><a href="../../dc/d3c/struct_d_d_i___m_e_d_i_a___c_o_n_t_e_x_t.html">DDI_MEDIA_CONTEXT</a></div><div class="ttdoc">Media heap for shared internal structures.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d42/ddi__media__context_8h_source.html#l00038">ddi_media_context.h:39</a></div></div>
+<div class="ttc" id="amedia__libva__util__next_8h_html_a4e7bb61a487d6c0b1b73285b53a8c302"><div class="ttname"><a href="../../d4/df0/media__libva__util__next_8h.html#a4e7bb61a487d6c0b1b73285b53a8c302">DDI_CHK_NULL</a></div><div class="ttdeci">#define DDI_CHK_NULL(_ptr, _str, _ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df0/media__libva__util__next_8h_source.html#l00168">media_libva_util_next.h:168</a></div></div>
+<div class="ttc" id="astruct_d_d_i___m_e_d_i_a___c_o_n_t_e_x_t_html"><div class="ttname"><a href="../../dc/d3c/struct_d_d_i___m_e_d_i_a___c_o_n_t_e_x_t.html">DDI_MEDIA_CONTEXT</a></div><div class="ttdoc">Ddi media context.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d42/ddi__media__context_8h_source.html#l00038">ddi_media_context.h:39</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

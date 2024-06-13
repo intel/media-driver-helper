@@ -1,17 +1,15 @@
 <map id="MediaLibvaCaps::AddVpConfig" name="MediaLibvaCaps::AddVpConfig">
-<area shape="rect" id="node1" title="Add one vp configuration." alt="" coords="743,177,941,203"/>
-<area shape="rect" id="node2" href="$d2/d08/class_media_libva_caps.html#a66e84dfd8ba355bac060e80560d35ab2" title="Initialize none profiles, entrypoints and attributes." alt="" coords="512,169,695,211"/>
-<area shape="rect" id="node3" href="$dc/d17/class_media_libva_caps_g10.html#afdc72c9aa3e57b2529e8fa0c3ff7cb5e" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="285,5,437,47"/>
-<area shape="rect" id="node5" href="$d2/deb/class_media_libva_caps_g8.html#aa584ccc5f48b4ee6fd7ef8d9061f93f4" title="Load profile entry points." alt="" coords="259,71,464,112"/>
-<area shape="rect" id="node7" href="$da/dde/class_media_libva_caps_g9.html#ab3f2550edcbfcd2dc9040f5049a6295e" title="Load profile entry points." alt="" coords="259,136,464,177"/>
-<area shape="rect" id="node9" href="$d5/d0b/class_media_libva_caps_g11.html#a4716bad4c17d14137e4ad92de82d1eb6" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="285,201,437,243"/>
-<area shape="rect" id="node11" href="$da/dc3/class_media_libva_caps_g12.html#a3e807a277d4303b94383715443b1a1dd" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="285,267,437,308"/>
-<area shape="rect" id="node14" href="$dd/d43/class_media_libva_caps_mtl_base.html#a9499ff3bc3363ac612139ce5e8226119" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="279,347,443,388"/>
-<area shape="rect" id="node4" href="$dc/d17/class_media_libva_caps_g10.html#afc1ed2c6e3955217347e030cce4beb79" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="25,13,191,39"/>
-<area shape="rect" id="node6" href="$d2/deb/class_media_libva_caps_g8.html#a880b50bf03eb494dd709bcd5fef27db1" title="Constructor." alt="" coords="5,71,211,112"/>
-<area shape="rect" id="node8" href="$da/dde/class_media_libva_caps_g9.html#adfd36ade10ab10c9f63410dd687cbef0" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="29,143,187,170"/>
-<area shape="rect" id="node10" href="$d5/d0b/class_media_libva_caps_g11.html#a80cd514912d61ead93c920da046b335f" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="25,201,191,227"/>
-<area shape="rect" id="node12" href="$da/dc3/class_media_libva_caps_g12.html#a486e845d8fc26c527c4f5c0444aa12cb" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="25,251,191,278"/>
-<area shape="rect" id="node13" href="$d6/d4a/class_media_libva_caps_d_g2.html#a10981effe2f81e620dd69ff7b7864a80" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="32,303,184,344"/>
-<area shape="rect" id="node15" href="$dd/d43/class_media_libva_caps_mtl_base.html#a9227577429500449197c305e8e65ef34" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="26,368,190,409"/>
+<area shape="rect" id="node1" title="Add one vp configuration." alt="" coords="743,143,941,170"/>
+<area shape="rect" id="node2" href="$d2/d08/class_media_libva_caps.html#a66e84dfd8ba355bac060e80560d35ab2" title="Initialize none profiles, entrypoints and attributes." alt="" coords="512,136,695,177"/>
+<area shape="rect" id="node3" href="$d2/deb/class_media_libva_caps_g8.html#aa584ccc5f48b4ee6fd7ef8d9061f93f4" title="Load profile entry points." alt="" coords="259,5,464,47"/>
+<area shape="rect" id="node5" href="$da/dde/class_media_libva_caps_g9.html#ab3f2550edcbfcd2dc9040f5049a6295e" title="Load profile entry points." alt="" coords="259,71,464,112"/>
+<area shape="rect" id="node7" href="$d5/d0b/class_media_libva_caps_g11.html#a4716bad4c17d14137e4ad92de82d1eb6" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="285,136,437,177"/>
+<area shape="rect" id="node9" href="$da/dc3/class_media_libva_caps_g12.html#a3e807a277d4303b94383715443b1a1dd" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="285,201,437,243"/>
+<area shape="rect" id="node12" href="$dd/d43/class_media_libva_caps_mtl_base.html#a9499ff3bc3363ac612139ce5e8226119" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="279,281,443,323"/>
+<area shape="rect" id="node4" href="$d2/deb/class_media_libva_caps_g8.html#a880b50bf03eb494dd709bcd5fef27db1" title="Constructor." alt="" coords="5,5,211,47"/>
+<area shape="rect" id="node6" href="$da/dde/class_media_libva_caps_g9.html#adfd36ade10ab10c9f63410dd687cbef0" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="29,78,187,105"/>
+<area shape="rect" id="node8" href="$d5/d0b/class_media_libva_caps_g11.html#a80cd514912d61ead93c920da046b335f" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="25,135,191,162"/>
+<area shape="rect" id="node10" href="$da/dc3/class_media_libva_caps_g12.html#a486e845d8fc26c527c4f5c0444aa12cb" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="25,186,191,213"/>
+<area shape="rect" id="node11" href="$d6/d4a/class_media_libva_caps_d_g2.html#a10981effe2f81e620dd69ff7b7864a80" title="Initialize encode/decode/vp profiles, entrypoints and attributes." alt="" coords="32,237,184,279"/>
+<area shape="rect" id="node13" href="$dd/d43/class_media_libva_caps_mtl_base.html#a9227577429500449197c305e8e65ef34" title="Initialize the MediaLibvaCaps instance for current platform." alt="" coords="26,303,190,344"/>
 </map>

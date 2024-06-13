@@ -1,0 +1,10 @@
+<map id="GpuContextSpecificNextXe::ParallelSubmitCommands" name="GpuContextSpecificNextXe::ParallelSubmitCommands">
+<area shape="rect" id="node1" title=" " alt="" coords="5,100,185,141"/>
+<area shape="rect" id="node2" href="$d9/d7e/class_gpu_context_specific_next.html#a26935472200b24ae03baea935a4eb48b" title="Map resources with aux plane to aux table." alt="" coords="233,71,419,112"/>
+<area shape="rect" id="node8" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a8b8a4016fb184c1eff3bac4846b0ad06" title=" " alt="" coords="246,137,406,163"/>
+<area shape="rect" id="node3" href="$dc/d36/class_aux_table_mgr.html#a7bec85ebec76cafbba41645e84fa2c52" title="Insert aux table BOs into specific execute buffer." alt="" coords="467,5,653,47"/>
+<area shape="rect" id="node5" href="$d2/dc9/class_os_context_specific_next.html#aaac9f4dda0cc172057eb04c58c4fe85c" title=" " alt="" coords="481,71,639,112"/>
+<area shape="rect" id="node6" href="$dc/d36/class_aux_table_mgr.html#addd894f3a783c1ae6bb1ff4ddc28bba1" title="Map resource to aux table." alt="" coords="467,137,653,163"/>
+<area shape="rect" id="node4" href="$d7/d73/mos__bufmgr__api__mock_8c.html#adc644174f3960ee978bddc30e435c4a1" title=" " alt="" coords="701,5,843,47"/>
+<area shape="rect" id="node7" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a9f633354d05942184c4d7d4caf55c2a8" title=" " alt="" coords="703,137,841,163"/>
+</map>

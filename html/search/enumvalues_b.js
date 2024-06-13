@@ -55,7 +55,7 @@ var searchData=
   ['memzone_5fdevice_52',['MEMZONE_DEVICE',['../d5/d3a/mos__bufmgr__api_8h.html#a34eaf687ab1c7e3e203505cff861ed50a0e2e805f4ed4295142399ac197515dce',1,'mos_bufmgr_api.h']]],
   ['memzone_5fprime_53',['MEMZONE_PRIME',['../d5/d3a/mos__bufmgr__api_8h.html#a34eaf687ab1c7e3e203505cff861ed50ae1afda3df911c2ead12f3a48af5dd83b',1,'mos_bufmgr_api.h']]],
   ['memzone_5fsys_54',['MEMZONE_SYS',['../d5/d3a/mos__bufmgr__api_8h.html#a34eaf687ab1c7e3e203505cff861ed50ab0c7c7b73d686d49870a2fe3f9976182',1,'mos_bufmgr_api.h']]],
-  ['monochrome_55',['monochrome',['../d3/d5b/classencode_1_1_ddi_encode_base.html#a9e72cca8e759a3bd763f2a8798c50d4ba2487fc102f890c95affbb8f49c46b20e',1,'encode::DdiEncodeBase::monochrome()'],['../d3/d19/class_ddi_encode_base.html#a47d996d90c40240ac28361b2d185ae16a944f79b7214b18e9a0e5d626634c0287',1,'DdiEncodeBase::monochrome()']]],
+  ['monochrome_55',['monochrome',['../d3/d19/class_ddi_encode_base.html#a47d996d90c40240ac28361b2d185ae16a944f79b7214b18e9a0e5d626634c0287',1,'DdiEncodeBase::monochrome()'],['../d3/d5b/classencode_1_1_ddi_encode_base.html#a9e72cca8e759a3bd763f2a8798c50d4ba2487fc102f890c95affbb8f49c46b20e',1,'encode::DdiEncodeBase::monochrome()']]],
   ['mos_5fgpu_5fnode_5f3d_56',['MOS_GPU_NODE_3D',['../d3/da0/mos__os__specific_8h.html#a8baf62a97c0a6304c0fe5434e4d752b1a8f23ddaddf7571bc60f460becfcd8d8a',1,'mos_os_specific.h']]],
   ['mos_5fgpu_5fnode_5fblt_57',['MOS_GPU_NODE_BLT',['../d3/da0/mos__os__specific_8h.html#a8baf62a97c0a6304c0fe5434e4d752b1ae9373110d0b720d730368ea9407c253e',1,'mos_os_specific.h']]],
   ['mos_5fgpu_5fnode_5fcompute_58',['MOS_GPU_NODE_COMPUTE',['../d3/da0/mos__os__specific_8h.html#a8baf62a97c0a6304c0fe5434e4d752b1ac49a61a29c4e1f1e9513d62e1a5a088c',1,'mos_os_specific.h']]],
@@ -70,5 +70,8 @@ var searchData=
   ['mos_5fmmap_5foperation_5fmmap_67',['MOS_MMAP_OPERATION_MMAP',['../d3/da0/mos__os__specific_8h.html#a5c2b40f4d2d0c44f457846679ba683f2aabd6aaae97ef8e2aa9f1a38bb2ba17b7',1,'mos_os_specific.h']]],
   ['mos_5fmmap_5foperation_5fmmap_5fgtt_68',['MOS_MMAP_OPERATION_MMAP_GTT',['../d3/da0/mos__os__specific_8h.html#a5c2b40f4d2d0c44f457846679ba683f2ad3f72e4f6ffbb878853a0f42f0ee945f',1,'mos_os_specific.h']]],
   ['mos_5fmmap_5foperation_5fmmap_5fwc_69',['MOS_MMAP_OPERATION_MMAP_WC',['../d3/da0/mos__os__specific_8h.html#a5c2b40f4d2d0c44f457846679ba683f2a4a629bdf771841472e9a2d2bafc3ccd0',1,'mos_os_specific.h']]],
-  ['mos_5fmmap_5foperation_5fnone_70',['MOS_MMAP_OPERATION_NONE',['../d3/da0/mos__os__specific_8h.html#a5c2b40f4d2d0c44f457846679ba683f2acdbb49437903c7400b4804807e9f2f3c',1,'mos_os_specific.h']]]
+  ['mos_5fmmap_5foperation_5fnone_70',['MOS_MMAP_OPERATION_NONE',['../d3/da0/mos__os__specific_8h.html#a5c2b40f4d2d0c44f457846679ba683f2acdbb49437903c7400b4804807e9f2f3c',1,'mos_os_specific.h']]],
+  ['mos_5fxe_5fmem_5fclass_5fmax_71',['MOS_XE_MEM_CLASS_MAX',['../da/d41/mos__bufmgr__xe_8c.html#a58be101ca6d20d31d168a6ea7690d139ae5208bb682a2ef2990450b52ad44f467',1,'mos_bufmgr_xe.c']]],
+  ['mos_5fxe_5fmem_5fclass_5fsysmem_72',['MOS_XE_MEM_CLASS_SYSMEM',['../da/d41/mos__bufmgr__xe_8c.html#a58be101ca6d20d31d168a6ea7690d139a4976137ff5d878ce188d70c28492a5e1',1,'mos_bufmgr_xe.c']]],
+  ['mos_5fxe_5fmem_5fclass_5fvram_73',['MOS_XE_MEM_CLASS_VRAM',['../da/d41/mos__bufmgr__xe_8c.html#a58be101ca6d20d31d168a6ea7690d139a2e925e5c9002610f4ca533d089f1f9b1',1,'mos_bufmgr_xe.c']]]
 ];

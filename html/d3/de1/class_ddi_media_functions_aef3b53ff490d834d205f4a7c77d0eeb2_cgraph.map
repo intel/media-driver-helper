@@ -3,10 +3,7 @@
 <area shape="rect" id="node2" href="$d0/d2c/class_media_libva_common_next.html#a5096ade40493cb8e6d8c8ab5c3f1336c" title="Get buffer from VA buffer ID." alt="" coords="195,5,373,47"/>
 <area shape="rect" id="node3" href="$d6/d71/class_media_libva_interface_next.html#a3f3869ff837cfb841ee1047effb9e38a" title="Convert media format to OS format." alt="" coords="195,71,373,112"/>
 <area shape="rect" id="node4" href="$d8/d27/struct_media_libva_util_next.html#afec9f4a36af1fd7e8c98a4eeaca10552" title="Unlock buffer." alt="" coords="218,136,350,177"/>
-<area shape="rect" id="node5" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a47260ddcd6e035fa5384ab0a03d34f3d" title=" " alt="" coords="612,63,727,90"/>
-<area shape="rect" id="node6" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a6eb56267625d905b3689c8cfcca0b1f8" title=" " alt="" coords="601,114,737,141"/>
-<area shape="rect" id="node7" href="$d8/d27/struct_media_libva_util_next.html#a3be42318ad8bd9e8d0d3d051d11b34c9" title="Unlock surface." alt="" coords="421,165,553,207"/>
-<area shape="rect" id="node8" href="$d8/d27/struct_media_libva_util_next.html#a5b8159cf6deb7fd21c9355e98e8fd449" title="Free buffer." alt="" coords="603,231,735,272"/>
-<area shape="rect" id="node10" href="$d8/d27/struct_media_libva_util_next.html#a5015821cdaf933faa70cba831be7d6ab" title="Swizzle Surface." alt="" coords="603,165,735,207"/>
-<area shape="rect" id="node9" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a3f50be67296c219589a0953fb792dca4" title=" " alt="" coords="785,238,928,265"/>
+<area shape="rect" id="node5" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a47260ddcd6e035fa5384ab0a03d34f3d" title=" " alt="" coords="612,117,727,143"/>
+<area shape="rect" id="node6" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a6eb56267625d905b3689c8cfcca0b1f8" title=" " alt="" coords="601,171,737,198"/>
+<area shape="rect" id="node7" href="$d8/d27/struct_media_libva_util_next.html#a3be42318ad8bd9e8d0d3d051d11b34c9" title="Unlock surface." alt="" coords="421,136,553,177"/>
 </map>

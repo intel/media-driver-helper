@@ -34,9 +34,10 @@ var searchData=
   ['gpucmdmfxpipebufaddrg9skl_31',['GpuCmdMfxPipeBufAddrG9Skl',['../d2/d3b/class_gpu_cmd_mfx_pipe_buf_addr_g9_skl.html',1,'']]],
   ['gpucontextspecific_32',['GpuContextSpecific',['../dd/db5/class_gpu_context_specific.html',1,'']]],
   ['gpucontextspecificnext_33',['GpuContextSpecificNext',['../d9/d7e/class_gpu_context_specific_next.html',1,'']]],
-  ['graphicsresourcespecific_34',['GraphicsResourceSpecific',['../dd/deb/class_graphics_resource_specific.html',1,'']]],
-  ['graphicsresourcespecificnext_35',['GraphicsResourceSpecificNext',['../d6/d1f/class_graphics_resource_specific_next.html',1,'']]],
-  ['gtestflagsaver_36',['GTestFlagSaver',['../d6/d91/classtesting_1_1internal_1_1_g_test_flag_saver.html',1,'testing::internal']]],
-  ['gtestlog_37',['GTestLog',['../dd/d9e/classtesting_1_1internal_1_1_g_test_log.html',1,'testing::internal']]],
-  ['gtestmutexlock_38',['GTestMutexLock',['../da/d2b/classtesting_1_1internal_1_1_g_test_mutex_lock.html',1,'testing::internal']]]
+  ['gpucontextspecificnextxe_34',['GpuContextSpecificNextXe',['../de/d77/class_gpu_context_specific_next_xe.html',1,'']]],
+  ['graphicsresourcespecific_35',['GraphicsResourceSpecific',['../dd/deb/class_graphics_resource_specific.html',1,'']]],
+  ['graphicsresourcespecificnext_36',['GraphicsResourceSpecificNext',['../d6/d1f/class_graphics_resource_specific_next.html',1,'']]],
+  ['gtestflagsaver_37',['GTestFlagSaver',['../d6/d91/classtesting_1_1internal_1_1_g_test_flag_saver.html',1,'testing::internal']]],
+  ['gtestlog_38',['GTestLog',['../dd/d9e/classtesting_1_1internal_1_1_g_test_log.html',1,'testing::internal']]],
+  ['gtestmutexlock_39',['GTestMutexLock',['../da/d2b/classtesting_1_1internal_1_1_g_test_mutex_lock.html',1,'testing::internal']]]
 ];

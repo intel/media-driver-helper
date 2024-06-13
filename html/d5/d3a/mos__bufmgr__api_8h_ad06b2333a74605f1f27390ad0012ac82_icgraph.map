@@ -1,14 +1,18 @@
 <map id="mos_query_engines" name="mos_query_engines">
-<area shape="rect" id="node1" title=" " alt="" coords="1408,143,1547,170"/>
-<area shape="rect" id="node2" href="$dd/db5/class_gpu_context_specific.html#a7f26377c4d99da4cc9d253d7eb4d3d51" title="Initialize gpu context." alt="" coords="1209,5,1347,47"/>
-<area shape="rect" id="node5" href="$d9/d7e/class_gpu_context_specific_next.html#a1b960a737bf13069a09a6570b82e746a" title=" " alt="" coords="1196,71,1360,112"/>
-<area shape="rect" id="node10" href="$d9/d7e/class_gpu_context_specific_next.html#adafd592cf65884aa9b58515bdb282ffc" title=" " alt="" coords="1196,136,1360,177"/>
-<area shape="rect" id="node11" href="$d9/d7e/class_gpu_context_specific_next.html#aa0bddcb9bfcdc8898676bcb09a57a0fe" title=" " alt="" coords="1196,201,1360,243"/>
-<area shape="rect" id="node12" href="$d9/d7e/class_gpu_context_specific_next.html#a0285aa383f24f68148c1a2fad7cc3edf" title=" " alt="" coords="1196,267,1360,308"/>
-<area shape="rect" id="node3" href="$d3/de3/mos__os__specific_8c.html#a40108667c1798c84a3344c1e31d74924" title=" " alt="" coords="715,23,936,64"/>
-<area shape="rect" id="node4" href="$d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,78,179,105"/>
-<area shape="rect" id="node6" href="$d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="984,136,1148,177"/>
-<area shape="rect" id="node7" href="$d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="743,104,907,145"/>
-<area shape="rect" id="node8" href="$d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="471,101,667,143"/>
-<area shape="rect" id="node9" href="$d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="227,103,423,130"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1423,274,1561,301"/>
+<area shape="rect" id="node2" href="$dd/db5/class_gpu_context_specific.html#a7f26377c4d99da4cc9d253d7eb4d3d51" title="Initialize gpu context." alt="" coords="1217,5,1354,47"/>
+<area shape="rect" id="node5" href="$d9/d7e/class_gpu_context_specific_next.html#a1b960a737bf13069a09a6570b82e746a" title=" " alt="" coords="1203,71,1367,112"/>
+<area shape="rect" id="node10" href="$de/d77/class_gpu_context_specific_next_xe.html#a86bb3428e918c13e4895c1ddd33dbbb6" title=" " alt="" coords="1196,136,1375,177"/>
+<area shape="rect" id="node11" href="$d9/d7e/class_gpu_context_specific_next.html#adafd592cf65884aa9b58515bdb282ffc" title=" " alt="" coords="1203,201,1367,243"/>
+<area shape="rect" id="node12" href="$de/d77/class_gpu_context_specific_next_xe.html#aa8938130643c39a2d4ac937f6bc87e30" title=" " alt="" coords="1196,267,1375,308"/>
+<area shape="rect" id="node13" href="$d9/d7e/class_gpu_context_specific_next.html#aa0bddcb9bfcdc8898676bcb09a57a0fe" title=" " alt="" coords="1203,332,1367,373"/>
+<area shape="rect" id="node14" href="$de/d77/class_gpu_context_specific_next_xe.html#affceb5132f6c1261ef695d51730092a3" title=" " alt="" coords="1196,397,1375,439"/>
+<area shape="rect" id="node15" href="$d9/d7e/class_gpu_context_specific_next.html#a0285aa383f24f68148c1a2fad7cc3edf" title=" " alt="" coords="1203,463,1367,504"/>
+<area shape="rect" id="node16" href="$de/d77/class_gpu_context_specific_next_xe.html#ae7f7d719676b9f7ef5ec7bd27334b8c5" title=" " alt="" coords="1196,528,1375,569"/>
+<area shape="rect" id="node3" href="$d3/de3/mos__os__specific_8c.html#a40108667c1798c84a3344c1e31d74924" title=" " alt="" coords="715,39,936,80"/>
+<area shape="rect" id="node4" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,110,179,137"/>
+<area shape="rect" id="node6" href="$d9/d7e/class_gpu_context_specific_next.html#a2cf4924fda0fc8f5f53f0b033a4f7299" title="Initialize gpu context." alt="" coords="984,201,1148,243"/>
+<area shape="rect" id="node7" href="$d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="743,136,907,177"/>
+<area shape="rect" id="node8" href="$d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="471,133,667,175"/>
+<area shape="rect" id="node9" href="$d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="227,135,423,162"/>
 </map>

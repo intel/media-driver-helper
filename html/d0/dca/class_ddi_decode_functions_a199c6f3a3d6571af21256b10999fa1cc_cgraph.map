@@ -1,8 +1,9 @@
 <map id="DdiDecodeFunctions::RenderPicture" name="DdiDecodeFunctions::RenderPicture">
-<area shape="rect" id="node1" title="Send decode buffers to the server." alt="" coords="5,136,148,177"/>
+<area shape="rect" id="node1" title="Send decode buffers to the server." alt="" coords="5,169,148,211"/>
 <area shape="rect" id="node2" href="$d0/d2c/class_media_libva_common_next.html#ac187946363a2c722501f6c6d0a4394ad" title="Get context from context ID." alt="" coords="196,5,379,47"/>
 <area shape="rect" id="node3" href="$d0/d2c/class_media_libva_common_next.html#a6f2d1d1319bb80af5708551d6d558411" title="Get gpu priority." alt="" coords="205,71,370,112"/>
-<area shape="rect" id="node4" href="$d0/d2c/class_media_libva_common_next.html#a2843b785aa6a21515b531e13feee6122" title="Move the priority bufferID to the end of buffers." alt="" coords="197,136,378,177"/>
-<area shape="rect" id="node5" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#ab5ba6377c037d6b7c10af680e40ce643" title="Send required buffers to decoding process." alt="" coords="205,201,370,243"/>
-<area shape="rect" id="node6" href="$d0/dca/class_ddi_decode_functions.html#a90d5f27b427de58e86596b47cffed06e" title="Set Decode Gpu priority." alt="" coords="216,267,359,308"/>
+<area shape="rect" id="node4" href="$d8/db3/class_ddi_cp_interface_next.html#a53c9cbb925819d6882861bf60087d452" title=" " alt="" coords="204,136,371,177"/>
+<area shape="rect" id="node5" href="$d0/d2c/class_media_libva_common_next.html#a2843b785aa6a21515b531e13feee6122" title="Move the priority bufferID to the end of buffers." alt="" coords="197,201,378,243"/>
+<area shape="rect" id="node6" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#ab5ba6377c037d6b7c10af680e40ce643" title="Send required buffers to decoding process." alt="" coords="205,267,370,308"/>
+<area shape="rect" id="node7" href="$d0/dca/class_ddi_decode_functions.html#a90d5f27b427de58e86596b47cffed06e" title="Set Decode Gpu priority." alt="" coords="216,332,359,373"/>
 </map>

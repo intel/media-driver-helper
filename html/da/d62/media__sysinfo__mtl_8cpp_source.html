@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/Xe_M_plus/ddi/media_sysinfo_mtl.cpp Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media-driver/media_softlet/linux/Xe_M_plus/ddi/media_sysinfo_mtl.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;24.2.6</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_3c3410289b14e1df332ecc9157e3894f.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_32ec30427766471c663c1286f4b04a0e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_175aef64795bca84e7d51ff5e9af4207.html">Xe_M_plus</a></li><li class="navelem"><a class="el" href="../../dir_270e656511bfc9c8b447dc9fb29809ab.html">ddi</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_9f344d85c56218b4cc4cd630467c6da2.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_3ef67f0b9ee823d3d90cc7d94262597a.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_71246d5d96231457489c69f5487500a4.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_1aba84693c7260c34bd8aec78d831e51.html">Xe_M_plus</a></li><li class="navelem"><a class="el" href="../../dir_594e31ec472708f03c7eabd545c80291.html">ddi</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -73,7 +73,7 @@ $(function() {
 <div class="contents">
 <a href="../../da/d62/media__sysinfo__mtl_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*===================== begin_copyright_notice ==================================</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"></span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">Copyright (c) 2022, Intel Corporation</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">Copyright (c) 2023, Intel Corporation</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"></span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">Permission is hereby granted, free of charge, to any person obtaining a</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">copy of this software and associated documentation files (the &quot;Software&quot;),</span></div>
@@ -289,6 +289,15 @@ $(function() {
 <div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span> </div>
 <div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span><span class="keyword">static</span> <span class="keywordtype">bool</span> arlsDevice7d67 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    RegisterDevice(0x7D67, &amp;arlInfo);</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span> </div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span><span class="keyword">static</span> <span class="keywordtype">bool</span> arlhDevice7d51 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    RegisterDevice(0x7D51, &amp;arlInfo);</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span><span class="keyword">static</span> <span class="keywordtype">bool</span> arlhDevice7dd1 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>    RegisterDevice(0x7DD1, &amp;arlInfo);</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span> </div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span><span class="keyword">static</span> <span class="keywordtype">bool</span> arlhDevice7d41 = DeviceInfoFactory&lt;GfxDeviceInfo&gt;::</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>    RegisterDevice(0x7D41, &amp;arlInfo);</div>
 <div class="ttc" id="alinux__media__skuwa_8h_html"><div class="ttname"><a href="../../d5/d39/linux__media__skuwa_8h.html">linux_media_skuwa.h</a></div></div>
 <div class="ttc" id="alinux__shadow__skuwa_8h_html"><div class="ttname"><a href="../../d2/d01/linux__shadow__skuwa_8h.html">linux_shadow_skuwa.h</a></div></div>
 <div class="ttc" id="alinux__shadow__skuwa_8h_html_a444ef5d4eba6908e360e4bac954a15e7"><div class="ttname"><a href="../../d2/d01/linux__shadow__skuwa_8h.html#a444ef5d4eba6908e360e4bac954a15e7">SHADOW_MEDIA_WA_TABLE</a></div><div class="ttdeci">WA_TABLE SHADOW_MEDIA_WA_TABLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d01/linux__shadow__skuwa_8h_source.html#l00034">linux_shadow_skuwa.h:34</a></div></div>

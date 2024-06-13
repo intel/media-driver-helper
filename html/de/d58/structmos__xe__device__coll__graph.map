@@ -1,0 +1,12 @@
+<map id="mos_xe_device" name="mos_xe_device">
+<area shape="rect" id="node1" title=" " alt="" coords="848,107,959,133"/>
+<area shape="rect" id="node2" href="$d0/d33/structdrm__xe__query__config.html" title=" " alt="" coords="550,5,695,32"/>
+<area shape="rect" id="node3" href="$d9/d8f/structdrm__xe__query__engines.html" title=" " alt="" coords="545,56,701,83"/>
+<area shape="rect" id="node4" href="$d7/d6c/structdrm__xe__engine.html" title=" " alt="" coords="271,56,381,83"/>
+<area shape="rect" id="node5" href="$d0/db9/structdrm__xe__engine__class__instance.html" title=" " alt="" coords="5,49,153,90"/>
+<area shape="rect" id="node6" href="$da/d32/structdrm__xe__query__mem__regions.html" title=" " alt="" coords="528,107,717,133"/>
+<area shape="rect" id="node7" href="$d2/dec/structdrm__xe__mem__region.html" title=" " alt="" coords="255,107,397,133"/>
+<area shape="rect" id="node8" href="$dc/d90/structdrm__xe__query__gt__list.html" title=" " alt="" coords="549,157,696,184"/>
+<area shape="rect" id="node9" href="$db/da7/structdrm__xe__gt.html" title=" " alt="" coords="285,157,367,184"/>
+<area shape="rect" id="node10" href="$d4/d68/structdrm__xe__query__uc__fw__version.html" title=" " alt="" coords="551,209,695,250"/>
+</map>

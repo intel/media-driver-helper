@@ -61,10 +61,11 @@ var searchData=
   ['decode_5fcp_5fbitstream_5fm12_2eh_58',['decode_cp_bitstream_m12.h',['../dc/d59/decode__cp__bitstream__m12_8h.html',1,'']]],
   ['decodecp_5finterface_2ecpp_59',['decodecp_interface.cpp',['../d0/d50/decodecp__interface_8cpp.html',1,'']]],
   ['devconfig_2eh_60',['devconfig.h',['../da/d98/devconfig_8h.html',1,'']]],
-  ['driver_5floader_2ecpp_61',['driver_loader.cpp',['../d8/d1b/driver__loader_8cpp.html',1,'']]],
-  ['driver_5floader_2eh_62',['driver_loader.h',['../db/d60/driver__loader_8h.html',1,'']]],
-  ['drm_2eh_63',['drm.h',['../da/d68/drm_8h.html',1,'']]],
-  ['drm_5ffourcc_2eh_64',['drm_fourcc.h',['../d7/d7d/drm__fourcc_8h.html',1,'']]],
-  ['drm_5fmode_2eh_65',['drm_mode.h',['../d6/d9b/drm__mode_8h.html',1,'']]],
-  ['drm_5fsarea_2eh_66',['drm_sarea.h',['../d0/df3/drm__sarea_8h.html',1,'']]]
+  ['dma_2dbuf_2eh_61',['dma-buf.h',['../dc/ddd/dma-buf_8h.html',1,'']]],
+  ['driver_5floader_2ecpp_62',['driver_loader.cpp',['../d8/d1b/driver__loader_8cpp.html',1,'']]],
+  ['driver_5floader_2eh_63',['driver_loader.h',['../db/d60/driver__loader_8h.html',1,'']]],
+  ['drm_2eh_64',['drm.h',['../da/d68/drm_8h.html',1,'']]],
+  ['drm_5ffourcc_2eh_65',['drm_fourcc.h',['../d7/d7d/drm__fourcc_8h.html',1,'']]],
+  ['drm_5fmode_2eh_66',['drm_mode.h',['../d6/d9b/drm__mode_8h.html',1,'']]],
+  ['drm_5fsarea_2eh_67',['drm_sarea.h',['../d0/df3/drm__sarea_8h.html',1,'']]]
 ];

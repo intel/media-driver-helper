@@ -1,0 +1,6 @@
+<map id="DdiCpInterfaceNext::IsAttachedSessionAlive" name="DdiCpInterfaceNext::IsAttachedSessionAlive">
+<area shape="rect" id="node1" title=" " alt="" coords="196,71,363,112"/>
+<area shape="rect" id="node2" href="$d0/dca/class_ddi_decode_functions.html#a5bfd26a93bc7b3a71b83bf5ff11a84de" title="Get ready to decode a picture to a target surface." alt="" coords="5,5,148,47"/>
+<area shape="rect" id="node3" href="$d0/dca/class_ddi_decode_functions.html#a4459234668737505fb043c1c9e1c1f10" title="Make the end of rendering for a picture." alt="" coords="5,71,148,112"/>
+<area shape="rect" id="node4" href="$d0/dca/class_ddi_decode_functions.html#a199c6f3a3d6571af21256b10999fa1cc" title="Send decode buffers to the server." alt="" coords="5,136,148,177"/>
+</map>

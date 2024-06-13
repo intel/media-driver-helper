@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_driver/linux/ult/ult_app/gpu_cmd/gpu_cmd_hcp_ind_obj_base_addr.h Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media-driver/media_driver/linux/ult/ult_app/gpu_cmd/gpu_cmd_hcp_ind_obj_base_addr.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;24.2.6</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_55776ec83c9d032fd3160e5735bb9eeb.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_71b97772b1880ae754b9c282d2ac7b3e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_cd8502f6fa1b1cb569416d493609c7e7.html">ult</a></li><li class="navelem"><a class="el" href="../../dir_4bda89aec47c5b3a3c4d5d8d51cfc57c.html">ult_app</a></li><li class="navelem"><a class="el" href="../../dir_8ae7eab51c471a4210bc41ae29fce080.html">gpu_cmd</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_9f344d85c56218b4cc4cd630467c6da2.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_cf531a48a76214fcf45a89345f779f1f.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_311ea0f377c5de6cdc50ddc6c60874ba.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_15da4764638001b96a40e5e4d0fd6f72.html">ult</a></li><li class="navelem"><a class="el" href="../../dir_95ef08565105d25ba46e8c510a31e395.html">ult_app</a></li><li class="navelem"><a class="el" href="../../dir_960dbdce7813e184c8f963d2af9fee58.html">gpu_cmd</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -96,49 +96,30 @@ $(function() {
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define __GPU_CMD_HCP_IND_OBJ_BASE_ADDR_H__</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &quot;<a class="code" href="../../d7/d84/gpu__cmd_8h.html">gpu_cmd.h</a>&quot;</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#ifdef IGFX_GEN10_SUPPORTED</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &quot;mhw_vdbox_hcp_hwcmd_g10_X.h&quot;</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#endif </span><span class="comment">// IGFX_GEN10_SUPPORTED</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> _CmdType&gt;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d0/dc2/class_gpu_cmd_hcp_ind_obj_base_addr.html">   31</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d0/dc2/class_gpu_cmd_hcp_ind_obj_base_addr.html">GpuCmdHcpIndObjBaseAddr</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../dc/d68/class_gpu_cmd.html">GpuCmd</a>&lt;_CmdType&gt;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>{</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keyword">using</span> <span class="keyword">typename</span> <a class="code hl_typedef" href="../../dc/d68/class_gpu_cmd.html#acc9afb613d7f95a239236150873bc64b">GpuCmd&lt;_CmdType&gt;::cmd_t</a>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keyword">using</span> <a class="code hl_class" href="../../dc/d68/class_gpu_cmd.html">GpuCmd&lt;_CmdType&gt;::CacheCheck1</a>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">using</span> <a class="code hl_class" href="../../dc/d68/class_gpu_cmd.html">GpuCmd&lt;_CmdType&gt;::CacheCheck2</a>;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">using</span> <a class="code hl_class" href="../../dc/d68/class_gpu_cmd.html">GpuCmd&lt;_CmdType&gt;::m_pCmd</a>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d0/dc2/class_gpu_cmd_hcp_ind_obj_base_addr.html#a3756fc1677ae298fa5a7eaffc40f02a8">   43</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dc2/class_gpu_cmd_hcp_ind_obj_base_addr.html#a3756fc1677ae298fa5a7eaffc40f02a8">ValidateCachePolicy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="../../dc/d68/class_gpu_cmd.html#acc9afb613d7f95a239236150873bc64b">cmd_t</a> *pCmd)<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <a class="code hl_function" href="../../dc/d68/class_gpu_cmd.html#a01475fe9176655071531dc87f8cd4a8c">CacheCheck1</a>(<a class="code hl_variable" href="../../dc/d68/class_gpu_cmd.html#a3f82aa6058dd91b18b37ff411b0d0d1a">m_pCmd</a>-&gt;HcpIndirectBitstreamObjectMemoryAddressAttributes.DW0.Value,</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            pCmd-&gt;HcpIndirectBitstreamObjectMemoryAddressAttributes.DW0.Value);</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>};</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#ifdef IGFX_GEN10_SUPPORTED</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">class </span>GpuCmdHcpIndObjBaseAddrG10 : <span class="keyword">public</span> <a class="code hl_class" href="../../d0/dc2/class_gpu_cmd_hcp_ind_obj_base_addr.html">GpuCmdHcpIndObjBaseAddr</a>&lt;mhw_vdbox_hcp_g10_X::HCP_IND_OBJ_BASE_ADDR_STATE_CMD&gt;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>{</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    GpuCmdHcpIndObjBaseAddrG10()</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    {</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        InitCachePolicy();</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    }</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> InitCachePolicy();</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>};</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif </span><span class="comment">// IGFX_GEN10_SUPPORTED</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#endif </span><span class="comment">// __GPU_CMD_HCP_IND_OBJ_BASE_ADDR_H__</span></div>
-<div class="ttc" id="aclass_gpu_cmd_hcp_ind_obj_base_addr_html"><div class="ttname"><a href="../../d0/dc2/class_gpu_cmd_hcp_ind_obj_base_addr.html">GpuCmdHcpIndObjBaseAddr</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2d/gpu__cmd__hcp__ind__obj__base__addr_8h_source.html#l00031">gpu_cmd_hcp_ind_obj_base_addr.h:32</a></div></div>
-<div class="ttc" id="aclass_gpu_cmd_hcp_ind_obj_base_addr_html_a3756fc1677ae298fa5a7eaffc40f02a8"><div class="ttname"><a href="../../d0/dc2/class_gpu_cmd_hcp_ind_obj_base_addr.html#a3756fc1677ae298fa5a7eaffc40f02a8">GpuCmdHcpIndObjBaseAddr::ValidateCachePolicy</a></div><div class="ttdeci">void ValidateCachePolicy(const cmd_t *pCmd) const override</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2d/gpu__cmd__hcp__ind__obj__base__addr_8h_source.html#l00043">gpu_cmd_hcp_ind_obj_base_addr.h:43</a></div></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> _CmdType&gt;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d0/dc2/class_gpu_cmd_hcp_ind_obj_base_addr.html">   28</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d0/dc2/class_gpu_cmd_hcp_ind_obj_base_addr.html">GpuCmdHcpIndObjBaseAddr</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../dc/d68/class_gpu_cmd.html">GpuCmd</a>&lt;_CmdType&gt;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>{</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">using</span> <span class="keyword">typename</span> <a class="code hl_typedef" href="../../dc/d68/class_gpu_cmd.html#acc9afb613d7f95a239236150873bc64b">GpuCmd&lt;_CmdType&gt;::cmd_t</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">using</span> <a class="code hl_class" href="../../dc/d68/class_gpu_cmd.html">GpuCmd&lt;_CmdType&gt;::CacheCheck1</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keyword">using</span> <a class="code hl_class" href="../../dc/d68/class_gpu_cmd.html">GpuCmd&lt;_CmdType&gt;::CacheCheck2</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keyword">using</span> <a class="code hl_class" href="../../dc/d68/class_gpu_cmd.html">GpuCmd&lt;_CmdType&gt;::m_pCmd</a>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d0/dc2/class_gpu_cmd_hcp_ind_obj_base_addr.html#a3756fc1677ae298fa5a7eaffc40f02a8">   40</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dc2/class_gpu_cmd_hcp_ind_obj_base_addr.html#a3756fc1677ae298fa5a7eaffc40f02a8">ValidateCachePolicy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="../../dc/d68/class_gpu_cmd.html#acc9afb613d7f95a239236150873bc64b">cmd_t</a> *pCmd)<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <a class="code hl_function" href="../../dc/d68/class_gpu_cmd.html#a01475fe9176655071531dc87f8cd4a8c">CacheCheck1</a>(<a class="code hl_variable" href="../../dc/d68/class_gpu_cmd.html#a3f82aa6058dd91b18b37ff411b0d0d1a">m_pCmd</a>-&gt;HcpIndirectBitstreamObjectMemoryAddressAttributes.DW0.Value,</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            pCmd-&gt;HcpIndirectBitstreamObjectMemoryAddressAttributes.DW0.Value);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    }</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>};</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#endif </span><span class="comment">// __GPU_CMD_HCP_IND_OBJ_BASE_ADDR_H__</span></div>
+<div class="ttc" id="aclass_gpu_cmd_hcp_ind_obj_base_addr_html"><div class="ttname"><a href="../../d0/dc2/class_gpu_cmd_hcp_ind_obj_base_addr.html">GpuCmdHcpIndObjBaseAddr</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2d/gpu__cmd__hcp__ind__obj__base__addr_8h_source.html#l00028">gpu_cmd_hcp_ind_obj_base_addr.h:29</a></div></div>
+<div class="ttc" id="aclass_gpu_cmd_hcp_ind_obj_base_addr_html_a3756fc1677ae298fa5a7eaffc40f02a8"><div class="ttname"><a href="../../d0/dc2/class_gpu_cmd_hcp_ind_obj_base_addr.html#a3756fc1677ae298fa5a7eaffc40f02a8">GpuCmdHcpIndObjBaseAddr::ValidateCachePolicy</a></div><div class="ttdeci">void ValidateCachePolicy(const cmd_t *pCmd) const override</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2d/gpu__cmd__hcp__ind__obj__base__addr_8h_source.html#l00040">gpu_cmd_hcp_ind_obj_base_addr.h:40</a></div></div>
 <div class="ttc" id="aclass_gpu_cmd_html"><div class="ttname"><a href="../../dc/d68/class_gpu_cmd.html">GpuCmd</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d84/gpu__cmd_8h_source.html#l00044">gpu_cmd.h:45</a></div></div>
 <div class="ttc" id="aclass_gpu_cmd_html_a01475fe9176655071531dc87f8cd4a8c"><div class="ttname"><a href="../../dc/d68/class_gpu_cmd.html#a01475fe9176655071531dc87f8cd4a8c">GpuCmd::CacheCheck1</a></div><div class="ttdeci">static void CacheCheck1(uint32_t src, uint32_t dst)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d84/gpu__cmd_8h_source.html#l00063">gpu_cmd.h:63</a></div></div>
 <div class="ttc" id="aclass_gpu_cmd_html_a3f82aa6058dd91b18b37ff411b0d0d1a"><div class="ttname"><a href="../../dc/d68/class_gpu_cmd.html#a3f82aa6058dd91b18b37ff411b0d0d1a">GpuCmd::m_pCmd</a></div><div class="ttdeci">std::shared_ptr&lt; cmd_t &gt; m_pCmd</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d84/gpu__cmd_8h_source.html#l00091">gpu_cmd.h:91</a></div></div>

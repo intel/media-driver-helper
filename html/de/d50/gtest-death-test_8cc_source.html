@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_driver/linux/ult/ult_app/googletest/src/gtest-death-test.cc Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media-driver/media_driver/linux/ult/ult_app/googletest/src/gtest-death-test.cc Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;24.2.6</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_55776ec83c9d032fd3160e5735bb9eeb.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_71b97772b1880ae754b9c282d2ac7b3e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_cd8502f6fa1b1cb569416d493609c7e7.html">ult</a></li><li class="navelem"><a class="el" href="../../dir_4bda89aec47c5b3a3c4d5d8d51cfc57c.html">ult_app</a></li><li class="navelem"><a class="el" href="../../dir_9480a77197fe6b14f4e34d92c65bc08f.html">googletest</a></li><li class="navelem"><a class="el" href="../../dir_0c624846b5c0df1daebbd97afe58a144.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_9f344d85c56218b4cc4cd630467c6da2.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_cf531a48a76214fcf45a89345f779f1f.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_311ea0f377c5de6cdc50ddc6c60874ba.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_15da4764638001b96a40e5e4d0fd6f72.html">ult</a></li><li class="navelem"><a class="el" href="../../dir_95ef08565105d25ba46e8c510a31e395.html">ult_app</a></li><li class="navelem"><a class="el" href="../../dir_94baeb21ccfe5868b6690a2e8cea0a52.html">googletest</a></li><li class="navelem"><a class="el" href="../../dir_7b6df3b03d07c0933037b8b18c0c7953.html">src</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -418,13 +418,13 @@ $(function() {
 <div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span><span class="comment">// message from the death test child process and log it with the FATAL</span></div>
 <div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span><span class="comment">// severity. On Windows, the message is read from a pipe handle. On other</span></div>
 <div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span><span class="comment">// platforms, it is read from a file descriptor.</span></div>
-<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span><span class="keyword">static</span> <span class="keywordtype">void</span> FailFromInternalError(<span class="keywordtype">int</span> <a class="code hl_variable" href="../../d4/d9f/xf86drm__mock_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>) {</div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span><span class="keyword">static</span> <span class="keywordtype">void</span> FailFromInternalError(<span class="keywordtype">int</span> <a class="code hl_variable" href="../../dc/dfc/xf86drm_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>) {</div>
 <div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>  Message error;</div>
 <div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>  <span class="keywordtype">char</span> buffer[256];</div>
 <div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>  <span class="keywordtype">int</span> num_read;</div>
 <div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span> </div>
 <div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>  <span class="keywordflow">do</span> {</div>
-<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>    <span class="keywordflow">while</span> ((num_read = <a class="code hl_function" href="../../d0/d81/namespacetesting_1_1internal_1_1posix.html#a3c6ab13e581a56f1b02f3eb7536c97fd">posix::Read</a>(<a class="code hl_variable" href="../../d4/d9f/xf86drm__mock_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, buffer, 255)) &gt; 0) {</div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>    <span class="keywordflow">while</span> ((num_read = <a class="code hl_function" href="../../d0/d81/namespacetesting_1_1internal_1_1posix.html#a3c6ab13e581a56f1b02f3eb7536c97fd">posix::Read</a>(<a class="code hl_variable" href="../../dc/dfc/xf86drm_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, buffer, 255)) &gt; 0) {</div>
 <div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>      buffer[num_read] = <span class="charliteral">&#39;\0&#39;</span>;</div>
 <div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>      error &lt;&lt; buffer;</div>
 <div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>    }</div>
@@ -495,9 +495,9 @@ $(function() {
 <div class="line"><a id="l00422" name="l00422"></a><span class="lineno">  422</span>  DeathTestOutcome outcome()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> outcome_; }</div>
 <div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span>  <span class="keywordtype">void</span> set_outcome(DeathTestOutcome an_outcome) { outcome_ = an_outcome; }</div>
 <div class="line"><a id="l00424" name="l00424"></a><span class="lineno">  424</span>  <span class="keywordtype">int</span> read_fd()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> read_fd_; }</div>
-<div class="line"><a id="l00425" name="l00425"></a><span class="lineno">  425</span>  <span class="keywordtype">void</span> set_read_fd(<span class="keywordtype">int</span> <a class="code hl_variable" href="../../d4/d9f/xf86drm__mock_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>) { read_fd_ = <a class="code hl_variable" href="../../d4/d9f/xf86drm__mock_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>; }</div>
+<div class="line"><a id="l00425" name="l00425"></a><span class="lineno">  425</span>  <span class="keywordtype">void</span> set_read_fd(<span class="keywordtype">int</span> <a class="code hl_variable" href="../../dc/dfc/xf86drm_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>) { read_fd_ = <a class="code hl_variable" href="../../dc/dfc/xf86drm_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>; }</div>
 <div class="line"><a id="l00426" name="l00426"></a><span class="lineno">  426</span>  <span class="keywordtype">int</span> write_fd()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> write_fd_; }</div>
-<div class="line"><a id="l00427" name="l00427"></a><span class="lineno">  427</span>  <span class="keywordtype">void</span> set_write_fd(<span class="keywordtype">int</span> <a class="code hl_variable" href="../../d4/d9f/xf86drm__mock_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>) { write_fd_ = <a class="code hl_variable" href="../../d4/d9f/xf86drm__mock_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>; }</div>
+<div class="line"><a id="l00427" name="l00427"></a><span class="lineno">  427</span>  <span class="keywordtype">void</span> set_write_fd(<span class="keywordtype">int</span> <a class="code hl_variable" href="../../dc/dfc/xf86drm_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>) { write_fd_ = <a class="code hl_variable" href="../../dc/dfc/xf86drm_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>; }</div>
 <div class="line"><a id="l00428" name="l00428"></a><span class="lineno">  428</span> </div>
 <div class="line"><a id="l00429" name="l00429"></a><span class="lineno">  429</span>  <span class="comment">// Called in the parent process only. Reads the result code of the death</span></div>
 <div class="line"><a id="l00430" name="l00430"></a><span class="lineno">  430</span>  <span class="comment">// test child process via a pipe, interprets it to set the outcome_</span></div>
@@ -1415,7 +1415,7 @@ $(function() {
 <div class="line"><a id="l01342" name="l01342"></a><span class="lineno"> 1342</span>    <span class="comment">// MMAP_ANONYMOUS is not defined on Mac, so we use MAP_ANON instead.</span></div>
 <div class="line"><a id="l01343" name="l01343"></a><span class="lineno"> 1343</span>    <span class="keywordtype">void</span>* <span class="keyword">const</span> stack = mmap(<span class="keyword">nullptr</span>, stack_size, PROT_READ | PROT_WRITE,</div>
 <div class="line"><a id="l01344" name="l01344"></a><span class="lineno"> 1344</span>                             MAP_ANON | MAP_PRIVATE, -1, 0);</div>
-<div class="line"><a id="l01345" name="l01345"></a><span class="lineno"> 1345</span>    GTEST_DEATH_TEST_CHECK_(stack != <a class="code hl_define" href="../../d4/d9f/xf86drm__mock_8c.html#a8523dcf952f6ff059a3bed717e4f1296">MAP_FAILED</a>);</div>
+<div class="line"><a id="l01345" name="l01345"></a><span class="lineno"> 1345</span>    GTEST_DEATH_TEST_CHECK_(stack != <a class="code hl_define" href="../../dc/dfc/xf86drm_8c.html#a8523dcf952f6ff059a3bed717e4f1296">MAP_FAILED</a>);</div>
 <div class="line"><a id="l01346" name="l01346"></a><span class="lineno"> 1346</span> </div>
 <div class="line"><a id="l01347" name="l01347"></a><span class="lineno"> 1347</span>    <span class="comment">// Maximum stack alignment in bytes:  For a downward-growing stack, this</span></div>
 <div class="line"><a id="l01348" name="l01348"></a><span class="lineno"> 1348</span>    <span class="comment">// amount is subtracted from size of the stack space to get an address</span></div>
@@ -1733,8 +1733,8 @@ $(function() {
 <div class="ttc" id="anamespacetesting_1_1internal_html_aad4beed95d0846e6ffc5da0978ef3bb9"><div class="ttname"><a href="../../d0/da7/namespacetesting_1_1internal.html#aad4beed95d0846e6ffc5da0978ef3bb9">testing::internal::StreamableToString</a></div><div class="ttdeci">std::string StreamableToString(const T &amp;streamable)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da4/gtest-message_8h_source.html#l00209">gtest-message.h:209</a></div></div>
 <div class="ttc" id="anamespacetesting_1_1internal_html_abe96bddcee27b4b69ce2b76cde6855a3"><div class="ttname"><a href="../../d0/da7/namespacetesting_1_1internal.html#abe96bddcee27b4b69ce2b76cde6855a3">testing::internal::SplitString</a></div><div class="ttdeci">void SplitString(const ::std::string &amp;str, char delimiter, ::std::vector&lt;::std::string &gt; *dest)</div></div>
 <div class="ttc" id="anamespacetesting_html"><div class="ttname"><a href="../../d0/d75/namespacetesting.html">testing</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d59/gtest-death-test_8h_source.html#l00052">gtest-death-test.h:52</a></div></div>
-<div class="ttc" id="axf86drm__mock_8c_html_a6f8059414f0228f0256115e024eeed4b"><div class="ttname"><a href="../../d4/d9f/xf86drm__mock_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d9f/xf86drm__mock_8c_source.html#l01230">xf86drm_mock.c:1230</a></div></div>
-<div class="ttc" id="axf86drm__mock_8c_html_a8523dcf952f6ff059a3bed717e4f1296"><div class="ttname"><a href="../../d4/d9f/xf86drm__mock_8c.html#a8523dcf952f6ff059a3bed717e4f1296">MAP_FAILED</a></div><div class="ttdeci">#define MAP_FAILED</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d9f/xf86drm__mock_8c_source.html#l00063">xf86drm_mock.c:63</a></div></div>
+<div class="ttc" id="axf86drm_8c_html_a6f8059414f0228f0256115e024eeed4b"><div class="ttname"><a href="../../dc/dfc/xf86drm_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dfc/xf86drm_8c_source.html#l01002">xf86drm.c:1002</a></div></div>
+<div class="ttc" id="axf86drm_8c_html_a8523dcf952f6ff059a3bed717e4f1296"><div class="ttname"><a href="../../dc/dfc/xf86drm_8c.html#a8523dcf952f6ff059a3bed717e4f1296">MAP_FAILED</a></div><div class="ttdeci">#define MAP_FAILED</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dfc/xf86drm_8c_source.html#l00062">xf86drm.c:62</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

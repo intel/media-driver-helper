@@ -1,17 +1,19 @@
-<map id="C:/Users/xiaoganx/Project/media_driver_upstream/media&#45;driver/media_softlet/linux/common/os/i915/include/xf86drm.h" name="C:/Users/xiaoganx/Project/media_driver_upstream/media&#45;driver/media_softlet/linux/common/os/i915/include/xf86drm.h">
-<area shape="rect" id="node1" title=" " alt="" coords="1771,5,1970,91"/>
-<area shape="rect" id="node2" href="$d7/d73/mos__bufmgr__api__mock_8c.html" title=" " alt="" coords="5,139,184,224"/>
-<area shape="rect" id="node3" href="$de/ddd/mos__bufmgr__mock_8c.html" title=" " alt="" coords="208,139,387,224"/>
-<area shape="rect" id="node4" href="$d0/d71/xf86drm_hash__mock_8c.html" title=" " alt="" coords="411,146,690,217"/>
-<area shape="rect" id="node5" href="$de/d64/xf86drm_mode__mock_8c.html" title=" " alt="" coords="714,146,995,217"/>
-<area shape="rect" id="node6" href="$d0/d87/xf86drm_random__mock_8c.html" title=" " alt="" coords="1019,146,1317,217"/>
-<area shape="rect" id="node7" href="$d4/d9f/xf86drm__mock_8c.html" title=" " alt="" coords="1341,146,1590,217"/>
-<area shape="rect" id="node8" href="$de/d9d/i915_2mos__bufmgr_8c.html" title=" " alt="" coords="1614,146,1853,217"/>
-<area shape="rect" id="node9" href="$d1/d60/mos__bufmgr__api_8c.html" title=" " alt="" coords="1877,146,2139,217"/>
-<area shape="rect" id="node10" href="$dc/dfc/xf86drm_8c.html" title=" " alt="" coords="2163,146,2378,217"/>
-<area shape="rect" id="node11" href="$d3/d56/xf86drm_hash_8c.html" title=" " alt="" coords="2402,146,2646,217"/>
-<area shape="rect" id="node12" href="$d1/d2d/xf86drm_mode_8c.html" title=" " alt="" coords="2670,146,2917,217"/>
-<area shape="rect" id="node13" href="$db/d13/xf86drm_random_8c.html" title=" " alt="" coords="2941,146,3203,217"/>
-<area shape="rect" id="node14" href="$de/d47/i915__production_2mos__bufmgr_8c.html" title=" " alt="" coords="3227,139,3447,224"/>
-<area shape="rect" id="node15" href="$d7/d90/mos__bufmgr__prelim_8cpp.html" title=" " alt="" coords="3471,139,3691,224"/>
+<map id="C:/Users/xiaoganx/Project/media&#45;driver/media_softlet/linux/common/os/i915/include/xf86drm.h" name="C:/Users/xiaoganx/Project/media&#45;driver/media_softlet/linux/common/os/i915/include/xf86drm.h">
+<area shape="rect" id="node1" title=" " alt="" coords="1923,5,2122,76"/>
+<area shape="rect" id="node2" href="$d7/d73/mos__bufmgr__api__mock_8c.html" title=" " alt="" coords="5,124,184,195"/>
+<area shape="rect" id="node3" href="$de/ddd/mos__bufmgr__mock_8c.html" title=" " alt="" coords="208,124,387,195"/>
+<area shape="rect" id="node4" href="$d0/d71/xf86drm_hash__mock_8c.html" title=" " alt="" coords="411,131,690,187"/>
+<area shape="rect" id="node5" href="$de/d64/xf86drm_mode__mock_8c.html" title=" " alt="" coords="714,131,995,187"/>
+<area shape="rect" id="node6" href="$d0/d87/xf86drm_random__mock_8c.html" title=" " alt="" coords="1019,131,1317,187"/>
+<area shape="rect" id="node7" href="$d4/d9f/xf86drm__mock_8c.html" title=" " alt="" coords="1341,131,1590,187"/>
+<area shape="rect" id="node8" href="$de/d9d/i915_2mos__bufmgr_8c.html" title=" " alt="" coords="1614,124,1797,195"/>
+<area shape="rect" id="node9" href="$d1/d60/mos__bufmgr__api_8c.html" title=" " alt="" coords="1821,124,2003,195"/>
+<area shape="rect" id="node10" href="$dc/dfc/xf86drm_8c.html" title=" " alt="" coords="2027,131,2242,187"/>
+<area shape="rect" id="node11" href="$d3/d56/xf86drm_hash_8c.html" title=" " alt="" coords="2266,131,2510,187"/>
+<area shape="rect" id="node12" href="$d1/d2d/xf86drm_mode_8c.html" title=" " alt="" coords="2534,131,2781,187"/>
+<area shape="rect" id="node13" href="$db/d13/xf86drm_random_8c.html" title=" " alt="" coords="2805,131,3067,187"/>
+<area shape="rect" id="node14" href="$de/d47/i915__production_2mos__bufmgr_8c.html" title=" " alt="" coords="3091,124,3311,195"/>
+<area shape="rect" id="node15" href="$d7/d90/mos__bufmgr__prelim_8cpp.html" title=" " alt="" coords="3335,124,3555,195"/>
+<area shape="rect" id="node16" href="$da/d41/mos__bufmgr__xe_8c.html" title=" " alt="" coords="3580,131,3831,187"/>
+<area shape="rect" id="node17" href="$db/dec/mos__synchronization__xe_8c.html" title=" " alt="" coords="3855,131,4158,187"/>
 </map>

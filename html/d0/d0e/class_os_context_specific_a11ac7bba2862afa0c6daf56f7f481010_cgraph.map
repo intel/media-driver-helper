@@ -1,5 +1,5 @@
 <map id="OsContextSpecific::Init" name="OsContextSpecific::Init">
-<area shape="rect" id="node1" title="Initialize the MOS Context." alt="" coords="5,157,160,184"/>
+<area shape="rect" id="node1" title="Initialize the MOS Context." alt="" coords="5,208,160,235"/>
 <area shape="rect" id="node2" href="$d3/de3/mos__os__specific_8c.html#a3514da4783bbb78d9b3dd54397331c64" title=" " alt="" coords="256,5,337,32"/>
 <area shape="rect" id="node3" href="$d2/d27/hwinfo__linux_8cpp.html#a315ff23fa28ab4f88e290d4486469d4d" title=" " alt="" coords="231,56,363,83"/>
 <area shape="rect" id="node5" href="$d1/d60/mos__bufmgr__api_8c.html#a2f34fd41509c71a9f1748f8232e66fe2" title=" " alt="" coords="208,107,385,133"/>
@@ -7,5 +7,7 @@
 <area shape="rect" id="node7" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a3841ebcf95a60286225d68b39262de31" title=" " alt="" coords="214,208,379,235"/>
 <area shape="rect" id="node8" href="$d7/d73/mos__bufmgr__api__mock_8c.html#ae8625ac172ef71a5dd083340bc2def73" title=" " alt="" coords="225,259,369,285"/>
 <area shape="rect" id="node9" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a84763ce01a8700618fc44c03ee14c2f5" title=" " alt="" coords="240,309,353,336"/>
+<area shape="rect" id="node10" href="$d3/dc8/class_media_feature_table.html#a844f819dfe31ac9110a07a602130fec2" title="clear all the elements" alt="" coords="227,361,367,402"/>
+<area shape="rect" id="node11" href="$df/d79/class_media_wa_table.html#a742818bbea544488249a64ff9408ed20" title="clear all the elements" alt="" coords="224,427,369,453"/>
 <area shape="rect" id="node4" href="$d1/d60/mos__bufmgr__api_8c.html#a4bb2a08dd7e9c8885835ceb97459ac99" title=" " alt="" coords="433,56,569,83"/>
 </map>

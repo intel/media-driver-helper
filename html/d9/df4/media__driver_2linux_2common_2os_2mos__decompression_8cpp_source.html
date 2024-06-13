@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_driver/linux/common/os/mos_decompression.cpp Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media-driver/media_driver/linux/common/os/mos_decompression.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;24.2.6</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_55776ec83c9d032fd3160e5735bb9eeb.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_71b97772b1880ae754b9c282d2ac7b3e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_fdadb0a20a244235cd810deb83932914.html">common</a></li><li class="navelem"><a class="el" href="../../dir_0e11ed6de9a4bd3ddcd60797adc23b75.html">os</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_9f344d85c56218b4cc4cd630467c6da2.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_cf531a48a76214fcf45a89345f779f1f.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_311ea0f377c5de6cdc50ddc6c60874ba.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_3a28a97a34ccf6783c03e0717902dcff.html">common</a></li><li class="navelem"><a class="el" href="../../dir_1a310320decf5e12558942b20d30819c.html">os</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -96,25 +96,24 @@ $(function() {
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &quot;<a class="code" href="../../d4/d47/mos__decompression_8h.html">mos_decompression.h</a>&quot;</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;media_interfaces_mmd.h&quot;</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d8/dee/class_mos_decompression.html#ad30568d08b090f028afffeb99c6a9c50">   31</a></span><a class="code hl_function" href="../../d8/dee/class_mos_decompression.html#ad30568d08b090f028afffeb99c6a9c50">MosDecompression::MosDecompression</a>(<a class="code hl_struct" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html">PMOS_CONTEXT</a> osDriverContext):</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><a class="code hl_function" href="../../d8/dee/class_mos_decompression.html#ad30568d08b090f028afffeb99c6a9c50">MosDecompression::MosDecompression</a>(<a class="code hl_struct" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html">PMOS_CONTEXT</a> osDriverContext):</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <a class="code hl_class" href="../../dd/d0a/class_mos_decompression_base.html">MosDecompressionBase</a>(osDriverContext)</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>{</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#ifdef _MMC_SUPPORTED</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    MOS_OS_CHK_NULL_NO_STATUS_RETURN(osDriverContext);</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordflow">if</span> (<span class="keyword">nullptr</span> == <a class="code hl_variable" href="../../dd/d0a/class_mos_decompression_base.html#a7392b06cd072d895e2240dc53230f278">m_mediaMemDecompState</a>)</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordflow">if</span> (<span class="keyword">nullptr</span> == m_mediaMemDecompState)</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    {</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        MOS_OS_NORMALMESSAGE(<span class="stringliteral">&quot;Next MMD Device created failed, try w/ legacy mmd device&quot;</span>);</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <a class="code hl_variable" href="../../dd/d0a/class_mos_decompression_base.html#a7392b06cd072d895e2240dc53230f278">m_mediaMemDecompState</a> =</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        m_mediaMemDecompState =</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            <span class="keyword">static_cast&lt;</span>MediaMemDecompBaseState *<span class="keyword">&gt;</span>(MmdDevice::CreateFactory(osDriverContext));</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    }</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}</div>
 <div class="ttc" id="aclass_mos_decompression_base_html"><div class="ttname"><a href="../../dd/d0a/class_mos_decompression_base.html">MosDecompressionBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d54/mos__decompression__base_8h_source.html#l00033">mos_decompression_base.h:34</a></div></div>
-<div class="ttc" id="aclass_mos_decompression_base_html_a7392b06cd072d895e2240dc53230f278"><div class="ttname"><a href="../../dd/d0a/class_mos_decompression_base.html#a7392b06cd072d895e2240dc53230f278">MosDecompressionBase::m_mediaMemDecompState</a></div><div class="ttdeci">MediaMemDecompBaseState * m_mediaMemDecompState</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d54/mos__decompression__base_8h_source.html#l00112">mos_decompression_base.h:112</a></div></div>
-<div class="ttc" id="aclass_mos_decompression_html_ad30568d08b090f028afffeb99c6a9c50"><div class="ttname"><a href="../../d8/dee/class_mos_decompression.html#ad30568d08b090f028afffeb99c6a9c50">MosDecompression::MosDecompression</a></div><div class="ttdeci">MosDecompression(PMOS_CONTEXT osDriverContext)</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df4/media__driver_2linux_2common_2os_2mos__decompression_8cpp_source.html#l00031">mos_decompression.cpp:31</a></div></div>
+<div class="ttc" id="aclass_mos_decompression_html_ad30568d08b090f028afffeb99c6a9c50"><div class="ttname"><a href="../../d8/dee/class_mos_decompression.html#ad30568d08b090f028afffeb99c6a9c50">MosDecompression::MosDecompression</a></div><div class="ttdeci">MosDecompression(PMOS_CONTEXT osDriverContext)</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0f/media__softlet_2linux_2common_2os_2private_2mos__decompression_8cpp_source.html#l00030">mos_decompression.cpp:30</a></div></div>
 <div class="ttc" id="amos__decompression_8h_html"><div class="ttname"><a href="../../d4/d47/mos__decompression_8h.html">mos_decompression.h</a></div><div class="ttdoc">This module defines MOS decompression on linux platform.</div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html">_MOS_OS_CONTEXT</a></div><div class="ttdoc">Structure to OS context.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00645">mos_os_specific.h:646</a></div></div>
+<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html">_MOS_OS_CONTEXT</a></div><div class="ttdoc">Structure to OS context.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00649">mos_os_specific.h:650</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

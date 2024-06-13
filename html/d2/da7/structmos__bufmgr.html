@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;24.2.6</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -77,13 +77,13 @@ Collaboration diagram for mos_bufmgr:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/de8/structmos__bufmgr__coll__graph.png" border="0" usemap="#amos__bufmgr_coll__map" alt="Collaboration graph"/></div>
 <map name="amos__bufmgr_coll__map" id="amos__bufmgr_coll__map">
-<area shape="rect" title=" " alt="" coords="415,472,508,499"/>
-<area shape="rect" href="../../db/d8b/structmos__linux__bo.html" title=" " alt="" coords="702,353,805,380"/>
+<area shape="rect" title=" " alt="" coords="415,464,508,491"/>
+<area shape="rect" href="../../db/d8b/structmos__linux__bo.html" title=" " alt="" coords="702,360,805,387"/>
 <area shape="rect" href="../../d4/d36/structmos__linux__context.html" title=" " alt="" coords="2019,472,2149,499"/>
 <area shape="rect" href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html" title="Structure to OS context." alt="" coords="1741,341,1892,368"/>
 <area shape="rect" href="../../d4/d75/struct___p_a_t_c_h_l_o_c_a_t_i_o_n_l_i_s_t.html" title="Structure to patch location list." alt="" coords="951,223,1113,249"/>
 <area shape="rect" href="../../d5/dd4/struct___m_o_s___s_p_e_c_i_f_i_c___r_e_s_o_u_r_c_e.html" title="Structure to Linux resource." alt="" coords="929,337,1135,364"/>
-<area shape="rect" href="../../dd/d1d/struct___c_m_d___b_u_f_f_e_r___b_o___p_o_o_l.html" title="Structure to buffer pool." alt="" coords="1159,429,1345,456"/>
+<area shape="rect" href="../../dd/d1d/struct___c_m_d___b_u_f_f_e_r___b_o___p_o_o_l.html" title="Structure to buffer pool." alt="" coords="1159,459,1345,485"/>
 <area shape="rect" href="../../d5/d30/struct___c_o_d_e_c_h_a_l___o_s___g_p_u___c_o_n_t_e_x_t.html" title="Structure to Gpu context." alt="" coords="1369,203,1596,229"/>
 <area shape="rect" href="../../dd/de5/struct___a_l_l_o_c_a_t_i_o_n___l_i_s_t.html" title="Structure to Allocation List." alt="" coords="961,273,1103,300"/>
 <area shape="rect" href="../../d3/d7b/struct___c_o_m_m_a_n_d___b_u_f_f_e_r.html" title="Structure to command buffer." alt="" coords="954,172,1110,199"/>
@@ -91,173 +91,175 @@ Collaboration diagram for mos_bufmgr:</div>
 <area shape="rect" href="../../d3/dc8/class_media_feature_table.html" title=" " alt="" coords="1417,316,1549,343"/>
 <area shape="rect" href="../../df/d79/class_media_wa_table.html" title=" " alt="" coords="1429,367,1537,393"/>
 <area shape="rect" href="../../dc/d36/class_aux_table_mgr.html" title="Aux Table Manager." alt="" coords="1433,417,1532,444"/>
-<area shape="rect" href="../../d7/d6e/struct_m_o_s___o_c_a___e_x_e_c___l_i_s_t___i_n_f_o.html" title=" " alt="" coords="5,472,204,499"/>
+<area shape="rect" href="../../d7/d6e/struct_m_o_s___o_c_a___e_x_e_c___l_i_s_t___i_n_f_o.html" title=" " alt="" coords="5,464,204,491"/>
 </map>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a084a872f8d979375fc85a6f3db8388dc"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a084a872f8d979375fc85a6f3db8388dc">bo_alloc</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, const char *name, unsigned long <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>, unsigned int alignment, int mem_type, unsigned int pat_index, bool cpu_cacheable)</td></tr>
-<tr class="separator:a084a872f8d979375fc85a6f3db8388dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9675d68d245827af2b55594ea971fd8"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#aa9675d68d245827af2b55594ea971fd8">bo_alloc_for_render</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, const char *name, unsigned long <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>, unsigned int alignment, int mem_type, unsigned int pat_index, bool cpu_cacheable)</td></tr>
-<tr class="separator:aa9675d68d245827af2b55594ea971fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad23b42b00726fc9be9b6bfcdf4d16d99"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ad23b42b00726fc9be9b6bfcdf4d16d99">bo_alloc_userptr</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, const char *name, void *addr, uint32_t tiling_mode, uint32_t stride, unsigned long <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>, unsigned long <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>)</td></tr>
-<tr class="separator:ad23b42b00726fc9be9b6bfcdf4d16d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb58290074038a6e814fc24a9faeb0d5"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#abb58290074038a6e814fc24a9faeb0d5">bo_alloc_tiled</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, const char *name, int x, int y, int cpp, uint32_t *tiling_mode, unsigned long *pitch, unsigned long <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, int mem_type, unsigned int pat_index, bool cpu_cacheable)</td></tr>
-<tr class="separator:abb58290074038a6e814fc24a9faeb0d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a728329e00ccd009d9e60da08d1831fee"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a728329e00ccd009d9e60da08d1831fee">bo_reference</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:a27386d6b02b30d537a1cd55ab8cc83c1"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a27386d6b02b30d537a1cd55ab8cc83c1">bo_alloc</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, struct <a class="el" href="../../dc/de6/structmos__drm__bo__alloc.html">mos_drm_bo_alloc</a> *alloc) = nullptr</td></tr>
+<tr class="separator:a27386d6b02b30d537a1cd55ab8cc83c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a328a3714513e9be482e10e7805153871"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a328a3714513e9be482e10e7805153871">bo_alloc_userptr</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, struct <a class="el" href="../../dd/da3/structmos__drm__bo__alloc__userptr.html">mos_drm_bo_alloc_userptr</a> *alloc_uptr) = nullptr</td></tr>
+<tr class="separator:a328a3714513e9be482e10e7805153871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8458052862a5a8e98ef2efbd4e99bb1e"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a8458052862a5a8e98ef2efbd4e99bb1e">bo_alloc_tiled</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, struct <a class="el" href="../../db/d77/structmos__drm__bo__alloc__tiled.html">mos_drm_bo_alloc_tiled</a> *alloc_tiled) = nullptr</td></tr>
+<tr class="separator:a8458052862a5a8e98ef2efbd4e99bb1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728329e00ccd009d9e60da08d1831fee"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a728329e00ccd009d9e60da08d1831fee">bo_reference</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:a728329e00ccd009d9e60da08d1831fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5fae604f5bb2bc7c0f09400c24b4a0c"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ac5fae604f5bb2bc7c0f09400c24b4a0c">bo_unreference</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:ac5fae604f5bb2bc7c0f09400c24b4a0c"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ac5fae604f5bb2bc7c0f09400c24b4a0c">bo_unreference</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:ac5fae604f5bb2bc7c0f09400c24b4a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2768a0f7aa4ca4a4db7d1bd9c7496319"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a2768a0f7aa4ca4a4db7d1bd9c7496319">bo_map</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int write_enable)</td></tr>
+<tr class="memitem:a2768a0f7aa4ca4a4db7d1bd9c7496319"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a2768a0f7aa4ca4a4db7d1bd9c7496319">bo_map</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int write_enable) = nullptr</td></tr>
 <tr class="separator:a2768a0f7aa4ca4a4db7d1bd9c7496319"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbca2e3fddf3194d56b8f2aa69e31a93"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#abbca2e3fddf3194d56b8f2aa69e31a93">bo_unmap</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:abbca2e3fddf3194d56b8f2aa69e31a93"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#abbca2e3fddf3194d56b8f2aa69e31a93">bo_unmap</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:abbca2e3fddf3194d56b8f2aa69e31a93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac372a6e6d62ddcd25625422b0d985639"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ac372a6e6d62ddcd25625422b0d985639">bo_wait_rendering</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:ac372a6e6d62ddcd25625422b0d985639"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ac372a6e6d62ddcd25625422b0d985639">bo_wait_rendering</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:ac372a6e6d62ddcd25625422b0d985639"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41c20bf8488089a0fa2ba4ac101663c4"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a41c20bf8488089a0fa2ba4ac101663c4">destroy</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td></tr>
+<tr class="memitem:a41c20bf8488089a0fa2ba4ac101663c4"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a41c20bf8488089a0fa2ba4ac101663c4">destroy</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td></tr>
 <tr class="separator:a41c20bf8488089a0fa2ba4ac101663c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aced5487d302ec7143f4834d7ffe01cc9"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#aced5487d302ec7143f4834d7ffe01cc9">bo_use_48b_address_range</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t enable)</td></tr>
+<tr class="memitem:aced5487d302ec7143f4834d7ffe01cc9"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#aced5487d302ec7143f4834d7ffe01cc9">bo_use_48b_address_range</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t enable) = nullptr</td></tr>
 <tr class="separator:aced5487d302ec7143f4834d7ffe01cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd5371f98492de04c7dbbca4f9674b29"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#abd5371f98492de04c7dbbca4f9674b29">bo_pad_to_size</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint64_t pad_to_size)</td></tr>
+<tr class="memitem:abd5371f98492de04c7dbbca4f9674b29"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#abd5371f98492de04c7dbbca4f9674b29">bo_pad_to_size</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint64_t pad_to_size) = nullptr</td></tr>
 <tr class="separator:abd5371f98492de04c7dbbca4f9674b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a224425fb5a303cbd4d49bc1e6dd734a8"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a224425fb5a303cbd4d49bc1e6dd734a8">bo_emit_reloc</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t offset, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo, uint32_t target_offset, uint32_t read_domains, uint32_t write_domain, uint64_t presumed_offset)</td></tr>
+<tr class="memitem:a224425fb5a303cbd4d49bc1e6dd734a8"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a224425fb5a303cbd4d49bc1e6dd734a8">bo_emit_reloc</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t offset, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo, uint32_t target_offset, uint32_t read_domains, uint32_t write_domain, uint64_t presumed_offset) = nullptr</td></tr>
 <tr class="separator:a224425fb5a303cbd4d49bc1e6dd734a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a796dbc929e750efe90cc0fb22bd5e8fa"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a796dbc929e750efe90cc0fb22bd5e8fa">bo_exec</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int used, <a class="el" href="../../da/d68/drm_8h.html#a912a372f2417e4f139f82bbf0a3d4fc1">drm_clip_rect_t</a> *cliprects, int num_cliprects, int DR4)</td></tr>
+<tr class="memitem:a796dbc929e750efe90cc0fb22bd5e8fa"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a796dbc929e750efe90cc0fb22bd5e8fa">bo_exec</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int used, <a class="el" href="../../da/d68/drm_8h.html#a912a372f2417e4f139f82bbf0a3d4fc1">drm_clip_rect_t</a> *cliprects, int num_cliprects, int DR4) = nullptr</td></tr>
 <tr class="separator:a796dbc929e750efe90cc0fb22bd5e8fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adba4b699af565217136c821199bef6d7"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#adba4b699af565217136c821199bef6d7">bo_mrb_exec</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int used, <a class="el" href="../../da/d68/drm_8h.html#a912a372f2417e4f139f82bbf0a3d4fc1">drm_clip_rect_t</a> *cliprects, int num_cliprects, int DR4, unsigned <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>)</td></tr>
+<tr class="memitem:adba4b699af565217136c821199bef6d7"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#adba4b699af565217136c821199bef6d7">bo_mrb_exec</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int used, <a class="el" href="../../da/d68/drm_8h.html#a912a372f2417e4f139f82bbf0a3d4fc1">drm_clip_rect_t</a> *cliprects, int num_cliprects, int DR4, unsigned <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>) = nullptr</td></tr>
 <tr class="separator:adba4b699af565217136c821199bef6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb66adb1de42220a78bceab128cf2b3c"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#acb66adb1de42220a78bceab128cf2b3c">bo_set_tiling</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t *tiling_mode, uint32_t stride)</td></tr>
+<tr class="memitem:acb66adb1de42220a78bceab128cf2b3c"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#acb66adb1de42220a78bceab128cf2b3c">bo_set_tiling</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t *tiling_mode, uint32_t stride) = nullptr</td></tr>
 <tr class="separator:acb66adb1de42220a78bceab128cf2b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4074dedaac1166aa0d9e00793b25ae62"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a4074dedaac1166aa0d9e00793b25ae62">bo_get_tiling</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t *tiling_mode, uint32_t *swizzle_mode)</td></tr>
+<tr class="memitem:a4074dedaac1166aa0d9e00793b25ae62"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a4074dedaac1166aa0d9e00793b25ae62">bo_get_tiling</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t *tiling_mode, uint32_t *swizzle_mode) = nullptr</td></tr>
 <tr class="separator:a4074dedaac1166aa0d9e00793b25ae62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac40d3ffa5217b2c4e19902f7cabe8b2a"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ac40d3ffa5217b2c4e19902f7cabe8b2a">bo_set_softpin</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:ac40d3ffa5217b2c4e19902f7cabe8b2a"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ac40d3ffa5217b2c4e19902f7cabe8b2a">bo_set_softpin</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:ac40d3ffa5217b2c4e19902f7cabe8b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91d05f4f75c296dbfd0c2d5136ab249c"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a91d05f4f75c296dbfd0c2d5136ab249c">bo_add_softpin_target</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo, bool write_flag)</td></tr>
+<tr class="memitem:a91d05f4f75c296dbfd0c2d5136ab249c"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a91d05f4f75c296dbfd0c2d5136ab249c">bo_add_softpin_target</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo, bool write_flag) = nullptr</td></tr>
 <tr class="separator:a91d05f4f75c296dbfd0c2d5136ab249c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b437ede852de863bf66ee4c24acdad9"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a9b437ede852de863bf66ee4c24acdad9">bo_flink</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t *name)</td></tr>
+<tr class="memitem:a9b437ede852de863bf66ee4c24acdad9"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a9b437ede852de863bf66ee4c24acdad9">bo_flink</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t *name) = nullptr</td></tr>
 <tr class="separator:a9b437ede852de863bf66ee4c24acdad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab759c50171cf0ef2dfec2002205b7b09"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ab759c50171cf0ef2dfec2002205b7b09">bo_busy</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:ab759c50171cf0ef2dfec2002205b7b09"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ab759c50171cf0ef2dfec2002205b7b09">bo_busy</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:ab759c50171cf0ef2dfec2002205b7b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95a4fdc1a680968b3cb91e6cfd996f3d"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a95a4fdc1a680968b3cb91e6cfd996f3d">bo_madvise</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int madv)</td></tr>
+<tr class="memitem:a95a4fdc1a680968b3cb91e6cfd996f3d"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a95a4fdc1a680968b3cb91e6cfd996f3d">bo_madvise</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int madv) = nullptr</td></tr>
 <tr class="separator:a95a4fdc1a680968b3cb91e6cfd996f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a862b87cc938b0dedc9908e99c2bd0a80"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a862b87cc938b0dedc9908e99c2bd0a80">check_aperture_space</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> **bo_array, int count)</td></tr>
+<tr class="memitem:a862b87cc938b0dedc9908e99c2bd0a80"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a862b87cc938b0dedc9908e99c2bd0a80">check_aperture_space</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> **bo_array, int count) = nullptr</td></tr>
 <tr class="separator:a862b87cc938b0dedc9908e99c2bd0a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bfacc53c2edfd7360a5e9c2de9ee9f3"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a1bfacc53c2edfd7360a5e9c2de9ee9f3">bo_disable_reuse</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:a1bfacc53c2edfd7360a5e9c2de9ee9f3"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a1bfacc53c2edfd7360a5e9c2de9ee9f3">bo_disable_reuse</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:a1bfacc53c2edfd7360a5e9c2de9ee9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3da54d26bc8d5b4fc65767d6352c1dce"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a3da54d26bc8d5b4fc65767d6352c1dce">bo_is_reusable</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:a3da54d26bc8d5b4fc65767d6352c1dce"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a3da54d26bc8d5b4fc65767d6352c1dce">bo_is_reusable</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:a3da54d26bc8d5b4fc65767d6352c1dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d493c92f0073eaa8239bb342a3cf9fc"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a7d493c92f0073eaa8239bb342a3cf9fc">bo_references</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo)</td></tr>
+<tr class="memitem:a7d493c92f0073eaa8239bb342a3cf9fc"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a7d493c92f0073eaa8239bb342a3cf9fc">bo_references</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo) = nullptr</td></tr>
 <tr class="separator:a7d493c92f0073eaa8239bb342a3cf9fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27d0d7c5b2d184bdee5ecc510e3951c7"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a27d0d7c5b2d184bdee5ecc510e3951c7">set_object_async</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:a27d0d7c5b2d184bdee5ecc510e3951c7"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a27d0d7c5b2d184bdee5ecc510e3951c7">set_object_async</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:a27d0d7c5b2d184bdee5ecc510e3951c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9e2d5248ec7bf1968cc0e5d25487405"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ad9e2d5248ec7bf1968cc0e5d25487405">set_exec_object_async</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo)</td></tr>
+<tr class="memitem:ad9e2d5248ec7bf1968cc0e5d25487405"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ad9e2d5248ec7bf1968cc0e5d25487405">set_exec_object_async</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo) = nullptr</td></tr>
 <tr class="separator:ad9e2d5248ec7bf1968cc0e5d25487405"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac51134c75bd602681724938e95e42e02"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ac51134c75bd602681724938e95e42e02">set_object_capture</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:ac51134c75bd602681724938e95e42e02"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ac51134c75bd602681724938e95e42e02">set_object_capture</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:ac51134c75bd602681724938e95e42e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee0852bf6af7f3eade80d0e23f9d8c59"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#aee0852bf6af7f3eade80d0e23f9d8c59">bo_wait</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int64_t timeout_ns)</td></tr>
+<tr class="memitem:aee0852bf6af7f3eade80d0e23f9d8c59"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#aee0852bf6af7f3eade80d0e23f9d8c59">bo_wait</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int64_t timeout_ns) = nullptr</td></tr>
 <tr class="separator:aee0852bf6af7f3eade80d0e23f9d8c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e249d97526d042e780e7a97d2fcedcc"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a1e249d97526d042e780e7a97d2fcedcc">bo_clear_relocs</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int start)</td></tr>
+<tr class="memitem:a1e249d97526d042e780e7a97d2fcedcc"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a1e249d97526d042e780e7a97d2fcedcc">bo_clear_relocs</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int start) = nullptr</td></tr>
 <tr class="separator:a1e249d97526d042e780e7a97d2fcedcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5e5583cb504991292e8cc024c868249"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ab5e5583cb504991292e8cc024c868249">context_create</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td></tr>
+<tr class="memitem:ab5e5583cb504991292e8cc024c868249"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ab5e5583cb504991292e8cc024c868249">context_create</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td></tr>
 <tr class="separator:ab5e5583cb504991292e8cc024c868249"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57b6e90e1dc8548a7a2c658071baf84f"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a57b6e90e1dc8548a7a2c658071baf84f">context_create_ext</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a> <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, bool bContextProtected)</td></tr>
+<tr class="memitem:a57b6e90e1dc8548a7a2c658071baf84f"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a57b6e90e1dc8548a7a2c658071baf84f">context_create_ext</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a> <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, bool bContextProtected) = nullptr</td></tr>
 <tr class="separator:a57b6e90e1dc8548a7a2c658071baf84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa17e4a4334d6a16e44feebdabd8551b7"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#aa17e4a4334d6a16e44feebdabd8551b7">context_create_shared</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, <a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a> <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, bool bContextProtected, void *engine_map, uint8_t ctx_width, uint8_t num_placements, uint32_t ctx_type)</td></tr>
+<tr class="memitem:aa17e4a4334d6a16e44feebdabd8551b7"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#aa17e4a4334d6a16e44feebdabd8551b7">context_create_shared</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, <a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a> <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, bool bContextProtected, void *engine_map, uint8_t ctx_width, uint8_t num_placements, uint32_t ctx_type) = nullptr</td></tr>
 <tr class="separator:aa17e4a4334d6a16e44feebdabd8551b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f1a0484cff280830e75908fb257cd67"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a7f1a0484cff280830e75908fb257cd67">context_destroy</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx)</td></tr>
+<tr class="memitem:a7f1a0484cff280830e75908fb257cd67"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a7f1a0484cff280830e75908fb257cd67">context_destroy</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx) = nullptr</td></tr>
 <tr class="separator:a7f1a0484cff280830e75908fb257cd67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a905ce0cb4e803a2031c4a778d9370a6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a905ce0cb4e803a2031c4a778d9370a6a">vm_create</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td></tr>
+<tr class="memitem:a905ce0cb4e803a2031c4a778d9370a6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a905ce0cb4e803a2031c4a778d9370a6a">vm_create</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td></tr>
 <tr class="separator:a905ce0cb4e803a2031c4a778d9370a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bb2b3f92dfa7d0c33b37f2f9b1d09bb"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a0bb2b3f92dfa7d0c33b37f2f9b1d09bb">vm_destroy</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a> vm_id)</td></tr>
+<tr class="memitem:a0bb2b3f92dfa7d0c33b37f2f9b1d09bb"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a0bb2b3f92dfa7d0c33b37f2f9b1d09bb">vm_destroy</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a> vm_id) = nullptr</td></tr>
 <tr class="separator:a0bb2b3f92dfa7d0c33b37f2f9b1d09bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae9ef502e5e4dc7de9afec59091fba58"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#aae9ef502e5e4dc7de9afec59091fba58">bo_context_exec2</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int used, struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../d6/d83/structdrm__clip__rect.html">drm_clip_rect</a> *cliprects, int num_cliprects, int DR4, unsigned int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, int *fence)</td></tr>
+<tr class="memitem:aae9ef502e5e4dc7de9afec59091fba58"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#aae9ef502e5e4dc7de9afec59091fba58">bo_context_exec2</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int used, struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../d6/d83/structdrm__clip__rect.html">drm_clip_rect</a> *cliprects, int num_cliprects, int DR4, unsigned int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, int *fence) = nullptr</td></tr>
 <tr class="separator:aae9ef502e5e4dc7de9afec59091fba58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c466a2b9498bda29111fa1aa92f5a16"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a2c466a2b9498bda29111fa1aa92f5a16">bo_context_exec3</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> **bo, int num_bo, struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../d6/d83/structdrm__clip__rect.html">drm_clip_rect</a> *cliprects, int num_cliprects, int DR4, unsigned int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, int *fence)</td></tr>
+<tr class="memitem:a2c466a2b9498bda29111fa1aa92f5a16"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a2c466a2b9498bda29111fa1aa92f5a16">bo_context_exec3</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> **bo, int num_bo, struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../d6/d83/structdrm__clip__rect.html">drm_clip_rect</a> *cliprects, int num_cliprects, int DR4, unsigned int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, int *fence) = nullptr</td></tr>
 <tr class="separator:a2c466a2b9498bda29111fa1aa92f5a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54ed18538bae1786fa1bb791bbfe3361"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a54ed18538bae1786fa1bb791bbfe3361">bo_is_exec_object_async</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:a54ed18538bae1786fa1bb791bbfe3361"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a54ed18538bae1786fa1bb791bbfe3361">bo_is_exec_object_async</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:a54ed18538bae1786fa1bb791bbfe3361"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29b5a1c3d41e79194a94dbc3920346cf"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a29b5a1c3d41e79194a94dbc3920346cf">bo_is_softpin</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:a29b5a1c3d41e79194a94dbc3920346cf"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a29b5a1c3d41e79194a94dbc3920346cf">bo_is_softpin</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:a29b5a1c3d41e79194a94dbc3920346cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0004b89c001b00c95257a27ce2f22e6"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ab0004b89c001b00c95257a27ce2f22e6">bo_map_gtt</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:ab0004b89c001b00c95257a27ce2f22e6"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ab0004b89c001b00c95257a27ce2f22e6">bo_map_gtt</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:ab0004b89c001b00c95257a27ce2f22e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c873549ddfd8a388d721f2711cde565"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a8c873549ddfd8a388d721f2711cde565">bo_unmap_gtt</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:a8c873549ddfd8a388d721f2711cde565"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a8c873549ddfd8a388d721f2711cde565">bo_unmap_gtt</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:a8c873549ddfd8a388d721f2711cde565"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe5a23ca84a67c1e74a817970bf8f41a"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#afe5a23ca84a67c1e74a817970bf8f41a">bo_map_wc</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:afe5a23ca84a67c1e74a817970bf8f41a"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#afe5a23ca84a67c1e74a817970bf8f41a">bo_map_wc</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:afe5a23ca84a67c1e74a817970bf8f41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f833a4f09c54c1f2dd734c0b28d6ffa"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a1f833a4f09c54c1f2dd734c0b28d6ffa">bo_unmap_wc</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:a1f833a4f09c54c1f2dd734c0b28d6ffa"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a1f833a4f09c54c1f2dd734c0b28d6ffa">bo_unmap_wc</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:a1f833a4f09c54c1f2dd734c0b28d6ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6166fa94cdd83a1032ab898c5276a49a"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a6166fa94cdd83a1032ab898c5276a49a">bo_map_unsynchronized</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td></tr>
+<tr class="memitem:a6166fa94cdd83a1032ab898c5276a49a"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a6166fa94cdd83a1032ab898c5276a49a">bo_map_unsynchronized</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td></tr>
 <tr class="separator:a6166fa94cdd83a1032ab898c5276a49a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e5fb3b995e53d159f75843da6e8f785"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a4e5fb3b995e53d159f75843da6e8f785">bo_start_gtt_access</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int write_enable)</td></tr>
+<tr class="memitem:a4e5fb3b995e53d159f75843da6e8f785"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a4e5fb3b995e53d159f75843da6e8f785">bo_start_gtt_access</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int write_enable) = nullptr</td></tr>
 <tr class="separator:a4e5fb3b995e53d159f75843da6e8f785"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ae1ef7b74fada2c23fbd6183792c292"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a4afde56a7ca7220534552cda8cecc9ae">mos_oca_exec_list_info</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a5ae1ef7b74fada2c23fbd6183792c292">bo_get_softpin_targets_info</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int *count)</td></tr>
+<tr class="memitem:a5ae1ef7b74fada2c23fbd6183792c292"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a4afde56a7ca7220534552cda8cecc9ae">mos_oca_exec_list_info</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a5ae1ef7b74fada2c23fbd6183792c292">bo_get_softpin_targets_info</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int *count) = nullptr</td></tr>
 <tr class="separator:a5ae1ef7b74fada2c23fbd6183792c292"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe7b68715b44236c72f1717865eb2096"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#afe7b68715b44236c72f1717865eb2096">bo_create_from_name</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, const char *name, unsigned int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a4cb10971641fded3e45362915051c8ef">handle</a>)</td></tr>
+<tr class="memitem:afe7b68715b44236c72f1717865eb2096"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#afe7b68715b44236c72f1717865eb2096">bo_create_from_name</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, const char *name, unsigned int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a4cb10971641fded3e45362915051c8ef">handle</a>) = nullptr</td></tr>
 <tr class="separator:afe7b68715b44236c72f1717865eb2096"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae274e3305e7225e6a2b3b7121c0bffbf"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ae274e3305e7225e6a2b3b7121c0bffbf">enable_reuse</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td></tr>
+<tr class="memitem:ae274e3305e7225e6a2b3b7121c0bffbf"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ae274e3305e7225e6a2b3b7121c0bffbf">enable_reuse</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td></tr>
 <tr class="separator:ae274e3305e7225e6a2b3b7121c0bffbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad57ac4180260882640009cefe4cd7d3e"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ad57ac4180260882640009cefe4cd7d3e">enable_softpin</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, bool va1m_align)</td></tr>
+<tr class="memitem:ad57ac4180260882640009cefe4cd7d3e"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ad57ac4180260882640009cefe4cd7d3e">enable_softpin</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, bool va1m_align) = nullptr</td></tr>
 <tr class="separator:ad57ac4180260882640009cefe4cd7d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e7773e555b17f18da222e0594b2ce41"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a8e7773e555b17f18da222e0594b2ce41">enable_vmbind</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td></tr>
+<tr class="memitem:a8e7773e555b17f18da222e0594b2ce41"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a8e7773e555b17f18da222e0594b2ce41">enable_vmbind</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td></tr>
 <tr class="separator:a8e7773e555b17f18da222e0594b2ce41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91a15120211aa2388c71e37e8ef7fb17"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a91a15120211aa2388c71e37e8ef7fb17">disable_object_capture</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td></tr>
+<tr class="memitem:a91a15120211aa2388c71e37e8ef7fb17"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a91a15120211aa2388c71e37e8ef7fb17">disable_object_capture</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td></tr>
 <tr class="separator:a91a15120211aa2388c71e37e8ef7fb17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f5c5a59bafcfc6550a2943eadd6974e"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a7f5c5a59bafcfc6550a2943eadd6974e">get_memory_info</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, char *info, uint32_t length)</td></tr>
+<tr class="memitem:a7f5c5a59bafcfc6550a2943eadd6974e"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a7f5c5a59bafcfc6550a2943eadd6974e">get_memory_info</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, char *info, uint32_t length) = nullptr</td></tr>
 <tr class="separator:a7f5c5a59bafcfc6550a2943eadd6974e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22840fd3eb28c404b98b7261ded051ac"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a22840fd3eb28c404b98b7261ded051ac">get_devid</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td></tr>
+<tr class="memitem:a22840fd3eb28c404b98b7261ded051ac"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a22840fd3eb28c404b98b7261ded051ac">get_devid</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td></tr>
 <tr class="separator:a22840fd3eb28c404b98b7261ded051ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd900a971cf68a65b1e5321d1a6673c6"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#afd900a971cf68a65b1e5321d1a6673c6">query_engines_count</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, unsigned int *nengine)</td></tr>
+<tr class="memitem:a9890984782b01353fd2c6fa5f0668cf9"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a9890984782b01353fd2c6fa5f0668cf9">realloc_cache</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, uint8_t alloc_mode) = nullptr</td></tr>
+<tr class="separator:a9890984782b01353fd2c6fa5f0668cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd900a971cf68a65b1e5321d1a6673c6"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#afd900a971cf68a65b1e5321d1a6673c6">query_engines_count</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, unsigned int *nengine) = nullptr</td></tr>
 <tr class="separator:afd900a971cf68a65b1e5321d1a6673c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50da2dbfbe9126ccb7d19b6c72e6c2d3"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a50da2dbfbe9126ccb7d19b6c72e6c2d3">query_engines</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#abc70358187152575fd05fbf6d253151f">__u16</a> engine_class, <a class="el" href="../../da/d68/drm_8h.html#ac2a2bfb32105ffe8e74b67670b7ec440">__u64</a> caps, unsigned int *nengine, void *<a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#ac74e49a105e28f20f3c984998183c937">ci</a>)</td></tr>
+<tr class="memitem:a50da2dbfbe9126ccb7d19b6c72e6c2d3"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a50da2dbfbe9126ccb7d19b6c72e6c2d3">query_engines</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#abc70358187152575fd05fbf6d253151f">__u16</a> engine_class, <a class="el" href="../../da/d68/drm_8h.html#ac2a2bfb32105ffe8e74b67670b7ec440">__u64</a> caps, unsigned int *nengine, void *<a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#ac74e49a105e28f20f3c984998183c937">ci</a>) = nullptr</td></tr>
 <tr class="separator:a50da2dbfbe9126ccb7d19b6c72e6c2d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5336f77450a741766fc523c2f6f8dec6"><td class="memItemLeft" align="right" valign="top">size_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a5336f77450a741766fc523c2f6f8dec6">get_engine_class_size</a> )()</td></tr>
+<tr class="memitem:a5336f77450a741766fc523c2f6f8dec6"><td class="memItemLeft" align="right" valign="top">size_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a5336f77450a741766fc523c2f6f8dec6">get_engine_class_size</a> )() = nullptr</td></tr>
 <tr class="separator:a5336f77450a741766fc523c2f6f8dec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79e0643af8f9704a56334c56dd36c965"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a79e0643af8f9704a56334c56dd36c965">set_context_param</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint32_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>, uint64_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#aacf43f3fb24e9ad2f73ad7fff5336a9b">param</a>, uint64_t value)</td></tr>
+<tr class="memitem:ac527ad4467c2fc802cb8897cf95a7f69"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ac527ad4467c2fc802cb8897cf95a7f69">select_fixed_engine</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, void *engine_map, uint32_t *nengine, uint32_t fixed_instance_mask) = nullptr</td></tr>
+<tr class="separator:ac527ad4467c2fc802cb8897cf95a7f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79e0643af8f9704a56334c56dd36c965"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a79e0643af8f9704a56334c56dd36c965">set_context_param</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint32_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>, uint64_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#aacf43f3fb24e9ad2f73ad7fff5336a9b">param</a>, uint64_t value) = nullptr</td></tr>
 <tr class="separator:a79e0643af8f9704a56334c56dd36c965"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa057a6187cfb9f979dd0f170e288229e"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#aa057a6187cfb9f979dd0f170e288229e">set_context_param_parallel</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> *<a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#ac74e49a105e28f20f3c984998183c937">ci</a>, unsigned int count)</td></tr>
+<tr class="memitem:aa057a6187cfb9f979dd0f170e288229e"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#aa057a6187cfb9f979dd0f170e288229e">set_context_param_parallel</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> *<a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#ac74e49a105e28f20f3c984998183c937">ci</a>, unsigned int count) = nullptr</td></tr>
 <tr class="separator:aa057a6187cfb9f979dd0f170e288229e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04f19aef74b646e6acb6534531d19329"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a04f19aef74b646e6acb6534531d19329">set_context_param_load_balance</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> *<a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#ac74e49a105e28f20f3c984998183c937">ci</a>, unsigned int count)</td></tr>
+<tr class="memitem:a04f19aef74b646e6acb6534531d19329"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a04f19aef74b646e6acb6534531d19329">set_context_param_load_balance</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> *<a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#ac74e49a105e28f20f3c984998183c937">ci</a>, unsigned int count) = nullptr</td></tr>
 <tr class="separator:a04f19aef74b646e6acb6534531d19329"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44cb3be495249390ad1827679fc1a515"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a44cb3be495249390ad1827679fc1a515">set_context_param_bond</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> master_ci, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> *bond_ci, unsigned int bond_count)</td></tr>
+<tr class="memitem:a44cb3be495249390ad1827679fc1a515"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a44cb3be495249390ad1827679fc1a515">set_context_param_bond</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> master_ci, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> *bond_ci, unsigned int bond_count) = nullptr</td></tr>
 <tr class="separator:a44cb3be495249390ad1827679fc1a515"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a1c436fb0163f63c0763e0cbb69996a"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a3a1c436fb0163f63c0763e0cbb69996a">get_context_param</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint32_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>, uint64_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#aacf43f3fb24e9ad2f73ad7fff5336a9b">param</a>, uint64_t *value)</td></tr>
+<tr class="memitem:a3a1c436fb0163f63c0763e0cbb69996a"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a3a1c436fb0163f63c0763e0cbb69996a">get_context_param</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint32_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>, uint64_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#aacf43f3fb24e9ad2f73ad7fff5336a9b">param</a>, uint64_t *value) = nullptr</td></tr>
 <tr class="separator:a3a1c436fb0163f63c0763e0cbb69996a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9a0cc007df3d84e78f93557b525b96b"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#af9a0cc007df3d84e78f93557b525b96b">bo_create_from_prime</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, int prime_fd, int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>)</td></tr>
+<tr class="memitem:af9a0cc007df3d84e78f93557b525b96b"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#af9a0cc007df3d84e78f93557b525b96b">bo_create_from_prime</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, int prime_fd, int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>) = nullptr</td></tr>
 <tr class="separator:af9a0cc007df3d84e78f93557b525b96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3cec8983f782374faa5a33e97fafd18"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#af3cec8983f782374faa5a33e97fafd18">bo_export_to_prime</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int *prime_fd)</td></tr>
+<tr class="memitem:af3cec8983f782374faa5a33e97fafd18"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#af3cec8983f782374faa5a33e97fafd18">bo_export_to_prime</a> )(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int *prime_fd) = nullptr</td></tr>
 <tr class="separator:af3cec8983f782374faa5a33e97fafd18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27b841dd248379af98a0cb6849b1e7fc"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a27b841dd248379af98a0cb6849b1e7fc">reg_read</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, uint32_t offset, uint64_t *result)</td></tr>
+<tr class="memitem:a27b841dd248379af98a0cb6849b1e7fc"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a27b841dd248379af98a0cb6849b1e7fc">reg_read</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, uint32_t offset, uint64_t *result) = nullptr</td></tr>
 <tr class="separator:a27b841dd248379af98a0cb6849b1e7fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8df681be056bb73f8c25b73c87281596"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a8df681be056bb73f8c25b73c87281596">get_reset_stats</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint32_t *reset_count, uint32_t *active, uint32_t *pending)</td></tr>
+<tr class="memitem:a8df681be056bb73f8c25b73c87281596"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a8df681be056bb73f8c25b73c87281596">get_reset_stats</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint32_t *reset_count, uint32_t *active, uint32_t *pending) = nullptr</td></tr>
 <tr class="separator:a8df681be056bb73f8c25b73c87281596"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26dfd64c1cca48c0ae3fab3f2f4cf1fc"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a26dfd64c1cca48c0ae3fab3f2f4cf1fc">get_context_param_sseu</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dc/d93/structdrm__i915__gem__context__param__sseu.html">drm_i915_gem_context_param_sseu</a> *sseu)</td></tr>
+<tr class="memitem:a26dfd64c1cca48c0ae3fab3f2f4cf1fc"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a26dfd64c1cca48c0ae3fab3f2f4cf1fc">get_context_param_sseu</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dc/d93/structdrm__i915__gem__context__param__sseu.html">drm_i915_gem_context_param_sseu</a> *sseu) = nullptr</td></tr>
 <tr class="separator:a26dfd64c1cca48c0ae3fab3f2f4cf1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9388a7d3e808f0faeccb84fab064d4d"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#aa9388a7d3e808f0faeccb84fab064d4d">set_context_param_sseu</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dc/d93/structdrm__i915__gem__context__param__sseu.html">drm_i915_gem_context_param_sseu</a> sseu)</td></tr>
+<tr class="memitem:aa9388a7d3e808f0faeccb84fab064d4d"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#aa9388a7d3e808f0faeccb84fab064d4d">set_context_param_sseu</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dc/d93/structdrm__i915__gem__context__param__sseu.html">drm_i915_gem_context_param_sseu</a> sseu) = nullptr</td></tr>
 <tr class="separator:aa9388a7d3e808f0faeccb84fab064d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4275626b01859e28faf316ac0685f7ab"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a4275626b01859e28faf316ac0685f7ab">query_sys_engines</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../d3/d23/media__skuwa__specific_8h.html#a1662154e11ff509c5cd03432fc5d3d10">MEDIA_SYSTEM_INFO</a> *gfx_info)</td></tr>
+<tr class="memitem:a4275626b01859e28faf316ac0685f7ab"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a4275626b01859e28faf316ac0685f7ab">query_sys_engines</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../d3/d23/media__skuwa__specific_8h.html#a1662154e11ff509c5cd03432fc5d3d10">MEDIA_SYSTEM_INFO</a> *gfx_info) = nullptr</td></tr>
 <tr class="separator:a4275626b01859e28faf316ac0685f7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbeb1815506d14170bc53fb530e6b4b0"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#afbeb1815506d14170bc53fb530e6b4b0">query_device_blob</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../d3/d23/media__skuwa__specific_8h.html#a1662154e11ff509c5cd03432fc5d3d10">MEDIA_SYSTEM_INFO</a> *gfx_info)</td></tr>
+<tr class="memitem:afbeb1815506d14170bc53fb530e6b4b0"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#afbeb1815506d14170bc53fb530e6b4b0">query_device_blob</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../d3/d23/media__skuwa__specific_8h.html#a1662154e11ff509c5cd03432fc5d3d10">MEDIA_SYSTEM_INFO</a> *gfx_info) = nullptr</td></tr>
 <tr class="separator:afbeb1815506d14170bc53fb530e6b4b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad31c768c9df6707f4f5fa103e9af6c85"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ad31c768c9df6707f4f5fa103e9af6c85">get_driver_info</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, struct <a class="el" href="../../d9/d13/struct_linux_driver_info.html">LinuxDriverInfo</a> *drvInfo)</td></tr>
+<tr class="memitem:ad31c768c9df6707f4f5fa103e9af6c85"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ad31c768c9df6707f4f5fa103e9af6c85">get_driver_info</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, struct <a class="el" href="../../d9/d13/struct_linux_driver_info.html">LinuxDriverInfo</a> *drvInfo) = nullptr</td></tr>
 <tr class="separator:ad31c768c9df6707f4f5fa103e9af6c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39f3472f054d4e5714c49777f4146a9b"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a39f3472f054d4e5714c49777f4146a9b">query_hw_ip_version</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#abc70358187152575fd05fbf6d253151f">__u16</a> engine_class, void *ip_ver_info)</td></tr>
+<tr class="memitem:a39f3472f054d4e5714c49777f4146a9b"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a39f3472f054d4e5714c49777f4146a9b">query_hw_ip_version</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#abc70358187152575fd05fbf6d253151f">__u16</a> engine_class, void *ip_ver_info) = nullptr</td></tr>
 <tr class="separator:a39f3472f054d4e5714c49777f4146a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77aaea5165f9bbac97b906e8dd78eaeb"><td class="memItemLeft" align="right" valign="top">uint64_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a77aaea5165f9bbac97b906e8dd78eaeb">get_platform_information</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td></tr>
+<tr class="memitem:a77aaea5165f9bbac97b906e8dd78eaeb"><td class="memItemLeft" align="right" valign="top">uint64_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a77aaea5165f9bbac97b906e8dd78eaeb">get_platform_information</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td></tr>
 <tr class="separator:a77aaea5165f9bbac97b906e8dd78eaeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b2836f11faa49228f218f47818a05b1"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a0b2836f11faa49228f218f47818a05b1">set_platform_information</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, uint64_t p)</td></tr>
+<tr class="memitem:a0b2836f11faa49228f218f47818a05b1"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a0b2836f11faa49228f218f47818a05b1">set_platform_information</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, uint64_t p) = nullptr</td></tr>
 <tr class="separator:a0b2836f11faa49228f218f47818a05b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c84eca7ad4701af1e64b80ca69f86fd"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a9c84eca7ad4701af1e64b80ca69f86fd">get_ts_frequency</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, uint32_t *ts_freq)</td></tr>
+<tr class="memitem:a9c84eca7ad4701af1e64b80ca69f86fd"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a9c84eca7ad4701af1e64b80ca69f86fd">get_ts_frequency</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, uint32_t *ts_freq) = nullptr</td></tr>
 <tr class="separator:a9c84eca7ad4701af1e64b80ca69f86fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa71555db05eb40d5b1239d46f6fcf2ae"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#aa71555db05eb40d5b1239d46f6fcf2ae">has_bsd2</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td></tr>
+<tr class="memitem:aa71555db05eb40d5b1239d46f6fcf2ae"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#aa71555db05eb40d5b1239d46f6fcf2ae">has_bsd2</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td></tr>
 <tr class="separator:aa71555db05eb40d5b1239d46f6fcf2ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8f374c66f307d2fe1cae275d2ed14e7"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ac8f374c66f307d2fe1cae275d2ed14e7">enable_turbo_boost</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td></tr>
+<tr class="memitem:ac8f374c66f307d2fe1cae275d2ed14e7"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#ac8f374c66f307d2fe1cae275d2ed14e7">enable_turbo_boost</a> )(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td></tr>
 <tr class="separator:ac8f374c66f307d2fe1cae275d2ed14e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ee4201ffe8da9bc8d8e6e6601a5f227"><td class="memItemLeft" align="right" valign="top">uint8_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a0ee4201ffe8da9bc8d8e6e6601a5f227">switch_off_n_bits</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint8_t in_mask, int n)</td></tr>
+<tr class="memitem:a0ee4201ffe8da9bc8d8e6e6601a5f227"><td class="memItemLeft" align="right" valign="top">uint8_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a0ee4201ffe8da9bc8d8e6e6601a5f227">switch_off_n_bits</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint8_t in_mask, int n) = nullptr</td></tr>
 <tr class="separator:a0ee4201ffe8da9bc8d8e6e6601a5f227"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a473ddda273a72a884ec6273d1a0ba756"><td class="memItemLeft" align="right" valign="top">unsigned int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a473ddda273a72a884ec6273d1a0ba756">hweight8</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint8_t w)</td></tr>
+<tr class="memitem:a473ddda273a72a884ec6273d1a0ba756"><td class="memItemLeft" align="right" valign="top">unsigned int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a473ddda273a72a884ec6273d1a0ba756">hweight8</a> )(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint8_t w) = nullptr</td></tr>
 <tr class="separator:a473ddda273a72a884ec6273d1a0ba756"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a346cba4b85ec89969dc99a3cf5e1345e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a346cba4b85ec89969dc99a3cf5e1345e">debug</a></td></tr>
+<tr class="memitem:a346cba4b85ec89969dc99a3cf5e1345e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a346cba4b85ec89969dc99a3cf5e1345e">debug</a> = 0</td></tr>
 <tr class="separator:a346cba4b85ec89969dc99a3cf5e1345e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4df95e3d196e9194898934954ae46a2e"><td class="memItemLeft" align="right" valign="top">uint32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/structmos__bufmgr.html#a4df95e3d196e9194898934954ae46a2e">get_reserved</a> = nullptr</td></tr>
 <tr class="separator:a4df95e3d196e9194898934954ae46a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -281,7 +283,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_add_softpin_target)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo, bool write_flag)</td>
+          <td class="memname">int(* mos_bufmgr::bo_add_softpin_target)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo, bool write_flag) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -294,18 +296,18 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00240">240</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00216">216</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
-<a id="a084a872f8d979375fc85a6f3db8388dc" name="a084a872f8d979375fc85a6f3db8388dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a084a872f8d979375fc85a6f3db8388dc">&#9670;&nbsp;</a></span>bo_alloc</h2>
+<a id="a27386d6b02b30d537a1cd55ab8cc83c1" name="a27386d6b02b30d537a1cd55ab8cc83c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27386d6b02b30d537a1cd55ab8cc83c1">&#9670;&nbsp;</a></span>bo_alloc</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(* mos_bufmgr::bo_alloc)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, const char *name, unsigned long <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>, unsigned int alignment, int mem_type, unsigned int pat_index, bool cpu_cacheable)</td>
+          <td class="memname">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(* mos_bufmgr::bo_alloc)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, struct <a class="el" href="../../dc/de6/structmos__drm__bo__alloc.html">mos_drm_bo_alloc</a> *alloc) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -316,32 +318,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa9675d68d245827af2b55594ea971fd8" name="aa9675d68d245827af2b55594ea971fd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9675d68d245827af2b55594ea971fd8">&#9670;&nbsp;</a></span>bo_alloc_for_render</h2>
+<a id="a8458052862a5a8e98ef2efbd4e99bb1e" name="a8458052862a5a8e98ef2efbd4e99bb1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8458052862a5a8e98ef2efbd4e99bb1e">&#9670;&nbsp;</a></span>bo_alloc_tiled</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(* mos_bufmgr::bo_alloc_for_render)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, const char *name, unsigned long <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>, unsigned int alignment, int mem_type, unsigned int pat_index, bool cpu_cacheable)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >Allocate a buffer object, hinting that it will be used as a render target.</p>
-<p >This is otherwise the same as bo_alloc. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00001">1</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
-
-</div>
-</div>
-<a id="abb58290074038a6e814fc24a9faeb0d5" name="abb58290074038a6e814fc24a9faeb0d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb58290074038a6e814fc24a9faeb0d5">&#9670;&nbsp;</a></span>bo_alloc_tiled</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(* mos_bufmgr::bo_alloc_tiled)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, const char *name, int x, int y, int cpp, uint32_t *tiling_mode, unsigned long *pitch, unsigned long <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, int mem_type, unsigned int pat_index, bool cpu_cacheable)</td>
+          <td class="memname">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(* mos_bufmgr::bo_alloc_tiled)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, struct <a class="el" href="../../db/d77/structmos__drm__bo__alloc__tiled.html">mos_drm_bo_alloc_tiled</a> *alloc_tiled) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -354,14 +338,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad23b42b00726fc9be9b6bfcdf4d16d99" name="ad23b42b00726fc9be9b6bfcdf4d16d99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad23b42b00726fc9be9b6bfcdf4d16d99">&#9670;&nbsp;</a></span>bo_alloc_userptr</h2>
+<a id="a328a3714513e9be482e10e7805153871" name="a328a3714513e9be482e10e7805153871"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a328a3714513e9be482e10e7805153871">&#9670;&nbsp;</a></span>bo_alloc_userptr</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(* mos_bufmgr::bo_alloc_userptr)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, const char *name, void *addr, uint32_t tiling_mode, uint32_t stride, unsigned long <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>, unsigned long <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>)</td>
+          <td class="memname">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(* mos_bufmgr::bo_alloc_userptr)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, struct <a class="el" href="../../dd/da3/structmos__drm__bo__alloc__userptr.html">mos_drm_bo_alloc_userptr</a> *alloc_uptr) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -378,13 +362,13 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_busy)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">int(* mos_bufmgr::bo_busy)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p >Returns 1 if mapping the buffer for write could cause the process to block, due to the object being active in the GPU. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00254">254</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00230">230</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -395,12 +379,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::bo_clear_relocs)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int start)</td>
+          <td class="memname">void(* mos_bufmgr::bo_clear_relocs)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int start) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00342">342</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00318">318</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -411,12 +395,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_context_exec2)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int used, struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../d6/d83/structdrm__clip__rect.html">drm_clip_rect</a> *cliprects, int num_cliprects, int DR4, unsigned int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, int *fence)</td>
+          <td class="memname">int(* mos_bufmgr::bo_context_exec2)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int used, struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../d6/d83/structdrm__clip__rect.html">drm_clip_rect</a> *cliprects, int num_cliprects, int DR4, unsigned int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, int *fence) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00360">360</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00336">336</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -427,12 +411,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_context_exec3)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> **bo, int num_bo, struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../d6/d83/structdrm__clip__rect.html">drm_clip_rect</a> *cliprects, int num_cliprects, int DR4, unsigned int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, int *fence)</td>
+          <td class="memname">int(* mos_bufmgr::bo_context_exec3)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> **bo, int num_bo, struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../d6/d83/structdrm__clip__rect.html">drm_clip_rect</a> *cliprects, int num_cliprects, int DR4, unsigned int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, int *fence) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00364">364</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00340">340</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -443,12 +427,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(* mos_bufmgr::bo_create_from_name)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, const char *name, unsigned int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a4cb10971641fded3e45362915051c8ef">handle</a>)</td>
+          <td class="memname">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(* mos_bufmgr::bo_create_from_name)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, const char *name, unsigned int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a4cb10971641fded3e45362915051c8ef">handle</a>) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00375">375</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00351">351</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -459,12 +443,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(* mos_bufmgr::bo_create_from_prime)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, int prime_fd, int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>)</td>
+          <td class="memname">struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *(* mos_bufmgr::bo_create_from_prime)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, int prime_fd, int <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00410">410</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00391">391</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -475,7 +459,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_disable_reuse)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">int(* mos_bufmgr::bo_disable_reuse)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -487,7 +471,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00279">279</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00255">255</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -498,7 +482,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_emit_reloc)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t offset, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo, uint32_t target_offset, uint32_t read_domains, uint32_t write_domain, uint64_t presumed_offset)</td>
+          <td class="memname">int(* mos_bufmgr::bo_emit_reloc)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t offset, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo, uint32_t target_offset, uint32_t read_domains, uint32_t write_domain, uint64_t presumed_offset) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -516,7 +500,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00193">193</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00169">169</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -527,13 +511,13 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_exec)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int used, <a class="el" href="../../da/d68/drm_8h.html#a912a372f2417e4f139f82bbf0a3d4fc1">drm_clip_rect_t</a> *cliprects, int num_cliprects, int DR4)</td>
+          <td class="memname">int(* mos_bufmgr::bo_exec)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int used, <a class="el" href="../../da/d68/drm_8h.html#a912a372f2417e4f139f82bbf0a3d4fc1">drm_clip_rect_t</a> *cliprects, int num_cliprects, int DR4) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p >Executes the command buffer pointed to by bo. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00199">199</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00175">175</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -544,12 +528,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_export_to_prime)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int *prime_fd)</td>
+          <td class="memname">int(* mos_bufmgr::bo_export_to_prime)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int *prime_fd) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00416">416</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00397">397</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -560,7 +544,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_flink)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t *name)</td>
+          <td class="memname">int(* mos_bufmgr::bo_flink)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t *name) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -573,7 +557,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00248">248</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00224">224</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -584,12 +568,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a4afde56a7ca7220534552cda8cecc9ae">mos_oca_exec_list_info</a> *(* mos_bufmgr::bo_get_softpin_targets_info)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int *count)</td>
+          <td class="memname"><a class="el" href="../../d5/d3a/mos__bufmgr__api_8h.html#a4afde56a7ca7220534552cda8cecc9ae">mos_oca_exec_list_info</a> *(* mos_bufmgr::bo_get_softpin_targets_info)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int *count) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00375">375</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00351">351</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -600,7 +584,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_get_tiling)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t *tiling_mode, uint32_t *swizzle_mode)</td>
+          <td class="memname">int(* mos_bufmgr::bo_get_tiling)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t *tiling_mode, uint32_t *swizzle_mode) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -614,7 +598,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00225">225</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00201">201</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -625,12 +609,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool(* mos_bufmgr::bo_is_exec_object_async)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">bool(* mos_bufmgr::bo_is_exec_object_async)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00367">367</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00343">343</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -641,7 +625,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_is_reusable)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">int(* mos_bufmgr::bo_is_reusable)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -653,7 +637,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00286">286</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00262">262</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -664,12 +648,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool(* mos_bufmgr::bo_is_softpin)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">bool(* mos_bufmgr::bo_is_softpin)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00368">368</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00344">344</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -680,7 +664,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_madvise)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int madv)</td>
+          <td class="memname">int(* mos_bufmgr::bo_madvise)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int madv) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -694,7 +678,7 @@ Public Attributes</h2></td></tr>
 <p>Use I915_MADV_DONTNEED to mark the buffer as purgeable, and it will be reclaimed under memory pressure. If you subsequently require the buffer, then you must pass I915_MADV_WILLNEED to mark the buffer as required.</p>
 <p >Returns 1 if the buffer was retained, or 0 if it was discarded whilst marked as I915_MADV_DONTNEED. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00268">268</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00244">244</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -705,14 +689,14 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_map)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int write_enable)</td>
+          <td class="memname">int(* mos_bufmgr::bo_map)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int write_enable) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p >Maps the buffer into userspace.</p>
 <p >This function will block waiting for any existing execution on the buffer to complete, first. The resulting mapping is available at buf-&gt;virtual. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00120">120</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00096">96</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -723,12 +707,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_map_gtt)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">int(* mos_bufmgr::bo_map_gtt)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00369">369</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00345">345</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -739,12 +723,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_map_unsynchronized)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">int(* mos_bufmgr::bo_map_unsynchronized)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00373">373</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00349">349</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -755,12 +739,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_map_wc)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">int(* mos_bufmgr::bo_map_wc)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00371">371</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00347">347</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -771,13 +755,13 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_mrb_exec)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int used, <a class="el" href="../../da/d68/drm_8h.html#a912a372f2417e4f139f82bbf0a3d4fc1">drm_clip_rect_t</a> *cliprects, int num_cliprects, int DR4, unsigned <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>)</td>
+          <td class="memname">int(* mos_bufmgr::bo_mrb_exec)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int used, <a class="el" href="../../da/d68/drm_8h.html#a912a372f2417e4f139f82bbf0a3d4fc1">drm_clip_rect_t</a> *cliprects, int num_cliprects, int DR4, unsigned <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p >Executes the command buffer pointed to by bo on the selected ring buffer </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00205">205</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00181">181</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -788,7 +772,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_pad_to_size)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint64_t pad_to_size)</td>
+          <td class="memname">int(* mos_bufmgr::bo_pad_to_size)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint64_t pad_to_size) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -804,7 +788,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00171">171</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00147">147</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -815,13 +799,13 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::bo_reference)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">void(* mos_bufmgr::bo_reference)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p >Takes a reference on a buffer object </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00105">105</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00081">81</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -832,13 +816,13 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_references)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo)</td>
+          <td class="memname">int(* mos_bufmgr::bo_references)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p >Returns true if target_bo is in the relocation tree rooted at bo. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00289">289</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00265">265</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -849,7 +833,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_set_softpin)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">int(* mos_bufmgr::bo_set_softpin)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -860,7 +844,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00232">232</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00208">208</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -871,7 +855,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_set_tiling)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t *tiling_mode, uint32_t stride)</td>
+          <td class="memname">int(* mos_bufmgr::bo_set_tiling)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t *tiling_mode, uint32_t stride) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -884,7 +868,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00215">215</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00191">191</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -895,12 +879,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::bo_start_gtt_access)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int write_enable)</td>
+          <td class="memname">void(* mos_bufmgr::bo_start_gtt_access)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int write_enable) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00374">374</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00350">350</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -911,13 +895,13 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_unmap)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">int(* mos_bufmgr::bo_unmap)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p >Reduces the refcount on the userspace mapping of the buffer object. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00126">126</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00102">102</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -928,12 +912,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_unmap_gtt)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">int(* mos_bufmgr::bo_unmap_gtt)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00370">370</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00346">346</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -944,12 +928,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_unmap_wc)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">int(* mos_bufmgr::bo_unmap_wc)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00372">372</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00348">348</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -960,13 +944,13 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::bo_unreference)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">void(* mos_bufmgr::bo_unreference)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p >Releases a reference on a buffer object, freeing the data if no references remain. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00111">111</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00087">87</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -977,7 +961,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::bo_use_48b_address_range)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t enable)</td>
+          <td class="memname">void(* mos_bufmgr::bo_use_48b_address_range)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, uint32_t enable) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -991,7 +975,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00154">154</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00130">130</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1002,7 +986,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::bo_wait)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int64_t timeout_ns)</td>
+          <td class="memname">int(* mos_bufmgr::bo_wait)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, int64_t timeout_ns) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1013,7 +997,7 @@ Public Attributes</h2></td></tr>
 <p >The implementation shall wait until the object is no longer actively referenced within a batch buffer at the time of the call. The wait will not guarantee that the buffer is re-issued via another thread, or an flinked handle. Userspace must make sure this race does not occur if such precision is important.</p>
 <p >Note that some kernels have broken the inifite wait for negative values promise, upgrade to latest stable kernels if this is the case. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00340">340</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00316">316</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1024,14 +1008,14 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::bo_wait_rendering)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">void(* mos_bufmgr::bo_wait_rendering)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p >Waits for rendering to an object by the GPU to have completed.</p>
 <p >This is not required for any access to the BO by bo_map, bo_subdata, etc. It is merely a way for the driver to implement glFinish. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00135">135</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00111">111</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1042,12 +1026,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::check_aperture_space)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> **bo_array, int count)</td>
+          <td class="memname">int(* mos_bufmgr::check_aperture_space)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> **bo_array, int count) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00270">270</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00246">246</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1058,12 +1042,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *(* mos_bufmgr::context_create)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td>
+          <td class="memname">struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *(* mos_bufmgr::context_create)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00342">342</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00318">318</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1074,12 +1058,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *(* mos_bufmgr::context_create_ext)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a> <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, bool bContextProtected)</td>
+          <td class="memname">struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *(* mos_bufmgr::context_create_ext)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a> <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, bool bContextProtected) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00342">342</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00318">318</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1090,12 +1074,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *(* mos_bufmgr::context_create_shared)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, <a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a> <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, bool bContextProtected, void *engine_map, uint8_t ctx_width, uint8_t num_placements, uint32_t ctx_type)</td>
+          <td class="memname">struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *(* mos_bufmgr::context_create_shared)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, <a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a> <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, bool bContextProtected, void *engine_map, uint8_t ctx_width, uint8_t num_placements, uint32_t ctx_type) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00342">342</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00318">318</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1106,12 +1090,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::context_destroy)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx)</td>
+          <td class="memname">void(* mos_bufmgr::context_destroy)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00357">357</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00333">333</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1122,12 +1106,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int mos_bufmgr::debug</td>
+          <td class="memname">int mos_bufmgr::debug = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00441">441</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00422">422</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1138,13 +1122,13 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::destroy)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td>
+          <td class="memname">void(* mos_bufmgr::destroy)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p >Tears down the buffer manager instance. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00140">140</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00116">116</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1155,12 +1139,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::disable_object_capture)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td>
+          <td class="memname">void(* mos_bufmgr::disable_object_capture)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00382">382</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00358">358</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1171,12 +1155,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::enable_reuse)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td>
+          <td class="memname">void(* mos_bufmgr::enable_reuse)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00379">379</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00355">355</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1187,12 +1171,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::enable_softpin)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, bool va1m_align)</td>
+          <td class="memname">void(* mos_bufmgr::enable_softpin)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, bool va1m_align) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00380">380</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00356">356</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1203,12 +1187,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::enable_turbo_boost)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td>
+          <td class="memname">void(* mos_bufmgr::enable_turbo_boost)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00436">436</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00417">417</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1219,12 +1203,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::enable_vmbind)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td>
+          <td class="memname">void(* mos_bufmgr::enable_vmbind)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00381">381</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00357">357</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1235,12 +1219,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::get_context_param)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint32_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>, uint64_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#aacf43f3fb24e9ad2f73ad7fff5336a9b">param</a>, uint64_t *value)</td>
+          <td class="memname">int(* mos_bufmgr::get_context_param)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint32_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>, uint64_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#aacf43f3fb24e9ad2f73ad7fff5336a9b">param</a>, uint64_t *value) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00410">410</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00391">391</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1251,12 +1235,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::get_context_param_sseu)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dc/d93/structdrm__i915__gem__context__param__sseu.html">drm_i915_gem_context_param_sseu</a> *sseu)</td>
+          <td class="memname">int(* mos_bufmgr::get_context_param_sseu)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dc/d93/structdrm__i915__gem__context__param__sseu.html">drm_i915_gem_context_param_sseu</a> *sseu) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00424">424</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00405">405</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1267,12 +1251,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::get_devid)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td>
+          <td class="memname">int(* mos_bufmgr::get_devid)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00384">384</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00360">360</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1283,12 +1267,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::get_driver_info)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, struct <a class="el" href="../../d9/d13/struct_linux_driver_info.html">LinuxDriverInfo</a> *drvInfo)</td>
+          <td class="memname">int(* mos_bufmgr::get_driver_info)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, struct <a class="el" href="../../d9/d13/struct_linux_driver_info.html">LinuxDriverInfo</a> *drvInfo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00430">430</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00411">411</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1299,12 +1283,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t(* mos_bufmgr::get_engine_class_size)()</td>
+          <td class="memname">size_t(* mos_bufmgr::get_engine_class_size)() = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00394">394</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00370">370</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1315,12 +1299,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::get_memory_info)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, char *info, uint32_t length)</td>
+          <td class="memname">int(* mos_bufmgr::get_memory_info)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, char *info, uint32_t length) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00383">383</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00359">359</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1331,12 +1315,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t(* mos_bufmgr::get_platform_information)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td>
+          <td class="memname">uint64_t(* mos_bufmgr::get_platform_information)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00432">432</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00413">413</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1353,7 +1337,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >used for reserved info </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00442">442</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00423">423</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1364,12 +1348,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::get_reset_stats)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint32_t *reset_count, uint32_t *active, uint32_t *pending)</td>
+          <td class="memname">int(* mos_bufmgr::get_reset_stats)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint32_t *reset_count, uint32_t *active, uint32_t *pending) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00420">420</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00401">401</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1380,12 +1364,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::get_ts_frequency)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, uint32_t *ts_freq)</td>
+          <td class="memname">int(* mos_bufmgr::get_ts_frequency)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, uint32_t *ts_freq) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00434">434</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00415">415</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1396,12 +1380,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool(* mos_bufmgr::has_bsd2)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td>
+          <td class="memname">bool(* mos_bufmgr::has_bsd2)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00435">435</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00416">416</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1417,7 +1401,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00443">443</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00424">424</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1428,13 +1412,13 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int(* mos_bufmgr::hweight8)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint8_t w)</td>
+          <td class="memname">unsigned int(* mos_bufmgr::hweight8)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint8_t w) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p >Enables verbose debugging printouts </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00438">438</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00419">419</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1450,7 +1434,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00444">444</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00425">425</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1461,12 +1445,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::query_device_blob)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../d3/d23/media__skuwa__specific_8h.html#a1662154e11ff509c5cd03432fc5d3d10">MEDIA_SYSTEM_INFO</a> *gfx_info)</td>
+          <td class="memname">int(* mos_bufmgr::query_device_blob)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../d3/d23/media__skuwa__specific_8h.html#a1662154e11ff509c5cd03432fc5d3d10">MEDIA_SYSTEM_INFO</a> *gfx_info) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00429">429</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00410">410</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1477,12 +1461,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::query_engines)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#abc70358187152575fd05fbf6d253151f">__u16</a> engine_class, <a class="el" href="../../da/d68/drm_8h.html#ac2a2bfb32105ffe8e74b67670b7ec440">__u64</a> caps, unsigned int *nengine, void *<a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#ac74e49a105e28f20f3c984998183c937">ci</a>)</td>
+          <td class="memname">int(* mos_bufmgr::query_engines)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#abc70358187152575fd05fbf6d253151f">__u16</a> engine_class, <a class="el" href="../../da/d68/drm_8h.html#ac2a2bfb32105ffe8e74b67670b7ec440">__u64</a> caps, unsigned int *nengine, void *<a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#ac74e49a105e28f20f3c984998183c937">ci</a>) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00388">388</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00364">364</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1493,12 +1477,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::query_engines_count)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, unsigned int *nengine)</td>
+          <td class="memname">int(* mos_bufmgr::query_engines_count)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, unsigned int *nengine) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00385">385</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00362">362</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1509,12 +1493,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::query_hw_ip_version)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#abc70358187152575fd05fbf6d253151f">__u16</a> engine_class, void *ip_ver_info)</td>
+          <td class="memname">int(* mos_bufmgr::query_hw_ip_version)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#abc70358187152575fd05fbf6d253151f">__u16</a> engine_class, void *ip_ver_info) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00431">431</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00412">412</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1525,12 +1509,28 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::query_sys_engines)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../d3/d23/media__skuwa__specific_8h.html#a1662154e11ff509c5cd03432fc5d3d10">MEDIA_SYSTEM_INFO</a> *gfx_info)</td>
+          <td class="memname">int(* mos_bufmgr::query_sys_engines)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../d3/d23/media__skuwa__specific_8h.html#a1662154e11ff509c5cd03432fc5d3d10">MEDIA_SYSTEM_INFO</a> *gfx_info) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00428">428</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00409">409</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+
+</div>
+</div>
+<a id="a9890984782b01353fd2c6fa5f0668cf9" name="a9890984782b01353fd2c6fa5f0668cf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9890984782b01353fd2c6fa5f0668cf9">&#9670;&nbsp;</a></span>realloc_cache</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* mos_bufmgr::realloc_cache)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, uint8_t alloc_mode) = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00361">361</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1541,12 +1541,28 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::reg_read)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, uint32_t offset, uint64_t *result)</td>
+          <td class="memname">int(* mos_bufmgr::reg_read)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, uint32_t offset, uint64_t *result) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00417">417</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00398">398</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+
+</div>
+</div>
+<a id="ac527ad4467c2fc802cb8897cf95a7f69" name="ac527ad4467c2fc802cb8897cf95a7f69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac527ad4467c2fc802cb8897cf95a7f69">&#9670;&nbsp;</a></span>select_fixed_engine</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* mos_bufmgr::select_fixed_engine)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, void *engine_map, uint32_t *nengine, uint32_t fixed_instance_mask) = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00372">372</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1557,12 +1573,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::set_context_param)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint32_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>, uint64_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#aacf43f3fb24e9ad2f73ad7fff5336a9b">param</a>, uint64_t value)</td>
+          <td class="memname">int(* mos_bufmgr::set_context_param)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint32_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#a778fb2df652488eb52045d01ab72f0e1">size</a>, uint64_t <a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#aacf43f3fb24e9ad2f73ad7fff5336a9b">param</a>, uint64_t value) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00396">396</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00377">377</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1573,12 +1589,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::set_context_param_bond)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> master_ci, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> *bond_ci, unsigned int bond_count)</td>
+          <td class="memname">int(* mos_bufmgr::set_context_param_bond)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> master_ci, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> *bond_ci, unsigned int bond_count) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00406">406</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00387">387</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1589,12 +1605,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::set_context_param_load_balance)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> *<a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#ac74e49a105e28f20f3c984998183c937">ci</a>, unsigned int count)</td>
+          <td class="memname">int(* mos_bufmgr::set_context_param_load_balance)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> *<a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#ac74e49a105e28f20f3c984998183c937">ci</a>, unsigned int count) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00403">403</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00384">384</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1605,12 +1621,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::set_context_param_parallel)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> *<a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#ac74e49a105e28f20f3c984998183c937">ci</a>, unsigned int count)</td>
+          <td class="memname">int(* mos_bufmgr::set_context_param_parallel)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dd/d41/structi915__engine__class__instance.html">i915_engine_class_instance</a> *<a class="el" href="../../d8/df7/i915__drm__prelim_8h.html#ac74e49a105e28f20f3c984998183c937">ci</a>, unsigned int count) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00400">400</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00381">381</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1621,12 +1637,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* mos_bufmgr::set_context_param_sseu)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dc/d93/structdrm__i915__gem__context__param__sseu.html">drm_i915_gem_context_param_sseu</a> sseu)</td>
+          <td class="memname">int(* mos_bufmgr::set_context_param_sseu)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, struct <a class="el" href="../../dc/d93/structdrm__i915__gem__context__param__sseu.html">drm_i915_gem_context_param_sseu</a> sseu) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00426">426</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00407">407</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1637,7 +1653,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::set_exec_object_async)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo)</td>
+          <td class="memname">void(* mos_bufmgr::set_exec_object_async)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo, struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *target_bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1650,7 +1666,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00304">304</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00280">280</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1661,7 +1677,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::set_object_async)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">void(* mos_bufmgr::set_object_async)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1673,7 +1689,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00296">296</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00272">272</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1684,7 +1700,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::set_object_capture)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo)</td>
+          <td class="memname">void(* mos_bufmgr::set_object_capture)(struct <a class="el" href="../../db/d8b/structmos__linux__bo.html">mos_linux_bo</a> *bo) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1696,7 +1712,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00311">311</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00287">287</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1707,12 +1723,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::set_platform_information)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, uint64_t p)</td>
+          <td class="memname">void(* mos_bufmgr::set_platform_information)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, uint64_t p) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00433">433</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00414">414</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1723,12 +1739,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t(* mos_bufmgr::switch_off_n_bits)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint8_t in_mask, int n)</td>
+          <td class="memname">uint8_t(* mos_bufmgr::switch_off_n_bits)(struct <a class="el" href="../../d4/d36/structmos__linux__context.html">mos_linux_context</a> *ctx, uint8_t in_mask, int n) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00437">437</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00418">418</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1744,7 +1760,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9a/production_2mos__bufmgr__priv_8h_source.html#l00444">444</a> of file <a class="el" href="../../d5/d9a/production_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9a/production_2mos__bufmgr__priv_8h_source.html#l00426">426</a> of file <a class="el" href="../../d5/d9a/production_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1755,12 +1771,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a>(* mos_bufmgr::vm_create)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr)</td>
+          <td class="memname"><a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a>(* mos_bufmgr::vm_create)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00358">358</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00334">334</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
@@ -1771,18 +1787,18 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* mos_bufmgr::vm_destroy)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a> vm_id)</td>
+          <td class="memname">void(* mos_bufmgr::vm_destroy)(struct <a class="el" href="../../d2/da7/structmos__bufmgr.html">mos_bufmgr</a> *bufmgr, <a class="el" href="../../da/d68/drm_8h.html#a3acae9310e2c2e411e800a8a369171c6">__u32</a> vm_id) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00359">359</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html#l00335">335</a> of file <a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/i915/include/<a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a></li>
-<li>C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/i915_production/<a class="el" href="../../d5/d9a/production_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a></li>
+<li>C:/Users/xiaoganx/Project/media-driver/media_softlet/linux/common/os/i915/include/<a class="el" href="../../d8/d76/include_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a></li>
+<li>C:/Users/xiaoganx/Project/media-driver/media_softlet/linux/common/os/i915_production/<a class="el" href="../../d5/d9a/production_2mos__bufmgr__priv_8h_source.html">mos_bufmgr_priv.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

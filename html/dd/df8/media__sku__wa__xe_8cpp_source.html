@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_driver/linux/Xe_M/ddi/media_sku_wa_xe.cpp Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media-driver/media_driver/linux/Xe_M/ddi/media_sku_wa_xe.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;24.2.6</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_55776ec83c9d032fd3160e5735bb9eeb.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_71b97772b1880ae754b9c282d2ac7b3e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_d7cc27b07d500b8b100c4ecf32cc34c4.html">Xe_M</a></li><li class="navelem"><a class="el" href="../../dir_a88c2d93c578292958e5828407290e12.html">ddi</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_9f344d85c56218b4cc4cd630467c6da2.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_cf531a48a76214fcf45a89345f779f1f.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_311ea0f377c5de6cdc50ddc6c60874ba.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_e4899c5daa46cbb3621a0ed676aae045.html">Xe_M</a></li><li class="navelem"><a class="el" href="../../dir_652b52a3fe8c6251576f63d0b4e954aa.html">ddi</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -985,39 +985,41 @@ $(function() {
 <div class="line"><a id="l00915" name="l00915"></a><span class="lineno">  915</span> </div>
 <div class="line"><a id="l00916" name="l00916"></a><span class="lineno">  916</span>    <a class="code hl_define" href="../../d5/d39/linux__media__skuwa_8h.html#a97f56c86446a7de260f9ae44962f1c2a">MEDIA_WR_WA</a>(waTable, WaDisableSetObjectCapture, 1);</div>
 <div class="line"><a id="l00917" name="l00917"></a><span class="lineno">  917</span> </div>
-<div class="line"><a id="l00918" name="l00918"></a><span class="lineno">  918</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00919" name="l00919"></a><span class="lineno">  919</span>}</div>
-<div class="line"><a id="l00920" name="l00920"></a><span class="lineno">  920</span> </div>
-<div class="line"><a id="l00921" name="l00921"></a><span class="lineno">  921</span> </div>
-<div class="line"><a id="l00922" name="l00922"></a><span class="lineno">  922</span><span class="keyword">static</span> <span class="keyword">struct </span><a class="code hl_struct" href="../../d0/d59/struct_linux_device_init.html">LinuxDeviceInit</a> xehpSDVDeviceInit =</div>
-<div class="line"><a id="l00923" name="l00923"></a><span class="lineno">  923</span>{</div>
-<div class="line"><a id="l00924" name="l00924"></a><span class="lineno">  924</span>    .<a class="code hl_variable" href="../../d0/d59/struct_linux_device_init.html#a639e329d3b4176fe5caf402096eef3a3">productFamily</a>    = IGFX_XE_HP_SDV,</div>
-<div class="line"><a id="l00925" name="l00925"></a><span class="lineno">  925</span>    .InitMediaFeature = InitXehpSDVMediaSku,</div>
-<div class="line"><a id="l00926" name="l00926"></a><span class="lineno">  926</span>    .InitMediaWa      = InitXehpSDVMediaWa,</div>
-<div class="line"><a id="l00927" name="l00927"></a><span class="lineno">  927</span>};</div>
-<div class="line"><a id="l00928" name="l00928"></a><span class="lineno">  928</span> </div>
-<div class="line"><a id="l00929" name="l00929"></a><span class="lineno">  929</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpSDVDeviceRegister = DeviceInfoFactory&lt;LinuxDeviceInit&gt;::</div>
-<div class="line"><a id="l00930" name="l00930"></a><span class="lineno">  930</span>    RegisterDevice(IGFX_XE_HP_SDV, &amp;xehpSDVDeviceInit);</div>
-<div class="line"><a id="l00931" name="l00931"></a><span class="lineno">  931</span> </div>
-<div class="line"><a id="l00932" name="l00932"></a><span class="lineno">  932</span><span class="keyword">static</span> <span class="keyword">struct </span><a class="code hl_struct" href="../../d0/d59/struct_linux_device_init.html">LinuxDeviceInit</a> dg2DeviceInit =</div>
-<div class="line"><a id="l00933" name="l00933"></a><span class="lineno">  933</span>{</div>
-<div class="line"><a id="l00934" name="l00934"></a><span class="lineno">  934</span>    .<a class="code hl_variable" href="../../d0/d59/struct_linux_device_init.html#a639e329d3b4176fe5caf402096eef3a3">productFamily</a>    = IGFX_DG2,</div>
-<div class="line"><a id="l00935" name="l00935"></a><span class="lineno">  935</span>    .InitMediaFeature = InitDg2MediaSku,</div>
-<div class="line"><a id="l00936" name="l00936"></a><span class="lineno">  936</span>    .InitMediaWa      = InitDg2MediaWa,</div>
-<div class="line"><a id="l00937" name="l00937"></a><span class="lineno">  937</span>};</div>
-<div class="line"><a id="l00938" name="l00938"></a><span class="lineno">  938</span> </div>
-<div class="line"><a id="l00939" name="l00939"></a><span class="lineno">  939</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2DeviceRegister = DeviceInfoFactory&lt;LinuxDeviceInit&gt;::</div>
-<div class="line"><a id="l00940" name="l00940"></a><span class="lineno">  940</span>    RegisterDevice(IGFX_DG2, &amp;dg2DeviceInit);</div>
-<div class="line"><a id="l00941" name="l00941"></a><span class="lineno">  941</span> </div>
-<div class="line"><a id="l00942" name="l00942"></a><span class="lineno">  942</span><span class="keyword">static</span> <span class="keyword">struct </span><a class="code hl_struct" href="../../d0/d59/struct_linux_device_init.html">LinuxDeviceInit</a> pvcDeviceInit =</div>
-<div class="line"><a id="l00943" name="l00943"></a><span class="lineno">  943</span>{</div>
-<div class="line"><a id="l00944" name="l00944"></a><span class="lineno">  944</span>    .<a class="code hl_variable" href="../../d0/d59/struct_linux_device_init.html#a639e329d3b4176fe5caf402096eef3a3">productFamily</a>    = IGFX_PVC,</div>
-<div class="line"><a id="l00945" name="l00945"></a><span class="lineno">  945</span>    .InitMediaFeature = InitPvcMediaSku,</div>
-<div class="line"><a id="l00946" name="l00946"></a><span class="lineno">  946</span>    .InitMediaWa      = InitPvcMediaWa,</div>
-<div class="line"><a id="l00947" name="l00947"></a><span class="lineno">  947</span>};</div>
-<div class="line"><a id="l00948" name="l00948"></a><span class="lineno">  948</span> </div>
-<div class="line"><a id="l00949" name="l00949"></a><span class="lineno">  949</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcDeviceRegister = DeviceInfoFactory&lt;LinuxDeviceInit&gt;::</div>
-<div class="line"><a id="l00950" name="l00950"></a><span class="lineno">  950</span>    RegisterDevice(IGFX_PVC, &amp;pvcDeviceInit);</div>
+<div class="line"><a id="l00918" name="l00918"></a><span class="lineno">  918</span>    <a class="code hl_define" href="../../d5/d39/linux__media__skuwa_8h.html#a97f56c86446a7de260f9ae44962f1c2a">MEDIA_WR_WA</a>(waTable, Wa_15013355402, 1);</div>
+<div class="line"><a id="l00919" name="l00919"></a><span class="lineno">  919</span> </div>
+<div class="line"><a id="l00920" name="l00920"></a><span class="lineno">  920</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00921" name="l00921"></a><span class="lineno">  921</span>}</div>
+<div class="line"><a id="l00922" name="l00922"></a><span class="lineno">  922</span> </div>
+<div class="line"><a id="l00923" name="l00923"></a><span class="lineno">  923</span> </div>
+<div class="line"><a id="l00924" name="l00924"></a><span class="lineno">  924</span><span class="keyword">static</span> <span class="keyword">struct </span><a class="code hl_struct" href="../../d0/d59/struct_linux_device_init.html">LinuxDeviceInit</a> xehpSDVDeviceInit =</div>
+<div class="line"><a id="l00925" name="l00925"></a><span class="lineno">  925</span>{</div>
+<div class="line"><a id="l00926" name="l00926"></a><span class="lineno">  926</span>    .<a class="code hl_variable" href="../../d0/d59/struct_linux_device_init.html#a639e329d3b4176fe5caf402096eef3a3">productFamily</a>    = IGFX_XE_HP_SDV,</div>
+<div class="line"><a id="l00927" name="l00927"></a><span class="lineno">  927</span>    .InitMediaFeature = InitXehpSDVMediaSku,</div>
+<div class="line"><a id="l00928" name="l00928"></a><span class="lineno">  928</span>    .InitMediaWa      = InitXehpSDVMediaWa,</div>
+<div class="line"><a id="l00929" name="l00929"></a><span class="lineno">  929</span>};</div>
+<div class="line"><a id="l00930" name="l00930"></a><span class="lineno">  930</span> </div>
+<div class="line"><a id="l00931" name="l00931"></a><span class="lineno">  931</span><span class="keyword">static</span> <span class="keywordtype">bool</span> xehpSDVDeviceRegister = DeviceInfoFactory&lt;LinuxDeviceInit&gt;::</div>
+<div class="line"><a id="l00932" name="l00932"></a><span class="lineno">  932</span>    RegisterDevice(IGFX_XE_HP_SDV, &amp;xehpSDVDeviceInit);</div>
+<div class="line"><a id="l00933" name="l00933"></a><span class="lineno">  933</span> </div>
+<div class="line"><a id="l00934" name="l00934"></a><span class="lineno">  934</span><span class="keyword">static</span> <span class="keyword">struct </span><a class="code hl_struct" href="../../d0/d59/struct_linux_device_init.html">LinuxDeviceInit</a> dg2DeviceInit =</div>
+<div class="line"><a id="l00935" name="l00935"></a><span class="lineno">  935</span>{</div>
+<div class="line"><a id="l00936" name="l00936"></a><span class="lineno">  936</span>    .<a class="code hl_variable" href="../../d0/d59/struct_linux_device_init.html#a639e329d3b4176fe5caf402096eef3a3">productFamily</a>    = IGFX_DG2,</div>
+<div class="line"><a id="l00937" name="l00937"></a><span class="lineno">  937</span>    .InitMediaFeature = InitDg2MediaSku,</div>
+<div class="line"><a id="l00938" name="l00938"></a><span class="lineno">  938</span>    .InitMediaWa      = InitDg2MediaWa,</div>
+<div class="line"><a id="l00939" name="l00939"></a><span class="lineno">  939</span>};</div>
+<div class="line"><a id="l00940" name="l00940"></a><span class="lineno">  940</span> </div>
+<div class="line"><a id="l00941" name="l00941"></a><span class="lineno">  941</span><span class="keyword">static</span> <span class="keywordtype">bool</span> dg2DeviceRegister = DeviceInfoFactory&lt;LinuxDeviceInit&gt;::</div>
+<div class="line"><a id="l00942" name="l00942"></a><span class="lineno">  942</span>    RegisterDevice(IGFX_DG2, &amp;dg2DeviceInit);</div>
+<div class="line"><a id="l00943" name="l00943"></a><span class="lineno">  943</span> </div>
+<div class="line"><a id="l00944" name="l00944"></a><span class="lineno">  944</span><span class="keyword">static</span> <span class="keyword">struct </span><a class="code hl_struct" href="../../d0/d59/struct_linux_device_init.html">LinuxDeviceInit</a> pvcDeviceInit =</div>
+<div class="line"><a id="l00945" name="l00945"></a><span class="lineno">  945</span>{</div>
+<div class="line"><a id="l00946" name="l00946"></a><span class="lineno">  946</span>    .<a class="code hl_variable" href="../../d0/d59/struct_linux_device_init.html#a639e329d3b4176fe5caf402096eef3a3">productFamily</a>    = IGFX_PVC,</div>
+<div class="line"><a id="l00947" name="l00947"></a><span class="lineno">  947</span>    .InitMediaFeature = InitPvcMediaSku,</div>
+<div class="line"><a id="l00948" name="l00948"></a><span class="lineno">  948</span>    .InitMediaWa      = InitPvcMediaWa,</div>
+<div class="line"><a id="l00949" name="l00949"></a><span class="lineno">  949</span>};</div>
+<div class="line"><a id="l00950" name="l00950"></a><span class="lineno">  950</span> </div>
+<div class="line"><a id="l00951" name="l00951"></a><span class="lineno">  951</span><span class="keyword">static</span> <span class="keywordtype">bool</span> pvcDeviceRegister = DeviceInfoFactory&lt;LinuxDeviceInit&gt;::</div>
+<div class="line"><a id="l00952" name="l00952"></a><span class="lineno">  952</span>    RegisterDevice(IGFX_PVC, &amp;pvcDeviceInit);</div>
 <div class="ttc" id="aclass_media_feature_table_html"><div class="ttname"><a href="../../d3/dc8/class_media_feature_table.html">MediaFeatureTable</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00037">linux_media_skuwa.h:38</a></div></div>
 <div class="ttc" id="aclass_media_wa_table_html"><div class="ttname"><a href="../../df/d79/class_media_wa_table.html">MediaWaTable</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/linux__media__skuwa_8h_source.html#l00163">linux_media_skuwa.h:164</a></div></div>
 <div class="ttc" id="alinux__media__skuwa_8h_html"><div class="ttname"><a href="../../d5/d39/linux__media__skuwa_8h.html">linux_media_skuwa.h</a></div></div>

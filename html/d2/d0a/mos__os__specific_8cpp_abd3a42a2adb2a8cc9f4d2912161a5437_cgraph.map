@@ -1,6 +1,6 @@
 <map id="Linux_InitGPUStatus" name="Linux_InitGPUStatus">
 <area shape="rect" id="node1" title="Initialize the GPU Status Buffer." alt="" coords="5,56,148,83"/>
-<area shape="rect" id="node2" href="$d7/d73/mos__bufmgr__api__mock_8c.html#aa325d5048df51438d30d99c2be3552d9" title=" " alt="" coords="216,5,319,32"/>
+<area shape="rect" id="node2" href="$d7/d73/mos__bufmgr__api__mock_8c.html#af532c50a18b1e8aead1e0f7436c38b8c" title=" " alt="" coords="216,5,319,32"/>
 <area shape="rect" id="node3" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a9a16cb939a463525c3efb4e95527d49e" title=" " alt="" coords="217,56,317,83"/>
 <area shape="rect" id="node4" href="$d7/d73/mos__bufmgr__api__mock_8c.html#a3f50be67296c219589a0953fb792dca4" title=" " alt="" coords="196,107,339,133"/>
 </map>

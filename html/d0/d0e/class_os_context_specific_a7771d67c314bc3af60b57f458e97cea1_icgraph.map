@@ -1,33 +1,32 @@
 <map id="OsContextSpecific::GetGpuContextMgr" name="OsContextSpecific::GetGpuContextMgr">
-<area shape="rect" id="node1" title=" " alt="" coords="1041,1208,1180,1249"/>
-<area shape="rect" id="node2" href="$d3/de3/mos__os__specific_8c.html#a1d516de6e2f97c094e98dde34baeddc4" title=" " alt="" coords="807,537,958,563"/>
-<area shape="rect" id="node24" href="$d3/de3/mos__os__specific_8c.html#a0c4af9880d68a1a27a6ff4122d6a0bc3" title=" " alt="" coords="809,1098,957,1125"/>
-<area shape="rect" id="node26" href="$d3/de3/mos__os__specific_8c.html#a40108667c1798c84a3344c1e31d74924" title=" " alt="" coords="772,1149,993,1191"/>
-<area shape="rect" id="node27" href="$d3/de3/mos__os__specific_8c.html#acac4b7736ea82f8f210ff7bf95036540" title="Destroy Compute GPU context." alt="" coords="227,1205,455,1247"/>
-<area shape="rect" id="node28" href="$d3/de3/mos__os__specific_8c.html#afe3154f90fd1addd59b9330abd6195d0" title="Destroy GPU context." alt="" coords="230,1271,451,1298"/>
-<area shape="rect" id="node29" href="$d3/de3/mos__os__specific_8c.html#afba44cfae456f6f881d6470c6f359bf5" title="Get GPU context pointer." alt="" coords="235,1323,446,1364"/>
-<area shape="rect" id="node30" href="$d3/de3/mos__os__specific_8c.html#ad14a970620f79a15a9b8ad8068bf8379" title="Get GPU context Manager." alt="" coords="773,1377,992,1403"/>
-<area shape="rect" id="node3" href="$d3/de3/mos__os__specific_8c.html#ade072a6844423bd86d6cf9af3bbb8628" title="Get GPU tag for the given GPU context from the status buffer." alt="" coords="548,385,679,411"/>
-<area shape="rect" id="node6" href="$d3/de3/mos__os__specific_8c.html#ab44b7e3c9085a8387b6d88d9b3e0ad0d" title="Get command buffer." alt="" coords="503,435,723,462"/>
-<area shape="rect" id="node7" href="$d3/de3/mos__os__specific_8c.html#a72a502f204bb90147447feb29656fedd" title="Get GPU status buffer." alt="" coords="245,469,436,511"/>
-<area shape="rect" id="node8" href="$d3/de3/mos__os__specific_8c.html#a0c8928fd158f81c642c59043b6ff8b45" title="Get GPU status tag." alt="" coords="235,535,446,562"/>
-<area shape="rect" id="node9" href="$d3/de3/mos__os__specific_8c.html#a39f219cfceb267be4f3ac4a3fa327c75" title="Set indirect state size." alt="" coords="255,587,426,628"/>
-<area shape="rect" id="node10" href="$d3/de3/mos__os__specific_8c.html#ac9eda79ebc9191c17dd194d1d7d923d0" title="Get Indirect State Pointer." alt="" coords="255,652,426,693"/>
-<area shape="rect" id="node11" href="$d3/de3/mos__os__specific_8c.html#a50286c6f767aefd1fac73fa8525eb0d2" title="Increment GPU status tag." alt="" coords="247,717,435,759"/>
-<area shape="rect" id="node12" href="$d3/de3/mos__os__specific_8c.html#a357463bf49a978a704875fdd236c2fcb" title="Determines if the GPU Hung." alt="" coords="253,783,428,810"/>
-<area shape="rect" id="node13" href="$d3/de3/mos__os__specific_8c.html#a74cdff76912a65ab2b816c3b7089c7ad" title="Registers Resource." alt="" coords="235,834,446,861"/>
-<area shape="rect" id="node14" href="$d3/de3/mos__os__specific_8c.html#ab031ec2dc8fec386f2e1a6a80a88e269" title="reset command buffer space" alt="" coords="241,885,441,927"/>
-<area shape="rect" id="node15" href="$d2/d0a/mos__os__specific_8cpp.html#aa995eefc14b1449162f2ba6ac00df200" title="Resets OS States." alt="" coords="515,947,711,974"/>
-<area shape="rect" id="node17" href="$d2/d0a/mos__os__specific_8cpp.html#ad30c03fe73791bba31d0d7b776960ecc" title="Resizes the buffer to be used for rendering GPU commands." alt="" coords="510,999,717,1040"/>
-<area shape="rect" id="node18" href="$d3/de3/mos__os__specific_8c.html#a1da140bcc522abd3b299983376b8799e" title="Return command buffer space." alt="" coords="511,5,715,47"/>
-<area shape="rect" id="node19" href="$d3/de3/mos__os__specific_8c.html#a486cefd9e06514075b3a14f85105879f" title="Set indirect state size." alt="" coords="529,71,698,112"/>
-<area shape="rect" id="node20" href="$d3/de3/mos__os__specific_8c.html#a0c7b5557606cd6473f55039a182f9237" title="Set patch entry." alt="" coords="517,137,709,163"/>
-<area shape="rect" id="node21" href="$d3/de3/mos__os__specific_8c.html#a71f74b0ef924cf19b39f8ae640510082" title="Submit command buffer." alt="" coords="510,188,717,229"/>
-<area shape="rect" id="node22" href="$d3/de3/mos__os__specific_8c.html#a2a226506b3d225b8ef2a50a48721f9cf" title="Verify command buffer size." alt="" coords="514,253,713,295"/>
-<area shape="rect" id="node23" href="$d3/de3/mos__os__specific_8c.html#a1b594cac5ccc5f9745e8ee3a6ef428fc" title="Verifys the patch list to be used for rendering GPU commands is large enough." alt="" coords="526,319,701,360"/>
-<area shape="rect" id="node4" href="$d3/de3/mos__os__specific_8c.html#aa6039ca11bf44a96683f603d5ad53eb3" title="Init Linux context." alt="" coords="279,367,402,394"/>
-<area shape="rect" id="node5" href="$d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,693,179,719"/>
-<area shape="rect" id="node16" href="$d2/d0a/mos__os__specific_8cpp.html#af32ef68510c731e300b178fd596f5d8e" title=" " alt="" coords="248,1002,433,1029"/>
-<area shape="rect" id="node25" href="$d2/d0a/mos__os__specific_8cpp.html#afa2a1942256e8ba90c13e06ad3e6d4cf" title="Destroys OS specific allocations." alt="" coords="537,1098,689,1125"/>
-<area shape="rect" id="node31" href="$d3/de3/mos__os__specific_8c.html#aed04016cfa805ec98d29752f93ccf58f" title="Destroy GPU context by handle." alt="" coords="503,1377,724,1419"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1041,1165,1180,1206"/>
+<area shape="rect" id="node2" href="$d3/de3/mos__os__specific_8c.html#a1d516de6e2f97c094e98dde34baeddc4" title=" " alt="" coords="807,520,958,547"/>
+<area shape="rect" id="node23" href="$d3/de3/mos__os__specific_8c.html#a0c4af9880d68a1a27a6ff4122d6a0bc3" title=" " alt="" coords="809,1055,957,1081"/>
+<area shape="rect" id="node25" href="$d3/de3/mos__os__specific_8c.html#a40108667c1798c84a3344c1e31d74924" title=" " alt="" coords="772,1106,993,1147"/>
+<area shape="rect" id="node26" href="$d3/de3/mos__os__specific_8c.html#acac4b7736ea82f8f210ff7bf95036540" title="Destroy Compute GPU context." alt="" coords="227,1149,455,1190"/>
+<area shape="rect" id="node27" href="$d3/de3/mos__os__specific_8c.html#afe3154f90fd1addd59b9330abd6195d0" title="Destroy GPU context." alt="" coords="230,1215,451,1241"/>
+<area shape="rect" id="node28" href="$d3/de3/mos__os__specific_8c.html#afba44cfae456f6f881d6470c6f359bf5" title="Get GPU context pointer." alt="" coords="235,1266,446,1307"/>
+<area shape="rect" id="node29" href="$d3/de3/mos__os__specific_8c.html#ad14a970620f79a15a9b8ad8068bf8379" title="Get GPU context Manager." alt="" coords="773,1328,992,1355"/>
+<area shape="rect" id="node3" href="$d3/de3/mos__os__specific_8c.html#ade072a6844423bd86d6cf9af3bbb8628" title="Get GPU tag for the given GPU context from the status buffer." alt="" coords="548,48,679,75"/>
+<area shape="rect" id="node6" href="$d3/de3/mos__os__specific_8c.html#ab44b7e3c9085a8387b6d88d9b3e0ad0d" title="Get command buffer." alt="" coords="503,99,723,125"/>
+<area shape="rect" id="node7" href="$d3/de3/mos__os__specific_8c.html#a72a502f204bb90147447feb29656fedd" title="Get GPU status buffer." alt="" coords="518,150,709,191"/>
+<area shape="rect" id="node8" href="$d3/de3/mos__os__specific_8c.html#a0c8928fd158f81c642c59043b6ff8b45" title="Get GPU status tag." alt="" coords="235,208,446,235"/>
+<area shape="rect" id="node9" href="$d3/de3/mos__os__specific_8c.html#a39f219cfceb267be4f3ac4a3fa327c75" title="Set indirect state size." alt="" coords="255,259,426,301"/>
+<area shape="rect" id="node10" href="$d3/de3/mos__os__specific_8c.html#ac9eda79ebc9191c17dd194d1d7d923d0" title="Get Indirect State Pointer." alt="" coords="255,325,426,366"/>
+<area shape="rect" id="node11" href="$d3/de3/mos__os__specific_8c.html#a50286c6f767aefd1fac73fa8525eb0d2" title="Increment GPU status tag." alt="" coords="247,390,435,431"/>
+<area shape="rect" id="node12" href="$d3/de3/mos__os__specific_8c.html#a357463bf49a978a704875fdd236c2fcb" title="Determines if the GPU Hung." alt="" coords="253,456,428,483"/>
+<area shape="rect" id="node13" href="$d3/de3/mos__os__specific_8c.html#a74cdff76912a65ab2b816c3b7089c7ad" title="Registers Resource." alt="" coords="235,507,446,533"/>
+<area shape="rect" id="node14" href="$d3/de3/mos__os__specific_8c.html#ab031ec2dc8fec386f2e1a6a80a88e269" title="reset command buffer space" alt="" coords="241,558,441,599"/>
+<area shape="rect" id="node15" href="$d3/de3/mos__os__specific_8c.html#affa84b8f4fd8d24b544c553d122532ca" title="Resets OS States." alt="" coords="243,624,439,651"/>
+<area shape="rect" id="node16" href="$d3/de3/mos__os__specific_8c.html#a91de651f9d676c5dadbceef80de6baf1" title="Resizes the buffer to be used for rendering GPU commands." alt="" coords="510,622,717,663"/>
+<area shape="rect" id="node17" href="$d3/de3/mos__os__specific_8c.html#a1da140bcc522abd3b299983376b8799e" title="Return command buffer space." alt="" coords="511,687,715,729"/>
+<area shape="rect" id="node18" href="$d3/de3/mos__os__specific_8c.html#a486cefd9e06514075b3a14f85105879f" title="Set indirect state size." alt="" coords="529,753,698,794"/>
+<area shape="rect" id="node19" href="$d3/de3/mos__os__specific_8c.html#a0c7b5557606cd6473f55039a182f9237" title="Set patch entry." alt="" coords="517,819,709,845"/>
+<area shape="rect" id="node20" href="$d3/de3/mos__os__specific_8c.html#a71f74b0ef924cf19b39f8ae640510082" title="Submit command buffer." alt="" coords="510,870,717,911"/>
+<area shape="rect" id="node21" href="$d3/de3/mos__os__specific_8c.html#a2a226506b3d225b8ef2a50a48721f9cf" title="Verify command buffer size." alt="" coords="514,935,713,977"/>
+<area shape="rect" id="node22" href="$d3/de3/mos__os__specific_8c.html#a1b594cac5ccc5f9745e8ee3a6ef428fc" title="Verifys the patch list to be used for rendering GPU commands is large enough." alt="" coords="526,1001,701,1042"/>
+<area shape="rect" id="node4" href="$d3/de3/mos__os__specific_8c.html#aa6039ca11bf44a96683f603d5ad53eb3" title="Init Linux context." alt="" coords="279,5,402,32"/>
+<area shape="rect" id="node5" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,675,179,701"/>
+<area shape="rect" id="node24" href="$d3/de3/mos__os__specific_8c.html#a43d7b7e93bb2945e2258bdaa98f27245" title="Destroys OS specific allocations." alt="" coords="537,1067,689,1093"/>
+<area shape="rect" id="node30" href="$d3/de3/mos__os__specific_8c.html#aed04016cfa805ec98d29752f93ccf58f" title="Destroy GPU context by handle." alt="" coords="503,1325,724,1366"/>
 </map>

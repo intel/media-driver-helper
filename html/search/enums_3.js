@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['ddi_5fencode_5fjpeg_5finputsurfaceformats_0',['DDI_ENCODE_JPEG_INPUTSURFACEFORMATS',['../d2/d17/media__ddi__encode__jpeg_8h.html#a661c0d8bb73e7946bab8179536436bf3',1,'DDI_ENCODE_JPEG_INPUTSURFACEFORMATS():&#160;media_ddi_encode_jpeg.h'],['../de/d7d/namespaceencode.html#a4c207dc656644da0ff459ff1904c5393',1,'encode::DDI_ENCODE_JPEG_INPUTSURFACEFORMATS()']]],
+  ['ddi_5fencode_5fjpeg_5finputsurfaceformats_0',['DDI_ENCODE_JPEG_INPUTSURFACEFORMATS',['../de/d7d/namespaceencode.html#a4c207dc656644da0ff459ff1904c5393',1,'encode::DDI_ENCODE_JPEG_INPUTSURFACEFORMATS()'],['../d2/d17/media__ddi__encode__jpeg_8h.html#a661c0d8bb73e7946bab8179536436bf3',1,'DDI_ENCODE_JPEG_INPUTSURFACEFORMATS():&#160;media_ddi_encode_jpeg.h']]],
   ['ddicpcreatetype_1',['DdiCpCreateType',['../dc/dee/ddi__cp__interface__next_8h.html#a734b934095499ec1337d97364cf75ddb',1,'ddi_cp_interface_next.h']]],
   ['ddisurfaceformat_2',['DdiSurfaceFormat',['../d3/da0/mos__os__specific_8h.html#a3d3ad86c6da58e21b7c39bc6b768e67f',1,'mos_os_specific.h']]],
   ['device_5ftype_3',['device_type',['../d5/d3a/mos__bufmgr__api_8h.html#af2b559cc2ee2eaee47fe1f15cc99f49e',1,'mos_bufmgr_api.h']]],
@@ -20,12 +20,13 @@ var searchData=
   ['drm_5fmode_5fsubconnector_17',['drm_mode_subconnector',['../d6/d9b/drm__mode_8h.html#a26c1d67f99ad2d83144ecc1fa56cfc76',1,'drm_mode.h']]],
   ['drm_5fstat_5ftype_18',['drm_stat_type',['../da/d68/drm_8h.html#a3bf1e6e8f72f92f5667d543a313e185d',1,'drm.h']]],
   ['drm_5fvblank_5fseq_5ftype_19',['drm_vblank_seq_type',['../da/d68/drm_8h.html#ab73e0808901ef89d420e93ed9bc0f9ad',1,'drm.h']]],
-  ['drmbufdescflags_20',['drmBufDescFlags',['../de/d59/xf86drm_8h.html#af97594268fc4dd90fedcc26121ba9f97',1,'xf86drm.h']]],
-  ['drmdmaflags_21',['drmDMAFlags',['../de/d59/xf86drm_8h.html#a2060a4555a4dea825cef43fa98cf9522',1,'xf86drm.h']]],
-  ['drmlockflags_22',['drmLockFlags',['../de/d59/xf86drm_8h.html#a8ec419ef8c5edc327b8540bd254c4247',1,'xf86drm.h']]],
-  ['drmmapflags_23',['drmMapFlags',['../de/d59/xf86drm_8h.html#a6351e24f040c543bf0750a35ef56ea2a',1,'xf86drm.h']]],
-  ['drmmaptype_24',['drmMapType',['../de/d59/xf86drm_8h.html#ae4081eca61bbb515d19c1c0d7f0ab524',1,'xf86drm.h']]],
-  ['drmmodeconnection_25',['drmModeConnection',['../d8/d95/xf86drm_mode_8h.html#a8cf0bc375753780dc374fdf730bec593',1,'xf86drmMode.h']]],
-  ['drmmodesubpixel_26',['drmModeSubPixel',['../d8/d95/xf86drm_mode_8h.html#a440f3020c9ec76c5daebad86fcfc26fa',1,'xf86drmMode.h']]],
-  ['drmvblankseqtype_27',['drmVBlankSeqType',['../de/d59/xf86drm_8h.html#a92591d8b272ddd7d2ad37ac528fb7c42',1,'xf86drm.h']]]
+  ['drm_5fxe_5fmemory_5fclass_20',['drm_xe_memory_class',['../d8/d0e/xe__drm_8h.html#a45cd8cf75dcf81e110a6070c4a1cbce1',1,'xe_drm.h']]],
+  ['drmbufdescflags_21',['drmBufDescFlags',['../de/d59/xf86drm_8h.html#af97594268fc4dd90fedcc26121ba9f97',1,'xf86drm.h']]],
+  ['drmdmaflags_22',['drmDMAFlags',['../de/d59/xf86drm_8h.html#a2060a4555a4dea825cef43fa98cf9522',1,'xf86drm.h']]],
+  ['drmlockflags_23',['drmLockFlags',['../de/d59/xf86drm_8h.html#a8ec419ef8c5edc327b8540bd254c4247',1,'xf86drm.h']]],
+  ['drmmapflags_24',['drmMapFlags',['../de/d59/xf86drm_8h.html#a6351e24f040c543bf0750a35ef56ea2a',1,'xf86drm.h']]],
+  ['drmmaptype_25',['drmMapType',['../de/d59/xf86drm_8h.html#ae4081eca61bbb515d19c1c0d7f0ab524',1,'xf86drm.h']]],
+  ['drmmodeconnection_26',['drmModeConnection',['../d8/d95/xf86drm_mode_8h.html#a8cf0bc375753780dc374fdf730bec593',1,'xf86drmMode.h']]],
+  ['drmmodesubpixel_27',['drmModeSubPixel',['../d8/d95/xf86drm_mode_8h.html#a440f3020c9ec76c5daebad86fcfc26fa',1,'xf86drmMode.h']]],
+  ['drmvblankseqtype_28',['drmVBlankSeqType',['../de/d59/xf86drm_8h.html#a92591d8b272ddd7d2ad37ac528fb7c42',1,'xf86drm.h']]]
 ];

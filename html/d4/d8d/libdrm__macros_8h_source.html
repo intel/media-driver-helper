@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/common/os/i915/include/libdrm_macros.h Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media-driver/media_softlet/linux/common/os/i915/include/libdrm_macros.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;24.2.6</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_3c3410289b14e1df332ecc9157e3894f.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_32ec30427766471c663c1286f4b04a0e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_986d2ce2ac55d27cc447e8d78f5db418.html">common</a></li><li class="navelem"><a class="el" href="../../dir_11379992f964418e636509c17f24b568.html">os</a></li><li class="navelem"><a class="el" href="../../dir_db1affcfadbe2ba43dc1da202a8ed7e9.html">i915</a></li><li class="navelem"><a class="el" href="../../dir_2ecfd2c5576812cbfefb68186b70393b.html">include</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_9f344d85c56218b4cc4cd630467c6da2.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_3ef67f0b9ee823d3d90cc7d94262597a.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_71246d5d96231457489c69f5487500a4.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_25d126ac614065785eda72fb9e51eb53.html">common</a></li><li class="navelem"><a class="el" href="../../dir_c20521ec05f2eff123adc159e1f9542f.html">os</a></li><li class="navelem"><a class="el" href="../../dir_8b42d03bbadabfba81be6a2c8de0432e.html">i915</a></li><li class="navelem"><a class="el" href="../../dir_1cd77d86587bfbb4bdd4718683f3adff.html">include</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -116,15 +116,15 @@ $(function() {
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> *__mmap2(<span class="keywordtype">void</span> *, <span class="keywordtype">size_t</span>, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>, <span class="keywordtype">size_t</span>);</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> *<a class="code hl_define" href="../../d4/d8d/libdrm__macros_8h.html#a69d53958e6deb9ccacae10dad74efc07">drm_mmap</a>(<span class="keywordtype">void</span> *addr, <span class="keywordtype">size_t</span> length, <span class="keywordtype">int</span> prot, <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d0/d85/i915__drm_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>,</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                             <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d4/d9f/xf86drm__mock_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, loff_t offset)</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                             <span class="keywordtype">int</span> <a class="code hl_variable" href="../../dc/dfc/xf86drm_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, loff_t offset)</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>{</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>   <span class="comment">/* offset must be aligned to 4096 (not necessarily the page size) */</span></div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>   <span class="keywordflow">if</span> (offset &amp; 4095) {</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>      errno = EINVAL;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>      <span class="keywordflow">return</span> <a class="code hl_define" href="../../d4/d9f/xf86drm__mock_8c.html#a8523dcf952f6ff059a3bed717e4f1296">MAP_FAILED</a>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>      <span class="keywordflow">return</span> <a class="code hl_define" href="../../dc/dfc/xf86drm_8c.html#a8523dcf952f6ff059a3bed717e4f1296">MAP_FAILED</a>;</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>   }</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>   <span class="keywordflow">return</span> __mmap2(addr, length, prot, <a class="code hl_variable" href="../../d0/d85/i915__drm_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, <a class="code hl_variable" href="../../d4/d9f/xf86drm__mock_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, (<span class="keywordtype">size_t</span>) (offset &gt;&gt; 12));</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>   <span class="keywordflow">return</span> __mmap2(addr, length, prot, <a class="code hl_variable" href="../../d0/d85/i915__drm_8h.html#a04a0bd666e371f3fab92b8d0ef5dbdb0">flags</a>, <a class="code hl_variable" href="../../dc/dfc/xf86drm_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, (<span class="keywordtype">size_t</span>) (offset &gt;&gt; 12));</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>}</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#  define drm_munmap(addr, length) \</span></div>
@@ -154,8 +154,8 @@ $(function() {
 <div class="ttc" id="alibdrm__macros_8h_html_a272093ee3de3672b0f87bab79b15ad5f"><div class="ttname"><a href="../../d4/d8d/libdrm__macros_8h.html#a272093ee3de3672b0f87bab79b15ad5f">LARGE_OFF_T</a></div><div class="ttdeci">#define LARGE_OFF_T</div></div>
 <div class="ttc" id="alibdrm__macros_8h_html_a69d53958e6deb9ccacae10dad74efc07"><div class="ttname"><a href="../../d4/d8d/libdrm__macros_8h.html#a69d53958e6deb9ccacae10dad74efc07">drm_mmap</a></div><div class="ttdeci">#define drm_mmap(addr, length, prot, flags, fd, offset)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d8d/libdrm__macros_8h_source.html#l00068">libdrm_macros.h:68</a></div></div>
 <div class="ttc" id="alibdrm__macros_8h_html_acc50ef4ce0524e39710b222ec6b2cbba"><div class="ttname"><a href="../../d4/d8d/libdrm__macros_8h.html#acc50ef4ce0524e39710b222ec6b2cbba">STATIC_ASSERT</a></div><div class="ttdeci">#define STATIC_ASSERT(COND)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d8d/libdrm__macros_8h_source.html#l00038">libdrm_macros.h:38</a></div></div>
-<div class="ttc" id="axf86drm__mock_8c_html_a6f8059414f0228f0256115e024eeed4b"><div class="ttname"><a href="../../d4/d9f/xf86drm__mock_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d9f/xf86drm__mock_8c_source.html#l01230">xf86drm_mock.c:1230</a></div></div>
-<div class="ttc" id="axf86drm__mock_8c_html_a8523dcf952f6ff059a3bed717e4f1296"><div class="ttname"><a href="../../d4/d9f/xf86drm__mock_8c.html#a8523dcf952f6ff059a3bed717e4f1296">MAP_FAILED</a></div><div class="ttdeci">#define MAP_FAILED</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d9f/xf86drm__mock_8c_source.html#l00063">xf86drm_mock.c:63</a></div></div>
+<div class="ttc" id="axf86drm_8c_html_a6f8059414f0228f0256115e024eeed4b"><div class="ttname"><a href="../../dc/dfc/xf86drm_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dfc/xf86drm_8c_source.html#l01002">xf86drm.c:1002</a></div></div>
+<div class="ttc" id="axf86drm_8c_html_a8523dcf952f6ff059a3bed717e4f1296"><div class="ttname"><a href="../../dc/dfc/xf86drm_8c.html#a8523dcf952f6ff059a3bed717e4f1296">MAP_FAILED</a></div><div class="ttdeci">#define MAP_FAILED</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dfc/xf86drm_8c_source.html#l00062">xf86drm.c:62</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

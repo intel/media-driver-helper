@@ -1,12 +1,15 @@
 <map id="DdiDecodeFunctions::EndPicture" name="DdiDecodeFunctions::EndPicture">
-<area shape="rect" id="node1" title="Make the end of rendering for a picture." alt="" coords="5,235,148,276"/>
+<area shape="rect" id="node1" title="Make the end of rendering for a picture." alt="" coords="5,332,148,373"/>
 <area shape="rect" id="node2" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#a95ccfdb5ed288581db77ce816894eb8b" title="Make the end of rendering for a picture." alt="" coords="205,201,370,243"/>
-<area shape="rect" id="node13" href="$d0/d2c/class_media_libva_common_next.html#ac187946363a2c722501f6c6d0a4394ad" title="Get context from context ID." alt="" coords="196,267,379,308"/>
+<area shape="rect" id="node13" href="$d8/db3/class_ddi_cp_interface_next.html#a51b88effb2c9adf01eae75dc2f4e25d2" title=" " alt="" coords="221,267,354,308"/>
+<area shape="rect" id="node14" href="$d0/d2c/class_media_libva_common_next.html#ac187946363a2c722501f6c6d0a4394ad" title="Get context from context ID." alt="" coords="196,332,379,373"/>
+<area shape="rect" id="node15" href="$d8/db3/class_ddi_cp_interface_next.html#a53c9cbb925819d6882861bf60087d452" title=" " alt="" coords="204,397,371,439"/>
+<area shape="rect" id="node16" href="$d8/db3/class_ddi_cp_interface_next.html#ad2ad85b909ae03c19e18632c3b938774" title=" " alt="" coords="220,463,355,504"/>
 <area shape="rect" id="node3" href="$d7/d54/classcodec_1_1_ddi_codec_base.html#a28f6c9d0d2baf784ca5279070389fed7" title="Clear Reference List." alt="" coords="434,5,585,47"/>
 <area shape="rect" id="node4" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#a6d481337c3dbc129636ba1e9754a1f25" title="Use EU path to do the scaling." alt="" coords="427,71,592,112"/>
 <area shape="rect" id="node5" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#ac82cb02789c07d224773f36c492d76d8" title="Init Params setting of EndPicture Function." alt="" coords="427,136,592,177"/>
 <area shape="rect" id="node6" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#aceba894197dffebb528f30a6444271b4" title="Init dummy reference." alt="" coords="427,201,592,243"/>
-<area shape="rect" id="node7" href="$d2/d0a/mos__os__specific_8cpp.html#a7aeb3279215d91b637272d2549f85625" title="Get Resource Information." alt="" coords="640,238,843,265"/>
+<area shape="rect" id="node7" href="$d3/de3/mos__os__specific_8c.html#ad8fe9d7f3e3f91b2638275c8851aee6d" title="Get Resource Information." alt="" coords="640,238,843,265"/>
 <area shape="rect" id="node8" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#a5e3b5e942353541e5e69c416c6737d47" title="Report decode mode." alt="" coords="427,319,592,360"/>
 <area shape="rect" id="node9" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#a2e92d25c2758e24cb0a185c72f8574cd" title="Set common decode param setting for each codec." alt="" coords="427,384,592,425"/>
 <area shape="rect" id="node10" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#ace3659f833c399b9fe9198fbc9e58620" title="Get decode format." alt="" coords="659,319,824,360"/>

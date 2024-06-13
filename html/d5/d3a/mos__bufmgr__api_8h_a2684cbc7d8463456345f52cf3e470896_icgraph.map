@@ -5,32 +5,31 @@
 <area shape="rect" id="node5" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#a5bcb64bccfb739bcb617d9703f55f280" title="Allocate Bs buffer." alt="" coords="1237,169,1402,210"/>
 <area shape="rect" id="node6" href="$dd/d46/classdecode_1_1_ddi_decode_base.html#aea3d9d702e4aef92385d5eea6bb6adf5" title="Create buffer in ddi decode context." alt="" coords="980,67,1145,109"/>
 <area shape="rect" id="node8" href="$d3/de3/mos__os__specific_8c.html#a3e21689a9fb7cad8c5ab329659fee6e2" title="Release the GPU Status Buffer." alt="" coords="976,133,1149,160"/>
-<area shape="rect" id="node15" href="$d3/de3/mos__os__specific_8c.html#a8deaca90dde0b6865bfcc39ad5ebf9b1" title="Wait and release command buffer." alt="" coords="1211,285,1428,312"/>
-<area shape="rect" id="node19" href="$d3/de3/mos__os__specific_8c.html#aa5ddfa5ebe27bce746a14810d3b02e3c" title="Wait and release command buffer." alt="" coords="227,318,431,359"/>
-<area shape="rect" id="node20" href="$d3/d19/class_ddi_encode_base.html#a02b410b2e3af877e7fc9af92a9a798ef" title="Report Status for coded buffer." alt="" coords="1220,453,1419,480"/>
-<area shape="rect" id="node22" href="$d3/d5b/classencode_1_1_ddi_encode_base.html#a02b410b2e3af877e7fc9af92a9a798ef" title="Report Status for coded buffer." alt="" coords="1237,505,1402,546"/>
-<area shape="rect" id="node25" href="$db/d0d/class_ddi_encode_vp8.html#a636ac81474550d06eb7f386b52073039" title="Report Status for coded buffer." alt="" coords="1223,571,1415,597"/>
-<area shape="rect" id="node26" href="$da/d3e/class_command_buffer_specific.html#a9d58f9da29ee7bdd06e72d52fd067ee6" title="wait command buffer to be rendered by gpu \detail This function will call mos_bo_wait_rendering()" alt="" coords="1239,622,1399,663"/>
-<area shape="rect" id="node29" href="$db/d2d/class_command_buffer_specific_next.html#a624f17c29775bf43ff37d30cd46e2d17" title="wait command buffer to be rendered by gpu \detail This function will call mos_bo_wait_rendering()" alt="" coords="1226,387,1413,429"/>
+<area shape="rect" id="node14" href="$d3/de3/mos__os__specific_8c.html#a8deaca90dde0b6865bfcc39ad5ebf9b1" title="Wait and release command buffer." alt="" coords="1211,285,1428,312"/>
+<area shape="rect" id="node18" href="$d3/de3/mos__os__specific_8c.html#aa5ddfa5ebe27bce746a14810d3b02e3c" title="Wait and release command buffer." alt="" coords="227,318,431,359"/>
+<area shape="rect" id="node19" href="$d3/d19/class_ddi_encode_base.html#a02b410b2e3af877e7fc9af92a9a798ef" title="Report Status for coded buffer." alt="" coords="1220,453,1419,480"/>
+<area shape="rect" id="node21" href="$d3/d5b/classencode_1_1_ddi_encode_base.html#a02b410b2e3af877e7fc9af92a9a798ef" title="Report Status for coded buffer." alt="" coords="1237,505,1402,546"/>
+<area shape="rect" id="node24" href="$db/d0d/class_ddi_encode_vp8.html#a636ac81474550d06eb7f386b52073039" title="Report Status for coded buffer." alt="" coords="1223,571,1415,597"/>
+<area shape="rect" id="node25" href="$da/d3e/class_command_buffer_specific.html#a9d58f9da29ee7bdd06e72d52fd067ee6" title="wait command buffer to be rendered by gpu \detail This function will call mos_bo_wait_rendering()" alt="" coords="1239,622,1399,663"/>
+<area shape="rect" id="node28" href="$db/d2d/class_command_buffer_specific_next.html#a624f17c29775bf43ff37d30cd46e2d17" title="wait command buffer to be rendered by gpu \detail This function will call mos_bo_wait_rendering()" alt="" coords="1226,387,1413,429"/>
 <area shape="rect" id="node4" href="$da/d25/media__libva__decoder_8cpp.html#a70f32b808b594004ae62c45408973076" title="Create buffer." alt="" coords="737,16,900,43"/>
 <area shape="rect" id="node7" href="$d0/dca/class_ddi_decode_functions.html#a8af958f9a2f478f5baeb65d6e5340b7e" title="Create buffer." alt="" coords="747,67,890,109"/>
 <area shape="rect" id="node9" href="$d3/de3/mos__os__specific_8c.html#af543e54556f76e87f60599969a971b94" title="Destroy Linux context." alt="" coords="766,184,871,211"/>
 <area shape="rect" id="node12" href="$d3/de3/mos__os__specific_8c.html#a0c4af9880d68a1a27a6ff4122d6a0bc3" title=" " alt="" coords="745,133,893,160"/>
 <area shape="rect" id="node10" href="$d3/de3/mos__os__specific_8c.html#aa6039ca11bf44a96683f603d5ad53eb3" title="Init Linux context." alt="" coords="515,240,638,267"/>
-<area shape="rect" id="node11" href="$d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,245,179,272"/>
-<area shape="rect" id="node13" href="$d2/d0a/mos__os__specific_8cpp.html#afa2a1942256e8ba90c13e06ad3e6d4cf" title="Destroys OS specific allocations." alt="" coords="501,144,653,171"/>
-<area shape="rect" id="node14" href="$d2/d0a/mos__os__specific_8cpp.html#af32ef68510c731e300b178fd596f5d8e" title=" " alt="" coords="236,144,421,171"/>
-<area shape="rect" id="node16" href="$d3/de3/mos__os__specific_8c.html#a4c99f3b3f65823152fdf10a10bc01b4f" title="Release command buffer pool." alt="" coords="966,184,1159,211"/>
-<area shape="rect" id="node17" href="$d3/de3/mos__os__specific_8c.html#ad7cb824d8d496425810e1b8eec36c915" title="Wait for the fetch command." alt="" coords="963,235,1163,261"/>
-<area shape="rect" id="node18" href="$d3/de3/mos__os__specific_8c.html#a0ed49569d207f5db4c9fad78f1f74fcf" title="Insert command buffer." alt="" coords="723,235,915,261"/>
-<area shape="rect" id="node21" href="$dc/da2/media__libva__encoder_8cpp.html#a5703a3b6cacce7738876817fbcacee27" title="Status report." alt="" coords="979,453,1147,480"/>
-<area shape="rect" id="node23" href="$d9/dba/class_ddi_encode_functions.html#a97403936cd01c22a5c2e28f2d7e0191b" title="Status report." alt="" coords="991,511,1134,553"/>
-<area shape="rect" id="node24" href="$d9/dba/class_ddi_encode_functions.html#af6f7cb575632bc2b8ce8cd67a17e3f22" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="747,518,890,559"/>
-<area shape="rect" id="node27" href="$dd/db5/class_gpu_context_specific.html#aab45ef7b8e7f9a3051eea5a9567206ff" title=" " alt="" coords="994,622,1131,663"/>
-<area shape="rect" id="node28" href="$dd/db5/class_gpu_context_specific.html#aab9e413fefd8d8ac1e5dd4a1ea815cd2" title="Destructor." alt="" coords="742,622,895,663"/>
-<area shape="rect" id="node30" href="$d9/d7e/class_gpu_context_specific_next.html#ae2c5336c9113504bc161bccde71270b4" title=" " alt="" coords="981,387,1145,429"/>
-<area shape="rect" id="node31" href="$d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="737,453,901,494"/>
-<area shape="rect" id="node34" href="$d9/d7e/class_gpu_context_specific_next.html#ab65661d2005a95403d9bd7b01d9d5311" title="Destructor." alt="" coords="729,387,909,429"/>
-<area shape="rect" id="node32" href="$d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="479,419,675,461"/>
-<area shape="rect" id="node33" href="$d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="231,384,427,411"/>
+<area shape="rect" id="node11" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,296,179,323"/>
+<area shape="rect" id="node13" href="$d3/de3/mos__os__specific_8c.html#a43d7b7e93bb2945e2258bdaa98f27245" title="Destroys OS specific allocations." alt="" coords="253,176,405,203"/>
+<area shape="rect" id="node15" href="$d3/de3/mos__os__specific_8c.html#a4c99f3b3f65823152fdf10a10bc01b4f" title="Release command buffer pool." alt="" coords="966,184,1159,211"/>
+<area shape="rect" id="node16" href="$d3/de3/mos__os__specific_8c.html#ad7cb824d8d496425810e1b8eec36c915" title="Wait for the fetch command." alt="" coords="963,235,1163,261"/>
+<area shape="rect" id="node17" href="$d3/de3/mos__os__specific_8c.html#a0ed49569d207f5db4c9fad78f1f74fcf" title="Insert command buffer." alt="" coords="723,235,915,261"/>
+<area shape="rect" id="node20" href="$dc/da2/media__libva__encoder_8cpp.html#a5703a3b6cacce7738876817fbcacee27" title="Status report." alt="" coords="979,453,1147,480"/>
+<area shape="rect" id="node22" href="$d9/dba/class_ddi_encode_functions.html#a97403936cd01c22a5c2e28f2d7e0191b" title="Status report." alt="" coords="991,511,1134,553"/>
+<area shape="rect" id="node23" href="$d9/dba/class_ddi_encode_functions.html#af6f7cb575632bc2b8ce8cd67a17e3f22" title="Map data store of the buffer into the client&#39;s address space vaCreateBuffer() needs to be called with..." alt="" coords="747,518,890,559"/>
+<area shape="rect" id="node26" href="$dd/db5/class_gpu_context_specific.html#aab45ef7b8e7f9a3051eea5a9567206ff" title=" " alt="" coords="994,622,1131,663"/>
+<area shape="rect" id="node27" href="$dd/db5/class_gpu_context_specific.html#aab9e413fefd8d8ac1e5dd4a1ea815cd2" title="Destructor." alt="" coords="742,622,895,663"/>
+<area shape="rect" id="node29" href="$d9/d7e/class_gpu_context_specific_next.html#ae2c5336c9113504bc161bccde71270b4" title=" " alt="" coords="981,387,1145,429"/>
+<area shape="rect" id="node30" href="$d9/d7e/class_gpu_context_specific_next.html#af82dfb00f7345fca2a8699ddd07c5034" title="Recreate GEM Context." alt="" coords="737,453,901,494"/>
+<area shape="rect" id="node33" href="$d9/d7e/class_gpu_context_specific_next.html#ab65661d2005a95403d9bd7b01d9d5311" title="Destructor." alt="" coords="729,387,909,429"/>
+<area shape="rect" id="node31" href="$d9/d7e/class_gpu_context_specific_next.html#a1026a8e104dbcb38237c4b7195e0dee5" title="Recreate GPU context as protected or clear if needed." alt="" coords="479,419,675,461"/>
+<area shape="rect" id="node32" href="$d3/de3/mos__os__specific_8c.html#a06ed405bd704fe3aafea98bcea9c5fc8" title="Set GPU context." alt="" coords="231,384,427,411"/>
 </map>

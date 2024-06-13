@@ -1,17 +1,15 @@
-<map id="C:/Users/xiaoganx/Project/media_driver_upstream/media&#45;driver/media_softlet/linux/common/os/linux_skuwa_debug.h" name="C:/Users/xiaoganx/Project/media_driver_upstream/media&#45;driver/media_softlet/linux/common/os/linux_skuwa_debug.h">
-<area shape="rect" id="node1" title=" " alt="" coords="1523,5,1777,76"/>
-<area shape="rect" id="node2" href="$dd/df8/media__sku__wa__xe_8cpp.html" title=" " alt="" coords="5,124,183,209"/>
-<area shape="rect" id="node3" href="$da/d45/media__sysinfo__xe_8cpp.html" title=" " alt="" coords="207,131,450,202"/>
-<area shape="rect" id="node4" href="$d4/d0e/media__sku__wa__g10_8cpp.html" title=" " alt="" coords="475,124,655,209"/>
-<area shape="rect" id="node5" href="$d8/dfd/media__sysinfo__g10_8cpp.html" title=" " alt="" coords="679,131,933,202"/>
-<area shape="rect" id="node6" href="$d1/d3a/media__sku__wa__g11_8cpp.html" title=" " alt="" coords="957,124,1137,209"/>
-<area shape="rect" id="node7" href="$da/dcf/media__sysinfo__g11_8cpp.html" title=" " alt="" coords="1162,131,1415,202"/>
-<area shape="rect" id="node8" href="$dc/db9/media__sku__wa__g12_8cpp.html" title=" " alt="" coords="1440,124,1620,209"/>
-<area shape="rect" id="node9" href="$df/d0f/media__sysinfo__g12_8cpp.html" title=" " alt="" coords="1645,131,1898,202"/>
-<area shape="rect" id="node10" href="$d8/de2/media__sku__wa__g8_8cpp.html" title=" " alt="" coords="1923,124,2097,209"/>
-<area shape="rect" id="node11" href="$d3/d44/media__sysinfo__g8_8cpp.html" title=" " alt="" coords="2121,131,2360,202"/>
-<area shape="rect" id="node12" href="$d1/d77/media__sku__wa__g9_8cpp.html" title=" " alt="" coords="2384,124,2559,209"/>
-<area shape="rect" id="node13" href="$d0/d41/media__sysinfo__g9_8cpp.html" title=" " alt="" coords="2583,131,2821,202"/>
-<area shape="rect" id="node14" href="$d9/d54/media__sku__wa__mtl_8cpp.html" title=" " alt="" coords="2845,124,3025,209"/>
-<area shape="rect" id="node15" href="$da/d62/media__sysinfo__mtl_8cpp.html" title=" " alt="" coords="3049,124,3229,209"/>
+<map id="C:/Users/xiaoganx/Project/media&#45;driver/media_softlet/linux/common/os/linux_skuwa_debug.h" name="C:/Users/xiaoganx/Project/media&#45;driver/media_softlet/linux/common/os/linux_skuwa_debug.h">
+<area shape="rect" id="node1" title=" " alt="" coords="1281,5,1534,61"/>
+<area shape="rect" id="node2" href="$dd/df8/media__sku__wa__xe_8cpp.html" title=" " alt="" coords="5,109,183,180"/>
+<area shape="rect" id="node3" href="$da/d45/media__sysinfo__xe_8cpp.html" title=" " alt="" coords="207,117,450,173"/>
+<area shape="rect" id="node4" href="$d1/d3a/media__sku__wa__g11_8cpp.html" title=" " alt="" coords="475,109,655,180"/>
+<area shape="rect" id="node5" href="$da/dcf/media__sysinfo__g11_8cpp.html" title=" " alt="" coords="679,117,933,173"/>
+<area shape="rect" id="node6" href="$dc/db9/media__sku__wa__g12_8cpp.html" title=" " alt="" coords="957,109,1137,180"/>
+<area shape="rect" id="node7" href="$df/d0f/media__sysinfo__g12_8cpp.html" title=" " alt="" coords="1162,117,1415,173"/>
+<area shape="rect" id="node8" href="$d8/de2/media__sku__wa__g8_8cpp.html" title=" " alt="" coords="1440,109,1615,180"/>
+<area shape="rect" id="node9" href="$d3/d44/media__sysinfo__g8_8cpp.html" title=" " alt="" coords="1639,117,1877,173"/>
+<area shape="rect" id="node10" href="$d1/d77/media__sku__wa__g9_8cpp.html" title=" " alt="" coords="1901,109,2076,180"/>
+<area shape="rect" id="node11" href="$d0/d41/media__sysinfo__g9_8cpp.html" title=" " alt="" coords="2100,117,2339,173"/>
+<area shape="rect" id="node12" href="$d9/d54/media__sku__wa__mtl_8cpp.html" title=" " alt="" coords="2363,109,2543,180"/>
+<area shape="rect" id="node13" href="$da/d62/media__sysinfo__mtl_8cpp.html" title=" " alt="" coords="2567,109,2747,180"/>
 </map>

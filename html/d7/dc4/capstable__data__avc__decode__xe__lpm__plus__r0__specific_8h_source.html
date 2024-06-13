@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_softlet/linux/xe_lpm_plus_r0/decode/avc/ddi/capstable_data_avc_decode_xe_lpm_plus_r0_specific.h Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media-driver/media_softlet/linux/xe_lpm_plus_r0/decode/avc/ddi/capstable_data_avc_decode_xe_lpm_plus_r0_specific.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;24.2.6</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_3c3410289b14e1df332ecc9157e3894f.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_32ec30427766471c663c1286f4b04a0e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_45cdcc26250ffd669371a52035ec7c77.html">xe_lpm_plus_r0</a></li><li class="navelem"><a class="el" href="../../dir_16956f545acec8cec5b8d0ad52a7192d.html">decode</a></li><li class="navelem"><a class="el" href="../../dir_4ecb59bc6c05a8b0a191538d43306ec8.html">avc</a></li><li class="navelem"><a class="el" href="../../dir_8a52629d73957c931ca20147023f5c58.html">ddi</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_9f344d85c56218b4cc4cd630467c6da2.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_3ef67f0b9ee823d3d90cc7d94262597a.html">media_softlet</a></li><li class="navelem"><a class="el" href="../../dir_71246d5d96231457489c69f5487500a4.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_d0081866401fb337e73f53c5e5e6a425.html">xe_lpm_plus_r0</a></li><li class="navelem"><a class="el" href="../../dir_ea5423281be761a724cc033e870c6b53.html">decode</a></li><li class="navelem"><a class="el" href="../../dir_aeceb2084e509a82ef754328e4acc631.html">avc</a></li><li class="navelem"><a class="el" href="../../dir_675aac7941181ff2a0a8edc99245780a.html">ddi</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -166,47 +166,68 @@ $(function() {
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  {VASurfaceAttribPixelFormat, VA_SURFACE_ATTRIB_GETTABLE | VA_SURFACE_ATTRIB_SETTABLE, {VAGenericValueTypeInteger, {VA_FOURCC_NV12}}},</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  {VASurfaceAttribMaxWidth,    VA_SURFACE_ATTRIB_GETTABLE, {VAGenericValueTypeInteger, {CODEC_4K_MAX_PIC_WIDTH}}},</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  {VASurfaceAttribMaxHeight,   VA_SURFACE_ATTRIB_GETTABLE, {VAGenericValueTypeInteger, {CODEC_4K_MAX_PIC_HEIGHT}}},</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  {VASurfaceAttribMemoryType,  VA_SURFACE_ATTRIB_GETTABLE | VA_SURFACE_ATTRIB_SETTABLE, {VAGenericValueTypeInteger, {VA_SURFACE_ATTRIB_MEM_TYPE_VA| VA_SURFACE_ATTRIB_MEM_TYPE_DRM_PRIME_2}}}</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>};</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/da8/capstable__data__linux__definition_8h.html#a03305ca6f0debbb54ca681472df5e792">ProfileSurfaceAttribInfo</a> surfaceAttribInfo_VAProfileH264High_VAEntrypointVLD_Xe_Lpm_plus_r0 =</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>{</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  {VASurfaceAttribPixelFormat, VA_SURFACE_ATTRIB_GETTABLE | VA_SURFACE_ATTRIB_SETTABLE, {VAGenericValueTypeInteger, {VA_FOURCC_NV12}}},</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  {VASurfaceAttribMaxWidth,    VA_SURFACE_ATTRIB_GETTABLE, {VAGenericValueTypeInteger, {CODEC_4K_MAX_PIC_WIDTH}}},</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>  {VASurfaceAttribMaxHeight,   VA_SURFACE_ATTRIB_GETTABLE, {VAGenericValueTypeInteger, {CODEC_4K_MAX_PIC_HEIGHT}}},</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  {VASurfaceAttribMemoryType,  VA_SURFACE_ATTRIB_GETTABLE | VA_SURFACE_ATTRIB_SETTABLE, {VAGenericValueTypeInteger, {VA_SURFACE_ATTRIB_MEM_TYPE_VA| VA_SURFACE_ATTRIB_MEM_TYPE_DRM_PRIME_2}}}</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>};</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/da8/capstable__data__linux__definition_8h.html#a03305ca6f0debbb54ca681472df5e792">ProfileSurfaceAttribInfo</a> surfaceAttribInfo_VAProfileH264ConstrainedBaseline_VAEntrypointVLD_Xe_Lpm_plus_r0 =</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>{</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  {VASurfaceAttribPixelFormat, VA_SURFACE_ATTRIB_GETTABLE | VA_SURFACE_ATTRIB_SETTABLE, {VAGenericValueTypeInteger, {VA_FOURCC_NV12}}},</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  {VASurfaceAttribMaxWidth,    VA_SURFACE_ATTRIB_GETTABLE, {VAGenericValueTypeInteger, {CODEC_4K_MAX_PIC_WIDTH}}},</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>  {VASurfaceAttribMaxHeight,   VA_SURFACE_ATTRIB_GETTABLE, {VAGenericValueTypeInteger, {CODEC_4K_MAX_PIC_HEIGHT}}},</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>  {VASurfaceAttribMemoryType,  VA_SURFACE_ATTRIB_GETTABLE | VA_SURFACE_ATTRIB_SETTABLE, {VAGenericValueTypeInteger, {VA_SURFACE_ATTRIB_MEM_TYPE_VA| VA_SURFACE_ATTRIB_MEM_TYPE_DRM_PRIME_2}}}</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>};</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="keyword">static</span> <span class="keyword">const</span> <a class="code hl_struct" href="../../da/d18/struct_entrypoint_data.html">EntrypointData</a> entrypointMap_VAProfileH264MainDec_Data_Xe_Lpm_plus_r0</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>{</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    &amp;attribList_VAProfileH264Main_VAEntrypointVLD_Xe_Lpm_plus_r0,</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    &amp;configDataList_VAProfileH264Main_VAEntrypointVLD_Xe_Lpm_plus_r0,</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    &amp;surfaceAttribInfo_VAProfileH264Main_VAEntrypointVLD_Xe_Lpm_plus_r0</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>};</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span><span class="keyword">static</span> <span class="keyword">const</span> <a class="code hl_struct" href="../../da/d18/struct_entrypoint_data.html">EntrypointData</a> entrypointMap_VAProfileH264HighDec_Data_Xe_Lpm_plus_r0</div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>{</div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    &amp;attribList_VAProfileH264High_VAEntrypointVLD_Xe_Lpm_plus_r0,</div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    &amp;configDataList_VAProfileH264High_VAEntrypointVLD_Xe_Lpm_plus_r0,</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    &amp;surfaceAttribInfo_VAProfileH264High_VAEntrypointVLD_Xe_Lpm_plus_r0</div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>};</div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span> </div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span><span class="keyword">static</span> <span class="keyword">const</span> <a class="code hl_struct" href="../../da/d18/struct_entrypoint_data.html">EntrypointData</a> entrypointMap_VAProfileH264ConstrainedBaselineDec_Data_Xe_Lpm_plus_r0</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>{</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    &amp;attribList_VAProfileH264ConstrainedBaseline_VAEntrypointVLD_Xe_Lpm_plus_r0,</div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    &amp;configDataList_VAProfileH264ConstrainedBaseline_VAEntrypointVLD_Xe_Lpm_plus_r0,</div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    &amp;surfaceAttribInfo_VAProfileH264ConstrainedBaseline_VAEntrypointVLD_Xe_Lpm_plus_r0</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>};</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  {VASurfaceAttribMemoryType,  VA_SURFACE_ATTRIB_GETTABLE | VA_SURFACE_ATTRIB_SETTABLE,</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    {VAGenericValueTypeInteger, {</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="preprocessor">#if VA_CHECK_VERSION(1, 21, 0)</span></div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        VA_SURFACE_ATTRIB_MEM_TYPE_DRM_PRIME_3 |</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        VA_SURFACE_ATTRIB_MEM_TYPE_VA | </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        VA_SURFACE_ATTRIB_MEM_TYPE_DRM_PRIME_2</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    }}}</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>};</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/da8/capstable__data__linux__definition_8h.html#a03305ca6f0debbb54ca681472df5e792">ProfileSurfaceAttribInfo</a> surfaceAttribInfo_VAProfileH264High_VAEntrypointVLD_Xe_Lpm_plus_r0 =</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>{</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>  {VASurfaceAttribPixelFormat, VA_SURFACE_ATTRIB_GETTABLE | VA_SURFACE_ATTRIB_SETTABLE, {VAGenericValueTypeInteger, {VA_FOURCC_NV12}}},</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  {VASurfaceAttribMaxWidth,    VA_SURFACE_ATTRIB_GETTABLE, {VAGenericValueTypeInteger, {CODEC_4K_MAX_PIC_WIDTH}}},</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  {VASurfaceAttribMaxHeight,   VA_SURFACE_ATTRIB_GETTABLE, {VAGenericValueTypeInteger, {CODEC_4K_MAX_PIC_HEIGHT}}},</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>  {VASurfaceAttribMemoryType,  VA_SURFACE_ATTRIB_GETTABLE | VA_SURFACE_ATTRIB_SETTABLE,</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    {VAGenericValueTypeInteger, {</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="preprocessor">#if VA_CHECK_VERSION(1, 21, 0)</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        VA_SURFACE_ATTRIB_MEM_TYPE_DRM_PRIME_3 |</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        VA_SURFACE_ATTRIB_MEM_TYPE_VA | </div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        VA_SURFACE_ATTRIB_MEM_TYPE_DRM_PRIME_2</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    }}}</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>};</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span><span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/da8/capstable__data__linux__definition_8h.html#a03305ca6f0debbb54ca681472df5e792">ProfileSurfaceAttribInfo</a> surfaceAttribInfo_VAProfileH264ConstrainedBaseline_VAEntrypointVLD_Xe_Lpm_plus_r0 =</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>{</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>  {VASurfaceAttribPixelFormat, VA_SURFACE_ATTRIB_GETTABLE | VA_SURFACE_ATTRIB_SETTABLE, {VAGenericValueTypeInteger, {VA_FOURCC_NV12}}},</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>  {VASurfaceAttribMaxWidth,    VA_SURFACE_ATTRIB_GETTABLE, {VAGenericValueTypeInteger, {CODEC_4K_MAX_PIC_WIDTH}}},</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>  {VASurfaceAttribMaxHeight,   VA_SURFACE_ATTRIB_GETTABLE, {VAGenericValueTypeInteger, {CODEC_4K_MAX_PIC_HEIGHT}}},</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>  {VASurfaceAttribMemoryType,  VA_SURFACE_ATTRIB_GETTABLE | VA_SURFACE_ATTRIB_SETTABLE,</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    {VAGenericValueTypeInteger, {</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span><span class="preprocessor">#if VA_CHECK_VERSION(1, 21, 0)</span></div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>        VA_SURFACE_ATTRIB_MEM_TYPE_DRM_PRIME_3 |</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>        VA_SURFACE_ATTRIB_MEM_TYPE_VA | </div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>        VA_SURFACE_ATTRIB_MEM_TYPE_DRM_PRIME_2</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    }}}</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>};</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="keyword">static</span> <span class="keyword">const</span> <a class="code hl_struct" href="../../da/d18/struct_entrypoint_data.html">EntrypointData</a> entrypointMap_VAProfileH264MainDec_Data_Xe_Lpm_plus_r0</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>{</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    &amp;attribList_VAProfileH264Main_VAEntrypointVLD_Xe_Lpm_plus_r0,</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    &amp;configDataList_VAProfileH264Main_VAEntrypointVLD_Xe_Lpm_plus_r0,</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    &amp;surfaceAttribInfo_VAProfileH264Main_VAEntrypointVLD_Xe_Lpm_plus_r0</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>};</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span><span class="keyword">static</span> <span class="keyword">const</span> <a class="code hl_struct" href="../../da/d18/struct_entrypoint_data.html">EntrypointData</a> entrypointMap_VAProfileH264HighDec_Data_Xe_Lpm_plus_r0</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>{</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    &amp;attribList_VAProfileH264High_VAEntrypointVLD_Xe_Lpm_plus_r0,</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    &amp;configDataList_VAProfileH264High_VAEntrypointVLD_Xe_Lpm_plus_r0,</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    &amp;surfaceAttribInfo_VAProfileH264High_VAEntrypointVLD_Xe_Lpm_plus_r0</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>};</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span><span class="keyword">static</span> <span class="keyword">const</span> <a class="code hl_struct" href="../../da/d18/struct_entrypoint_data.html">EntrypointData</a> entrypointMap_VAProfileH264ConstrainedBaselineDec_Data_Xe_Lpm_plus_r0</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>{</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    &amp;attribList_VAProfileH264ConstrainedBaseline_VAEntrypointVLD_Xe_Lpm_plus_r0,</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    &amp;configDataList_VAProfileH264ConstrainedBaseline_VAEntrypointVLD_Xe_Lpm_plus_r0,</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    &amp;surfaceAttribInfo_VAProfileH264ConstrainedBaseline_VAEntrypointVLD_Xe_Lpm_plus_r0</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>};</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="acapstable__data__avc__decode__xe__lpm__plus__r0__specific_8h_html_abf183cde5c0b046b97986babb3d6641c"><div class="ttname"><a href="../../d7/dc4/capstable__data__avc__decode__xe__lpm__plus__r0__specific_8h.html#abf183cde5c0b046b97986babb3d6641c">VA_ENCRYPTION_TYPE_NONE</a></div><div class="ttdeci">#define VA_ENCRYPTION_TYPE_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/capstable__data__avc__decode__xe__lpm__plus__r0__specific_8h_source.html#l00032">capstable_data_avc_decode_xe_lpm_plus_r0_specific.h:32</a></div></div>
 <div class="ttc" id="acapstable__data__linux__definition_8h_html_a03305ca6f0debbb54ca681472df5e792"><div class="ttname"><a href="../../d2/da8/capstable__data__linux__definition_8h.html#a03305ca6f0debbb54ca681472df5e792">ProfileSurfaceAttribInfo</a></div><div class="ttdeci">std::vector&lt; VASurfaceAttribInfo &gt; ProfileSurfaceAttribInfo</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da8/capstable__data__linux__definition_8h_source.html#l00100">capstable_data_linux_definition.h:100</a></div></div>
 <div class="ttc" id="acapstable__data__linux__definition_8h_html_aa2dc5f54e9f7a75caaaa29b03072479d"><div class="ttname"><a href="../../d2/da8/capstable__data__linux__definition_8h.html#aa2dc5f54e9f7a75caaaa29b03072479d">AttribList</a></div><div class="ttdeci">std::vector&lt; VAConfigAttrib &gt; AttribList</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da8/capstable__data__linux__definition_8h_source.html#l00102">capstable_data_linux_definition.h:102</a></div></div>

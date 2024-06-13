@@ -1,5 +1,6 @@
 <map id="AuxTableMgr::EmitAuxTableBOList" name="AuxTableMgr::EmitAuxTableBOList">
-<area shape="rect" id="node1" title="Insert aux table BOs into specific execute buffer." alt="" coords="239,39,425,80"/>
-<area shape="rect" id="node2" href="$dd/db5/class_gpu_context_specific.html#ad2fa9ee2cb7a73d95a97e21b4dad6fd7" title="Map resources with aux plane to aux table." alt="" coords="5,5,191,47"/>
-<area shape="rect" id="node3" href="$d9/d7e/class_gpu_context_specific_next.html#a26935472200b24ae03baea935a4eb48b" title="Map resources with aux plane to aux table." alt="" coords="5,71,191,112"/>
+<area shape="rect" id="node1" title="Insert aux table BOs into specific execute buffer." alt="" coords="467,39,653,80"/>
+<area shape="rect" id="node2" href="$dd/db5/class_gpu_context_specific.html#ad2fa9ee2cb7a73d95a97e21b4dad6fd7" title="Map resources with aux plane to aux table." alt="" coords="233,5,419,47"/>
+<area shape="rect" id="node3" href="$d9/d7e/class_gpu_context_specific_next.html#a26935472200b24ae03baea935a4eb48b" title="Map resources with aux plane to aux table." alt="" coords="233,71,419,112"/>
+<area shape="rect" id="node4" href="$de/d77/class_gpu_context_specific_next_xe.html#a389b89017041d07bf6970d0082560957" title=" " alt="" coords="5,71,185,112"/>
 </map>

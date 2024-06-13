@@ -5,5 +5,5 @@
 <area shape="rect" id="node4" href="$d0/d0e/class_os_context_specific.html#a78c8f9a71739b63e64955406cc892dd0" title="Get the context priority from KMD." alt="" coords="484,136,623,177"/>
 <area shape="rect" id="node7" href="$d9/d7e/class_gpu_context_specific_next.html#ac69df33fe586b2a689d0f2513604fadd" title="Set the Gpu priority for workload scheduling." alt="" coords="471,201,635,243"/>
 <area shape="rect" id="node5" href="$d3/de3/mos__os__specific_8c.html#af4b9cda781b79ef40a81b1bbee3cb42a" title="Set gpu priority to KMD." alt="" coords="227,143,419,170"/>
-<area shape="rect" id="node6" href="$d2/d0a/mos__os__specific_8cpp.html#ab9a27c3a2ae570b34466696ebcc66df9" title="Linux OS initilization." alt="" coords="5,143,179,170"/>
+<area shape="rect" id="node6" href="$d3/de3/mos__os__specific_8c.html#a35448ca45d3a15059766cc09709a4b98" title="Unified OS Initializes OS Linux Interface." alt="" coords="5,143,179,170"/>
 </map>

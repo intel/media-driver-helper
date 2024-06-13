@@ -1,5 +1,6 @@
 <map id="mos_bo_context_exec3" name="mos_bo_context_exec3">
-<area shape="rect" id="node1" title=" " alt="" coords="233,46,393,73"/>
+<area shape="rect" id="node1" title=" " alt="" coords="233,78,393,105"/>
 <area shape="rect" id="node2" href="$dd/db5/class_gpu_context_specific.html#a06da7434200ce4de9775ef3eef6b1eaf" title="Combin cmd buffer for each pipe and use one submission in scalability mode." alt="" coords="5,5,185,47"/>
 <area shape="rect" id="node3" href="$d9/d7e/class_gpu_context_specific_next.html#a5430ec3b4fcf012d4f772676fe3e615d" title="Combin cmd buffer for each pipe and use one submission in scalability mode." alt="" coords="5,71,185,112"/>
+<area shape="rect" id="node4" href="$de/d77/class_gpu_context_specific_next_xe.html#a389b89017041d07bf6970d0082560957" title=" " alt="" coords="5,136,185,177"/>
 </map>

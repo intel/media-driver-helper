@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media_driver_upstream/media-driver/media_driver/linux/common/cp/shared/cp_interfaces.h Source File</title>
+<title>Intel Media Driver Document: C:/Users/xiaoganx/Project/media-driver/media_driver/linux/common/cp/shared/cp_interfaces.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;23.2.4</span>
+   <div id="projectname">Intel Media Driver Document<span id="projectnumber">&#160;24.2.6</span>
    </div>
    <div id="projectbrief">This document is for intel media driver which locate at https://github.com/intel/media-driver.</div>
   </td>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_c78adfcfb6c962d295838f95db76b6ad.html">media_driver_upstream</a></li><li class="navelem"><a class="el" href="../../dir_975c00f71b28c209a4e4e83a9645bb05.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_55776ec83c9d032fd3160e5735bb9eeb.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_71b97772b1880ae754b9c282d2ac7b3e.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_fdadb0a20a244235cd810deb83932914.html">common</a></li><li class="navelem"><a class="el" href="../../dir_4b569c4bf38fe261b7d871de903c0252.html">cp</a></li><li class="navelem"><a class="el" href="../../dir_008a0675f286407da94e6d3a1c7e5bcb.html">shared</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ffd1f789ec7bd0a45fc6ad92579c5070.html">Project</a></li><li class="navelem"><a class="el" href="../../dir_9f344d85c56218b4cc4cd630467c6da2.html">media-driver</a></li><li class="navelem"><a class="el" href="../../dir_cf531a48a76214fcf45a89345f779f1f.html">media_driver</a></li><li class="navelem"><a class="el" href="../../dir_311ea0f377c5de6cdc50ddc6c60874ba.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_3a28a97a34ccf6783c03e0717902dcff.html">common</a></li><li class="navelem"><a class="el" href="../../dir_25c4f59afc344b2a5d675c2c49b9b3cc.html">cp</a></li><li class="navelem"><a class="el" href="../../dir_d784faa70c622ddbbb649de2f2e1150f.html">shared</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -154,11 +154,12 @@ $(function() {
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span> </div>
 <div class="line"><a id="l00202" name="l00202"></a><span class="lineno"><a class="line" href="../../d8/dc0/class_cp_interfaces.html#a66c5a3d4a92ff3960b2418ff22379443">  202</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/dc0/class_cp_interfaces.html#a66c5a3d4a92ff3960b2418ff22379443">Delete_DecodeCpInterface</a>(DecodeCpInterface *pInterface) = 0;</div>
 <div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span> </div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>};</div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span> </div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno"><a class="line" href="../../de/d11/cp__interfaces_8h.html#a570c287643b444b0a8fefb08229bf41f">  206</a></span><span class="keyword">typedef</span> CpFactoryWithoutArgs&lt;CpInterfaces&gt; <a class="code hl_typedef" href="../../de/d11/cp__interfaces_8h.html#a570c287643b444b0a8fefb08229bf41f">CpInterfacesFactory</a>;</div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span><span class="preprocessor">#endif </span><span class="comment">/*  _CP_INTERFACES_H_ */</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    MEDIA_CLASS_DEFINE_END(<a class="code hl_class" href="../../d8/dc0/class_cp_interfaces.html">CpInterfaces</a>)</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>};</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno"><a class="line" href="../../de/d11/cp__interfaces_8h.html#a570c287643b444b0a8fefb08229bf41f">  207</a></span><span class="keyword">typedef</span> CpFactoryWithoutArgs&lt;CpInterfaces&gt; <a class="code hl_typedef" href="../../de/d11/cp__interfaces_8h.html#a570c287643b444b0a8fefb08229bf41f">CpInterfacesFactory</a>;</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span> </div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="preprocessor">#endif </span><span class="comment">/*  _CP_INTERFACES_H_ */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="aclass_cp_interfaces_html"><div class="ttname"><a href="../../d8/dc0/class_cp_interfaces.html">CpInterfaces</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d11/cp__interfaces_8h_source.html#l00054">cp_interfaces.h:55</a></div></div>
 <div class="ttc" id="aclass_cp_interfaces_html_a192162444726577d4783d7216d95fac8"><div class="ttname"><a href="../../d8/dc0/class_cp_interfaces.html#a192162444726577d4783d7216d95fac8">CpInterfaces::Create_SecureDecodeInterface</a></div><div class="ttdeci">virtual CodechalSecureDecodeInterface * Create_SecureDecodeInterface(CodechalSetting *codechalSettings, CodechalHwInterface *hwInterfaceInput)=0</div><div class="ttdoc">Create CodechalSecureDeocde Object Must use Delete_SecureDecodeInterface to delete created Object to ...</div></div>
 <div class="ttc" id="aclass_cp_interfaces_html_a21c7d0f03682562db58db144074bf7e4"><div class="ttname"><a href="../../d8/dc0/class_cp_interfaces.html#a21c7d0f03682562db58db144074bf7e4">CpInterfaces::Delete_DdiCpInterface</a></div><div class="ttdeci">virtual void Delete_DdiCpInterface(DdiCpInterface *pInterface)=0</div><div class="ttdoc">Delete the DdiCpInterface Object.</div></div>
@@ -178,13 +179,13 @@ $(function() {
 <div class="ttc" id="aclass_media_libva_caps_cp_interface_html"><div class="ttname"><a href="../../d7/d40/class_media_libva_caps_cp_interface.html">MediaLibvaCapsCpInterface</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d22/media__libva__caps__cp__interface_8h_source.html#l00033">media_libva_caps_cp_interface.h:34</a></div></div>
 <div class="ttc" id="aclass_media_libva_caps_html"><div class="ttname"><a href="../../d2/d08/class_media_libva_caps.html">MediaLibvaCaps</a></div><div class="ttdoc">Media libva caps.</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dce/media__libva__caps_8h_source.html#l00051">media_libva_caps.h:52</a></div></div>
 <div class="ttc" id="aclass_mos_cp_interface_html"><div class="ttname"><a href="../../da/d2c/class_mos_cp_interface.html">MosCpInterface</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8e/mos__os__cp__interface__specific_8h_source.html#l00042">mos_os_cp_interface_specific.h:43</a></div></div>
-<div class="ttc" id="acp__interfaces_8h_html_a570c287643b444b0a8fefb08229bf41f"><div class="ttname"><a href="../../de/d11/cp__interfaces_8h.html#a570c287643b444b0a8fefb08229bf41f">CpInterfacesFactory</a></div><div class="ttdeci">CpFactoryWithoutArgs&lt; CpInterfaces &gt; CpInterfacesFactory</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d11/cp__interfaces_8h_source.html#l00206">cp_interfaces.h:206</a></div></div>
+<div class="ttc" id="acp__interfaces_8h_html_a570c287643b444b0a8fefb08229bf41f"><div class="ttname"><a href="../../de/d11/cp__interfaces_8h.html#a570c287643b444b0a8fefb08229bf41f">CpInterfacesFactory</a></div><div class="ttdeci">CpFactoryWithoutArgs&lt; CpInterfaces &gt; CpInterfacesFactory</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d11/cp__interfaces_8h_source.html#l00207">cp_interfaces.h:207</a></div></div>
 <div class="ttc" id="amedia__libva__caps__cp__interface_8h_html"><div class="ttname"><a href="../../dd/d22/media__libva__caps__cp__interface_8h.html">media_libva_caps_cp_interface.h</a></div><div class="ttdoc">This file defines the C++ class/interface for encryption related capbilities.</div></div>
 <div class="ttc" id="amedia__libva__cp__interface_8h_html"><div class="ttname"><a href="../../db/df7/media__libva__cp__interface_8h.html">media_libva_cp_interface.h</a></div><div class="ttdoc">This file defines the C++ class/interface for DDI interface of content protection.</div></div>
 <div class="ttc" id="amos__os__cp__interface__specific_8h_html"><div class="ttname"><a href="../../d7/d8e/mos__os__cp__interface__specific_8h.html">mos_os_cp_interface_specific.h</a></div><div class="ttdoc">OS specific implement for CP related functions.</div></div>
 <div class="ttc" id="amos__os__specific_8h_html_a403773434172df7c3ae8e408d090aa91"><div class="ttname"><a href="../../d3/da0/mos__os__specific_8h.html#a403773434172df7c3ae8e408d090aa91">PMOS_INTERFACE</a></div><div class="ttdeci">struct _MOS_INTERFACE * PMOS_INTERFACE</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00269">mos_os_specific.h:269</a></div></div>
-<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html">_MOS_OS_CONTEXT</a></div><div class="ttdoc">Structure to OS context.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00645">mos_os_specific.h:646</a></div></div>
-<div class="ttc" id="astruct_d_d_i___m_e_d_i_a___c_o_n_t_e_x_t_html"><div class="ttname"><a href="../../dc/d3c/struct_d_d_i___m_e_d_i_a___c_o_n_t_e_x_t.html">DDI_MEDIA_CONTEXT</a></div><div class="ttdoc">Media heap for shared internal structures.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d42/ddi__media__context_8h_source.html#l00038">ddi_media_context.h:39</a></div></div>
+<div class="ttc" id="astruct___m_o_s___o_s___c_o_n_t_e_x_t_html"><div class="ttname"><a href="../../d2/da6/struct___m_o_s___o_s___c_o_n_t_e_x_t.html">_MOS_OS_CONTEXT</a></div><div class="ttdoc">Structure to OS context.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/mos__os__specific_8h_source.html#l00649">mos_os_specific.h:650</a></div></div>
+<div class="ttc" id="astruct_d_d_i___m_e_d_i_a___c_o_n_t_e_x_t_html"><div class="ttname"><a href="../../dc/d3c/struct_d_d_i___m_e_d_i_a___c_o_n_t_e_x_t.html">DDI_MEDIA_CONTEXT</a></div><div class="ttdoc">Ddi media context.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d42/ddi__media__context_8h_source.html#l00038">ddi_media_context.h:39</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
